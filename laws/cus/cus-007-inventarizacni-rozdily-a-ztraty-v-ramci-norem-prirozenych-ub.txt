@@ -1,0 +1,115 @@
+ZÁKON: ČÚS č. 007
+NAZEV: Český účetní standard pro podnikatele č. 007 – Inventarizační rozdíly a ztráty v rámci norem přirozených úbytků zásob
+URL: https://www.mfcr.cz/assets/cs/media/Ucetnictvi_2018_Ceske-ucetni-standardy-pro-500-2002_v02.pdf
+
+Inventarizační rozdíly a ztráty v rámci norem přirozených úbytků zásob 
+ 
+ 
+1. Cíl 
+     Cílem tohoto standardu je stanovit podle zákona č. 563/1991 Sb., o účetnictví, ve znění 
+pozdějších předpisů, (dále jen „zákon“) a vyhlášky č. 500/2002 Sb., kterou se provádějí 
+některá ustanovení zákona č. 563/1991 Sb., o účetnictví, ve znění pozdějších předpisů, pro 
+účetní jednotky, které jsou podnikateli účtujícími v soustavě podvojného účetnictví, ve znění 
+pozdějších předpisů, (dále jen „vyhláška“) základní postupy účtování o inventarizačních 
+rozdílech a ztrátách v rámci norem přirozených úbytků zásob za účelem docílení souladu při 
+používání účetních metod účetními jednotkami.  
+ 
+2. Obsahové vymezení 
+2.1. Inventarizační rozdíl je stanoven § 30 odst. 10 zákona. 
+2.2. Mankem nejsou technologické a technické ztráty vznikající například rozprachem, 
+vyschnutím v rámci technologických úbytků ve výrobním, zásobovacím a odbytovém 
+procesu. Jedná se o ztráty v rámci norem přirozených úbytků zásob.  
+2.3.  Inventarizační rozdíl podle § 30 odst. 10 písm. a) zákona (tj. manko nebo schodek) se 
+dále posuzuje zejména podle příslušných ustanovení občanského zákoníku, zákona o 
+obchodních korporacích a zákoníku práce.  
+2.4.  Inventarizační rozdíl podle § 30 odst. 10 písm. b) zákona (tj. přebytek) se dále posuzuje 
+mimo jiné podle příslušných ustanovení občanského zákoníku.  
+ 
+3. Postup účtování 
+3.1.  Rozdíly podle bodu 2.1. se účtují na vrub příslušného účtu jiných provozních nákladů 
+nebo ve prospěch příslušného účtu jiných provozních výnosů nebo na vrub příslušného 
+účtu finančních nákladů nebo ve prospěch příslušného účtu finančních výnosů s 
+výjimkou  
+a) chybějících cenných papírů; pokud ze zvláštního právního předpisu vyplývá, že je 
+nutno zahájit umořovací řízení, pak jsou tyto cenné papíry vedeny na odděleném 
+analytickém účtu „Cenné papíry v umořovacím řízení“,  
+b) přebytku odpisovaného dlouhodobého nehmotného a hmotného majetku účtovaného 
+podle bodu 3.5. písm. b) a přebytku neodpisovaného dlouhodobého hmotného 
+majetku účtovaného podle bodu 3.6. písm. b),  
+c) přebytku nakoupených zásob, pokud se má oprávněně za to, že k němu došlo 
+chybným účtováním při jejich vyskladnění; účtuje se ve prospěch příslušných účtů 
+účtové skupiny 50 - Spotřebované nákupy;  
+d) přebytků u zásob vlastní činnosti včetně zvířat, které se účtují na příslušné účty 
+změny stavu vnitropodnikových zásob.  
+3.2.  Účtování o zásobách způsobem A (viz Český účetní standard pro podnikatele č. 015 
+Zásoby)  
+3.2.1.  Nákupy od jiných subjektů 
+Při uzavírání účetních knih se inventarizační rozdíly a ztráty v rámci norem 
+přirozených úbytků zásob zaúčtují  
+a) na vrub příslušných účtů účtové skupiny 50 – Spotřebované nákupy, jde-li o ztráty 
+v rámci norem přirozených úbytků zásob,  
+b) na vrub příslušného účtu účtové skupiny 54 – Jiné provozní náklady v případě 
+mank a  
+c) u přebytků zásob ve prospěch příslušného účtu účtové skupiny 64 – Jiné provozní 
+ 
+16 
+výnosy, popřípadě (viz bod 3.1. písm. c)) ve prospěch příslušných účtů účtové 
+skupiny 50 – Spotřebované nákupy.  
+3.2.2.   Zásoby vlastní činnosti 
+Při uzavírání účetních knih se inventarizační rozdíly a ztráty v rámci norem 
+přirozených úbytků zásob zaúčtují  
+a) na vrub příslušných účtů účtové skupiny 58 – Změna stavu zásob vlastní činnosti a 
+aktivace, jde-li o ztráty v rámci norem přirozených úbytků zásob,  
+b) na vrub příslušného účtu účtové skupiny 54 – Jiné provozní náklady v případě 
+mank a  
+c) u přebytků zásob ve prospěch příslušných účtů účtové skupiny 58 – Změna stavu 
+zásob vlastní činnosti a aktivace.  
+3.3.  Účtování o zásobách způsobem B (viz Český účetní standard pro podnikatele č. 015 
+Zásoby)  
+3.3.1.   Nákupy od jiných subjektů  
+            Při uzavírání účetních knih se  
+a) inventarizační rozdíly v případě, že se jedná o manka, zaúčtují na vrub příslušného 
+účtu účtové skupiny 54 – Jiné provozní náklady a ve prospěch příslušného účtu 
+zásob,  
+b) přebytky zásob zaúčtují ve prospěch příslušného účtu účtové skupiny 64 - Jiné 
+provozní výnosy, popřípadě (viz bod 3.1. písm. c)) ve prospěch příslušných účtů 
+účtové skupiny 50 - Spotřebované nákupy a na vrub příslušného účtu zásob. 
+3.3.2.   Zásoby vlastní činnosti  
+ 
+Při uzavírání účetních knih se  
+a) manka zaúčtují na vrub příslušného účtu účtové skupiny 54 – Jiné provozní 
+náklady,  
+b) přebytky zásob zaúčtují ve prospěch příslušného účtu účtové skupiny 58 – Změna 
+stavu zásob vlastní činnosti a aktivace.  
+3.4.  Manka a přebytky zásob lze vzájemně vyrovnávat pouze tehdy, jedná-li se o manka a 
+přebytky zásob, které vznikly ve stejném inventarizačním období prokazatelně 
+neúmyslnou záměnou jednotlivých druhů, u kterých je tato záměna možná vzhledem k 
+charakteru druhů zásob. Převyšuje-li po tomto vyrovnání částka mank částku přebytků, 
+je třeba rozdíl posuzovat jako výsledné manko; převyšuje-li částka přebytků částku 
+mank, posuzuje se rozdíl jako výsledný přebytek.  
+3.5.  Při uzavírání účetních knih se zaúčtují inventarizační rozdíly dlouhodobého majetku 
+odpisovaného takto:  
+a) v případě, že se jedná o manka, zůstatková cena majetku se zaúčtuje na vrub 
+příslušného účtu účtové skupiny 54 – Jiné provozní náklady a ve prospěch 
+příslušných účtů účtových skupin 07 – Oprávky k dlouhodobému nehmotnému 
+majetku nebo 08  – Oprávky k dlouhodobému hmotnému majetku; majetek se vyřadí,  
+b) v případě, že se jedná o přebytek, zaúčtuje se inventarizační rozdíl na vrub 
+příslušných účtů účtových skupin 01 – Dlouhodobý nehmotný majetek nebo 02 –
+Dlouhodobý hmotný majetek odpisovaný a ve prospěch příslušných účtů účtových 
+skupin 07 – Oprávky k dlouhodobému nehmotnému majetku nebo 08 – Oprávky k 
+dlouhodobému hmotnému majetku.  
+3.6.  Při uzavírání účetních knih se zaúčtují inventarizační rozdíly dlouhodobého majetku   
+neodpisovaného takto:  
+a) v případě, že se jedná o manko, vyřazovaný majetek se zaúčtuje na vrub příslušného 
+účtu účtové skupiny 54 – Jiné provozní náklady a ve prospěch příslušného účtu 
+účtové skupiny 03  – Dlouhodobý hmotný majetek neodpisovaný; majetek se vyřadí,  
+b) v případě, že se jedná o přebytek, zaúčtuje se inventarizační rozdíl na vrub 
+ 
+17 
+příslušného účtu účtové skupiny 03 – Dlouhodobý majetek neodpisovaný a ve 
+prospěch příslušného účtu účtové skupiny 41 – Základní kapitál a kapitálové fondy.  
+3.7.  Pohledávka za odpovědnou osobou z titulu náhrady manka se zaúčtuje souvztažně ve 
+prospěch příslušného účtu účtové skupiny 64 – Jiné provozní výnosy.  
+ 
+ 
+18

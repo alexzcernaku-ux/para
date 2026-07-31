@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Kontrola dokladu — Para</title>
+<link rel="icon" href="assets/img/logo/logo-mark.png" />
+<link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+
+<div class="app-loading" id="page-loading">
+  <img src="assets/img/mascot/mascot-kontroluje.png" alt="" />
+  Chvilku strpení…
+</div>
+
+<div class="hidden" id="page-shell">
+  <div class="app-topbar" style="padding: 16px 28px;">
+    <a href="app.html" style="display:flex; align-items:center; gap:10px; text-decoration:none;">
+      <img src="assets/img/logo/logo-primary-light.png" alt="Para" style="height:26px" />
+    </a>
+    <div style="display:flex; align-items:center; gap:16px;">
+      <a href="app.html" class="btn btn-secondary">← Zpět do chatu</a>
+      <button type="button" class="app-signout-btn" id="signout-btn">Odhlásit se</button>
+    </div>
+  </div>
+
+  <div class="kd-shell">
+    <div class="kd-head">
+      <img src="assets/img/mascot/mascot-kontroluje.png" alt="Para kontroluje doklad" class="mascot-img" />
+      <span class="eyebrow" style="justify-content:center; display:flex;">Kontrola dokladu</span>
+      <h1 style="margin: 10px 0 4px;">Má tahle faktura všechny náležitosti?</h1>
+      <p>Nahrajte fotku nebo PDF dokladu — porovnáme ho s náležitostmi podle § 29 zákona o DPH.</p>
+    </div>
+
+    <div class="disclaimer-banner" style="margin-bottom: 28px;">
+      <div class="icon-circle">
+        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 9v4M12 17h.01" /><path d="M10.3 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.7 3.86a2 2 0 00-3.4 0z" /></svg>
+      </div>
+      <div>
+        <h3>Kontrola formy, ne právní posouzení</h3>
+        <p>Para popíše, jestli doklad obsahuje formální náležitosti podle zákona — neposuzuje, jestli je doklad jako celek v pořádku po obsahové/účetní stránce. U důležitých případů se poraďte s účetním.</p>
+      </div>
+    </div>
+
+    <div class="card" style="padding: 32px;">
+      <div class="kd-dropzone" id="dropzone">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 16V4M12 4L7 9M12 4l5 5" /><path d="M5 16v2a2 2 0 002 2h10a2 2 0 002-2v-2" /></svg>
+        <p>Klikněte nebo přetáhněte fotku či PDF faktury</p>
+        <p class="hint">JPG, PNG nebo PDF, max. 9 MB</p>
+        <input type="file" id="file-input" accept="image/jpeg,image/png,image/webp,application/pdf" />
+      </div>
+
+      <div class="kd-preview hidden" id="preview-row">
+        <img id="preview-img" class="hidden" alt="Náhled dokladu" />
+        <div id="preview-file-icon" class="kd-file-icon hidden">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2h9l5 5v13a2 2 0 01-2 2H6a2 2 0 01-2-2V4a2 2 0 012-2z" /><path d="M15 2v5h5" /></svg>
+        </div>
+        <div class="kd-preview-name" id="preview-name"></div>
+        <button type="button" class="kd-preview-remove" id="preview-remove" aria-label="Odebrat soubor">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18" /></svg>
+        </button>
+      </div>
+
+      <div class="kd-submit-row">
+        <button type="button" class="btn btn-primary btn-lg btn-block" id="check-btn" disabled>Zkontrolovat doklad</button>
+      </div>
+
+      <div class="kd-error hidden" id="error-box"></div>
+
+      <div class="kd-results hidden" id="results"></div>
+    </div>
+  </div>
+</div>
+
+<script>
+  window.PARA_CONFIG = {
+    endpoint: "https://fibytymnzgluyxxszria.supabase.co/functions/v1/zakon-query",
+    anonKey: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImZpYnl0eW1uemdsdXl4eHN6cmlhIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODU0MzM4ODgsImV4cCI6MjEwMTAwOTg4OH0.hFEzCTPZEGpQaQguytnu8Hyz6z9j6P5M1E17l2WfGdE",
+    kontrolaDokladuEndpoint: "https://fibytymnzgluyxxszria.supabase.co/functions/v1/kontrola-dokladu",
+    supabaseUrl: "https://fibytymnzgluyxxszria.supabase.co",
+    supabaseAnonKey: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImZpYnl0eW1uemdsdXl4eHN6cmlhIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODU0MzM4ODgsImV4cCI6MjEwMTAwOTg4OH0.hFEzCTPZEGpQaQguytnu8Hyz6z9j6P5M1E17l2WfGdE",
+  };
+</script>
+<script type="module">
+  import { requireOnboardedProfile, signOut } from "./assets/js/supabase-client.js";
+
+  const cfg = window.PARA_CONFIG || {};
+  const ENDPOINT = cfg.kontrolaDokladuEndpoint;
+  const ANON_KEY = cfg.anonKey || "";
+  const MAX_FILE_BYTES = 9 * 1024 * 1024;
+
+  const loadingEl = document.getElementById("page-loading");
+  const shellEl = document.getElementById("page-shell");
+  const signoutBtn = document.getElementById("signout-btn");
+
+  const dropzone = document.getElementById("dropzone");
+  const fileInput = document.getElementById("file-input");
+  const previewRow = document.getElementById("preview-row");
+  const previewImg = document.getElementById("preview-img");
+  const previewFileIcon = document.getElementById("preview-file-icon");
+  const previewName = document.getElementById("preview-name");
+  const previewRemove = document.getElementById("preview-remove");
+  const checkBtn = document.getElementById("check-btn");
+  const errorBox = document.getElementById("error-box");
+  const resultsEl = document.getElementById("results");
+
+  let selectedFile = null;
+
+  signoutBtn.addEventListener("click", () => signOut());
+
+  (async () => {
+    const result = await requireOnboardedProfile();
+    if (!result) return;
+    loadingEl.classList.add("hidden");
+    shellEl.classList.remove("hidden");
+  })();
+
+  function showError(msg) {
+    errorBox.textContent = msg;
+    errorBox.classList.remove("hidden");
+  }
+  function hideError() {
+    errorBox.classList.add("hidden");
+  }
+
+  function setFile(file) {
+    hideError();
+    resultsEl.classList.add("hidden");
+    resultsEl.innerHTML = "";
+
+    if (!file) return;
+    if (!["image/jpeg", "image/png", "image/webp", "application/pdf"].includes(file.type)) {
+      showError("Nepodporovaný formát — nahrajte prosím JPG, PNG nebo PDF.");
+      return;
+    }
+    if (file.size > MAX_FILE_BYTES) {
+      showError("Soubor je moc velký (limit 9 MB).");
+      return;
+    }
+
+    selectedFile = file;
+    previewRow.classList.remove("hidden");
+    previewName.textContent = file.name;
+    checkBtn.disabled = false;
+
+    if (file.type === "application/pdf") {
+      previewImg.classList.add("hidden");
+      previewFileIcon.classList.remove("hidden");
+    } else {
+      previewFileIcon.classList.add("hidden");
+      previewImg.classList.remove("hidden");
+      const reader = new FileReader();
+      reader.onload = (e) => (previewImg.src = e.target.result);
+      reader.readAsDataURL(file);
+    }
+  }
+
+  dropzone.addEventListener("click", () => fileInput.click());
+  fileInput.addEventListener("change", () => setFile(fileInput.files[0]));
+
+  ["dragenter", "dragover"].forEach((evt) =>
+    dropzone.addEventListener(evt, (e) => {
+      e.preventDefault();
+      dropzone.classList.add("dragover");
+    })
+  );
+  ["dragleave", "drop"].forEach((evt) =>
+    dropzone.addEventListener(evt, (e) => {
+      e.preventDefault();
+      dropzone.classList.remove("dragover");
+    })
+  );
+  dropzone.addEventListener("drop", (e) => {
+    const file = e.dataTransfer.files[0];
+    if (file) setFile(file);
+  });
+
+  previewRemove.addEventListener("click", () => {
+    selectedFile = null;
+    fileInput.value = "";
+    previewRow.classList.add("hidden");
+    checkBtn.disabled = true;
+    resultsEl.classList.add("hidden");
+    resultsEl.innerHTML = "";
+  });
+
+  function fileToBase64(file) {
+    return new Promise((resolve, reject) => {
+      const reader = new FileReader();
+      reader.onload = () => {
+        // dataURL má tvar "data:image/png;base64,AAAA..." — chceme jen část za čárkou.
+        const base64 = reader.result.split(",")[1];
+        resolve(base64);
+      };
+      reader.onerror = reject;
+      reader.readAsDataURL(file);
+    });
+  }
+
+  const ICONS = {
+    ano: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5" /></svg>',
+    chybi: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18" /></svg>',
+    nejiste: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9.09 9a3 3 0 015.83 1c0 2-3 2-3 4" /><path d="M12 17h.01" /></svg>',
+  };
+  const DOC_TYPE_LABEL = { plny: "Plný daňový doklad", zjednoduseny: "Zjednodušený daňový doklad (do 10 000 Kč)", nejisty: "Typ dokladu se nepodařilo určit" };
+
+  function renderResults(data) {
+    const hasIssues = (data.polozky || []).some((p) => p.stav !== "ano");
+    const summaryClass = hasIssues ? "issues" : "ok";
+
+    let html = `
+      <div class="kd-result-summary ${summaryClass}">
+        <div>
+          <div class="kd-doc-type">${DOC_TYPE_LABEL[data.typDokladu] || "Doklad"}${data.celkovaCastka ? " · " + data.celkovaCastka : ""}</div>
+          <p>${data.shrnuti || ""}</p>
+        </div>
+      </div>
+      <div class="kd-checklist">`;
+
+    for (const item of data.polozky || []) {
+      html += `
+        <div class="kd-check-item ${item.stav}">
+          <div class="kd-check-icon">${ICONS[item.stav] || ""}</div>
+          <div class="kd-check-body">
+            <div class="kd-check-title">${item.popis}</div>
+            ${item.poznamka ? `<div class="kd-check-note">${item.poznamka}</div>` : ""}
+            ${item.paragraf ? `<div class="kd-check-para">${item.paragraf}</div>` : ""}
+          </div>
+        </div>`;
+    }
+    html += "</div>";
+    resultsEl.innerHTML = html;
+    resultsEl.classList.remove("hidden");
+    resultsEl.scrollIntoView({ behavior: "smooth", block: "nearest" });
+  }
+
+  checkBtn.addEventListener("click", async () => {
+    if (!selectedFile) return;
+    hideError();
+    resultsEl.classList.add("hidden");
+    checkBtn.disabled = true;
+    checkBtn.textContent = "Kontroluji…";
+
+    try {
+      const base64 = await fileToBase64(selectedFile);
+      const res = await fetch(ENDPOINT, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          ...(ANON_KEY ? { Authorization: `Bearer ${ANON_KEY}` } : {}),
+        },
+        body: JSON.stringify({ image: base64, mediaType: selectedFile.type }),
+      });
+      const data = await res.json();
+      if (!res.ok || data.error) throw new Error(data.error || `Server odpověděl chybou (${res.status}).`);
+      renderResults(data);
+    } catch (err) {
+      showError(`Kontrolu se nepodařilo dokončit (${err.message}). Zkuste to prosím znovu.`);
+    } finally {
+      checkBtn.disabled = false;
+      checkBtn.textContent = "Zkontrolovat doklad";
+    }
+  });
+</script>
+
+</body>
+</html>

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Přihlášení — Para</title>
+<meta name="description" content="Přihlaste se do Para e-mailem, bez hesla. Odkaz na přihlášení vám pošleme na e-mail." />
+<link rel="icon" href="assets/img/logo/logo-mark.png" />
+<link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+
+<div class="auth-shell">
+  <div class="auth-topbar">
+    <a href="index.html" aria-label="Para — domů">
+      <img src="assets/img/logo/logo-primary-light.png" alt="Para" />
+    </a>
+  </div>
+
+  <div class="auth-main">
+    <div class="card auth-card" id="auth-card">
+      <div id="auth-form-state">
+        <img src="assets/img/mascot/mascot-vita.png" alt="Para vás vítá" class="mascot-img" />
+        <h1>Přihlášení</h1>
+        <p>Zadejte e-mail a pošleme vám přihlašovací odkaz. Pokud u nás ještě nemáte účet, založíme vám ho automaticky.</p>
+        <form id="login-form">
+          <input type="email" id="login-email" class="text-input" placeholder="vas@email.cz" required aria-label="E-mail" />
+          <button type="submit" class="btn btn-primary btn-block" id="login-submit">Poslat přihlašovací odkaz</button>
+        </form>
+        <p class="form-hint">Žádné heslo — jen odkaz platný pro jedno přihlášení.</p>
+      </div>
+
+      <div id="auth-success-state" class="hidden">
+        <img src="assets/img/mascot/mascot-ma-vas-rad.png" alt="" class="mascot-img" />
+        <h1>Zkontrolujte e-mail</h1>
+        <p>Poslali jsme přihlašovací odkaz na <strong id="sent-to-email"></strong>. Klikněte na něj a budete přihlášeni.</p>
+        <p class="form-hint">Nic nepřišlo? Zkontrolujte spam, nebo to zkuste znovu za chvíli.</p>
+      </div>
+
+      <div class="auth-footer-link">
+        <a href="index.html">← Zpět na hlavní stránku</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  window.PARA_CONFIG = {
+    endpoint: "https://fibytymnzgluyxxszria.supabase.co/functions/v1/zakon-query",
+    anonKey: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImZpYnl0eW1uemdsdXl4eHN6cmlhIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODU0MzM4ODgsImV4cCI6MjEwMTAwOTg4OH0.hFEzCTPZEGpQaQguytnu8Hyz6z9j6P5M1E17l2WfGdE",
+    // TODO: doplnit reálné Supabase URL/anon key (Project Settings → API)
+    supabaseUrl: "https://fibytymnzgluyxxszria.supabase.co",
+    supabaseAnonKey: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImZpYnl0eW1uemdsdXl4eHN6cmlhIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODU0MzM4ODgsImV4cCI6MjEwMTAwOTg4OH0.hFEzCTPZEGpQaQguytnu8Hyz6z9j6P5M1E17l2WfGdE",
+  };
+</script>
+<script type="module">
+  import { sendMagicLink, getSession, APP_PAGE } from "./assets/js/supabase-client.js";
+
+  const formState = document.getElementById("auth-form-state");
+  const successState = document.getElementById("auth-success-state");
+  const form = document.getElementById("login-form");
+  const emailInput = document.getElementById("login-email");
+  const submitBtn = document.getElementById("login-submit");
+  const sentToEl = document.getElementById("sent-to-email");
+
+  // Už přihlášený uživatel sem nemá co dělat — pošli ho rovnou do appky
+  // (requireOnboardedProfile na app.html ho případně přesměruje dál na onboarding).
+  getSession().then((session) => {
+    if (session) window.location.href = APP_PAGE;
+  }).catch(() => {});
+
+  function removeError() {
+    const existing = form.querySelector(".form-error");
+    if (existing) existing.remove();
+  }
+  function showError(message) {
+    removeError();
+    const p = document.createElement("p");
+    p.className = "form-error";
+    p.textContent = message;
+    form.appendChild(p);
+  }
+
+  form.addEventListener("submit", async (e) => {
+    e.preventDefault();
+    removeError();
+    const email = emailInput.value.trim();
+    if (!email) return;
+
+    submitBtn.disabled = true;
+    submitBtn.textContent = "Odesílám…";
+
+    try {
+      const redirectTo = `${window.location.origin}${window.location.pathname.replace(/prihlaseni\.html$/, "")}app.html`;
+      await sendMagicLink(email, redirectTo);
+      sentToEl.textContent = email;
+      formState.classList.add("hidden");
+      successState.classList.remove("hidden");
+    } catch (err) {
+      showError(`Nepodařilo se odeslat odkaz (${err.message}). Zkuste to prosím znovu.`);
+    } finally {
+      submitBtn.disabled = false;
+      submitBtn.textContent = "Poslat přihlašovací odkaz";
+    }
+  });
+</script>
+
+</body>
+</html>

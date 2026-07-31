@@ -1,0 +1,150 @@
+ZÁKON: ČÚS č. 015
+NAZEV: Český účetní standard pro podnikatele č. 015 – Zásoby
+URL: https://www.mfcr.cz/assets/cs/media/Ucetnictvi_2018_Ceske-ucetni-standardy-pro-500-2002_v02.pdf
+
+Zásoby 
+ 
+1. Cíl 
+     Cílem tohoto standardu je stanovit podle zákona č. 563/1991 Sb., o účetnictví, ve znění 
+pozdějších předpisů, (dále jen „zákon“) a vyhlášky č. 500/2002 Sb., kterou se provádějí 
+některá ustanovení zákona č. 563/1991 Sb., o účetnictví, ve znění pozdějších předpisů, pro 
+účetní jednotky, které jsou podnikateli účtujícími v soustavě podvojného účetnictví, ve znění 
+pozdějších předpisů, (dále jen „vyhláška“) základní postupy účtování o zásobách za účelem 
+docílení souladu při používání účetních metod účetními jednotkami v položkách  
+C.I. Zásoby  
+C.I.1. Materiál  
+       2. Nedokončená výroba a polotovary  
+       3. Výrobky a zboží  
+       3.1. Výrobky 
+       3.2. Zboží 
+       4. Mladá a ostatní zvířata a jejich skupiny  
+       5. Poskytnuté zálohy na zásoby  
+vykazovaných za podmínek stanovených v § 3, 3a a 4 vyhlášky.  
+ 
+2. Obsahové vymezení 
+     Pro účely tohoto standardu se využívá obsahové vymezení zásob uvedené v § 9 vyhlášky.  
+ 
+3. Oceňování 
+3.1.   Zásoby se oceňují podle § 25 zákona a § 49 vyhlášky.  
+3.2.   zrušen  
+3.3.  Pořizovací cenu zásob lze rozdělit na cenu pořízení nebo na předem stanovenou cenu  
+pořízení a odchylku od skutečné ceny pořízení a náklady s pořízením související. Při 
+vyskladnění zásob se tyto náklady, popřípadě odchylky rozpouštějí způsobem 
+stanoveným vnitřním předpisem účetní jednotky.  
+3.4.   zrušen  
+3.5.   zrušen 
+3.6.   zrušen  
+3.7.  Nakoupená zvířata se oceňují pořizovací cenou, zvířata vlastního odchovu (příchovky) 
+vlastními náklady nebo reprodukční pořizovací cenou v případech, kdy vlastní náklady 
+nelze zjistit. Přírůstky zvířat se oceňují vlastními náklady. 
+  
+4. Postup účtování 
+4.1.  O zásobách se účtuje průběžně způsobem A nebo periodicky způsobem B. Účetní 
+jednotka může zaúčtovat zásoby způsobem A i způsobem B. Při účtování podle míst 
+uskladnění (odpovědných osob) však může být uplatněn pouze jeden z uvedených 
+způsobů.  
+4.2.   Způsob A 
+4.2.1.   Nákupy od jiných subjektů a aktivace materiálu, služeb a zboží  
+V průběhu účetního období se složky pořizovací ceny nakupovaných zásob zaúčtují na  
+vrub příslušného účtu pořízení materiálu účtové skupiny 11 – Materiál nebo na vrub 
+příslušného účtu pořízení zboží účtové skupiny 13 – Zboží se souvztažným zápisem ve 
+prospěch příslušného účtu účtové třídy 2 nebo 3. Vnitropodnikové služby, které 
+souvisí s přepravou dodávek zásob se aktivují. Aktivace materiálu, služeb a zboží se 
+účtuje na vrub příslušných účtů zásob a souvztažně ve prospěch příslušného účtu 
+ 
+40 
+účtové skupiny 58 – Změna stavu zásob vlastní činnosti a aktivace. Převzetí materiálu 
+a zboží na sklad se zaúčtuje (v pořizovacích cenách u nákupů a ve vlastních nákladech 
+u zásob vlastní činnosti) na vrub účtu určeného ke sledování materiálu na skladě 
+účtové skupiny 11 – Materiál nebo na vrub účtu určeného ke sledování zboží na 
+skladě a v prodejnách účtové skupiny 13 – Zboží a ve prospěch příslušného účtu 
+pořízení materiálu nebo ve prospěch příslušného účtu pořízení zboží. Spotřeba 
+materiálu a prodej zboží se účtují běžně na vrub příslušných účtů účtové skupiny 50 – 
+Spotřebované nákupy a u prodeje materiálu na vrub příslušného účtu určeného ke 
+sledování prodaného materiálu účtové skupiny 54 – Jiné provozní náklady.  
+4.2.2.   Zásoby vlastní činnosti 
+ 
+V průběhu účetního období se přírůstky zásob oceněné vlastními náklady zaúčtují na 
+vrub příslušného účtu účtové skupiny 12 – Zásoby vlastní činnosti se souvztažným 
+zápisem ve prospěch příslušných účtů účtové skupiny 58 – Změna stavu zásob vlastní 
+činnosti a aktivace. Při vyskladnění zásob se účtuje na vrub příslušných účtů účtové 
+skupiny 58 – Změna stavu zásob vlastní činnosti a aktivace a ve prospěch příslušného 
+účtů účtové skupiny 12 – Zásoby vlastní činnosti.  
+4.2.3.  Nákupy materiálu lze účtovat přímo na účet určený ke sledování materiálu na skladě 
+účtové skupiny 11 - Materiál, nákupy zvířat na příslušný účet účtové skupiny 12 – 
+Zásoby vlastní činnosti a nákupy zboží na příslušný účet určený ke sledování zboží na 
+skladě a v prodejnách účtové skupiny 13 –  Zboží.  
+4.3.   Způsob B  
+4.3.1.  Nákupy od jiných subjektů a aktivace materiálu, služeb a zboží  
+a) v průběhu účetního období se složky pořizovací ceny nakupovaných zásob účtují 
+na vrub příslušných účtů účtové skupiny 50 – Spotřebované nákupy se 
+souvztažným zápisem na příslušných účtech účtové třídy 2 nebo 3; 
+vnitropodnikové služby, které souvisejí s přepravou dodávek zásob, se aktivují; 
+aktivace materiálu, služeb a zboží se účtuje na vrub příslušných účtů účtové 
+skupiny 50 – Spotřebované nákupy souvztažně s příslušným účtem účtové skupiny 
+58 – Změna stavu zásob vlastní činnosti a aktivace,  
+b) při uzavírání účetních knih se počáteční stavy příslušných účtů účtových skupin 11 
+– Materiál a 13 – Zboží převedou na vrub příslušných účtů spotřeby materiálu a 
+prodaného zboží účtové skupiny 50 – Spotřebované nákupy; stav zásob podle 
+evidence o zásobách se zaúčtuje na vrub příslušného účtu určeného ke sledování 
+materiálu na skladě účtové skupiny 11 – Materiál nebo na vrub příslušného účtu 
+určeného ke sledování zboží na skladě a v prodejnách účtové skupiny 13 - Zboží 
+souvztažně s příslušným účtem účtové skupiny 50  –  Spotřebované nákupy.  
+4.3.2.   Zásoby vlastní činnosti  
+a) v průběhu účetního období se v účtové skupině 12 – Zásoby vlastní činnosti 
+neprovádí žádné účetní zápisy a vynaložené náklady na výrobu či jinou činnost se 
+běžně účtují na příslušných účtech účtové třídy 5,  
+b) při uzavírání účetních knih se počáteční stavy zásob zaúčtované na příslušných 
+účtech účtové skupiny 12 – Zásoby vlastní činnosti převedou na vrub příslušných 
+účtů účtové skupiny 58 – Změna stavu zásob vlastní činnosti a aktivace. Stav 
+zásob podle inventarizace se zaúčtuje na vrub příslušných účtů účtové skupiny 12 
+– Zásoby vlastní činnosti souvztažně s příslušným účtem účtové skupiny 58 – 
+Změna stavu zásob vlastní činnosti a aktivace.  
+4.3.3.  zrušen 
+4.4. Společná ustanovení ke způsobu účtování A a B  
+4.4.1.  Při uzavírání účetních knih se u obou způsobů účtování zásob účtuje o zásobách na 
+cestě na vrub příslušného účtu účtových skupin 11 – Materiál nebo 13 – Zboží. 
+ 
+41 
+Zásobami na cestě se rozumí vyúčtování (například faktury) za dodání zásob, které 
+účetní jednotka ještě nepřevzala. Nevyfakturované dodávky se účtují ve prospěch 
+dohadných účtů pasivních účtové skupiny 38 – Přechodné účty aktiv a pasiv.  
+4.4.2.  Renovace náhradních dílů a úprava zásob prováděná ve vlastní režii se vyúčtuje jako 
+aktivace a náklady na renovaci a úpravu jsou složkou ocenění náhradních dílů a zásob 
+na skladě.  
+4.4.3. Převod zásob vlastní činnosti do vlastních prodejen a převod zvířat vlastního chovu, 
+která dospěla a jsou určena k prodeji s výjimkou jatečných zvířat, se zaúčtuje 
+prostřednictvím příslušného účtu účtové skupiny 58 – Změna stavu zásob vlastní 
+činnosti a aktivace.  
+4.4.4. Účetní jednotka může stanovit svým předpisem vždy pro příslušné účetní období normy 
+přirozených úbytků zásob a též rozhodne o druzích materiálu, o kterých účtuje přímo 
+do spotřeby, tj. bez zaúčtování na sklad, vždy však se zřetelem k tomu, že spotřeba 
+materiálu vykázaná v účetní závěrce musí odpovídat skutečné spotřebě materiálu.  
+4.4.5.  zrušen  
+4.4.6.  Opravné položky k zásobám se tvoří a používají podle Českého účetního standardu pro 
+podnikatele č. 005 Opravné položky.  
+4.4.7.  Při uzavírání účetních knih se inventarizační rozdíly zaúčtují postupem uvedeným v 
+Českém účetním standardu pro podnikatele č. 007 Inventarizační rozdíly a ztráty v 
+rámci norem přirozených úbytků zásob.  
+ 
+5.  Analytické a podrozvahové účty 
+5.1.  Analytické účty se vedou podle Českého účetního standardu pro podnikatele č. 001 Účty 
+a zásady účtování na účtech.  
+5.2.  Účty v účtových skupinách 11 – Materiál, 12 – Zásoby vlastní činnosti, 13 –  Zboží, 15 – 
+Poskytnuté zálohy na zásoby a 19 – Opravné položky k zásobám se stanoví tak, aby 
+účetní jednotka byla schopna sestavit rozvahu v příslušném členění předepsaném 
+vyhláškou.  
+5.3.  Analytické účty se vedou se zohledněním předmětu činnosti účetní jednotky podle druhů 
+či skupin zásob v evidenci o zásobách (u zásob zboží v maloobchodní činnosti aspoň 
+podle hmotně odpovědných osob či podle míst uložení).  
+5.4.  Analytické účty jednotlivých druhů či skupin zásob slouží k jejich identifikaci; obsahují 
+zejména označení, datum pořízení, datum vyskladnění, ocenění, údaje o množství.  
+5.5.  O zásobách daných ke zpracování nebo skladování jiné účetní jednotce či zapůjčených 
+mimo účetní jednotku musí být účtováno na analytických účtech s uvedením místa 
+uložení.  
+5.6.  O zásobách předaných účetní jednotce ke zpracování nebo skladování, vypůjčených a 
+došlých organizaci omylem se účtuje na podrozvahových účtech s uvedením druhu 
+zásob a jejich ocenění.  
+ 
+ 
+42

@@ -1,0 +1,83 @@
+ZÁKON: NÚR I-7
+NAZEV: Interpretace Národní účetní rady I-7 – Komisionářské smlouvy
+URL: http://nur.cz/wp-content/uploads/2020/10/I-07_updated.pdf
+
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+1/2 
+Interpretace NÚR 
+I–7 
+Komisionářské smlouvy 
+Účetní jednotky jsou povinny vést účetnictví tak, aby účetní závěrka sestavená na jeho základě 
+podávala věrný a poctivý obraz předmětu účetnictví a finanční situace účetní jednotky (zákon 
+č. 563/1991 Sb., o účetnictví, § 7, odst. 1). Účetní jednotky účtují o stavu a pohybu majetku a jiných 
+aktiv, závazků a jiných pasiv, dále o nákladech a výnosech a o výsledku hospodaření. (zákon 
+č. 563/1991 Sb., o účetnictví, § 2, Předmět účetnictví).  
+Tato interpretace musí být aplikována v kontextu s Předmluvou Národní účetní rady 
+k interpretacím českých účetních standardů. 
+ 
+Odkaz: ČÚS 19 – Náklady a výnosy 
+Poznámka: Tato Interpretace řeší účtování komisionářských smluv sjednaných dle § 2455 
+až § 2470 občanského zákoníku. 
+ 
+Popis problému 
+1. Novela zákona o dani z přidané hodnoty („DPH“) platná od vstupu Česka do EU 1. května 2004 
+si v případě komisionářských smluv, kdy komisionář jedná vlastním jménem na účet komitenta, 
+vynutila daňový postup, který se liší od právní formy této smlouvy. Tento postup je nutný z 
+důvodu skutečnosti, že komisionář jedná vlastním jménem a kupujícímu zpravidla není známa 
+osoba, na jejíž účet se transakce realizuje. 
+ 
+2. V této souvislosti může vzniknout otázka, jakým způsobem má být tento postup zachycen v 
+účetnictví komisionáře a komitenta. 
+ 
+3. Účetnictví kupujícího se tento problém nedotýká, neboť neví, že komisionář jedná na účet 
+komitenta a při účetním zachycení postupuje běžným způsobem. 
+ 
+Řešení 
+4. Výnosem komisionáře z této transakce je pouze úplata, sjednaná v komisionářské smlouvě. 
+Proto komisionář ve svých výnosových účtech zachytí pouze úplatu od komitenta 
+(komisionářskou odměnu). 
+ 
+Zdůvodnění 
+5. Z podstaty komisionářské smlouvy vyplývá, že komisionář vystupuje v transakci jako zástupce 
+komitenta a jedná na jeho účet, pouze ve vztahu ke kupujícímu/odběrateli vystupuje vlastním 
+jménem, jeho jednání jde však (až na výjimečné případy vymezené zákonem) na účet (tj. ve 
+prospěch i k tíži) komitenta. 
+ 
+
+ 
+ 
+Interpretace NÚR I-7 Komisionářské smlouvy 
+ 
+ 
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+2/2 
+6. Z hlediska ekonomické podstaty komisionář nenese prospěch a podnikatelská rizika související 
+s realizovanou transakcí a jeho odpovědnost je omezena na poskytnutí komisionářské služby s 
+odbornou péčí a v zájmu komitenta. Samotná transakce tak pro komisionáře nemůže 
+představovat výnos, jeho výnosem je pouze sjednaná komisní odměna. V opačném případě by 
+došlo k nesprávnému nadhodnocení jím dosahovaných tržeb. 
+ 
+7. Z hlediska formálně právního se komisionář nestává majitelem převáděných aktiv, případně 
+poskytovaných služeb nebo jiných plnění a nemůže tedy o jejich poskytnutí účtovat na svých 
+nákladových ani výnosových účet. Pokud se dočasně takováto aktiva dostanou do jeho správy 
+nebo pod jeho kontrolu, využije k jejich evidenci podrozvahových účtů. 
+ 
+8. Odlišný, byť plně opodstatněný způsob zachycení komisionářských transakcí v daňových 
+dokladech pro potřeby zákona o DPH, nemůže změnit výše uvedené závěry pro účetní 
+zachycení výše uvedených transakcí v účetnictví a účetních závěrkách. 
+ 
+ 
+ 
+Datum prvního schválení 
+této interpretace NÚR: 
+27. února 2006 
+Datum poslední aktualizace 
+této interpretace NÚR: 
+1. dubna 2019 
+Zpracovatel interpretace: 
+Ing. Petr Kříž, FCCA  
+Komora auditorů České republiky  
+Opletalova 55  
+110 00 Praha 1

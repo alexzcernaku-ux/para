@@ -1,0 +1,129 @@
+ZÁKON: NÚR I-3
+NAZEV: Interpretace Národní účetní rady I-3 – Rezerva na splatnou daň
+URL: http://nur.cz/wp-content/uploads/2020/10/I-03_updated.pdf
+
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+1/3 
+Interpretace NÚR 
+I–3 
+Rezerva na splatnou daň 
+Účetní jednotky jsou povinny vést účetnictví tak, aby účetní závěrka sestavená na jeho základě 
+podávala věrný a poctivý obraz předmětu účetnictví a finanční situace účetní jednotky (zákon 
+č. 563/1991 Sb., o účetnictví, § 7, odst. 1). Účetní jednotky účtují o stavu a pohybu majetku a jiných 
+aktiv, závazků a jiných pasiv, dále o nákladech a výnosech a o výsledku hospodaření. (zákon 
+č. 563/1991 Sb., o účetnictví, § 2, Předmět účetnictví).  
+Tato interpretace musí být aplikována v kontextu s Předmluvou Národní účetní rady 
+k interpretacím českých účetních standardů. 
+ 
+Odkaz: Zákon č. 563/1991 Sb., o účetnictví ve znění pozdějších předpisů 
+Vyhláška č. 500/2002 Sb.,  
+ČÚS 004 – Rezervy 
+ 
+Popis problému 
+1. Zákon o účetnictví ukládá účetním jednotkám ke konci rozvahového dne brát v úvahu všechna 
+předvídatelná rizika a možné ztráty, které jsou jim známy do okamžiku sestavení účetní 
+závěrky. Jako jeden z nástrojů realizace tohoto ustanovení uvádí zákon rezervy a jmenovitě 
+rezervu na daň z příjmů. Vyhláška rozvádí toto ustanovení v tom smyslu, že rezervy jsou určeny 
+k pokrytí budoucích závazků nebo výdajů, u nichž je znám účel, je pravděpodobné, že 
+nastanou, avšak zpravidla není jistá částka. Český účetní standard jmenuje rezervu na daň z 
+příjmů jako jednu z rezerv vykazovanou v rozvaze a konkretizuje způsob jejího účtování. 
+ 
+2. Z podstaty odhadu splatné daně vyplývá, že se jedná každopádně o závazek, v jehož případě 
+nejsou pochybnosti ani o věřiteli, ani o lhůtě splatnosti a účelu, ale pouze o výši závazku, která 
+bude s konečnou platností stanovena až v daňovém přiznání. S ohledem na uvedené vlastnosti 
+má takový závazek spíše povahu dohadné položky než rezervy. České účetní předpisy však 
+tento závazek považují za rezervu a je pro něj vyhrazena samostatná položka v rozvaze. 
+ 
+3. Ani jeden z těchto účetních předpisů neřeší otázku, jak se má účetní jednotka při tvorbě 
+rezervy na daň z příjmů zachovat v případě, že má k datu účetní závěrky již zaplacené zálohy na 
+daň z příjmů. V souladu s Vyhláškou se rezerva na daň z příjmu vykazuje v případě, kdy okamžik 
+sestavení účetní závěrky předchází okamžiku řádného vyčíslení daňové povinnosti. 
+ 
+4. Z uvedeného popisu problému vnikají následující otázky: 
+a) jaké povahy je odhad splatné daně a kde má být vykázán v rozvaze; 
+b) zda odhad splatné daně vykázat ve výkazu zisku a ztráty vždy v plné výši; 
+c) zda odhad splatné daně kompenzovat v rozvaze s případnými zaplacenými zálohami na 
+splatnou daň. 
+
+ 
+ 
+Interpretace NÚR I-3 Rezerva na splatnou daň 
+ 
+ 
+ 
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+2/3 
+Řešení 
+5. Přesto, že charakteristiky odhadu splatné daně spíše napovídají, že se jedná o dohadnou 
+položku, české účetní předpisy, které tato Interpretace respektuje, považují tento závazek za 
+rezervu a vyhrazují pro něj samostatnou položku rozvahy. 
+ 
+6. Předpokládaná částka splatné daně se zaúčtuje vždy v plné výši jako náklad a vykáže se takto 
+ve výkazu zisku a ztráty. 
+ 
+7. Pokud účetní jednotka vykazuje k datu závěrky již zaplacené zálohy na splatnou daň, započítají 
+se tyto zálohy proti rezervě na splatnou daň, a rezerva se tudíž vykáže pouze ve výši 
+nedoplatku splatné daně. V případě, že zaplacené zálohy na daň převyšují očekávanou 
+splatnou daň, pak se rezerva na splatnou daň v rozvaze nevykáže a předpokládaný přeplatek z 
+titulu zaplacených záloh na daň (rozdíl mezi zaplacenými zálohami a zaúčtovanou rezervou) se 
+vykáže v aktivech společnosti jako pohledávka. 
+ 
+8. Detailní rozpis zaplacených záloh a vytvořené rezervy na splatnou daň se zveřejní v příloze k 
+účetní závěrce. 
+ 
+ 
+Zdůvodnění 
+9. Základní pravidlo pro tvorbu rezerv stanoví, že rezervy se vytvářejí na očekávané výdaje. V 
+případě zaplacených záloh bude výdajem pouze rozdíl mezi těmito zálohami a daňovou 
+povinností splatné daně vypočtené v daňovém přiznání. V případě přeplatku na zálohách 
+nebude mít účetní jednotka výdaj, ale naopak pohledávku ve výši přeplatku oproti očekávané 
+daňové povinnosti. V obou popsaných případech není adekvátní používat princip zákazu 
+kompenzace. 
+ 
+10. Předpokládanou výši splatné daně je nutné zaúčtovat v plné výši tak, aby ve výkazu zisku a 
+ztráty v oddíle daně z příjmů byla vykázána předpokládaná daňová povinnost, a tím také 
+očekávaný disponibilní zisk. 
+ 
+11. Rezervu na splatnou daň je však věcně správné vykázat pouze ve výši nedoplatku na splatné 
+dani. V případě přeplatku na zálohách není vykázání rezervy správné a přeplatek se vykáže jako 
+pohledávka v aktivech společnosti. 
+ 
+ 
+Zpráva o průběhu veřejného připomínkového řízení: 
+V průběhu veřejného připomínkového řízení byly přijaty zpracovatelem dvě připomínky. 
+Podstatou obou připomínek byla námitka, že odhad splatné daně představuje na základě 
+svých charakteristik spíše dohadnou položku než rezervu. Při projednávání těchto připomínek se 
+NÚR s tímto názorem ztotožnila, avšak došla k závěru, že je v Interpretaci nezbytné respektovat 
+platné znění českých účetních předpisů, a proto se rozhodla zachovat vykazování odhadu splatné 
+
+ 
+ 
+Interpretace NÚR I-3 Rezerva na splatnou daň 
+ 
+ 
+ 
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+3/3 
+daně jako rezervy (po případné kompenzaci se zaplacenými zálohami na splatnou daň). Zároveň 
+však NÚR doporučila tuto skutečnost v Interpretaci zmínit, což se projevilo doplněním bodu 2.,4.a) 
+a úpravou formulace bodů 4.b), 4c) a 5. 
+ 
+ 
+Datum prvního schválení 
+této interpretace NÚR: 
+22. června 2005 
+Datum poslední aktualizace 
+této interpretace NÚR: 
+1. dubna 2019 
+ 
+ 
+Zpracovatel interpretace: 
+prof. Ing. Libuše Müllerová, CSc.  
+katedra finančního účetnictví a auditingu  
+Fakulta financí a účetnictví  
+Vysoká škola ekonomická v Praze  
+Nám. W. Churchilla 4  
+130 67 Praha 3 – Žižkov

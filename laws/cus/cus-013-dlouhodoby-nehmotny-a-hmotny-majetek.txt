@@ -1,0 +1,303 @@
+ZÁKON: ČÚS č. 013
+NAZEV: Český účetní standard pro podnikatele č. 013 – Dlouhodobý nehmotný a hmotný majetek
+URL: https://www.mfcr.cz/assets/cs/media/Ucetnictvi_2018_Ceske-ucetni-standardy-pro-500-2002_v02.pdf
+
+Dlouhodobý nehmotný a hmotný majetek 
+    
+ 
+1. Cíl 
+     Cílem tohoto standardu je stanovit podle zákona č. 563/1991 Sb., o účetnictví, ve znění 
+pozdějších předpisů, (dále jen „zákon“) a vyhlášky č. 500/2002 Sb., kterou se provádějí 
+některá ustanovení zákona č. 563/1991 Sb., o účetnictví, ve znění pozdějších předpisů, pro 
+účetní jednotky, které jsou podnikateli účtujícími v soustavě podvojného účetnictví, ve znění 
+pozdějších předpisů, (dále jen „vyhláška“) základní postupy účtování dlouhodobého 
+nehmotného a hmotného majetku za účelem docílení souladu při používání účetních metod 
+účetními jednotkami v položkách 
+B.I. Dlouhodobý nehmotný majetek 
+B.I.1.  Nehmotné výsledky vývoje   
+      2.  Ocenitelná práva 
+2.1. Software 
+2.2. Ostatní ocenitelná práva 
+      3.  Goodwill 
+      4.  Ostatní dlouhodobý nehmotný majetek 
+      5. Poskytnuté zálohy na dlouhodobý nehmotný majetek a nedokončený dlouhodobý 
+nehmotný majetek 
+5.1. Poskytnuté zálohy na dlouhodobý nehmotný majetek 
+5.2. Nedokončený dlouhodobý nehmotný majetek 
+B.II. Dlouhodobý hmotný majetek 
+B.II.1. Pozemky a stavby 
+  1.1. Pozemky 
+  1.2. Stavby 
+        2. Hmotné movité věci a jejich soubory  
+        3. Oceňovací rozdíl k nabytému majetku 
+        4. Ostatní dlouhodobý hmotný majetek 
+  4.1. Pěstitelské celky trvalých porostů 
+  4.2. Dospělá zvířata a jejich skupiny 
+  4.3. Jiný dlouhodobý hmotný majetek 
+        5. Poskytnuté zálohy na dlouhodobý hmotný majetek a nedokončený dlouhodobý    
+hmotný majetek 
+        5.1. Poskytnuté zálohy na dlouhodobý hmotný majetek 
+        5.2. Nedokončený dlouhodobý hmotný majetek 
+vykazovaných za podmínek stanovených v § 3, 3a a 4 vyhlášky. 
+ 
+2. Obsahové vymezení 
+     Pro účely tohoto standardu se využívá obsahové vymezení dlouhodobého nehmotného a 
+hmotného majetku uvedené v § 6, 7 a § 69 odst. 3 vyhlášky. 
+ 
+3. Oceňování 
+3.1.   Dlouhodobý nehmotný a hmotný majetek se oceňuje podle § 25 a 27 zákona a § 47, 61 a   
+61a vyhlášky. 
+3.2.  Reprodukční pořizovací cenou se ocení i vklad dlouhodobého nehmotného a hmotného 
+majetku s výjimkou případů, kdy vklad je oceněn podle společenské smlouvy nebo 
+zakladatelské listiny jinak, a dlouhodobý nehmotný a hmotný majetek nově zjištěný a v 
+účetnictví dosud nezachycený (například inventarizační přebytek). 
+ 
+31 
+3.3.   Dlouhodobý majetek vytvořený vlastní činností se oceňuje vlastními náklady podle § 25 
+odst. 5 písm. d) zákona s obdobným použitím ocenění podle § 49 odst. 5 vyhlášky. 
+3.4.  Ocenění souboru hmotných movitých věcí se zvýší o pořizovací cenu, reprodukční 
+pořizovací cenu nebo vlastní náklady věci do souboru dodatečně zařazené. Při vyřazení 
+části souboru hmotných movitých věcí se ocenění souboru sníží o ocenění vyřazené 
+části, přičemž míra odepsanosti vyřazené části je shodná s mírou odepsanosti souboru. 
+3.5.   zrušen 
+3.6.  O trvalém snížení ocenění dlouhodobého nehmotného a hmotného majetku se účtuje 
+prostřednictvím oprávek (účty účtové skupiny 07 – Oprávky k dlouhodobému 
+nehmotnému majetku a 08 – Oprávky k dlouhodobému hmotnému majetku); přitom je 
+nutné upravit odpisový plán. V případě, že došlo k převodu majetku státu z účetní 
+jednotky na státní podnik a účetní jednotka, ze které bylo právo převedeno, nepoužívala 
+metodu odpisování dlouhodobého hmotného a nehmotného majetku, lze pro první 
+použití této metody u státního podniku využít účtování prostřednictvím příslušného účtu 
+oprávek a příslušného účtu vlastního kapitálu, na který bylo zaúčtováno při převodu 
+majetku. Při prvním použití metody odpisování sestaví státní podnik odpisový plán 
+podle § 28 odst. 6 zákona. Stav oprávek je dán součtem odpisů, které by byly účtovány 
+podle odpisového plánu, za dobu používání účetní jednotkou, která byla s majetkem 
+příslušná hospodařit. 
+3.7.  Při částečné likvidaci jednotlivého dlouhodobého hmotného majetku trvalým vyřazením 
+věci, aniž by se majetek znehodnotil nebo ztratil způsobilost užívání, a vyřazená věc 
+byla součástí ocenění majetku a po vyřazení má povahu samostatné hmotné movité věci, 
+se ocenění majetku sníží o ocenění vyřazené věci. Míra odepsanosti vyřazení věci je 
+shodná s mírou odepsanosti původního majetku. 
+ 
+4. Odpisování 
+4.1.  Dlouhodobý nehmotný a hmotný majetek se odpisuje podle § 28 zákona a § 56 vyhlášky. 
+4.2.  Odpisy se zaokrouhlují na celé koruny nahoru. 
+4.3. Odpisy s výjimkou odpisů záporného goodwillu a odpisů vyjadřujících postupné 
+umořování oceňovacího rozdílu k nabytému majetku se zaúčtují na vrub příslušného 
+účtu účtové skupiny 55 – Odpisy, rezervy, komplexní náklady příštích období a opravné 
+položky v provozní oblasti a ve prospěch příslušných účtů účtových skupin 07 – 
+Oprávky k dlouhodobému nehmotnému majetku a 08 – Oprávky k dlouhodobému 
+hmotnému majetku. 
+4.4. Zůstatková cena dlouhodobého majetku odpisovaného je rozdílem mezi oceněním 
+majetku a oprávkami dlouhodobého majetku odpisovaného, které se vytvářejí podle 
+účetních odpisů. 
+4.5. Pachtýř účtuje o odpisech dlouhodobého majetku propachtovaného podle Českého 
+účetního standardu pro podnikatele č. 011 Operace s obchodním závodem. 
+4.6.  Odpisy záporného goodwillu se zaúčtují na vrub příslušného účtu účtové skupiny 07 –  
+Oprávky k dlouhodobému nehmotnému majetku a ve prospěch příslušného účtu účtové 
+skupiny 64 – Jiné provozní výnosy. 
+4.7. Odpisy vyjadřující postupné umořování oceňovacího rozdílu k nabytému majetku se 
+zaúčtují 
+a)  při aktivním oceňovacím rozdílu na vrub příslušného účtu účtové skupiny 55 –
+Odpisy, rezervy, komplexní náklady příštích období a opravné položky v provozní 
+oblasti a ve prospěch příslušného účtu účtové skupiny 09 – Opravné položky k 
+dlouhodobému majetku nebo 
+ 
+32 
+b)  při záporném oceňovacím rozdílu na vrub příslušného účtu účtové skupiny 09 –   
+Opravné položky k dlouhodobému majetku a ve prospěch příslušného účtu účtové 
+skupiny 64 –  Jiné provozní výnosy. 
+ 4.8.  Při odpisování dospělých zvířat a jejich skupin lze postupovat tak, že odpisy se vyjádří 
+podílem pořizovací ceny snížené o předpokládanou tržbu při brakaci (čitatel) a 
+předpokládaného počtu let v chovu základního stáda (jmenovatel). Tažná zvířata, 
+dostihoví a plemenní koně se odpisují individuálně, ostatní zvířata lze odpisovat 
+skupinově. 
+4.9.  Při odpisování pěstitelských celků trvalých porostů, které nájemce nebo pachtýř dokončil 
+na cizím pozemku a nejsou vykazovány u vlastníka pozemků, postupuje nájemce nebo 
+pachtýř shodně, jako by byly dokončeny na vlastním pozemku; vlastník pozemku tyto 
+pěstitelské celky trvalých porostů neodpisuje. 
+ 
+5. Postup účtování 
+5.1. Pořizování dlouhodobého nehmotného a hmotného majetku se uskutečňuje zejména 
+koupí, vytvořením vlastní činností, nabytím práv k výsledkům duševní tvořivé činnosti, 
+darem nebo jiným bezúplatným převodem, vkladem dlouhodobého majetku, převodem 
+podle právních předpisů nebo převodem z osobního užívání do podnikání. 
+5.1.1.  O pořízení dlouhodobého nehmotného a hmotného majetku a technického zhodnocení 
+se účtuje na vrub příslušného účtu účtové skupiny 04 – Nedokončený dlouhodobý 
+nehmotný a hmotný majetek nebo přímo na vrub příslušných účtů účtových skupin 01 
+–  Dlouhodobý nehmotný majetek, 02 –  Dlouhodobý hmotný majetek odpisovaný nebo 
+03 – Dlouhodobý hmotný majetek neodpisovaný, pokud při pořízení dlouhodobého 
+nehmotného a hmotného majetku a technického zhodnocení nevznikají náklady 
+související s jeho pořízením, se souvztažným zápisem ve prospěch příslušných účtů 
+účtových skupin například 
+a) 08 – Oprávky k dlouhodobému hmotnému majetku v případě bezúplatného převodu 
+z finančního leasingu, 
+b) 21 –  Peněžní prostředky v pokladně v případě pořízení dlouhodobého majetku  
+nebo nabytí práva k výsledkům duševní tvořivé činnosti za hotové, 
+c) 32 – Závazky (krátkodobé) nebo 47 – Dlouhodobé závazky v případě 
+bezhotovostního pořízení dlouhodobého majetku nebo nabytí práva k výsledkům 
+duševní tvořivé činnosti, 
+d) 35 – Pohledávky za společníky v případě vkladu za upsaný základní kapitál, 
+e) 37 – Jiné pohledávky a závazky v případě uplatnění práva nákupní opce a v 
+případě úroků z úvěrů a zápůjček do doby uvedení do užívání, 
+f) 41 – Základní kapitál a kapitálové fondy vykazovaného v položce „A.I.1. Základní 
+kapitál“ v případě majetku nabytého státním podnikem delimitací a v případě 
+bezúplatně převedeného majetku vyjma daru, 
+g) 49 – Individuální podnikatel v případě převodu majetku z osobního užívání do 
+podnikání, 
+h) 58 – Změna stavu zásob vlastní činnosti a aktivace v případě vytvoření majetku 
+vlastní činností a 
+i)   64 –  Jiné provozní výnosy v případě daru. 
+5.1.2. Nevyfakturované dodávky dlouhodobého nehmotného a hmotného majetku se 
+k rozvahovému dni zaúčtují jako dohadné položky pasivní na vrub příslušného účtu 
+účtové skupiny 04 – Nedokončený dlouhodobý nehmotný a hmotný majetek a ve 
+prospěch příslušného účtu účtové skupiny 38 –  Přechodné účty aktiv a pasiv. 
+5.1.3.  Uvedení majetku a technického zhodnocení do užívání, pokud již nebyl majetek a 
+technické zhodnocení pořízen a zaúčtován přímo v účtových skupinách 01, 02 nebo 
+ 
+33 
+03, se zaúčtuje na vrub příslušného účtu účtových skupin 01 – Dlouhodobý nehmotný 
+majetek, 02 – Dlouhodobý hmotný majetek odpisovaný nebo 03 –Dlouhodobý hmotný 
+majetek neodpisovaný se souvztažným zápisem ve prospěch příslušného účtu účtové 
+skupiny 04 – Nedokončený dlouhodobý nehmotný a hmotný majetek. 
+5.1.4.  Při pořízení dlouhodobého hmotného majetku směnnou smlouvou se stává nákladem 
+každé strany zůstatková cena majetku ke směně předaného a výnosem cena majetku 
+směnou pořízeného; v případě, že rozdíl mezi zůstatkovou cenou a pořizovací cenou 
+bude uhrazen, pak tento rozdíl snižuje výnos na straně nabyvatele, který rozdíl uhradí 
+(rozdíl je zaúčtován jako dluh) a zvyšuje výnos na straně prodávajícího, který platbu 
+obdrží (rozdíl je zaúčtován jako pohledávka). 
+5.1.5.   zrušen 
+5.1.6.  Účetní jednotka může na příslušný účet účtové skupiny 04 – Nedokončený dlouhodobý 
+nehmotný a hmotný majetek zaúčtovat náklady charakteru technického zhodnocení na 
+cizím dlouhodobém hmotném majetku v průběhu jeho pořizování, pokud se 
+prokazatelně má stát nájemcem nebo pachtýřem dlouhodobého hmotného majetku 
+nebo jeho příslušné části a následně technické zhodnocení bude odepisovat. Vlastník 
+dlouhodobého hmotného majetku nezaúčtuje náklady charakteru technického 
+zhodnocení v průběhu pořizování dlouhodobého hmotného majetku a technické 
+zhodnocení odpisované tímto nájemcem nebo pachtýřem. 
+5.1.7.   O technickém zhodnocení odpisovaném nájemcem nebo pachtýřem se účtuje na účtu, 
+na kterém se zaúčtuje pronajatý nebo propachtovaný majetek, a v případě finančního 
+leasingu na účtu, na kterém se bude účtovat majetek převzatý nájemcem do 
+vlastnictví. 
+5.2.      zrušen 
+5.3.     O technickém zhodnocení se neúčtuje v případě pěstitelských celků trvalých porostů, 
+dospělých zvířat a jejich skupin a majetku v účtové skupině 03 – Dlouhodobý hmotný 
+majetek neodpisovaný. 
+5.4.     Vyřazení dlouhodobého nehmotného a hmotného majetku a technického zhodnocení se 
+uskutečňuje zejména prodejem, likvidací, darem nebo jiným bezúplatným převodem, 
+vkladem dlouhodobého majetku do jiné obchodní korporace, převodem na základě 
+právních předpisů, v důsledku škody nebo manka a převodem z podnikání do 
+osobního užívání. 
+5.4.1.  Vyřazení dlouhodobého majetku odpisovaného a technického zhodnocení se zaúčtuje 
+na vrub příslušného účtu účtových skupin 07 – Oprávky k dlouhodobému nehmotnému 
+majetku nebo 08 – Oprávky k dlouhodobému hmotnému majetku a ve prospěch 
+příslušného účtu účtových skupin 01 – Dlouhodobý nehmotný majetek nebo 02 - 
+Dlouhodobý hmotný majetek odpisovaný; zůstatková cena dlouhodobého majetku 
+odpisovaného se zaúčtuje na vrub příslušného účtu účtových skupin například 
+a) 54 – Jiné provozní náklady v případě prodeje, v případě daru nebo jiného 
+bezúplatného převodu a v případě manka nebo škody, 
+b) 55 – Odpisy, rezervy, komplexní náklady příštích období a opravné položky v 
+provozní oblasti v případě likvidace, 
+c) 36 – Závazky ke společníkům v případě vkladu do jiné obchodní korporace, 
+d) 41 – Základní kapitál a kapitálové fondy v případě delimitace, popřípadě restituce 
+majetku státního podniku a 
+e) 49 – Individuální podnikatel v případě převodu z podnikání do osobního užívání  
+a ve prospěch příslušného účtu účtových skupin 07 – Oprávky k dlouhodobému 
+nehmotnému majetku nebo 08 - Oprávky k dlouhodobému hmotnému majetku. 
+ 
+34 
+5.4.2.  Vyřazení  dlouhodobého  hmotného majetku  neodpisovaného  se zaúčtuje na  vrub 
+shodných účtů jako v bodu 5.4.1. písm. a) až e) a ve prospěch příslušného účtu účtové 
+skupiny 03 – Dlouhodobý hmotný majetek neodpisovaný. 
+5.4.3.  Vyřazení nedokončeného dlouhodobého nehmotného a hmotného majetku se zaúčtuje 
+na vrub shodných účtů jako v bodu 5.4.1. písm. a) až e) a ve prospěch příslušného účtu 
+účtové skupiny 04 – Nedokončený dlouhodobý nehmotný a hmotný majetek; vyřazení 
+nedokončeného dlouhodobého majetku a technického zhodnocení, které je trvale 
+zastaveno a nebude dokončeno, se při likvidaci zaúčtuje na vrub příslušného účtu 
+účtové skupiny 54 – Jiné provozní náklady a ve prospěch příslušného účtu účtové 
+skupiny 04 – Nedokončený dlouhodobý nehmotný a hmotný majetek. 
+5.5. Zaúčtování technického zhodnocení odpisovaného nájemcem nebo pachtýřem při 
+ukončení nájmu nebo pachtu: 
+a)  nájemce nebo pachtýř zaúčtuje případně vzniklou zůstatkovou cenu do nákladů, 
+popřípadě jako úhradu dluhu z pronájmu nebo pachtu, je-li nájemné nebo pachtovné 
+naturálně plněno technickým zhodnocením; náklady na uvedení najatého nebo 
+propachtovaného majetku do předchozího stavu zaúčtuje nájemce nebo pachtýř do 
+ostatních provozních nákladů, 
+b) pronajímatel nebo propachtovatel zvýší o technické zhodnocení pořizovací cenu 
+pronajatého nebo propachtovaného majetku se souvztažným zápisem ve prospěch 
+příslušného účtu účtové skupiny 64 – Jiné provozní výnosy, popřípadě jako úhradu 
+pohledávky z pronájmu nebo pachtu, je-li nájemné nebo pachtovné naturálně plněno 
+technickým zhodnocením, 
+c)   v případě finančního leasingu se  pořizovací cena majetku  převzatého uživatelem do 
+vlastnictví zvýší o technické zhodnocení odpisované uživatelem v průběhu užívání a 
+pokračuje se v odpisování z takto zvýšené pořizovací ceny. 
+ 5.6. Pachtýř účtuje o dlouhodobém majetku propachtovaném podle Českého účetního 
+standardu pro podnikatele č. 011 Operace s obchodním závodem. 
+5.7.  Účetní jednotka, která vlastnila pozemky nebo měla právo hospodaření s pozemky ve 
+vlastnictví státu a nezavedla je do účetnictví v roce 1991, přestože je evidovala v 
+operativní evidenci, následně pozemky zaúčtuje do účtové skupiny 03 – Dlouhodobý 
+hmotný majetek neodepisovaný a vykazuje je v položce „B.II.1.1. Pozemky“ v ocenění 
+podle vyhlášky č. 393/1991 Sb., o cenách staveb, pozemků, trvalých porostů, úhradách 
+za zřízení práva osobního užívání pozemků a náhradách za dočasné užívání pozemků. 
+5.8.   Rezervy na opravu dlouhodobého hmotného majetku se tvoří a používají podle Českého 
+účetního standardu pro podnikatele č. 004 Rezervy. 
+5.9.  Opravné  položky  k dlouhodobému nehmotnému  a hmotnému  majetku se  tvoří  a 
+používají podle Českého účetního standardu pro podnikatele č. 005 Opravné položky. 
+5.10. Inventarizační rozdíly dlouhodobého nehmotného a hmotného majetku se zaúčtují podle 
+Českého účetního standardu pro podnikatele č. 007 Inventarizační rozdíly a ztráty v 
+rámci norem přirozených úbytků zásob. 
+ 
+6. Analytické a podrozvahové účty 
+6.1.  Analytické účty se vedou podle Českého účetního standardu pro podnikatele č. 001 Účty 
+a zásady účtování na účtech. 
+6.2. Analytické účty účetní jednotka vede podle jednotlivých složek dlouhodobého 
+nehmotného a hmotného majetku, podle účelu stanoveného právními předpisy nebo 
+vyplývající z požadavků vlastního řízení na kartách či v datových souborech. 
+6.3. Kniha analytických účtů podle jednotlivých složek dlouhodobého nehmotného a 
+hmotného majetku slouží k jeho identifikaci a obsahuje zejména název, popis majetku 
+nebo číselné označení, datum a způsob jeho pořízení a uvedení do užívání, datum 
+ 
+35 
+zaúčtování na účet účtových skupin 01 – Dlouhodobý nehmotný majetek, 02 – 
+Dlouhodobý hmotný majetek odpisovaný a 03 – Dlouhodobý hmotný majetek 
+neodpisovaný, ocenění, údaje o zvoleném postupu účetního a daňového odpisování, 
+roční sazby účetních a daňových odpisů za účetní a zdaňovací období, částky účetních a 
+daňových odpisů za účetní a zdaňovací období, datum a způsob vyřazení; u majetku, k 
+němuž účetní jednotka nemá vlastnické právo nebo je zatížený zástavním právem nebo 
+věcným právem anebo na jehož pořízení byla poskytnuta dotace, se uvede vlastník 
+majetku, zástavní věřitel, účastník věcného práva, výše dotace a další skutečnosti 
+prokazující úplnost účetního případu; v případě souboru hmotných movitých věcí se 
+rovněž uvádějí jednotlivé části souboru věcně a v hodnotovém vyjádření; pokud se k 
+souboru přiřadí další věc nebo se naopak vyřadí, uvádí se datum přiřazení nebo vyřazení 
+této věci; v poznámce se uvede podmíněnost uskutečnění okamžiku účetního případu 
+nabytím právního účinku vkladu při převodu vlastnictví k nemovitým věcem, které 
+podléhají vkladu do katastru nemovitostí. 
+6.4.  Plátci DPH, kteří ve smyslu příslušných předpisů neuplatnili nárok na odpočet DPH a 
+mají uvedený majetek oceněný včetně DPH, sledují DPH na analytickém účtu. 
+6.5.   Analytické účty se vedou odděleně za 
+a) zrušeno 
+b) zrušeno 
+c) vypůjčený dlouhodobý hmotný majetek, jehož vlastnictví zajištěním dluhu  
+převodem práva přešlo na půjčitele, avšak tento majetek na základě smlouvy o 
+výpůjčce po dobu zajištění dluhu odpisuje výpůjčitel, 
+d) dlouhodobý majetek propachtovaný, pokud se tak propachtovatel s pachtýřem ve 
+smlouvě dohodli. 
+6.6.  Na samostatném analytickém účtu se zaúčtují při pořízení dlouhodobého nehmotného 
+majetku, jsou-li součástí nákladů souvisejících s pořízením, náklady na zhotovování 
+věcí materiální povahy (například prototypy, modely nebo vzorky), na kterých se práce 
+zkoušejí a ověřují; jsou-li věci materiální povahy pro další práce nepotřebné, naloží se s 
+nimi podle toho, budou-li prodány, likvidovány nebo využity ve vlastní činnosti (v 
+posledním případě se zaúčtují na příslušný majetkový účet). 
+6.7.  Na podrozvahových účtech účtových skupin 75 až 79 se sledují důležité skutečnosti, 
+jejichž znalost je podstatná pro posouzení majetkoprávní situace účetní jednotky a jejích 
+ekonomických zdrojů, které lze využít. Jedná se především o využívání cizího majetku, 
+ke kterému účetní jednotka nemá vlastnické právo, popřípadě právo hospodaření s 
+majetkem státu; dále jde o evidenci práv, o kterých se neúčtuje (hypotéky), a evidenci 
+majetku a technického zhodnocení při dotaci ve výši 100%. Na podrozvahových účtech 
+se sledují zejména přijaté hypotéky, najatý a propachtovaný majetek, majetek přijatý do 
+úschovy, poskytnuté záruky a jiné obdobné závazky, poskytnutá zástavní práva a věcná 
+práva a převedená zajištění, pokud se o nich neúčtuje v účtových skupinách 01 – 
+Dlouhodobý nehmotný majetek, 02 – Dlouhodobý hmotný majetek odpisovaný a 03 –
+Dlouhodobý hmotný majetek neodpisovaný, přijatá zástavní práva a věcná břemena a 
+přijatá zajištění, závazky z leasingu a pohledávky z leasingu. 
+ 
+36

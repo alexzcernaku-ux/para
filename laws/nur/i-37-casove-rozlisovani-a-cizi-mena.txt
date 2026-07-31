@@ -1,0 +1,162 @@
+ZÁKON: NÚR I-37
+NAZEV: Interpretace Národní účetní rady I-37 – Časové rozlišování a cizí měna
+URL: http://nur.cz/wp-content/uploads/2020/10/I-37_updated.pdf
+
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+1/5 
+Interpretace NÚR 
+I–37 
+Časové rozlišování a cizí měna 
+Účetní jednotky jsou povinny vést účetnictví tak, aby účetní závěrka sestavená na jeho základě 
+podávala věrný a poctivý obraz předmětu účetnictví a finanční situace účetní jednotky (zákon 
+č. 563/1991 Sb., o účetnictví, § 7, odst. 1). Účetní jednotky účtují o stavu a pohybu majetku a jiných 
+aktiv, závazků a jiných pasiv, dále o nákladech a výnosech a o výsledku hospodaření. (zákon 
+č. 563/1991 Sb., o účetnictví, § 2, Předmět účetnictví).  
+Tato interpretace musí být aplikována v kontextu s Předmluvou Národní účetní rady 
+k interpretacím českých účetních standardů. 
+ 
+ 
+Popis problému 
+1. Existují případy, kdy účetní jednotky na základě smluvního ujednání platí některé výdaje, nebo 
+naopak inkasují příjmy v cizí měně. Tyto peněžní toky se nekryjí s příslušným účetním obdobím, 
+kam věcně náleží.  
+ 
+2. Protože u těchto plateb je znám účel, částka i období, jsou splněny charakteristiky pro položky 
+časového rozlišení. Vzhledem ke smluvnímu ujednání úhrad v cizí měně se v souladu se 
+zákonem o účetnictví eviduje u účetních zápisů v české měně i cizí měna přepočtená na českou 
+měnu dle vnitřní směrnice účetní jednotky kursem ČNB (aktuálním nebo pevným). 
+ 
+3. Otázka zní, zda zůstatky účtů časového rozlišení vyjádřených v cizí měně se mají k datu účetní 
+závěrky přepočítávat závěrkovým kursem. 
+ 
+Řešení 
+4. V případě nedoplacených nákladů běžného období, kdy výdaj v cizí měně bude uskutečněn až v 
+následujícím účetním období, se jedná o cizoměnový závazek, který bude souvztažně s 
+nákladovým účtem zaúčtován ve prospěch účtu časového rozlišení Výdaje příštích období. 
+Zůstatek toho účtu je třeba k datu účetní závěrky přepočítat kursem ČNB platným k tomuto 
+datu. 
+ 
+5. V případě nedoplacených výnosů běžného období, kdy příjem v cizí měně bude obdržen až v 
+následujícím účetním období, se jedná o cizoměnovou pohledávku, která bude souvztažně s 
+výnosovým účtem zaúčtována na vrub účtu časového rozlišení Příjmy příštích období. Zůstatek 
+tohoto účtu je třeba k datu účetní závěrky přepočítat kursem ČNB platným k tomuto datu. 
+ 
+6. V případě předplacených nákladů týkajících se nákladů následujícího účetního období a 
+zaúčtovaných na účtu Náklady příštích období peněžní tok (výdaj) již proběhl. Zůstatek tohoto 
+účtu se k datu účetní závěrky nepřepočítává. 
+ 
+
+ 
+                                                                           Interpretace NÚR I-37 Časové rozlišování a cizí měna 
+ 
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+2/5 
+7. V případě předplacených výnosů týkajících se výnosů následujícího účetního období a 
+zaúčtovaných na účtu Výnosy příštích období peněžní tok (příjem) již proběhl. Zůstatek tohoto 
+účtu se k datu účetní závěrky nepřepočítává. 
+ 
+ 
+Zdůvodnění 
+8. V souladu se zákonem o účetnictví se zůstatky pohledávek a závazků primárně vyjádřených v 
+cizí měně přepočítávají k datu účetní závěrky na českou měnu kursem ČNB k tomuto datu. 
+Eliminuje se tím případné kursové riziko. 
+ 
+9. Vzhledem k tomu, že zůstatek účtu Výdaje příštích období má charakter cizoměnového závazku 
+(výdaj v cizí měně bude muset být uhrazen v příštích obdobích) a zůstatek účtu Příjmy příštích 
+období má charakter cizoměnové pohledávky (příjem v cizí měně bude přijat v příštích 
+obdobích), platí pro ně stejná pravidla jako pro ostatní cizoměnové závazky a pohledávky. 
+ 
+10. Naproti tomu účty časového rozlišení Náklady příštích období a Výnosy příštích období, kdy 
+peněžní tok již proběhl, nemají charakter cizoměnové pohledávky a cizoměnového závazku, 
+není s nimi spojeno kursové riziko, a proto se zůstatek těchto účtů k datu účetní závěrky 
+nepřepočítává. 
+ 
+ 
+Vypořádání připomínek z vnějšího připomínkového řízení 
+Připomínka Zdeny Cardové 
+V bodě 6. a 7. je uvedeno, že přepočítávání se netýká předplacených nákladů účtovaných na 
+vrub účtu Náklady příštích období ani předplacených výnosů účtovaných ve prospěch účtu 
+Výnosy příštích období, kde peněžní tok v cizí měně již nastal, byl přepočten a zaúčtován v 
+české měně a bude pouze rozpouštěn na vrub Nákladů v příštích obdobích nebo ve prospěch 
+Výnosů v příštích obdobích. Toto tvrzení v případě předplacených nákladů a výnosů má svoji 
+nespornou logiku. Jenom nevím, zda to není v rozporu s § 4 odst. 12 a § 24 odst. 6 písm. b)? 
+Od roku 2018 je možné zařadit mezi pohledávky/závazky rovněž účty časového rozlišení. Jaké 
+důvody vás vedou k tomu, že některé pohledávky, které se uvádějí v rozvaze jako pohledávky, 
+vylučujete z povinnosti přepočtu cizí měny na českou k rozvahovému dni? 
+Odpověď 
+Argumentem pro nepřepočítávání Nákladů příštích období a Výnosů příštích období je to, že 
+peněžní tok již nastal, nejde o pohledávku a závazek, které by měly být v budoucnu uhrazeny, a 
+tedy nehrozí kursové riziko. Na rozdíl od Příjmů příštích období a Výdajů příštích období, které 
+charakter pohledávky a závazku mají, kde k úhradě teprve dojde, a proto existuje i kursové 
+riziko. To, že se tyto položky mohou od roku 2018 v rozvaze alternativně vykazovat v oddíle 
+pohledávek/závazků ještě neznamená, že v uvedených dvou případech tento charakter mají. 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+                                                                           Interpretace NÚR I-37 Časové rozlišování a cizí měna 
+ 
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+3/5 
+ 
+Připomínka Michala Kadlece 
+Připomínka se týkala původního ilustrativního příkladu, kde byly položky časového rozlišení 
+účtovány v průběhu prosince a na konci roku pak přepočítávány kursem ČNB. V připomínce se 
+uvádělo, zda by nebylo vhodnější položku časového rozlišení účtovat až k datu účetní závěrky 
+přímo kursem ČNB, což autor připomínky považuje za správnější. Případně navrhuje, zda by 
+nebylo lepší vymyslet příklady na časové rozlišení, které by přesahovalo do několika účetních 
+období (např. 2–3 roky)? 
+Odpověď 
+Připomínka byla akceptována (za tento námět autorovi připomínky děkujeme) a původní 
+ilustrativní příklad č. 1 byl nahrazen novým příkladem, kde položky časového rozlišení přesahují 
+do několika účetních období. 
+ 
+ 
+ 
+Příklady k Interpretaci 
+ 
+ 
+
+ 
+                                                                           Interpretace NÚR I-37 Časové rozlišování a cizí měna 
+ 
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+4/5 
+      
+ 
+ 
+  
+ 
+
+ 
+                                                                           Interpretace NÚR I-37 Časové rozlišování a cizí měna 
+ 
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+5/5 
+     
+ 
+ 
+ 
+Datum prvního schválení 
+této interpretace NÚR: 
+14. května 2018 
+Datum poslední aktualizace 
+této interpretace NÚR: 
+1. dubna 2019 
+Zpracovatel interpretace: 
+ 
+prof. Ing. Libuše Müllerová, CSc.  
+Katedra finančního účetnictví a auditingu 
+Fakulta financí a účetnictví  
+Vysoká škola ekonomická v Praze 
+Nám. W. Churchilla 4 
+130 67 Praha 3 - Žižkov

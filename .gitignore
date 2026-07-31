@@ -1,0 +1,6 @@
+.env
+node_modules/
+_explore*.mjs
+_download_law.mjs.DEBUG.txt
+laws/*.DEBUG.txt
+.DS_Store

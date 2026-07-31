@@ -1,0 +1,326 @@
+ZÁKON: NÚR I-46
+NAZEV: Interpretace Národní účetní rady I-46 – Účetní řešení uvolněného a vypořádacího podílu v s.r.o. a vypořádacího podílu v družstvu
+URL: http://nur.cz/wp-content/uploads/2021/10/I-46.pdf
+
+© Národní účetní rada 
+Schválený text interpretace 
+1/7 
+ 
+Interpretace Národní účetní rady 
+I-46 Účetní řešení uvolněného a vypořádacího podílu v s.r.o. a 
+vypořádacího podílu v družstvu 
+ 
+Účetní jednotky jsou povinny vést účetnictví tak, aby účetní závěrka sestavená na jeho základě 
+podávala věrný a poctivý obraz předmětu účetnictví a finanční situace účetní jednotky (zákon 
+č. 563/1991 Sb., o účetnictví, § 7, odst. 1). Za vedení účetnictví je odpovědná účetní jednotka. 
+Tato interpretace není právně závazným stanoviskem, pouze vyjadřuje odborný názor 
+Národní účetní rady a může být aplikována pouze v kontextu s Předmluvou Národní účetní 
+rady k interpretacím českých účetních předpisů. Postup popsaný v této interpretaci poskytuje 
+účetní jednotce návod v případech, kdy má jejich aplikace významný dopad na informace 
+uvedené v účetní závěrce a kdy informační přínosy jsou větší než náklady nutné na jejich 
+získání. 
+ 
+Popis problému: 
+1. V praxi se lze setkat s různými přístupy k účetnímu řešení uvolněného a vypořádacího 
+podílu ve společnosti s ručením omezeným a v družstvu. Hlavní příčinou je chybějící 
+úprava v účetních předpisech. Přímo se uvolněného a vypořádacího podílu dotýká jen 
+účetní standard pro podnikatele č. 12 – Změny vlastního kapitálu v odst. 3.2.2., ze kterého 
+lze na řešení vybraných případů usuzovat, ale který se však primárně zaměřuje na zvláštní 
+případ výplaty vypořádacího podílu jinak než v penězích. 
+2. Cílem této interpretace je sjednocení účetního řešení uvolněného a vypořádacího podílu 
+pro scénáře, které vycházejí z právní úpravy uvolněného a vypořádacího podílu obsažené 
+zejména v § 36 a v § 212‒215 zákona o obchodních korporacích („ZOK“).  
+3. Tato právní úprava vyvolává následující účetní otázky: 
+a) Jak se účtuje o vzniku uvolněného podílu? 
+b) Jak se účtuje o prodeji uvolněného podílu? 
+c) Jak se účtuje o vzniku vypořádacího podílu? 
+d) Jak se účtuje o úhradě vypořádacího podílu, zejména v případě, kdy se nepodaří 
+prodat uvolněný podíl (§ 214 odst. 1), kdy je uvolněný podíl nepřevoditelný jeho 
+převoditelnost vylučuje společenská smlouva (§ 213 odst. 1)? 
+e) Jak se účtuje o převodu uvolněného podílu na společníky, poté, co byl vypořádací 
+podíl vyplacen (§ 215 odst. 1)? 
+f) Jak se účtuje snížení vkladu společníka, jehož účast ve společnosti zanikla, včetně 
+situace, kdy výše vypořádacího podílu nebude odpovídat podílu na účetní hodnotě 
+vlastního kapitálu, přičemž může nastat i situace že disponibilní zdroje ve vlastním 
+kapitálu budou nižší než vypořádací podíl? 
+g) Jak se při vypořádání družstevníka postupuje v případě družstev? 
+h) Jak se postupuje, když vypořádání společníka je spjato s přistoupením nového 
+společníka? 
+
+ 
+ I-46 Účetní řešení uvolněného a vypořádacího podílu v s.r.o.  
+a vypořádacího podílu v družstvu 
+ 
+© Národní účetní rada 
+Schválený text interpretace 
+2/7 
+4. Z důvodu pokrytí problematiky nepeněžní úhrady vypořádacího podílu v českých účetních 
+standardech tato interpretace pokrývá pouze vypořádání společníka v penězích. 
+Řešení: 
+Vypořádání prostřednictvím uspokojení z výtěžku z prodeje uvolněného podílu (postup 
+dle § 212 odst. 1 a § 213) 
+5. Je-li při vypořádání společníka postupováno dle § 213, o zániku účasti společníka ve 
+společnosti (tj. o uvolnění podílu) se neúčtuje. Uvolnění podílu tedy nevede k zaúčtování 
+nebo snížení vlastního kapitálu, vykázání dluhu vůči společníkovi ani k vykázání 
+pohledávky z očekávaného prodeje uvolněného podílu. To se netýká případných změn 
+v podrozvahové evidenci, jejichž cílem je označení dosavadního „běžného“ podílu 
+společníka na základním kapitálu za uvolněný. 
+6. V okamžiku prodeje uvolněného podílu se zaúčtuje dluh vůči společníkovi, a to ve výši 
+výtěžku z tohoto prodeje sníženém o náklady a započtené pohledávky dle § 213 odst. 3, 
+pokud toto snížení účetní jednotka provede. V okamžiku prodeje je také zaznamenána 
+obdržená protihodnota resp. nárok na její obdržení (pohledávka). 
+7. Je-li k vyplacení společníkovi určena jiná částka než částka dle odst. 6 (např. v důsledku 
+tzv. korektivu spravedlnosti na základě zákona nebo rozhodnutí soudu), tento rozdíl se 
+zúčtuje přímo proti vlastnímu kapitálu, tj. nikoli jako výnos nebo náklad běžného období. 
+Vypořádání bez prodeje uvolněného podílu (postup dle § 214) 
+8. Je-li při vypořádání společníka postupováno dle § 213, okamžikem marného uplynutí 
+lhůty v § 214 společnost vykáže dluh z vypořádacího podílu vypočteného dle § 36 a 
+zároveň ve stejné výši vykáže vlastní podíl jako snížení vlastního kapitálu (řádek A.I.2 
+rozvahy).  
+9. Je-li při vypořádání společníka postupováno rovnou dle § 214 (tj. v situaci, kdy není 
+možné převést uvolněný podíl dle § 213 odst. 1), účetní jednotka postupuje dle 
+předchozího odstavce již k datu zániku účasti společníka ve společnosti. 
+Přechod uvolněného podílu po vyplacení vypořádacího podílu (postup dle § 215 odst. 1 
+první část věty) 
+10. Pokud společnost rozhodne o přechodu uvolněného podílu na zbývající společníky dle 
+§ 215 odst. 1, odúčtuje vlastní podíl představovaný nabytým uvolněným podílem dle 
+předchozí části a zaznamená pohledávky za společníky v souladu s § 215 odst. 1. Mají-li 
+společníci společnosti uhradit více, než kolik činí účetní hodnota vlastního (uvolněného) 
+podílu, přeplatek bude vykázán jako ážio.  
+Zánik podílu (postup dle § 215 odst. 1 druhá část věty) 
+11. Zanikne-li uvolněný podíl z důvodu, že nedošlo k jeho přechodu na zbývající společníky a 
+účetní jednotka nepoužije postup upravený v odst. 13 až 16, základní kapitál se sníží o 
+vklad společníka, jemuž zanikla účast. Případná zbývající účetní hodnota uvolněného 
+
+ 
+ I-46 Účetní řešení uvolněného a vypořádacího podílu v s.r.o.  
+a vypořádacího podílu v družstvu 
+ 
+© Národní účetní rada 
+Schválený text interpretace 
+3/7 
+podílu, o níž nebylo možné ponížit základní kapitál, poníží ostatní položky vlastního 
+kapitálu, které takto ponížit lze (např. nerozdělené zisky minulých let, ostatní kapitálové 
+fondy, ážio, případně rezervní fondy, není-li to v rozporu se stanovami nebo zákonem; 
+dále také „dostupné položky vlastního kapitálu“). Položky, které ponížit nelze, jsou 
+zejména: zbývající základní kapitál připadající na vklady ostatních společníků, fondy, 
+jejichž tvoření a čerpání se řídí právními předpisy nebo stanovami, nebo fondy 
+z přecenění majetku, které se váží ke konkrétním položkám v aktivech (např. 
+k realizovatelným cenným papírům). Zánik uvolněného podílu, resp. vznik vypořádacího 
+podílu nesmí být vykázán jako náklad běžného období. 
+12. Pokud budou vyčerpány všechny dostupné položky vlastního kapitálu, zbývající částka se 
+vykáže jako ztráta minulých let. 
+Zvláštní postup při nahrazení společníka novým společníkem 
+13. Zanikne-li uvolněný podíl z důvodu, že nedošlo k jeho přechodu na zbývající společníky a 
+zároveň účetní jednotka očekává, že na místo původního společníka nastoupí společník 
+nový, účetní jednotka poté, co podíl vypořádávaného společníka zanikne, poníží položku 
+vlastního podílu (viz odst. 8 a 9 této interpretace) pouze o snižovaný základní kapitál, 
+případně pak další fondy ve vlastním kapitálu, vyžadují-li to stanovy; zbytek ponechá 
+nezkompenzovaný, tj. neponíží o něj zbývající položky vlastního kapitálu, jak je jinak 
+dále vyžadováno v odst. 11 a 12 (tento zbytek je dále označován jako „nezkompenzovaná 
+část zaniklého vlastního podílu“). Následné zvýšení vlastního kapitálu v důsledku 
+přistoupení nového společníka se pak promítne do zvýšení základního kapitálu, dalších 
+fondů, vyžadují-li tak stanovy a zbytek jako eliminace nezkompenzované části zaniklého 
+vlastního podílu. 
+14. Pokud postupem dle předchozího odstavce nezkompenzovaná část zaniklého vlastního 
+podílu zcela nezanikne, upraví účetní jednotka o její zbytek položky vlastního kapitálu 
+postupem uvedeným v odst. 11 a 12. Pokud část celkového zvýšení vlastního kapitálu 
+připadající na nezkompenzovanou část zaniklého vlastního podílu ji převýší, vykáže se 
+tento rozdíl jako ážio. 
+15. Účetní jednotka může využít postupu dle odst. 13 a 14, pokud se celá transakce (zánik 
+podílu vypořádávaného společníka a přistoupení nastupujícího společníka ke vkladové 
+povinnosti) odehraje v rámci jednoho účetního období. Pokud k zániku podílu 
+vypořádávaného společníka a k přistoupení nového společníka ve stejném období nedojde, 
+účetní jednotka může postupovat dle odst. 13 a 14 jen v případě, byl-li již započat proces, 
+jehož cílem je nahrazení vypořádaného společníka a pokud do okamžiku sestavení účetní 
+závěrky nastupující společník skutečně přistoupil ke vkladové povinnosti. V takovém 
+případě bude nezkompenzovaná část zaniklého vlastního podílu vykázána v rozvaze na 
+zvláštním, pro tyto účely vytvořeném řádku v pasivech v rámci části „Ážio a kapitálové 
+fondy“ (např. jako „A.II.2.6 Dočasné snížení z vypořádání společníka“), s příslušným 
+vysvětlením v příloze účetní závěrky. Během následujícího účetního období musí být tato 
+položka vypořádána postupem dle odst. 13 a 14. 
+
+ 
+ I-46 Účetní řešení uvolněného a vypořádacího podílu v s.r.o.  
+a vypořádacího podílu v družstvu 
+ 
+© Národní účetní rada 
+Schválený text interpretace 
+4/7 
+16. Způsob následného zúčtování nezkompenzované části zaniklého vlastního podílu (ať 
+nevykázané v účetní závěrce dle odst. 13 nebo vykázané a klasifikované v souladu 
+s odst. 15) proti vnesenému vkladu nastupujícího společníka, je vhodné upravit vnitřním 
+předpisem a tento postup popsat v příloze účetní závěrky. Zároveň je třeba se ujistit, že 
+daný postup není v rozporu se stanovami nebo společenskou smlouvou. 
+Družstva 
+17. Účetní řešení zániku podílu člena družstva a vzniku jeho nároku na vypořádací podíl je 
+analogií zániku uvolněného podílu popsaného v odst. 11 resp. 13. K datu zániku členství 
+tak družstvo zachytí dluh z vypořádacího podílu vypočteného dle § 36, § 623, § 625 a 
+§ 748 ZOK a zároveň ve stejné výši zaznamená snížení vlastního kapitálu buď v souladu 
+s odstavci 11 a 12 nebo odstavci 13 až 16. 
+18. Z terminologického pohledu se základní kapitál se v případě družstev nesnižuje o „vklad“, 
+ale o příslušnou část připadající na člena družstva, jehož podíl zaniká. 
+Zdůvodnění: 
+Vypořádání prostřednictvím uspokojení z výtěžku z prodeje uvolněného podílu (postup 
+dle § 212 odst. 3 a § 213) 
+19. Základ tohoto řešení vychází z § 213 odst. 2 a 3, podle kterého vypořádací podíl, který 
+musí být bez zbytečného odkladu vyplacen, je tvořen výtěžkem z prodeje uvolněného 
+podílu. Tím je modifikován dopad ustanovení § 36 odst. 1, dle kterého právo na 
+vypořádání vzniká již v okamžiku zániku účasti společníka. Toto právo není za 
+předpokladu postupu dle § 213 v okamžiku zániku účasti společníka vymahatelnou 
+pohledávkou (za předpokladu splnění lhůt v § 214 odst. 1), což znamená, že z pohledu 
+společnosti není dluhem, o kterém by mělo být účtováno. Jinými slovy, postup dle § 213 
+deaktivuje právo na vypořádací podíl jako právo na výplatu části vlastního kapitálu dle 
+§ 36, protože ho nahradí právem na uspokojení výtěžkem z prodeje uvolněného podílu. 
+20. Dluh v účetnictví tedy může být vykázán až poté, co je dosaženo výtěžku z prodeje, tedy 
+až v důsledku prodeje, ne dříve. 
+21. Je třeba zdůraznit, že společnost nenabývá uvolněný podíl. Ten je nadále v majetku 
+společníka, který s ním však nemůže disponovat; společnost jej prodává jako zástupce 
+v souladu s § 213 odst. 1 ZOK. Právo na vypořádací podíl je jediným právem spojeným 
+s uvolněným podílem, na které má bývalý společník právo; toto latentně s podílem 
+spojené právo se konkretizuje v pohledávku okamžikem prodeje uvolněného podílu. Do 
+okamžiku prodeje tak společnost nemůže společníkovi, jehož účast zanikla, cokoli dlužit 
+z titulu vypořádání jeho účasti. Ostatně ani z ekonomického pohledu není možné, aby 
+zároveň existoval podíl (i když nelze vykonávat práva s ním spojená) a dluh vyvolaný 
+zánikem tohoto podílu, jakkoli právní předpis vedle sebe uznává existenci uvolněného 
+podílu i vypořádacího podílu (práva na vypořádání).  
+
+ 
+ I-46 Účetní řešení uvolněného a vypořádacího podílu v s.r.o.  
+a vypořádacího podílu v družstvu 
+ 
+© Národní účetní rada 
+Schválený text interpretace 
+5/7 
+22. Obtížnost účetního řešení tak spočívá v právním konceptu uvolněného podílu. Jedná se o 
+existující podíl (související vklad je stále součástí základního kapitálu) neexistujícího 
+společníka (účast společníka ve společnosti již zanikla). Účetní řešení tedy musí 
+respektovat, že podíl stále existuje, byť jako uvolněný, a že účetní jednotka tento 
+uvolněný podíl nenabyla. To vylučuje vykázání uvolněného podílu jako vlastního podílu 
+v účetnictví společnosti, ať už v aktivech (což je však v případě vlastních podílů navíc 
+obecně zakázáno) nebo jako snížení vlastního kapitálu. 
+23. S ohledem na výše uvedené, nemůže postup dle § 213 ZOK vést v okamžiku zániku účasti 
+společníka ve společnosti ke vzniku pohledávky z prodeje uvolněného podílu. Taková 
+pohledávka může vzniknout až v momentě, kdy se takový prodej uskuteční. Dřívější 
+vykázání takové pohledávky, tj. neexistující pohledávky, není v účetnictví možné. 
+Vypořádání bez prodeje uvolněného podílu (postup dle § 214) 
+24. Na rozdíl od postupu dle § 213, postup dle § 214 vede k vykázání dluhu z vypořádacího 
+podílu, neboť se jedná o již vymahatelný dluh s jasnou splatností, jinými slovy, 
+ustanovení § 214 aktivuje (v případě selhání postupu dle § 213) resp. potvrzuje (pokud 
+postup dle § 213 ani neproběhl) právo společníka na vypořádací podíl dle § 36 odst. 1. 
+25. Jakkoli zákon stále hovoří o „uvolněném podílu“, vznikem povinnosti ve smyslu 
+předchozího odstavce za tento podíl fakticky zaplatit, se ekonomicky vzato majitelem 
+tohoto podílu stává společnost. Proto tento podíl bude vykázán v účetnictví společnosti, 
+v souladu s účetními pravidly jako snížení vlastního kapitálu, nikoli jako aktivum (viz 
+příloha č. 1 vyhlášky č. 500/2002 Sb.). 
+26. Výše uvedené řešení odpovídá úpravě nabytí uvolněného podílu dle Českého účetního 
+standardu č. 12 odst. 3.2.2. 
+Přechod uvolněného podílu po vyplacení vypořádacího podílu (postup dle § 215 odst. 1 
+první část věty) 
+27. Uvedeným postupem společníci zvyšují vlastní kapitál společnosti (což se projeví 
+eliminací vlastního podílu vykázaného v záporné částce z vlastního kapitálu) a případně 
+posilují své stávající podíly (ať už v procentuálním nebo absolutním vyjádření). Protože se 
+jedná o analogii vkladu do společnosti, částka, kterou mají společníci uhradit nad hodnotu 
+uvolněného podílu, musí být vykázána jako ážio (jedná se v podstatě o dodatečný 
+příplatek), nikoli jako výnos. 
+Zánik podílu (postup dle § 215 odst. 1 druhá část věty) 
+28. Uvedené řešení představuje konečné vypořádání se společníkem, jemuž zanikla účast a 
+jehož podíl nikdo nekoupil, ani nedošlo k jeho přechodu na společníky. Jedná se o 
+„pouhou“ úpravu položek vlastního kapitálu: vlastní kapitál již o uvolněný podíl snížen je, 
+jen je vykazován jako jediná záporná položka. Po jeho zániku je třeba tuto položku zcela 
+z účetnictví odstranit, což nelze provést jinak, než ji započíst proti zbývajícím položkám 
+
+ 
+ I-46 Účetní řešení uvolněného a vypořádacího podílu v s.r.o.  
+a vypořádacího podílu v družstvu 
+ 
+© Národní účetní rada 
+Schválený text interpretace 
+6/7 
+vlastního kapitálu. Protože se jedná o výplatu vlastního kapitálu ze společnosti, nelze toto 
+snížení zaznamenat jako náklad. 
+29. Částka, kterou nebude možné uplatit proti žádným dostupným částem vlastního kapitálu, 
+bude vykázána jako ztráta minulých let jako prosté reziduum, které nemá samo o sobě 
+žádného dalšího významu, jedná se o definitivní snížení vlastního kapitálu, na které nic 
+nenavazuje. Taková položka pak může postupně přirozeně zaniknout kumulováním 
+budoucích zisků účetní jednotky. 
+Zvláštní postup při nahrazení společníka vypořádacím podílem a následným vkladem 
+30. Interpretace připouští výjimku z postupu dle odst. 11 a 12 v případě, kdy vypořádání 
+společníka je kombinováno s přistoupením následného společníka, tj. kdy institut 
+vypořádacího podílu je využit jako nástroj pro výměnu osoby na pozici společníka. Pak by 
+takový postup měl mít minimální zásah do struktury vlastního kapitálu (obdobně, jako je 
+tomu při využití uvolněného podílu k výměně společníků). Za tímto účelem tedy 
+intepretace připouští, že záporná položka ve vlastním kapitálu z titulu vlastního kapitálu 
+nemusí být bezprostředně po zániku vlastního podílu vypořádána s ostatními položkami 
+vlastního kapitálu a může být ponechána „celistvá“ dokud nepřistoupí nový společník, 
+proti jehož vkladu bude konečně vypořádána. Klasifikování nezkompenzované části 
+zaniklého vlastního podílu je pouze pro účely jeho vykázání na konci roku, není tedy 
+nutné tuto položku nijak přeúčtovávat. 
+31. Pro účely klasifikování nezkompenzované části zaniklého vlastního podílu v rozvaze se 
+v souladu s §4 odst.  1 vyhlášky č. 500/2002 Sb. navrhuje, aby tato položka byla vykázána 
+na novém samostatném řádku s názvem, který vyjádří dočasnost daného snížení vlastního 
+kapitálu. 
+32. Podmínkou pro využití tohoto postupu je, aby opravdu šlo o výměnu společníků. Proto 
+interpretace vyžaduje, aby k přistoupení společníka došlo ještě před okamžikem sestavení 
+účetní závěrky, tj. aby v okamžiku jejího sestavení přistoupení bylo jisté. Nepřipouští se, 
+aby nevypořádání zaniklého vlastního podílu s ostatními položkami vlastního kapitálu 
+ovlivnilo více než jednu účetní závěrku.  
+33. Protože struktura vlastního kapitálu může být do značné míry ovlivněna stanovami a 
+rozhodnutími nejvyššího orgánu (typicky při stanovení části vnesených hodnot, které 
+budou uznány jako zvýšení základního kapitálu, stanovení ážia, rozdělování zisku, 
+přidělování do fondů ve vlastním kapitálu) než účetními pravidly a jejich aplikací 
+statutárním orgánem, doporučuje se ujistit se, zda úpravy vlastního kapitálu vyplývající 
+z této interpretace nejsou v rozporu se stanovami, případně může být vhodné postup dle 
+odst. 13 až 15 ve stanovách upravit. 
+Družstva 
+34. V případě družstev ZOK neumožňuje vypořádání se se členem družstva pomocí 
+uvolněného podílu. Proto se tyto účetní postupy družstev netýkají. Pro družstva jsou tedy 
+
+ 
+ I-46 Účetní řešení uvolněného a vypořádacího podílu v s.r.o.  
+a vypořádacího podílu v družstvu 
+ 
+© Národní účetní rada 
+Schválený text interpretace 
+7/7 
+relevantní až postupy počínaje odstavcem 11 s tím, že místo zaniklého uvolněného podílu 
+lze hovořit pouze o zaniklém podílu, přičemž účetní řešení je shodné. 
+35. Obdobnost účetních pravidel pro vypořádací podíl mezi s.r.o. a družstvem je deklarována 
+také v ČÚS 12 odst. 3.3.5.  
+36. O vypořádacím podílu by mělo být účtováno „k“ datu zániku členství (jedná se o operaci 
+s tímto datem). To neznamená, že to je „v“ okamžiku zániku členství (nemusí být 
+účtováno ten den). Pozdější zjištění výše vypořádacího podílu (např. k poslednímu dni 
+účetního období dle § 623) s tím tedy není v rozporu. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Datum prvního schválení  
+ 
+18. června 2021 
+této interpretace NÚR: 
+ 
+Datum poslední aktualizace   
+– 
+této interpretace NÚR: 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Zpracovatel intepretace: 
+ 
+Ing. Jiří Pelák, Ph.D. 
+ 
+ 
+ 
+ 
+ 
+Komora auditorů ČR

@@ -1,0 +1,120 @@
+ZÁKON: NÚR I-10
+NAZEV: Interpretace Národní účetní rady I-10 – Okamžik účtování o pohledávce z titulu příslušenství k pohledávce u věřitele
+URL: http://nur.cz/wp-content/uploads/2020/10/I-10_updated.pdf
+
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+1/3 
+Interpretace NÚR 
+I–10 
+Okamžik účtování o pohledávce z titulu příslušenství k pohledávce u věřitele 
+Účetní jednotky jsou povinny vést účetnictví tak, aby účetní závěrka sestavená na jeho základě 
+podávala věrný a poctivý obraz předmětu účetnictví a finanční situace účetní jednotky (zákon 
+č. 563/1991 Sb., o účetnictví, § 7, odst. 1). Účetní jednotky účtují o stavu a pohybu majetku a jiných 
+aktiv, závazků a jiných pasiv, dále o nákladech a výnosech a o výsledku hospodaření. (zákon 
+č. 563/1991 Sb., o účetnictví, § 2, Předmět účetnictví).  
+Tato interpretace musí být aplikována v kontextu s Předmluvou Národní účetní rady 
+k interpretacím českých účetních standardů. 
+Odkaz: ČÚS č. 019 – NÁKLADY A VÝNOSY 
+ 
+Popis problému 
+1. Pro účely této Interpretace jsou za příslušenství považovány úroky, resp. poplatky z prodlení 
+podle obchodního, resp. občanského zákoníku a smluvní sankce, které má při splnění 
+podmínek pro jejich uplatnění věřitel právo uplatnit a dlužník povinnost uhradit. 
+ 
+2. Na vrub účtové třídy 3 a ve prospěch účtové skupiny 64 se účtují pohledávky z titulu úroků, 
+resp. poplatků z prodlení a dalších smluvních sankcí ve smyslu příslušných ustanovení 
+obchodního, resp. občanského zákoníku (popř. jiného právního předpisu, např. zákon 
+směnečný). V praxi často vzniká otázka, kdy nastává okamžik těchto účetních případů. 
+ 
+3. Na základě smluv o postoupení pohledávek jsou postupovány i pohledávky po lhůtě splatnosti, 
+v některých případech je zároveň postupováno příslušenství, tedy i právo na uplatnění úroků, 
+poplatků z prodlení a dalších smluvních sankcí za dobu, kdy byl vlastníkem pohledávky 
+postupitel. 
+ 
+4. V praxi vzniká otázka:  
+a) kdy účtovat o vzniku pohledávky z titulu příslušenství a o jejím postoupení;  
+b) jak ocenit pohledávku z titulu příslušenství;  
+c) zda je ke dni postoupení třeba vyčíslit úrok, poplatek z prodlení a další smluvní sankce a 
+účtovat o nich. 
+ 
+Řešení 
+5. O pohledávce z titulu příslušenství ve prospěch výnosů věřitel účtuje nejdříve ke dni, kdy využil 
+svého práva požadovat příslušenství a uplatnil svůj požadavek vůči dlužníkovi. Za uplatnění 
+svého práva a sdělení této skutečnosti dlužníkovi se považuje i uplatnění příslušenství v rámci 
+soudního či jiného vymáhání pohledávky. To za předpokladu, že je dostatečná míra jistoty, že 
+bude pohledávka z příslušenství splacena. 
+ 
+
+      Interpretace NÚR I-10 Okamžik účtování o pohledávce z titulu příslušenství k pohledávce u 
+věřitele 
+ 
+ 
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+2/3 
+6. Věřitel účtuje v rozsahu, v jakém je oprávněn příslušenství požadovat a současně má v úmyslu 
+toto právo uplatnit, přičemž z hlediska ocenění pohledávky z příslušenství je nutné, aby celková 
+hodnota pohledávky s příslušenstvím nepřevýšila částku, kterou lze při dostatečné míře jistoty 
+od dlužníka získat. 
+ 
+7. O závazku z titulu příslušenství na vrub provozních nákladů se doporučuje, aby účetní jednotka 
+účtovala ke dni, kdy bylo uplatněno právo věřitele požadovat příslušenství, příslušenství věřitel 
+vyčíslil a sdělil svůj požadavek dlužníkovi. Do této doby je třeba zvažovat míru rizika úspěšného 
+uplatnění příslušenství věřitelem a případně účtovat o rezervách. 
+ 
+8. Postupovat je možno pohledávky po lhůtě splatnosti bez příslušenství, což znamená, že 
+nebude postoupeno právo na uplatnění příslušenství za dobu, kdy vlastnil pohledávku 
+postupitel. Právo na uplatnění příslušenství vzniklého za dobu, kdy pohledávku vlastnil, má 
+nadále postupitel a o pohledávce z titulu příslušenství bude účtovat pouze v případě, že využije 
+tohoto práva a bude požadovat příslušenství po dlužníkovi. 
+ 
+9. Postupovat je možno pohledávky po lhůtě splatnosti také včetně příslušenství, tedy včetně 
+práva na uplatnění příslušenství za dobu prodlení, kdy vlastníkem pohledávky byl postupitel. 
+Pokud právo na příslušenství nebylo u dlužníka uplatněno, příslušenství nebylo vyčísleno a 
+postupitel o pohledávce z titulu příslušenství před převodem pohledávky neúčtoval, neúčtuje 
+ani o postoupení tohoto práva, neboť není zřejmé, zda je takováto pohledávka skutečným 
+aktivem a zda postupník tohoto práva využije. 
+ 
+10. Postupovat je možno pohledávky po lhůtě splatnosti a zároveň již uplatněné pohledávky z 
+titulu příslušenství. Pokud o pohledávce z titulu příslušenství bylo u postupitele účtováno dle 
+bodů 5 a 6 této Interpretace, pohledávka z titulu příslušenství byla vyčíslena a uplatněna vůči 
+dlužníkovi, pak taková pohledávka z titulu příslušenství musí být ve smlouvě o postoupení 
+uvedena a vyčíslena tak, aby byla smlouva dostatečně určitá. O postoupení pohledávky z titulu 
+příslušenství je pak u postupitele i postupníka v souvislosti s postoupením účtováno. Vhodné 
+je, aby ve smlouvě o postoupení byla vyčíslena zvlášť cena za postoupenou pohledávku a zvlášť 
+za postoupenou pohledávku z titulu příslušenství. Není-li cena takto rozlišena, doporučuje se 
+vycházet z poměru hodnot postupovaných pohledávek. 
+ 
+Zdůvodnění 
+11. V souladu se soukromým právem je plně v dispozici věřitele, zda po dlužníkovi plnění z titulu 
+příslušenství bude, či nebude požadovat, to je obvykle závislé na bonitě dlužníka. Pokud není 
+dlužník schopen splatit vlastní pohledávku, zřejmě nebude také schopen splatit příslušenství. V 
+takovém případě je splnění podmínek pro vznik příslušenství i jeho případné uplatnění vůči 
+dlužníkovi mimo předmět účetnictví, neboť za těchto okolností takové skutečnosti nezpůsobí 
+přírůstek majetku a výnos. Vzhledem k tomu, že uplatnění příslušenství vůči dlužníkovi je plně 
+v dispozici věřitele, lze předpokládat, že věřitel počínající si s péčí řádného hospodáře uplatní 
+příslušenství a účtuje o pohledávce z titulu příslušenství v případech, kdy je předpoklad, že 
+pohledávka bude uhrazena, tedy za předpokladu dostatečné míry jistoty, že je skutečným 
+aktivem a její uplatnění skutečným výnosem. 
+
+      Interpretace NÚR I-10 Okamžik účtování o pohledávce z titulu příslušenství k pohledávce u 
+věřitele 
+ 
+ 
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+3/3 
+ 
+Datum prvního schválení 
+této interpretace NÚR: 
+29. ledna 2007 
+Datum poslední aktualizace 
+této interpretace NÚR: 
+1. dubna 2019 
+Zpracovatel interpretace: 
+Ing. Jiří Škampa 
+Mgr. Edita Ševcovicová 
+Komora daňových poradců ČR 
+Kozí 4 
+602 00 Brno

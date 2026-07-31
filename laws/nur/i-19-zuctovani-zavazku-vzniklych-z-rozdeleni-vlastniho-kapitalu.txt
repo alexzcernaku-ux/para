@@ -1,0 +1,152 @@
+ZÁKON: NÚR I-19
+NAZEV: Interpretace Národní účetní rady I-19 – Zúčtování závazků vzniklých z rozdělení vlastního kapitálu
+URL: http://nur.cz/wp-content/uploads/2020/10/I-19_updated.pdf
+
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+1/3 
+Interpretace NÚR 
+I–19 
+Zúčtování dluhů vzniklých z rozdělení vlastního kapitálu 
+Účetní jednotky jsou povinny vést účetnictví tak, aby účetní závěrka sestavená na jeho základě 
+podávala věrný a poctivý obraz předmětu účetnictví a finanční situace účetní jednotky (zákon 
+č. 563/1991 Sb., o účetnictví, § 7, odst. 1). Účetní jednotky účtují o stavu a pohybu majetku a jiných 
+aktiv, závazků a jiných pasiv, dále o nákladech a výnosech a o výsledku hospodaření. (zákon 
+č. 563/1991 Sb., o účetnictví, § 2, Předmět účetnictví).  
+Tato interpretace musí být aplikována v kontextu s Předmluvou Národní účetní rady 
+k interpretacím českých účetních standardů. 
+ 
+ 
+Popis problému 
+1. Cílem této Interpretace je vyjasnit a sjednotit postup účtování ve vztahu k dluhům, které 
+vznikly rozdělením vlastního kapitálu obchodních korporací a družstev, tzn., byly zaúčtovány 
+při svém vzniku v souladu s účetními postupy na vrub některé ze složek vlastního kapitálu. 
+Nejedná se tedy o dluhy, které byly při svém vzniku účetně zachyceny souvztažným zápisem s 
+výsledkovými účty nebo souvztažně s nárůstem aktiv či úbytkem cizích a ostatních pasív. 
+Dluhy zde uvažované a vzniklé rozdělením vlastního kapitálu jsou např. dluhy z titulu 
+přiznaných podílů na zisku (zde odkazujeme na Interpretaci NÚR I-15), dluhy vyplývající z 
+vracení příplatků nad rámec základního kapitálu, dále např. dluhy z vypořádacích podílů členů 
+družstva (účtované jako snížení vlastního kapitálu – viz ČÚS č. 012 – Změny vlastního kapitálu, 
+odst. 3.3.2), nebo dluhy vyplývající z majetkových podílů oprávněných osob, vzniklé rozdělením 
+vlastního kapitálu podle zvláštního zákona (č. 42/1992 Sb., o úpravě majetkových vztahů a 
+vypořádání majetkových nároků v družstvech). 
+ 
+2. Předmětem této Interpretace je účetní řešení takového dluhu, původně vzniklého z rozdělení 
+vlastního kapitálu dané účetní jednotky, u něhož účetní jednotka na základě vlastního právního 
+rozboru dospěje k závěru, že jsou současně naplněny následující podmínky: 
+- 
+nároky odpovídající tomuto dluhu jsou promlčeny, 
+- 
+s dostatečně vysokou mírou pravděpodobnosti nároky, které dluh zachycuje, nebudou 
+plněny, 
+- 
+další evidence tohoto dluhu v cizích pasivech by byla v rozporu s požadavkem věrného a 
+pravdivého účetního obrazu. 
+ 
+3. Případné zúčtování tohoto dluhu (jeho účetním vyřazením z cizích pasiv) nemá vliv na právní 
+stav dluhu. Například promlčením určitého nároku dotyčný nárok obvykle nezaniká, dochází 
+pouze k jeho právnímu oslabení. Účetní jednotce, která eviduje ve svých dluzích takové 
+promlčené nároky, však nic nebrání v tom, aby je plnila, případně aby s věřitelem uzavřela 
+dohodu o změně obsahu závazku podle § 1902 občanského zákoníku. Pokud však na základě 
+smluvního ujednání dojde k právnímu zániku určité části dluhu, pak se nejedná o případ 
+zúčtování dluhu, řešený touto Interpretací (ale o transakci řešenou v ČÚS č. 019 – viz bod 11). 
+
+                         Interpretace NÚR I-19 Zúčtování závazků vzniklých z rozdělení vlastního kapitálu 
+ 
+ 
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+2/3 
+Řešení 
+4. Dluh vzniklý z rozdělení vlastního kapitálu, o jehož vyřazení bylo účetní jednotkou za výše 
+uvedených podmínek rozhodnuto, bude zúčtován přímo proti vlastnímu kapitálu, a to ve 
+prospěch jeho samostatně určené složky (podle charakteru závazku a podle struktury vlastního 
+kapitálu účetní jednotky). 
+ 
+5. Účetní jednotka vyřazení promlčeného dluhu, vzniklého z rozdělení vlastního kapitálu, vykáže v 
+účetní závěrce, kterou předkládá ke schválení nejvyššímu orgánu účetní jednotky (uvede jej v 
+přehledu o změnách vlastního kapitálu a zároveň jej popíše v příloze jako podmíněný závazek). 
+ 
+6. Protože současné právní předpisy umožňují za určitých podmínek vlastní kapitál (resp. jeho 
+část či jednotlivé složky) rozdělit a vyplatit či vypořádat, upozorňujeme účetní jednotky (resp. 
+jejich statutární orgány a také auditory těchto účetních jednotek) na riziko odpovědnosti za 
+potenciální škody, způsobené případným následným plněním z takto navýšeného vlastního 
+kapitálu. Proto pokud by příslušná hodnota, navrácená do vlastního kapitálu, neměla být v 
+souladu s právním pojetím v budoucnu použitelná k přímému rozdělení vlastníkům, je vhodné 
+ji evidovat jako samostatně vymezenou složku vlastního kapitálu (např. u družstva v rámci 
+zajišťovacích fondů). 
+ 
+7. Dluh představující nárok na plnění z vlastního kapitálu se dále eviduje v knize podrozvahových 
+účtů, zůstává tedy evidován v účetnictví. Vyřazením dluhu z cizích pasiv jemu odpovídající 
+nárok nezaniká. 
+ 
+8. Pokud by poté, co byl dluh z titulu neuplatněného nároku na plnění z vlastního kapitálu 
+vyřazen z cizích pasiv, mělo dojít k jeho plnění, bude toto plnění účtováno na vrub vlastního 
+kapitálu. 
+ 
+9. Zde uvedený možný postup při účtování promlčených dluh z titulu neuplatněných nároků z 
+rozdělení vlastního kapitálu nelze použít na dluhy jiného druhu. 
+ 
+Zdůvodnění 
+10. Vykazování promlčeného dluhu, u něhož není předpoklad jeho plnění, nadále v cizích pasivech 
+účetní jednotky způsobuje určité zkreslení účetního obrazu a bezdůvodně zhoršuje ukazatele 
+finanční analýzy. Proto by měl být takový dluh z cizích pasiv vyřazen a dále sledován v knize 
+podrozvahových účtů – touto operací není dluh vyřazen z účetnictví, neboť kniha 
+podrozvahových účtů je podle zákona o účetnictví jednou z účetních knih. 
+ 
+11. České účetní předpisy vyřazení dluhu z titulu jeho promlčení neřeší. Pouze v ČÚS č. 019 – 
+Náklady a výnosy se uvádí v odst. 4.1.3., že právně zaniklé dluhy se vyúčtují ve prospěch 
+příslušného účtu ostatních výnosů. V případě uvažovaném v této Interpretaci se však nejedná o 
+případ právního zániku závazku, a dotyčné ustanovení ČÚS tedy na tento případ nelze 
+vztahovat. 
+ 
+
+                         Interpretace NÚR I-19 Zúčtování závazků vzniklých z rozdělení vlastního kapitálu 
+ 
+ 
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+3/3 
+12. Vzhledem k absenci definic pojmů v českých účetních předpisech je v tomto případě nutné 
+vycházet z obecné definice výnosů v účetní teorii, kde jsou tyto chápány jako „hrubé přírůstky 
+ekonomických užitků, které vznikají běžnými činnostmi účetní jednotky, jestliže tyto přírůstky 
+vedou ke zvýšení vlastního kapitálu odlišnému od jeho zvýšení v souvislosti s příspěvky 
+vlastníků“ (viz též Interpretaci NÚR I-15). 
+ 
+13. Vyřazení dluhu vzniklého z titulu předchozího rozdělení vlastního kapitálu, které není 
+podloženo žádným smluvním ujednáním mezi věřitelem a dlužníkem, by nemělo být účtováno 
+jako výnos, neboť není výsledkem činnosti účetní jednotky a ani nekompenzuje dříve vzniklé 
+náklady či navýšení aktiv. Pokud by nebyl tento dluh původně z vlastního kapitálu vyčleněn, 
+zůstala by jeho hodnota součástí vlastního kapitálu účetní jednotky. Proto je přípustné, aby 
+tyto dluhy, jež nebudou vypořádány, byly do vlastního kapitálu zpět převedeny. 
+ 
+ 
+Zapracování připomínek z vnějšího připomínkového řízení 
+ 
+JUDr. Marchal 
+Doporučuji zvážit tuto záležitost ohledně promlčení: dle soudní judikatury tam, kde došlo k 
+dohodě o vypořádání majetkových podílů z transformace, se promlčecí lhůta posuzuje dle 
+uzavřené dohody a neplatí obecná lhůta v transformačním zákoně. Domnívám se, že by i tato 
+situace měla být v materiálu nějak zmíněna. V těchto případech totiž mohou existovat i 
+pravomocná soudní rozhodnutí, že žaloba se zamítá z důvodů promlčení ještě před uplynutím 
+promlčecí lhůty v zákoně. 
+ 
+Vypořádání připomínky 
+V bodu 2 Interpretace je uvedeno, že skutečnost promlčení nároku (jako jednu z podmínek pro 
+zúčtování) vyhodnotí a stanoví účetní jednotka na základě vlastního právního rozboru. Právní 
+vyhodnocení promlčení určitého nároku, který je vyjádřen jako závazek z rozdělení vlastního 
+kapitálu, tedy není předmětem této Interpretace – povinnost správně vyhodnotit situaci podle 
+všech právních aspektů je na účetní jednotce. 
+ 
+ 
+ 
+ 
+Datum prvního schválení 
+této interpretace NÚR: 
+15. listopadu 2010 
+Datum poslední aktualizace 
+této interpretace NÚR: 
+1. dubna 2019 
+Zpracovatel interpretace: 
+Ing.Bohumír Holeček  
+Komora daňových poradců ČR

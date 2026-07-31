@@ -1,0 +1,948 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Zákoník — asistent pro účetnictví a daně</title>
+<style>
+  :root {
+    --ink: #1b2430;
+    --paper: #f7f5f0;
+    --paper-dim: #eeebe3;
+    --rule: #d8d2c4;
+    --accent: #2f5d50;
+    --accent-soft: #e4ece9;
+    --danger: #a1443a;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: 'Iowan Old Style', 'Georgia', serif;
+  }
+  .app { display: flex; min-height: 100vh; }
+
+  /* --- Sidebar: konverzace podle klienta --- */
+  .sidebar {
+    flex: 0 0 220px;
+    border-right: 1px solid var(--rule);
+    background: var(--paper-dim);
+    padding: 18px 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-family: -apple-system, sans-serif;
+  }
+  .sidebar-title {
+    font-family: 'Courier New', monospace;
+    font-size: 11px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--accent);
+  }
+  .sidebar-btn {
+    font-family: -apple-system, sans-serif;
+    font-size: 13px;
+    background: var(--ink);
+    color: var(--paper);
+    border: none;
+    border-radius: 5px;
+    padding: 8px 10px;
+    cursor: pointer;
+  }
+  .conv-list { overflow-y: auto; display: flex; flex-direction: column; gap: 10px; }
+  .conv-group-label {
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #8a8f98;
+    margin: 6px 0 3px;
+  }
+  .conv-item {
+    font-size: 13px;
+    padding: 7px 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: var(--ink);
+    line-height: 1.3;
+  }
+  .conv-item:hover { background: #e3ded0; }
+  .conv-item.active { background: var(--accent-soft); color: var(--accent); font-weight: 600; }
+
+  /* --- Hlavní sloupec --- */
+  .main-col { flex: 1; display: flex; flex-direction: column; min-width: 0; }
+  header {
+    border-bottom: 1px solid var(--rule);
+    padding: 22px 24px 16px;
+    text-align: center;
+  }
+  header .eyebrow {
+    font-family: 'Courier New', monospace;
+    font-size: 11px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--accent);
+  }
+  header h1 { margin: 6px 0 4px; font-size: 26px; font-weight: 600; }
+  header p { margin: 0 0 12px; font-size: 13px; color: #5a6270; font-family: -apple-system, sans-serif; }
+  .toolbar {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+  .toolbar button {
+    font-family: -apple-system, sans-serif;
+    font-size: 12.5px;
+    background: #fff;
+    border: 1px solid var(--rule);
+    border-radius: 6px;
+    padding: 6px 11px;
+    cursor: pointer;
+    color: var(--ink);
+  }
+  .toolbar button:hover { background: var(--accent-soft); border-color: var(--accent); }
+
+  main {
+    flex: 1;
+    max-width: 820px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    min-height: 0;
+  }
+  .thread { flex: 1; display: flex; flex-direction: column; gap: 20px; }
+  .msg { display: flex; gap: 10px; align-items: flex-start; }
+  .msg.user { flex-direction: row-reverse; }
+  .avatar {
+    flex: 0 0 auto;
+    width: 28px; height: 28px;
+    border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    font-family: -apple-system, sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    margin-top: 2px;
+  }
+  .msg.user .avatar { background: var(--ink); color: var(--paper); }
+  .msg.assistant .avatar { background: var(--accent-soft); color: var(--accent); border: 1px solid var(--rule); }
+  .msg-body { display: flex; flex-direction: column; gap: 6px; max-width: 82%; }
+  .msg.user .msg-body { align-items: flex-end; }
+  .bubble {
+    padding: 14px 16px;
+    border-radius: 10px;
+    font-family: -apple-system, sans-serif;
+    font-size: 15px;
+    line-height: 1.6;
+  }
+  .msg.user .bubble { background: var(--ink); color: var(--paper); border-radius: 10px 10px 2px 10px; }
+  .msg.assistant .bubble { background: #fff; border: 1px solid var(--rule); border-radius: 10px 10px 10px 2px; }
+  .bubble p { margin: 0 0 0.7em; }
+  .bubble p:last-child { margin-bottom: 0; }
+  .bubble h1, .bubble h2, .bubble h3 { margin: 0.8em 0 0.4em; font-family: 'Iowan Old Style', 'Georgia', serif; }
+  .bubble h1:first-child, .bubble h2:first-child, .bubble h3:first-child { margin-top: 0; }
+  .bubble h1 { font-size: 1.25em; }
+  .bubble h2 { font-size: 1.12em; }
+  .bubble h3 { font-size: 1.03em; }
+  .bubble ul, .bubble ol { margin: 0.4em 0 0.7em; padding-left: 1.4em; }
+  .bubble li { margin-bottom: 0.25em; }
+  .bubble code { background: var(--paper-dim); padding: 1px 5px; border-radius: 3px; font-size: 0.9em; }
+  .bubble strong { font-weight: 700; }
+  .predkontace { display: inline-flex; align-items: center; gap: 3px; }
+  .copy-btn {
+    border: none; background: none; cursor: pointer;
+    font-size: 12px; padding: 0 2px; line-height: 1;
+    opacity: 0.6;
+  }
+  .copy-btn:hover { opacity: 1; }
+  .cursor-blink {
+    display: inline-block; width: 7px; height: 1em;
+    background: var(--accent); vertical-align: text-bottom;
+    animation: blink 0.9s steps(1) infinite; margin-left: 1px;
+  }
+  @keyframes blink { 50% { opacity: 0; } }
+
+  .action-row { display: flex; gap: 6px; flex-wrap: wrap; }
+  .action-btn {
+    font-family: -apple-system, sans-serif;
+    font-size: 12px;
+    background: none;
+    border: 1px solid var(--rule);
+    border-radius: 6px;
+    padding: 3px 9px;
+    cursor: pointer;
+    color: #5a6270;
+  }
+  .action-btn:hover:not(:disabled) { background: var(--paper-dim); }
+  .action-btn.active { background: var(--accent-soft); border-color: var(--accent); color: var(--accent); }
+  .action-btn:disabled { cursor: default; opacity: 0.55; }
+
+  .sources { display: flex; flex-wrap: wrap; gap: 6px; max-width: 90%; }
+  .source-tag {
+    font-family: 'Courier New', monospace;
+    font-size: 11px;
+    background: var(--accent-soft);
+    color: var(--accent);
+    padding: 3px 8px;
+    border-radius: 2px;
+    border: 1px solid var(--rule);
+    cursor: pointer;
+  }
+  .source-tag:hover { background: #d9e6e1; }
+  .source-preview {
+    font-family: -apple-system, sans-serif;
+    font-size: 12.5px;
+    line-height: 1.5;
+    background: var(--paper-dim);
+    border: 1px solid var(--rule);
+    border-radius: 6px;
+    padding: 10px 12px;
+    white-space: pre-wrap;
+    max-width: 90%;
+  }
+  .source-preview a { color: var(--accent); }
+
+  .quick-prompts { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; margin: auto 0; }
+  .quick-prompt-chip {
+    font-family: -apple-system, sans-serif;
+    font-size: 13px;
+    background: #fff;
+    border: 1px solid var(--rule);
+    border-radius: 16px;
+    padding: 7px 14px;
+    cursor: pointer;
+    color: var(--accent);
+  }
+  .quick-prompt-chip:hover { background: var(--accent-soft); }
+
+  .composer { display: flex; gap: 8px; border-top: 1px solid var(--rule); padding-top: 16px; }
+  .composer textarea {
+    flex: 1; resize: none;
+    font-family: -apple-system, sans-serif; font-size: 15px;
+    padding: 12px 14px; border: 1px solid var(--rule); border-radius: 3px;
+    background: #fff; color: var(--ink); min-height: 48px;
+  }
+  .composer textarea:focus { outline: 2px solid var(--accent); outline-offset: -1px; }
+  .composer button {
+    font-family: -apple-system, sans-serif; font-size: 14px; font-weight: 600;
+    background: var(--ink); color: var(--paper); border: none;
+    padding: 0 22px; border-radius: 3px; cursor: pointer;
+  }
+  .composer button:disabled { opacity: 0.5; cursor: default; }
+  .disclaimer { font-family: -apple-system, sans-serif; font-size: 11.5px; color: #8a8f98; text-align: center; padding-bottom: 4px; }
+  .error-text { color: var(--danger); }
+  .empty { font-family: -apple-system, sans-serif; color: #8a8f98; text-align: center; font-size: 14px; margin-bottom: 6px; }
+
+  /* --- Modály --- */
+  .modal-backdrop {
+    display: none;
+    position: fixed; inset: 0;
+    background: rgba(27,36,48,0.45);
+    align-items: center; justify-content: center;
+    z-index: 100;
+    padding: 20px;
+  }
+  .modal-backdrop.open { display: flex; }
+  .modal {
+    background: var(--paper);
+    border-radius: 10px;
+    max-width: 560px;
+    width: 100%;
+    max-height: 85vh;
+    overflow-y: auto;
+    padding: 22px 24px;
+    font-family: -apple-system, sans-serif;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.25);
+  }
+  .modal h2 { font-family: 'Iowan Old Style', 'Georgia', serif; margin: 0 0 14px; font-size: 20px; }
+  .modal-close {
+    float: right; background: none; border: none; font-size: 18px; cursor: pointer; color: #8a8f98;
+  }
+  .field { margin-bottom: 14px; }
+  .field label { display: block; font-size: 13px; font-weight: 600; margin-bottom: 5px; }
+  .field select, .field input[type=text], .field input[type=number], .field textarea {
+    width: 100%; font-family: -apple-system, sans-serif; font-size: 14px;
+    padding: 8px 10px; border: 1px solid var(--rule); border-radius: 5px; background: #fff;
+  }
+  .field-checkbox { display: flex; align-items: center; gap: 8px; font-size: 14px; }
+  .modal .primary-btn {
+    font-family: -apple-system, sans-serif; font-size: 14px; font-weight: 600;
+    background: var(--ink); color: var(--paper); border: none;
+    padding: 9px 18px; border-radius: 5px; cursor: pointer;
+  }
+  .fav-item { border: 1px solid var(--rule); border-radius: 6px; padding: 10px 12px; margin-bottom: 10px; font-size: 13.5px; }
+  .fav-item .fav-q { font-weight: 700; margin-bottom: 4px; }
+  .fav-item .fav-a { color: #444; white-space: pre-wrap; margin-bottom: 6px; }
+  .fav-del { font-size: 12px; color: var(--danger); background: none; border: none; cursor: pointer; }
+  .calc-table { width: 100%; border-collapse: collapse; font-size: 13px; margin-top: 12px; }
+  .calc-table th, .calc-table td { border: 1px solid var(--rule); padding: 5px 8px; text-align: right; }
+  .calc-table th:first-child, .calc-table td:first-child { text-align: left; }
+  .radio-row { display: flex; gap: 16px; font-size: 14px; }
+  .browse-section { border-bottom: 1px solid var(--rule); padding: 10px 0; font-size: 13.5px; white-space: pre-wrap; }
+  .browse-section .browse-ref { font-weight: 700; color: var(--accent); }
+</style>
+</head>
+<body>
+
+<div class="app">
+  <aside class="sidebar">
+    <div class="sidebar-title">Konverzace</div>
+    <button class="sidebar-btn" id="new-conv-btn">+ Nová konverzace</button>
+    <div class="conv-list" id="conv-list"></div>
+  </aside>
+
+  <div class="main-col">
+    <header>
+      <div class="eyebrow">§ Interní nástroj — AM Studios</div>
+      <h1>Zákoník</h1>
+      <p>Ptej se na účetní a daňové zákony ČR — odpověď je vždy s odkazem na konkrétní paragraf.</p>
+      <div class="toolbar">
+        <button id="profile-btn">⚙ Profil</button>
+        <button id="favorites-btn">⭐ Oblíbené</button>
+        <button id="calc-btn">🧮 Odpisy</button>
+        <button id="browse-btn">📖 Prohlížet zákon</button>
+      </div>
+    </header>
+
+    <main>
+      <div class="thread" id="thread"></div>
+
+      <div class="composer">
+        <textarea id="input" placeholder="Napiš dotaz…" rows="2"></textarea>
+        <button id="send">Zeptat se</button>
+      </div>
+      <div class="disclaimer">Odpovědi vycházejí z nahraných zákonů, ale nejsou daňové poradenství. U důležitých rozhodnutí konzultuj s účetním/daňovým poradcem.</div>
+    </main>
+  </div>
+</div>
+
+<!-- Profil -->
+<div class="modal-backdrop" id="profile-modal-backdrop">
+  <div class="modal">
+    <button class="modal-close" data-close="profile-modal-backdrop">✕</button>
+    <h2>Profil</h2>
+    <p style="font-size:13px;color:#5a6270;margin-top:-8px;">Nastav jednou, asistent to zohlední v každé odpovědi.</p>
+    <div class="field">
+      <label>Právní forma</label>
+      <select id="profile-legal-form">
+        <option value="">— nevyplněno —</option>
+        <option value="OSVČ">OSVČ</option>
+        <option value="s.r.o.">s.r.o.</option>
+        <option value="a.s.">a.s.</option>
+        <option value="jiná právnická osoba">jiná právnická osoba</option>
+      </select>
+    </div>
+    <div class="field field-checkbox">
+      <input type="checkbox" id="profile-vat-payer">
+      <label for="profile-vat-payer" style="margin:0;">Plátce DPH</label>
+    </div>
+    <div class="field">
+      <label>Poznámka (obor, další kontext)</label>
+      <textarea id="profile-note" rows="2" placeholder="např. gastroprovoz, vede daňovou evidenci..."></textarea>
+    </div>
+    <button class="primary-btn" id="profile-save-btn">Uložit</button>
+  </div>
+</div>
+
+<!-- Oblíbené -->
+<div class="modal-backdrop" id="favorites-modal-backdrop">
+  <div class="modal">
+    <button class="modal-close" data-close="favorites-modal-backdrop">✕</button>
+    <h2>Oblíbené odpovědi</h2>
+    <div id="favorites-list"></div>
+  </div>
+</div>
+
+<!-- Kalkulačka odpisů -->
+<div class="modal-backdrop" id="calc-modal-backdrop">
+  <div class="modal">
+    <button class="modal-close" data-close="calc-modal-backdrop">✕</button>
+    <h2>Kalkulačka odpisů</h2>
+    <p style="font-size:13px;color:#5a6270;margin-top:-8px;">Deterministický výpočet podle § 30–32 zákona o daních z příjmů (586/1992 Sb.) — žádné dohady jazykového modelu.</p>
+    <div class="field">
+      <label>Vstupní cena (Kč)</label>
+      <input type="number" id="calc-price" placeholder="např. 450000">
+    </div>
+    <div class="field">
+      <label>Odpisová skupina</label>
+      <select id="calc-group">
+        <option value="1">1 — doba odpisování 3 roky</option>
+        <option value="2" selected>2 — doba odpisování 5 let</option>
+        <option value="3">3 — doba odpisování 10 let</option>
+        <option value="4">4 — doba odpisování 20 let</option>
+        <option value="5">5 — doba odpisování 30 let</option>
+        <option value="6">6 — doba odpisování 50 let</option>
+      </select>
+    </div>
+    <div class="field">
+      <label>Metoda</label>
+      <div class="radio-row">
+        <label><input type="radio" name="calc-method" value="rovnomerne" checked> Rovnoměrné (§ 31)</label>
+        <label><input type="radio" name="calc-method" value="zrychlene"> Zrychlené (§ 32)</label>
+      </div>
+    </div>
+    <button class="primary-btn" id="calc-run-btn">Spočítat</button>
+    <div id="calc-result"></div>
+  </div>
+</div>
+
+<!-- Prohlížet zákon -->
+<div class="modal-backdrop" id="browse-modal-backdrop">
+  <div class="modal" style="max-width:720px;">
+    <button class="modal-close" data-close="browse-modal-backdrop">✕</button>
+    <h2>Prohlížet zákon</h2>
+    <div class="field">
+      <label>Zákon / standard</label>
+      <select id="browse-law-select"><option>Načítám…</option></select>
+    </div>
+    <div id="browse-content"></div>
+  </div>
+</div>
+
+<script>
+  const ENDPOINT = "http://localhost:8787";
+
+  // ---------- localStorage ----------
+  const LS_PROFILE = "zakonik_profile";
+  const LS_CONVERSATIONS = "zakonik_conversations";
+  const LS_ACTIVE_CONV = "zakonik_active_conversation";
+  const LS_FAVORITES = "zakonik_favorites";
+
+  const loadJSON = (key, fallback) => { try { const v = JSON.parse(localStorage.getItem(key)); return v ?? fallback; } catch { return fallback; } };
+  const saveJSON = (key, val) => localStorage.setItem(key, JSON.stringify(val));
+
+  let profile = loadJSON(LS_PROFILE, {});
+  let conversations = loadJSON(LS_CONVERSATIONS, {});
+  let favorites = loadJSON(LS_FAVORITES, []);
+  let activeConvId = localStorage.getItem(LS_ACTIVE_CONV);
+
+  function createConversation(client) {
+    const id = "c" + Date.now() + Math.random().toString(36).slice(2, 7);
+    conversations[id] = { id, client: client || "Bez klienta", title: null, messages: [], createdAt: Date.now(), updatedAt: Date.now() };
+    saveJSON(LS_CONVERSATIONS, conversations);
+    return id;
+  }
+
+  function ensureActiveConversation() {
+    if (activeConvId && conversations[activeConvId]) return;
+    const ids = Object.keys(conversations);
+    if (ids.length > 0) {
+      ids.sort((a, b) => conversations[b].updatedAt - conversations[a].updatedAt);
+      activeConvId = ids[0];
+    } else {
+      activeConvId = createConversation("Bez klienta");
+    }
+    localStorage.setItem(LS_ACTIVE_CONV, activeConvId);
+  }
+  ensureActiveConversation();
+
+  function switchConversation(id) {
+    activeConvId = id;
+    localStorage.setItem(LS_ACTIVE_CONV, id);
+    renderConvList();
+    renderThreadFromConversation();
+  }
+
+  document.getElementById("new-conv-btn").addEventListener("click", () => {
+    const client = prompt("Jméno klienta (nebo nech prázdné):", "");
+    const id = createConversation(client && client.trim() ? client.trim() : "Bez klienta");
+    switchConversation(id);
+  });
+
+  function renderConvList() {
+    const list = document.getElementById("conv-list");
+    list.innerHTML = "";
+    const byClient = {};
+    for (const conv of Object.values(conversations)) {
+      (byClient[conv.client] = byClient[conv.client] || []).push(conv);
+    }
+    const clients = Object.keys(byClient).sort();
+    for (const client of clients) {
+      const group = document.createElement("div");
+      const label = document.createElement("div");
+      label.className = "conv-group-label";
+      label.textContent = client;
+      group.appendChild(label);
+      const convs = byClient[client].sort((a, b) => b.updatedAt - a.updatedAt);
+      for (const conv of convs) {
+        const item = document.createElement("div");
+        item.className = "conv-item" + (conv.id === activeConvId ? " active" : "");
+        item.textContent = conv.title || "(nová konverzace)";
+        item.addEventListener("click", () => switchConversation(conv.id));
+        group.appendChild(item);
+      }
+      list.appendChild(group);
+    }
+  }
+
+  // ---------- markdown ----------
+  function escapeHtml(s) {
+    return s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+  }
+
+  function renderMarkdown(raw) {
+    const lines = escapeHtml(raw).split("\n");
+    let html = "";
+    let inList = null;
+    const closeList = () => { if (inList) { html += `</${inList}>`; inList = null; } };
+
+    for (let line of lines) {
+      const h = line.match(/^(#{1,3})\s+(.*)$/);
+      const ul = line.match(/^[-*]\s+(.*)$/);
+      const ol = line.match(/^\d+\.\s+(.*)$/);
+
+      if (h) {
+        closeList();
+        const level = h[1].length;
+        html += `<h${level}>${inline(h[2])}</h${level}>`;
+      } else if (ul) {
+        if (inList !== "ul") { closeList(); html += "<ul>"; inList = "ul"; }
+        html += `<li>${inline(ul[1])}</li>`;
+      } else if (ol) {
+        if (inList !== "ol") { closeList(); html += "<ol>"; inList = "ol"; }
+        html += `<li>${inline(ol[1])}</li>`;
+      } else if (line.trim() === "") {
+        closeList();
+      } else {
+        closeList();
+        html += `<p>${inline(line)}</p>`;
+      }
+    }
+    closeList();
+    return html;
+  }
+
+  function inline(text) {
+    text = text
+      .replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>")
+      .replace(/`(.+?)`/g, "<code>$1</code>")
+      .replace(/\*(.+?)\*/g, "<em>$1</em>");
+    // Předkontace "MD xxx / D yyy" → přidat kopírovací tlačítko
+    text = text.replace(/\bMD\s+([\dA-Za-z.]+)\s*\/\s*D\s+([\dA-Za-z.]+)\b/g, (match, md, d) => {
+      const copyText = `MD ${md} / D ${d}`;
+      return `<span class="predkontace">${match}<button class="copy-btn" data-copy="${copyText}" title="Kopírovat">📋</button></span>`;
+    });
+    return text;
+  }
+
+  document.addEventListener("click", (e) => {
+    if (e.target.classList.contains("copy-btn")) {
+      const text = e.target.dataset.copy;
+      navigator.clipboard.writeText(text).then(() => {
+        const original = e.target.textContent;
+        e.target.textContent = "✅";
+        setTimeout(() => { e.target.textContent = original; }, 1200);
+      });
+    }
+  });
+
+  // ---------- vykreslení vlákna ----------
+  const thread = document.getElementById("thread");
+  const input = document.getElementById("input");
+  const sendBtn = document.getElementById("send");
+
+  const QUICK_PROMPTS = [
+    "Jak zaúčtovat nákup auta",
+    "Odpisové skupiny",
+    "Sazby DPH",
+    "Jak zaúčtovat leasing",
+    "Lhůta pro podání přiznání",
+  ];
+
+  function renderThreadFromConversation() {
+    thread.innerHTML = "";
+    const conv = conversations[activeConvId];
+    if (!conv || conv.messages.length === 0) {
+      const empty = document.createElement("div");
+      empty.className = "empty";
+      empty.textContent = "Zeptej se např.: „Musím vést podvojné účetnictví jako OSVČ plátce DPH?\"";
+      thread.appendChild(empty);
+
+      const chips = document.createElement("div");
+      chips.className = "quick-prompts";
+      QUICK_PROMPTS.forEach((p) => {
+        const chip = document.createElement("button");
+        chip.className = "quick-prompt-chip";
+        chip.textContent = p;
+        chip.addEventListener("click", () => { input.value = p; ask(); });
+        chips.appendChild(chip);
+      });
+      thread.appendChild(chips);
+      return;
+    }
+    for (let i = 0; i < conv.messages.length; i++) {
+      const m = conv.messages[i];
+      const { body, bubble } = addMessage(m.role, "");
+      if (m.role === "user") {
+        bubble.textContent = m.content;
+      } else {
+        bubble.innerHTML = renderMarkdown(m.content);
+        const question = conv.messages[i - 1]?.content || "";
+        addActions(body, m, question);
+      }
+    }
+    thread.scrollTop = thread.scrollHeight;
+  }
+
+  function addMessage(role, text) {
+    const msg = document.createElement("div");
+    msg.className = `msg ${role}`;
+
+    const avatar = document.createElement("div");
+    avatar.className = "avatar";
+    avatar.textContent = role === "user" ? "Ty" : "§";
+    msg.appendChild(avatar);
+
+    const body = document.createElement("div");
+    body.className = "msg-body";
+    const bubble = document.createElement("div");
+    bubble.className = "bubble";
+    if (role === "user") bubble.textContent = text;
+    else bubble.innerHTML = text;
+    body.appendChild(bubble);
+    msg.appendChild(body);
+
+    thread.appendChild(msg);
+    thread.scrollTop = thread.scrollHeight;
+    return { msg, bubble, body };
+  }
+
+  function addActions(container, message, question) {
+    if (message.sources && message.sources.length) {
+      const wrap = document.createElement("div");
+      wrap.className = "sources";
+      message.sources.forEach((s) => {
+        const tag = document.createElement("span");
+        tag.className = "source-tag";
+        tag.textContent = `${s.law_name} ${s.section_ref || ""}`.trim();
+        tag.title = "Klikni pro náhled textu";
+        tag.addEventListener("click", () => {
+          const existing = wrap.nextElementSibling;
+          if (existing && existing.classList.contains("source-preview") && existing.dataset.for === s.law_name + s.section_ref) {
+            existing.remove();
+            return;
+          }
+          document.querySelectorAll(".source-preview").forEach((el) => el.remove());
+          const preview = document.createElement("div");
+          preview.className = "source-preview";
+          preview.dataset.for = s.law_name + s.section_ref;
+          const link = s.source_url ? `<br><a href="${s.source_url}" target="_blank">→ celý dokument</a>` : "";
+          preview.innerHTML = `${escapeHtml(s.snippet || "")}${link}`;
+          wrap.after(preview);
+        });
+        wrap.appendChild(tag);
+      });
+      container.appendChild(wrap);
+    }
+
+    const row = document.createElement("div");
+    row.className = "action-row";
+
+    const up = document.createElement("button");
+    up.className = "action-btn" + (message.feedback === "up" ? " active" : "");
+    up.textContent = "👍 užitečné";
+    const down = document.createElement("button");
+    down.className = "action-btn" + (message.feedback === "down" ? " active" : "");
+    down.textContent = "👎 nepomohlo";
+    if (message.feedback) { up.disabled = true; down.disabled = true; }
+
+    const vote = async (rating) => {
+      up.disabled = true; down.disabled = true;
+      (rating === "up" ? up : down).classList.add("active");
+      message.feedback = rating;
+      saveJSON(LS_CONVERSATIONS, conversations);
+      try {
+        await fetch(`${ENDPOINT}/feedback`, {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ question, answer: message.content, rating, sources: message.sources }),
+        });
+      } catch (e) { console.error("feedback selhal:", e); }
+    };
+    up.addEventListener("click", () => vote("up"));
+    down.addEventListener("click", () => vote("down"));
+
+    const fav = document.createElement("button");
+    const isFav = favorites.some((f) => f.question === question && f.answer === message.content);
+    fav.className = "action-btn" + (isFav ? " active" : "");
+    fav.textContent = isFav ? "⭐ uloženo" : "☆ uložit";
+    fav.addEventListener("click", () => {
+      if (fav.classList.contains("active")) return;
+      favorites.push({ id: "f" + Date.now(), question, answer: message.content, sources: message.sources, savedAt: Date.now() });
+      saveJSON(LS_FAVORITES, favorites);
+      fav.classList.add("active");
+      fav.textContent = "⭐ uloženo";
+    });
+
+    row.appendChild(up);
+    row.appendChild(down);
+    row.appendChild(fav);
+    container.appendChild(row);
+  }
+
+  async function ask() {
+    const question = input.value.trim();
+    if (!question) return;
+    input.value = "";
+    sendBtn.disabled = true;
+
+    if (thread.querySelector(".empty")) thread.innerHTML = "";
+
+    addMessage("user", question);
+    const { bubble, body } = addMessage("assistant", "");
+    bubble.innerHTML = `<span class="cursor-blink"></span>`;
+
+    let fullAnswer = "";
+    let sources = [];
+
+    try {
+      const conv = conversations[activeConvId];
+      const historyForBackend = conv.messages.map((m) => ({ role: m.role, content: m.content }));
+
+      const res = await fetch(ENDPOINT, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ question, history: historyForBackend, profile }),
+      });
+      if (!res.ok || !res.body) throw new Error(`Server vrátil ${res.status}`);
+
+      const reader = res.body.getReader();
+      const decoder = new TextDecoder();
+      let buffer = "";
+
+      while (true) {
+        const { done, value } = await reader.read();
+        if (done) break;
+        buffer += decoder.decode(value, { stream: true });
+        const lines = buffer.split("\n");
+        buffer = lines.pop();
+        for (const line of lines) {
+          if (!line.trim()) continue;
+          const evt = JSON.parse(line);
+          if (evt.type === "sources") {
+            sources = evt.data;
+          } else if (evt.type === "delta") {
+            fullAnswer += evt.text;
+            bubble.innerHTML = renderMarkdown(fullAnswer) + `<span class="cursor-blink"></span>`;
+            thread.scrollTop = thread.scrollHeight;
+          } else if (evt.type === "error") {
+            throw new Error(evt.message);
+          }
+        }
+      }
+
+      bubble.innerHTML = renderMarkdown(fullAnswer || "Nepodařilo se získat odpověď.");
+      const assistantMsg = { role: "assistant", content: fullAnswer, sources, feedback: null };
+      addActions(body, assistantMsg, question);
+
+      conv.messages.push({ role: "user", content: question });
+      conv.messages.push(assistantMsg);
+      if (!conv.title) conv.title = question.length > 60 ? question.slice(0, 60) + "…" : question;
+      conv.updatedAt = Date.now();
+      saveJSON(LS_CONVERSATIONS, conversations);
+      renderConvList();
+    } catch (err) {
+      bubble.innerHTML = `<span class="error-text">Chyba: ${escapeHtml(err.message)}</span>`;
+    } finally {
+      sendBtn.disabled = false;
+    }
+  }
+
+  sendBtn.addEventListener("click", ask);
+  input.addEventListener("keydown", (e) => {
+    if (e.key === "Enter" && !e.shiftKey) { e.preventDefault(); ask(); }
+  });
+
+  // ---------- modály (obecně) ----------
+  document.querySelectorAll("[data-close]").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      document.getElementById(btn.dataset.close).classList.remove("open");
+    });
+  });
+  document.querySelectorAll(".modal-backdrop").forEach((bd) => {
+    bd.addEventListener("click", (e) => { if (e.target === bd) bd.classList.remove("open"); });
+  });
+
+  // ---------- Profil ----------
+  const profileBtn = document.getElementById("profile-btn");
+  profileBtn.addEventListener("click", () => {
+    document.getElementById("profile-legal-form").value = profile.legalForm || "";
+    document.getElementById("profile-vat-payer").checked = !!profile.vatPayer;
+    document.getElementById("profile-note").value = profile.note || "";
+    document.getElementById("profile-modal-backdrop").classList.add("open");
+  });
+  document.getElementById("profile-save-btn").addEventListener("click", () => {
+    profile = {
+      legalForm: document.getElementById("profile-legal-form").value || null,
+      vatPayer: document.getElementById("profile-vat-payer").checked,
+      note: document.getElementById("profile-note").value.trim() || null,
+    };
+    saveJSON(LS_PROFILE, profile);
+    document.getElementById("profile-modal-backdrop").classList.remove("open");
+  });
+
+  // ---------- Oblíbené ----------
+  document.getElementById("favorites-btn").addEventListener("click", () => {
+    const list = document.getElementById("favorites-list");
+    list.innerHTML = "";
+    if (favorites.length === 0) {
+      list.innerHTML = `<p style="color:#8a8f98;font-size:13px;">Zatím nic uloženo — klikni na "☆ uložit" u odpovědi.</p>`;
+    }
+    favorites.slice().reverse().forEach((f) => {
+      const item = document.createElement("div");
+      item.className = "fav-item";
+      item.innerHTML = `<div class="fav-q">${escapeHtml(f.question)}</div><div class="fav-a">${escapeHtml(f.answer)}</div>`;
+      const del = document.createElement("button");
+      del.className = "fav-del";
+      del.textContent = "🗑 smazat";
+      del.addEventListener("click", () => {
+        favorites = favorites.filter((x) => x.id !== f.id);
+        saveJSON(LS_FAVORITES, favorites);
+        item.remove();
+      });
+      item.appendChild(del);
+      list.appendChild(item);
+    });
+    document.getElementById("favorites-modal-backdrop").classList.add("open");
+  });
+
+  // ---------- Kalkulačka odpisů (§ 30–32 ZDP, deterministicky) ----------
+  const ODPIS_SAZBY_ROVNOMERNE = {
+    1: { first: 20, next: 40 },
+    2: { first: 11, next: 22.25 },
+    3: { first: 5.5, next: 10.5 },
+    4: { first: 2.15, next: 5.15 },
+    5: { first: 1.4, next: 3.4 },
+    6: { first: 1.02, next: 2.02 },
+  };
+  const ODPIS_KOEFICIENTY_ZRYCHLENE = {
+    1: { first: 3, next: 4 },
+    2: { first: 5, next: 6 },
+    3: { first: 10, next: 11 },
+    4: { first: 20, next: 21 },
+    5: { first: 30, next: 31 },
+    6: { first: 50, next: 51 },
+  };
+  const ODPIS_DOBA = { 1: 3, 2: 5, 3: 10, 4: 20, 5: 30, 6: 50 };
+
+  function vypocitejRovnomerne(vstupniCena, skupina) {
+    const s = ODPIS_SAZBY_ROVNOMERNE[skupina];
+    const n = ODPIS_DOBA[skupina];
+    const rows = [];
+    let zustatek = vstupniCena;
+    for (let rok = 1; rok <= n; rok++) {
+      const sazba = rok === 1 ? s.first : s.next;
+      let odpis = Math.ceil((vstupniCena * sazba) / 100);
+      if (odpis > zustatek) odpis = zustatek;
+      zustatek -= odpis;
+      rows.push({ rok, odpis, zustatek });
+      if (zustatek <= 0) break;
+    }
+    return rows;
+  }
+
+  function vypocitejZrychlene(vstupniCena, skupina) {
+    const k = ODPIS_KOEFICIENTY_ZRYCHLENE[skupina];
+    const n = ODPIS_DOBA[skupina];
+    const rows = [];
+    let zustatek = vstupniCena;
+    for (let rok = 1; rok <= n; rok++) {
+      let odpis;
+      if (rok === 1) odpis = vstupniCena / k.first;
+      else odpis = (2 * zustatek) / (k.next - (rok - 1));
+      odpis = Math.ceil(odpis);
+      if (odpis > zustatek) odpis = zustatek;
+      zustatek -= odpis;
+      rows.push({ rok, odpis, zustatek });
+      if (zustatek <= 0) break;
+    }
+    return rows;
+  }
+
+  function formatKc(n) { return Math.round(n).toLocaleString("cs-CZ") + " Kč"; }
+
+  document.getElementById("calc-btn").addEventListener("click", () => {
+    document.getElementById("calc-result").innerHTML = "";
+    document.getElementById("calc-modal-backdrop").classList.add("open");
+  });
+
+  document.getElementById("calc-run-btn").addEventListener("click", () => {
+    const price = parseFloat(document.getElementById("calc-price").value);
+    const group = parseInt(document.getElementById("calc-group").value, 10);
+    const method = document.querySelector('input[name="calc-method"]:checked').value;
+    const resultEl = document.getElementById("calc-result");
+
+    if (!price || price <= 0) {
+      resultEl.innerHTML = `<p class="error-text" style="font-size:13px;">Zadej platnou vstupní cenu.</p>`;
+      return;
+    }
+
+    const rows = method === "rovnomerne" ? vypocitejRovnomerne(price, group) : vypocitejZrychlene(price, group);
+    const zdroj = method === "rovnomerne" ? "§ 31 ZDP (rovnoměrné odpisování)" : "§ 32 ZDP (zrychlené odpisování)";
+
+    let html = `<p style="font-size:12.5px;color:#5a6270;">Zdroj: ${zdroj}, doba odpisování ${ODPIS_DOBA[group]} let (§ 30 ZDP).</p>`;
+    html += `<table class="calc-table"><thead><tr><th>Rok</th><th>Roční odpis</th><th>Zůstatková cena</th></tr></thead><tbody>`;
+    for (const r of rows) {
+      html += `<tr><td>${r.rok}</td><td>${formatKc(r.odpis)}</td><td>${formatKc(r.zustatek)}</td></tr>`;
+    }
+    html += `</tbody></table>`;
+    resultEl.innerHTML = html;
+  });
+
+  // ---------- Prohlížet zákon ----------
+  let lawsLoaded = false;
+  document.getElementById("browse-btn").addEventListener("click", async () => {
+    document.getElementById("browse-modal-backdrop").classList.add("open");
+    if (lawsLoaded) return;
+    const select = document.getElementById("browse-law-select");
+    try {
+      const res = await fetch(`${ENDPOINT}/laws`);
+      const laws = await res.json();
+      select.innerHTML = "";
+      laws.forEach((l) => {
+        const opt = document.createElement("option");
+        opt.value = l.law_code;
+        opt.textContent = l.law_name;
+        select.appendChild(opt);
+      });
+      lawsLoaded = true;
+      loadLawContent(select.value);
+    } catch (e) {
+      select.innerHTML = `<option>Chyba načtení: ${e.message}</option>`;
+    }
+  });
+
+  document.getElementById("browse-law-select").addEventListener("change", (e) => loadLawContent(e.target.value));
+
+  async function loadLawContent(lawCode) {
+    const contentEl = document.getElementById("browse-content");
+    if (!lawCode) return;
+    contentEl.innerHTML = `<p style="font-size:13px;color:#8a8f98;">Načítám…</p>`;
+    try {
+      const res = await fetch(`${ENDPOINT}/browse?law_code=${encodeURIComponent(lawCode)}`);
+      const chunks = await res.json();
+      contentEl.innerHTML = "";
+      chunks.forEach((c) => {
+        const div = document.createElement("div");
+        div.className = "browse-section";
+        const ref = c.section_ref ? `<div class="browse-ref">${escapeHtml(c.section_ref)}</div>` : "";
+        div.innerHTML = `${ref}${escapeHtml(c.content)}`;
+        contentEl.appendChild(div);
+      });
+    } catch (e) {
+      contentEl.innerHTML = `<p class="error-text" style="font-size:13px;">Chyba: ${escapeHtml(e.message)}</p>`;
+    }
+  }
+
+  // ---------- init ----------
+  renderConvList();
+  renderThreadFromConversation();
+</script>
+
+</body>
+</html>

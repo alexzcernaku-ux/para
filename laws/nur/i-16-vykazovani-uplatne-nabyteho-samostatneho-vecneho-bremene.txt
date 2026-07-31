@@ -1,0 +1,162 @@
+ZÁKON: NÚR I-16
+NAZEV: Interpretace Národní účetní rady I-16 – Vykazování úplatně nabytého samostatného věcného břemene
+URL: http://nur.cz/wp-content/uploads/2022/11/I-16.pdf
+
+© Národní účetní rada 
+ 
+1/4 
+Interpretace Národní účetní rady 
+I-16 Vykazování úplatně nabytého samostatného věcného 
+břemene 
+Účetní jednotky jsou povinny vést účetnictví tak, aby účetní závěrka sestavená na jeho základě 
+podávala věrný a poctivý obraz předmětu účetnictví a finanční situace účetní jednotky (zákon 
+č. 563/1991 Sb., o účetnictví, § 7, odst. 1). Za vedení účetnictví je odpovědná účetní jednotka. 
+Tato interpretace není právně závazným stanoviskem, pouze vyjadřuje odborný názor Národní 
+účetní rady a může být aplikována pouze v kontextu s Předmluvou Národní účetní rady k 
+interpretacím českých účetních předpisů. Postup popsaný v této interpretaci poskytuje účetní 
+jednotce návod v případech, kdy má jejich aplikace významný dopad na informace uvedené v 
+účetní závěrce a kdy informační přínosy jsou větší než náklady nutné na jejich získání. 
+Popis problému: 
+1. Věcné břemeno je věcné právo, které omezuje vlastníka nemovité věci (povinného) ve 
+prospěch jiného (oprávněného) tak, že vlastník je povinen něco trpět, něco konat nebo 
+něčeho se zdržet.  
+2. Věcné břemeno může být pořízeno oprávněným samostatně na již existující nemovitou 
+věc, nebo může být nemovitá věc zatížená věcným břemenem již při jejím pořízení.  
+3. Způsob nabytí věcného břemene může být různý, za úplatu nebo bezúplatný. Tato 
+interpretace se zabývá vykazováním věcného břemene, které bylo pořízeno samostatně a 
+za úplatu u oprávněného. 
+4. Doba nabytí věcného břemene může být omezená na dobu určitou či jinak omezená (např. 
+na vlastníka) nebo neomezená na dobu neurčitou. 
+5. Z hlediska konkrétního vymezení věcného břemene v účetnictví se jedná o právo, které se 
+zpravidla vztahuje k dlouhodobému hmotnému majetku (k nemovitým věcem), avšak 
+účetní předpisy ho jako jeho součást neuvádějí. Jde však o příkladný výčet, který není 
+vyčerpávající. 
+6. Tato interpretace by měla odpovědět na otázky: 
+a) jak samostatné věcné břemeno pořízené za úplatu evidovat a vykazovat v účetnictví 
+oprávněného, aby uživatel účetních informací z účetní závěrky se o této skutečnosti 
+dozvěděl, a  
+b) jak ho odpisovat, bude-li smlouva uzavřena na dobu určitou nebo na dobu neurčitou. 
+Řešení: 
+7. Při úplatném nabytí samostatného věcného břemene se věcné břemeno ocení u 
+oprávněného pořizovací cenou a sleduje se na rozvahovém účtu dlouhodobého hmotného 
+majetku.  
+8. Při úplatném nabytí věcného břemene spolu s nemovitou věcí, pokud není cena v kupní 
+smlouvě rozepsaná, se postupuje podle § 24 odst. 3 písm. b) zákona č. 563/1991 Sb., o 
+účetnictví, tj. poměrným rozúčtováním celkové pořizovací ceny nebo reprodukční 
+pořizovací ceny.  
+
+ 
+ I-16 Vykazování úplatně nabytého samostatného věcného břemene 
+ 
+© Národní účetní rada 
+ 
+2/4 
+9. Interpretace předpokládá úhradu za pořízení samostatného věcného břemene při jeho 
+pořízení v plné výši. V praxi je možné setkat se také s postupným splácením věcného 
+břemene, kdy u oprávněného je při pořízení proti pořizovací ceně vykázán závazek, který 
+se následně splátkami umořuje. 
+10. V případě, že je smlouva týkající se úplatně nabytého samostatného věcného břemene 
+uzavřena na dobu určitou, odpisuje ho oprávněný po tuto dobu. V případě, že je smlouva 
+týkající se úplatně nabytého samostatného věcného břemene uzavřena na dobu neurčitou, 
+odpisuje oprávněný věcné břemeno podle jeho charakteru a odhadu předpokládané doby 
+užívání.  
+11. Informaci o samostatně nabytém věcném břemeni a způsobu jeho zachycení v účetnictví, 
+způsobu odpisování a vykazování v účetní závěrce je nutno popsat v příloze v účetní 
+závěrce. 
+Zdůvodnění: 
+12. Původní interpretace upravovala řešení vedoucí k vykazování nabytého věcného břemene 
+jako nehmotného majetku s ohledem na podstatu vzniku věcného práva u oprávněného. 
+Avšak vzhledem k tomu, že se věcné břemeno zpravidla váže k nemovité věci, došlo 
+v rámci revize intepretace k úpravě původního řešení. Nové řešení požaduje vykazovat 
+věcné břemeno jako součást hmotného majetku (podobně jako právo stavby), čímž je 
+zdůrazněn obsah věcného břemene, prostřednictvím něhož oprávněný v nastavených 
+podmínkách disponuje se související nemovitou věcí. 
+13. Pro účetní jednotku, která postupovala podle původního znění této interpretace a 
+vykazovala věcné břemeno jako nehmotné aktivum, představuje nové řešení změnu účetní 
+metody, kterou zachytí v souladu s interpretací č. I-29. 
+14. Věcná břemena jsou právem, které určitým způsobem omezuje nakládání s nemovitým 
+majetkem u vlastníků. Z toho důvodu by měl uživatel účetních informací tuto informaci 
+dostat. V účetnictví je pro způsob zachycení a vykazování věcného břemene nutno použít 
+obecně uplatňované účetní zásady. 
+15. Věcné břemeno u oprávněného vykazuje všechny znaky aktiva: a) je výsledkem minulých 
+událostí, b) přináší oprávněnému ekonomický prospěch, c) při úplatném nabytí je 
+spolehlivě ocenitelné (pořizovací cena). 
+16. Z důvodu uvedeném v odst. 15 je správnější evidovat úplatně nabyté samostatné věcné 
+břemeno jako hmotné aktivum a odpisovat jej, než ho rozpouštět do nákladů u oprávněného 
+formou časového rozlišení. Přesto, že praxe časové rozllišení samostatně úplatně nabytého 
+věcného břemene u oprávněného někdy používá a z hlediska dopadu do výsledku 
+hospodaření je výsledek stejný jako při odpisování, z hlediska vypovídací schopnosti 
+rozvahy je správnější ho vykazovat jako hmotný majetek a odpisovat, neboť v tom případě 
+věcné břemeno zůstává v rozvaze v brutto hodnotě. Při časovém rozlišování se aktivní 
+položka nákladů příštích období postupně snižuje, což neodpovídá věrnému zobrazení 
+aktiva. 
+17. Doba odpisování úplatně nabytého samostatného věcného břemene u oprávněného záleží 
+na tom, zda byla smlouva o věcném břemeni uzavřena na dobu určitou (v tom případě je 
+tato doba také dobou odpisování) či neurčitou (v tom případě o době odpisování rozhodne 
+účetní jednotka v závislosti na co možná nejvěrnějším odhadu předpokládané doby jeho 
+užívání). 
+
+ 
+ I-16 Vykazování úplatně nabytého samostatného věcného břemene 
+ 
+© Národní účetní rada 
+ 
+3/4 
+18. Informaci o způsobu vykazování a odpisování úplatně nabytého samostatného věcného 
+břemene je nutno u oprávněného uvést v příloze v účetní závěrce.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Datum prvního schválení  
+ 
+10. května 2010 
+této interpretace NÚR: 
+ 
+Datum poslední aktualizace   
+31. října 2022 
+této interpretace NÚR: 
+ 
+Zpracovatel intepretace: 
+ 
+prof. Ing. Libuše Mullerová, CSc. 
+ 
+ 
+ 
+ 
+ 
+Fakulta financí a účetnictví VŠE v Praze 
+ 
+ 
+ 
+ 
+ 
+
+ 
+© Národní účetní rada 
+ 
+4/4 
+Vypořádání připomínek z vnějšího připomínkového řízení: 
+Již u původní interpretace byla jednou z připomínek možnost postupovat formou časového 
+rozlišení nákladů na pořízení věcného břemene. Zdůvodnění nevhodnosti tohoto způsobu 
+vykazování bylo zapracováno (viz bod 15). 
+Upřesnit dobu odpisování v případě, smlouva není časově omezena a odpisování je na dobu 
+neurčitou – bylo zapracováno (viz bod 17). 
+Jak postupovat při pořízení věcného břemene spolu s nemovitostí, kdy cena ve smlouvě není 
+rozdělená na nemovitost a věcné břemeno, bylo zapracováno (viz bod 8). 
+V praxi je možné pořízené věcné břemeno splácet postupně, oprávněný vykazuje závazek – 
+bylo zapracováno (viz bod 9). 
+Nejsou řešeny druhy věcných břemen – není předmětem interpretace, která se zaměřila jen na 
+způsob úplatného nabytí věcného břemene u oprávněného.

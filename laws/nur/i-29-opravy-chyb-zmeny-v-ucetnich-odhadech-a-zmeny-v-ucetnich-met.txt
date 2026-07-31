@@ -1,0 +1,503 @@
+ZÁKON: NÚR I-29
+NAZEV: Interpretace Národní účetní rady I-29 – Opravy chyb, změny v účetních odhadech a změny v účetních metodách
+URL: http://nur.cz/wp-content/uploads/2020/10/I-29_updated.pdf
+
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+1/10 
+Interpretace NÚR 
+I–29 
+Opravy chyb, změny v účetních 
+odhadech a změny v účetních metodách 
+Účetní jednotky jsou povinny vést účetnictví tak, aby účetní závěrka sestavená na jeho základě 
+podávala věrný a poctivý obraz předmětu účetnictví a finanční situace účetní jednotky (zákon 
+č. 563/1991 Sb., o účetnictví, § 7, odst. 1). Účetní jednotky účtují o stavu a pohybu majetku a jiných 
+aktiv, závazků a jiných pasiv, dále o nákladech a výnosech a o výsledku hospodaření. (zákon 
+č. 563/1991 Sb., o účetnictví, § 2, Předmět účetnictví).  
+Tato interpretace musí být aplikována v kontextu s Předmluvou Národní účetní rady k interpretacím 
+českých účetních standardů. 
+ 
+ 
+Popis problému 
+1. Od 1. ledna 2013 ustanovení § 15a vyhlášky č. 500/2002 Sb. (dále také jen „vyhláška“) 
+významným způsobem mění postup účtování a vykazování opravy chyb minulých let (dále jen 
+„opravy chyb“) a změn účetních metod (dále jen „změn metod“). V souvislosti s tímto novým 
+postupem účtování se v praxi množí dotazy, co je vlastně považováno za chybu, co je odhad a co 
+je změna metody. Jedná se o významně jiné situace, a každá má tedy i jiný dopad do účetnictví 
+s různým dopadem na účetní závěrku. 
+ 
+2. Stávající účetní předpisy však pojmy „chyba“ (ve smyslu „významná chyba“), „účetní odhad“, 
+„oprava chyby“, „změna odhadu“ nebo „změna metody“ nedefinují, přestože je obsahují. V praxi 
+tedy dochází k tomu, že se tyto pojmy nesprávně aplikují na situace, které těmto pojmům 
+neodpovídají. Z uvedených skutečností vyvstávají následující otázky:  
+a) Co je považováno za chybu a její opravu? 
+b) Co je účetním odhadem, a co je tedy následně považováno za změnu v účetním odhadu? 
+c) Co je považováno za změnu metody? 
+ 
+Řešení 
+Definice 
+3. Chybou minulých let (dále jen „chyba“) se rozumí opomenutí nebo chybné účtování v minulých 
+účetních obdobích či vykázání položky (transakce) v účetní závěrce sestavené za minulá období, 
+ať v chybné výši nebo na chybném řádku výkazu, přičemž minulým obdobím se myslí jakékoli 
+předchozí účetní období, jehož účetní knihy již nemohou být otevřeny. Chyby jsou obvykle 
+důsledkem nepoužití informací či chybného použití informací, které byly k dispozici k okamžiku 
+sestavení účetní závěrky. 
+Za informace, které jsou k dispozici k okamžiku sestavení účetní závěrky, se považují nejen 
+informace, které účetní jednotka měla sama k dispozici, ale také informace, které byly k dispozici 
+mimo účetní jednotku a účetní jednotka je mohla při vynaložení přiměřené snahy získat a využít. 
+Chyby mohou být způsobené například: 
+a) chybným použitím účetních pravidel, 
+
+                    Interpretace NÚR I-29 Opravy chyb, změny v účetních odhadech a změny v účetních 
+metodách 
+ 
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+2/10 
+b) matematickými chybami ve výpočtu, 
+c) chybnou interpretací skutečností, přehlédnutím, 
+d) chybným zveřejněním nebo klasifikací v účetní závěrce, 
+e) podvodem, 
+f) nezohledněním nastalých skutečností. 
+ 
+4. Účetními odhady se rozumí údaje uváděné v účetní závěrce, které v důsledku nejistoty, která je 
+přirozenou součástí podnikatelského prostředí, nelze přesně stanovit, a proto jejich výše může 
+být pouze odhadnuta. Při tomto odhadu se vychází z nejlepších informací, které má účetní 
+jednotka k dispozici k okamžiku sestavení účetní závěrky. Změna odhadu je důsledkem nových 
+informací či nového vývoje. Pokud při stanovení odhadu byly informace, které byly k dispozici 
+do okamžiku sestavení účetní závěrky, použity správně, pozdější změna odhadu není opravou 
+chyby. Za účetní odhady se zpravidla považují tyto položky: 
+a) opravné položky, 
+b) rezervy, 
+c) dohadné položky, 
+d) reálné hodnoty aktiv a závazků, 
+e) způsob či doba odpisování dlouhodobých aktiv nebo zbytková hodnota, 
+f) výše realizovatelné části odložené daňové pohledávky. 
+Hranice mezi opravou chyby a změnou odhadu není vždy jednoznačná. Zaúčtování nebo úprava 
+položek uvedených v odst. 4 písm. (a) – (f) může být jak změnou odhadu, tak i opravou chyby, tj. 
+chyby se lze dopustit i při stanovování odhadu. Při určení, zda se v dané situaci jedná o opravu 
+chyby, nebo změnu odhadu, je potřeba její okolnosti porovnat s charakteristickými znaky chyby 
+(viz odst. 3) a odhadu a jeho změny (viz odst. 4). Zejména půjde o to, zda informace, které vedou 
+k zaúčtování nebo změně dané položky, jsou novými informacemi, anebo tyto informace již byly 
+k dispozici k okamžiku sestavení některé z minulých účetních závěrek. 
+ 
+5. Pokud úprava či doplnění odhadu je opravou chyby, a nikoli změnou odhadu (např. zaúčtování 
+zapomenuté rezervy), výsledkem opravy musí být takový odhad, jaký by byl stanoven k okamžiku 
+sestavení účetní závěrky, ve které k této chybě původně došlo. Jinými slovy, při stanovení 
+odhadu, jedná-li se o opravu chyby, je nutné vycházet ze znalostí dostupných při vzniku chyby, 
+nikoli znalostí aktuálních. Ve zvláštní části této Interpretace je popsán postup pro případy, kdy 
+odlišení aktuálních a tehdejších znalostí je obtížné nebo nemožné. 
+ 
+6. Využití (externího) expertního názoru není kritériem, které odlišuje změnu odhadu od opravy 
+chyby, tj. stanovení zaúčtované částky resp. její změna na základě názoru (externího) experta 
+nemůže samo o sobě vést k tomu, že taková částka bude bez dalšího považována za odhad. 
+ 
+7. Změnou metody se rozumí, když účetní jednotka začne vykazovat, oceňovat nebo zveřejňovat 
+jednotlivé prvky účetní závěrky jiným způsobem než doposud. Změna metody nevyplývá z 
+nových informací či z nového skutečného stavu; účetní jednotka pouze v důsledku změny 
+účetních předpisů nebo vlastní metodiky zachycuje ekonomickou realitu jiným způsobem. Ke 
+změně účetní metody na základě vlastního rozhodnutí účetní jednotka přistupuje pouze v 
+případě, že po změně metody dojde ke zlepšení vypovídací schopnosti účetní závěrky. 
+ 
+
+                    Interpretace NÚR I-29 Opravy chyb, změny v účetních odhadech a změny v účetních 
+metodách 
+ 
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+3/10 
+8. Definice změny metody v odst. 7 nesouvisí s vymezením účetních metod v ustanovení § 4 odst. 
+8 zákona o účetnictví. Jinými slovy, pro určení toho, zda se jedná o změnu metody, se vychází 
+pouze z definice v odst. 7, nikoli z uvedeného ustanovení zákona. 
+ 
+Postup 
+Úpravy srovnávacích údajů 
+9. Tato Interpretace se podrobně zabývá rozlišením oprav chyb, změn odhadů a změn metod a 
+jejich účtováním v běžném období včetně souvisejícího vykazování údajů za běžné období v 
+účetní závěrce. Pokud je zároveň vyžadována úprava informací za minulá účetní období 
+uvedených v účetní závěrce sestavené za běžné období (dále jen „srovnávací údaje“), tato 
+Interpretace na to pouze upozorňuje. Podrobné řešení je obsaženo v Interpretaci NÚR I-30 
+Srovnatelnost informací za běžné a minulé účetní období v individuální účetní závěrce 
+podnikatelů. 
+ 
+Opravy chyb 
+10. Oprava chyby se provádí retrospektivně. Retrospektivní opravou chyby se rozumí to, že účetní 
+závěrka sestavená za období, ve kterém chyba byla opravena, má pokud možno vypadat tak, 
+jako kdyby chyba nikdy nenastala. To zejména znamená, že: 
+a) oprava nákladů a výnosů, jejichž okamžik uskutečnění byl v minulých účetních obdobích, 
+se v běžném období zaúčtuje proti výsledku hospodaření minulých let a 
+b) opraví se srovnávací údaje. 
+Retrospektivní opravou chyby se nerozumí oprava minulých účetních závěrek nebo otvírání již 
+uzavřených účetních knih. 
+ 
+11. Ustanovení „jako kdyby chyba nikdy nenastala“ uvedené v odst. 10 vyjadřuje princip, nikoli 
+pravidlo, které má být aplikováno doslovně. Výjimky z uvedeného principu jsou zejména 
+následující: 
+a) oprava nákladů a výnosů, jejichž okamžik uskutečnění byl v minulých účetních obdobích, 
+se nepromítne do standardních položek „Zisk minulých let“ nebo „Ztráta minulých let“ 
+(kam by se promítl, kdyby doslovně platilo pravidlo „jako kdyby chyba nikdy nenastala“), 
+nýbrž do zvláštní části výsledku hospodaření minulých let označené jako „A.IV.2. Jiný 
+výsledek hospodaření minulých let“ (dále jen „jiný výsledek hospodaření minulých let“), 
+b) oprava chyby bude popsána v příloze v účetní závěrce, 
+c) údaje za běžné období vykazované ve výkazu o změnách ve vlastním kapitálu, pokud ho 
+účetní jednotka sestavuje, které v tomto výkazu budou uvedeny v souvislosti s opravou 
+chyby (např. přírůstek jiného výsledku hospodaření minulých let) se označí tak, aby bylo 
+zřejmé, že se jedná o opravu chyby, 
+d) srovnávací údaje budou označeny jako upravené. 
+ 
+12. Proti jinému výsledku hospodaření minulých let se účtují pouze opravy nákladů a výnosů, jejichž 
+okamžik uskutečnění nastal v minulých účetních obdobích. Pokud se jedná o jinou opravu než o 
+opravu nákladů a výnosů minulých let (např. nebyl zaúčtován nákup zásob nebo přecenění proti 
+vlastními kapitálu), této položky se nevyužije. Pouze se opraví položky, kterých se to týká, včetně 
+souvisejících srovnávacích údajů. 
+ 
+
+                    Interpretace NÚR I-29 Opravy chyb, změny v účetních odhadech a změny v účetních 
+metodách 
+ 
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+4/10 
+13. Oprava chyby se zohlední k nejdřívějšímu datu v nejdřívějším účetním období, do kterého lze 
+zaúčtování ještě provést. 
+ 
+Změna metody 
+14. Změna metody se provádí retrospektivně. Retrospektivní změnou metody se rozumí postup, 
+který vede k tomu, že účetní závěrka sestavená za období, ve kterém došlo ke změně metody, 
+vypadá, jako kdyby nová účetní metoda byla účetní jednotkou používána už v minulosti. Za tímto 
+účelem se analogicky použijí pravidla uvedená v odst. 10 až 12. 
+ 
+Daň z příjmů 
+15. Splatná a odložená daň z příjmů, která je vyvolána opravou chyby, resp. změnou metody 
+účtovanou proti jinému výsledku hospodaření minulých let, se zaúčtuje taktéž proti jinému 
+výsledku hospodaření minulých let. 
+ 
+Neproveditelnost retrospektivního provedení oprav chyb a změn metod 
+16. Ve výjimečných situacích může být retrospektivní postup aplikovaný na opravu chyby nebo 
+změnu metody neproveditelný. Takové situace nastanou v okamžiku kdy: 
+a) retrospektivní přepočet nelze provést či by jeho provedení bylo neúměrné náročné v 
+porovnání s významem informací, který by takový přepočet přinesl, 
+b) retrospektivní aplikace nebo retrospektivní přepočet vyžadují informace o tom, jaký by 
+byl dřívější záměr vedení účetní jednotky (např. zda vedení účetní jednotky v minulosti 
+mělo v plánu určité cenné papíry držet dlouhodobě, či ne), nebo 
+c) retrospektivní přepočet je založen na podstatných odhadech a je nemožné od dalších 
+dostupných informací objektivně rozlišit informace o těchto odhadech (např. odhad výše 
+rezervy na soudní spor, který byl v mezitím v následujících letech vyřešen), které: 
+i. poskytují důkaz o okolnostech, které existovaly k datu, kdy byly tyto částky 
+vykázány, oceněny nebo zveřejněny, a 
+ii. měly být k dispozici k okamžiku sestavení účetní závěrky za zmíněné období. 
+V situacích v odst. 16 se retrospektivní postup aplikovaný na opravu chyby nebo změnu metody 
+provede však od nejzazšího účetního období, od kterého je retrospektivní postup proveditelný 
+(takovým obdobím v některých případech může být i běžné účetní období). Popis opravy chyby 
+nebo změny metody v příloze musí v uvedených případech obsahovat zdůvodnění, proč opravu 
+chyby nebo změnu metody nebylo možné v celém rozsahu promítnout retrospektivně. 
+ 
+17. Změna metody se také neprovede retrospektivně, pokud účetní předpisy u dané změny metody 
+vyžadují prospektivní provedení. 
+ 
+Změna odhadu 
+18. Změna odhadu se provádí prospektivně. Prospektivní změnou odhadu se rozumí to, že dopad 
+této změny se projeví pouze v běžném a případně budoucích obdobích. Výsledkový dopad 
+změny odhadu se projeví ve výsledku hospodaření běžného účetního období. Srovnávací údaje 
+se nijak neupravují. 
+ 
+19. Provedení účetního odhadu musí být přiměřeně zdokumentováno včetně východisek a způsobu 
+provedení odhadu tak, aby stanovení odhadu bylo průkazné. 
+ 
+
+                    Interpretace NÚR I-29 Opravy chyb, změny v účetních odhadech a změny v účetních 
+metodách 
+ 
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+5/10 
+20. Účetní jednotka v příloze v účetní závěrce zveřejní veškeré zdroje informací pro stanovení výše 
+opravných položek, oprávek a reálných hodnot, včetně popisu použitého modelu ocenění. 
+ 
+ 
+Zdůvodnění 
+21. Předmětem této Interpretace je návod, jak od sebe věcně a účetně odlišit opravu chyby, změnu 
+odhadu a změnu metod. Interpretace mimo jiné deklaruje, že odhady a jejich pozdější 
+zpřesňování, nejsou, pokud jsou správně provedeny, opravou chyb. 
+ 
+22. Jako chybu lze označit pouze takovou skutečnost, která vede k nespolehlivosti účetní závěrky. 
+Smyslem odhadů je zabezpečit úplnost a zvýšit vypovídací hodnotu, a tedy i spolehlivost 
+účetních závěrek. Pokud jsou odhady provedené řádně, přispívají k vyšší spolehlivosti účetní 
+závěrky, i když se později mohou změnit. Změna odhadu se neúčtuje retrospektivně, protože 
+srovnávací údaje jsou údaji spolehlivými, a tudíž nevyžadují opravu. 
+ 
+23. Vzhledem k tomu, že změna odhadu je zpřesněním na základě nových informací či nového 
+vývoje, je dopad změny odhadu reflektován v běžném období (příp. v budoucích obdobích) při 
+konsistentním použití účetních metod v dané účetní jednotce (tj. prospektivně). Změny odhadů 
+proto nejsou opravou chyb ani změnou metody a nemají dopad na dříve zveřejněné účetní 
+informace. Změnám v účetních odhadech na rozdíl od chyb tedy nelze předcházet, naopak jsou 
+přirozeným a nutným krokem při přípravě účetní závěrky. 
+ 
+24. Postup oprav chyb a změn metod popsaný v této Interpretaci vychází zejména z ustanovení § 
+15a vyhlášky. Dále, v detailnějších pokynech, se vychází z principu, ze kterého toto ustanovení 
+vychází, a sice, že chyby a změny metod nesmí zkreslit údaje vykazované za běžné účetní období, 
+protože s tímto obdobím nijak věcně nesouvisí. 
+ 
+25. Smyslem odstavce 13 je upozornit na to, že chyba by měla zatěžovat co nejmenší počet účetních 
+závěrek. Proto se oprava chyby nezohledňuje v období, kdy byla objevena, ale v nejdřívějším 
+období, kam opravu chyby lze ještě zaúčtovat (což v případě uzavřenosti předchozích období 
+bude období, kdy chyba byla objevena). Ustanovení o zaúčtování k co nejdřívějšímu datu pak 
+reflektuje to, že oprava chyby je de facto opravou příslušných počátečních zůstatků. 
+ 
+26. Účtování daňových efektů chyb je účtováno také jako chyba. Pokud byl například v minulých 
+obdobích opomenut výnos, dodatečně vyměřená daň z příjmů vztahující se k tomuto výnosu 
+bude stejně jako tento výnos zaúčtována v aktuálním období proti jinému výsledku hospodaření 
+minulých let, protože nepřiznání daně bylo také chybou ve smyslu této Interpretace. 
+ 
+27. Jak je uvedeno v odst. 8, pro určení toho, zda se jedná, či nejedná o změnu metody, není 
+relevantní zkoumat, zda se jedná o změnu toho, co zákon o účetnictví, případně vyhláška, 
+nazývají „účetní metodou“. Definice změny metody dle této Interpretace je na těchto 
+ustanoveních účetních předpisů zcela nezávislá. Je to z toho důvodu, že zákon tento termín 
+definuje z legislativních důvodů pro účely stanovení rozsahu zmocňovacího ustanovení, což 
+znamená, že neřeší věcnou podstatu tohoto pojmu a jeho vztah ke změnám metod. Při 
+identifikaci situací, které jsou změnou metod, je však uchopení věcné podstaty zásadní. Touto 
+věcnou podstatou, jak je uvedeno v odst. 7, je změnění účetního přístupu, aniž by zároveň došlo 
+
+                    Interpretace NÚR I-29 Opravy chyb, změny v účetních odhadech a změny v účetních 
+metodách 
+ 
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+6/10 
+ke změnám ve vykazovaných skutečnostech, na něž je tento přístup aplikován (např. účtování 
+vs. neúčtování o odložené dani: odložená daň jako ekonomický fenomén existuje, ať se o ní 
+účtuje, nebo neúčtuje; dochází k pouhé změně jejího vykazování). Proto změna způsobu 
+odpisování majetku, která je způsobena změnou ve využívání tohoto majetku, není změnou 
+metody, ač způsob odpisování zákon podřazuje pod „účetní metody“. Pokud si naopak účetní 
+jednotka ve svých směrnicích změní např. účtování repasovaných náhradních dílů (aniž by se 
+cokoli změnilo v zacházení s nimi), bude se jednat o změnu metody, i když zákon ani vyhláška 
+něco takového mezi „účetní metody“ neřadí. 
+ 
+ 
+Příklady k interpretaci 
+ 
+Příklad 1: Změna v odhadu – dohadná položka 
+ 
+Účetní jednotka v účetní závěrce k 31. 12. X1 vykázala dohadnou položku na spotřebu elektřiny ve 
+výši 400 000 Kč. Výsledná faktura byla účetní jednotce doručena v dubnu X2 na částku 420 000 Kč. 
+ 
+ 
+ 
+Účetní jednotka při stanovení odhadu spotřeby elektřiny za rok X1 uvážila všechny dostupné 
+informace, včetně například odečtu elektroměrů a aktuálních cen energie, případně i porovnání s 
+dohadnou položkou vytvořenou v minulém účetním období. Jedná se o změnu v účetním odhadu, 
+která bude promítnuta výsledkově v tom účetním období, ve kterém ke změně v účetním odhadu 
+došlo, tedy v roce X2. 
+ 
+ 
+Příklad 2: Chyba – dohadná položka 
+ 
+Účetní jednotka v účetní závěrce k 31. 12. X1 vykázala dohadnou položku na spotřebu elektřiny ve 
+výši 400 000 Kč. Výsledná faktura byla účetní jednotce doručena v dubnu X2 na částku 4 000 000 Kč. 
+Následně bylo zjištěno, že výpočet nevyfakturované spotřeby energie zahrnoval pouze některá 
+výrobní střediska účetní jednotky. Rozdíl byl zhodnocen jako významný. 
+ 
+Řešení 
+ 
+Účetní jednotka při stanovení odhadu spotřeby elektřiny za rok X1 neuvážila všechny dostupné 
+informace, například neposoudila výši odhadu za rok X1 s předcházejícím účetním obdobím, a proto 
+se nejedná o změnu v účetním odhadu, ale o chybu, která musí být opravena retrospektivně. 
+ 
+ 
+Příklad 3: Změna v odhadu – změna doby odpisování 
+ 
+Účetní jednotka pořídila začátkem ledna X1 aktivum za 600 000 Kč s dobou použitelnosti 5 let a 
+nulovou zbytkovou hodnotou. V lednu X3 účetní jednotka přehodnotila dobu použitelnosti aktiva na 
+dalších 6 let (tedy 8 let celkem). 
+Řešení 
+Řešení 
+
+                    Interpretace NÚR I-29 Opravy chyb, změny v účetních odhadech a změny v účetních 
+metodách 
+ 
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+7/10 
+ 
+Řešení 
+ 
+Změnou v době odpisování účetní jednotka reaguje na změnu v okolních podmínkách – na zbývající 
+dobu, po kterou bude aktivum využíváno. Jedná se tedy o změnu v účetním odhadu, která bude 
+promítnuta v roce zjištění a dalších letech, tj. od doby, kdy účetní jednotka získala informaci o změně, 
+po zbývající dobu použitelnosti aktiva. 
+ 
+ 
+ 
+Příklad 4: Změna v odhadu – změna způsobu odpisování 
+ 
+Účetní jednotka pořídila začátkem ledna X1 multifunkční vysokorychlostní zařízení, které bude sloužit 
+v showroomu k demonstračním účelům. Použitelnost zařízení byla stanovena na dobu, po kterou 
+bude uvedené zařízení sloužit demonstračním účelům (2 roky). Po skončení této doby jej hodlá účetní 
+jednotka prodat, a proto pro účely odpisování byla stanovena i poměrně významná zbytková 
+hodnota. Účetní jednotka odpisuje toto zařízení lineárně. Po uvedení nového modelu na trh se účetní 
+jednotka rozhodla toto zařízení neprodat, ale používat jej ve svém copy centru. Od tohoto okamžiku 
+změnila účetní jednotka způsob odpisování na výkonový (doba použitelnosti byla stanovena na 300 
+000 stran) a zároveň byla snížena zbytková hodnota. 
+ 
+Řešení 
+ 
+Změnou ve způsobu odpisování účetní jednotka reaguje na změnu v okolních podmínkách – na 
+způsob, jakým je aktivum využíváno. Jedná se tedy o změnu v účetním odhadu, která bude 
+promítnuta ve výpočtu odpisů od okamžiku, ke kterému došlo ke změně ve způsobu využití. Stejně 
+tak změna ve výši zbytkové hodnoty je změnou v účetním odhadu, účetní jednotka změnila 
+očekávaný okamžik prodeje a stav opotřebení zařízení k tomuto dni. 
+ 
+ 
+ 
+Příklad 5: Chyba – chybějící výnos z prodeje majetku 
+ 
+Účetní jednotka v roce X1 vyřadila dlouhodobý hmotný majetek v zůstatkové ceně 70 000 Kč 
+prodejem za 930 000 Kč. Tržba z prodeje dlouhodobého hmotného majetku nebyla v roce X1 
+zaúčtována, chybějící výnos byl zjištěn v polovině roku X2, když byla prodejní cena připsána na běžný 
+účet účetní jednotky. Chybějící výnos je významnou položkou. 
+ 
+ 
+Řešení 
+ 
+Účetní jednotka nepoužila při sestavení účetní závěrky dostupné informace (opomněla zaúčtovat 
+účetní případ). Účetní jednotka se tedy dopustila v účetní závěrce X1 významné chyby, která byla 
+zjištěna v roce X2 a musí být opravena retrospektivně. 
+ 
+ 
+Řešení 
+Řešení 
+Řešení 
+
+                    Interpretace NÚR I-29 Opravy chyb, změny v účetních odhadech a změny v účetních 
+metodách 
+ 
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+8/10 
+ 
+Příklad 6: Změna účetní metody 
+ 
+Od účetního období X2 se účetní jednotka rozhodla změnit způsob oceňování zásob z metody FIFO 
+na metodu váženého průměru. Účetní jednotka má tisíce skladových položek, na kterých jsou během 
+účetního období zaznamenány statisíce skladových pohybů. 
+ 
+Řešení 
+ 
+Okolní podmínky se nemění, účetní jednotka realizuje stejné transakce jako v minulých letech, ale od 
+roku X2 se rozhodla aplikovat jiný účetní postup. Jedná se o změnu metody, která by měla být 
+zobrazena retrospektivně. Vzhledem k neúměrné náročnosti spojené se změnou oceňování zásob 
+bude tato změna promítnuta prospektivně. 
+ 
+ 
+ 
+Příklad 7: Změna účetní metody 
+ 
+Účetní jednotka vlastní několik účastí v osobách pod podstatným vlivem. Tyto účasti oceňuje 
+pořizovací cenou. Od roku X3 se účetní jednotka rozhodla veškeré tyto účasti oceňovat ekvivalencí. 
+ 
+ 
+ 
+Okolní podmínky se nemění, účetní jednotka vlastní stejné podíly v osobách pod podstatným vlivem 
+jako v minulých letech, ale od roku X3 se rozhodla aplikovat jiný účetní postup. Jedná se o změnu 
+metody, která musí být zobrazena retrospektivně, jako by od okamžiku pořízení těchto cenných 
+papírů účetní jednotka vždy aplikovala ocenění ekvivalencí. 
+ 
+ 
+ 
+Příklad 8: Změna účetního odhadu 
+ 
+Provozovatel nákladního automobilu řádně platí mýtné dle evidence snímacích jednotek a dle 
+vyúčtování příslušné společnosti. Stává se však, že snímače nenasnímají všechny průjezdy mýtnou 
+branou a pak dodatečně příslušná společnost zašle dodatečné vyúčtování a výzvu k zaplacení, když 
+zjistí tyto neregistrované průjezdy např. z následných kontrol kamerových záznamů. 
+ 
+ 
+Řešení 
+ 
+Dodatečně požadované mýtné je změnou odhadu a zaúčtuje se do nákladů provozovatele 
+nákladního automobilu v období, kdy je zjištěno. Při placení původního mýtného provozovatel 
+vycházel z nejlepších dostupných informací. 
+ 
+ 
+Řešení 
+Řešení 
+Řešení 
+
+                    Interpretace NÚR I-29 Opravy chyb, změny v účetních odhadech a změny v účetních 
+metodách 
+ 
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+9/10 
+Příklad 9a: Chyba – daňové posouzení nákladu 
+ 
+Účetní jednotka omylem klasifikovala náklad jako daňově uznatelný (pro účely daně z příjmů). V 
+dalším období byla tato skutečnost objevena a bylo podáno dodatečné daňové přiznání. 
+ 
+Řešení 
+ 
+Nesprávná výše daně z příjmů, která byla původně zaúčtována, je účetní chybou, protože účetní 
+jednotka nepoužila ke stanovení nákladu na daň z příjmů (a souvisejícího dluhu) dostupné informace. 
+Dodatečná daň bude zaúčtována proti jinému výsledku hospodaření minulých let. 
+ 
+ 
+Příklad 9b: Změna účetního odhadu – vývoj daňové judikatury 
+ 
+Účetní jednotka po přiměřené analýze daňových předpisů klasifikovala náklad jako daňově uznatelný 
+(pro účely daně z příjmů). V dalším období se objevila nová judikatura, která zvolené řešení 
+zpochybnila a daň byla doměřena finančním úřadem. 
+ 
+Řešení 
+ 
+Dodatečná vyměřená daň je změnou odhadu, neboť je důsledkem nových informací. Nesprávná výše 
+daně z příjmů, která byla původně zaúčtována, není účetní chybou, protože účetní jednotka 
+vynaložila přiměřenou snahu ke zjištění informací potřebných ke stanovení nákladu na daň z příjmů 
+(a souvisejícího dluhu). Dodatečná daň bude zaúčtována jako náklad v období, kdy daň byla 
+vyměřena. 
+ 
+ 
+ 
+Příklad 10: Chyba – nezaúčtovaná pokuta 
+ 
+V důsledku ekologické havárie společnost očekává pokutu od inspekce životního prostředí. Podle 
+expertní zprávy projednané na představenstvu společnosti se očekává pokuta ve výši 1 mil. Kč. Tato 
+informace však nebyla předána do účtárny. Na konci dalšího roku byla společnosti vyměřena pokuta 
+5 mil. Kč. 
+ 
+ 
+Řešení 
+ 
+Nezaúčtování rezervy na uvedenou pokutu je chybou. Tato chyba by měla být opravena se znalostí 
+tehdejších informací. Protože je k dispozici záznam, ze kterého jsou tehdejší informace patrné, je 
+takové řešení možné. Rezerva ve výši 1 mil. Kč bude zaúčtována proti jinému výsledku hospodaření 
+minulých let. Změna rezervy ve výši 4 mil. Kč je změnou odhadu a budu zaúčtována v aktuálním 
+období jako náklad. 
+ 
+ 
+Řešení 
+Řešení 
+Řešení 
+
+                    Interpretace NÚR I-29 Opravy chyb, změny v účetních odhadech a změny v účetních 
+metodách 
+ 
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+10/10 
+ 
+Datum prvního schválení 
+této interpretace NÚR: 
+22. září 2014 
+Datum poslední aktualizace 
+této interpretace NÚR: 
+1. dubna 2019 
+Zpracovatel interpretace: 
+Ing. Alice Šrámková  
+Svaz účetních  
+ 
+Ing. Jiří Pelák, Ph.D.  
+Katedra finančního účetnictví a auditingu 
+Fakulta financí a účetnictví 
+Vysoká škola ekonomická v Praze  
+Nám. W. Churchilla 4  
+130 67 Praha 3 – Žižkov

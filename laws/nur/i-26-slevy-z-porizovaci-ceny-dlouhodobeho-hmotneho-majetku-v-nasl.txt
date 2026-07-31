@@ -1,0 +1,181 @@
+ZÁKON: NÚR I-26
+NAZEV: Interpretace Národní účetní rady I-26 – Slevy z pořizovací ceny dlouhodobého hmotného majetku v následujících účetních obdobích po uvedení do užívání (u nabyvatele)
+URL: http://nur.cz/wp-content/uploads/2020/10/I-26_updated.pdf
+
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+1/4 
+Interpretace NÚR 
+I–26 
+Slevy z pořizovací ceny dlouhodobého hmotného majetku v následujících účetních 
+obdobích po uvedení do užívání (u nabyvatele) 
+ 
+Účetní jednotky jsou povinny vést účetnictví tak, aby účetní závěrka sestavená na jeho základě 
+podávala věrný a poctivý obraz předmětu účetnictví a finanční situace účetní jednotky (zákon 
+č. 563/1991 Sb., o účetnictví, § 7, odst. 1). Účetní jednotky účtují o stavu a pohybu majetku a jiných 
+aktiv, závazků a jiných pasiv, dále o nákladech a výnosech a o výsledku hospodaření. (zákon 
+č. 563/1991 Sb., o účetnictví, § 2, Předmět účetnictví).  
+Tato interpretace musí být aplikována v kontextu s Předmluvou Národní účetní rady 
+k interpretacím českých účetních standardů. 
+ 
+ 
+Popis problému 
+1. Návrh Interpretace NI-43 otevřel částečně problém následných změn do pořizovací ceny 
+dlouhodobého hmotného majetku (dále rovněž jen „majetku“). Tato situace není v českých 
+účetních předpisech dostatečně řešena. Následné změny pořizovacích cen se však neomezují 
+pouze na následné získání či vrácení dotace. Naopak, mohou vyplývat například z řady ujednání 
+mezi dodavatelem a odběratelem majetku. 
+ 
+2. Jedním z případů následné změny pořizovací ceny majetku je poskytnutí slevy dodavatelem 
+nabyvateli majetku v některém z následných období po pořízení majetku. Ačkoliv situace, kdy 
+dojde k poskytnutí zcela nečekané slevy dlouho po pořízení, může být neobvyklá, mnohem 
+častější je případ, kdy sleva byla stanovena v závislosti na budoucích podmínkách, přičemž v 
+době pořízení majetku se jejich splnění nejevilo jako velmi pravděpodobné, a proto nedošlo k 
+účtování o nároku na slevu, nicméně v budoucnu byly podmínky splněny a sleva byla nakonec 
+přiznána a realizována. 
+ 
+3. Tato Interpretace se zabývá otázkou, zda by v případě poskytnutí slevy v některém následném 
+období mělo dojít k úpravě pořizovací ceny tohoto majetku u nabyvatele majetku a jakým 
+způsobem by měl nabyvatel upravit příslušné oprávky a odpisy. 
+ 
+4. Tuto Interpretaci nelze zobecňovat na jiné typy změn pořizovací ceny majetku, například na 
+úpravu ceny z titulu změny DPH. Rovněž nelze pojem sleva používaný v této Interpretaci 
+automaticky vztáhnout na některé specifické cenové podmínky (např. skonta považovaná 
+účetní jednotkou za finanční výpůjčku). Tuto Interpretaci také nelze vztáhnout na případy, kdy 
+neúčtování o slevě v minulosti bylo chybou. 
+ 
+5. Tuto Interpretaci lze vztáhnout pouze na slevu z ceny majetku, jejíž přiznání nebylo v období 
+pořízení majetku velmi pravděpodobné. 
+ 
+ 
+
+                       Interpretace NÚR I-26 Slevy z pořizovací ceny dlouhodobého hmotného majetku v 
+následujících účetních obdobích po uvedení do užívání (u nabyvatele) 
+ 
+ 
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+2/4 
+Řešení 
+Rozeznání slevy v následujících účetních obdobích u nabyvatele majetku: 
+6. Pokud je nabyvateli přiznána sleva z ceny majetku, který je již v používání, měla by tato sleva 
+být účtována oproti položce, se kterou věcně souvisí. 
+7. Při neexistenci jiných důvodů ke slevě se má za to, že sleva z ceny pořízeného majetku souvisí s 
+tímto majetkem jako takovým, a v tom případě by měla být účtována proti pořizovací ceně 
+takového majetku. Tato situace může zahrnovat např. slevu vzhledem k pozdnímu uvedení do 
+provozu, předem dohodnutou slevu v závislosti na výkonnosti aktiva atd. 
+ 
+8. V praxi mohou nastat případy, kdy je poskytnuta následná sleva z ceny majetku, ovšem tato 
+sleva se prokazatelně vztahuje k nákladům, které byly vykázány ve výkazu zisku a ztráty. To 
+může být například v situaci, kdy dodavatel svou neodbornou péčí způsobil nefunkčnost aktiva, 
+která vedla ke ztrátám z provozu, které byly vykázány ve výkazu zisku a ztráty, a následně 
+poskytnutá sleva de facto kompenzuje tyto ztráty. V takovém případě může účetní jednotka 
+vyhodnotit, že vztah poskytnuté slevy k prokázaným ztrátám je natolik zřejmý, že je z hlediska 
+věrného a poctivého obrazu pravdivější danou slevu v účetnictví považovat za kompenzaci 
+ztrát a účtovat ji na výsledkové účty. Za slevu či snížení hodnoty majetku tedy nelze považovat 
+kompenzaci (náhradu) ztrát vzniklých v souvislosti s užíváním aktiva. 
+ 
+Oprávky a odpisy u nabyvatele majetku po zaúčtování slevy: 
+9. Pro následné slevy z pořizovací ceny majetku se u oprávek a odpisů jeví jako obecně vhodnější 
+postup neměnit hodnotu dosavadních oprávek, ale v návaznosti na změnu pořizovací, a tudíž i 
+zůstatkové ceny majetku, provést přehodnocení budoucích odpisů daného majetku. 
+ 
+ 
+Zdůvodnění 
+Rozeznání slevy v následujících účetních obdobích u nabyvatele majetku: 
+10. Pokud je nabyvateli přiznána sleva z ceny majetku, který je již v používání, musí nabyvatel 
+majetku vyhodnotit, z jakého důvodu byla tato sleva poskytnuta a k čemu se věcně vztahuje. 
+ 
+11. Pokud sleva představuje úpravu ceny majetku (např. sleva vyplývající z jiné než smluvené 
+kvality aktiva, sleva představující výsledek dlouhého vyjednávání o ceně nakoupeného 
+majetku, sleva jako výsledek realizace budoucí cenové podmínky - např. v závislosti na 
+dosažených výnosech či budoucích událostech/neudálostech atd.), není vhodné, aby o ní 
+účetní jednotka účtovala tak, že ji s poukazem na to, že příslušný majetek již byl zařazen, 
+promítne do výkazu zisku a ztráty, tj. zaúčtuje výnos. Z této situace žádný výnos účetní 
+jednotce neplyne, neboť transakce nebyla z pohledu možných výnosů dokončena (majetek 
+nebyl prodán či spotřebován, nýbrž je neustále v používání), tudíž zisk nebyl dosažen a 
+účtování slevy do výnosů by znamenalo umělé navýšení zisku účetní jednotky. Pokud by byl 
+výnos v takovéto situaci dovolen, znamenalo by to možnost strukturovat transakci pořízení 
+majetku časově tak, aby došlo k rozdělení pořizovací ceny do aktiv a výkazu zisku a ztráty. 
+Účtování výnosu z prostého pořízení odporuje základním zásadám aktuálního účetnictví i 
+věrnému obrazu finanční situace a hospodaření. 
+
+                       Interpretace NÚR I-26 Slevy z pořizovací ceny dlouhodobého hmotného majetku v 
+následujících účetních obdobích po uvedení do užívání (u nabyvatele) 
+ 
+ 
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+3/4 
+12. O zcela jinou situaci se jedná, pokud se následná sleva z ceny majetku prokazatelně váže 
+nikoliv k danému majetku, ale k nákladům, které byly v běžném období či minulých obdobích 
+účtovány na výsledkové účty (např. ztráty z provozu spojené s používáním aktiva). V této 
+situaci může účetní jednotka vyhodnotit, že vztah poskytnuté slevy k prokázaným nákladům je 
+natolik zřejmý, že je z hlediska věrného a poctivého obrazu účetnictví pravdivější danou slevu 
+pro účely účetnictví považovat za kompenzaci (náhradu) ztrát a účtovat ji na výsledkové účty. 
+Tato situace však v zásadě předpokládá, že daná sleva z ceny majetku je ve skutečnosti něčím 
+jiným než slevou ve smyslu bodu 2. 
+ 
+Oprávky a odpisy u nabyvatele majetku po zaúčtování slevy: 
+13. Pokud je následná sleva zaúčtována jako snížení pořizovací ceny majetku, vyvstává otázka, zda 
+by mělo dojít k úpravě dosud zaúčtovaných oprávek, či nikoliv a jak nakládat s budoucími 
+odpisy tohoto majetku. Zde je vhodné připomenout, že účetnictví zná obecně tři způsoby 
+možného řešení: 
+a) Retrospektivní úprava, tj. úprava oprávek, jako by bývaly byly, pokud by sleva byla 
+zohledněna od data zařazení majetku do užívání, a to včetně úpravy nerozdělených zisků 
+minulých let. Tento postup v českém účetnictví účetní jednotka aplikuje pouze tehdy, 
+pokud došlo k chybě při účtování v minulých účetních obdobích, tj. např. pokud účetní 
+jednotka již měla na slevu nárok a tuto skutečnosti nezaúčtovala. 
+b) Úprava oprávek, jako by bývaly byly, pokud by sleva byla zohledněna od data zařazení 
+majetku do užívání, ale s tím, že dopad na minulé oprávky je proúčtován do výsledku 
+hospodaření běžného účetního období. 
+c) Prospektivní úprava, tj. oprávky se nijak neupravují, pouze se přehodnotí odpisy budoucích 
+účetních období vzhledem ke změně pořizovací ceny, resp. zůstatkové ceny majetku. Pokud 
+je však sleva z ceny majetku vyšší než současná zůstatková cena majetku, rozdíl se 
+promítne do výkazu zisku a ztráty. 
+ 
+14. Pokud se nejedná o chybu při účtování v minulých obdobích a účetní jednotka až v běžném 
+účetním období získala na slevu nárok nebo se sleva stala velmi pravděpodobnou, je otázkou, 
+zda je vhodnější postup podle bodu 13.b., či 13.c. 
+ 
+15. Jedním ze základních účetních předpokladů je srozumitelnost účetnictví. Zatímco použití 
+postupu podle bodu 13.b. může mít svou obhajitelnost ve specifických případech, kdy účetní 
+jednotka změnu ceny předpokládala již během pořizování, ale dle daných účetních postupů o 
+ní do určitého okamžiku nemohla účtovat (např. v případě dotace, viz návrh Interpretace NI-
+43), její široké použití pro jakékoliv následné změny cen nemusí být vhodné. Její aplikace by 
+mohla vést k neustálým změnám minulých oprávek, přičemž tyto změny by byly účtovány do 
+běžného období a narušovaly by srozumitelnost a srovnatelnost účetních informací. 
+ 
+16. Pro následné slevy z pořizovací ceny majetku se jeví u oprávek a odpisů jako vhodnější postup 
+podle bodu 13.c., kdy se hodnota dosavadních oprávek nemění, ale v návaznosti na změnu 
+zůstatkové ceny majetku dojde k přehodnocení budoucích odpisů. 
+ 
+17. Existuje však celá řada specifických situací, při kterých dochází v následujícím účetním období 
+ke změně pořizovací ceny majetku, a nelze proto vyloučit, že v některých případech dojde 
+účetní jednotka po posouzení charakteru slevy, skutečností a informací, které existovaly při 
+
+                       Interpretace NÚR I-26 Slevy z pořizovací ceny dlouhodobého hmotného majetku v 
+následujících účetních obdobích po uvedení do užívání (u nabyvatele) 
+ 
+ 
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+4/4 
+pořizování majetku, a/nebo posouzení stávající zůstatkové ceny majetku, k závěru, že 
+postupem věrněji zobrazujícím danou transakci je varianta podle 13.b. Vzhledem k výše 
+zmíněnému principu srozumitelnosti by však tento postup neměl být obecným pravidlem pro 
+veškeré transakce následných slev z pořizovací ceny majetku. 
+ 
+18. V každém případě je vhodné, aby účetní jednotka svou účetní metodiku použitou při 
+zohlednění slevy z ceny majetku popsala v příloze k účetní závěrce. 
+ 
+ 
+ 
+Datum prvního schválení 
+této interpretace NÚR: 
+14. května 2013 
+Datum poslední aktualizace 
+této interpretace NÚR: 
+1. dubna 2019 
+Zpracovatel interpretace: 
+Ing. Petr Vácha

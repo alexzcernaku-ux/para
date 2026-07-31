@@ -1,0 +1,215 @@
+ZÁKON: NÚR I-49
+NAZEV: Interpretace Národní účetní rady I-49 – Vykazování a oceňování cenin
+URL: http://nur.cz/wp-content/uploads/2024/03/I-49.pdf
+
+© Národní účetní rada 
+ 
+1/5 
+Interpretace Národní účetní rady 
+I-49 Vykazování a oceňování cenin 
+Účetní jednotky jsou povinny vést účetnictví tak, aby účetní závěrka sestavená na jeho základě 
+podávala věrný a poctivý obraz předmětu účetnictví a finanční situace účetní jednotky (zákon 
+č. 563/1991 Sb., o účetnictví, § 7, odst. 1). Za vedení účetnictví je odpovědná účetní jednotka. 
+Tato interpretace není právně závazným stanoviskem, pouze vyjadřuje odborný názor 
+Národní účetní rady a může být aplikována pouze v kontextu s Předmluvou Národní účetní 
+rady k interpretacím českých účetních předpisů. Postup popsaný v této interpretaci poskytuje 
+účetní jednotce návod v případech, kdy má jejich aplikace významný dopad na informace 
+uvedené v účetní závěrce a kdy informační přínosy jsou větší než náklady nutné na jejich 
+získání. 
+Popis problému: 
+1. Účetní předpisy ukládají účetním jednotkám v souvislosti s vykazováním a oceňováním 
+cenin následující povinnosti: 
+a) oceňovat ceniny jejich jmenovitou hodnotou, 
+b) evidovat ceniny také v cizí měně, pokud jsou vyjádřeny v cizí měně, 
+c) ceniny vyjádřené v cizí měně přepočítávat na českou měnu při jejich prvotním ocenění 
+a také k rozvahovému dni. 
+2. Účetní předpisy nedefinují pojem „ceniny“, obsahují pouze příkladný výčet cenin, které se 
+vykazují ve skupině „peněžní prostředky v pokladně“. 
+3. Obecně pod pojmem ceniny chápeme (viz např. Wikipedie) účelový platební prostředek, 
+tj. oběžné aktivum v určité hodnotě, které slouží jako ekvivalent (náhražka) peněz, avšak 
+pouze pro vymezený účel nebo účely, například k úhradě určitých služeb, k platbě 
+určitých poplatků, k nákupu určitého zboží nebo v určitých provozovnách či určité síti 
+provozoven. Z hodnoty ceniny je čerpáno při jejím použití. Ceniny lze rozdělit podle 
+jejich určení na ceniny k úhradě poplatků nebo daní (např. kolkové známky, dálniční 
+nálepky, tabákové nálepky, kontrolní pásky ke značení lihu, nálepky, žetony nebo jiné 
+ceniny potvrzující zaplacení poplatku za svoz odpadu), ceniny k úhradě služeb (např. 
+jízdenky, místenky, letenky, vstupenky, poštovní známky, telefonní karty, cestovní 
+poukázky (na zajištění dovolené), poukázky na sport a kulturu, na preventivní a 
+nadstandardní zdravotní péči, na vzdělávání), ceniny k platbám za zboží (např. dárkové 
+poukázky na nákup zboží, slevové poukázky). 
+4. V praxi účetních jednotek nastává problém s oceněním a vykazováním poštovních 
+známek, které vydává Česká pošta od roku 2010 a které mají jmenovitou (nominální) 
+hodnotu vyznačenou písmenem A, B, E a Z. Těmito poštovními známkami lze hradit 
+poštovní služby i v budoucnu, např. po zvýšení ceny poštovného. 
+
+ 
+ 
+I-49 Vykazování a oceňování cenin 
+ 
+© Národní účetní rada 
+ 
+2/5 
+5. U některých cenin si účetní jednotky nejsou jisté, zda je mají také vykazovat v účetní 
+skupině „peněžní prostředky v pokladně“. Jedná se například o dopravní ceniny (jízdenky, 
+místenky, letenky) nebo vstupenky. 
+6. Předmětem řešení této interpretace jsou následující otázky: 
+a) Vykazují se všechny ceniny ve skupině „peněžní prostředky v pokladně“? 
+b) Pokud se nevykazují všechny ceniny ve skupině „peněžní prostředky v pokladně“, kde 
+se vykazují v rozvaze? 
+c) Jak se v účetnictví oceňují ceniny, na kterých není uvedená jmenovitá (nominální) 
+hodnota v platné měně, ale v jiných jednotkách (například v jednotkách služby, která 
+se bude čerpat za ceninu v budoucnosti)? 
+d) Které ceniny v cizí měně se přepočítávají na českou měnu k rozvahovému dni? 
+Řešení: 
+7. Účetní jednotka by měla v rozvaze jako peněžní prostředky v pokladně vykazovat pouze 
+takové ceniny, které mají obdobný charakter jako peněžní ekvivalenty (dále jen 
+„Ceniny“).  Ceniny musí být 
+a) snadno a pohotově směnitelné za předem známou částku peněžních prostředků nebo  
+b) přímo použitelné jako platební prostředek při nákupu předem neurčeného zboží nebo 
+služeb. 
+Snadno a pohotově směnitelné jsou takové ceniny, které je možné směnit za peněžní 
+prostředky zpravidla do tří měsíců. Ceninou je například tabáková nálepka či stravenka u 
+účetní jednotky, která přijala stravenku jako platební prostředek a očekává následnou 
+směnu za peněžní prostředky. 
+8. Ostatní majetkové hodnoty a instrumenty, které nelze považovat za ceniny podle bodu 7 
+(dále jen „potvrzení“), se vykazují v souladu s účelem jejich použití v účetní jednotce: 
+a) Účetní jednotka (emitent), která vydává potvrzení jako důkaz o zaplacení konkrétního 
+zboží, služby, daně či poplatku, eviduje vydaná potvrzení před jejich prodejem 
+v podrozvahové evidenci. Tržba za prodané potvrzení je ve své ekonomické podstatě 
+tržbou za předplacené služby, zboží, daně nebo poplatek a takto se eviduje.  
+b) Distributor, který kupuje potvrzení za účelem jeho dalšího prodeje, vykazuje potvrzení 
+jako zboží. 
+c) U účetní jednotky (konečného spotřebitele), která obdržela potvrzení jako důkaz o 
+předplacení zboží, služby, daně či poplatku od emitenta, se potvrzení vykazuje jako 
+předplacené zboží, služby, daně či poplatky. Potvrzením o předplacení konkrétní 
+služby je například poštovní známka (u účetní jednotky, která bude známky používat 
+na úhradu poštovních služeb), letenka, jízdenka, předplacená telefonní karta či 
+stravenka, u účetní jednotky, která stravenku pořídila jako benefit pro zaměstnance. 
+9. Ceniny se oceňují jejich jmenovitou hodnotou.  
+10. Emitent oceňuje vydané potvrzení vlastními náklady.  
+
+ 
+ 
+I-49 Vykazování a oceňování cenin 
+ 
+© Národní účetní rada 
+ 
+3/5 
+11. Distributor a konečný spotřebitel oceňují potvrzení jejich pořizovací cenou. Pořizovací 
+cenou se oceňují i potvrzení, na kterých není uvedená jmenovitá (nominální) hodnota 
+v platné měně, ale v jiných jednotkách (například v jednotkách zboží nebo služby, které se 
+budou čerpat za potvrzení v budoucnosti). Následná změna ceny služby nebo zboží, na 
+které je vystaveno potvrzení, není důvodem pro změnu ocenění tohoto potvrzení.  
+12. K rozvahovému dni se přepočítávají na českou měnu pouze ceniny evidované v cizí měně, 
+které se vykazují jako peněžní prostředky v pokladně (viz bod 7) a je s nimi spojeno 
+kurzové riziko.  
+13. V přehledu o peněžních tocích se za peněžní prostředky považují pouze ceniny, nikoliv 
+potvrzení.  
+Zdůvodnění: 
+14. Žádný právní předpis v České republice nedefinuje, co to jsou ceniny. Některými druhy 
+cenin (například poštovní známky, kolkové známky, jízdenky) se samostatně zabývají 
+speciální zákony. 
+15. Ekonomická podstata cenin a potvrzení je podle výše uvedeného velmi různorodá. Účetní 
+jednotka by měla při vykazování cenin a potvrzení brát v úvahu jejich ekonomickou 
+podstatu.  
+16. K rozvahovému dni se přepočítávají na českou měnu pouze takové ceniny, u kterých hrozí 
+kurzové riziko. Národní účetní rada vydala interpretaci s označením I-37 Časové rozlišení 
+a cizí měna popisující účetní řešení, dle něhož náklady a výnosy příštích období jsou 
+aktiva a závazky, které jsou důsledkem již uskutečněného peněžního toku, není s nimi 
+spojeno kurzové riziko, a proto i když jsou důsledkem cizoměnové transakce, nepřísluší 
+účetním jednotkám kurzově přepočítávat jejich hodnotu. Pro zajištění věrného obrazu 
+předmětu účetnictví a finanční situace by měl být účetní jednotkou aplikován koncepčně 
+stejný přístup popsaný v I-37 i pro ceniny a potvrzení, pokud jejich budoucí použití není 
+spojeno s budoucím peněžním tokem. 
+17. Zákon o účetnictví požaduje od účetních jednotek vést účetnictví tak, aby účetní závěrka 
+sestavená na jeho základě podávala věrný a poctivý obraz předmětu účetnictví a finanční 
+situace účetní jednotky. Přístup účetních jednotek, které v účetní závěrce vykazují kurzové 
+rozdíly z kurzového přepočtu cenin, u nichž není očekáváno jejich přímé použití jako 
+platidlo nebo není očekávána jejich směna za peněžní prostředky, lze považovat za 
+postup, který je v rozporu se zajištěním věrného a poctivého obrazu finanční situace, 
+potažmo finanční výkonnosti účetní jednotky v účetní závěrce. 
+18. Účetní jednotky by měly uvážit ustanovení zákona o účetnictví, které požaduje 
+od účetních jednotek vést účetnictví tak, aby účetní závěrka sestavená na jeho základě 
+podávala věrný a poctivý obraz předmětu účetnictví a finanční situace účetní jednotky 
+jako vyšší normy a upřednostnit ho před ustavením prováděcích předpisů (vyhlášky) a 
+Českých účetních standardů. 
+
+ 
+ 
+I-49 Vykazování a oceňování cenin 
+ 
+© Národní účetní rada 
+ 
+4/5 
+19. V přehledu o peněžních tocích nelze za peněžní prostředky považovat potvrzení, protože 
+nesplňují základní charakteristiku cenin uvedenou v bodě 7. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Datum prvního schválení  
+ 
+19. února 2024 
+této interpretace NÚR: 
+ 
+Datum poslední aktualizace   
+– 
+této interpretace NÚR: 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Zpracovatelé intepretace: 
+ 
+Ing. Simona Pacáková 
+ 
+ 
+ 
+ 
+ 
+Svaz účetních ČR 
+ 
+ 
+
+ 
+ 
+© Národní účetní rada 
+ 
+5/5 
+Vypořádání připomínek KDP ČR z vnějšího připomínkového řízení  
+V rámci vnějšího připomínkového řízení NÚR obdržela níže uvedené připomínky od Komory 
+daňových poradců ČR, které byly vypořádány následovně: 
+ 
+1) V bodě 3. by bylo vhodné místo výrazu „účelový platební prostředek“ uvést obecně pod 
+pojmem ceniny chápeme „víceúčelový platební prostředek“ 
+Vypořádání: Připomínka nebyla akceptována, je vysvětleno. Pojem „účelový platební 
+prostředek“ v sobě zahrnuje možnost využití platebního prostředku na jeden vymezený účel nebo 
+více vymezených účelů.   
+ 
+ 
+2) V bodě 7. by měla být vypuštěna část, která používá existující pojem peněžní ekvivalenty. 
+Vhodnější by bylo: 7. Účetní jednotka by měla v rozvaze jako peněžní prostředky v pokladně 
+vykazovat pouze takové ceniny, které musí být… 
+Vypořádání: Připomínka nebyla akceptována, je vysvětleno. V bodě 7. je úmyslně použitý 
+existující pojem „peněžní ekvivalenty“ v tom smyslu slova, jak je obecně chápán. První věta 
+odstavce 7. neříká, že ceniny vykazované v pokladně jsou peněžní ekvivalenty. Tato věta pouze 
+stanoví, že ceniny vykazované v pokladně mají mít obdobný charakter jako peněžní ekvivalenty.  
+ 
+3) Tabáková nálepka je ceninou, avšak jsme přesvědčeni, že nesplňuje podmínku uvedenou 
+v bodě 7. písm. b) interpretace. 
+Vypořádání: Souhlas s připomínkou, která nevyžaduje úpravu interpretace, je vysvětleno. 
+Cenina musí splnit alespoň jednu z podmínek uvedených v bodě 7, protože mezi podmínkami 
+uvedenými v písmenu a) a b) je spojka „nebo“. Konkrétně tabáková nálepka plní podmínku 
+uvedenou v bodě a), a proto by měla být v rozvaze účetní jednotky vykazována jako cenina 
+v pokladně.

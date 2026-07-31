@@ -1,0 +1,159 @@
+ZÁKON: NÚR I-21
+NAZEV: Interpretace Národní účetní rady I-21 – Odpis cizoměnové pohledávky a závazku
+URL: http://nur.cz/wp-content/uploads/2020/10/I-21_updated.pdf
+
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+1/3 
+Interpretace NÚR 
+I–21 
+Odpis cizoměnové pohledávky a závazku 
+Účetní jednotky jsou povinny vést účetnictví tak, aby účetní závěrka sestavená na jeho základě 
+podávala věrný a poctivý obraz předmětu účetnictví a finanční situace účetní jednotky (zákon 
+č. 563/1991 Sb., o účetnictví, § 7, odst. 1). Účetní jednotky účtují o stavu a pohybu majetku a jiných 
+aktiv, závazků a jiných pasiv, dále o nákladech a výnosech a o výsledku hospodaření. (zákon 
+č. 563/1991 Sb., o účetnictví, § 2, Předmět účetnictví).  
+Tato interpretace musí být aplikována v kontextu s Předmluvou Národní účetní rady 
+k interpretacím českých účetních standardů. 
+ 
+ 
+Popis problému 
+1. Účetní jednotka eviduje v účetnictví pohledávku v cizí měně. K rozvahovému dni (např. k 31. 
+12.) účetní jednotka přepočetla hodnotu pohledávky kursem ČNB. 
+ 
+2. V následujícím účetním období rozhodlo vedení účetní jednotky o odpisu této pohledávky. 
+ 
+3. Otázky zní: 
+a) Kdy v případě odpisu cizoměnové pohledávky dochází k okamžiku uskutečnění účetního 
+případu? 
+b) Jakým kursem má být odpis cizoměnové pohledávky zaúčtován? 
+c) Vzniká při tomto postupu kursový rozdíl? 
+d) Postupuje se analogicky u odpisu cizoměnového závazku? 
+ 
+Řešení 
+4. Okamžikem uskutečnění účetního případu je datum, kdy vedení společnosti o odpisu 
+pohledávky rozhodlo. Doporučujeme, aby si tento postup účetní jednotka upravila vnitřním 
+předpisem. 
+ 
+5. K tomuto datu je nutno přepočítat hodnotu cizoměnové pohledávky na českou měnu. Kurs k 
+tomuto datu použije v souladu se svým vnitřním předpisem, který vychází ze zákona o 
+účetnictví. 
+ 
+6. Primárně se jedná o odpis pohledávky v cizí měně nikoliv o odpis pohledávky v české měně. Při 
+odpisu cizoměnové pohledávky vzniká kursový rozdíl. 
+ 
+7. Stejný postup se analogicky použije u odpisu cizoměnových závazků. 
+ 
+ 
+
+                                                         Interpretace NÚR I-21 Odpis cizoměnové pohledávky a závazku 
+ 
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+2/3 
+Zdůvodnění 
+8. Problematikou okamžiku uskutečnění účetního případu se zabývá ČÚS 001 – Účty a zásady 
+účtování na účtech. Dle tohoto standardu (bod 2.4.3.) je okamžikem uskutečnění účetního 
+případu den, ve kterém dojde ke splnění dodávky, platbě závazku, inkasu pohledávky, 
+postoupení pohledávky, vkladu pohledávky, poskytnutí či přijetí zálohy, převzetí dluhu, zjištění 
+manka, schodku, přebytku či škody, pohybu majetku uvnitř účetní jednotky a dalším 
+skutečnostem vyplývajícím ze zákona o účetnictví, vyhlášky č. 500/2002 Sb., Českých účetních 
+standardů pro podnikatele a ze zvláštních právních předpisů nebo z vnitřních poměrů účetní 
+jednotky, které jsou předmětem účetnictví a které v účetní jednotce nastaly, případně účetní 
+jednotka má k dispozici potřebné doklady tyto skutečnosti dokumentující.  
+ 
+9. Z výše uvedeného lze dovodit, že okamžikem uskutečnění účetního případu je okamžik 
+rozhodnutí vedení společnosti o odpisu pohledávky. 
+ 
+10. Dle § 24 odst. 2 a 6 zákona o účetnictví účetní jednotky oceňují majetek a závazky (to platí i 
+pro majetek a závazky vyjádřené v cizí měně, tedy pro okamžik jejich přepočtu na českou 
+měnu): 
+a) k okamžiku uskutečnění účetního případu, 
+b) ke konci rozvahového dne nebo k jinému okamžiku, k němuž se účetní závěrka 
+sestavuje. 
+ 
+11. Dále je metoda kursových rozdílů upravena v § 60 vyhlášky č. 500/2002 Sb., ve znění 
+pozdějších předpisů, kde je mimo jiné, řečeno, že kursové rozdíly vznikající při ocenění majetku 
+a závazků uvedených v § 4 odst. 12 zákona o účetnictví k okamžiku uskutečnění účetního 
+případu, se účtují na vrub účtu finančních nákladů nebo ve prospěch účtu finančních výnosů. 
+ 
+12. V ČÚS 006 – Kursové rozdíly, bod 2.2., se dočteme, že u kursových rozdílů, které vznikají v 
+průběhu účetního období, se uskutečněním účetního případu rozumí zejména: 
+a) úhrada závazku a inkaso pohledávky, 
+b) postoupení pohledávky a vklad pohledávky, 
+c) převzetí dluhu u původního dlužníka, 
+d) vzájemné započtení pohledávek, 
+e) úhrada úvěru nebo půjčky novým úvěrem nebo půjčkou, 
+f) převod záloh na úhradu pohledávek a závazků. 
+ 
+13. V ČÚS 006 – Kursové rozdíly, bod 2.3., se naopak věnuje situacím, ve kterých kursové rozdíly 
+nevznikají. Kursové rozdíly nevznikají při: 
+a) oznámení o změně věřitele u dlužníka a u věřitele v případě, že za jeho dlužníka bude 
+plnit dlužník jiný, 
+b) dohodě o změně zahraničních měn pro úhrady nebo inkasa bez pohybu peněžních 
+prostředků s výjimkou změny na Kč, 
+c) splácení peněžitých vkladů do obchodních společností a družstev. 
+ 
+14. U odpisu cizoměnových závazků postupujeme obdobně jako u odpisu cizoměnových 
+pohledávek, neboť není důvod postupovat jinak. 
+ 
+
+                                                         Interpretace NÚR I-21 Odpis cizoměnové pohledávky a závazku 
+ 
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+3/3 
+Příklady k Interpretaci 
+ 
+Příklad 
+ 
+Účetní jednotka eviduje pohledávku v účetnictví na účtu 311xx – Pohledávky k zahraničí, a to v cizí 
+měně. K rozvahovému dni (např. k 31. 12.) účetní jednotka přepočetla hodnotu pohledávky kursem 
+ČNB. Jedná se např. o pohledávku ve výši 100 000 EUR. K datu účetní závěrky je v souladu se 
+zákonem o účetnictví přepočtena kursem 26,465 Kč/1 EUR, tj. 2 646 500 Kč. K 30. 11. následujícího 
+roku rozhodlo vedení účetní jednotky o odpisu této pohledávky. 
+Účetní jednotka svým interním předpisem stanovila ke dni uskutečnění účetního případu používat 
+aktuální denní kursy ČNB. 
+Účetní jednotka si ve svém interním (vnitřním) předpise, kterým upravuje pravidla pro 
+problematiku používání kursů a účtování kursových rozdílů, stanovila, že v souladu s účetními 
+předpisy, zejména Českým účetním standardem č. 001, dnem uskutečnění účetního případu při 
+odpisu pohledávek je den rozhodnutí vedení účetní jednotky o odpisu pohledávky. 
+Tento postup nelze v průběhu účetního období ani meziročně měnit. 
+Jako doklad bude sloužit zápis o rozhodnutí vedení účetní jednotky o odpisu pohledávky. 
+100 000 EUR x aktuální kurs ČNB platný k 30. 11., tj. např. 26,13 Kč = 2 613 000 Kč 
+ 
+Způsob účtování 
+ 
+Popis operace 
+Částka 
+MD 
+D 
+Zúčtování počátečního 
+zůstatku pohledávky 
+2 646 500 
+311xxx 
+701 
+Odpis pohledávky 
+2 613 000 
+546 – Odpis pohledávek 
+311xxx 
+Kursový rozdíl 
+33 500 
+563 – Kursové ztráty 
+311xxx 
+ 
+ 
+ 
+Datum prvního schválení 
+této interpretace NÚR: 
+13. června 2011 
+Datum poslední aktualizace 
+této interpretace NÚR: 
+1. dubna 2019 
+Zpracovatel interpretace: 
+Ing. Voborská  
+auditorka  
+ 
+Ing. Jana Pilátová  
+auditorka, daňová poradkyně  
+Svaz účetních

@@ -1,0 +1,186 @@
+ZÁKON: NÚR I-20
+NAZEV: Interpretace Národní účetní rady I-20 – Účetní zachycení podmíněných investičních výdajů
+URL: http://nur.cz/wp-content/uploads/2020/10/I-20_updated.pdf
+
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+1/4 
+Interpretace NÚR 
+I–20 
+Účetní zachycení podmíněných investičních výdajů 
+Účetní jednotky jsou povinny vést účetnictví tak, aby účetní závěrka sestavená na jeho základě 
+podávala věrný a poctivý obraz předmětu účetnictví a finanční situace účetní jednotky (zákon 
+č. 563/1991 Sb., o účetnictví, § 7, odst. 1). Účetní jednotky účtují o stavu a pohybu majetku a jiných 
+aktiv, závazků a jiných pasiv, dále o nákladech a výnosech a o výsledku hospodaření. (zákon 
+č. 563/1991 Sb., o účetnictví, § 2, Předmět účetnictví).  
+Tato interpretace musí být aplikována v kontextu s Předmluvou Národní účetní rady 
+k interpretacím českých účetních standardů. 
+ 
+ 
+Popis problému 
+1. V souvislosti s pořizováním aktiv, včetně jejich pořizování ve vlastní režii, mohou být účetní 
+jednotky povinny vynaložit výdaje, bez kterých není možné dané aktivum pořídit nebo po 
+pořízení používat. 
+ 
+2. Výdaje, které jsou účetní jednotky povinny vynaložit, mohou mít například následující podobu: 
+ výdaje na vybudování související infrastruktury (např. komunikací, chodníků), která od 
+samého počátku není majetkem účetní jednotky, 
+ povinnost poskytnout peněžní nebo nepeněžní (v podobě zajištění prací, materiálu apod.) 
+příspěvek na vybudování takové infrastruktury, 
+ předání aktiva vlastněného účetní jednotkou třetí osobě (např. organizaci zřízené obcí či 
+jinému provozovateli), 
+ výdaje na technické zhodnocení aktiva vlastněného účetní jednotkou, které bude následně 
+předáno třetí osobě (např. starší budova rekonstruovaná na obecně prospěšný objekt 
+následně převedená na obec), 
+ obdobné výdaje a výdaje, které jsou kombinací výše uvedeného (park vybudovaný na 
+pozemku účetní jednotky). 
+ 
+3. Výše uvedené výdaje mohou být vynakládány např. na základě smlouvy o bezúplatném předání 
+či jiné obdobné smlouvy, případně kupní smlouvy. V některých případech může být výše 
+uvedený výdaj částečně refundován. 
+ 
+4. Je otázkou, 
+a) zda výše uvedené výdaje jsou součástí pořizovací ceny aktiv, jejichž pořízení či používání 
+je těmito výdaji podmíněno, 
+b) pokud ano, jak takové výdaje identifikovat a jaké podmínky musí takové výdaje 
+splňovat a 
+c) jak následně postupovat, pokud se změní podmínky, za kterých byla stanovena daná 
+pořizovací cena. 
+ 
+
+                                        Interpretace NÚR I-20 Účetní zachycení podmíněných investičních výdajů 
+ 
+ 
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+2/4 
+Řešení 
+5. Pro účely této Interpretace se definuje následující terminologie: 
+a) „Hlavní aktivum“ je aktivum, jehož pořízení je cílem investičního záměru účetní 
+jednotky. Toto aktivum může být jak dlouhodobým aktivem (např. kancelářské budovy, 
+výrobní haly, nákupní centrum apod.), tak oběžným aktivem (např. zásoby představující 
+výstavbu bytů určených pro prodej). 
+b) „Výdaj“ je úbytek jakýchkoliv aktiv účetní jednotky (např. budovy, zásob, jiného aktiva, 
+peněz). 
+c) „Podmíněné investiční výdaje“ jsou výdaje, k jejichž vynaložení je účetní jednotka 
+povinna, aby bylo možné uskutečnit investiční záměr, jehož cílem je pořízení hlavního 
+aktiva (včetně následného nakládání s ním), a jejichž vynaložení: 
+i. 
+by pro účetní jednotku představovalo pořízení dalších položek aktiv mimo 
+hlavní aktivum, kdyby tyto další položky aktiv zůstaly pod kontrolou účetní 
+jednotky nebo 
+ii. 
+vede ke vzniku nebo zhodnocení aktiva třetí osoby (např. se jedná o 
+změnu cizí stavby) nebo 
+iii. 
+představuje předání dlouhodobého aktiva, o němž doposud účtovala 
+účetní jednotka, třetí osobě. Avšak výdaje, které se vztahují k 
+předávanému aktivu dle tohoto bodu a které jsou vynaloženy před 
+okamžikem jeho předání třetí osobě, nejsou podmíněnými investičními 
+výdaji pro účely této Interpretace. 
+d) „Povinnost účetní jednotky vynaložit podmíněné investiční výdaje“ je taková povinnost, 
+která vyplývá z právních předpisů, smluvních ujednání, správních nebo soudních 
+rozhodnutí a z příslibu účetní jednotky, který vyvolal důvodné očekávání třetích osob. 
+ 
+6. Podmíněné investiční výdaje jsou součástí pořizovací ceny hlavního aktiva za splnění všech 
+následujících podmínek: 
+a) podmíněné investiční výdaje nejsou refundovány, či jsou refundovány pouze částečně 
+(např. budova vlastněná účetní jednotkou je na třetí stranu převedena bezplatně nebo 
+za symbolickou cenu) a 
+b) podmíněné investiční výdaje nejsou vynaloženy v důsledku darovací smlouvy a 
+c) účetní jednotka po vynaložení podmíněných investičních výdajů nad jejich dalším užitím 
+(pokud je možné) nemá žádnou kontrolu a sama jich dále nevyužívá (např. neprovozuje 
+předanou budovu) a 
+d) účetní jednotka vynaloží podmíněné investiční výdaje až po schválení investičního 
+záměru pořídit hlavní aktivum, který zohledňuje dané podmíněné investiční výdaje a 
+e) účetní jednotka vynaloží podmíněné investiční výdaje až po vzniku povinnosti účetní 
+jednotky podmíněné investiční výdaje vynaložit. 
+ 
+7. Případná částečná refundace (náhrada) od třetí osoby příslušně snižuje podmíněné investiční 
+výdaje. 
+ 
+8. Je-li podmíněný investiční výdaj, který se dle odst. 6 stává součástí pořizovací ceny hlavního 
+aktiva, představován úbytkem (vyřazením) dlouhodobého aktiva doposud evidovaného účetní 
+jednotkou, pořizovací cena hlavního aktiva se zvýší o zůstatkovou cenu vyřazovaného 
+
+                                        Interpretace NÚR I-20 Účetní zachycení podmíněných investičních výdajů 
+ 
+ 
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+3/4 
+dlouhodobého aktiva, popř. o nezbytné výdaje související s předáním. Má-li k úbytku 
+dlouhodobého aktiva, který je podmíněným investičním výdajem, dojít až po zařazení hlavního 
+aktiva do používání, účetní jednotka účetně odepisuje aktivum určené k předání podle pravidel 
+stanovených pro hlavní aktivum, jedná-li se o odepisovatelné aktivum. 
+ 
+9. Při předání podmíněných výdajů se pořizovací cena hlavního aktiva nemění, s výjimkou 
+případů, kdy je podmíněný investiční výdaj představován úbytkem (vyřazením) dlouhodobého 
+aktiva dosud evidovaného účetní jednotkou. V tomto případě se pořizovací cena hlavního 
+majetku zvýší o zůstatkovou cenu předaného majetku představujícího podmíněný investiční 
+výdaj. 
+ 
+10. Pokud jsou podmíněné investiční výdaje součástí pořizovací ceny, má se tím alternativně na 
+mysli, že jsou součástí ocenění ve vlastních nákladech, je-li to relevantní (např. u zásob vlastní 
+výroby). 
+ 
+11. Pokud povinnost účetní jednotky vynaložit podmíněné investiční výdaje v průběhu pořizování 
+hlavního aktiva zanikne a zároveň se i nadále pokračuje v pořizování hlavního aktiva, 
+podmíněné investiční výdaje, které do okamžiku zániku povinnosti vynaložit podmíněné 
+investiční výdaje byly účtovány v souladu s odst. 6 jako součást pořizovací ceny hlavního aktiva, 
+součástí pořizovací ceny hlavního aktiva zůstanou. 
+ 
+12. V případě, že dojde k předčasnému ukončení pořizování hlavního aktiva a investice do hlavního 
+aktiva je považována za zmařenou, jsou podmíněné investiční výdaje, které se staly v souladu s 
+odst. 6 součástí pořizovací ceny hlavního aktiva, součástí nákladů na zmařenou investici. 
+ 
+13. Účetní jednotka je povinna v souladu s ustanovením § 25 odst. 2 zákona o účetnictví k 
+rozvahovému dni při oceňování aktiv, včetně aktiv ve fázi pořizování, zohlednit předvídatelná 
+rizika a možné ztráty a snížení hodnoty známé k okamžiku sestavení závěrky. 
+ 
+Zdůvodnění 
+14. Z ekonomického pohledu musí investor příslušné podmíněné investiční výdaje vynaložit, jinak 
+by ostatní části projektu (investičního záměru) nedosáhly svého účelu a nemohly být řádně 
+užívány, popř. by nebylo umožněno samotné pořízení. Případný následný převod na třetí 
+osobu je pak pouze návazným řešením situace. Pokud účetnictví má podávat věrný obraz 
+finanční situace a odpovídat ekonomické podstatě transakce, podmíněný investiční výdaj je 
+součástí pořizovací ceny hlavního aktiva ve smyslu ustanovení § 25 odst. 5 zákona o účetnictví. 
+ 
+15. I přesto, že účetní jednotka ztrácí kontrolu nad příjmy, které bezprostředně vyplývají z 
+podmíněných investičních výdajů, bude kontrolovat příjmy z hlavního aktiva, k jehož pořízení je 
+vynaložení podmíněných investičních výdajů nezbytné. Proto jsou podmíněné investiční výdaje 
+součástí celkových investičních výdajů spjatých s daným investičním záměrem. Při posuzování 
+investičního záměru pak účetní jednotka porovnává celkové investiční výdaje s 
+předpokládanými příjmy z jí pořizovaného hlavního aktiva. 
+ 
+
+                                        Interpretace NÚR I-20 Účetní zachycení podmíněných investičních výdajů 
+ 
+ 
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+4/4 
+16. Zobecněním § 47 odst. 1 vyhlášky č. 500/2002 Sb. lze za náklady zahrnuté do ceny pořízení 
+označit nezbytné výdaje, které účetní jednotka musí vynaložit a bez nichž by investice nemohla 
+vzniknout. Obdobný postup navrhuje například odst. 1c) § 47 pro odvody za dočasné nebo 
+trvalé odnětí zemědělské a lesní půdy nebo odst. 1f) § 47 pro vyřazení stávajících staveb v 
+důsledku nové výstavby. V obou případech se jedná o „náklady obětované investici“, bez nichž 
+by investice buď vůbec nevznikla, nebo nemohla být řádně užívána, což je právě případ 
+podmíněných investičních výdajů. 
+ 
+17. Výše uvedený postup je rovněž v souladu s Mezinárodními účetními standardy, které stanoví, 
+že pořizovací cena majetku má obsahovat veškeré výdaje vynaložené na uvedení majetku do 
+takového stavu, aby mohl být používán na daném místě k danému účelu. 
+ 
+ 
+ 
+Datum prvního schválení 
+této interpretace NÚR: 
+15. listopadu 2010 
+Datum poslední aktualizace 
+této interpretace NÚR: 
+1. dubna 2019 
+Zpracovatel interpretace: 
+Blanka Dvořáková 
+Marie Konečná 
+Komora daňových poradců ČR

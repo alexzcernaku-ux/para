@@ -1,0 +1,403 @@
+ZÁKON: NÚR I-30
+NAZEV: Interpretace Národní účetní rady I-30 – Srovnatelnost informací za běžné a minulé účetní období v individuální účetní závěrce podnikatele
+URL: http://nur.cz/wp-content/uploads/2020/10/I-30_updated.pdf
+
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+1/12 
+Interpretace NÚR 
+I–30 
+Srovnatelnost informací za běžné a minulé účetní období v individuální 
+účetní závěrce podnikatelů 
+Účetní jednotky jsou povinny vést účetnictví tak, aby účetní závěrka sestavená na jeho základě 
+podávala věrný a poctivý obraz předmětu účetnictví a finanční situace účetní jednotky (zákon 
+č. 563/1991 Sb., o účetnictví, § 7, odst. 1). Účetní jednotky účtují o stavu a pohybu majetku a jiných 
+aktiv, závazků a jiných pasiv, dále o nákladech a výnosech a o výsledku hospodaření. (zákon 
+č. 563/1991 Sb., o účetnictví, § 2, Předmět účetnictví).  
+Tato interpretace musí být aplikována v kontextu s Předmluvou Národní účetní rady k interpretacím 
+českých účetních standardů. 
+ 
+ 
+Popis problému 
+1. Zákon o účetnictví i jeho prováděcí vyhlášky zakotvují požadavky na srovnatelnost informací 
+uváděných v účetních závěrkách (viz zejména ustanovení zákona o účetnictví v § 19 odst. 6, resp. 
+§ 7 odst. 3 až 5 a vyhlášky č. 500/2002 Sb. (dále jen „vyhláška“) v § 4 odst. 5 a odst. 7). Konkrétně 
+ustanovení vyhlášky v § 4 odst. 5 vyžaduje úpravu údajů vykazovaných za minulé účetní období 
+(dále jen „srovnávací údaje“) za účelem jejich srovnatelnosti s vykazovanými údaji za běžné 
+účetní období. 
+ 
+2. Účetní předpisy však již blíže neupravují, jak při úpravě srovnávacích údajů ve výše uvedených 
+případech postupovat. V praxi pak dochází zejména k tomu, že úprava srovnávacích údajů je 
+opomínána nebo pro svou „neobvyklost“ není účetními provedena. 
+ 
+3. Od 1. ledna 2013 ustanovení § 15a vyhlášky vyžaduje, aby změny metod a opravy výnosů a 
+nákladů minulých období neovlivňovaly výsledek hospodaření běžného období, ale aby byly 
+účtovány proti výsledku hospodaření minulých let (konkrétně proti jeho části „A.IV.3. Jiný 
+výsledek hospodaření minulých let“). Ani tato novelizace však podrobněji nerozvádí, jak 
+postupovat při úpravě srovnávacích údajů v uvedených případech. 
+ 
+4. Národní účetní rada ve své Interpretaci „I-29 Opravy chyb, změny v účetních odhadech a změny 
+v účetních metodách“ popisuje, jak účetní jednotka v daných případech postupuje při tzv. 
+prospektivním a retrospektivním účtování. Uvedená Interpretace upozorňuje na to, že součástí 
+retrospektivní opravy chyb a změn metod je i úprava srovnávacích údajů, přičemž v otázce řešení 
+úpravy srovnávacích údajů je odkazováno na tuto Interpretaci. 
+ 
+5. Problém časové srovnatelnosti vykazovaných účetních údajů obecně nastává zejména v 
+následujících případech: 
+a) reklasifikace vykazovaných účetních položek (např. jejich sečtení či rozdělení na víc 
+položek či reklasifikování dlouhodobého úvěru na krátkodobý), 
+b) změny účetních metod v důsledku změn v účetních předpisech, 
+c) změny účetních metod, o kterých rozhodla účetní jednotka, 
+
+                                        Interpretace NÚR I-30 Srovnatelnost informací za běžné a minulé účetní 
+období v individuální účetní závěrce podnikatelů 
+ 
+ 
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+2/12 
+d) účetní chyby, které se staly v minulých obdobích, 
+e) změny účetních odhadů, 
+f) nestejně dlouhá účetní období (např. v důsledku přechodu na hospodářský rok, přeměn 
+obchodních společností, změny právní formy, účinků rozhodnutí o úpadku apod.), 
+g) vykazování nových účetních jednotek, 
+h) vykazování pokračujících společností v případě přeměn obchodních společností. 
+ 
+6. Otázkou tedy je: 
+a) zda úprava srovnávacích údajů pocházejících ze závěrek, které byly dříve řádně schváleny 
+a zveřejněny: 
+i) nezpochybňuje spolehlivost a srozumitelnost prezentovaných účetních závěrek 
+nebo 
+ii) neporušuje zásadu bilanční kontinuity, 
+b) jak vykazovat srovnávací údaje v případech změn metod, 
+c) jak vykazovat srovnávací údaje v případech oprav chyb, 
+d) zda a jak vykazovat srovnávací údaje u nestejně dlouhých účetních období, 
+e) jak vykazovat srovnávací údaje u nových účetních jednotek, 
+f) jak vykazovat srovnávací údaje u pokračujících společností v případě přeměn obchodních 
+společností. 
+ 
+ 
+Řešení 
+Obecné řešení 
+7. Účetní jednotky vykazují v aktuálních účetních závěrkách srovnávací údaje, které pocházejí z 
+minulých účetních závěrek. Účetní jednotka upraví tyto srovnávací údaje, pokud taková změna 
+přispěje k časové srovnatelnosti aktuálních a srovnávacích údajů. 
+ 
+8. Pokud dojde k úpravám srovnávacích údajů, a tudíž srovnávací údaje uvedené v aktuální účetní 
+závěrce se budou lišit od původních hodnot uvedených v minulých účetních závěrkách, účetní 
+jednotka uvede v příloze rozpis všech významných změn. Tento rozpis musí obsahovat 
+minimálně: stav před změnou, stav po změně a komentář. 
+ 
+Reklasifikace položek vykazovaných v účetní závěrce 
+9. Srovnávací údaje se reklasifikují obdobným způsobem jako aktuální údaje, pouze pokud je to 
+vhodné. Například, byly-li zásoby až do aktuálního období vykazovány na jediném řádku rozvahy 
+a v aktuálním období jsou zásoby uvedeny na dvou řádcích rozvahy, protože jedna z položek 
+zásob se stala významnou položkou, je nutné položku zásob ve srovnávacích údajích rozdělit 
+podle členění použitého v aktuálních údajích. Jiným příkladem je reklasifikace dlouhodobého 
+úvěru na krátkodobý z důvodu jeho blížící se splatnosti. V takovém případě se úprava 
+srovnávacího údaje, která by spočívala v záměně dlouhodobého úvěru za krátkodobý, 
+neprovede. 
+ 
+ 
+ 
+ 
+
+                                        Interpretace NÚR I-30 Srovnatelnost informací za běžné a minulé účetní 
+období v individuální účetní závěrce podnikatelů 
+ 
+ 
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+3/12 
+Opravy chyb 
+10. Při opravě chyb (viz Interpretace NÚR „I-29 Opravy chyb, změny v účetních odhadech a změny v 
+účetních metodách“) účetní jednotka upraví srovnávací údaje tak, aby tyto údaje vypadaly, jako 
+kdyby chyba nenastala, a to s výjimkami uvedenými v následujícím odstavci. 
+ 
+11. Pro úpravu srovnávacích údajů platí dále tato pravidla: 
+a) Pokud se upravují srovnávací údaje ve výkazu zisku a ztráty za určité srovnávací období, 
+v rozvaze se tyto úpravy promítnou do výsledku hospodaření za běžné období, který je 
+uveden ve srovnávacích údajích za stejné srovnávací období. V následných srovnávacích 
+obdobích vykazovaných v rozvaze (pokud se vykazují) se tato úprava promítne do položky 
+„A.IV.3. Jiný výsledek hospodaření minulých let“. 
+b) Pokud chyba ve výnosech či nákladech nastala v účetním období, které předcházelo 
+vykazovaným srovnávacím obdobím, ve srovnávacích údajích výkazu zisku a ztráty se 
+oprava nijak neprojeví. V rozvaze se příslušně upraví „A.IV.3. Jiný výsledek hospodaření 
+minulých let“ v nejzazším a ve všech následných srovnávacích obdobích. 
+c) Pokud chyba nespočívala v chybných nákladech nebo výnosech (např. se jednalo o 
+nezaúčtovaný nákup zboží či přecenění cenného papíru do vlastního kapitálu), upraví se 
+srovnávací údaje pouze v rozvaze (příp. také ve výkazu o změnách ve vlastním kapitálu, 
+týká-li chyba položek ve vlastním kapitálu a je-li sestavován).  
+d) Sloupce se srovnávacími údaji, které neodpovídají údajům za běžné účetní období 
+uvedeným v minulých účetních závěrkách v důsledku jejich opravy, musí být adekvátně 
+označeny (např. „minulé období – opraveno“). 
+e) Srovnávací údaje uváděné ve výkazu o změnách ve vlastním kapitálu, pokud je 
+sestavován, musí na rozdíl od ostatních výkazů obsahovat zvlášť srovnávací údaje 
+pocházející z údajů běžných období předchozích účetních závěrek (tj. neopravené) a 
+jejich příslušnou opravu (pokud se chyba dotkla výše vlastního kapitálu). Pokud chyba 
+mající vliv na výši vlastního kapitálu nastala v účetním období, které předcházelo 
+uváděným srovnávacím obdobím, upraví se počáteční zůstatky nejzazšího uváděného 
+srovnávacího období tak, aby bylo zřejmé, jaké byly počáteční zůstatky bez opravy a jak 
+byly opraveny. 
+ 
+Změna metody 
+12. Při změně metody (viz Interpretace NÚR „I-29 Opravy chyb, změny v účetních odhadech a změny 
+v účetních metodách“) účetní jednotka upraví srovnávací údaje tak, aby vypadaly, jako by 
+příslušná metoda byla použita i v obdobích, ze kterých srovnávací údaje pocházejí. Technicky 
+postupuje stejně jako v případě oprav chyb, které by nastaly jak před nejzazším srovnávacím 
+obdobím, tak i ve všech dalších srovnávacích obdobích (viz odst. 10 a 11). 
+ 
+Změna účetních odhadů 
+13. Při změně odhadů (viz Interpretace NÚR „I-29 Opravy chyb, změny v účetních odhadech a změny 
+v účetních metodách“), se srovnávací údaje neupravují. 
+ 
+Pravidelně sestavované účetní závěrky za stejně dlouhé části účetních období 
+14. Při pravidelném sestavování účetních závěrek za stejně dlouhé části účetních období účetní 
+jednotka uvádí jako srovnávací údaje (pokud se příslušné výkazy sestavují): 
+a) v rozvaze údaje ke konci bezprostředně předcházejícího účetních období, 
+
+                                        Interpretace NÚR I-30 Srovnatelnost informací za běžné a minulé účetní 
+období v individuální účetní závěrce podnikatelů 
+ 
+ 
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+4/12 
+b) ve výkazu zisku a ztráty, výkazu peněžních toků a výkazu změn ve vlastním kapitálu údaje 
+za ty části bezprostředně předcházejícího účetního období, které odpovídají vykazované 
+části aktuálního účetního období. Pokud účetní jednotka vedle nebo na místo těchto 
+výkazů sestavuje kumulované výkazy za období od počátku aktuálního účetního období 
+do konce příslušné části účetního období, jako srovnávací údaje uvádí údaje za 
+odpovídající období bezprostředně předcházejícího období. 
+ 
+Nestejně dlouhá účetní období 
+15. V případě, kdy aktuální účetní závěrka a účetní závěrky, ze kterých se čerpají srovnávací údaje, 
+byly sestaveny za nestejně dlouhá účetní období, se postupuje následovně: 
+a) Je-li aktuální účetní období tvořeno 12 měsíci: 
+i. 
+v případě, že srovnávací 12 měsíční období bylo rozděleno do více kratších 
+účetních období a tokové údaje za 12 měsíců lze získat prostým součtem údajů 
+za tato kratší období, se v rozvaze uvedou srovnávací údaje z rozvahy sestavené 
+před 12 měsíci a v ostatních výkazech údaje získané součtem za výše uvedená 
+kratší období. 
+ii. 
+v ostatních případech se u rozvahy jako srovnávací údaje uvedou údaje ze 
+zahajovací rozvahy aktuálního období a srovnávací údaje se u ostatních výkazů 
+neuvedou, nebo se tyto informace zřetelně označí jako údaje za období s 
+odlišnou délkou. V příloze účetní jednotka uvede důvod nestejně dlouhých 
+období. 
+b) Je-li aktuální účetní období delší nebo kratší než 12 měsíců, u rozvahy se jako 
+srovnávací údaje uvedou údaje ze zahajovací rozvahy aktuálního období, srovnávací 
+údaje u ostatních výkazů se buď neuvádí, nebo se tyto informace zřetelně označí jako 
+údaje za období s odlišnou délkou. V příloze účetní jednotka uvede důvod nestejně 
+dlouhých období. 
+ 
+Nové účetní jednotky 
+16. Nové účetní jednotky včetně nových účetních jednotek vzniklých v důsledku přeměn obchodních 
+společností vykážou v rozvaze sestavené za jejich první účetní období srovnávací údaje 
+pocházející ze zahajovací rozvahy. V ostatních výkazech se srovnávací údaje neuvádí.  
+ 
+Pokračující účetní jednotky z přeměn obchodních společností mimo změny právní formy 
+17. Pokračující účetní jednotka z přeměn obchodních společností mimo změny právní formy vykáže 
+srovnávací údaje pocházející z její konečné účetní závěrky sestavené k datu, které bezprostředně 
+předchází rozhodný den fúze, vyjma případů, kdy by uvedení takových údajů bylo zavádějící. V 
+takovém případě se uvedou pouze srovnávací údaje v rozvaze, které budou převzaty ze 
+zahajovací rozvahy. 
+ 
+Změny právní formy 
+18. V mezitímní závěrce sestavené ke dni, k němuž byl vyhotoven projekt změny právní formy, a v 
+mezitímní účetní závěrce sestavené ke dni předcházejícímu den zápisu změny právní formy do 
+obchodního rejstříku se srovnávací údaje neuvádí. V konečné účetní závěrce sestavené ke dni 
+předcházejícímu den zápisu změny právní formy do obchodního rejstříku se uvedení 
+srovnávacích údajů řídí dle odst. 15. V první řádné účetní závěrce po změně právní formy se 
+
+                                        Interpretace NÚR I-30 Srovnatelnost informací za běžné a minulé účetní 
+období v individuální účetní závěrce podnikatelů 
+ 
+ 
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+5/12 
+srovnávací údaje přebírají z předchozí řádné účetní závěrky, nikoli z mezitímní či konečné (ledaže 
+by byla zároveň řádnou) účetní závěrky. 
+ 
+Souběh 
+19. Pokud se účetní jednotky týká více zmíněných případů najednou, musí respektovat všechna 
+pravidla pro tyto případy zároveň (například po rozdělení obchodní společnosti bude následovat 
+účetní období s nestandardní délkou). Nevykázání srovnávacích údajů má v případě konfliktu 
+přednost. 
+ 
+ 
+Zdůvodnění 
+Obecné řešení 
+20. Obecné řešení obsažené v odstavci 7 v podstatě zdůrazňuje princip časové srovnatelnosti 
+vykazovaných účetních údajů, který je obecně uznávanou účetní zásadou zakotvenou v 
+ustanovení § 19 odst. 6 zákona o účetnictví a rozvedenou ustanovením § 4 odst. 5 a 7 vyhlášky 
+č. 500/2002 Sb. 
+ 
+21. Tato Interpretace zpřesňuje zmiňovaná ustanovení, uvádí nejčastější případy jejich aplikace, 
+sjednocuje postup úprav při plnění jejich požadavků a stanovuje rozsah komentáře obsaženého 
+v příloze, který doprovází změny provedené za účelem zajištění časové srovnatelnosti. Stanovuje 
+také, které úpravy přispívají k lepší časové srovnatelnosti a které ne. V důsledku toho přispívá i 
+mezipodnikové srovnatelnosti účetních údajů, co se týče sjednocení podnikových a auditorských 
+metodik k zajištění časové srovnatelnosti účetních údajů. 
+ 
+22. Není správné ani dostatečné uvádět srovnatelné údaje pouze v příloze při ponechání 
+nesrovnatelných údajů ve výkazech. Účelem přílohy je doplnění, vysvětlení a komentování 
+výkazů, nikoli jejich dementování. Uvedení srovnatelných údajů pouze v příloze by bylo 
+zmatečné, proto je tento postup vhodný pouze výjimečně. 
+ 
+23. Schválení ani zveřejnění minulých účetních závěrek není překážkou změny aktuálně 
+vykazovaných srovnávacích údajů pocházejících z těchto účetních závěrek, protože: 
+a) závěrka běžného období je opět schvalována stejným orgánem, a s ní i změny ve 
+srovnávacích údajích a 
+b) nedílnou součástí účetní závěrky je příloha, která tyto změny vysvětluje, a proto není 
+vykazování změněných údajů matoucí. 
+ 
+24. Změny aktuálně vykazovaných srovnávacích údajů pocházejících z minulých účetních závěrek 
+nejsou porušením bilanční kontinuity, protože bilanční kontinuita je zajišťována přeměnou 
+konečných zůstatků v počáteční. Úprava srovnávacích údajů na tomto postupu nic nemění. Aby 
+nedocházelo k dojmu, že bilanční kontinuita je porušena změnou srovnávacích údajů, účetní 
+jednotky musí v příloze uvést rozpis uvedený v odstavci 8, který prokazuje, že ke změnám 
+nedošlo svévolně. 
+ 
+ 
+ 
+
+                                        Interpretace NÚR I-30 Srovnatelnost informací za běžné a minulé účetní 
+období v individuální účetní závěrce podnikatelů 
+ 
+ 
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+6/12 
+Speciální případy 
+25. Jak uvádí odstavec 9, reklasifikace srovnávacích údajů za účelem návaznosti na aktuální účetní 
+údaje je vhodná pouze někdy. Například, pokud se účetní jednotka rozhodne podrobněji rozlišit 
+aktiva v rozvaze, měly by být podobným způsobem rozlišeny uváděné srovnávací údaje, aby bylo 
+možné sledovat vývoj těchto položek v čase. Pokud se však například z dlouhodobých úvěrů (či 
+obecně z pohledávek nebo závazků nebo jejich částí) stanou krátkodobé vzhledem k jejich blížící 
+se splatnosti, účetní jednotka nepřeklasifikovává vykazovaný dlouhodobý úvěr uváděný ve 
+srovnávací části na krátkodobý, ačkoli se jedná stále o stejný úvěr. Tento stejný úvěr bude 
+uveden v různých řádcích rozvahy v její srovnávací části a aktuální části. 
+ 
+26. Odstavce 10–12 jsou aplikací retrospektivního přístupu k opravám chyb a změnám účetních 
+metod na srovnávací údaje. Tato metoda je vyžadována § 15a vyhlášky a pro účely účtování a 
+vykazování údajů za běžné období je rozvedena v Interpretaci NÚR „I-29 Opravy chyb, změny v 
+účetních odhadech a změny v účetních metodách“. Pokud by nedošlo k úpravě srovnávacích 
+údajů při změně metody, údaje za běžné a srovnávací období by byly chybné, resp. stanoveny za 
+použití odlišných metod, což by vedlo k jejich nesrovnatelnosti. Aby se takovému stavu zabránilo, 
+je třeba upravit srovnávací informace tak, jako by k dané chybě nedošlo (neboť dává smysl 
+srovnávat pouze správné údaje), resp. jako by daná metodika platila již v minulých obdobích 
+(neboť tato metodika byla použita i v aktuálním období). 
+ 
+27. Výkyv ve vykazovaných účetních údajích způsobený samotnou změnou účetního odhadu není 
+považován za porušení zásady časové srovnatelnosti. V každém účetním období je účetní 
+závěrka založena na nejlepších odhadech, kterých je účetní jednotka schopna. Pokud dojde k 
+jejich změně, a to i výrazné, je to důsledkem události, která nastala v aktuálním účetním období, 
+a tudíž musí být jako taková vykázána. 
+ 
+28. Pravidelně sestavované účetní závěrky za stejně dlouhé části účetních období mohou být 
+vyžadovány jinými než účetními předpisy (např. zákonem č. 256/2004 Sb., pro podnikání na 
+kapitálovém trhu apod.) nebo na základě smluvního vtahu (např. úvěrové smlouvy). Tato 
+Interpretace pouze stanovuje, z jakých (částí) období se čerpají srovnávací údaje pro příslušné 
+vyžadované výkazy. Nestanovuje, jaké výkazy se mají sestavovat, za jak dlouhé části období a ani 
+to, jak se údaje za příslušné části zjišťují (např. zda a jak se provádí inventarizace, tvoří rezervy 
+apod.). 
+ 
+29. Postupy v této Interpretaci jsou založeny na ustanoveních vyhlášky v § 4 odst. 5 a 7. V některých 
+případech tato ustanovení nabízí volbu spočívající v tom, že srovnávací údaje lze uvést, nebo 
+neuvést. Tato Interpretace jednak obsahuje doporučení, kdy je srovnávací údaje (ve všech nebo 
+vybraných výkazech) lepší neuvádět vůbec, a dále nabízí řešení, jak konkrétně postupovat, 
+pokud účetní jednotka zvolí uvedení srovnávacích údajů. 
+ 
+ 
+ 
+ 
+ 
+ 
+
+                                        Interpretace NÚR I-30 Srovnatelnost informací za běžné a minulé účetní 
+období v individuální účetní závěrce podnikatelů 
+ 
+ 
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+7/12 
+Příklady k interpretaci 
+ 
+ 
+  
+   
+ 
+ 
+ 
+
+                                        Interpretace NÚR I-30 Srovnatelnost informací za běžné a minulé účetní 
+období v individuální účetní závěrce podnikatelů 
+ 
+ 
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+8/12 
+ 
+     
+ 
+
+                                        Interpretace NÚR I-30 Srovnatelnost informací za běžné a minulé účetní 
+období v individuální účetní závěrce podnikatelů 
+ 
+ 
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+9/12 
+ 
+     
+ 
+ 
+
+                                        Interpretace NÚR I-30 Srovnatelnost informací za běžné a minulé účetní 
+období v individuální účetní závěrce podnikatelů 
+ 
+ 
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+10/12 
+ 
+     
+ 
+ 
+
+                                        Interpretace NÚR I-30 Srovnatelnost informací za běžné a minulé účetní 
+období v individuální účetní závěrce podnikatelů 
+ 
+ 
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+11/12 
+ 
+ 
+ 
+ 
+ 
+Datum prvního schválení 
+této interpretace NÚR: 
+22. června 2014 
+Datum poslední aktualizace 
+této interpretace NÚR: 
+1. dubna 2019 
+
+                                        Interpretace NÚR I-30 Srovnatelnost informací za běžné a minulé účetní 
+období v individuální účetní závěrce podnikatelů 
+ 
+ 
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+12/12 
+Zpracovatel interpretace: 
+Ing. Jiří Pelák, Ph.D.  
+Katedra finančního účetnictví a auditingu 
+Fakulta financí a účetnictví 
+Vysoká škola ekonomická v Praze  
+Nám. W. Churchilla 4  
+130 67 Praha 3 – Žižkov

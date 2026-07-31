@@ -1,0 +1,146 @@
+ZÁKON: NÚR I-5
+NAZEV: Interpretace Národní účetní rady I-5 – Stanovení okamžiku zahájení účtování souvisejících nákladů spojených s pořízením dlouhodobého majetku
+URL: http://nur.cz/wp-content/uploads/2020/10/I-05_updated.pdf
+
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+1/3 
+Interpretace NÚR 
+I–5 
+Stanovení okamžiku zahájení účtování souvisejících nákladů spojených s pořízením 
+dlouhodobého hmotného majetku 
+Účetní jednotky jsou povinny vést účetnictví tak, aby účetní závěrka sestavená na jeho základě 
+podávala věrný a poctivý obraz předmětu účetnictví a finanční situace účetní jednotky (zákon 
+č. 563/1991 Sb., o účetnictví, § 7, odst. 1). Účetní jednotky účtují o stavu a pohybu majetku a jiných 
+aktiv, závazků a jiných pasiv, dále o nákladech a výnosech a o výsledku hospodaření. (zákon 
+č. 563/1991 Sb., o účetnictví, § 2, Předmět účetnictví).  
+Tato interpretace musí být aplikována v kontextu s Předmluvou Národní účetní rady 
+k interpretacím českých účetních standardů. 
+ 
+ 
+Popis problému 
+1. Než začne účetní jednotka realizovat technologicky i finančně náročnější investici, často 
+vynaloží celou řadu nákladů, které nemusejí mít přímou souvislost s budoucím dlouhodobým 
+hmotným majetkem. Takovéto náklady nevstupují do pořizovací ceny dlouhodobého 
+hmotného majetku. Nesprávné zachycení do vstupní ceny může způsobit nesprávné ocenění 
+majetku, zkreslení aktiv (jejich nadhodnocení) v účetní závěrce, a tím porušení zákona o 
+účetnictví. 
+ 
+2. Vyhlášky provádějící některá ustanovení zákona o účetnictví vymezují náklady související s 
+pořízením dlouhodobého hmotného majetku. Nejedná se však o konečný výčet položek. To 
+může vést k tomu, že účetní jednotka uvede nesprávně do vstupní ceny i takové položky, které 
+mají být součástí výkazu zisku a ztráty. 
+ 
+3. Vzhledem k tomu, že uvedená problematika není řešena ani Českými účetními standardy, 
+vzniká otázka, zda je možno stanovit obecnější pravidla pro stanovení okamžiku zahájení 
+účtování souvisejících nákladů spojených s pořízením dlouhodobého hmotného majetku. 
+ 
+Řešení 
+4. Okamžik, od kterého jsou položky součástí ocenění dlouhodobého majetku, je možno stanovit 
+jako okamžik, kdy se účetní jednotka rozhodne řešit danou problematiku pořízením nové 
+investice. Účetní jednotka může ve vnitřním předpise zpracovat postup prací pro stanovení 
+okamžiku, od kterého jsou položky součástí ocenění dlouhodobého majetku. Tento okamžik 
+účetní jednotka nemůže každoročně měnit, ke změně může dojít jen zcela výjimečně a je nutno 
+postupovat v souladu s § 7 odst. 4 zákona o účetnictví. Veškeré náklady, které se časově a 
+věcně váží do okamžiku rozhodnutí o pořízení investice, budou provozními náklady, které 
+budou promítnuty do výkazu zisku a ztráty v plné výši při vzniku tohoto nákladu, popř. bude 
+uplatněna zásada časového rozlišení. 
+ 
+
+  Interpretace NÚR I-5 Stanovení okamžiku zahájení účtování souvisejících nákladů spojených 
+s pořízením dlouhodobého hmotného majetku 
+ 
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+2/3 
+5. Jako důkazní prostředek může sloužit např. zápis z jednání představenstva či písemné 
+rozhodnutí jednatele společnosti o zahájení prací spojených s pořízením investice. V uvedeném 
+dokumentu (rozhodnutí) by měl být stanoven cíl jako budoucí stav, ke kterému účetní jednotka 
+směřuje a o jehož dosažení usiluje. Předpokladem realizace cílů je zajištěné financování a také 
+existence nástrojů, které budou využity při realizaci stanovených cílů. Dalším důkazním 
+prostředkem pro stanovení okamžiku, od kterého jsou položky součástí ocenění dlouhodobého 
+majetku, může být i datum uvedené na písemném zpracování projektu – jde o soubor 
+jednoznačně popsaných postupů včetně výkresové a jí odpovídající dokumentace (schémata, 
+stavební výkresy a dokumenty, konstrukční výkresy a dokumenty, technologické postupy) a 
+postup zavedení do praxe. 
+ 
+6. Běžným provozním nákladem v době vzniku, popř. při dodržení zásady časové souvislosti před 
+stanovením okamžiku, od kterého jsou položky součástí ocenění dlouhodobého majetku, jsou 
+především položky: 
+ 
+6.1. Stanovení koncepce – vymezení okruhu cílů, např. při rozvoji podniku. Pokud podnik cítí, 
+že je třeba hledat nové cesty, aby se udržel na trhu, hledá cestu, tzn. zadá zpracování 
+koncepce, která ale nakonec nemusí být realizována. 
+ 
+6.2. Marketing – pomocí této služby hledá podnikatel na trhu mezery, které by vyplnil, zjišťuje 
+neuspokojené potřeby spotřebitele, hledá cestu, jak změnit tyto zjištěné nedostatky do 
+podoby nabídky, hledá způsoby, jak dostat příslušné výrobky ke spotřebitelům. Zkoumá se 
+i poloha vlastního trhu. Výsledky marketingu však mohou být pro danou účetní jednotku 
+nepřijatelné, příliš náročné a potom tato část nemusí být zakončena pořízením 
+dlouhodobého majetku. 
+ 
+6.3. Průzkum trhu – jedná se o službu, jejíž součástí je i průzkum potřeb, pomocí něhož se 
+stanovuje tzv. tržní a prodejní potenciál. Tržní potenciál se chápe jako maximální množství 
+odbytových příležitostí pro dodavatele. Prodejní potenciál se omezuje na odbytové 
+příležitosti jen na účetní jednotku neboli vyjadřuje odbytovou prognózu účetní jednotky. 
+ 
+6.4. Výběrové řízení, tendr – před rozhodnutím, zda účetní jednotka pořídí dlouhodobý 
+majetek, či nikoliv, si ověřuje cenovou dostupnost investice. Touto formou zjišťuje 
+hodnotu subdodávek určitých služeb, výrobků, prací. V některých případech může být 
+veřejná soutěž odvolána, pak účetní jednotka nahradí účastníkům soutěže, kteří zcela 
+nebo zčásti splnili podmínky, jejich náklady. Tato část nepodléhá zákonu o zadávání 
+veřejných zakázek a nevede k výběru konkrétního dodavatele investice. Postup zadávání 
+výběrového řízení bude vyplývat z vnitřních norem účetní jednotky. 
+ 
+6.5. Náklady na vyřazení stavby – v případě, že došlo k vyřazení stavby nebo části stavby bez 
+přímé souvislosti na rozhodnutí o nové výstavbě či o provedení technického zhodnocení 
+stávající nemovitosti. 
+ 
+7. Náklady, které bude mít účetní jednotka po stanovení okamžiku, od kterého jsou položky 
+součástí ocenění dlouhodobého majetku, tzn. po vytýčení cíle, který bude v rozhodnutí 
+pojmenován a vymezen, budou souvisejícími náklady na pořízení dlouhodobého majetku a 
+
+  Interpretace NÚR I-5 Stanovení okamžiku zahájení účtování souvisejících nákladů spojených 
+s pořízením dlouhodobého hmotného majetku 
+ 
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+3/3 
+účetní jednotka je zachytí v účetnictví na kalkulační účet účtové skupiny 04 – Pořízení 
+dlouhodobého majetku. 
+ 
+Zdůvodnění 
+8. Právní předpisy tento okamžik nedefinují, což vede k tomu, že účetní jednotka musí při 
+rozhodování dbát některých obecných účetních pravidel – především respektování věrného a 
+poctivého zobrazení předmětu účetnictví v účetní závěrce. Z tohoto ustanovení vyplývá, že 
+není možné hodnotu aktiv nadhodnocovat, a tím vylepšovat pohled na účetní jednotku neboli 
+není možno zapomínat na další obecnou účetní zásadu, a tou je zásada opatrnosti (§ 26 odst. 3 
+a § 25 odst. 3 zákona č. 563/1991 Sb., o účetnictví). 
+ 
+9. Ani opačný přístup k ocenění dlouhodobého majetku není v souladu s právními předpisy. 
+Pokud by účetní jednotka stanovila okamžik, od kterého jsou položky součástí ocenění 
+dlouhodobého majetku pozdě, mohlo by se stát, že související náklady, které měly navyšovat 
+vstupní cenu dlouhodobého majetku, budou v běžných provozních nákladech. Tím bude nižší 
+výsledek hospodaření za dané účetní období, bude nižší i hodnota aktiv celkem a v 
+následujících letech bude lepší výsledek hospodaření. 
+ 
+10. Vzhledem k tomu, že dlouhodobý majetek se postupně opotřebovává, promítají se do 
+provozních nákladů odpisy několik účetních období, může to být i několik desítek let. V případě 
+chybného ocenění dlouhodobého majetku se tato chyba projevuje v nákladech podle 
+odpisového plánu dlouhou dobu. Tato chyba může mít negativní dopad jak do výsledku 
+hospodaření v jednotlivých letech, tak i do vnitropodnikového řízení společnosti, vč. dopadu na 
+rentabilitu a efektivnost řízení podniku. 
+ 
+ 
+ 
+Datum prvního schválení 
+této interpretace NÚR: 
+27. února 2006 
+Datum poslední aktualizace 
+této interpretace NÚR: 
+1. dubna 2019 
+Zpracovatel interpretace: 
+Ing. Miloslava Halusková 
+Ekonomická poradna s.r.o. 
+Resslova 206/12 
+770 10 Olomouc

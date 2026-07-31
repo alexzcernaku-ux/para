@@ -1,0 +1,848 @@
+ZÁKON: NÚR I-45
+NAZEV: Interpretace Národní účetní rady I-45 – Znehodnocení stálých hmotných a nehmotných aktiv – testování a vykazování
+URL: http://nur.cz/wp-content/uploads/2023/03/I-45.pdf
+
+© Národní účetní rada 
+Schválený text interpretace 
+1/15 
+Interpretace Národní účetní rady 
+I-45 Znehodnocení stálých hmotných a nehmotných aktiv – 
+testování a vykazování 
+ 
+Účetní jednotky jsou povinny vést účetnictví tak, aby účetní závěrka sestavená na jeho základě 
+podávala věrný a poctivý obraz předmětu účetnictví a finanční situace účetní jednotky (zákon 
+č. 563/1991 Sb., o účetnictví, § 7 odst. 1). Za vedení účetnictví je odpovědná účetní jednotka. Tato 
+interpretace není právně závazným stanoviskem, pouze vyjadřuje odborný názor Národní účetní 
+rady a může být aplikována pouze v kontextu s Předmluvou Národní účetní rady k interpretacím 
+českých účetních předpisů. Postup popsaný v této interpretaci poskytuje účetní jednotce návod v 
+případech, kdy má jejich aplikace významný dopad na informace uvedené v účetní závěrce a kdy 
+informační přínosy jsou větší než náklady nutné na jejich získání. 
+ 
+Popis problému: 
+1. Běžné opotřebení stálých aktiv je zachyceno prostřednictvím odpisů. V průběhu doby 
+použitelnosti stálých aktiv ale mohou nastat situace, kdy účetní zůstatková hodnota již 
+neodpovídá částce, kterou je dané aktivum účetní jednotce schopné vygenerovat (podobně jako 
+u zásob, kdy účetní jednotka v rámci inventarizace ověřuje, zda je daná položka zásob prodejná 
+alespoň za svoji pořizovací cenu). V takovém případě by mělo být vyčísleno a vykázáno 
+znehodnocení daného aktiva. 
+2. Český účetní standard č. 005 v bodě 4.1.2 uvádí, že opravné položky k odpisovanému 
+dlouhodobému majetku, jehož užitná hodnota se běžně snižuje opotřebením, se tvoří 
+v případech, kdy je jeho užitná hodnota zjištěná při inventarizaci výrazně nižší, než je jeho 
+ocenění v účetnictví po odečtení oprávek, a toto snížení hodnoty nelze považovat za definitivní 
+(za snížení trvalého charakteru). Pojem užitná hodnota ani její stanovení již není nikde 
+definován. 
+3. Zavedená praxe v ČR považuje odpisování za trvalé znehodnocení dlouhodobých aktiv, 
+zatímco opravné položky za dočasné snížení hodnoty dlouhodobých aktiv. Obecně lze 
+považovat za tzv. trvalé snížení hodnoty aktiva stav, kdy došlo k vyčerpání kapacity a 
+užitečnosti, kterou aktivum účetní jednotce poskytuje. Toto snížení je v účetnictví zobrazeno 
+prostřednictvím odpisování dlouhodobého aktiva po očekávanou dobu jeho použitelnosti, která 
+může být vyjádřena časovým obdobím nebo celkovým výkonem. Aktivum je však využíváno 
+v podmínkách a za okolností, které se mohou nad rámec původního očekávání měnit a mohou 
+tak dočasně ovlivňovat využití aktiva a v důsledku též jeho hodnotu. Snížení hodnoty aktiva 
+v důsledku okolností, které nejsou dány využitím aktiva lze považovat za tzv. dočasné snížení 
+hodnoty a v účetnictví je toto snížení zobrazeno prostřednictvím opravných položek. 
+Jednoznačná hranice definující obsahový rozdíl mezi trvalým a dočasným snížením hodnoty 
+
+ 
+ 
+I-45 Znehodnocení stálých hmotných a nehmotných aktiv            
+– testování a vykazování 
+ 
+© Národní účetní rada 
+ 
+2/15 
+majetku však neexistuje a pomyslné dočasné snížení může být v důsledku trvalým (anebo 
+naopak).  
+4. Cílem interpretace je stanovit postup při testování stálých aktiv na znehodnocení a vyjasnit 
+následné zaúčtování (vykázání) identifikovaného znehodnocení. Interpretace řeší primárně 
+následující otázky: 
+a) Kdy mají být stálá aktiva testována na znehodnocení? 
+b) Jaká hodnota je výsledkem testu na znehodnocení? 
+c) Jakým způsobem jsou stálá aktiva testována na znehodnocení? 
+d) Jak je případné znehodnocení zachyceno v účetní závěrce? 
+e) Jak přistoupit ke zrušení zaúčtovaného znehodnocení v budoucnosti, pominou-li 
+důvody? 
+5. Interpretace neupravuje postup pro testování hodnoty stálých finančních aktiv. 
+Řešení: 
+Definice  
+6. Pro potřeby řešení této interpretace jsou definovány následující pojmy: 
+a) Penězotvorná jednotka je nejmenší skupina aktiv, která generuje peněžní toky 
+dostatečně nezávisle na ostatních penězotvorných jednotkách.  
+b) Celopodniková aktiva jsou taková aktiva, která samostatně ani ve spojení s jinými 
+aktivy negenerují žádné nebo generují pouze zanedbatelné peněžní toky.  
+Indikace znehodnocení 
+7. Účetní jednotka otestuje stálé aktivum (i nedokončené) v případech, kdy existuje předpoklad, 
+že by aktivum mohlo být znehodnocené. Existence takového předpokladu je obvykle založena 
+na následujících externích či interních indikacích. 
+8. Mezi externí indikace patří například: 
+a) pokles tržní hodnoty aktiva; 
+b) technologické či legislativní změny s negativním dopadem na využití aktiva; 
+c) ztráta významného zákazníka; 
+d) vstup nové konkurence na trh; 
+e) negativní vývoj měnového kurzu; 
+f) zvýšení úrokových sazeb. 
+
+ 
+ 
+I-45 Znehodnocení stálých hmotných a nehmotných aktiv            
+– testování a vykazování 
+ 
+© Národní účetní rada 
+ 
+3/15 
+9. Mezi interní indikace patří například: 
+a) poškození či zastarání aktiva; 
+b) významné změny s negativním dopadem na účetní jednotku v rozsahu nebo způsobem, 
+v němž je anebo bude aktivum užíváno; například plánová restrukturalizace, 
+reorganizace, prodej aktiva; 
+c) výstupy z interního výkaznictví naznačující, že ekonomická výkonnost aktiva je nebo 
+bude horší, než se předpokládalo. 
+10. Účetní jednotka by měla alespoň jednou ročně zhodnotit, zda existují indikace znehodnocení 
+hmotných a nehmotných stálých aktiv (včetně nedokončených). 
+Stanovení výše znehodnocení a vykázání ztráty ze znehodnocení 
+11. Existuje-li na základě výše uvedených indikací předpoklad, že je stálé aktivum znehodnocené, 
+stanoví účetní jednotka pro dotčená aktiva nebo skupiny aktiv (tzv. penězotvorná jednotka dle 
+vymezení v odst. 6 zpětně získatelnou částku. 
+12. Zpětně získatelná částka je vyšší z: 
+a) reálné hodnoty aktiva snížené o náklady na uskutečnění jeho prodeje; a  
+b) hodnoty z užívání, která představuje diskontované čisté provozní peněžní toky, které 
+aktivum nebo skupina aktiv generuje. 
+13. Je-li očekáván prodej stálého aktiva v návaznosti na rozhodnutí vedení podniku v období do 12 
+měsíců, je zpětně získatelná částka stanovena ve výši reálné hodnoty snížené o náklady na 
+uskutečnění prodeje a účetní jednotka při testování neurčuje hodnotu z užívání.  
+14. Je-li zpětně získatelná částka nižší než zůstatková hodnota aktiva, sníží účetní jednotka o daný 
+rozdíl účetní (zůstatkovou) hodnotu stálého aktiva prostřednictvím opravné položky k stálým 
+aktivům a provede v souladu s § 56 odst. 4 vyhlášky č. 500/2002 Sb., adekvátní úpravu 
+odpisového plánu daného aktiva tak, aby následné odpisy reflektovaly skutečnost, že 
+zůstatková hodnota aktiva poklesla. Účetní jednotka též posoudí potřebu upravit výši zbytkové 
+hodnoty aktiva, je-li při odpisování aktiva zohledňována. 
+15. Nelze-li otestovat samostatná aktiva proto, že sama o sobě nevytvářejí žádné peněžní toky nebo 
+vytvářejí peněžní toky, které nejsou dostatečně nezávislé na peněžních tocích z jiných aktiv, 
+seskupí účetní jednotka aktiva do tzv. penězotvorných jednotek. 
+16. Vykazuje-li účetní jednotka kladný goodwill nebo kladný oceňovací rozdíl, který se vztahuje k 
+aktivům penězotvorné jednotky, přiřadí jej do hodnoty penězotvorné jednotky. Je-li test na 
+znehodnocení prováděn na úrovni konsolidované účetní závěrky, zahrne účetní jednotka do 
+
+ 
+ 
+I-45 Znehodnocení stálých hmotných a nehmotných aktiv            
+– testování a vykazování 
+ 
+© Národní účetní rada 
+ 
+4/15 
+hodnoty penězotvorné jednotky i část kladného konsolidačního rozdílu, který se k dané 
+penězotvorné jednotce vztahuje.  
+17. V účetní jednotce mohou dále existovat i tzv. celopodniková aktiva, která samostatně ani ve 
+spojení s jinými aktivy negenerují žádné nebo zanedbatelné peněžní toky. Pro účely testování 
+na znehodnocení přiřadí účetní jednotka taková aktiva k penězotvorné jednotce nebo ke 
+skupině penězotvorných jednotek, a to na racionálním základě, například s ohledem na to, které 
+penězotvorné jednotky daná aktiva obsluhují.  
+18. Je-li penězotvorná jednotka znehodnocená, musí být zjištěná ztráta ze znehodnocení přiřazena 
+jednotlivým aktivům, která penězotvorné jednotce náleží, a to následujícím způsobem: 
+a) jako první se ztráta alokuje ke konkrétnímu znehodnocenému aktivu, pokud je takové 
+aktivum jasně identifikovatelné; 
+b) následně se ztráta přiřadí ke kladnému goodwillu nebo ke kladnému oceňovacímu 
+rozdílu, a to až do výše jeho aktuální zůstatkové hodnoty; je-li ztráta identifikována na 
+konsolidované úrovni, přiřadí se nejdříve ke kladnému konsolidačnímu rozdílu, a to až 
+do výše jeho aktuální zůstatkové hodnoty; 
+c) zbývající část ztráty se přiřadí ostatním aktivům penězotvorné jednotky v poměru 
+k jejich zůstatkovým účetním hodnotám; 
+d) po přiřazení ztráty nesmí hodnota žádného z aktiv penězotvorné jednotky klesnout pod 
+jeho individuální zpětně získatelnou částku, pokud ji lze určit. 
+19. Je-li účetní jednotka součástí konsolidovaného celku a k datu akvizice byly reálné hodnoty 
+identifikovaných aktiv odlišné od účetních hodnot, stanoví se výše znehodnocení takových 
+aktiv pro samostatnou i konsolidovanou účetní závěrku samostatně.  
+20. Vykazuje-li účetní jednotka k dané penězotvorné jednotce záporný oceňovací rozdíl, záporný 
+goodwill či záporný konsolidační rozdíl, zváží s ohledem na výši ztráty ze znehodnocení jeho 
+částečné nebo plné odúčtování. 
+21. Ztráta zachycená prostřednictvím opravné položky může být ve svém důsledku trvalá 
+v případě, že po jejím uznání nedošlo ke změně okolností, které by aktivum navrátily do 
+původního očekávaného využití či k původně očekávané výkonnosti.  
+Odúčtování ztráty ze znehodnocení 
+22. Pominou-li důvody uvedené v odst. 7 až 9, účetní jednotka znovu stanoví zpětně získatelnou 
+částku aktiva nebo penězotvorné jednotky a převyšuje-li tato částka účetní zůstatkovou hodnotu 
+aktiva nebo penězotvorné jednotky, odúčtuje účetní jednotka opravnou položku, ale maximálně 
+do hodnoty, kterou by aktivum mělo, kdyby v minulosti ztráta ze znehodnocení nebyla 
+vykázána. Dále účetní jednotka zváží úpravu odpisového plánu daného aktiva tak, aby následné 
+odpisy reflektovaly skutečnost, že se zůstatková hodnota aktiva zvýšila. 
+
+ 
+ 
+I-45 Znehodnocení stálých hmotných a nehmotných aktiv            
+– testování a vykazování 
+ 
+© Národní účetní rada 
+ 
+5/15 
+23. Je-li předmětem odúčtování ztráty ze znehodnocení penězotvorná jednotka, musí být 
+odúčtování ztráty ze znehodnocení přiřazeno jednotlivým aktivům v rámci penězotvorné 
+jednotky, a to v poměru k zůstatkovým účetním hodnotám aktiv penězotvorné jednotky.  
+Záporný oceňovací rozdíl odúčtovaný v minulosti již nelze znovu vykázat. 
+Zdůvodnění: 
+Obecné 
+24. Zákon o účetnictví v § 25 odst. 3 vyžaduje, aby účetní jednotky ke konci rozvahového dne 
+vzaly v úvahu všechna předvídatelná rizika a možné ztráty, které se týkají majetku, jakož i 
+všechna snížení hodnoty bez ohledu na to, zda je výsledkem hospodaření účetního období zisk 
+nebo ztráta.  
+25. Vzhledem k tomu, že účetní hodnota stálých aktiv (případně skupiny aktiv, tzv. penězotvorné 
+jednotky) může být v účetnictví vyšší než jejich zpětně získatelná částka, je účetní jednotka 
+povinna vyplývající rozdíl – ztrátu – zobrazit v účetní závěrce. Důsledkem je tak naplnění 
+požadavku § 7 odst. 1 zákona o účetnictví, dle něhož má účetní závěrka podávat věrný a poctivý 
+obraz předmětu účetnictví a finanční situace účetní jednotky. Věrné zobrazení je takové, při 
+němž obsah položek účetní závěrky odpovídá skutečnému stavu, který je zobrazen v souladu 
+s účetními metodami dle zákona o účetnictví. 
+Indikace znehodnocení 
+26. Každoroční testování všech stálých aktiv na znehodnocení by bylo pro účetní jednotky časově 
+neúměrně náročné a finančně nákladné. Nicméně účetní jednotka by měla vnímat jak změny 
+v okolním prostředí, které mohou výkonnost aktiva ovlivnit, tak i změny uvnitř účetní jednotky, 
+které mohou využití aktiva negativně ovlivnit. Řada účetních jednotek před pořízením aktiva 
+vyhodnocuje životaschopnost daného projektu například formou stanovení doby návratnosti či 
+čisté současné hodnoty projektu. Dojde-li následně po pořízení aktiva (nebo i během doby jeho 
+pořízení) ke změně v parametrech, které byly při hodnocení projektu použity, měla by účetní 
+jednotka celý projekt znovu vyhodnotit a ujistit se, že ekonomický přínos daného aktiva 
+odpovídá alespoň jeho zůstatkové účetní hodnotě. Indikace uvedené v odst. 8 a 9 mají účetní 
+jednotce pomoci při zvažování, zda aktivum na znehodnocení testovat, zároveň však nejsou 
+úplným výčtem možných indikací. 
+27. Účetní jednotky zjišťují skutečný stav majetku a případné důvody pro zachycení znehodnocení 
+dle § 29 odst. 1 zákona o účetnictví inventarizací. Inventarizaci (tzv. řádnou) přitom účetní 
+jednotky provádějí k okamžiku, ke kterému sestavují účetní závěrku. Indikace případného 
+znehodnocení by tak měly být posouzeny minimálně jednou ročně v rámci inventarizace, a též 
+kdykoliv v průběhu účetního období, nastanou-li k tomu objektivní důvody (naplnění indikací) 
+(tzv. průběžná inventarizace).  
+
+ 
+ 
+I-45 Znehodnocení stálých hmotných a nehmotných aktiv            
+– testování a vykazování 
+ 
+© Národní účetní rada 
+ 
+6/15 
+Stanovení výše znehodnocení a vykázání ztráty ze znehodnocení 
+28. Zpětně získatelná částka je definována jako vyšší z reálné hodnoty aktiva snížené o náklady 
+s prodejem souvisejícími a hodnoty z užívání, a to bez ohledu na záměr účetní jednotky, zdali 
+si chce aktivum ponechat či jej prodat. Pro uživatele účetní závěrky je důležité, aby aktivum 
+bylo oceněno hodnotou, která pro účetní jednotku v daném okamžiku představuje nejlepší 
+možné využití daného aktiva. Rozhodnutí ohledně dalšího využití aktiva je tzv. investičním 
+rozhodnutím a jeho důsledky by měly být promítnuty do účetní závěrky v tom období, ve 
+kterém bude toto rozhodnutí realizováno.  
+29. Současná hodnota je využívanou metodou například při oceňování nepeněžitých vkladů či 
+některých rezerv (například rezervy na důchody). Současná hodnota se stanoví jako hodnota 
+diskontovaných budoucích peněžních toků. 
+30. V českém účetnictví se sice diskontování nepoužívá, ale to zpravidla platí pro oceňování 
+položek zachycovaných v nominální či jmenovité hodnotě – např. pohledávky či závazky. 
+V případě snížení hodnoty stálých aktiv by modely založené na nediskontovaných peněžních 
+tocích potenciálně vedly k výraznému nadhodnocení. Proto je smysluplné stanovit 
+znehodnocení ve formě opravné položky na bázi diskontovaných budoucích peněžních toků. 
+31. Diskontní sazba použitá pro výpočet hodnoty z užívání může vycházet například z váženého 
+průměru nákladů na kapitál (WACC), který je dále korigován rizikovou přirážkou, která souvisí 
+s činností dané penězotvorné jednotky. Vážený průměr nákladů na kapitál zohledňuje náklady 
+na cizí zdroje (úrokové úvěrové sazby) a výnosnost vlastního kapitálu.  Pokud účetní jednotka 
+provozuje více činností s různou mírou rizika a citlivosti na změny v tržním prostředí, měla by 
+být tato rizika zohledněna přirážkou k váženému průměru nákladů na kapitál. 
+32. Do výpočtu hodnoty z užívání patří pouze provozní peněžní toky související s aktivem či 
+skupinou aktiv při zachování jeho současného provozuschopného stavu. Není přípustné 
+zohlednit v peněžních tocích takové výdaje, které by vylepšily ekonomické užitky generované 
+aktivem a zároveň tyto ekonomické užitky promítnout do příjmů. Nicméně úhrada již 
+exitujících provozních závazků do plánovaných peněžních toků patří.  
+33. Testování skupin aktiv se provádí na úrovni nejmenší penězotvorné jednotky, která generuje 
+peněžní toky nezávisle na ostatních penězotvorných jednotkách.  Tento postup zabezpečí, aby 
+případné ztráty méně výkonných penězotvorných jednotek nebyly kompenzovány 
+výkonnějšími penězotvornými jednotkami, k čemuž by docházelo, pokud by se testování 
+provádělo na úrovni účetní jednotky jako celku.  
+34. K hodnotě penězotvorné jednotky je nutné pro účely testování přiřadit i kladný goodwill nebo 
+kladný oceňovací rozdíl, případně při testování pro účely konsolidované účetní závěrky kladný 
+konsolidační rozdíl, neboť ve své podstatě jde o část ocenění testovaných aktiv. Goodwill, 
+
+ 
+ 
+I-45 Znehodnocení stálých hmotných a nehmotných aktiv            
+– testování a vykazování 
+ 
+© Národní účetní rada 
+ 
+7/15 
+oceňovací rozdíl i konsolidační rozdíl vznikl v minulosti při pořízení aktiv, přičemž celková 
+pořizovací cena nebyla alokována do ocenění konkrétních aktiv. 
+35. Existence záporného goodwillu znamená výhodnou koupi obchodního závodu a nikterak 
+nesouvisí s hodnotou stálých aktiv. Následná ztráta ze znehodnocení individuálních aktiv 
+identifikovaná na úrovni penězotvorné jednotky bez započtení záporného goodwillu má být 
+přiřazena k individuálním aktivům a zároveň by mělo dojít k odúčtování záporného goodwillu 
+(do výše ztráty ze znehodnocení), protože již pravděpodobně pominuly důvody pro jeho 
+existenci. Při vkladu obchodního závodu existence záporného goodwillu může naznačovat, že 
+individuální ocenění jednotlivých majetkových složek není správné a mělo by být 
+přehodnoceno.    
+36. Záporný oceňovací rozdíl indikuje, že individuální ocenění aktiv je nadhodnocené.  Testem na 
+znehodnocení aktiv je individuální ocenění aktiv upraveno na jejich zpětně získatelnou částku.  
+V tom případě ale už neexistují důvody pro existenci záporného oceňovacího rozdílu, který 
+ocenění aktiv dále snižuje. 
+37. Celopodniková aktiva obvykle negenerují účetní jednotce žádné nebo velmi malé peněžní toky 
+a jejich individuální zpětně získatelná částka může být velmi nízká.  Zároveň jsou ale zpravidla 
+nezbytná pro zabezpečení podnikatelských aktivit účetní jednotky a jejich případné 
+znehodnocení tedy musí být testováno s aktivy penězotvorných jednotek, které obsluhují.   
+Odúčtování ztráty ze znehodnocení 
+38. Důvody pro vykázání ztráty ze znehodnocení mohou v budoucnu pominout. V takovém 
+případě účetní jednotka provede test na znehodnocení znovu a dříve vykázanou ztrátu nebo její 
+část odúčtuje. Tento postup lze použít pouze v případě, kdy dříve identifikované důvody pro 
+vykázání ztráty pominuly.  
+39. Odúčtování dříve vykázané ztráty ze znehodnocení je v souladu s přístupem českých účetních 
+předpisů k opravným položkám. 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+I-45 Znehodnocení stálých hmotných a nehmotných aktiv            
+– testování a vykazování 
+ 
+© Národní účetní rada 
+ 
+8/15 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Datum prvního schválení  
+ 
+22. března 2021 
+této interpretace NÚR: 
+ 
+Datum poslední aktualizace   
+– 
+této interpretace NÚR: 
+ 
+ 
+ 
+ 
+ 
+ 
+Ing. Alice Šrámková 
+Zpracovatelé intepretace: 
+ 
+Komora certifikovaných účetních 
+ 
+ 
+ 
+ 
+ 
+Ing. Libor Vašek, Ph.D. 
+ 
+ 
+ 
+ 
+ 
+Komora certifikovaných účetních 
+
+ 
+ 
+I-45 Znehodnocení stálých hmotných a nehmotných aktiv            
+– testování a vykazování 
+ 
+© Národní účetní rada 
+ 
+9/15 
+Ilustrativní příklady k I-45 
+Identifikace penězotvorných jednotek 
+Příklad 1 
+Dopravní společnost provozuje ve městě autobusovou dopravu a přívoz v místě, kde není přes řeku 
+postaven most. Aktiva i peněžní toky jsou oběma typům přepravy přímo přiřaditelná. Přívoz je 
+provozován se značnou ztrátou, ale je podmínkou magistrátu města pro provozování autobusové 
+přepravy. 
+Přívoz i autobusová doprava jsou jednou penězotvornou jednotkou z důvodu, že provozování 
+přívozu není od autobusové přepravy oddělitelné a ztráta z jeho provozu je v podstatě nákladem na 
+provoz autobusové dopravy. 
+Příklad 2 
+Výroba účetní jednotky probíhá ve třech divizích, divize A zpracuje surovinu a předá k dalšímu 
+zpracování divizi B. Tento polotovar není možné na trhu samostatně prodat. Divize B polotovar 
+dále zpracuje a předá divizi C k dokončení. Polotovar z divize B by bylo možné prodávat 
+zákazníkům k dalšímu zpracování, ale účetní jednotka ho zpravidla zpracuje sama a prodává až 
+finální výrobek po dokončení v divizi C. 
+Divize A a B jsou jednou penězotvornou jednotkou, protože pro výstup z divize A neexistuje trh a 
+není tedy možné stanovit prodejní cenu polotovaru po prvním stupni zpracování. Divize C je 
+samostatnou penězotvornou jednotkou z důvodu, že po zpracování v divizi B je možné polotovar 
+na vnějším trhu prodat a určit tak jeho prodejní cenu. 
+Příklad 3 
+Účetní jednotka provozuje řetězec supermarketů v hlavním městě.  Obchody jsou řízeny centrálně, 
+nákupy i cenová politika také. 
+Každý ze supermarketů je jednou penězotvornou jednotkou, přestože jsou jednotně řízeny.  Každý 
+z nich vytváří peněžní toky nezávisle na ostatních supermarketech. 
+ 
+ 
+
+ 
+ 
+I-45 Znehodnocení stálých hmotných a nehmotných aktiv            
+– testování a vykazování 
+ 
+© Národní účetní rada 
+ 
+10/15 
+Přiřazení ztráty 
+Následující příklady ilustrují alokaci ztráty ze znehodnocení, která vychází ze situace, v níž účetní 
+hodnota stálých aktiv činí 116 000 Kč a vypočtená hodnota z užívání je 100 000 Kč, tj. celková 
+ztráta ze znehodnocení činí 16 000 Kč. Tato ztráta musí být alokována na konkrétní aktiva. 
+Příklad 4a 
+Aktivum 
+Účetní  
+hodnota 
+Alokace  
+ztráty 
+Hodnota  
+z užívání 
+Pozemek 
+26 000 
+-3 586 
+22 414 
+Budova 
+75 000 
+-10 345 
+64 655 
+Technologie 
+13 000 
+-1 793 
+11 207 
+Výpočetní technika 
+2 000 
+-276 
+1 724 
+Celkem 
+116 000 
+-16 000 
+100 000 
+U tohoto příkladu dochází k alokaci celkové ztráty dle podílu jednotlivých stálých aktiv na celkové 
+účetní hodnotě. 
+Příklad 4b 
+Výchozí zadání je modifikováno o skutečnost, dle níž je tržní cena (reálná hodnota) pozemku 
+22 000 Kč. 
+Aktivum 
+Účetní  
+hodnota 
+Alokace  
+ztráty 
+Hodnota  
+z užívání 
+Pozemek 
+26 000 
+-3 586 
+22 414 
+Budova 
+75 000 
+-10 345 
+64 655 
+Technologie 
+13 000 
+-1 793 
+11 207 
+Výpočetní technika 
+2 000 
+-276 
+1 724 
+Celkem 
+116 000 
+-16 000 
+100 000 
+Řešení je stejné jako ve variantě a), protože hodnota z užívání pozemku je vyšší než jeho reálná 
+hodnota. 
+Příklad 4c 
+Výchozí zadání je modifikováno o skutečnost, dle níž je tržní cena (reálná hodnota) pozemku 
+25 000 Kč.  
+Aktivum 
+Účetní  
+hodnota 
+Alokace  
+ztráty 
+Hodnota 
+z užívání/ 
+reálná hodnota 
+Pozemek 
+26 000 
+-1 000 
+25 000 
+Budova 
+75 000 
+-12 500 
+62 500 
+Technologie 
+13 000 
+-2 167 
+10 833 
+Výpočetní technika 
+2 000 
+-333 
+1 667 
+Celkem 
+116 000 
+-16 000 
+100 000 
+
+ 
+ 
+I-45 Znehodnocení stálých hmotných a nehmotných aktiv            
+– testování a vykazování 
+ 
+© Národní účetní rada 
+ 
+11/15 
+U pozemku vzniká ve srovnání s variantou a) i b) nižší ztráta o 2 586 Kč, která musí být alokována 
+k ostatním aktivům. Alokace nemůže vést ke snížení hodnoty aktiva pod jeho reálnou hodnotu, 
+je-li ta známa a je-li ta vyšší jak vypočtená hodnota z užívání. 
+Příklad 5 
+Výchozí zadání je modifikováno o goodwill / oceňovací rozdíl, resp. konsolidační rozdíl 
+v konsolidované účetní závěrce v hodnotě 8 000 Kč (o tuto částku je nižší hodnota budov). 
+Aktivum 
+Účetní  
+hodnota 
+Alokace  
+ztráty 
+Hodnota  
+z užívání 
+Pozemek 
+26 000 
+-1 926 
+24 074 
+Budova 
+67 000 
+-4 963 
+62 037 
+Technologie 
+13 000 
+-963 
+12 037 
+Výpočetní technika 
+2 000 
+-148 
+1 852 
+Goodwill / Oceňovací rozdíl / 
+Konsolidační rozdíl 
+8 000 
+-8 000 
+0 
+ 
+ 
+ 
+ 
+Celkem 
+116 000 
+-16 000 
+100 000 
+Je-li součástí skupiny aktiv goodwill nebo oceňovací rozdíl, případně v konsolidované účetní 
+závěrce konsolidační rozdíl, dochází prvotně ke snížení jeho účetní hodnoty a zbývající část ztráty 
+je přiřazena poměrově jednotlivým aktivům. 
+Příklad 6 
+Výchozí zadání je modifikováno o záporný goodwill / oceňovací rozdíl, resp. konsolidační rozdíl 
+v konsolidované účetní závěrce v hodnotě -18 000 Kč.  
+Aktivum 
+Účetní  
+hodnota 
+Alokace  
+ztráty 
+Hodnota  
+z užívání 
+Pozemek 
+26 000 
+-3 586 
+22 414 
+Budova 
+75 000 
+-10 345 
+65 655 
+Technologie 
+13 000 
+-1 793 
+11 207 
+Výpočetní technika 
+2 000 
+-276 
+1 724 
+ 
+ 
+ 
+ 
+Mezisoučet 
+116 000 
+-16 000 
+100 000 
+ 
+ 
+ 
+ 
+Záporný goodwill / Oceňovací rozdíl 
+Záporný konsolidační rozdíl 
+-18 000 
++16 000 
+-2 000 
+ 
+ 
+ 
+ 
+Celkem 
+98 000 
+0 
+98 000 
+Hodnota z užívání je vyšší (100 000 Kč) než účetní hodnota penězotvorné jednotky (98 000 Kč), 
+nicméně existence záporného oceňovacího rozdílu a skutečnost, že hodnota z užívání je nižší než 
+hodnota testovaných aktiv (bez oceňovacího rozdílu) naznačuje znehodnocení těchto aktiv. Proto 
+by mělo být znehodnocení na úrovni jednotlivých aktiv vykázáno, ale zároveň by měl být 
+odúčtován oceňovací rozdíl až do výše ztráty ze znehodnocení. 
+
+ 
+ 
+I-45 Znehodnocení stálých hmotných a nehmotných aktiv            
+– testování a vykazování 
+ 
+© Národní účetní rada 
+ 
+12/15 
+Výpočet hodnoty z užívání 
+Příklad 7 
+Taxislužba testuje svoji flotilu, která je považována za jednu penězotvornou jednotku na 
+znehodnocení. Každých pět let taxislužba svá vozidla obměňuje. 
+ 
+1 
+2 
+3 
+4 
+5 
+Příjmy z jízdného 
+15 000 000 15 300 000 15 700 000 16 000 000 16 500 000 
+Příjmy z reklamy 
+670 000 
+670 000 
+670 000 
+670 000 
+670 000 
+Příjmy z prodeje flotily 
+- 
+- 
+- 
+- 
+2 000 000 
+Výdaje na mzdy 
+-3 800 000 
+-4 000 000 
+-4 200 000 
+-4 400 000 
+-4 600 000 
+Výdaje na pohonné hmoty 
+-2 900 000 
+-3 000 000 
+-3 100 000 
+-3 200 000 
+-3 300 000 
+Výdaje na údržbu 
+-600 000 
+-650 000 
+-700 000 
+-750 000 
+-800 000 
+Výdaje na pojištění 
+-1 500 000 
+-1 700 000 
+-1 900 000 
+-2 100 000 
+-230 000 
+Ostatní provozní výdaje 
+-400 000 
+-450 000 
+-500 000 
+-550 000 
+-600 000 
+Čistý peněžní tok 
+6 470 000 
+6 170 000 
+5 970 000 
+5 670 000 
+9 640 000 
+Současná hodnota při 8% sazbě 
+5 990 741 
+5 289 781 
+4 739 178 
+4 167 619 
+6 560 822 
+Současná hodnota celkem 
+(hodnota z užívání) 
+26 748 141 
+Přiřazení celopodnikových aktiv 
+V účetní jednotce existují dvě produktivní penězotvorné jednotky a celopodniková aktiva 
+v administrativě a vzdělávání.   
+Pokud je možné celopodniková aktiva přiřadit k jednotlivým penězotvorným jednotkám (například 
+podle počtu zaměstnanců, které celopodniková aktiva obsluhují), potom účetní jednotka otestuje 
+penězotvorné jednotky s přiřazenými celopodnikovými aktivy. 
+Pokud není možné celopodniková aktiva přiřadit k jednotlivým penězotvorným jednotkám 
+(například podle počtu zaměstnanců, které celopodniková aktiva obsluhují), potom: 
+1. Účetní jednotka otestuje penězotvorné jednotky bez přiřazených celopodnikových aktiv; a 
+2. Účetní jednotka bude otestována jako celek (včetně celopodnikových aktiv) po přiřazení 
+případné ztráty vyplývající z kroku 1). 
+ 
+ 
+
+ 
+ 
+I-45 Znehodnocení stálých hmotných a nehmotných aktiv            
+– testování a vykazování 
+ 
+© Národní účetní rada 
+ 
+13/15 
+Odúčtování ztráty 
+Příklad 8 
+Hodnota z užívání penězotvorné jednotky byla stanovena na 240 000 Kč. Aktuální účetní hodnota 
+aktiv je 210 000 Kč, je tedy teoreticky možné odúčtovat ztrátu ve výši 30 000 Kč. Níže uvedená 
+tabulka uvádí aktuální účetní hodnoty i hodnoty aktiv, které by účetní jednotka vykázala, kdyby 
+v minulosti nedošlo k vykázání ztráty ze znehodnocení. 
+Pozn.: zadání nenavazuje na příklady uvedené výše. 
+ 
+Aktivum 
+„Teoretická“ 
+účetní hodnota 
+bez vlivu 
+znehodnocení 
+Aktuální 
+účetní 
+hodnota 
+Odúčtování 
+ztráty – max 
+hodnota dle 
+výpočtu 
+Účetní hodnota po 
+odúčtování ztráty  
+(max do výše teoretické 
+účetní hodnoty) 
+Pozemek 
+42 000 
+40 000 
+5 714 
+42 000 
+Budova 
+130 000 
+110 000 
+15 714 
+125 714 
+Výrobní linka 
+57 000 
+50 000 
+7 143 
+57 000 
+Ostatní movité věci 
+18 000 
+10 000 
+1 429 
+11 429 
+ 
+ 
+ 
+ 
+ 
+Celkem 
+247 000 
+210 000 
+30 000 
+236 143 
+Z uvedeného výpočtu je zřejmé, že maximální výše ztráty, kterou lze odúčtovat je 26 143 Kč. 
+ 
+ 
+
+ 
+ 
+I-45 Znehodnocení stálých hmotných a nehmotných aktiv            
+– testování a vykazování 
+ 
+© Národní účetní rada 
+ 
+14/15 
+Vypořádání připomínek z vnějšího připomínkového řízení: 
+V rámci vnějšího připomínkového řízení NÚR obdržela níže uvedené připomínky a podněty od 
+společnosti PricewaterhouseCoopers Audit s.r.o. Níže je shrnuto jejich vypořádání. 
+ 
+Připomínky PwC k Návrhu intepretace NI–66 Znehodnocení stálých hmotných a nehmotných aktiv 
+– testování a vykazování 
+Vítáme iniciativu NÚR doplnit české účetní předpisy v oblasti, kde neposkytují dostatečný návod 
+pro účetní jednotky, jak konkrétně postupovat při možném znehodnocení hmotných a nehmotných 
+dlouhodobých aktiv. Rovněž vítáme možnost se vyjádřit k návrhu interpretace NI‒66.  
+Domníváme se, že interpretace, která přinese srozumitelný a jednoduchý návod účetním 
+jednotkám, jak postupovat v praktických situacích, bude velice užitečná. Na druhou stranu jsme 
+přesvědčeni, že obecně není vhodné interpretacemi NÚR zavádět povinné používání nových 
+definičních aparátů, které řadě účetních jednotek, které nemají praktické zkušenosti s používáním 
+IFRS, nemusí být srozumitelné a jejich situaci potenciálně ztíží, než aby jim byly nápomocny. 
+Model převzatý z IAS 36 a použitý v návrhu interpretace není možné odvodit od platných 
+ustanovení závazných právních předpisů. Domníváme se, že tím návrh NÚR přesahuje rámec 
+interpretace tak, jak je běžně chápán.   
+Připomínky: 
+1) Navrhujeme, aby interpretace konstatovala, že prezentovaný postup testování aktiv na 
+znehodnocení je doporučeným řešením, které je považováno za plně v souladu s českými 
+účetními předpisy, ale není jediným akceptovatelným řešením. Jako možné řešení 
+navrhujeme také porovnání účetní hodnoty s reálnou hodnotou, pokud nastane situace 
+indikující možné snížení hodnoty aktiva. Reálná hodnota je definována zákonem o účetnictví 
+a je srozumitelná pro širokou účetní obec. Použití metodiky k určení zpětně získatelné částky 
+převzaté z IAS 36 a obsažené v návrhu interpretace je možné navrhnout jako další možný 
+přístup. 
+2) V odst. 16 písm. b) a odst. 31 se předpokládá alokace zjištěné ztráty vůči kladnému 
+goodwillu, kladnému oceňovacímu rozdílu nebo kladnému konsolidačnímu rozdílu. Není 
+však jasné, zda má být nejdříve provedena alokace těchto nehmotných aktiv na penězotvorné 
+jednotky, jak předpokládá bod 31, nebo odpočet zjištěné ztráty od celkových hodnot těchto 
+nehmotných aktiv, jak předpokládá odst. 16 písm. b). Mimoto upozorňujeme, že české účetní 
+předpisy nevyžadují alokaci těchto nehmotných aktiv a neobsahují tedy ani žádnou metodiku, 
+jakým způsobem by taková alokace měla být provedena. 
+ 
+Vypořádání připomínky 1) 
+Interpretace není právně závazným stanoviskem, ale odborným názorem, jak je uvedeno v její 
+Preambuli. Řešení upravené v intepretaci je tak obecně vnímáno jako doporučené řešení a 
+vyplývající postup poskytuje účetní jednotce návod v případech, kdy má jeho použití významný 
+
+ 
+ 
+I-45 Znehodnocení stálých hmotných a nehmotných aktiv            
+– testování a vykazování 
+ 
+© Národní účetní rada 
+ 
+15/15 
+dopad na informace uvedené v účetní závěrce a kdy informační přínosy jsou větší než náklady 
+nutné na jejich získání.  
+NÚR nepovažuje za vhodné v Řešení intepretace uvažovat další možná řešení, včetně v připomínce 
+zmíněné porovnání účetní hodnoty s reálnou hodnotou. Řešení intepretace vychází z požadavku 
+obsaženého v ČÚS č. 005 v bodě 4.1.2, dle něhož se tvoří opravné položky k odpisovanému 
+dlouhodobému majetku, je-li jeho užitná hodnota výrazně nižší než jeho ocenění v účetnictví. 
+Užitná hodnota přitom není v českých účetních předpisech definována, nelze ji však a priori 
+ztotožňovat s reálnou hodnotou. Současně je NÚR názoru, že řešení, je-li doporučené, má být 
+jednoznačné, nikoliv poskytovat alternativní postupy.  
+Dále NÚR považuje kompatibilitu s IFRS v oblastech, které nejsou jednoznačně českými účetními 
+předpisy upraveny, za důležitou, neboť praxe je v takovém případě postupy a termíny často 
+ovlivněna, řada účetních jednotek je nucena se vypořádat s českými účetními předpisy pro své 
+účetnictví a s IFRS pro konsolidaci a s ohledem na (budoucí) vývoj účetních předpisů lze vnímat 
+postupné prolínání IFRS do české úpravy. Proto při tvorbě intepretace byl jako východisko uvážen 
+postup obsažený v IAS 36 Snížení hodnoty aktiv a byly využity definice z IFRS. Zavádění jiných 
+postupů nebo termínů NÚR nepovažuje za vhodné.   
+Přes vše výše uvedené nadále platí, že postup obsažený v Řešení intepretace je doporučeným 
+řešením a je tak třeba v praxi individuálně přistupovat ke každé účetní jednotce a s uvážením 
+významnosti, znalosti účetní jednotky a její činnosti, dostupnosti podkladů a informací nutných 
+k posouzení účetní hodnoty aktiv volit účetní metodu, která buď vychází z řešení intepretace NÚR 
+nebo je alternativním, zjednodušený, nadále akceptovatelným přístupem a to včetně v připomínce 
+zmíněného srovnání účetní hodnoty s reálnou hodnotou.  
+ 
+Vypořádání připomínky 2) 
+Řešení interpretace předpokládá alokaci kladného goodwillu, kladného oceňovacího rozdílu nebo 
+kladného konsolidačního rozdílu. V důsledku zaslané připomínky došlo k včlenění nového 
+ustanovení (odst. 16) do části Řešení, které má vyloučit pochybnosti v přístupu k alokaci při použití 
+odst. 18 písm. b) (původně v připomínce dotčený odst. 16 písm. b) a současně byl do části 
+Zdůvodnění vložen nový odst. 34, který jednak nahradil v připomínce dotčený odst. 31 a precizněji 
+odůvodňuje nutnost alokace oceňovacích rozdílů na penězotvorné jednotky.  
+ 
+Během finálního schvalování textu interpretace provedla NÚR oproti návrhu interpretace 
+zveřejněné k veřejnému připomínkování následující významnější změny: 
+• Doplněn odstavec (nyní odstavec 13), který konkretizuje postup stanovení zpětně získatelné 
+částky, je-li u dlouhodobého aktiva v návaznosti na rozhodnutí vedení podniku očekáván 
+prodej v období do 12 měsíců.

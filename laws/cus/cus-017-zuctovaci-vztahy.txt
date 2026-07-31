@@ -1,0 +1,357 @@
+ZÁKON: ČÚS č. 017
+NAZEV: Český účetní standard pro podnikatele č. 017 – Zúčtovací vztahy
+URL: https://www.mfcr.cz/assets/cs/media/Ucetnictvi_2018_Ceske-ucetni-standardy-pro-500-2002_v02.pdf
+
+Zúčtovací vztahy  
+ 
+ 
+1. Cíl  
+     Cílem tohoto standardu je stanovit podle zákona č. 563/1991 Sb., o účetnictví, ve znění 
+pozdějších předpisů, (dále jen „zákon“) a vyhlášky č. 500/2002 Sb., kterou se provádějí 
+některá ustanovení zákona č. 563/1991 Sb., o účetnictví, ve znění pozdějších předpisů, pro 
+účetní jednotky, které jsou podnikateli účtujícími v soustavě podvojného účetnictví, ve znění 
+pozdějších předpisů, (dále jen „vyhláška“) základní postupy účtování zúčtovacích vztahů za 
+účelem docílení souladu při používání účetních metod účetními jednotkami v položkách  
+A. Pohledávky za upsaný základní kapitál 
+C.II. Pohledávky 
+C.II.1. Dlouhodobé pohledávky 
+        1.1. Pohledávky z obchodních vztahů 
+        1.2. Pohledávky - ovládaná nebo ovládající osoba 
+        1.3. Pohledávky - podstatný vliv 
+        1.4. Odložená daňová pohledávka   
+        1.5. Pohledávky - ostatní 
+        1.5.1. Pohledávky za společníky 
+        1.5.2. Dlouhodobé poskytnuté zálohy 
+        1.5.3. Dohadné účty aktivní 
+        1.5.4. Jiné pohledávky 
+C.II.2. Krátkodobé pohledávky 
+        2.1. Pohledávky z obchodních vztahů 
+        2.2. Pohledávky - ovládaná nebo ovládající osoba 
+        2.3. Pohledávky - podstatný vliv 
+        2.4. Pohledávky - ostatní 
+        2.4.1. Pohledávky za společníky 
+        2.4.2. Sociální zabezpečení a zdravotní pojištění 
+        2.4.3. Stát - daňové pohledávky 
+        2.4.4. Krátkodobé poskytnuté zálohy 
+        2.4.5. Dohadné účty aktivní 
+        2.4.6. Jiné pohledávky 
+C.II.3. Časové rozlišení aktiv 
+        3.1. Náklady příštích období 
+        3.2. Komplexní náklady příštích období 
+        3.3. Příjmy příštích období 
+D. Časové rozlišení aktiv 
+1. Náklady příštích období 
+2. Komplexní náklady příštích období 
+3. Příjmy příštích období 
+C.I.9.2. Dohadné účty pasivní 
+C.II. Krátkodobé závazky 
+C.II.1. Vydané dluhopisy 
+        1.1. Vyměnitelné dluhopisy 
+        1.2. Ostatní dluhopisy 
+        2. Závazky k úvěrovým institucím  
+        3. Krátkodobé přijaté zálohy 
+ 4. Závazky z obchodních vztahů 
+ 5. Krátkodobé směnky k úhradě 
+ 
+46 
+ 6. Závazky - ovládaná nebo ovládající osoba 
+ 7. Závazky - podstatný vliv 
+ 8. Závazky ostatní 
+        8.1. Závazky ke společníkům 
+        8.2. Krátkodobé finanční výpomoci 
+        8.3. Závazky k zaměstnancům 
+        8.4. Závazky ze sociálního zabezpečení a zdravotního pojištění 
+        8.5. Stát - daňové závazky a dotace 
+        8.6. Dohadné účty pasivní 
+        8.7. Jiné závazky 
+C.III. Časové rozlišení pasiv 
+        1. Výdaje příštích období 
+        2. Výnosy příštích období 
+D. Časové rozlišení pasiv 
+     1. Výdaje příštích období 
+     2. Výnosy příštích období 
+vykazovaných za podmínek stanovených v § 3, 3a a 4 vyhlášky.  
+ 
+2. Obsahové vymezení  
+2.1.  Pro účely tohoto standardu se využívá obsahové vymezení pohledávek za upsaný 
+základní kapitál, dlouhodobých a krátkodobých pohledávek, časového rozlišení v 
+aktivech a pasivech rozvahy, krátkodobých závazků a dohadných položek aktivních a 
+pasivních uvedené v § 5, 10, 11, 13, 17, 18 a 19 vyhlášky.  
+2.2.   U dlouhodobých závazků se zbytkovou splatností jeden rok a kratší, které jsou účtovány 
+v účtové třídě 4 a jsou vykazovány v položce „C.I. Dlouhodobé závazky“ (C.I.1. až 
+C.I.9.3.) se postupuje podle Českého účetního standardu pro podnikatele č. 018 
+Kapitálové účty a dlouhodobé závazky.  
+2.3.    zrušen 
+2.4.   Analytické účty se vedou podle jednotlivých dlužníků a věřitelů a podle jednotlivých 
+druhů měn.  
+2.5.   Přesuny ze skupiny a do skupiny pohledávek, které účetní jednotka nabyla a určila k 
+obchodování nejsou přípustné.  
+ 
+3. Postup účtování 
+3.1.    Účtová skupina 31 – Pohledávky (krátkodobé i dlouhodobé)  
+3.1.1.  Zaúčtují se zde zejména pohledávky za odběrateli. Dále se zde zaúčtují poskytnuté 
+zálohy a závdavky dodavatelům před splněním smlouvy ze strany dodavatele, ostatní 
+pohledávky z obchodních vztahů, například reklamace vůči dodavatelům, nárok na 
+záruční paušál při převzetí závazků za záruční opravy.  
+3.1.2.  Zaúčtují se zde zejména pohledávky za směnky předané bance nebo spořitelnímu a 
+úvěrnímu družstvu k proplacení do doby splatnosti směnky, jakož i jiné cenné papíry 
+předané k eskontu; ve prospěch účtu pohledávek za směnky předané bance nebo 
+spořitelnímu a úvěrnímu družstvu k proplacení se zaúčtují směnky a jiné cenné papíry 
+bankou nebo spořitelníma úvěrním družstvem zinkasované, jakož i směnky a jiné 
+cenné papíry neproplacené a vrácené. 
+3.2. Účtová skupina 32 – Závazky (krátkodobé)  
+3.2.1.  Zaúčtují se zde dluhy vůči dodavatelům. Dále se zde zaúčtují přijaté krátkodobé zálohy 
+a závdavky od odběratelů před splněním závazků vůči odběratelům, ostatní 
+krátkodobé závazky z obchodních vztahů, například uplatněné reklamace odběrateli, 
+ 
+47 
+dluh vůči obchodnímu partnerovi, který přebírá záruční závazky za podané výkony (z 
+poskytování záručního paušálu).  
+3.2.2. Zaúčtují se zde směnky vlastní a akceptované směnky cizí při jejich použití k 
+uspokojení dluhu vůči dodavateli, kde směnečný závazek pro účetní jednotku je jeden 
+rok a kratší.  
+3.2.3.  U pravidelně se opakujících zálohových plateb od uživatelů bytů a nebytových prostor 
+(služby spojené s užíváním bytů a nebytových prostor a nájemné či příspěvek 
+vlastníka jednotky) lze účtovat o předpisu záloh. 
+3.3.   Účtová skupina 33 – Zúčtování se zaměstnanci a institucemi  
+3.3.1.  Zaúčtují se zde dluhy z pracovněprávních vztahů včetně sociálního zabezpečení a 
+zdravotního pojištění k zaměstnancům, popřípadě jiným fyzickým osobám (s 
+výjimkou dluhů ke společníkům ze závislé činnosti), a jejich zúčtování. Analytické 
+účty se vedou podle jednotlivých zaměstnanců na mzdových listech.  
+3.3.2. Dále se zde zaúčtují různé dluhy vůči zaměstnancům, například nárok zaměstnanců na 
+náhradu cestovních výdajů, různé pohledávky za zaměstnanci, například poskytnuté 
+zálohy na cestovní výdaje, zálohy k vyúčtování, uplatnění náhrady za zaměstnanci.  
+3.3.3. Ve prospěch příslušného účtu účtové skupiny 33 – Zúčtování se zaměstnanci a 
+institucemi se zaúčtují  dluhy ze sociálního zabezpečení a zdravotního pojištění, jak ze 
+zákonné výše, tak z dobrovolného plnění, se souvztažnými zápisy na vrub příslušných 
+účtů účtové skupiny 52 – Osobní náklady u částek hrazených zaměstnavatelem, nebo 
+na vrub příslušných účtů závazků vůči zaměstnancům z pracovněprávních vztahů a 
+příslušného účtu účtové skupiny 36 – Závazky ke společníkům u částek hrazených 
+zaměstnancem.  
+3.3.4.  Na vrub příslušného účtu účtové skupiny 33 – Zúčtování se zaměstnanci a institucemi 
+se zaúčtují nároky na výplaty sociálních dávek se souvztažnými zápisy ve prospěch 
+příslušných účtů závazků vůči zaměstnancům z pracovněprávních vztahů i příslušných 
+účtů účtové skupiny 36 – Závazky ke společníkům. 
+3.4.   Účtová skupina 34 – Zúčtování daní a dotací - účtování o dani z příjmů 
+3.4.1.  Zaúčtují se zde placené zálohy na daň z příjmů v průběhu roku a sražená daň z příjmů 
+zdaněných zvláštní sazbou daně v případech, kdy podle zákona o daních z příjmů lze 
+sraženou daň započíst na celkovou daňovou povinnost.  
+3.4.2.  K rozvahovému dni se zde účtuje o dluhu účetní jednotky ze splatné daně za zdaňovací 
+období se souvztažným zápisem na vrub příslušných účtů účtové skupiny 59 – Daně z 
+příjmů, převodové účty a rezerva na daň z příjmů. 
+3.4.3. Není-li k okamžiku sestavení účetní závěrky známa skutečná daňová povinnost, 
+postupuje se podle Českého účetního standardu pro podnikatele č. 004 Rezervy.  
+3.4.4.  Dále se zde zaúčtuje daň z příjmů, jejíž odvod zajišťuje účetní jednotka jako plátce 
+daně za daň vybranou od poplatníků nebo sraženou poplatníkům daně, například 
+zaměstnancům.  
+3.5.   Účtová skupina 34 – Zúčtování daní a dotací - účtování o dani z přidané hodnoty (dále 
+jen „DPH“) 
+3.5.1.  Ve prospěch příslušného účtu se účtuje o daňové povinnosti účetní jednotky ze splatné 
+daně z přidané hodnoty za zdaňovací období se souvztažným zápisem zejména na vrub 
+příslušného účtu účtových skupin 31 – Pohledávky (krátkodobé i dlouhodobé), 33 – 
+Zúčtování se zaměstnanci a institucemi, 37 – Jiné pohledávky a závazky, respektive na 
+vrub příslušného účtu účtových tříd 0, 1 a 5, jestliže zdanitelné plnění bylo 
+uskutečněno pro vlastní potřebu účetní jednotky nebo při bezplatném plnění ve 
+prospěch jiných osob. 
+3.5.2.   zrušen  
+ 
+48 
+3.5.3.  Na vrub příslušného účtu se účtuje o nároku na odpočet DPH se souvztažným zápisem 
+zejména ve prospěch příslušného účtu účtových skupin 32 – Závazky (krátkodobé), 37 
+– Jiné pohledávky a závazky, 47 – Dlouhodobé závazky. Na vrub tohoto účtu se dále 
+účtuje o úhradě DPH.  
+3.5.4.   Dále se zde účtuje o vrácení daně při uplatnění nadměrného odpočtu. 
+3.5.5.   zrušen 
+3.5.6.   zrušen 
+3.6.    Účtová skupina 34 – Zúčtování daní a dotací - účtování o ostatních daních a poplatcích  
+3.6.1. Ve prospěch příslušného účtu se účtuje o daňové povinnosti účetní jednotky ze 
+spotřebních daní za zdaňovací období se souvztažným zápisem zejména na vrub 
+příslušného účtu účtových skupin 31 – Pohledávky (krátkodobé i dlouhodobé), 33 – 
+Zúčtování se zaměstnanci a institucemi a 37 – Jiné pohledávky a závazky, respektive 
+na vrub příslušného účtu účtových tříd 1 a 5, jestliže zdanitelné plnění bylo 
+uskutečněno pro vlastní potřebu účetní jednotky nebo při bezplatném plnění ve 
+prospěch jiných osob, jakož i při vzniku manka a škody na vybraných výrobcích. 
+3.6.2.  Na vrub příslušného účtu se účtuje o úhradě daňové povinnosti ze spotřebních daní. 
+Dále se na vrub příslušného účtu účtuje o nároku na vrácení spotřební daně za 
+zdaňovací období se souvztažným zápisem zejména ve prospěch příslušného účtu 
+účtových skupin 32 – Závazky (krátkodobé), 37 – Jiné pohledávky a závazky, 47 – 
+Dlouhodobé závazky. 
+3.6.3.  zrušen 
+3.6.4. Účtuje se zde i o dalších přímých daních, například o dani silniční, dani z nemovitých 
+věcí, dani z nabytí nemovitých věcí. 
+3.6.5. Poplatky se zaúčtují ve prospěch příslušného účtu (příslušného příjemce poplatků) se 
+souvztažným zápisem na vrub příslušného účtu účtové skupiny 53 - Daně a poplatky. 
+O úhradě poplatků se účtuje na vrub příslušného účtu. 
+3.7.  O nezpochybnitelném právním nároku na dotaci se účtuje na vrub příslušného účtu 
+účtové skupiny 37 – Jiné pohledávky a závazky a ve prospěch příslušného účtu účtové 
+skupiny 34 – Zúčtování daní a dotací. O použití dotace k úhradě nákladů nebo k úhradě 
+jiné ekonomické újmy se účtuje na vrub příslušného účtu účtové skupiny 34 – Zúčtování 
+daní a dotací a ve prospěch ostatních provozních nebo finančních výnosů ve věcné a 
+časové souvislosti s účtováním nákladů na stanovený účel. O použití dotace na úhradu 
+úroků nezahrnovaných do pořizovací ceny dlouhodobého nehmotného a hmotného 
+majetku a technického zhodnocení se ve věcné a časové souvislosti účtuje do ostatních 
+finančních výnosů. O použití dotace na pořízení dlouhodobého nehmotného nebo 
+hmotného majetku a technického zhodnocení a dotace na úhradu úroků zahrnovaných 
+do pořizovací ceny se účtuje na vrub příslušného účtu účtové skupiny 34 – Zúčtování 
+daní a dotací se souvztažným zápisem ve prospěch příslušného účtu účtové třídy 0 - 
+Dlouhodobý majetek. 
+3.8.  Účtová skupina 35 – Pohledávky za společníky 
+3.8.1. V této účtové skupině se zaúčtují například krátkodobé zápůjčky a úvěry poskytované 
+účetními jednotkami v konsolidačním celku. 
+3.8.2.  Dále se zde účtuje o pohledávkách za upisovateli, tj. akcionáři, či společníky obchodní 
+korporace. Zůstatkem účtu jsou upsané nesplacené akcie nebo podíly vykazované v 
+položce „A. Pohledávky za upsaný základní kapitál“. 
+3.8.3.  Účtuje se zde rovněž například o krátkodobých pohledávkách za společníky ve veřejné 
+obchodní společnosti, jakož i za komplementáři v komanditní společnosti, popřípadě 
+za společníky ve společnosti s ručením omezeným, ve výši předepsané úhrady ztráty, 
+se souvztažným zápisem na příslušném účtu účtové skupiny 59 – Daně z příjmu, 
+převodové účty a rezerva na daň z příjmů vykazovaném v položce „M. Převod podílu 
+ 
+49 
+na výsledku hospodaření společníkům (+/)“ nebo „K. Převod podílu na výsledku 
+hospodaření společníkům (+/-)“, popřípadě na příslušném účtu účtové skupiny 43 – 
+Výsledek hospodaření. 
+3.8.4.  Zaúčtují se zde například krátkodobé pohledávky ze zápůjček a úvěrů společníkům v 
+obchodní korporaci, úrok z prodlení při opožděném splacení peněžitého vkladu 
+společníka ve veřejné obchodní společnosti, v komanditní společnosti, či ve 
+společnosti s ručením omezeným. 
+3.8.5.   Zaúčtují se zde pohledávky za společníky sdruženými ve společnosti. 
+3.9.  Účtová skupina 36 – Závazky ke společníkům 
+3.9.1. Zaúčtují se zde například krátkodobé závazky účetních jednotek v rámci 
+konsolidačního celku z přijatých zápůjček a úvěrů. 
+3.9.2.  Zaúčtují se zde dluhy ke společníkům včetně akcionářů v obchodních korporacích ve 
+výši jejich podílů na zisku obchodní korporace, se souvztažným zápisem na 
+příslušném účtu účtové skupiny 59 – Daně z příjmu, převodové účty a rezerva na daň 
+z příjmů vykazovaném v položce „M. Převod podílu na výsledku hospodaření 
+společníkům (+/-)“ nebo „K. Převod podílu na výsledku hospodaření společníkům  
+(+/-)“, pokud jde o společníky ve veřejné obchodní společnosti a komplementáře v 
+komanditní společnosti a příslušného účtu účtové skupiny 43 – Výsledek hospodaření, 
+pokud jde o společníky v ostatních obchodních korporacích, jakož i komanditisty v 
+komanditní společnosti. 
+3.9.3. Zaúčtují se zde například krátkodobé závazky ze zápůjček a úvěrů od společníků 
+obchodní korporace. 
+3.9.4. Zaúčtují se zde dluhy ke společníkům ve společnosti s ručením omezeným a 
+komanditistům komanditních společností a členům družstev ze závislé činnosti, tj. z 
+pracovněprávních vztahů včetně sociálního zabezpečení, a jejich zúčtování.  
+3.9.5. Zaúčtují se zde dluhy účetní jednotky, jako akcionáře či společníka v jiné obchodní 
+korporaci, za převzaté zatímní listy nebo dosud nesplacené vklady. 
+3.9.6.  Zaúčtují se zde dluhy ke společníkům sdruženým ve společnosti. 
+3.10.  Účtová skupina 37 – Jiné pohledávky a závazky 
+3.10.1. Na příslušném účtu účtové skupiny 37 –  Jiné pohledávky a závazky prodávající účtuje 
+o pohledávce z prodeje obchodního závodu nebo jeho části nebo pachtu obchodního 
+závodu či jeho části a kupující účtuje o dluhu z koupě obchodního závodu či jeho části 
+podle Českého účetního standardu pro podnikatele č. 011 Operace s obchodním 
+závodem.  
+3.10.2. Účtuje se zde podle Českého účetního standardu pro podnikatele č. 009 Deriváty o 
+pohledávkách a závazcích z pevných termínovaných operací, o nakoupených a 
+prodaných opcích. Analytické účty se vedou v členění na nákupní a prodejní opce.  
+3.10.3. Rovněž zde účtuje emitent dluhopisů o pohledávce z emitovaných dluhopisů. Na vrub 
+příslušného účtu se účtuje o vydání  
+a) dlouhodobých dluhopisů se souvztažným zápisem na příslušnému účtu účtové 
+skupiny 47 – Dlouhodobé závazky, 
+b) krátkodobých dluhopisů se souvztažným zápisem na příslušnému účtu účtové 
+skupiny 24 – Jiné krátkodobé finanční výpomoci.  
+ 
+Ve prospěch účtu se zaúčtuje úhrada dluhopisů od majitele. Analytické účty se 
+vedou podle jednotlivých emisí.  
+3.10.4. Účtuje se zde i o dalších pohledávkách a krátkodobých závazcích, například o 
+a) pohledávce na náhradu škody či manka za odpovědnou osobou se souvztažným 
+zápisem na příslušnému účtu účtové skupiny 64 – Jiné provozní výnosy, pokud tato 
+pohledávka nemá charakter dohadné položky aktivní,  
+ 
+50 
+b) dluhu z odpovědnosti za způsobenou škodu se souvztažným zápisem na 
+příslušnému účtu účtové skupiny 54 – Jiné provozní náklady, pokud tento závazek 
+nemá charakter dohadné položky pasivní,  
+c) zrušeno 
+d) zrušeno 
+e) dluhu vůči celnímu orgánu z titulu cel, DPH a o závazku ze spotřebních daní při 
+dovozu. Na analytických účtech vede účetní jednotka zvlášť zúčtování cel a zvlášť 
+zúčtování DPH a jednotlivých spotřebních daní při dovozu.  
+Jako o pohledávce se účtuje o vkladu do obchodní korporace do doby zápisu vkladu 
+do základního kapitálu v obchodním rejstříku, respektive do doby vydání akcií či 
+zatímních listů. 
+3.11. Účtová skupina 38 – Přechodné účty aktiv a pasiv 
+Na příslušných účtech časového rozlišení této účtové skupiny se v souladu s § 13 a 19 
+vyhlášky časově rozlišují náklady a výnosy. Časově rozlišovat nelze pokuty, penále, 
+manka a škody. Dále se v této účtové skupině účtuje v souladu s § 10, respektive § 11, a 
+§ 17, respektive § 18, vyhlášky o dohadných položkách.  
+3.11.1. Na příslušném účtu vykazovaném v položce „C.II.3.1. Náklady příštích období“, 
+respektive „D.1. Náklady příštích období“, se zaúčtují výdaje běžného účetního 
+období, jež se týkají nákladů v příštích obdobích, například náklady na zařazení 
+většího rozsahu drobného nehmotného nebo hmotného majetku do používání, 
+nájemné a pachtovné placené předem, předplatné; zúčtování nákladů příštích období 
+na příslušný účet nákladů se provede v účetním období, s nímž časově rozlišené 
+náklady věcně souvisejí. 
+3.11.2.  Na příslušném účtu vykazovaném v položce „C.II.3.2. Komplexní náklady příštích 
+období“, respektive  „D.2. Komplexní náklady příštích období“, se zaúčtují náklady a 
+výdaje příštích období, jež se sledují ve vztahu k danému účelu, například náklady na 
+přípravu a záběh výkonů a náklady na výzkum a vývoj, náklady na dlouhodobou 
+propagaci, náklady na předzásobení; zúčtování komplexních nákladů příštích období 
+se provede v účetním období, s nímž časově rozlišené náklady věcně souvisejí, 
+nejpozději však do čtyř let od zaúčtování nákladů na příslušný účet účtové skupiny 
+38 – Přechodné účty aktiv a pasiv, s výjimkou případů vyplývajících ze smluv, 
+respektive platných předpisů.  
+3.11.3.  Prostřednictvím příslušného účtu účtové skupiny 38 – Přechodné účty aktiv a pasiv 
+vykazovaného v položce „C.III.1. Výdaje příštích období“, respektive „D.1. Výdaje 
+příštích období“, se zaúčtují náklady, jež s běžným účetním obdobím souvisejí, avšak 
+výdaj na ně nebyl dosud uskutečněn. Účtuje se zde například o nájemném a 
+pachtovném placeném pozadu, prémiích a odměnách placených po uplynutí roku. 
+3.11.4. Na příslušném účtu vykazovaném v položce „C.III.2. Výnosy příštích období“, 
+respektive „D.2. Výnosy příštích období“, se zaúčtují příjmy v běžném účetním 
+období, které věcně patří do výnosů v příštích obdobích, například nájemné a 
+pachtovné přijaté předem, částky přijatých paušálů předem na zajištění servisních 
+služeb, přijaté předplatné. Vlastník rozvodného zařízení může časově rozlišovat po 
+dobu nejdéle 20 let přijaté úhrady podle příslušného zákona za účelně vynaložené 
+náklady spojené s připojením a se zajištěním požadovaného příkonu a v případě 
+přeložek rozvodných zařízení za samostatné stavby s nimi souvisejícími. Zúčtování 
+výnosů příštích období se provede v období, s kterým věcně souvisejí. 
+3.11.5. Na příslušném účtu vykazovaném v položce „C.II.3.3. Příjmy příštích období“, 
+respektive „D.3. Příjmy příštích období“, se účtuje o částkách účetní jednotkou 
+nepřijatých, které časově a věcně souvisejí s výnosy běžného účetního období a 
+ 
+51 
+nejsou zaúčtovány přímo na účtech pohledávek. Jsou to zejména výnosové provize, 
+provedené a odebrané dosud nevyúčtované práce a služby.  
+3.11.6.  Na příslušném účtu vykazovaném v položkách „C.II.1.5.3. Dohadné účty aktivní“ 
+nebo „C.II.2.4.5. Dohadné účty aktivní“ se účtuje například o pohledávce za 
+pojišťovnou v důsledku pojistných událostí v případech, kdy nebyla ještě poskytnuta 
+pojistná náhrada a pojišťovna nepotvrdila ke konci rozvahového dne konečnou výši 
+náhrady, o výnosových úrocích, které nebyly zahrnuty ve vyúčtování bank nebo 
+spořitelních a úvěrních družstev za běžné účetní období, respektive toto vyúčtování 
+bylo chybné, o odhadu poplatků z licencí nebo jiných majetkových práv, pokud není 
+ještě známa výše poplatků. O uvedených případech se účtuje se souvztažným 
+zápisem ve prospěch příslušného účtu účtových skupin 64 – Jiné provozní výnosy 
+nebo 66 – Finanční výnosy.  
+3.11.7.  Na příslušném účtu vykazovaném v položkách „C.I.9.2. Dohadné účty pasivní“ nebo 
+„C.II.8.6. Dohadné účty pasivní“ se účtuje například o nevyfakturovaných 
+dodávkách. Účtuje se zde i o nákladových úrocích, které nebyly zahrnuty do 
+vyúčtování bank nebo spořitelních a úvěrních družstev za dané účetní období, 
+respektive toto vyúčtování je chybné, a o dluhu z odpovědnosti za způsobenou škodu 
+v případech, kdy není možno k rozvahovému dni stanovit konečnou výši dluhu, se 
+souvztažným zápisem na vrub příslušného účtu účtových skupin 56 – Finanční 
+náklady a příslušného účtu účtové skupiny 54 – Jiné provozní náklady, popřípadě na 
+vrub příslušného účtu majetku, respektive nákladů v případě nevyfakturovaných 
+dodávek. Účtuje se zde i o náhradě mzdy nebo platu za nevyčerpanou dovolenou, 
+pokud na ni vznikne zaměstnanci nárok podle jiného právního předpisu, bude-li 
+proplacena v příštím účetním období. Účtuje se zde i o poměrné části silniční daně 
+při účtování v hospodářském roce. 
+3.12. Účtová skupina 39 – Opravná položka k zúčtovacím vztahům a vnitřní zúčtování 
+3.12.1. V této účtové skupině se účtuje o tvorbě opravných položek k jednotlivým 
+pohledávkám, jakož i o jejich snížení, popřípadě o zrušení podle Českého účetního 
+standardu pro podnikatele č. 005 Opravné položky.  
+3.12.2. Dále se zde účtuje o vztazích mezi jednotlivými vnitřními organizačními útvary účetní 
+jednotky v závislosti na organizaci účetnictví účetní jednotky. Příslušný účet účtové 
+skupiny 39 – Opravná položka k zúčtovacím vztahům a vnitřní zúčtování při uzavírání 
+účetních knih nemá zůstatek. 
+3.12.3. V účtové skupině 39 – Opravná položka k zúčtovacím vztahům a vnitřní zúčtování se 
+účtuje o převodu nákladů a výnosů mezi společníky sdruženými ve společnosti. 
+Případný zůstatek příslušného účtu účtové skupiny 39 – Opravná položka k 
+zúčtovacím vztahům a vnitřní zúčtování se koncem roku vyrovná zaúčtovanou 
+pohledávkou či dluhem za příslušnými společníky sdruženými ve společnosti (účtová 
+skupina 35 – Pohledávky za společníky nebo 36 – Závazky ke společníkům).  
+  
+ 
+ 
+ 
+52

@@ -1,0 +1,216 @@
+ZÁKON: NÚR I-38
+NAZEV: Interpretace Národní účetní rady I-38 – Zachycení prodeje podílu v dceřiném podniku v konsolidované účetní závěrce
+URL: http://nur.cz/wp-content/uploads/2020/10/I-38_updated.pdf
+
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+1/6 
+Interpretace NÚR 
+I–38 
+Zachycení prodeje podílu v dceřiném podniku v konsolidované účetní závěrce 
+Účetní jednotky jsou povinny vést účetnictví tak, aby účetní závěrka sestavená na jeho základě 
+podávala věrný a poctivý obraz předmětu účetnictví a finanční situace účetní jednotky (zákon 
+č. 563/1991 Sb., o účetnictví, § 7, odst. 1). Účetní jednotky účtují o stavu a pohybu majetku a jiných 
+aktiv, závazků a jiných pasiv, dále o nákladech a výnosech a o výsledku hospodaření. (zákon 
+č. 563/1991 Sb., o účetnictví, § 2, Předmět účetnictví).  
+Tato interpretace musí být aplikována v kontextu s Předmluvou Národní účetní rady k interpretacím 
+českých účetních standardů. 
+ 
+ 
+Popis problému 
+1. Cílem této Interpretace je stanovit postup účtování a vykázání prodeje celého podílu v dceřiném 
+podniku (dále jen „prodej podílu“) v konsolidované účetní závěrce. Tato Interpretace neřeší 
+situaci částečného prodeje podílu. 
+ 
+2. Český účetní standard č. 020 definuje jednotlivé konsolidační metody a způsob výpočtu 
+konsolidačního rozdílu k datu akvizice a k datu dalšího navýšení podílu, ale neobsahuje žádné 
+ustanovení, které by se týkalo prodeje celého či části podílu v dceřiném podniku.  
+ 
+3. České předpisy obsahují pouze ustanovení týkající se prodeje obchodního závodu (ČÚS 011 – 
+Operace s obchodním závodem). 
+ 
+4. Interpretace řeší primárně následující otázky: 
+a) jak se prodej podílu dotkne aktiv a závazků včetně rezerv (dále jen aktiva a závazky či 
+čistá aktiva) dceřiného podniku vykazovaných v konsolidované rozvaze; 
+b) jakým způsobem se prodej podílu dotkne menšinových podílů a konsolidačního rozdílu, 
+jsou-li v konsolidované účetní závěrce v souvislosti s prodávaným podílem vykazovány; 
+c) kde bude v konsolidovaném výkazu zisku a ztráty dopad prodeje podílu zachycen. 
+ 
+Řešení 
+5. Dceřiný podnik je konsolidován od data akvizice do data prodeje podílu. Pokud dojde k prodeji 
+podílu v průběhu účetního období, aktiva a závazky dceřiného podniku již nejsou součástí 
+konsolidovaných aktiv a závazků k rozvahovému dni. Konsolidovaný výkaz zisku a ztráty musí 
+však obsahovat výnosy a náklady dosažené prodávaným dceřiným podnikem, a to od počátku 
+účetního období do data prodeje podílu včetně všech konsolidačních úprav, odpisu 
+konsolidačního rozdílu za poměrnou část účetního období a vyjádření menšinových podílů na 
+výsledku hospodaření za poměrnou část účetního období. 
+ 
+
+ 
+                  Interpretace NÚR I-38 Zachycení prodeje podílu v dceřiném  podniku v konsolidované 
+účetní závěrce 
+ 
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+2/6 
+6. Hodnoty prodávaných aktiv a závazků dceřiného podniku jsou v ocenění k datu prodeje vykázány 
+v konsolidovaném zisku a ztráty v rámci ostatních provozních nákladů. K datu prodeje podílu 
+nedochází k rozpuštění opravných položek či rezerv vykazovaných dceřiným podnikem. Tyto 
+položky jsou součástí prodávaných čistých aktiv a jsou spolu s ostatními složkami čistých aktiv k 
+datu prodeje vykázány v položce ostatních provozních nákladů. 
+ 
+7. K datu prodeje by měla být aktuální také výše odloženého daňového závazku (pohledávky) a za 
+poměrnou část roku by měla být také vyčíslena a vykázána rezerva na splatnou daň. Jak splatná, 
+tak odložená daň jsou součástí prodávaných aktiv a závazků dceřiného podniku. 
+ 
+8. Zůstatková hodnota konsolidačního rozdílu, který vznikl při nabytí podílu v dceřiném podniku, je 
+v ocenění k datu prodeje podílu vykázána v konsolidovaném zisku a ztráty v rámci ostatních 
+provozních nákladů. 
+ 
+9. Menšinový podíl související s tímto prodávaným podílem je v ocenění k datu prodeje tohoto 
+obchodního podílu eliminován a vykázán v konsolidovaném výkazu zisku a ztráty v rámci 
+ostatních provozních nákladů. 
+ 
+10. Pokud jsou čistá aktiva, včetně konsolidačního rozdílu a menšinového podílu prodávaného 
+dceřiného podniku záporná, budou k datu prodeje vykázána v konsolidovaném výkazu zisku a 
+ztráty v položce ostatních provozních výnosů. 
+ 
+11. Hodnoty prodávaných aktiv a závazků, vyřazovaného konsolidačního rozdílu a menšinových 
+podílů je vhodné zjistit z mezitímní rozvahy a výkazu zisku a ztráty, pro jejichž sestavení se 
+přiměřeně použije Interpretace I-31 Mezitímní účetní výkaznictví. 
+ 
+12. V individuální účetní závěrce mateřského podniku je prodej zachycen obvykle v rámci finančních 
+nákladů, kam je zaúčtována pořizovací cena prodaného podílu. V konsolidované rozvaze byla již 
+k datu akvizice tato pořizovací cena eliminována, proto v rámci konsolidačních úprav musí být 
+tento účetní zápis zrušen. V konsolidovaném výkazu zisku a ztráty tedy nebude v souvislosti s 
+prodejem podílu vykázán žádný finanční výsledek hospodaření. 
+ 
+13. Výnos z prodeje podílu je vykázán v konsolidovaném zisku a ztráty v rámci ostatních provozních 
+výnosů. 
+ 
+14. V individuální účetní závěrce je výnos z prodeje podílu zachycen obvykle v rámci finančních 
+výnosů, v rámci konsolidačních úprav tedy dojde k reklasifikaci tohoto výnosu z finančního do 
+provozního výsledku hospodaření. Výše výnosu zůstane nezměněna. 
+ 
+15. V příloze v konsolidované účetní závěrce účetní jednotka uvede: 
+a) rozpis položky ostatních provozních nákladů (případně ostatních provozních výnosů v 
+případě, že jsou čistá aktiva prodávaného dceřiného podniku záporná), který obsahuje 
+minimálně výši dekonsolidovaných aktiv, závazků, konsolidačního rozdílu a menšinových 
+podílů v souvislosti s prodejem podílu; 
+b) výpočet výnosu z prodeje podílu, pokud obsahuje nějaké podmíněné úhrady vázané 
+například na dosažení určité úrovně zisku prodávaného podniku; 
+c) výši zisku nebo ztráty dosažené prodejem podílu. 
+
+ 
+                  Interpretace NÚR I-38 Zachycení prodeje podílu v dceřiném  podniku v konsolidované 
+účetní závěrce 
+ 
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+3/6 
+ 
+Zdůvodnění 
+16. Podstata prodeje podílu v dceřiném podniku z pohledu konsolidované účetní závěrky je obdobou 
+transakce prodeje obchodního závodu z pohledu individuální účetní závěrky. Odúčtování 
+prodávaných aktiv a závazků na účet účtové skupiny 54 požaduje ČÚS 011 Operace s obchodním 
+závodem stejně tak jako zachycení výnosů z prodeje na účtu účtové skupiny 64. Při prodeji 
+dceřiného podniku tak budou konzistentně prodávaná aktiva a závazky vykázány v položce 
+ostatních provozních nákladů a podobně bude tržba z prodeje vykázána jako ostatní provozní 
+výnos. 
+ 
+17. ČÚS 011 požaduje v odst. 3.1, aby byly při prodeji obchodního závodu zrušeny opravné položky, 
+oceňovací rozdíl nebo goodwill a rezervy s výjimkou rezerv vytvářených podle zvláštních 
+právních předpisů. Ke zrušení těchto položek dochází dle ČÚS 011 prostřednictvím účtů v účtové 
+skupině 55. Tato Interpretace požaduje vykázání opravných položek či rezerv při prodeji 
+dceřiného podniku obdobným způsobem jako vyřazení ostatních aktiv a závazků prodávaného 
+dceřiného podniku, pokud neexistuje pro zrušení rezervy či opravné položky jiný důvod než 
+prodej podílu. Toto řešení zabezpečí věrné zobrazení prodeje podílu v konsolidovaném výkazu 
+zisku a ztráty, protože veškerá aktiva a závazky prodávaného dceřiného podniku jsou v ocenění 
+k datu prodeje odúčtovány konzistentním způsobem. Hodnota čistých aktiv prodávaného 
+dceřiného podniku tak bude v konsolidovaném výkazu zisku a ztráty vykázána ve stejné položce 
+ostatní provozní náklady. 
+ 
+18. V případě, že hodnota prodávaných čistých aktiv je záporná (tzn., že součet hodnot závazků 
+menšinového podílu a případného záporného konsolidačního rozdílu převyšuje hodnotu aktiv), 
+došlo by vykázáním prodávaných čistých aktiv v ostatních provozních nákladech k jejich snížení, 
+či dokonce ke vzniku záporné hodnoty ostatních provozních nákladů v konsolidovaném výkazu 
+zisku a ztráty. Z tohoto důvodu se v této situaci hodnota prodávaných čistých aktiv včetně 
+menšinového podílu a konsolidačního rozdílu zahrne v konsolidovaném výkazu zisku a ztráty do 
+ostatních provozních výnosů. 
+ 
+19. Vyhláška č. 500/2002 Sb. V § 39 bod 1, písmeno h) požaduje, aby účetní jednotka v příloze uvedla 
+výši a povahu jednotlivých položek výnosů a nákladů, které jsou mimořádné svým objemem 
+nebo původem. Toto ustanovení platí i pro přílohu v konsolidované účetní závěrce. Výnosy a 
+náklady související s prodejem podílu nejsou běžně se vyskytujícími transakcemi, a splňují tedy 
+požadavek vyhlášky, aby byly v příloze v účetní závěrce samostatně popsány. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+                  Interpretace NÚR I-38 Zachycení prodeje podílu v dceřiném  podniku v konsolidované 
+účetní závěrce 
+ 
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+4/6 
+Příklady k Interpretaci 
+ 
+ 
+   
+ 
+
+ 
+                  Interpretace NÚR I-38 Zachycení prodeje podílu v dceřiném  podniku v konsolidované 
+účetní závěrce 
+ 
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+5/6 
+ 
+ 
+     
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+                  Interpretace NÚR I-38 Zachycení prodeje podílu v dceřiném  podniku v konsolidované 
+účetní závěrce 
+ 
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+6/6 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Datum prvního schválení 
+této interpretace NÚR: 
+15. února 2019 
+Datum poslední aktualizace 
+této interpretace NÚR: 
+1. dubna 2019 
+Zpracovatel interpretace: 
+Ing. Alice Šrámková 
+Svaz účetních ČR

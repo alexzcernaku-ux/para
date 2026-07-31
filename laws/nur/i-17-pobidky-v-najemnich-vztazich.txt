@@ -1,0 +1,107 @@
+ZÁKON: NÚR I-17
+NAZEV: Interpretace Národní účetní rady I-17 – Pobídky v nájemních vztazích
+URL: http://nur.cz/wp-content/uploads/2020/10/I-17_updated.pdf
+
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+1/3 
+Interpretace NÚR 
+I–17 
+Pobídky v nájemních vztazích 
+Účetní jednotky jsou povinny vést účetnictví tak, aby účetní závěrka sestavená na jeho základě 
+podávala věrný a poctivý obraz předmětu účetnictví a finanční situace účetní jednotky (zákon 
+č. 563/1991 Sb., o účetnictví, § 7, odst. 1). Účetní jednotky účtují o stavu a pohybu majetku a jiných 
+aktiv, závazků a jiných pasiv, dále o nákladech a výnosech a o výsledku hospodaření. (zákon 
+č. 563/1991 Sb., o účetnictví, § 2, Předmět účetnictví).  
+Tato interpretace musí být aplikována v kontextu s Předmluvou Národní účetní rady 
+k interpretacím českých účetních standardů. 
+ 
+ 
+Popis problému 
+1. Pronajímatel se může při uzavírání nájemních smluv zavázat, že odběrateli poskytne určité, 
+většinou jednorázové výhody. Takovou výhodou může být například snížené nájemné v 
+počáteční fázi nájemního vztahu, úhrada nákladů na přestěhování nájemníka do 
+pronajímaných prostor nebo úhrada odstupného za nájemníka, které vyplývá z předčasného 
+ukončení smluvního vztahu, který byl nahrazen smluvním vztahem s předmětným 
+pronajímatelem. 
+ 
+2. Je otázkou, zda se takové výhody mají časově rozlišovat. 
+ 
+Řešení 
+3. Nájemce i pronajímatel při stanovení účetního řešení zváží charakter posuzované výhody. 
+Pokud podle všech relevantních okolností lze soudit, že smyslem poskytované výhody je 
+výlučně získání nového nájemce nebo prodloužení smluvního vztahu se stávajícím nájemcem 
+(taková výhoda se dále označuje jako „pobídka“), v účetnictví se tato pobídka časově rozliší po 
+dobu trvání smlouvy, ke které se vztahuje, a to u obou smluvních stran. Účetní jednotky ve 
+svých vnitřních směrnicích stanoví kritéria pro posuzování pobídek a postupy jejich účtování. 
+ 
+4. „Dobou trvání smlouvy“ se pro účely této Interpretace má na mysli období, po které bude 
+poskytován sjednaný nájem, aniž by bylo možné takový smluvní vztah ukončit, nebo ukončení 
+smluvního vztahu by bylo pro nájemce tak nevýhodné, že je vysoce nepravděpodobné, že by k 
+němu mohlo dojít. 
+ 
+5. Pokud pronajímatel poskytuje výhodu z jiného důvodu, než je získání nového nájemce nebo 
+prodloužení smlouvy se stávajícím nájemcem (např. sleva na nájemném je způsobena 
+omezením v užívání pronajímaných prostor), taková výhoda není pobídkou a tato Interpretace 
+se na její účtování nevztahuje. 
+ 
+
+                                                                           Interpretace NÚR I-17 Pobídky v nájemních vztazích 
+ 
+ 
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+2/3 
+Zdůvodnění 
+6. To, zda je poskytovaná výhoda pobídkou, záleží na odborném úsudku účetní jednotky. Pokud 
+se například po několik prvních měsíců neplatí nájemné bez jakéhokoliv jiného zjevného 
+ekonomického důvodu, bude se se vší pravděpodobností jednat o pobídku. Při formování 
+odborného úsudku lze vzít v úvahu odborný úsudek druhé smluvní strany. 
+ 
+7. Pokud je smyslem výhody pobídka (tj. získání nájemce), vztahuje se pobídka k získání 
+smluvního vztahu, a nikoli k tomu, jakým způsobem nájemce pobídku „utratí“. 
+ 
+8. Podle § 3 odst. 1 zákona o účetnictví účetní jednotky účtují o skutečnostech do období, s nímž 
+tyto skutečnosti časově a věcně souvisí. Protože se pobídka vztahuje k získání smluvního 
+vztahu, je nutné ji časově rozlišit po „dobu trvání smlouvy“ (viz odstavce 4 a 10). 
+ 
+9. Pro určení dotčených účetních období je irelevantní, kdy nastává peněžní tok (výdej a příjem) 
+související s pobídkou. Okamžik poskytnutí pobídky (poskytnutí slevy, zaplacení stěhování) 
+rozhoduje o načasování celkového peněžního toku spojeného se smlouvou, ke které se 
+pobídka váže, nikoli o načasování protiplnění, za které je placeno. Právě načasování těchto 
+protiplnění (nájmu) rozhoduje o jejich příslušnosti do určitých účetních období. 
+ 
+10. V případě, že nájemní vztah je na dobu neurčitou, je dle odstavce 4 „dobou trvání smlouvy“ její 
+výpovědní lhůta, nikoli předpokládaná doba užívání nájmu. Je to z toho důvodu, že racionální 
+nájemce poté, co obdrží pobídku, se snaží nájem užívat po co možná nejkratší dobu, kterou mu 
+nájemní smlouva umožňuje, aby mohl znovu využít další pobídky či ji vyžadovat. Pobídka se 
+vztahuje pouze k tomu období, na které se nájemce díky ní „upíše“. Trvá-li nájemní vztah déle, 
+není to již v důsledku pobídky, ale v důsledku jiných rozhodnutí (např. nechuť nájemce se 
+stěhovat). Protože pobídka s těmito dalšími obdobími nemá příčinnou souvislost, do těchto 
+období se již časově nerozliší. 
+ 
+ 
+ 
+Datum prvního schválení 
+této interpretace NÚR: 
+21. června 2010 
+Datum poslední aktualizace 
+této interpretace NÚR: 
+1. dubna 2019 
+Zpracovatel interpretace: 
+Ing. Jiří Pelák, Ph.D.  
+Katedra finančního účetnictví a auditingu 
+Fakulta financí a účetnictví 
+Vysoká škola ekonomická v Praze  
+Nám. W. Churchilla 4  
+130 67 Praha 3 – Žižkov  
+ 
+
+                                                                           Interpretace NÚR I-17 Pobídky v nájemních vztazích 
+ 
+ 
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+3/3 
+Mgr. Edita Ševcovicová  
+Komora daňových poradců ČR

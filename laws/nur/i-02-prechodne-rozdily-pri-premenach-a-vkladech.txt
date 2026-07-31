@@ -1,0 +1,120 @@
+ZÁKON: NÚR I-2
+NAZEV: Interpretace Národní účetní rady I-2 – Přechodné rozdíly při přeměnách a vkladech
+URL: http://nur.cz/wp-content/uploads/2020/10/I-02_updated.pdf
+
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+1/3 
+Interpretace NÚR 
+I–2 
+Přechodné rozdíly při přeměnách a vkladech 
+Účetní jednotky jsou povinny vést účetnictví tak, aby účetní závěrka sestavená na jeho základě 
+podávala věrný a poctivý obraz předmětu účetnictví a finanční situace účetní jednotky (zákon 
+č. 563/1991 Sb., o účetnictví, § 7, odst. 1). Účetní jednotky účtují o stavu a pohybu majetku a jiných 
+aktiv, závazků a jiných pasiv, dále o nákladech a výnosech a o výsledku hospodaření. (zákon 
+č. 563/1991 Sb., o účetnictví, § 2, Předmět účetnictví).  
+Tato interpretace musí být aplikována v kontextu s Předmluvou Národní účetní rady 
+k interpretacím českých účetních standardů. 
+Odkaz: ČÚS 003 – Odložená daň 
+ 
+Popis problému 
+1. Obecné pravidlo obsažené ve standardu 003 uvádí, že se odložená daň zjišťuje ze všech 
+přechodných rozdílů, které vznikají z rozdílného účetního a daňového pohledu na položky 
+zachycené v účetnictví. Přechodný rozdíl vzniká vždy, když se nerovná účetní hodnota aktiva 
+nebo závazku daňové hodnotě. Většina přechodných rozdílů, které vznikají z rozdílného 
+účetního a daňového pohledu na položky zachycené v účetnictví, jsou rozdíly časové, kdy 
+stejný náklad nebo výnos ovlivní účetní zisk v jiném období než zdanitelný zisk, a tudíž z nich 
+vzniká odložená daň vždy. Dále existují takové přechodné rozdíly, které však nejsou zároveň 
+časovými rozdíly (což je případ přechodných rozdílů při přeměnách společností a nepeněžitých 
+vkladech do společností). 
+ 
+2. V souladu s ustanoveními Českého účetního standardu 003 – Odložená daň, vznikají z důvodu 
+přecenění aktiv při přeměnách společností a při nepeněžitých vkladech majetku do společností 
+přechodné rozdíly, které vyústí v odloženou daň. Přitom účetní hodnota majetku je zvýšena 
+(nebo snížena) na reálnou hodnotu, ale daňová základna zůstává v původní výši. V případě 
+přeměn se odložená daň zaúčtuje u nově vznikající společnosti z těch položek, které jsou 
+přeceňovány proti vlastnímu kapitálu. V případě nepeněžitých vkladů vykáže nabývající účetní 
+jednotka odložený daňový závazek, popřípadě odloženou daňovou pohledávku jako součást 
+vlastního kapitálu v položce jiného výsledku hospodaření.  
+ 
+3. V případě vkladů do obchodních společností dochází k přecenění vkládaného majetku na 
+reálnou hodnotu, která je zpravidla vyšší než účetní hodnota majetku u vkládající účetní 
+jednotky. Odložená daň zúčtovaná v tomto případě proti jinému výsledku hospodaření 
+ovlivňuje poměr cizích a vlastních zdrojů vykazovaný účetní jednotkou, do které byl majetek 
+vložen. Důsledkem může být i záporný vlastní kapitál se všemi dopady, které vyplývají z 
+ustanovení zákona o obchodních korporacích a dalších právních předpisů. Z tohoto důvodu se 
+účetní jednotky v takových případech brání vykázat odloženou daň s argumentací, že se 
+nejedná o přechodný rozdíl mezi účetní hodnotou majetku a jeho daňovou základnou, ale o 
+rozdíl trvalý.  
+
+ 
+Interpretace NÚR I-2 Přechodné rozdíly při přeměnách a vkladech 
+ 
+ 
+ 
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+2/3 
+4. Opačná situace nastává tehdy, je-li vklad přeceněn na nižší reálnou hodnotu, než je účetní 
+hodnota vkládaného majetku. Odložená daňová pohledávka je vykázána jako zvýšení vlastního 
+kapitálu v položce jiného výsledku hospodaření, což zlepšuje vykazovanou fi nanční situaci 
+účetní jednotky, do které byl majetek vložen. Přitom zákonem o obchodních korporacích není 
+zakázáno použít jiný výsledek hospodaření, který vznikl z přecenění vkladu, pro rozdělení. 
+Důsledkem může být porušení konceptu zachování majetkové podstaty účetní jednotky, a tím i 
+případné ohrožení předpokladu trvání účetní jednotky. 
+ 
+5. Přesto, že případy přeměn společností a nepeněžitých vkladů do společností jsou ČÚS 003 
+řešeny, vznikají při jejich praktické aplikaci následující otázky:  
+a) zda vzniká přechodný rozdíl,  
+b) zda se v těchto případech vykazuje odložená daň,  
+c) kde má být dopad takové odložené daně vykázán. 
+Řešení 
+6. Přechodné rozdíly při přeměnách společností nebo nepeněžitých vkladech do společností 
+vznikají jako rozdíl mezi přeceněnou účetní hodnotou a nezměněnou daňovou základnou. 
+ 
+7. Tento přechodný rozdíl vyústí v odloženou daň, jejíž dopad se vykazuje v souladu s povahou 
+této transakce, která ji vyvolala, tj. ve vlastním kapitálu, a to v případě přeměn společností v 
+zahajovací rozvaze nástupnické společnosti a v případě nepeněžitých vkladů do společností v 
+rozvaze u nabyvatele. 
+ 
+8. V případě zvýšení vlastního kapitálu vykázáním odložené daňové pohledávky je nutné provést 
+test na pokrytí odložené daňové pohledávky budoucí úsporou na splatné dani. Případné 
+dopady vykázání odložené daně z titulu přeměn a vkladů proti vlastnímu kapitálu na předlužení 
+či na položku vlastního kapitálu určenou pro rozdělování popíše účetní jednotka v příloze k 
+účetní závěrce. 
+Zdůvodnění 
+9. Přecenění majetku při přeměnách a vkladech vede plně v souladu s českými účetními předpisy 
+i s Mezinárodními standardy účetního výkaznictví ke vzniku přechodných rozdílů. Takové 
+přechodné rozdíly však nejsou časovými rozdíly a jejich dopady nesmí ovlivnit výsledek 
+hospodaření za období. 
+ 
+10. Dopad odložené daně, která vznikla v souvislosti s přeměnou společnosti nebo v souvislosti s 
+nepeněžitým vkladem do společnosti, musí být vykázán v souladu s povahou transakce, která 
+takovou daň vyvolala, tj. do vlastního kapitálu společnosti. Vzhledem k tomu, že dopad 
+odložené daně z důvodu nepeněžitých vkladů bezprostředně ovlivňuje výši zdrojů použitelných 
+k rozdělení, je důležité jeho vysvětlení v příloze (viz odstavec 8 této Interpretace) tak, aby 
+nebyla ohrožena schopnost externích uživatelů činit na základě účetní závěrky správná 
+rozhodnutí. 
+ 
+
+ 
+Interpretace NÚR I-2 Přechodné rozdíly při přeměnách a vkladech 
+ 
+ 
+ 
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+3/3 
+Datum prvního schválení 
+této interpretace NÚR: 
+28. února 2005 
+Datum poslední aktualizace 
+této interpretace NÚR: 
+1. dubna 2019 
+Zpracovatel interpretace: 
+prof. Ing. Libuše Müllerová, CSc.  
+Katedra finančního účetnictví a auditingu  
+Fakulta financí a účetnictví  
+Vysoká škola ekonomická v Praze  
+Nám. W. Churchilla 4  
+130 67 Praha 3 – Žižkov

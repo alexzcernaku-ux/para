@@ -1,0 +1,104 @@
+ZÁKON: ČÚS č. 002
+NAZEV: Český účetní standard pro podnikatele č. 002 – Otevírání a uzavírání účetních knih
+URL: https://www.mfcr.cz/assets/cs/media/Ucetnictvi_2018_Ceske-ucetni-standardy-pro-500-2002_v02.pdf
+
+Otevírání a uzavírání účetních knih 
+ 
+ 
+1. Cíl 
+      Cílem tohoto standardu je stanovit podle zákona č. 563/1991 Sb., o účetnictví, ve znění 
+pozdějších předpisů, (dále jen „zákon“) a vyhlášky č. 500/2002 Sb., kterou se provádějí 
+některá ustanovení zákona č. 563/1991 Sb., o účetnictví, ve znění pozdějších předpisů, pro 
+účetní jednotky, které jsou podnikateli účtujícími v soustavě podvojného účetnictví, ve znění 
+pozdějších předpisů, (dále jen „vyhláška“) základní postupy při otevírání a uzavírání účetních 
+knih za účelem docílení souladu při používání účetních metod účetními jednotkami.   
+ 
+2.   Postup při otevírání a uzavírání účetních knih 
+Při otevírání a uzavírání účetních knih podle § 17 zákona postupují účetní jednotky takto:  
+2.1. Otevírání účetních knih  
+2.1.1. Účty hlavní knihy se otevírají účetními zápisy. Stavy jednotlivých rozvahových položek 
+(aktiva a pasiva) vykázané na příslušném účtu účtové skupiny 70 – Účty rozvažné, 
+který slouží k uzavírání účetních knih, (dále jen „konečný účet rozvažný“) musí 
+navazovat na stavy jednotlivých rozvahových položek (aktiv a pasiv) příslušného účtu 
+účtové skupiny 70 – Účty rozvažné, který slouží k otevírání účetních knih, (dále jen 
+„počáteční účet rozvažný“).  
+2.1.2.  Účetními zápisy na vrub počátečního účtu rozvažného a ve prospěch příslušných nově 
+otevíraných účtů pasiv a účetními zápisy ve prospěch počátečního účtu rozvažného a 
+na vrub příslušných nově otevíraných účtů aktiv se zaúčtují jejich počáteční zůstatky.  
+2.1.3.  Zisk, popřípadě ztráta, zaúčtovaný ve prospěch, popřípadě na vrub, konečného účtu 
+rozvažného se při otevírání účtů hlavní knihy zaúčtuje ve prospěch, případně na vrub, 
+příslušného účtu účtové skupiny 43 –  Výsledek hospodaření se souvztažným zápisem 
+na vrub, případně ve prospěch, počátečního účtu rozvažného.  
+2.1.4. Po otevření účetních knih se podle § 4 odst. 15 a § 7 odst. 4 zákona a § 15a vyhlášky 
+zaúčtují případné rozdíly ze změn použitých způsobů oceňování majetku (jako účetní 
+případ prvního měsíce nového účetního období) souvztažným zápisem na příslušném 
+účtu účtové skupiny 42 – Fondy ze zisku a převedené výsledky hospodaření 
+vykazovaném v položce „A.IV.2. Jiný výsledek hospodaření minulých let (+/-)“.  
+2.1.5. Stav příslušného účtu účtové skupiny 43 – Výsledek hospodaření vykazovaného 
+v položce „A.V. Výsledek hospodaření běžného účetního období (+/-)“ a příslušného 
+účtu účtové skupiny 43 - Výsledek hospodaření vykazovaného v položce „A.VI. 
+Rozhodnuto o zálohové výplatě podílu na zisku (-)“ se vyrovná:  
+a) u účetních jednotek, které nejsou individuálními podnikateli, po schválení návrhu 
+na rozdělení zisku, případně na úhradu ztráty, příslušným orgánem účetní 
+jednotky:  
+1.  v případě zisku účetními zápisy zejména ve prospěch příslušných účtů účtových 
+skupin 41 – Základní kapitál a kapitálové fondy, 42 – Fondy ze zisku a 
+převedené výsledky hospodaření, popřípadě ve prospěch (respektive na vrub) 
+příslušného účtu účtové skupiny 36 – Závazky ke společníkům, případně na 
+vrub příslušného účtu účtové skupiny 35 – Pohledávky za společníky. Ve 
+prospěch (respektive na vrub) příslušného účtu účtové skupiny 42 – Fondy ze 
+zisku a převedené výsledky hospodaření, který vyjadřuje nerozdělený zisk 
+minulých let, se účtuje, pokud se nerozdělený zisk převádí do dalších let.  
+2.  v případě ztráty účetními zápisy zejména na vrub příslušných účtů účtových 
+skupin 41 – Základní kapitál a kapitálové fondy, 42 – Fondy ze zisku a 
+ 
+7 
+převedené výsledky hospodaření, popřípadě na vrub příslušného účtu účtové 
+skupiny 35 – Pohledávky za společníky. Na vrub příslušného účtu účtové 
+skupiny 42 – Fondy ze zisku a převedené výsledky hospodaření, který 
+vyjadřuje neuhrazenou ztrátu minulých let, se účtuje, pokud se neuhrazená 
+ztráta převádí do dalších let.  
+b)  u individuálního podnikatele účetními zápisy ve prospěch, případně na vrub, 
+příslušného účtu účtové skupiny 49 – Individuální podnikatel.  
+2.1.6. Pořadí rozdělení zisku, popřípadě způsob úhrady ztráty, u účetních jednotek, které 
+nejsou individuálními podnikateli, stanoví například společenská smlouva, stanovy 
+obchodní korporace nebo rozhodnutí valné hromady.  
+2.2. Uzavírání účetních knih  
+2.2.1.   Účty hlavní knihy se uzavírají účetními zápisy.  
+2.2.2.  Konečné stavy účtů nákladů se přeúčtují na vrub příslušného účtu účtové skupiny 71 –
+Účet zisků a ztrát, konečné stavy účtů výnosů se přeúčtují ve prospěch tohoto účtu. 
+Výsledný zůstatek tohoto účtu se podle své povahy přeúčtuje ve prospěch, případně na 
+vrub, konečného účtu rozvažného.  
+2.2.3.  Konečné zůstatky aktivních účtů se přeúčtují na vrub konečného účtu rozvažného, 
+konečné zůstatky pasivních účtů se přeúčtují ve prospěch konečného účtu rozvažného. 
+Na vrub konečného účtu rozvažného se přeúčtuje též zůstatek účtu účtové skupiny 71 
+– Účet zisků a ztrát (v případě ztráty). Ve prospěch konečného účtu rozvažného se 
+přeúčtuje též zůstatek účtu účtové skupiny 71 – Účet zisků a ztrát (v případě zisku).  
+2.2.4.  Veřejné obchodní společnosti při uzavírání účetních knih zaúčtují nárok na podíl na 
+výsledku hospodaření společníků na příslušných účtech účtové skupiny 59 – Daně z 
+příjmů, převodové účty a rezerva na daň z příjmů a účtové skupiny 36 – Závazky ke 
+společníkům, popřípadě účtové skupiny 35 – Pohledávky za společníky podle povahy 
+výsledku hospodaření. Dále veřejná obchodní společnost postupuje podle bodů 2.2.1. 
+a 2.2.2. s tím, že příslušný účet účtové skupiny 71 – Účet zisků a ztrát nebude 
+vykazovat zůstatek.  
+2.2.5. Obdobně jako v bodě 2.2.4. postupuje i komanditní společnost ve vztahu ke 
+komplementářům.  
+ 
+3. Účetní závěrka a uzavírání účetních knih 
+3.1.  Obsahové vymezení účetní závěrky účetní jednotky stanoví § 18 zákona a vyhláška.  
+3.2.  Uzavírání účetních knih je činnost, při níž se ve smyslu ustanovení § 17 zákona  
+a) zjišťují obraty stran Má dáti a Dal jednotlivých syntetických účtů, popřípadě při 
+vedení účetnictví ve zjednodušeném rozsahu obraty účtových skupin,  
+b) zjišťují konečné zůstatky aktivních a pasivních účtů a konečné stavy účtů nákladů a 
+výnosů, popřípadě při vedení účetnictví ve zjednodušeném rozsahu zůstatky 
+účtových skupin,  
+c) zjistí se základ daně z příjmů a daňová povinnost splatná, popřípadě odložená, účetní 
+jednotky za účetní období, případně se zaúčtuje rezerva na daň z příjmů ve smyslu § 
+26 odst. 3 zákona,  
+d) zjistí se účetní výsledek hospodaření převodem nákladových účtů na vrub 
+příslušného účtu účtové skupiny 71 – Účet zisků a ztrát a převodem výnosových 
+účtů ve prospěch tohoto účtu,  
+e) uzavře se účetnictví účetní jednotky převodem zůstatků rozvahových účtů a zůstatku 
+příslušného účtu účtové skupiny 71 – Účet zisků a ztrát na konečný účet rozvažný. 
+ 
+8

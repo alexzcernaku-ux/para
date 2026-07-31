@@ -1,0 +1,552 @@
+ZÁKON: NÚR I-41
+NAZEV: Interpretace Národní účetní rady I-41 – Zákaznické věrnostní programy
+URL: https://nur.cz/wp-content/uploads/2020/07/I-41.pdf
+
+© Národní účetní rada 
+Schválený text interpretace 
+1/12 
+ 
+ 
+Interpretace Národní účetní rady 
+I-41 Zákaznické věrnostní programy 
+  
+Účetní jednotky jsou povinny vést účetnictví tak, aby účetní závěrka sestavená na jeho základě 
+podávala věrný a poctivý obraz předmětu účetnictví a finanční situace účetní jednotky (zákon 
+č. 563/1991 Sb., o účetnictví, § 7, odst. 1). Za vedení účetnictví je odpovědná účetní jednotka. 
+Tato interpretace není právně závazným stanoviskem, pouze vyjadřuje odborný názor Národní 
+účetní rady a může být aplikována pouze v kontextu s Předmluvou Národní účetní rady 
+k interpretacím českých účetních předpisů. Postup popsaný v této interpretaci poskytuje účetní 
+jednotce návod v případech, kdy má jejich aplikace významný dopad na informace uvedené 
+v účetní závěrce a kdy informační přínosy jsou větší než náklady nutné na jejich získání. 
+ 
+Popis problému: 
+1. Úspěšná podnikatelská činnost se neobejde bez systematické práce se zákazníky, ať již 
+současnými anebo potenciálními. Vysoká kvalita výrobků, zboží a poskytovaných služeb 
+za relativně příznivou cenu je zákazníky považována za samozřejmost, proto podniky musí 
+hledat jiné cesty, jak upoutat zákazníkovu přízeň trvale. Podniky využívají širokou škálu 
+marketingových nástrojů a komunikačních kanálů, aby zákazníky získaly a udržely. Jednou 
+z nejoblíbenějších metod jsou zákaznické věrnostní programy.  
+2. Účetní jednotky využívají zákaznické věrnostní programy, aby podnítily své zákazníky 
+nakupovat jejich výrobky, zboží nebo služby. Společným rysem věrnostních programů je, 
+že podnik přizná zákazníkovi nároky na budoucí odměny, např. ve formě věrnostních 
+kreditů (tzv. „body“) nebo slevových kupónů. Tyto věrnostní nároky mohou být udíleny za 
+individuální nákupy, hromadné nákupy nebo za nepřetržitou věrnost zákazníka po určité 
+období. Zákazník může následně proměnit tyto věrnostní nároky za různé odměny. Odměny 
+bývají ve formě výrobků, zboží nebo služeb (dále jen „produkty“), které zákazník může 
+obdržet zdarma nebo se slevou. Odměny může poskytovat přímo podnik, který věrnostní 
+nároky přiznal, příp. si zákazník může své „body“ proměnit za odměny od jiných smluvních 
+partnerů. V některých případech může zákazník uplatnit obdržené věrnostní nároky pouze 
+po omezenou dobu. V jiných situacích má naopak zákazník právo vybírat si odměny bez 
+jakéhokoliv časového omezení. V dalším textu budou veškeré nároky na budoucí odměny 
+přiznané účetní jednotkou zákazníkovi za jeho nákup označovány souhrnně jako věrnostní 
+kredity bez ohledu na to, zda budou mít formu bodů, slevových kupónů, kuponů na 
+produkty zdarma či jinou podobu. 
+3. V českých účetních předpisech chybí explicitní úprava věrnostních programů. Různorodost 
+věrnostních programů vede k tomu, že jejich účetní řešení se mezi účetními jednotkami liší. 
+V účetní teorii lze nalézt tři základní postupy účtování z pohledu dodavatele výkonů: 
+
+ 
+ 
+I-41 Zákaznické věrnostní programy 
+ 
+© Národní účetní rada 
+Schválený text interpretace 
+2/12 
+ 
+a) průběžné účtování: účetní jednotka promítne nárok na produkty přiznaný ve 
+věrnostním programu do výsledku hospodaření v okamžiku, kdy zákazník využije 
+svého práva na produkty zdarma nebo se slevou; 
+b) nákladové řešení: účetní jednotka promítne nárok na produkty přiznaný ve 
+věrnostním programu do výsledku hospodaření v okamžiku, kdy bylo zákazníkovi 
+uděleno právo na produkty zdarma nebo se slevou, a to zaúčtováním závazku 
+(obvykle rezerva) souvztažně oproti provozním nákladům ve výši očekávaných 
+nákladů na splnění závazku; 
+c) výnosové řešení (inspirované IFRS): účetní jednotka promítne nárok na produkty 
+přiznaný ve věrnostním programu do hospodářského výsledku hospodaření 
+v okamžiku, kdy bylo zákazníkovi uděleno právo na produkty zdarma nebo se 
+slevou, a to prostřednictvím časového rozlišení výnosů ve výši poměrné části 
+výnosů, které připadají na produkty zdarma nebo se slevou. 
+ 
+4. Průběžné účtování není z pohledu českého účetnictví obecně akceptovatelné, neboť 
+obvykle nenaplňuje požadavek věcné a časové souvislosti výnosů a nákladů s účetním 
+obdobím (§3, odst. 1 zákona o účetnictví) a vede k tomu, že jsou náklady a výnosy 
+vztahující se k témuž předmětu účtovány do různých období. Nákladové řešení je z pohledu 
+českého účetnictví akceptovatelné a odpovídá rovněž jeho historickému zakotvení a obecně 
+akceptovaným postupům. Výnosové řešení nebylo doposud v rámci českého účetnictví 
+detailně řešeno. 
+5. Při absenci podrobného popisu přístupu k vykazování věrnostních programů vyvstává 
+například otázka, zda je přístup k vykazování věrnostních programů v účetních závěrkách 
+připravených dle IFRS – tj. výnosové řešení – akceptovatelné i podle českých účetních 
+předpisů. Cílem této Interpretace je proto posoudit, zda je akceptovatelné výnosové účetní 
+řešení zákaznických věrnostních programů z pohledu dodavatele výkonů v těch případech, 
+kdy účetní jednotka uděluje zákazníkům v rámci výchozího prodeje věrnostní kredity, které 
+mohou být později přeměněny na produkty zdarma nebo se slevou v porovnání s běžnou 
+prodejní cenou v době využití těchto kreditů. Účetní řešení zahrnuje věrnostní programy jak 
+provozované účetní jednotkou, tak obsluhované třetí stranou. S výjimkou odstavce 10b se 
+tato Interpretace nevztahuje na nároky na odměny udělené mimo prodejní transakci. 
+Interpretace též neřeší účetní zobrazení věrnostních kreditů u zákazníka. Nárok na věrnostní 
+kredity vyplývající z výchozího prodeje a následné získání odměn představuje u zákazníka 
+slevu z pořizovací ceny a použije se obecný účetní postup pro tyto slevy, případně účetní 
+jednotka posoudí, zda není relevantní Interpretace I-26. 
+Řešení: 
+6. Pokud účetní jednotka použije pro účetní zachycení nároků zákazníků na odměny 
+z věrnostních programů udělené při výchozím prodeji výnosové řešení, je tento postup 
+akceptovatelný z pohledu českých účetních předpisů. V tom případě účetní jednotka 
+postupuje dle základních principů uvedených v odstavcích 7-10 této Interpretace.  
+
+ 
+ 
+I-41 Zákaznické věrnostní programy 
+ 
+© Národní účetní rada 
+Schválený text interpretace 
+3/12 
+ 
+7. Jsou-li zákazníkovi přiznány v rámci prodeje věrnostní kredity (tzv. výchozí prodej), které 
+mohou být v budoucnu po splnění jakýchkoliv dalších kvalifikačních podmínek proměněny 
+za produkty zdarma nebo se slevou, pak: 
+a) celková částka protihodnoty získaná od zákazníka v rámci výchozího prodeje se 
+rozdělí mezi výnosy připadající na věrnostní kredity a výnosy připadající na 
+základní složky prodejní transakce; 
+b) část celkového výnosu, která se přiřadí věrnostním kreditům, se určí na základě 
+relativního poměru obvyklých samostatných prodejních cen produktů zdarma nebo 
+se slevou a základních složek prodejní transakce; 
+c) při stanovení hodnoty věrnostních kreditů účetní jednotka bere v úvahu 
+odhadovaný celkový počet věrnostních kreditů, o kterých očekává, že budou 
+zákazníky využity.  
+ 
+8. Jestliže účetní jednotka provozuje věrnostní program ve vlastní režii, vykáže výnos 
+z věrnostních programů v okamžiku, ve kterém splní své závazky dodat odměny z titulu 
+využitých věrnostních kreditů zákazníky. 
+9. Jestliže odměny z věrnostního programu poskytuje třetí strana, účetní jednotka posoudí, zda 
+část protihodnoty přiřazené věrnostním kreditům přijímá na svůj vlastní účet nebo na účet 
+třetí strany (tj. účetní jednotka je v transakci pouze zprostředkovatelem pro třetí stranu), a 
+to následujícím způsobem: 
+a) jestliže účetní jednotka přijímá část protihodnoty přiřazené věrnostním kreditům na 
+svůj vlastní účet, ocení svůj výnos ve výši hrubé částky protihodnoty přiřazené 
+věrnostním kreditům; jednotka vykáže výnos z věrnostních programů v okamžiku, 
+ve kterém splní své závazky vůči zákazníkovi;  
+b) jestliže účetní jednotka přijímá část protihodnoty přiřazené věrnostním kreditům na 
+účet třetí strany, ocení svůj výnos ve výši čisté částky, kterou si ponechává na svůj 
+účet (tj. v částce rozdílu mezi protihodnotou přiřazenou věrnostním kreditům a 
+částkou dluženou třetí straně za dodání odměn); účetní jednotka vykáže výnos 
+z věrnostních programů v okamžiku, ve kterém je třetí strana povinna dodat 
+odměny a oprávněna obdržet za to protihodnotu. 
+ 
+10. Očekáváné ztráty z věrnostních programů: 
+a) Jestliže náklady na dodání odměn z věrnostních programů převyšují zatím 
+nezúčtovanou část protihodnoty přiřazené věrnostním kreditům, vykáže účetní 
+jednotka tuto ztrátu okamžitě.  
+b) Postup dle odstavce 10 a) se použije i v případě kreditů přiznaných (potenciálním) 
+zákazníkům mimo výchozí prodej, např. v reklamní kampani. U tohoto typu kreditů 
+vykáže účetní jednotka ztrátu ve výši rozdílu mezi očekávanými výnosy 
+z pravděpodobných transakcí a očekávanými náklady na dodání příslušných 
+produktů.         
+
+ 
+ 
+I-41 Zákaznické věrnostní programy 
+ 
+© Národní účetní rada 
+Schválený text interpretace 
+4/12 
+ 
+Zdůvodnění: 
+11. Výnosové řešení naplňuje požadavek věcné a časové souvislosti výnosů a nákladů 
+s účetním obdobím (§ 3, odst. 1 zákona o účetnictví) vzhledem k tomu, že odkládá uznání 
+výnosů, které se vztahují k čerpání odměn až do období, v němž k tomuto čerpání, a tedy 
+k realizaci této části výnosů došlo. Výnosové řešení dále naplňuje zásadu opatrnosti 
+uvedenou v § 25, odst. 3 zákona o účetnictví, podle které „účetní jednotky při oceňování ke 
+konci rozvahového dne zahrnují jen zisky, které byly k rozvahovému dni dosaženy…“. 
+Prostřednictvím výnosového řešení nedochází k předčasnému vykázání části zisku, 
+vzhledem k tomu, že část prodaných produktů vztahujících se k věrnostním kreditům bude 
+dodána až v budoucnosti.            
+12. Výnosové řešení je založeno na předpokladu, že věrnostní kredity představují nárok 
+zákazníka na samostatné produkty, které bude účetní jednotka muset dodat v budoucnosti. 
+Zákazník za nárok obdržet tyto budoucí ekonomické prospěchy zdarma nebo se slevou 
+implicitně platí v částce protihodnoty předané účetní jednotce v rámci výchozího prodeje a 
+účetní jednotka tedy v okamžiku výchozího prodeje prodává zákazníkovi současně dva 
+produkty. První složkou výchozí prodejní transakce jsou základní produkty, které zákazník 
+získává v okamžiku prodeje. Druhou složkou jsou produkty, které obdrží v budoucnu 
+výměnou za udělené věrnostní kredity. Protože se realizace výnosů váže na okamžik dodání 
+produktu, musí podle výnosového řešení účetní jednotka časově rozlišit celkovou částku 
+výnosů, které se vztahují k výchozímu prodeji zákazníkovi, do dvou či více okamžiků podle 
+předpokládaného využití přidělených věrnostních kreditů. Účetní jednotka rozdělí celkovou 
+protihodnotu získanou od zákazníka ve výchozím prodeji na výnos za základní produkty, 
+který zvýší výsledek hospodaření v okamžiku prodeje, a závazek, který bude zúčtován do 
+výnosů (společně s náklady na dodané odměny) až při dodání odměn z věrnostních 
+programů v okamžiku určeném v souladu s postupem dle odstavce 8 nebo 9. České účetní 
+předpisy nevylučují, aby v případě, že účetní jednotka prodává více než jeden produkt 
+v souboru, došlo k oddělení těchto produktů a jejich samostatnému účtování a vykazování. 
+Jako vhodný nástroj pro odložení výnosů do období dodání prvku se jeví účty časového 
+rozlišení, konkrétně položka Výnosy příštích období, která je svým charakterem a podstatou 
+pro tuto situaci předurčena, a to přesto, že legislativní zakotvení časového rozlišení nemusí 
+nastalé situaci přesně odpovídat (například nemusí být předem přesně známa částka 
+alokovatelná do jednotlivých budoucích období). Naopak nelze odkládat výnosy v pojetí 
+výnosového řešení prostřednictvím rezerv; tato položka není charakterem určena 
+k odkládání výnosů.      
+13. Při aplikaci postupu dle odstavce 9 musí účetní jednotka rozhodnout, zda se postoupením 
+povinnosti dodat odměny z věrnostních programů na třetí stranu zbavila svých povinností 
+vůči zákazníkům, nebo zda významná rizika spojená s dodáním odměn z věrnostního 
+programu zůstávají účetní jednotce. V prvním případě se část výnosu přiřazená věrnostním 
+kreditům sníží o částku dluženou třetí straně a část výnosu přiřazená věrnostním kreditům 
+se vykáže v čisté hodnotě v souladu s postupem podle Intepretace I-7.     
+
+ 
+ 
+I-41 Zákaznické věrnostní programy 
+ 
+© Národní účetní rada 
+Schválený text interpretace 
+5/12 
+ 
+14. Účetní jednotka musí alespoň ke konci účetního období posoudit, zda nenastala situace 
+podle odstavce 10. Pokud očekávané náklady na dodání odměn z přidělených 
+nevyčerpaných věrnostních kreditů jsou vyšší než zůstatek časově rozlišených výnosů 
+připadajících na tyto věrnostní kredity, účetní jednotka vykáže ztrátu v souladu s § 25, odst. 
+3 zákona o účetnictví.    
+15. O kreditech přidělených mimo prodejní transakce (např. formou letákové nebo obdobné 
+reklamní kampaně) účetní jednotka neúčtuje. Účetní jednotka obvykle stanovuje podmínky 
+reklamní kampaně tak, že případné budoucí uzavření smlouvy s potenciálním zákazníkem 
+a její následné splnění vyústí v ziskový obchod (tj. výnosy i po započtení přiznané slevy 
+převýší náklady). O takové transakci, včetně dopadu avizované slevy, se účtuje až 
+v okamžiku uskutečnění prodeje s výjimkou těch případů, kdy změna podmínek v období 
+po přidělení reklamních kreditů způsobí, že by případné uzavření a splnění smlouvy 
+vyústilo ve ztrátový obchod (např. z důvodu neočekáváného zvýšení nákladů na dodání 
+produktu). 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Datum prvního schválení  
+ 
+19. června 2020 
+této interpretace NÚR: 
+ 
+Datum poslední aktualizace   
+– 
+této interpretace NÚR: 
+ 
+ 
+ 
+ 
+ 
+ 
+doc. Ing. David Procházka, Ph.D. 
+Zpracovatelé intepretace: 
+ 
+VŠE v Praze 
+ 
+ 
+ 
+ 
+ 
+Ing. Petr Vácha, Ph.D. 
+ 
+ 
+ 
+ 
+ 
+KA ČR 
+ 
+ 
+ 
+ 
+
+ 
+ 
+I-41 Zákaznické věrnostní programy 
+ 
+© Národní účetní rada 
+Schválený text interpretace 
+6/12 
+ 
+Ilustrativní příklady k I-41 
+Národní účetní rada vydává tyto příklady za účelem ilustrace použití Interpretace 
+I-41 Zákaznické věrnostní programy. Příklady nejsou součástí této interpretace, pouze ilustrují 
+vybrané situace a nejsou zdaleka vyčerpávající. 
+Příklad 1: Působnost Interpretace 
+Varianta A: Účetní jednotka prodává kosmetické zboží; zákazník za nákup obdržel kupón se 
+slevou na další nákup ve výši 500 Kč. 
+Varianta B: Účetní jednotka prodává kosmetické zboží; zákazník za nákup obdržel kupón se 
+slevou na další nákup ve výši 10 %. 
+Varianta C: Účetní jednotka prodává kosmetické zboží; zákazník za nákup obdržel kupón na 
+produkt zdarma při příštím nákupu. 
+Varianta D: Účetní jednotka pořádá letákovou kampaň. Po předložení letáku získává zákazník 
+k zakoupenému produktu druhý produkt zdarma. 
+Varianta E: Účetní jednotka pořádá internetovou kampaň. Po zaregistrování se do věrnostního 
+programu bude účastník pravidelně dostávat newsletter a obdrží slevu 500 Kč na první nákup 
+přesahující stanovenou částku. 
+Varianta F: Účetní jednotka prodává kosmetické zboží. Pokud se zákazník při prodeji 
+zaregistruje do věrnostního programu, bude pravidelně dostávat newsletter a při jarním 
+výprodeji sezónního zboží obdrží slevu 500 Kč. 
+Varianta G: Účetní jednotka prodává kosmetické zboží. Pokud se zákazník při prodeji 
+zaregistruje do věrnostního programu, bude pravidelně dostávat newsletter a bude mu 
+umožněno získat při jarním výprodeji zlevněné sezónní zboží o 5 dní dříve než ostatní zákazníci, 
+kteří nejsou do programu zaregistrováni. 
+Řešení: 
+Varianta A: Jedná se o zákaznický věrnostní program v působnosti této Interpretace, neboť 
+zákazník získává v rámci výchozího prodeje slevu na další nákup (ve formě absolutní peněžní 
+slevy). 
+Varianta B: Jedná se o zákaznický věrnostní program v působnosti této Interpretace, neboť 
+zákazník získává v rámci výchozího prodeje slevu na další nákup (ve formě relativní peněžní 
+slevy). 
+Varianta C: Jedná se o zákaznický věrnostní program v působnosti této Interpretace, neboť 
+zákazník získává v rámci výchozího prodeje slevu na další nákup (ve formě produktu zdarma). 
+Varianta D: Nejedná se o zákaznický věrnostní program v působnosti této Interpretace, neboť 
+nárok na produkt zdarma nesouvisí s již uskutečněným prodejem (Poznámka: uvedená varianta 
+může vyústit v situaci popsanou v Příkladu 7). 
+
+ 
+ 
+I-41 Zákaznické věrnostní programy 
+ 
+© Národní účetní rada 
+Schválený text interpretace 
+7/12 
+ 
+Varianta E: Nejedná se o zákaznický věrnostní program v působnosti této Interpretace, neboť 
+nárok na produkt zdarma nesouvisí s již uskutečněným prodejem (Poznámka: uvedená varianta 
+může vyústit v situaci popsanou v Příkladu 7). 
+Varianta F: Jestliže se zákazník do programu zaregistruje, jedná se o zákaznický věrnostní 
+program v působnosti této Interpretace, neboť zákazník získává v rámci výchozího prodeje 
+slevu na další nákup (ve formě absolutní peněžní slevy). 
+Varianta G: Nejedná se o zákaznický věrnostní program v působnosti této Interpretace, neboť 
+případná registrace do věrnostního systému nevede k přiznání slevy v porovnání s běžnou 
+prodejní cenou odměny v době získání zvýhodněného produktu; zákazník registrací pouze získá 
+dřívější přístup k všeobecně zlevněnému zboží a k jeho většímu výběru než v případě 
+neregistrovaných zákazníků. 
+Příklad 2: Rozdělení protihodnoty od zákazníka na výchozí prodej a věrnostní kredity 
+Prodejce spotřební elektroniky vyhlásil vánoční akci. Každý zákazník, který během prosince 
+2X15 uskuteční nákup nad stanovenou částku, získá předem určený počet bodů. Tyto body si 
+bude moci v následujících obdobích vyměnit za odměnu ve formě slevy na vybrané zboží 
+z prodejního katalogu. Během této akce prodejce zinkasoval od zákazníků v hotovosti 5 mil. Kč 
+za prodané zboží a udělil 10 000 bodů opravňujících čerpat slevy v celkové částce 550 tis. Kč. 
+Vedení jednotky na základě minulých zkušeností odhaduje, že bude využito 90 % bodů. 
+Řešení: 
+Účetní jednotka v roce 2X15 vykáže zvýšení peněžních prostředků o 5 000 tis. Kč, tržby za 
+prodané zboží 4 550 tis. Kč a závazek ve výši 450 tis. Kč. 
+Výpočet: 
+Hodnota věrnostních kreditů = 90 % * 550 tis. Kč = 495 tis. Kč 
+Část tržeb připadající na věrnostní kredity = 495 tis. Kč / (495 tis. Kč + 5 000 tis. Kč) = 9,01 % 
+Část tržeb připadající na výnosy běžného období = 5 000 tis. Kč / (495 tis. Kč + 5 000 tis. Kč) 
+= 90,99 % 
+Výpočet odloženého výnosu = 9,01 % * 5 000 mil. Kč = 450 tis. Kč 
+Výpočet výnosů běžného období = 90,99 % * 5 000 mil. Kč = 4 550 tis. Kč 
+Příklad 3: Rozpouštění částky výnosů alokované na věrnostní kredity 
+Pokračování Příkladu 2 
+V roce 2X16 zákazníci využili 4 860 bodů. Během roku 2X17 zákazníci uplatnili 2 740 bodů a 
+účetní jednotka přehodnocuje míru využití bodů na 95 %. V roce 2X18 zákazníci proměnili 
+1 500 bodů za slevu a vedení jednotky neočekává, že v budoucnu budou využity zbývající body. 
+Řešení: 
+
+ 
+ 
+I-41 Zákaznické věrnostní programy 
+ 
+© Národní účetní rada 
+Schválený text interpretace 
+8/12 
+ 
+Odložený výnos z roku 2X15 v celkové částce 450 tis. Kč bude alokován do jednotlivých 
+období následovně: 
+Rok 2X16:  
+• odhad míry využití bodů: 90 % * 10 000 bodů = 9 000 bodů (nedochází k žádné změně 
+odhadu oproti roku 2X15) 
+• snížení závazku oproti tržbám za prodané zboží v částce 243 tis. Kč 
+• výpočet: 4 860 bodů / 9 000 bodů * 450 tis. Kč = 243 tis. Kč 
+Rok 2X17:  
+• odhad míry využití bodů: 95 % * 10 000 bodů = 9 500 bodů (dochází ke změně odhadu 
+oproti roku 2X16) 
+• snížení závazku oproti tržbám za prodané zboží v částce 117 tis. Kč 
+• výpočet: (4 860 + 2 740 bodů) / 9 500 bodů * 450 tis. Kč – 243 tis. Kč = 117 tis. Kč 
+• poznámka: přehodnocení míry využití bodů se považuje v souladu s Intepretací I-29 za 
+změnu odhadu a neovlivňuje původní ocenění závazku; změna odhadu se projeví 
+v částce výnosu vykázaného v období, ve kterém ke změně odhadu došlo, tj. v roce 
+2X17 
+Rok 2X18:  
+• odúčtování zbývajícího závazku oproti tržbám za prodané zboží v částce 90 tis. Kč 
+• výpočet: 450 tis. Kč – 243 tis. Kč – 117 tis. Kč = 90 tis. Kč 
+• poznámka: nepředpokládá se další uplatnění bodů zákazníky, a proto nealokovaná 
+částka odloženého výnosu bude odúčtována ze závazků oproti výnosům běžného období 
+Příklad 4: Odměny dodávané třetí stranou (platí jednotka a zbavuje se povinností) 
+Letecká společnost přiznává svým klientům v rámci věrnostního programu 1 bod za každých 
+7 Kč utracených za letenky. Tyto body (v poměru 1 bod = 1 Kč) mohou zákazníci využít při 
+nákupu zboží u smluvního partnera (Prodejce elektroniky). Přiznáním bodů se Letecká 
+společnost zbavuje odpovědnosti vůči pasažérům za poskytnutí odměn z věrnostního programu; 
+tato povinnost přechází na smluvního partnera. Za rok 2X15 utržila Letecká společnost od 
+zákazníků zapojených do programu celkem 70 mil. Kč. Letecká společnost platí smluvnímu 
+partnerovi za každý bod, který mohou pasažéři uplatnit, částku 0,8 Kč. 
+Pozn.: Pro zjednodušení výpočtů se předpokládá 100% využití věrnostních kreditů 
+Řešení: 
+Operace rok 2X15 
+Částka 
+MD 
+D 
+Inkaso od zákazníků 
+70,00 mil. Kč Peníze 
+ 
+Výnosy za letenky 
+61,25 mil. Kč  
+Tržby 
+Provize za věrnostní program 
+0,75 mil. Kč  
+Tržby 
+Závazek vůči smluvnímu 
+partnerovi 
+8,00 mil. Kč  
+Závazky 
+Platba smluvnímu partnerovi 
+8,00 mil. Kč Závazky 
+Peníze 
+
+ 
+ 
+I-41 Zákaznické věrnostní programy 
+ 
+© Národní účetní rada 
+Schválený text interpretace 
+9/12 
+ 
+Výpočet hodnoty přidělených bodů: 70 mil. Kč / 7 Kč = 10 mil. bodů v hodnotě 10 mil. Kč 
+Část tržeb připadající na věrnostní kredity =10 mil. Kč / (70 mil. Kč + 10 mil. Kč) = 12,5 % 
+Část tržeb připadající na výnosy za letenky = 70 mil. Kč / (70 mil. Kč + 10 mil. Kč) = 87,5 % 
+Výpočet hodnoty přidělených bodů = 12,5 % * 70 mil. Kč = 8,75 mil. Kč 
+Výpočet výnosů za prodané letenky = 87,5 % * 70 mil. Kč = 61,25 mil. Kč 
+Výpočet provize: 8,75 mil. Kč (hodnota přiznaných bodů) – 8 mil. Kč (částka placená 
+smluvnímu partnerovi: 10 mil. bodů x 0,8 Kč) = 0,75 mil. Kč 
+Poznámka: Protože Letecká společnost nenese rizika spojená s věrnostním programem, 
+vystupuje v pozici komisionáře a vykáže v souladu s postupem dle Interpretace I-7 výnos pouze 
+ve výši provize od komitenta (tj. Prodejce elektroniky), a to v okamžiku převodu povinnosti. 
+Příklad 5: Odměny dodávané třetí stranou (platí jednotka a nezbavuje se povinností) 
+Letecká společnost přiznává svým klientům v rámci věrnostního programu 1 bod za každých 
+7 Kč utracených za letenky. Tyto body (v poměru 1 bod = 1 Kč) mohou zákazníci využít při 
+nákupu zboží u smluvního partnera (Prodejce elektroniky), a to po časově neomezenou dobu. 
+Letecká společnost současně pasažérům garantuje, že v případě selhání smluvního partnera 
+zajistí náhradní odměny od jiného partnera, nebo formou slevy z vlastních letenek. Za rok 2X15 
+utržila Letecká společnost od zákazníků zapojených do programu celkem 70 mil. Kč. Letecká 
+společnost platí za každý bod, který mohou pasažéři uplatnit, částku 0,8 Kč. 
+Pozn.: Pro zjednodušení výpočtů se předpokládá 100% využití věrnostních kreditů 
+Řešení: 
+Operace rok 2X15 
+Částka 
+MD 
+D 
+Inkaso od zákazníků 
+70,00 mil. Kč Peníze 
+ 
+Výnosy za letenky 
+61,25 mil. Kč  
+Tržby 
+Odložený výnos z titulu 
+věrnostního programu 
+8,75 mil. Kč  
+Závazky 
+Závazek vůči smluvnímu 
+partnerovi 
+8,00 mil. Kč  
+Závazky  
+Odložený náklad z titulu 
+věrnostního programu 
+8,00 mil. Kč Pohledávky 
+ 
+Platba smluvnímu partnerovi 
+8,00 mil. Kč Závazky 
+Peníze 
+Operace rok 2X16+ 
+Částka 
+MD 
+D 
+Rozpouštění výnosů z titulu 
+věrnostního programu 
+% z 8,75 mil. Kč Závazky 
+Tržby 
+Rozpouštění nákladů z titulu 
+věrnostního programu 
+% z 8,00 mil. Kč Náklady 
+Pohledávky 
+Poznámka: Letecká společnost si ponechává rizika spojená s věrnostním programem, a proto 
+časově rozliší výnos alokovaný na věrnostní program v hrubé částce (celkem 8,75 mil. Kč). Do 
+jednotlivých obdobích bude rozpuštěna odpovídající část výnosů v závislosti na procentuálním 
+
+ 
+ 
+I-41 Zákaznické věrnostní programy 
+ 
+© Národní účetní rada 
+Schválený text interpretace 
+10/12 
+ 
+využití bodů zákazníky (obdobný postup jako v Příkladu 2 & 3). Stejným poměrem budou 
+rozpouštěny i náklady vyplývající z platby smluvnímu partnerovi. 
+Příklad 6: Rezerva na ztrátové věrnostní kredity (udělené v rámci věrnostního programu) 
+Účetní jednotka ke konci roku 2X15 eviduje nevyužitý zůstatek věrnostních kreditů udělených 
+zákazníkům v předchozím období ve výši 5 000 bodů, ke kterému se váže alokovaná 
+protihodnota odloženého výnosu v částce 320 tis. Kč. Každý bod opravňuje zákazníky k získání 
+zboží zdarma (v pořizovací ceně 100 Kč). Účetní jednotka odhaduje, že 80 % zákazníků promění 
+své body za zboží zdarma.    
+Řešení: 
+Účetní jednotka vykáže rezervu na ztrátové obchody ve výši 80 tis. Kč, neboť zbývající částka 
+odloženého výnosu je nižší než očekávané náklady na dodání zboží zdarma z titulu věrnostního 
+programu. 
+Výpočet: 320 000 Kč (odložený výnos) – 80 % * 5 000 bodů * 100 Kč (odhadované náklady) 
+= 320 tis. Kč – 400 tis. Kč 
+Příklad 7: Rezerva na ztrátové věrnostní kredity (udělené mimo věrnostní program) 
+Účetní jednotka uspořádala v červenci 2X15 letákovou kampaň. Pokud nový zákazník předloží 
+příslušný leták, obdrží k zakoupenému kusu zboží druhý kus zdarma. Nabídka platí do června 
+2X16 a jednotka garantuje kupcům prodejní cenu ve výši 100 Kč/ks. Účetní jednotka u daného 
+zboží dosahuje 60% marži. Ke konci roku 2X15 jednotka odhaduje, že v rámci této nabídky 
+prodá 5 000 ks zboží. Předpokládejme dva scénáře ke konci roku 2X15: 
+a) žádná změna oproti výchozím podmínkám nenastala 
+b) pořizovací cena zboží se neočekávaně zvýšila o 75 %, účetní jednotka nemá skladové zásoby, 
+nelze očekávat pokles ceny během dalších 6 měsíců, po které platí nabídka z letákové kampaně     
+Řešení: 
+Scénář A: 
+• nákupní cena za 1 ks zboží činí 40 Kč (viz 60% marže) 
+• očekávaná marže za jeden leták: 100 Kč (výnos) – 2 * 40 Kč (1 ks „placený“ + 1 ks 
+„zdarma“) = 20 Kč  
+Pokud by se uskutečnil prodej zákazníkovi, který využije právo na jeden ks zboží zdarma na 
+základě letákové kampaně, dosáhla by jednotka kladné marže 20 Kč. Jednotka proto účtuje 
+pouze průběžně o výnosech a nákladech tak, jak se uskutečňují prodeje. Ke konci roku 2X15 
+se tedy žádná rezerva na ztrátové obchody nevykáže. 
+Scénář B: 
+• nákupní cena za 1 ks zboží činí 70 Kč = 175 % * 40 Kč 
+
+ 
+ 
+I-41 Zákaznické věrnostní programy 
+ 
+© Národní účetní rada 
+Schválený text interpretace 
+11/12 
+ 
+• očekávaná marže za 1+1 ks zboží prodaný na základě předloženého letáku: 
+100 Kč (výnos) – 2 * 70 Kč = -40 Kč  
+• rezerva na ztrátové obchody: 200 tis. Kč = 5 000 ks * 40 Kč (záporná marže) 
+Pokud by se uskutečnil prodej zákazníkovi, který využije právo na jeden ks zboží zdarma na 
+základě letákové kampaně, dosáhla by jednotka záporné marže 40 Kč. Jednotka proto ke konci 
+roku 2X15 musí vykázat rezervu na ztrátové obchody ve výši 200 tis. Kč. 
+
+ 
+ 
+I-41 Zákaznické věrnostní programy 
+ 
+© Národní účetní rada 
+Schválený text interpretace 
+12/12 
+ 
+Vypořádání připomínek z vnějšího připomínkového řízení 
+V rámci vnějšího připomínkového řízení NÚR neobdržela žádnou připomínku či podnět od 
+veřejnosti. Během finálního schvalování textu interpretace provedla NÚR oproti návrhu 
+interpretace zveřejněné k veřejnému připomínkování následující významnější změny: 
+a) Doplněn odstavec (nyní Odstavec 4), který zasazuje tři obecné metody účtování 
+zákaznických věrnostních programů u dodavatele do kontextu pravidel českých účetních 
+předpisů.  
+b) Interpretace zpřesňuje (nyní Odstavce 11 a 12) vysvětlení, proč výnosové řešení 
+inspirované IFRS je v souladu s českými účetními předpisy.  
+c) Vypuštěn původní „Příklad 6: Odměny dodávané třetí stranou (platí třetí strana)“ pro 
+komplexnost a nutnost vymezení dodatečných předpokladů.

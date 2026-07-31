@@ -1,0 +1,233 @@
+ZÁKON: NÚR I-52
+NAZEV: Interpretace Národní účetní rady I-52 – Zaměstnanecké požitky
+URL: http://nur.cz/wp-content/uploads/2025/08/I-52.pdf
+
+© Národní účetní rada 
+ 
+1/5 
+Interpretace Národní účetní rady 
+I-52 Zaměstnanecké požitky 
+Účetní jednotky jsou povinny vést účetnictví tak, aby účetní závěrka sestavená na jeho základě 
+podávala věrný a poctivý obraz předmětu účetnictví a finanční situace účetní jednotky (zákon 
+č. 563/1991 Sb., o účetnictví, § 7, odst. 1). Za vedení účetnictví je odpovědná účetní jednotka. 
+Tato interpretace není právně závazným stanoviskem, pouze vyjadřuje odborný názor Národní 
+účetní rady a může být aplikována pouze v kontextu s Předmluvou Národní účetní rady 
+k interpretacím českých účetních předpisů. Postup popsaný v této interpretaci poskytuje účetní 
+jednotce návod v případech, kdy má jejich aplikace významný dopad na informace uvedené 
+v účetní závěrce a kdy informační přínosy jsou větší než náklady nutné na jejich získání. 
+Popis problému: 
+1. V české účetní praxi existují různé způsoby účtování zaměstnaneckých požitků, buď 
+výsledkově s přímým dopadem na výsledek hospodaření, nebo rozvahově na vrub vlastního 
+kapitálu (např. na vrub fondů či zisků minulých let). V důsledku tohoto rozdílného účtování 
+a následného vykazování nejsou účetní závěrky účetních jednotek srovnatelné, a to co do 
+výše vykázaného výsledku hospodaření i struktury vlastního kapitálu a výše nákladů. 
+2. Cílem této interpretace je navrhnout takový způsob vykazování zaměstnaneckých požitků, 
+který zabezpečí srovnatelné účetní výkazy u všech kategorií účetních jednotek a odpoví na 
+následující otázky: 
+a) Co je zaměstnanecký požitek? 
+b) Jak vykazovat poskytování požitků: výsledkově, nebo rozvahově? 
+c) Ve kterém 
+okamžiku 
+uznat 
+závazek 
+vůči 
+zaměstnanci 
+v případě 
+krátkodobých 
+zaměstnaneckých požitků a kdy v případě dlouhodobých zaměstnaneckých požitků? 
+Řešení: 
+Vykazování zaměstnaneckých požitků obecně 
+3. Zaměstnaneckými požitky se rozumí všechna plnění, která zaměstnavatel poskytuje svým 
+zaměstnancům a osobám v obdobných vztazích za výkon jejich činnosti (dále jen zaměstnancům za 
+výkon jejich práce). Tyto požitky mohou nabývat nejrůznějších forem (peněžní i nepeněžní) a mít 
+charakter jak krátkodobý, tak dlouhodobý. Požitky mohou být poskytovány jednak zaměstnancům 
+přímo, nebo nepřímo např. jejich rodinným příslušníkům. Při jejich poskytování se též může 
+přihlížet k určitým specifikům jako je například pracovní pozice nebo doba trvání pracovního 
+poměru. Za zaměstnavatele pro účely této interpretace považujeme osobu, pro kterou je realizován 
+konkrétní osobou výkon práce. 
+4. Pro účely této interpretace se zaměstnaneckým požitkem rozumí takový, na nějž zaměstnanci 
+vyplývá nárok z právního předpisu, kolektivní smlouvy, interního předpisu, závazného příslibu 
+zaměstnavatele a zaměstnavatel již z vlastní vůle nemůže tento požitek neposkytnout. Za 
+zaměstnanecký požitek pro účely této intepretace nepovažujeme platby a přísliby odvozené od 
+hodnoty podílu (akcií či obchodních podílů). 
+
+ 
+ 
+I-52 Zaměstnanecké požitky 
+ 
+© Národní účetní rada 
+ 
+2/5 
+5. Lidská práce poskytovaná v pracovním či jiném obdobném vztahu odpovídá ve své podstatě spotřebě 
+externích zdrojů, a proto zaměstnanecké požitky poskytnuté zaměstnancům mají být vykazovány 
+výsledkově.  
+6. Vykazování všech forem zaměstnaneckých požitků je založeno na principu uznání závazku 
+zaměstnavatelem vůči zaměstnanci. Náklad vzniká v období, kdy zaměstnanec svoji práci, za níž 
+mu vzniká nárok na zaměstnanecké požitky vykonával. 
+7. Tvoří-li účetní jednotka fondy ze zisku z titulu zaměstnaneckých požitků, jsou pouze informací o 
+rozsahu nároků zaměstnanců, k jejichž budoucímu uhrazení se zaměstnavatel zavázal, a jejich 
+využití pro zúčtování tak nemůže nahrazovat vykazování osobních nákladů. Použití fondů se 
+vykazuje na vrub nerozděleného zisku, případně vůči jiné složce vlastního kapitálu. Vykazování 
+zaměstnaneckých požitků ve vztahu k fondům řeší také I-8. 
+8. Veškeré nároky zaměstnanců a závazky k nim musí být ocenitelné, a toto ocenění musí zohledňovat 
+veškeré známé skutečnosti. Při ocenění je vhodné využít i matematicko-statistické metody a zvážit 
+použití oceňovacích metod založených na diskontovaných peněžních tocích.                                    
+9. Dle povahy dluhu vůči zaměstnancům rozhodne účetní jednotka o tom, jak budou vykazovány, tedy 
+jako běžný dluh, dohadná položka nebo jako rezerva. 
+Vykazování krátkodobých a dlouhodobých zaměstnaneckých požitků  
+10. Krátkodobými požitky se rozumí zaměstnanecké požitky, které jsou splatné do konce následujícího 
+účetního období po účetním období, ve kterém nárok na požitek vznikl, to znamená po období, ve 
+kterém zaměstnanci poskytli účetní jednotce výkon své práce. Účetní jednotka vykáže závazek vůči 
+zaměstnancům a zároveň náklad. Těmito požitky se rozumí, mimo mezd a platů, příspěvky 
+zaměstnavatele na sociální zabezpečení, zdravotní a penzijní pojištění, příspěvky na životní 
+pojištění, krátkodobé kompenzace, bonusy vázané na zisk či jiný ekonomický či obdobný ukazatel.  
+11. Krátkodobé placené volno lze, pro účely této interpretace, rozdělit na kumulativní a nekumulativní. 
+Kumulativní volno, na něž je nárok, lze přenášet do dalšího období. Nárok na kumulativní volno 
+vzniká zaměstnanci ve chvíli, kdy poskytl zaměstnavateli výkon práce. Závazky vůči zaměstnancům 
+a náklady jsou vykazovány v okamžiku, kdy zaměstnanci vznikl nárok na zaměstnanecký požitek, 
+případně k jinému smluvně či interně ošetřenému datu. Nárok na nekumulativní volno je jako náklad 
+zohledněn v okamžiku, kdy k čerpání tohoto volna zaměstnancem dochází. Tento nárok nelze 
+převádět do dalšího účetního období. 
+12. Formou motivace mohou být i bonusy vázané na zisk účetní jednotky nebo na jiný ukazatel. Mohou 
+být dány smluvně (např. kolektivní smlouva, pracovní smlouva) nebo vnitřním předpisem či 
+zvykově, a to v případě, kdy tak zaměstnavatel v minulosti konal, a toto chování je schopno založit 
+legitimní očekávání zaměstnance. Závazek však může být vykázán jen tehdy, pokud je předpoklad 
+plnění dostatečně pravděpodobný a lze jej k rozvahovému dni spolehlivě ocenit. 
+13. Formu zaměstnaneckého požitku mají (mohou mít) jakákoli plnění bez ohledu na způsob či formu 
+jejich poskytnutí, a to i plnění zaměstnavatelem pouze spolufinancovaná. Tyto náklady 
+zaměstnavatele by měly být v okamžiku vzniku jejich nároku vykazovány do osobních nákladů. 
+14. Dlouhodobé zaměstnanecké požitky jsou takové, které nejsou splatné do konce následujícího 
+účetního období po účetním období, kdy zaměstnanec vykonal práci pro zaměstnavatele, ze které je 
+
+ 
+ 
+I-52 Zaměstnanecké požitky 
+ 
+© Národní účetní rada 
+ 
+3/5 
+nárok zaměstnance na požitek dovozován. Může jít např. o dlouhodobá placená volna, jubilea, 
+odpracování určitého počtu let, požitky při dlouhodobé pracovní neschopnosti apod. 
+15. Závazek i náklad zaměstnavatele i v případě dlouhodobých požitků vzniká již v okamžiku, kdy 
+zaměstnanec vykonal práci pro zaměstnavatele, ze kterého nárok na konkrétní požitek vyplývá. 
+Tento druh nároku se vykazuje průběžně po celou dobu výkonu práce zaměstnance, přičemž výše 
+závazku společnosti se postupně vyvíjí. 
+Vykazování zaměstnaneckých požitků poskytovaných zaměstnancům po skončení pracovního 
+poměru   
+16. Zaměstnancům, kteří dosáhli důchodového věku a opustili zaměstnání odchodem do starobního, 
+předčasného nebo invalidního důchodu, často vzniká nárok na čerpání nejrůznějších sociálních 
+služeb. Na tyto náklady se tvoří v průběhu zaměstnání závazek ve výši relevantní části 
+kvalifikovaného odhadu dle očekávaných plnění v budoucnu.  
+17. V praxi je častým typem požitku pokračující příspěvek zaměstnavatele na penzijní a životní 
+pojištění zaměstnance. V tomto případě jsou splněny podmínky, aby náklad vznikal pouze 
+v obdobích, ve kterých zaměstnanec práci pro zaměstnavatele vykonával.  
+Vykazování zaměstnaneckých požitků při předčasném ukončení pracovního poměru 
+zaměstnavatelem 
+18. Při ukončení pracovního poměru zaměstnavatelem není případná kompenzace za ukončení 
+pracovního poměru, o kterém jednostranně rozhodl zaměstnavatel (např. odstupné nad rámec 
+zákona), odměnou za výkon jeho práce. Nárok zaměstnance vzniká okamžikem uzavření dohody 
+mezi zaměstnavatelem a zaměstnancem, nebo dostatečně určitým oznámením zaměstnavatele. 
+Uznání závazku a nákladů souvisejících s předčasným ukončením pracovního poměru se uskuteční 
+k okamžiku této dohody a vykáže se jako osobní náklad. 
+Zdůvodnění: 
+19.  Věrné zobrazení finanční výkonnosti účetní jednotky vyžaduje, aby veškerá spotřeba externích 
+zdrojů jednotkou byla zachycena výsledkově. Lidská práce poskytovaná v pracovním poměru či 
+jiném obdobném vztahu je svojí podstatou spotřebou externích zdrojů, a proto veškeré 
+zaměstnanecké požitky poskytované účetní jednotkou musí být vykázány výsledkově. 
+20.  Případné rozvahové vykazování (některých) zaměstnaneckých požitků nezobrazuje věrným 
+způsobem skutečnou spotřebu lidské práce v odpovídajících položkách osobních nákladů, což vede 
+k nadhodnocení výsledku hospodaření daného účetního období. 
+21. Nesjednocení vykazování zaměstnaneckých požitků způsobuje nesrovnatelnost účetních závěrek, 
+čemuž má tato interpretace předcházet. 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+I-52 Zaměstnanecké požitky 
+ 
+© Národní účetní rada 
+ 
+4/5 
+ 
+ 
+Datum prvního schválení  
+ 
+13. června 2025 
+této interpretace NÚR: 
+ 
+Datum poslední aktualizace   
+– 
+této interpretace NÚR: 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Zpracovatelé intepretace: 
+ 
+Mgr. Ing. Magdalena Králová  
+ 
+ 
+ 
+ 
+ 
+Svaz účetních ČR 
+ 
+ 
+ 
+ 
+ 
+Ing. Zdeněk Urban 
+ 
+ 
+ 
+ 
+ 
+Komora daňových poradců ČR 
+ 
+
+ 
+© Národní účetní rada 
+ 
+1/5 
+ 
+ 
+Vypořádání připomínek z vnějšího připomínkového řízení: 
+ 
+1) Připomínka č. 1:  
+Text „a zaměstnavatel ekonomický užitek plynoucí z jeho práce spotřeboval“ je nadbytečný a 
+zavádějící. Evokuje myšlenku, že by měl náklad vzniknout až v období, kdy zaměstnavatel 
+výsledky práce zaměstnance ekonomicky zrealizoval – tedy např. že náklad nevzniká v období, 
+kdy zaměstnanec výrobek vyrobil, ale až v období, kdy byl výrobek prodán. Proto doporučuji 
+tuto část věty zcela vynechat. 
+Stanovisko Národní účetní rady:  
+Připomínka byla akceptována a bod č. 6 upraven v duchu nadbytečnosti v části textu dle 
+navrhovatele. 
+Záměrem NÚR bylo skutečně nevyvolávat žádné pochybnosti, ale naopak výslovně uvést, že 
+náklad vzniká v období, kdy zaměstnanec svoji práci vykonává. 
+ 
+2) Připomínka č. 2:  
+Doplnit, zda související vykazovanou položkou bude C.II.8.3. Závazky k zaměstnancům, či a za 
+jakých okolností položka C.II.8.6. Dohadné účty pasivní popř. B.4. Ostatní rezervy. 
+Stanovisko Národní účetní rady:  
+Připomínka byla akceptována a byl doplněn bod č. 9. Podstatné pro volbu konkrétní položky je 
+i skutečnost, zda vznikající dluh je možno ztotožnit s konkrétním zaměstnancem, či nikoli. 
+ 
+3) Připomínka č. 3: 
+Interpretace nezmiňuje, jak postupovat v případech, kdy nárok na požitek vznikne 
+zaměstnancům v jednom období, právo si jej vybrat v některém z následujících období. 
+Z historických zkušeností vyplývá, že zaměstnanci určité procento svých práv nevyužijí. Má 
+účetní jednotka účtovat náklad a závazek ve výši kvalifikovaného odhadu s ohledem na obvyklé 
+procento užití, nebo v plné výši, a nevyužitou část klasifikovat jako výnos (nebo snížení nákladů) 
+v posledním období, kdy mohl zaměstnanec požitek využít.  
+Stanovisko Národní účetní rady:  
+Připomínka byla vysvětlena. Interpretace využívá první z uvedených přístupů, tedy výši 
+kvalifikovaného odhadu se zohledněním předpokládaného procenta využití konkrétních 
+zaměstnaneckých požitků. Tento postup je vyjádřen v části interpretace Řešení v bodu 8.

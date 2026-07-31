@@ -1,0 +1,16 @@
+{
+  "name": "ucetni_dotazy",
+  "version": "1.0.0",
+  "description": "Kompletní návod krok za krokem. Předpokládá, že už máš Supabase účet a projekt (podle tvého stacku).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "playwright": "^1.62.1"
+  }
+}

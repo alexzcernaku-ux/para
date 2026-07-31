@@ -1,0 +1,148 @@
+ZÁKON: NÚR I-8
+NAZEV: Interpretace Národní účetní rady I-8 – Sociální fond a účtování o fondech tvořených ze zisku
+URL: http://nur.cz/wp-content/uploads/2023/06/I-8.pdf
+
+© Národní účetní rada 
+Schválený text interpretace 
+1/3 
+Interpretace Národní účetní rady 
+I-8 Sociální fond a obdobné fondy tvořené ze zisku 
+Účetní jednotky jsou povinny vést účetnictví tak, aby účetní závěrka sestavená na jeho základě 
+podávala věrný a poctivý obraz předmětu účetnictví a finanční situace účetní jednotky (zákon 
+č. 563/1991 Sb., o účetnictví, § 7, odst. 1). Za vedení účetnictví je odpovědná účetní jednotka. 
+Tato interpretace není právně závazným stanoviskem, pouze vyjadřuje odborný názor Národní 
+účetní rady a může být aplikována pouze v kontextu s Předmluvou Národní účetní rady k 
+interpretacím českých účetních předpisů. Postup popsaný v této interpretaci poskytuje účetní 
+jednotce návod v případech, kdy má jejich aplikace významný dopad na informace uvedené v 
+účetní závěrce a kdy informační přínosy jsou větší než náklady nutné na jejich získání. 
+Popis problému: 
+1. Řada obchodních společností (dále jen „společnost“) v rámci své personální politiky 
+deklaruje nebo se zavazuje vynaložit určitý objem finančních prostředků na zaměstnanecké 
+benefity nebo na pokrytí dalších potřeb svých zaměstnanců (dále jen „zaměstnanecké 
+benefity“).  
+2. Nároky zaměstnanců na zaměstnanecké benefity jsou obvykle upraveny v kolektivní 
+smlouvě, smlouvách o pracovním poměru, o výkonu funkce či jiných dohodách a 
+příslibech. 
+3. Některé společnosti mají ve stanovách, ve své společenské smlouvě či obdobném 
+dokumentu (dále jen „stanovy“) zakotvenou tvorbu sociálního nebo obdobného fondu ze 
+zisku (dále jen „sociální fond“). Stanovy obvykle vymezují sociální fond jako fond tvořený 
+ze zisku sloužící k pokrytí zaměstnaneckých benefitů, případně zápůjček zaměstnancům, 
+přičemž omezují jeho vyplacení společníkům nebo jeho použití na úhradu ztráty 
+společnosti. 
+4. Cílem této interpretace je stanovit 
+a)  jak účetně zachytit vznik nároku na zaměstnanecký benefit ve společnosti, která na 
+pokrytí těchto benefitů tvoří sociální fond, 
+b) jak v účetnictví zachytit zápůjčky zaměstnancům, pokud pro tento účel byl určen 
+sociální fond, 
+c) související vykázání a prezentaci v účetní závěrce. 
+Řešení: 
+5. Vznik nároku zaměstnance na zaměstnanecký benefit je nákladem, a to bez ohledu na to, 
+zda ke krytí daného benefitu má být použit sociální fond.  
+6. Pokud ke krytí nároku zaměstnance je v souladu se stanovami použit sociální fond, tento 
+fond se sníží ve prospěch nerozdělených zisků minulých let, případně jiných fondů, pokud 
+tak určí stanovy společnosti. 
+7. Poskytnutí zápůjčky zaměstnancům ze sociálního fondu není nákladem, nýbrž 
+pohledávkou za zaměstnanci a sociální fond se v tom případě nesnižuje. Část sociálního 
+fondu odpovídající poskytnutým zápůjčkám lze evidovat např. pomocí analytického účtu 
+
+ 
+ 
+I-8 Sociální fond a obdobné fondy tvořené ze zisku 
+ 
+© Národní účetní rada 
+Schválený text interpretace 
+2/3 
+„Sociální fond – poskytnuté zápůjčky“ v rámci syntetického účtu sociálního fondu. 
+Obdobně vrácení zápůjčky zaměstnancem nemá žádný vliv na celkovou výši sociálního 
+fondu, pouze dojde k přesunu mezi analytickými účty sociálního fondu. 
+8. Změny sociálního fondu společnost zohlední v přehledu o změnách vlastního kapitálu, 
+pokud ho sestavuje, případně tuto skutečnost vysvětlí v příloze v účetní závěrce.  
+Zdůvodnění: 
+9. Tato interpretace neupravuje vznik a okamžik vzniku nároku zaměstnance na 
+zaměstnanecký benefit. Pokud však takový nárok vznikne, jedná se o náklad, který může 
+být účtován proti konkrétnímu dluhu (např. v případě nároku na konkrétní benefit) nebo 
+proti rezervě (např. v případě nároku stanoveného paušálem), případně rovnou proti 
+peněžnímu výdaji, pokud k proplacení nároku dojde v období jeho vzniku. Nároky na 
+zaměstnanecké benefity jsou vždy nákladem, protože jsou odměnou za vykonanou práci 
+obdobně jako mzdy.  
+10. Tvorba sociálního fondu sama o sobě nepředstavuje vznik nároku zaměstnanců. Smyslem 
+sociální fondu je kumulace zdrojů společnosti tak, aby jich společnost měla na krytí 
+následně vznikajících nároků zaměstnanců dostatek.  
+11. Účetní předpisy se popsanými problémy výslovně nezabývají. To však neznamená, že je 
+přípustné v účetnictví zachycovat vznik nároků na zaměstnanecké benefity přímo proti 
+sociálnímu fondu (dále také „bilanční přístup“ k účtování čerpání sociálního fondu). 
+Bilanční přístup vede k tomu, že transakce, které mají charakter nákladů, nejsou účtovány 
+a vykázány jako náklad. To vede k vykázání chybného výsledku hospodaření, tj. výsledku, 
+který neodpovídá finančnímu vyjádření nákladové náročnosti činnosti účetní jednotky.  
+12. Bilanční přístup k zaměstnaneckým benefitům přistupuje jako k rozdělování zisku. Nároky 
+na zaměstnanecké benefity však vznikají v důsledku práce zaměstnanců pro společnost, 
+nejedná se tedy o analogii distribuce zisku společníkům. 
+13. Bilanční přístup dále vede k nesrovnatelnosti údajů v účetních závěrkách společností, kde 
+by se výsledek hospodaření lišil u společností, které tvoří a které netvoří sociální fond. K 
+takovému rozdílu však není žádný ekonomický důvod. 
+14. Skutečným cílem tvorby sociální fondu je ochrana zdrojů určených na krytí 
+zaměstnaneckých benefitů před jejich vyplacením společníkům v rámci distribuce zisku. 
+Poté, co dojde k zachycení nároku zaměstnance na příslušný benefit, není další ochrany 
+před distribucí vlastního kapitálu potřeba, neboť zaúčtovaný náklad snižuje disponibilní 
+zisk (konkrétně zisk běžného období). Proto musí dojít ke snížení sociálního fondu ve 
+prospěch disponibilní části vlastního kapitálu (obvykle nerozdělených zisků minulých let). 
+Pokud by k takovému převodu nedošlo, nesnížený sociální fond by zabraňoval výplatě 
+disponibilních zdrojů duplicitně, tedy nad původní limit daný např. rozhodnutím valné 
+hromady.  
+15. V případě, že kolektivní smlouva či jiný vnitřní předpis společnosti umožňuje poskytnutí 
+zápůjček zaměstnancům ze sociálního fondu, představuje poskytnutí peněžních prostředků 
+pohledávky za zaměstnanci, jimž byla taková zápůjčka poskytnuta. Tyto pohledávky jsou 
+vykazovány v aktivech a v pasivech jsou kryty sociálním fondem v té výši, která je na tento 
+účel vymezena. Poskytnutí půjčky představuje pouze změnu struktury aktiv (úbytek peněz 
+a navýšení pohledávek), přičemž sociální fond ve skutečnosti zůstává zachován a nadále 
+představuje část kumulovaného zisku, který nelze rozdělit mezi společníky. Rozsah jeho 
+použití (ve smyslu objemu zápůjček, které je přípustné zaměstnancům poskytnout) je však 
+
+ 
+ 
+I-8 Sociální fond a obdobné fondy tvořené ze zisku 
+ 
+© Národní účetní rada 
+Schválený text interpretace 
+3/3 
+pro poskytování dalších zápůjček omezen, což by účetní jednotka měla sledovat buď 
+mimoúčetně, nebo pomocí analytických účtů a dále tuto skutečnost zveřejnit v příloze v 
+účetní závěrce. 
+16. Čerpání sociálního fondu se stejně jako jiné pohyby ve vlastním kapitálu vykazuje v 
+přehledu o změnách vlastního kapitálu, případně je ho třeba popsat v příloze v účetní 
+závěrce, pokud tento přehled není sestavován. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Datum prvního schválení  
+ 
+23. října 2006 
+této interpretace NÚR: 
+ 
+Datum poslední aktualizace   
+24. dubna 2023 
+této interpretace NÚR: 
+ 
+Zpracovatel intepretace: 
+ 
+Ing. Aleš Růta 
+ 
+ 
+ 
+ 
+ 
+Komora auditorů ČR 
+ 
+Zpracovatel poslední aktualizace: 
+prof. Ing. Libuše Müllerová, CSc. 
+Ing. Libor Vašek, Ph.D. 
+doc. Ing. Ladislav Mejzlík, Ph.D. 
+Ing. Jiří Pelák, Ph.D. 
+Fakulta financí a účetnictví VŠE v Praze

@@ -1,0 +1,244 @@
+ZÁKON: NÚR I-36
+NAZEV: Interpretace Národní účetní rady I-36 – Náhradní způsob výpočtu konsolidačního rozdílu
+URL: http://nur.cz/wp-content/uploads/2020/10/I-36_updated.pdf
+
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+1/6 
+Interpretace NÚR 
+I–36 
+Náhradní způsob výpočtu konsolidačního rozdílu 
+Účetní jednotky jsou povinny vést účetnictví tak, aby účetní závěrka sestavená na jeho základě 
+podávala věrný a poctivý obraz předmětu účetnictví a finanční situace účetní jednotky (zákon 
+č. 563/1991 Sb., o účetnictví, § 7, odst. 1). Účetní jednotky účtují o stavu a pohybu majetku a jiných 
+aktiv, závazků a jiných pasiv, dále o nákladech a výnosech a o výsledku hospodaření. (zákon 
+č. 563/1991 Sb., o účetnictví, § 2, Předmět účetnictví).  
+Tato interpretace musí být aplikována v kontextu s Předmluvou Národní účetní rady 
+k interpretacím českých účetních standardů. 
+ 
+ 
+Popis problému 
+1. Cílem této Interpretace je stanovit postup pro vyčíslení konsolidačního rozdílu při prvním 
+sestavení konsolidované účetní závěrky, jejíž povinnost pro účetní jednotku vznikla až několik 
+let po datu akvizice. Tato Interpretace není zaměřena na účetní jednotky, které již před 
+pořízením podílu v dceřiném, přidruženém nebo společném podniku sestavovaly 
+konsolidovanou účetní závěrku. Tyto účetní jednotky postupují v souladu s ustanoveními ČÚS 
+020. 
+ 
+2. Český účetní standard č. 020 definuje konsolidační rozdíl jako rozdíl mezi pořizovací cenou 
+podílů konsolidované účetní jednotky a jejich oceněním podle podílové účasti konsolidující 
+účetní jednotky na výši vlastního kapitálu vyjádřeného reálnou hodnotou (tj. rozdíl reálných 
+hodnot aktiv a reálných hodnot cizího kapitálu) ke dni akvizice nebo ke dni dalšího zvýšení 
+účasti. Datum akvizice pak ČÚS 020 definuje jako den, od něhož začíná účinně ovládající osoba 
+uplatňovat příslušný vliv nad konsolidovanou účetní jednotkou. 
+ 
+3. České předpisy zcela opomíjejí skutečnost, že povinnost konsolidovat může účetní jednotce 
+vzniknout až řadu let po akvizici konsolidované účetní jednotky, a to nejen v důsledku snížení 
+limitů pro povinnou konsolidaci od roku 2016. 
+ 
+4. Interpretace řeší primárně otázku, jak stanovit hodnotu konsolidačního rozdílu ve výchozí 
+konsolidované rozvaze v případech, kdy: 
+a) mezi akvizicí a sestavením první konsolidované účetní závěrky je značná časová 
+prodleva, a zároveň 
+b) zjištění reálných hodnot získaných aktiv a závazků by bylo pro konsolidující účetní 
+jednotku prakticky neproveditelné, nebo 
+c) by náklady na získání této informace převýšily její ekonomickou relevanci a užitek pro 
+uživatele účetní závěrky. 
+ 
+ 
+
+ 
+                                          Interpretace NÚR I-36 Náhradní způsob výpočtu konsolidačního rozdílu 
+ 
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+2/6 
+Řešení 
+5. První konsolidovaná účetní závěrka musí obsahovat i srovnatelné období. Aby bylo možné 
+uvést ve všech výkazech tvořících konsolidovanou účetní závěrku i údaje za srovnatelné 
+období, je nutné sestavit i konsolidovanou rozvahu k prvnímu dni srovnatelného období (dále 
+jen „Výchozí konsolidovaná rozvaha“). 
+ 
+6. Výpočet konsolidačního rozdílu je definovaný v ČÚS 020 jako rozdíl mezi původní pořizovací 
+cenou investice a reálnou hodnotou aktiv a závazků dceřiného podniku k datu akvizice a při 
+každém dalším navýšení podílu. 
+ 
+7. Každý dílčí takto stanovený konsolidační rozdíl (kladný i záporný) je odpisován po dobu 
+stanovenou účetní jednotkou, avšak nejvýše 20 let. Účetní jednotka určí dobu odpisování 
+konsolidačního rozdílu pro každý podnik ve skupině s přihlédnutím k důvodu jeho akvizice a 
+způsobu stanovení pořizovací ceny. Za dobu mezi okamžikem pořízení (navýšení) podílu a 
+datem první konsolidované rozvahy bude odpis konsolidačního rozdílu promítnut rozvahově 
+oproti položce konsolidovaného nerozdělenému výsledku hospodaření minulých let. V dalších 
+obdobích již bude konsolidační rozdíl odpisován výsledkově. 
+ 
+8. Náhradním způsobem, jehož vhodnost může účetní jednotka zvážit vzhledem k předmětu 
+akvizice, času uplynulého od akvizice a nákladům, proveditelnosti přecenění a přínosům z něj, 
+je stanovení hodnoty konsolidačního rozdílu k datu výchozí konsolidované rozvahy ve dvou 
+krocích, které jsou vzájemně závislé, a tudíž neoddělitelné. 
+ 
+9. Prvním krokem je výpočet rozdílu mezi historickou pořizovací cenou (respektive součtem všech 
+dílčích pořizovacích cen), podílu v dceřiném podniku a podílem na účetní hodnotě vlastního 
+kapitálu k datu výchozí konsolidované rozvahy. Podílem se rozumí velikost podílu k datu 
+výchozí konsolidované rozvahy. 
+ 
+10. Druhým krokem je proúčtování výsledku (kladného či záporného) z kroku 1 oproti 
+nerozděleným ziskům minulých let. Výsledkem tohoto postupu je nulový konsolidační rozdíl ve 
+výchozí konsolidované rozvaze. 
+ 
+11. Jsou-li v důsledku jednorázového odepsání konsolidačního rozdílu vykázány neuhrazené ztráty 
+minulých let či přímo záporný vlastní kapitál, účetní jednotka prověří, zdali tato hodnota 
+odpovídá věrnému a poctivému obrazu finanční situace konsolidačního celku. Pokud by v 
+důsledku zvoleného náhradního způsobu stanovení konsolidačního rozdílu měla být negativně 
+a neoprávněně ovlivněna finanční situace konsolidačního celku, není pravděpodobně zvolený 
+náhradní způsob vhodným pro stanovení konsolidačního rozdílu daného konsolidačního celku 
+a konsolidující účetní jednotka by měla postupovat podle pravidel ČÚS 020. 
+ 
+12. Sestavuje-li účetní jednotka konsolidovanou účetní závěrku, zahrne do ní i přidružené a 
+společné podniky. I v těchto případech je nutné stanovit konsolidační rozdíl. Protože ČÚS 020 
+nerozlišuje při vyčíslení a odpisování konsolidačního rozdílu mezi dceřinými, přidruženými a 
+společnými podniky, je možné výše popsaný postup použít na všechny typy podniků, které jsou 
+součástí konsolidované účetní závěrky. 
+ 
+
+ 
+                                          Interpretace NÚR I-36 Náhradní způsob výpočtu konsolidačního rozdílu 
+ 
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+3/6 
+13. V příloze k první konsolidované účetní závěrce účetní jednotka uvede: 
+a) pro každou konsolidovanou účetní jednotku způsob výpočtu konsolidačního rozdílu, 
+b) výši konsolidovaného nerozděleného výsledku hospodaření k datu výchozí 
+konsolidované rozvahy a způsob jeho výpočtu spolu s uvedením dílčích částek, které do 
+výpočtu vstupují. 
+ 
+ 
+Zdůvodnění 
+14. § 4 odst. 5 vyhlášky č. 500/2002 Sb. vyžaduje, aby každá položek výkazů účetní závěrky 
+obsahovala i informaci o výši této položky za bezprostředně předcházející účetní období. 
+Obdobný požadavek pro konsolidovanou účetní závěrku je obsažen i v § 65 odst. 1 a v § 66 
+odst. 1 vyhlášky č. 500/2002 Sb. To znamená, že je nutné sestavit výchozí konsolidovanou 
+rozvahu k prvnímu dni srovnatelného období. Jakékoli změny v ocenění aktiv a závazků oproti 
+aktivům a závazkům v účetních závěrkách jednotlivých účetních jednotek, které tvoří 
+konsolidační celek, se promítnou oproti položce konsolidovaný výsledek hospodaření minulých 
+let. Do výchozí konsolidované rozvahy vstupují všechny účetní jednotky, které má konsolidující 
+účetní jednotka povinnost k tomuto datu konsolidovat (§ 22 a § 22a zákona o účetnictví), 
+včetně těch, které byly mezi datem výchozí konsolidované rozvahy a datem první 
+konsolidované účetní závěrky prodány. 
+ 
+15. ČÚS 020 definuje pouze jednu metodu pro výpočet konsolidačního rozdílu, a proto by mělo být 
+její dodržení primární snahou každé účetní jednotky. V řadě případů účetní jednotky disponují 
+informacemi o účetní zůstatkové hodnotě aktiv (závazků) a o jejich reálné hodnotě, případně 
+tyto informace mohou získat, a tyto informace potom účetní jednotka použije při stanovení 
+konsolidačního rozdílu. Jak je zmíněno i v popisu problému, tato Interpretace není zaměřena 
+na účetní jednotky, které již před pořízením podílu v dceřiném, přidruženém nebo společném 
+podniku sestavovaly konsolidovanou účetní závěrku. Tyto účetní jednotky postupují v souladu 
+s ustanoveními ČÚS 020. 
+ 
+16. Náhradní způsob výpočtu konsolidačního rozdílu vychází z předpokladu, že nezná-li 
+konsolidující účetní jednotka reálné hodnoty aktiv a závazků k datu pořízení (zvýšení) podílu, 
+jsou hodnoty pořizovací ceny a účetní hodnoty aktiv a závazků konsolidované účetní jednotky k 
+datu výchozí konsolidované rozvahy nejspolehlivěji zjistitelné. Účetní hodnoty aktiv a závazků k 
+datu pořízení podílu nemusí být spolehlivé, nemusí pocházet z auditované účetní závěrky či v 
+některých případech (po uplynutí archivačních lhůt) již nemusí být vůbec k dispozici. 
+ 
+17. Na rozdíl od ČÚS 020 v případě koupě obchodního závodu upravuje vyhláška č. 500/2002 Sb. v 
+§ 6 a v § 7 dvě metody vyčíslení rozdílu mezi pořizovací cenou a hodnotou jednotlivých 
+složek majetku snížených o převzaté dluhy. Jedna z těchto metod pracuje i účetními 
+hodnotami aktiv a závazků k datu pořízení. Ačkoliv se jedná o metody, které se vztahují 
+primárně k zachycení aktiv a závazků obchodního závodu nabytého převodem nebo 
+přechodem za úplatu, vkladem nebo v rámci přeměn obchodní korporace, v řadě případů 
+nemusí být podstata transakce kromě její právní formy odlišná od pořízení majetkové účasti. 
+ 
+18. Nahradit při výpočtu konsolidačního rozdílu reálné hodnoty účetními je náhradním řešením 
+pro situaci, kdy zjištění reálných hodnot získaných aktiv a závazků by bylo pro konsolidující 
+
+ 
+                                          Interpretace NÚR I-36 Náhradní způsob výpočtu konsolidačního rozdílu 
+ 
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+4/6 
+účetní jednotku prakticky neproveditelné či pokud by náklady na získání této informace 
+převýšily její ekonomickou relevanci a užitek pro uživatele účetní závěrky. 
+ 
+19. Tento náhradní postup může být zároveň logický v situacích, kdy od minulé akvizice (či zvýšení 
+účasti) uplynula významná doba a vzhledem k tomu lze očekávat, že užitky spojené s 
+přeceněním aktiv na reálné hodnoty byly již do data výchozí rozvahy ve velké míře 
+spotřebovány. V této situaci může porovnání účetních hodnot finanční investice a aktiv a 
+závazků vést k věrnějšímu a pochopitelnějšímu výsledku než případná simulace reálných 
+hodnot k datu výchozí rozvahy. 
+ 
+20. Vzhledem k tomu, že účetní hodnoty aktiv a závazků konsolidované účetní jednotky k datu 
+akvizice (navýšení podílu) nemusí být spolehlivé či založené na stejných účetních pravidlech, 
+které používá konsolidující účetní jednotka, náhradní způsob výpočtu konsolidačního rozdílu 
+pracuje s účetní hodnotou aktiv a závazků k datu výchozí konsolidované rozvahy, nikoli k datu 
+pořízení (navýšení) podílu. Tento předpoklad může být dále umocněn i počtem let uplynulých 
+od akvizice. Nicméně každá účetní jednotka je odpovědná za zdůvodnění volby použitého 
+způsobu výpočtu konsolidačního rozdílu. Podobně ve vztahu ke konkrétní konsolidované účetní 
+jednotce, v níž byla majetková účast nabývána postupně, účetní jednotka posoudí a zdůvodní 
+použití náhradního způsobu výpočtu konsolidačního rozdílu k jedinému okamžiku, a to k datu 
+výchozí konsolidované rozvahy. V takovém případě náhradní řešení ve svém výpočtu nahrazuje 
+postupné pořizování podílů fikcí jednorázového pořízení ve výši podílu, kterým účetní jednotka 
+disponuje k datu výchozí konsolidované rozvahy. 
+ 
+21. Aby zjednodušení použitá v náhradním způsobu stanovení konsolidačního rozdílu 
+neovlivňovala budoucí výsledky hospodaření konsolidačního celku, je výsledek porovnání 
+pořizovací ceny podílu a vlastního kapitálu dceřiného podniku k datu výchozí konsolidované 
+rozvahy promítnut oproti konsolidovaným nerozděleným ziskům minulých let. Toto řešení 
+může mít i negativní dopady na zobrazení finanční situace konsolidačního celku. Například v 
+situaci, kdy pořizovací cena výrazně převyšuje účetní hodnotu aktiv v rozvaze dceřiného 
+podniku a tento rozdíl není způsoben klesající výkonností (vykazovanými ztrátami) by 
+jednorázový odpis rozdílu mezi pořizovací cenou a účetní hodnotou aktiv mohl vyústit až v 
+neodůvodněný záporný vlastní kapitál konsolidačního celku. To může nastat v případech, kdy 
+rozdíl mezi pořizovací cenou a účetní hodnotou aktiv je tvořen nehmotnými aktivy, která 
+dceřiný podnik ve své rozvaze nevykazuje (například ochranné známky, databáze zákazníků 
+atd.). V této situaci by měla konsolidující účetní jednotka pro výchozí konsolidovanou rozvahu 
+použít v plném znění ĆÚS 020. 
+ 
+22. Spolu s ostatními použitými účetními metodami účetní jednotka v příloze k účetní závěrce 
+popíše i účetní metodu, kterou použila při stanovení konsolidačního rozdílu. 
+ 
+23. Hodnota konsolidovaného nerozděleného výsledku hospodaření v první konsolidované účetní 
+závěrce bude vycházet z hodnoty konsolidovaného nerozděleného výsledku hospodaření k 
+datu výchozí konsolidované rozvahy. Proto by měla konsolidující účetní jednotka zveřejnit 
+jednotlivé dílčí položky, které do hodnoty konsolidovaného nerozděleného výsledku 
+hospodaření zahrnula (výsledek hospodaření ovládající účetní jednotky, výsledky hospodaření 
+dceřiných, přidružených či společných podniků – pokud nebyl použit alternativní variantní 
+
+ 
+                                          Interpretace NÚR I-36 Náhradní způsob výpočtu konsolidačního rozdílu 
+ 
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+5/6 
+zjednodušený způsob stanovení konsolidačního rozdílu, odpis konsolidačního rozdílu, 
+související odložená daň atd.). 
+ 
+ 
+Příklady k Interpretaci 
+ 
+ 
+ 
+
+ 
+                                          Interpretace NÚR I-36 Náhradní způsob výpočtu konsolidačního rozdílu 
+ 
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+6/6 
+ 
+ 
+ 
+  
+      
+Datum prvního schválení 
+této interpretace NÚR: 
+10. dubna 2018 
+Datum poslední aktualizace 
+této interpretace NÚR: 
+1. dubna 2019 
+Zpracovatel interpretace: 
+ 
+Ing. Alice Šrámková  
+Komora certifikovaných účetních

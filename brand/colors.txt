@@ -1,0 +1,12 @@
+Para – barevná paleta
+
+Indigo (primární)     #6366F1
+Violet (primární)     #8B5CF6
+Zelená (pozitivní)    #22C55E
+Sky (informace)       #0EA5E9
+Navy (text/tmavá)     #0F172A
+Slate (sekund. text)  #334155
+Mist (podklady)       #F1F5F9
+Bílá                  #FFFFFF
+
+Font: Plus Jakarta Sans (Google Fonts) – Light 300 / Regular 400 / Semibold 600 / Bold 800

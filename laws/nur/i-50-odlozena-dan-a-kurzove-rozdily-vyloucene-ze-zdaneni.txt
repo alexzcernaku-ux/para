@@ -1,0 +1,138 @@
+ZÁKON: NÚR I-50
+NAZEV: Interpretace Národní účetní rady I-50 – Odložená daň a kurzové rozdíly vyloučené ze zdanění
+URL: http://nur.cz/wp-content/uploads/2024/08/I-50.pdf
+
+© Národní účetní rada 
+ 
+1/3 
+Interpretace Národní účetní rady 
+I-50 Odložená daň a kurzové rozdíly vyloučené ze zdanění 
+ 
+Účetní jednotky jsou povinny vést účetnictví tak, aby účetní závěrka sestavená na jeho základě 
+podávala věrný a poctivý obraz předmětu účetnictví a finanční situace účetní jednotky (zákon 
+č. 563/1991 Sb., o účetnictví, § 7, odst. 1). Za vedení účetnictví je odpovědná účetní jednotka. 
+Tato interpretace není právně závazným stanoviskem, pouze vyjadřuje odborný názor Národní 
+účetní rady a může být aplikována pouze v kontextu s Předmluvou Národní účetní rady k 
+interpretacím českých účetních předpisů. Postup popsaný v této interpretaci poskytuje účetní 
+jednotce návod v případech, kdy má jejich aplikace významný dopad na informace uvedené v 
+účetní závěrce a kdy informační přínosy jsou větší než náklady nutné na jejich získání. 
+Popis problému: 
+1. Neuhrazené pohledávky/dluhy vyjádřené v cizí měně se k rozvahovému dni přepočítávají 
+závěrkovým kurzem s dopadem do výsledku hospodaření. 
+2. V rámci právní úpravy účinné do konce roku 2023 vstupoval kurzový rozdíl jak do výsledku 
+hospodaření, tak do základu daně. Přepočtená hodnota pohledávek/dluhů vyjádřených v cizí 
+měně se převáděla do následujícího účetního období a kurzové rozdíly při vypořádání těchto 
+pohledávek a dluhů se počítaly jako rozdíl mezi kurzem k okamžiku vypořádání a 
+přepočtenou hodnotou pohledávky/dluhu k rozvahovému dni. 
+3. Od roku 2024 má poplatník daně z příjmů právnických osob možnost si zvolit daňový 
+režim, v němž vyloučí vybrané kurzové rozdíly ze základu daně z příjmů. Důsledkem 
+aplikace tohoto režimu dojde k přechodnému rozdílu mezi účetní a daňovou hodnotou 
+pohledávky/dluhu. 
+4. Pokud poplatník daně z příjmů právnických osob do tohoto režimu nevstoupí, způsob 
+zdaňování kurzových rozdílů se pro něj nemění. Pokud tento režim vylučování kurzových 
+rozdílů ze základu daně využije, přestane se na něj vztahovat způsob zdaňování kurzových 
+rozdílů platný do konce roku 2023.  
+5. Pokud poplatník do režimu vstoupí, musí v něm určitou dobu setrvat (viz podmínky daňové 
+legislativy). 
+
+ 
+ 
+I-50 Odložená daň a kurzové rozdíly vyloučené ze zdanění 
+ 
+© Národní účetní rada 
+ 
+2/3 
+6. Vznikají otázky: 
+a) Vzniká z kurzového rozdílu vyloučeného ze základu daně z příjmů k rozvahovému dni 
+odložená daň z důvodu přechodného rozdílu mezi účetní a daňovou hodnotou 
+pohledávky/dluhu vyjádřené/ho v cizí měně?  
+b) Pokud odložená daň vzniká, v kterém případě se jedná o odložený daňový dluh a kdy o 
+odloženou daňovou pohledávku? 
+c) Jak postupovat v případě následného částečného nebo úplného vypořádání 
+pohledávky/dluhu vyjádřeného v cizí měně?  
+Řešení 
+7. Při použití závazkové metody rozvahového přístupu pro výpočet odložené daně se v případě 
+vstupu do režimu vylučování kurzových rozdílů bude lišit účetní a daňová hodnota 
+pohledávky/dluhu vyjádřené/ho v cizí měně, čímž vzniká přechodný rozdíl, který zakládá 
+titul pro odloženou daň.  
+8. Účetní hodnota pohledávky/dluhu vyjádřené/ho v cizí měně bude vycházet z ocenění v 
+účetnictví aktuálním (závěrkovým) měnovým kurzem, zatímco daňová hodnota bude v 
+režimu vylučování kurzových rozdílů zohledňovat jen ty kurzové rozdíly, které vstoupily 
+do základu daně. 
+9. Částečné vypořádání pohledávky/dluhu vyjádřené/ho v cizí měně povede ke změně rozdílu 
+mezi účetní hodnotou pohledávky/dluhu (vyjádřené aktuálním měnovým kurzem) a 
+daňovou hodnotou pohledávky/dluhu (zahrnující pouze kurzové rozdíly vstupující do 
+základu daně). Odložená daň se v případě částečného vypořádání poměrně upraví. 
+10. Při úplném vypořádání pohledávky/dluhu vyjádřené/ho v cizí měně se odložená daň 
+rozpustí. 
+Zdůvodnění: 
+11. Odložený daňový dluh představuje tvorbu zdroje na budoucí vyšší splatnou daň z důvodu 
+připočitatelných přechodných rozdílů. Odložená daňová pohledávka vzniká v případě, kdy 
+se v budoucnu očekává úspora na splatné dani z důvodu odčitatelných přechodných rozdílů. 
+Při vykazování odložené daňové pohledávky je třeba respektovat zásadu opatrnosti. 
+12. Vyloučením kurzového rozdílu vykázaného ve výsledku hospodaření ze základu daně 
+z příjmů vzniká přechodný rozdíl mezi daňovou a účetní hodnotou pohledávky/dluhu 
+vyjádřené/ho v cizí měně, což vede ke vzniku odložené daně. 
+13. V případě pohledávek vyjádřených v cizí měně vzniká při posílení měny účetnictví 
+odložená daňová pohledávka – účetní hodnota pohledávky je nižší než její daňová hodnota 
+a vzniká odčitatelný přechodný rozdíl. Při oslabení měny účetnictví vzniká odložený 
+daňový dluh – účetní hodnota pohledávky je vyšší než její daňová hodnota a vzniká 
+připočitatelný přechodný rozdíl. 
+
+ 
+ 
+I-50 Odložená daň a kurzové rozdíly vyloučené ze zdanění 
+ 
+© Národní účetní rada 
+ 
+3/3 
+14. V případě dluhů vyjádřených v cizí měně vzniká při posílení měny účetnictví odložený 
+daňový dluhu – účetní hodnota dluhu je nižší než daňová hodnota a vzniká připočitatelný 
+přechodný rozdíl. Při oslabení měny účetnictví vzniká odložená daňová pohledávka – účetní 
+hodnota dluhu je vyšší než jeho daňová hodnota a vzniká odčitatelný přechodný rozdíl. 
+15. Při částečném vypořádání pohledávky/dluhu vyjádřené/ho v cizí měně se do účetního 
+výsledku hospodaření promítne pouze ta část kurzového rozdílu týkající se daného účetního 
+období, tj. rozdíl mezi přepočtenou hodnotou dané části pohledávky/dluhu k rozvahovému 
+dni a částkou úhrady. Do základu daně se však promítne kurzový rozdíl spočívající v rozdílu 
+mezi původní hodnotou části pohledávky/dluhu a kurzem úhrady. 
+16. Při úplném vypořádání pohledávky/dluhu vyjádřené/ho v cizí měně se do účetního výsledku 
+hospodaření promítne ta část kurzového rozdílu týkající se daného účetního období, tj. 
+rozdíl mezi přepočtenou hodnotou pohledávky/dluhu k rozvahovému dni a částkou úhrady. 
+Do základu daně se však promítne kurzový rozdíl spočívající v rozdílu mezi původní 
+hodnotou pohledávky/dluhu a kurzem úhrady. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Datum prvního schválení  
+ 
+17. června 2024 
+této interpretace NÚR: 
+ 
+Datum poslední aktualizace   
+– 
+této interpretace NÚR: 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Zpracovatelé intepretace: 
+ 
+doc. Ing. Ladislav Mejzlík, Ph.D. 
+prof. Ing. Libuše Müllerová, CSc. 
+Ing. Michal Šindelář, Ph.D. 
+ 
+ 
+ 
+ 
+ 
+Fakulta financí a účetnictví VŠE v Praze

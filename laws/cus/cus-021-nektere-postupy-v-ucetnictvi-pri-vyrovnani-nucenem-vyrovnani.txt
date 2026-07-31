@@ -1,0 +1,103 @@
+ZÁKON: ČÚS č. 021
+NAZEV: Český účetní standard pro podnikatele č. 021 – Některé postupy v účetnictví při vyrovnání, nuceném vyrovnání, konkursu a likvidaci
+URL: https://www.mfcr.cz/assets/cs/media/Ucetnictvi_2018_Ceske-ucetni-standardy-pro-500-2002_v02.pdf
+
+Některé postupy v účetnictví při vyrovnání, nuceném vyrovnání, konkursu a likvidaci  
+ 
+ 
+1. Cíl  
+     Cílem tohoto standardu je stanovit podle zákona č. 563/1991 Sb., o účetnictví, ve znění 
+pozdějších předpisů, (dále jen „zákon“) a vyhlášky č. 500/2002 Sb., kterou se provádějí 
+některá ustanovení zákona č. 563/1991 Sb., o účetnictví, ve znění pozdějších předpisů, pro 
+účetní jednotky, které jsou podnikateli účtujícími v soustavě podvojného účetnictví, ve znění 
+pozdějších předpisů, (dále jen „vyhláška“), některé postupy v účetnictví při vyrovnání, 
+nuceném vyrovnání, konkursu a likvidaci za účelem docílení souladu při používání účetních 
+metod účetními jednotkami. Při účtování případů insolvenčních řízení neřešených tímto 
+standardem se postupuje podle insolvenčního zákona s přihlédnutím k účetním postupům 
+stanoveným tímto standardem. 
+ 
+2. Vyrovnání  
+2.1. Sestavení účetní závěrky a zahajovací rozvahy  
+2.1.1.  Účetní jednotka, které bylo soudem povoleno vyrovnání podle insolvenčního zákona, 
+uzavře účetní knihy a sestaví účetní závěrku ke dni uvedenému v § 17 odst. 2 písm. f) 
+zákona.  
+2.1.2.  Jestliže bylo vyrovnání soudem potvrzeno, uzavře účetní jednotka uvedená v bodu 
+2.1.1. ke dni uvedenému v § 17 odst. 2 písm. h) zákona účetní knihy.  
+2.2. Některé postupy účtování  
+2.2.1.  Účetní jednotka uvedená v bodu 2.1.1. ke dni účinnosti usnesení o potvrzení vyrovnání 
+účtuje o zaniklých dluzích jako o mimořádném provozním výnosu na vrub příslušného 
+účtu dluhů a ve prospěch příslušného účtu účtové skupiny 64 – Jiné provozní výnosy. 
+2.2.2.  Odepsané dluhy podle bodu 2.2.1. je účetní jednotka povinna vést tři roky od účinnosti 
+usnesení soudu o potvrzení vyrovnání na podrozvahových účtech.  
+2.2.3.   zrušen 
+ 
+3. Nucené vyrovnání  
+3.1. Sestavení účetní závěrky a zahajovací rozvahy  
+3.1.1.  Účetní jednotka, které bylo povoleno nucené vyrovnání s věřiteli podle insolvenčního 
+zákona uzavře účetní knihy a sestaví účetní závěrku ke dni uvedenému v § 17 odst. 2 
+písm. g) zákona.  
+3.1.2.  Po splnění nuceného vyrovnání uzavře účetní jednotka uvedená v bodu 3.1.1. ke dni 
+uvedenému v § 17 odst. 2 písm. i) zákona účetní knihy.  
+3.2. Některé postupy účtování  
+3.2.1.  Účetní jednotka uvedená v bodu 3.1.1. ke dni účinnosti usnesení o splnění nuceného 
+vyrovnání účtuje o zaniklých dluzích jako o mimořádném provozním výnosu na vrub 
+příslušného účtu dluhů a ve prospěch příslušného účtu účtové skupiny 64 – Jiné 
+provozní výnosy. 
+3.2.2. Odepsané dluhy podle bodu 3.2.1. je účetní jednotka uvedená v bodu 3.1.1. povinna 
+vést po tři roky od účinnosti usnesení soudu o splnění nuceného vyrovnání na 
+podrozvahových účtech.  
+3.2.3.  zrušen 
+ 
+4. Konkurs  
+4.1. Sestavení účetní závěrky a zahajovací rozvahy  
+4.1.1.  Účetní jednotka, na jejíž majetek byl prohlášen konkurs podle insolvenčního zákona 
+ 
+72 
+(dále jen „účetní jednotka v konkursu“), uzavře účetní knihy a sestaví účetní závěrku 
+ke dni uvedenému v § 17 odst. 2 písm. e) zákona.  
+4.1.2.  Při uzavírání účetních knih podle bodu 4.1.1. účetní jednotka zaúčtuje zůstatky těch 
+přechodných účtů aktiv a pasiv (zejména rezerv a opravných položek, dohadných účtů 
+aktivních a pasivních, výnosů příštích období, výdajů příštích období, příjmů příštích 
+období a nákladů příštích období), které prokazatelně nebudou moci být zaúčtovány v 
+období konkursu a nebo které vstupem do konkursu ztratí své opodstatnění, a to podle 
+své povahy buď na příslušné účty pohledávek a závazků nebo na příslušné účty 
+nákladů a výnosů v souladu s příslušnou vyhláškou.  
+4.1.3.  Ke dni uvedenému v § 17 odst. 1 písm. e) zákona sestaví účetní jednotka v konkursu 
+zahajovací rozvahu. Zůstatky účtů v zahajovací rozvaze musí navazovat na konečné 
+zůstatky rozvahových účtů vykázané při uzavírání účetních knih podle bodu 4.1.1.  
+4.1.4.  Ke dni uvedenému v § 17 odst. 2 písm. j) zákona uzavře účetní jednotka v konkursu 
+účetní knihy a sestaví účetní závěrku.  
+4.2. Některé postupy účtování  
+4.2.1.  Předmětem účetnictví v období konkursu je jmění účetní jednotky v konkursu, tj. 
+včetně majetku vyloučeného z konkursní podstaty, majetku, který konkursem nemůže 
+být postižen, a dluhů, které se konkursu z jakýchkoliv důvodů neúčastní a nebo se k 
+nim při konkursu nepřihlíží.  
+ 4.2.2.  Majetek neuvedený v zahajovací rozvaze zaúčtuje účetní jednotka v konkursu po jeho 
+zjištění podle insolvenčního zákona jako mimořádný provozní výnos na vrub 
+příslušného majetkového účtu a ve prospěch příslušného účtu účtové skupiny 64 – Jiné 
+provozní výnosy. 
+4.2.3.   zrušen 
+ 
+5. Likvidace  
+5.1. Sestavení účetní závěrky a zahajovací rozvahy  
+5.1.1.  V případě zrušení účetní jednotky s následnou likvidací uzavře účetní jednotka (dále 
+jen „účetní jednotka v likvidaci“) účetní knihy a sestaví účetní závěrku ke dni 
+uvedenému v § 17 odst. 2 písm. c) zákona. Ke dni uvedenému v § 17 odst. 1 písm. c) 
+zákona účetní knihy otevře a sestaví zahajovací rozvahu. Při sestavování účetní 
+závěrky a zahajovací rozvahy postupuje způsobem uvedeným v bodech 4.1.2. a 4.1.3. 
+Zahajovací rozvaha se sestavuje též v případě obnovení likvidace z důvodu nově 
+zjištěného a v účetnictví účetní jednotky dosud nezaúčtovaného majetku, případně z 
+jiného důvodu.  
+5.1.2.  Ke dni zpracování návrhu na rozdělení likvidačního zůstatku uzavře účetní jednotka v 
+likvidaci účetní knihy a sestaví účetní závěrku, v níž případně vykáže i daňový dluh 
+nebo pohledávku. K následujícímu dni otevře účetní knihy a zaúčtuje případné 
+vypořádání daní a vyplacení podílů společníků na likvidačním zůstatku. V případě, že 
+není účtováno o dodatečných výsledkových operacích, není nutno již sestavovat účetní 
+závěrku ke dni podání návrhu na výmaz účetní jednotky v likvidaci z veřejného 
+rejstříku. 
+5.1.3.  V účetnictví státního podniku v případě jeho zrušení s následnou likvidací se postupuje 
+obdobně s přihlédnutím k zákonu o státním podniku.  
+  
+ 
+ 
+73

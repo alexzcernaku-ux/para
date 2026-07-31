@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Kalkulačky — Para</title>
+<meta name="description" content="Spočítejte si, kolik vám reálně zůstane jako OSVČ nebo s.r.o. — paušální výdaje, skutečné výdaje i s.r.o. vedle sebe." />
+<link rel="icon" href="assets/img/logo/logo-mark.png" />
+<link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+
+<a class="skip-link" href="#hlavni-obsah">Přeskočit na obsah</a>
+
+<header class="nav">
+  <div class="nav-inner container">
+    <a class="nav-logo" href="index.html" aria-label="Para — domů">
+      <img src="assets/img/logo/logo-primary-light.png" alt="Para" />
+    </a>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="index.html#jak-to-funguje">Jak to funguje</a></li>
+        <li><a href="index.html#pro-koho">Pro koho</a></li>
+        <li><a href="kalkulacky.html">Kalkulačky</a></li>
+        <li><a href="index.html#cenik">Ceník</a></li>
+      </ul>
+    </nav>
+    <div class="nav-actions">
+      <a class="btn btn-ghost" href="prihlaseni.html">Přihlásit se</a>
+      <a class="btn btn-primary" href="index.html#vyzkouset">Vyzkoušet zdarma</a>
+    </div>
+    <button class="nav-toggle" id="nav-toggle" aria-label="Otevřít menu">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16" /></svg>
+    </button>
+  </div>
+</header>
+
+<div class="mobile-menu hidden" id="mobile-menu">
+  <div class="mobile-menu-top">
+    <img src="assets/img/logo/logo-primary-light.png" alt="Para" style="height:28px" />
+    <button class="mobile-menu-close" id="mobile-menu-close" aria-label="Zavřít menu">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18" /></svg>
+    </button>
+  </div>
+  <a href="index.html#jak-to-funguje">Jak to funguje</a>
+  <a href="index.html#pro-koho">Pro koho</a>
+  <a href="kalkulacky.html">Kalkulačky</a>
+  <a href="index.html#cenik">Ceník</a>
+  <a href="prihlaseni.html">Přihlásit se</a>
+  <a class="btn btn-primary btn-block" href="index.html#vyzkouset">Vyzkoušet zdarma</a>
+</div>
+
+<main id="hlavni-obsah">
+  <section style="padding-bottom: 40px;">
+    <div class="container">
+      <div class="calc-page-header">
+        <img src="assets/img/mascot/mascot-pocita.png" alt="Para počítá" class="mascot-img" />
+        <span class="eyebrow" style="justify-content:center; display:flex;">Kalkulačky</span>
+        <h1 style="margin: 10px 0 12px;">Kolik vám reálně zůstane?</h1>
+        <p>Zadejte hrubý roční příjem — spočítáme daň, pojistné a to, co vám skutečně zůstane v kapse.</p>
+      </div>
+    </div>
+  </section>
+
+  <section style="padding-top: 0;">
+    <div class="container">
+
+      <!-- ===================== KALKULAČKA 1 ===================== -->
+      <div class="card calc-tool-card" id="tool-kolik-mi-zbyde">
+        <div class="calc-tool-head">
+          <span class="eyebrow">Kalkulačka</span>
+          <h2>Kolik mi zbyde</h2>
+          <p>Podle zvoleného režimu spočítáme daň z příjmů i sociální a zdravotní pojištění.</p>
+        </div>
+
+        <div class="calc-form-grid">
+          <div class="calc-field">
+            <label for="k1-prijem">Hrubý roční příjem</label>
+            <input type="number" inputmode="numeric" id="k1-prijem" class="text-input" value="800000" min="0" step="1000" />
+          </div>
+
+          <div class="calc-field">
+            <label>Režim</label>
+            <div class="calc-radio-row" id="k1-rezim-group">
+              <label class="calc-radio-chip"><input type="radio" name="k1-rezim" value="pausal" checked />Paušální výdaje</label>
+              <label class="calc-radio-chip"><input type="radio" name="k1-rezim" value="skutecne" />Skutečné výdaje</label>
+              <label class="calc-radio-chip"><input type="radio" name="k1-rezim" value="sro" />s.r.o.</label>
+            </div>
+          </div>
+
+          <div class="calc-field full" id="k1-pausal-field">
+            <label>Typ činnosti (výdajový paušál)</label>
+            <div class="calc-radio-row" id="k1-pausal-typ-group">
+              <label class="calc-radio-chip"><input type="radio" name="k1-pausal-typ" value="remeslo" />80 % — řemeslo, zemědělství</label>
+              <label class="calc-radio-chip"><input type="radio" name="k1-pausal-typ" value="zivnost" checked />60 % — ostatní živnosti</label>
+              <label class="calc-radio-chip"><input type="radio" name="k1-pausal-typ" value="jine" />40 % — svobodná povolání</label>
+              <label class="calc-radio-chip"><input type="radio" name="k1-pausal-typ" value="najem" />30 % — nájem</label>
+            </div>
+          </div>
+
+          <div class="calc-field full hidden" id="k1-vydaje-field">
+            <label for="k1-vydaje">Skutečné roční výdaje</label>
+            <input type="number" inputmode="numeric" id="k1-vydaje" class="text-input" value="200000" min="0" step="1000" />
+          </div>
+        </div>
+
+        <div class="calc-results" id="k1-results"></div>
+
+        <p class="calc-note">
+          Orientační výpočet pro rok 2026 podle aktuálně nahraných zákonů (586/1992, 589/1992, 592/1992 Sb.).
+          Hranice pro 23% pásmo daně a minimální vyměřovací základ pojistného vychází z odhadu průměrné mzdy —
+          přesnou částku MPSV zveřejňuje každý rok zvlášť. Není to daňové poradenství.
+        </p>
+      </div>
+
+      <!-- ===================== KALKULAČKA 2 ===================== -->
+      <div class="card calc-tool-card" id="tool-srovnani">
+        <div class="calc-tool-head">
+          <span class="eyebrow">Srovnání</span>
+          <h2>Paušál vs. skutečné výdaje vs. s.r.o.</h2>
+          <p>Stejný příjem, tři varianty vedle sebe — ať vidíte, která letos vychází nejlíp.</p>
+        </div>
+
+        <div class="calc-form-grid">
+          <div class="calc-field">
+            <label for="k2-prijem">Hrubý roční příjem</label>
+            <input type="number" inputmode="numeric" id="k2-prijem" class="text-input" value="1200000" min="0" step="1000" />
+          </div>
+          <div class="calc-field">
+            <label for="k2-vydaje">Skutečné roční výdaje (pro sloupce "skutečné výdaje" a "s.r.o.")</label>
+            <input type="number" inputmode="numeric" id="k2-vydaje" class="text-input" value="250000" min="0" step="1000" />
+          </div>
+          <div class="calc-field full">
+            <label>Typ činnosti (pro sloupec "paušál")</label>
+            <div class="calc-radio-row" id="k2-pausal-typ-group">
+              <label class="calc-radio-chip"><input type="radio" name="k2-pausal-typ" value="remeslo" />80 % — řemeslo, zemědělství</label>
+              <label class="calc-radio-chip"><input type="radio" name="k2-pausal-typ" value="zivnost" checked />60 % — ostatní živnosti</label>
+              <label class="calc-radio-chip"><input type="radio" name="k2-pausal-typ" value="jine" />40 % — svobodná povolání</label>
+              <label class="calc-radio-chip"><input type="radio" name="k2-pausal-typ" value="najem" />30 % — nájem</label>
+            </div>
+          </div>
+        </div>
+
+        <div class="compare-cols" id="k2-results"></div>
+
+        <p class="calc-note">
+          U s.r.o. je model zjednodušený — počítá s celým ziskem po zdanění vyplaceným jako podíl na zisku
+          (dividenda), bez mzdy jednatele. V praxi se často kombinuje menší mzda a dividenda, což bývá
+          výhodnější — přesný výpočet pro vaši situaci proberte s účetním.
+        </p>
+      </div>
+
+      <div class="disclaimer-banner">
+        <div class="icon-circle">
+          <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 9v4M12 17h.01" /><path d="M10.3 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.7 3.86a2 2 0 00-3.4 0z" /></svg>
+        </div>
+        <div>
+          <h3>Kalkulačka je orientační pomůcka, ne daňové poradenství</h3>
+          <p>Nezohledňuje všechny výjimky a specifika vaší situace (slevy na dítě, invaliditu, souběh s zaměstnáním, přerušení činnosti apod.). U důležitých rozhodnutí si výsledek ověřte s daňovým poradcem nebo účetním.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="container footer-inner">
+    <div class="footer-logo">
+      <img src="assets/img/logo/logo-primary-light.png" alt="Para" style="height:24px" />
+    </div>
+    <ul class="footer-links">
+      <li><a href="index.html#jak-to-funguje">Jak to funguje</a></li>
+      <li><a href="index.html#pro-koho">Pro koho</a></li>
+      <li><a href="kalkulacky.html">Kalkulačky</a></li>
+      <li><a href="index.html#cenik">Ceník</a></li>
+    </ul>
+    <p class="footer-copy">© 2026 Para. Odpovědi asistenta ani výsledky kalkulaček nejsou daňové poradenství — u důležitých rozhodnutí konzultujte s odborníkem.</p>
+  </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+<script type="module" src="assets/js/kalkulacky-page.js"></script>
+
+</body>
+</html>

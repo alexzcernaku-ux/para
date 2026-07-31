@@ -1,0 +1,185 @@
+ZÁKON: NÚR I-35
+NAZEV: Interpretace Národní účetní rady I-35 – Oceňování zásob vytvořených vlastní činností
+URL: http://nur.cz/wp-content/uploads/2020/10/I-35_updated.pdf
+
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+1/4 
+Interpretace NÚR 
+I–35 
+Oceňování zásob vytvořených vlastní činností 
+Účetní jednotky jsou povinny vést účetnictví tak, aby účetní závěrka sestavená na jeho základě 
+podávala věrný a poctivý obraz předmětu účetnictví a finanční situace účetní jednotky (zákon 
+č. 563/1991 Sb., o účetnictví, § 7, odst. 1). Účetní jednotky účtují o stavu a pohybu majetku a jiných 
+aktiv, závazků a jiných pasiv, dále o nákladech a výnosech a o výsledku hospodaření. (zákon 
+č. 563/1991 Sb., o účetnictví, § 2, Předmět účetnictví).  
+Tato interpretace musí být aplikována v kontextu s Předmluvou Národní účetní rady 
+k interpretacím českých účetních standardů. 
+ 
+ 
+Popis problému 
+1. Zákon o účetnictví s účinností od 1. 1. 2016 vymezuje vlastní náklady zásob vytvořených vlastní 
+činností jako přímé náklady vynaložené na výrobu nebo jinou činnost (dále jen „výroba“), 
+popřípadě i přiřaditelné nepřímé náklady, které se vztahují k výrobě, vymezené v souladu s 
+účetními metodami. Do přímých nákladů se dle zákona výslovně zahrnuje pořizovací cena 
+materiálu a jiných spotřebovaných výkonů a další náklady, které vzniknou v přímé souvislosti s 
+danou výrobou. 
+ 
+2. Vyhláška č. 500/2002 Sb. s účinností od 1. 1. 2016 potom k vymezení vlastních nákladů zásob 
+vytvořených vlastní činností uvádí, že vlastní náklady zásob vytvořených vlastní činností se 
+oceňují ve skutečné výši nebo na základě kalkulace výroby, a dále, že vlastní náklady zahrnují 
+přímé náklady a mohou zahrnovat také poměrnou část variabilních a fixních nepřímých 
+nákladů, příčinně přiřaditelných danému výkonu a vztahujících se k období výroby. Dále 
+vyhláška uvádí, že náklady na prodej se do těchto nákladů nezahrnují. 
+ 
+3. Cílem této Interpretace je stanovit jednotný postup oceňování zásob vytvořených vlastní 
+činností ve finančním účetnictví (tj. v účetnictví vedeném dle zákona o účetnictví), protože 
+mimo výše uvedených vymezení účetní předpisy neobsahují podrobnější návod, jak prakticky 
+postupovat při oceňování zásob vytvořených vlastní činností. 
+ 
+4. Vzhledem k obecnému vymezení vlastních nákladů zásob vlastní činnosti účetními předpisy je 
+tedy otázkou: 
+a) jak vymezit přímé a nepřímé náklady, které se vztahují k výrobě, a 
+b) zda nepřímé náklady musí být složkou vlastních nákladů. 
+ 
+5. Tato Interpretace neřeší oceňování biologických aktiv. 
+ 
+ 
+ 
+
+ 
+                                                Interpretace NÚR I-35 Oceňování zásob vytvořených vlastní činností 
+ 
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+2/4 
+Řešení 
+6. Za vlastní náklady zásob vytvořených vlastní činností se považují přímé náklady vynaložené na 
+výrobu a v případě, že existují, také nepřímé náklady, které se vztahují k výrobě. 
+ 
+7. Přímé náklady vynaložené na výrobu (dále jen „přímé náklady“) jsou náklady účelně a účelově 
+vynaložené na výrobu kalkulační jednice a lze je ke kalkulační jednici přiřadit přímo, bez 
+potřeby rozvrhování (alokování). Příkladem přímých nákladů je spotřeba materiálu či práce 
+(mezd) užitých k výrobě kalkulační jednice, nebo služeb subdodavatele spočívajících v 
+opracování příslušné kalkulační jednice. Přímé náklady jsou převážně variabilní vzhledem k 
+objemu výroby. 
+ 
+8. Nepřímé náklady, které se vztahují k výrobě, (dále jen „nepřímé náklady“) jsou náklady, které 
+jsou účelně a účelově vynaloženy na výrobu obecně a ke kalkulační jednici je lze přiřadit pouze 
+s pomocí rozvrhování (alokování) za použití vhodné rozvrhové základny. Nepřímými náklady 
+jsou například spotřeba vody, elektřiny a plynu ve výrobě, výkonové nebo časové odpisy 
+výrobního zařízení, odpisy budov používaných k výrobě, nájemné výrobních prostor či náklady 
+na technickou přípravu výroby, údržbu nebo kontrolu kvality. Nepřímé výrobní náklady mohou 
+být fixní nebo variabilní vzhledem k objemu výroby. 
+ 
+9. Náklady účelově vynaloženými na výrobu se rozumí náklady, které vedou k uvedení zásob na 
+jejich současné místo a do požadovaného stavu. Za náklady účelově vynaloženými na výrobu se 
+obvykle nepovažují např. administrativní náklady, finanční náklady, prodejní (odbytové) 
+náklady, náklady na skladování či přesun zásob v rámci skladů (pokud takové náklady nejsou 
+součástí výrobního procesu). Rozhodnutí, zda náklady jsou, či nejsou vynaloženy za účelem 
+výroby, může záviset i na délce výrobního cyklu. 
+ 
+10. Účelně vynaloženým (přímým i nepřímým) nákladem se rozumí náklad, při jehož vynaložení 
+byly dodrženy zásady hospodárnosti a efektivity a jejichž vynaložení bylo nezbytné pro uvedení 
+zásob na jejich současné místo a do požadovaného stavu. Náklady, které se obvykle nepovažují 
+za náklady účelně vynaložené na výrobu, jsou např. neobvyklé množství odpadu, vyhnutelné 
+škody, neúčelně vynaložené práce nebo náklady související s nevyužitou kapacitou. 
+ 
+11. Nevyužitou kapacitou se rozumí situace, kdy výrobní zařízení je využíváno méně, než kolik by 
+odpovídalo jeho běžnému, resp. předpokládanému využití. Běžným využitím kapacity je 
+předpokládaný objem výroby, kterého bude v průměru dosaženo během několika období nebo 
+sezon za běžných okolností, přičemž je třeba vzít v úvahu kapacitu, která nebude využita 
+vzhledem k plánované údržbě. Pokud dojde k neobvykle nízkému objemu výroby nebo pokud 
+se výrobní zařízení vůbec nevyužívá, nelze jako rozvrhovou základnu pro přiřazení nepřímých 
+fixních nákladů na kalkulační jednici použít skutečné využití výrobních zařízení, nýbrž běžné 
+využití kapacity. Nepřiřazené nepřímé fixní náklady jsou nákladem období. Pokud se skutečný 
+objem výroby blíží běžné kapacitě, lze skutečný objem výroby jako rozvrhovou základnu využít. 
+ 
+12. V případě nezvykle vysokého využití kapacity se částka nepřímých fixních nákladů přiřazená 
+kalkulační jednici sníží tak, aby zásoby nebyly oceněny nad úrovní skutečných nákladů. 
+Variabilní nepřímé náklady se přiřazují kalkulační jednici ve vztahu ke skutečnému využití 
+výrobních zařízení. 
+
+ 
+                                                Interpretace NÚR I-35 Oceňování zásob vytvořených vlastní činností 
+ 
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+3/4 
+ 
+13. Pokud účetní jednotka oceňuje zásoby vytvořené vlastní činností na základě kalkulací 
+obsahujících předem stanovené náklady, musí minimálně k rozvahovému dni porovnat takto 
+stanovené vlastní náklady se skutečnými vlastními náklady zásob vytvořených vlastní činností. 
+V případě významného rozdílu je třeba upravit ocenění zásob k rozvahovému dni, tak aby tyto 
+zásoby byly oceněny na úrovni skutečných vlastních nákladů. Tato úprava představuje změnu 
+odhadu, nikoli změnu metody. 
+ 
+14. Účetní jednotka stanoví vnitřním předpisem způsob výpočtu vlastních nákladů zásob 
+vytvořených vlastní činností včetně popisu kalkulačních vzorců a rozlišení nákladů na přímé, 
+nepřímé variabilní a nepřímé fixní. Způsob ocenění musí být také uveden v příloze v účetní 
+závěrce. 
+ 
+15. Pokud účetní jednotka změní způsob oceňování zásob vytvořených vlastní činností (např. do 
+vlastních nákladů zásob vytvořených vlastní činností začne zahrnovat nepřímé náklady či rozšíří 
+výrobní režii, nebo naopak již nezahrnuje do kalkulace správní režii), pak se jedná o změnu 
+účetní metody. Postup při změně metody je popsán v intepretaci NÚR I-29 Opravy chyb, změny 
+v účetních odhadech a změny v účetních metodách. 
+ 
+16. K datu účetní závěrky (v rámci inventarizace zásob) účetní jednotka zjišťuje, zda u zásob 
+vytvořených vlastní činností nedošlo ke snížení hodnoty. V případě, že ocenění zásob 
+vytvořených vlastní činností včetně očekávaných nákladů na jejich úplné dokončení v 
+budoucnosti, je vyšší než očekávaná prodejní cena, účetní jednotka tuto skutečnost zohlední v 
+ocenění zásob např. prostřednictvím opravné položky. 
+ 
+17. V případě, že účetní jednotka má uzavřeny smlouvy na tzv. ztrátové projekty a je definován 
+objem výroby, ke kterému se účetní jednotka zavázala do budoucnosti, pak na tyto ztráty 
+vytvoří rezervu na ztrátové projekty. 
+ 
+ 
+ 
+Zdůvodnění 
+18. Pojmy zákona o účetnictví „náklady vynaložené na výrobu“ a „náklady vztahující se k výrobě“ 
+znamenají, že mezi uvedenými náklady a výrobou musí být příčinná souvislost (tj. že tyto 
+náklady musí být vynaloženy za účelem výroby, tj. výrobou vyvolány) a také to, že tyto náklady 
+(pokud souvisí s výrobou) k této výrobě musí skutečně vést, tj. že musí být vynaloženy účelně. 
+Např. neúčelná práce, plýtvání materiálem nebo nevyužití kapacity k výrobě nevede a nemůže 
+s ní být tedy příčinně spojeno. Z toho důvodu je potřeba se při ocenění zásob vytvořených 
+vlastní činností zabývat účelovostí a účelností vynaložených nákladů. 
+ 
+19. Oceňování zásob vytvořených vlastní činností musí ekonomicky zobrazovat skutečnou realitu a 
+musí zahrnovat všechny náklady, které souvisí s jejich výrobou. Účetní jednotka musí sama 
+vyhodnotit, které náklady přímo či nepřímo souvisí s výrobou, a příčinně přiřadit náklady dané 
+kalkulační jednici. 
+ 
+20. Vyhláška č. 500/2002 Sb. umožňuje, aby se zásoby vlastní výroby oceňovaly ve skutečných 
+nebo předem stanovených nákladech. Pokud však k rozvahovému dni existuje významný rozdíl 
+
+ 
+                                                Interpretace NÚR I-35 Oceňování zásob vytvořených vlastní činností 
+ 
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+4/4 
+mezi oceněním zásob na úrovni předem stanovených nákladů a jejich oceněním ve skutečných 
+nákladech, je třeba upravit ocenění na úroveň skutečných vlastních nákladů, a to z toho 
+důvodu, že účetní jednotka je z povolených metod povinna zvolit vždy tu, která lépe odpovídá 
+skutečnému stavu (viz § 7 odst. 2 zákona o účetnictví). Tímto postupem je předem stanovená, 
+a tudíž odhadnutá úroveň vlastních nákladů nahrazena přesnějším oceněním ve skutečných 
+nákladech. 
+ 
+21. V případě uzavření ztrátové smlouvy na budoucí výrobu se účetní jednotka dostává do situace, 
+kdy je jisté, že nastane budoucí ztráta (náklady na vypořádání smluvního závazku převýší 
+výnosy sjednané ve smlouvě). Z toho důvodu musí účetní jednotka v takovém případě vykázat 
+v účetní závěrce rezervu na ztrátové projekty. 
+ 
+ 
+Datum prvního schválení 
+této interpretace NÚR: 
+17. října 2016 
+Datum poslední aktualizace 
+této interpretace NÚR: 
+1. dubna 2019 
+Zpracovatel interpretace: 
+ 
+Ing. Irena Liškařová 
+irena.liskarova@cz.ey.com

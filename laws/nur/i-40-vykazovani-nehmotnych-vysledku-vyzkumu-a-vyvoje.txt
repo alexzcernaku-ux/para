@@ -1,0 +1,236 @@
+ZÁKON: NÚR I-40
+NAZEV: Interpretace Národní účetní rady I-40 – Vykazování nehmotných výsledků výzkumu a vývoje
+URL: http://nur.cz/wp-content/uploads/2020/10/I-40_updated.pdf
+
+© Národní účetní rada 
+Schválený text interpretace 
+1/5 
+ 
+ 
+Interpretace Národní účetní rady 
+I-40 Vykazování nehmotných výsledků výzkumu a vývoje 
+ 
+Účetní jednotky jsou povinny vést účetnictví tak, aby účetní závěrka sestavená na jeho základě 
+podávala věrný a poctivý obraz předmětu účetnictví a finanční situace účetní jednotky (zákon 
+č. 563/1991 Sb., o účetnictví, § 7, odst. 1). Za vedení účetnictví je odpovědná účetní jednotka. 
+Tato interpretace není právně závazným stanoviskem, pouze vyjadřuje odborný názor Národní 
+účetní rady a může být aplikována pouze v kontextu s Předmluvou Národní účetní rady 
+k interpretacím českých účetních předpisů. Postup popsaný v této interpretaci poskytuje účetní 
+jednotce návod v případech, kdy má jejich aplikace významný dopad na informace uvedené 
+v účetní závěrce a kdy informační přínosy jsou větší než náklady nutné na jejich získání. 
+ 
+Popis problému: 
+1. NÚR se na svém zasedání v září 2015 rozhodla zahájit přípravu pracovního návrhu 
+interpretace upravující vykazování výzkumu a vývoje v účetnictví podle českých účetních 
+předpisů. 
+2. Prováděcí vyhláška o účetnictví pro podnikatele v době zahájení prací na interpretaci 
+uváděla jako jednu z položek nehmotných aktiv také „nehmotné výsledky výzkumu a 
+vývoje“. Přitom chápala „výzkum a vývoj“ jako jednu homogenní činnost bez toho, že by 
+podrobněji specifikovala kritéria, která musela být splněna pro to, aby mohly být výdaje 
+vynaložené na vývoj aktivovány do pořizovací ceny aktiva, a uváděla pouze, že: 
+Podle § 6 odst. 1 a 3 písm. b) Vyhlášky jsou „nehmotnými výsledky výzkumu a vývoje a software 
+takové výsledky a software, které jsou buď vytvořeny vlastní činností k obchodování s nimi 
+a nebo nabyty od jiných osob.“ 
+3. Na základě Směrnice 2013/34/EU přistoupil i náš prováděcí předpis k zákonu o účetnictví 
+pro podnikatele ke změnám s účinností od 1. 1. 2018 a položka „výzkum“ byla z výčtu 
+dlouhodobého nehmotného majetku vypuštěna a obsahuje jen položku „vývoj“. 
+4. Nicméně účetní ani daňové předpisy neobsahují definici výzkumu ani vývoje. Je proto 
+nutné pro účely této interpretace vycházet z jejich obecného pojetí v účetnictví. 
+5. Při absenci detailního popisu přístupu k vykazování nákladů na výzkum a vývoj vyvstává 
+například otázka, zda je přístup k vykazování nákladů na výzkum a vývoj v účetních 
+závěrkách připravených dle IFRS akceptovatelný i podle českých účetních předpisů. 
+ 
+ 
+
+ 
+ 
+ 
+I-40 Vykazování nehmotných výsledků výzkumu a vývoje 
+ 
+© Národní účetní rada 
+Schválený text interpretace 
+2/5 
+ 
+6. Otázky, které by měla řešit interpretace: 
+a) Jaká je obecná účetní definice výzkumu a jaká je obecná účetní definice vývoje, tj. 
+čím se výzkum liší z účetního hlediska od vývoje. 
+b) Za jakých podmínek je možno aktivovat výsledky vlastního vývoje. 
+c) Jaké jsou základní principy odepisování aktivovaných výsledků vlastního vývoje. 
+Řešení: 
+7. Pro účely této interpretace se: 
+a) Výzkumem se rozumí původní a plánované zkoumání prováděné s cílem získat 
+nové vědecké nebo technické poznatky a vědomosti. 
+b) Vývojem se rozumí použití výsledků výzkumu nebo jiných poznatků k plánování 
+nebo navrhování nových nebo podstatně zdokonalených materiálů, zařízení, 
+výrobků, postupů, systémů nebo služeb, a to před zahájením jejich komerční výroby 
+nebo využití.  
+ 
+8. Výdaje na výzkum nesplňují zejména vzhledem k nejistotě výsledku zkoumání 
+charakteristiku aktiva, nemohou být aktivovány do dlouhodobého nehmotného majetku a 
+jsou tedy zahrnuty vždy do účetních nákladů období.  
+9. Výdaje vynaložené na vývoj mohou být po splnění níže uvedených podmínek aktivovány 
+do dlouhodobého nehmotného majetku. 
+10. Výsledky vývoje jsou buď vytvořeny vlastní činností k obchodování s nimi a nebo nabyty 
+od jiných osob. Vytvořením vlastní činností k obchodování s nimi se rozumí to, že vlastní 
+vývoj povede buď přímo k vytvoření aktiva, s nímž bude obchodováno nebo že povede 
+k návrhu takových materiálů, zařízení, výrobků, postupů, systémů nebo služeb, které budou 
+sloužit přímo k obchodní činnosti (např. po jejich výrobě podle vyvinutého designu budou 
+prodávány). 
+11. Aby mohly být výdaje na vývoj aktivovány do dlouhodobého nehmotného majetku, musí 
+naplňovat všechny níže uvedené podmínky: 
+a) účetní jednotka je schopna prokázat technickou proveditelnost dokončení 
+nehmotného aktiva;  
+b) Účetní jednotka musí být schopna prokázat záměr a schopnost dokončit a užívat 
+nehmotné aktivum související s vývojem,  
+c) Existuje předpoklad budoucích ekonomických užitků, které nebudou nižší než 
+vynaložené náklady 
+d) Účetní jednotka musí být schopna prokázat dostupnosti zdrojů pro dokončení 
+nehmotného aktiva 
+e) Nehmotné aktivum je možné spolehlivě ocenit dle účetních předpisů. 
+ 
+
+ 
+ 
+ 
+I-40 Vykazování nehmotných výsledků výzkumu a vývoje 
+ 
+© Národní účetní rada 
+Schválený text interpretace 
+3/5 
+ 
+12. Nehmotné výsledky vývoje se odepisují po dobu jejich odhadované ekonomické 
+použitelnosti a zároveň podléhají testu na snížení hodnoty prováděnému vždy k datu účetní 
+závěrky. 
+Zdůvodnění: 
+13. Navrhované řešení vychází ze základních účetních principů založených na tom, že náklady 
+na výzkum představují náklady období a nesplňují charakteristiky aktiva. Naproti tomu 
+náklady na vývoj jsou v řadě účetních rámců aktivovány při splnění dostatečné 
+pravděpodobnosti úspěchu a měřitelnosti. NÚR analyzovala, zda podmínky aktivace 
+nákladů na vývoj obsažené v IAS 38 kolidují s požadavky českých účetních předpisů a došla 
+k závěru, že tomu tak není.   
+14. Výdaje na vývoj mohou být aktivovány do dlouhodobého nehmotného majetku pouze 
+v případě, že je naplněna charakteristika aktiva a je očekávána ekonomické využitelnost 
+takového aktiva. Toto nehmotné aktivum je odepisováno po dobu jeho ekonomické 
+životnosti tak, aby byl naplněn princip souladu výnosů a nákladů.  
+15. Odstavec 10 této interpretace popisuje, co se rozumí pod pojmem „vytvořeny vlastní 
+činností k obchodování s nimi“. V praxi se někdy objevuje názor, že se tímto výrazem 
+rozumí, že musí být obchodováno přímo s výsledkem vývoje a nikoliv například s výrobky, 
+které se na základě takového vývoje budou vyrábět. NÚR preferuje interpretaci pojmu 
+uvedenou v odstavci 10, neboť ji pokládá ze lepší naplnění podmínky věrného a poctivého 
+obrazu v souladu se zákonem o účetnictví.  
+16. V české účetní praxi se někdy výdaje na vývoj při absenci konkrétní úpravy účtují jako 
+náklady příštích období či komplexní náklady příštích období. Toto řešení nepovažuje NÚR 
+za současné legislativy za nutně nesprávné, do budoucna však není toto řešení koncepčně 
+preferováno z hlediska povahy vývoje i konsistence mezi účetními závěrkami. V případě 
+vývojových projektů, které započaly do data  účinnosti této interpretace a které jsou 
+účtovány jako náklad příštích období nebo komplexní náklad příštích období, a u nichž 
+účetní jednotka rozhodne o pokračování tohoto účtování až do úplného odepsání, NÚR 
+doporučuje popsat v přílohách k účetní závěrce částky aktivované do nákladů příštích 
+období, komplexních nákladů příštích období a nehmotného dlouhodobého majetku tak, 
+aby si uživatel udělal dostatečnou představu o výši vývoje aktivovaného v rámci  rozvahy. 
+17. Vyjasněním otázky kompatibility přístupu k nákladům na výzkum a vývoj dle IFRS 
+s požadavky českých účetních předpisů povede k vyšší konsistenci účetního přístupu, ke 
+snížení nákladů na konverze účetních závěrek mezi oběma systémy navzájem, jakož i 
+lepšímu pochopení řešení v rámci českých účetních předpisů. V konečném důsledku dojde 
+ke snížení subjektivity vykazování nákladů na výzkum a vývoj a zvýšení věrného a 
+poctivého obrazu účetních závěrek. 
+18. Principy z navrhované interpretace mohou být východiskem při budoucí novele účetních 
+předpisů. 
+
+ 
+ 
+ 
+I-40 Vykazování nehmotných výsledků výzkumu a vývoje 
+ 
+© Národní účetní rada 
+Schválený text interpretace 
+4/5 
+ 
+ 
+ 
+Na základě reakcí z praxe, které naznačovaly nejednotný přístup při aplikaci I-40 se NÚR na 
+svém zasedání dne 18. června 2020 rozhodla v odst. 16 vypustit větu: „Výdaje na vývoj by 
+měly být buď nehmotným dlouhodobým majetkem nebo by měly být, při nenaplnění 
+aktivačních podmínek nebo na základě rozhodnutí účetní jednotky, účtovány do výsledku 
+hospodaření.“ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Datum prvního schválení  
+ 
+20. ledna 2020 
+této interpretace NÚR: 
+ 
+Datum poslední aktualizace   
+18. června 2020 
+této interpretace NÚR: 
+ 
+ 
+ 
+ 
+ 
+ 
+Ing. Petr Vácha, Ph.D. 
+Zpracovatelé intepretace: 
+ 
+KA ČR 
+ 
+ 
+ 
+ 
+ 
+doc. Ing. Ladislav Mejzlík, Ph.D. 
+ 
+ 
+ 
+ 
+ 
+VŠE v Praze  
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+I-40 Vykazování nehmotných výsledků výzkumu a vývoje 
+ 
+© Národní účetní rada 
+Schválený text interpretace 
+5/5 
+ 
+ 
+Vypořádání připomínek z opětovného vnějšího připomínkového řízení: 
+1) 
+Ing. Petr Ryneš: Bod 9 interpretace zní: „Výdaje vynaložené na vývoj by měly být po 
+splnění níže uvedených podmínek aktivovány do dlouhodobého nehmotného majetku.“ 
+Domnívám se v souladu s ostatním textem, že by tam mělo být „mohou“ a nakonec bych 
+snad i napsal „…nehmotného majetku či  vykázány  na základě  rozhodnutí UJ přímo 
+v nákladech.“ Tj. „Výdaje vynaložené na vývoj mohou být po splnění níže uvedených 
+podmínek aktivovány do dlouhodobého nehmotného majetku či vykázány na základě 
+rozhodnutí UJ přímo v nákladech.“ 
+2) 
+Ing. Petr Toman, Ing. Jiří Nesrovnal: Pozitivně oceňujeme, že v bodě 15 návrhu 
+interpretace je reflektován způsob, který v současné době na základě výslovné úpravy v 
+českých účetních právních předpisech, je v praxi používán. Nicméně doporučovali 
+bychom doplnit, že časové rozlišení prostřednictvím nákladů příštích období či 
+komplexních nákladů příštích období bude aplikováno při zohlednění základních 
+účetních zásad, včetně např. zásady významnosti. To znamená, že nelze vyloučit ani 
+přímé zahrnutí do nákladů, např. v situaci, kdy se jednalo o nevýznamnou či opakující se 
+částku 
+ 
+Ad 1) Připomínka částečně akceptována, původní odstavec byl nekonsistentní se zbytkem 
+interpretace. Odstavec 9 upraven.  Zároveň byly konsistentně upraveny i odstavce 14. Druhá 
+část připomínky – návrh „či vykázány na základě rozhodnutí UJ přímo v nákladech.“ – nebyla 
+implementována, neboť se NÚR domnívá, že tato alternativa je zřejmá a není potřeba ji do 
+odstavce 9 doplňovat. Došlo však k implementaci tohoto návrhu do odstavce 16. 
+Ad 2) Všechny interpretace NÚR předpokládají aplikaci zásady významnosti, a proto ačkoliv 
+souhlasíme s připomínkou, nebyla explicitně implementována do textu.

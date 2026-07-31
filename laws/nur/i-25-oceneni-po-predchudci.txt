@@ -1,0 +1,162 @@
+ZÁKON: NÚR I-25
+NAZEV: Interpretace Národní účetní rady I-25 – Ocenění po předchůdci
+URL: http://nur.cz/wp-content/uploads/2020/10/I-25_updated.pdf
+
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+1/4 
+Interpretace NÚR 
+I–25 
+Ocenění po předchůdci 
+Účetní jednotky jsou povinny vést účetnictví tak, aby účetní závěrka sestavená na jeho základě 
+podávala věrný a poctivý obraz předmětu účetnictví a finanční situace účetní jednotky (zákon 
+č. 563/1991 Sb., o účetnictví, § 7, odst. 1). Účetní jednotky účtují o stavu a pohybu majetku a jiných 
+aktiv, závazků a jiných pasiv, dále o nákladech a výnosech a o výsledku hospodaření. (zákon 
+č. 563/1991 Sb., o účetnictví, § 2, Předmět účetnictví).  
+Tato interpretace musí být aplikována v kontextu s Předmluvou Národní účetní rady 
+k interpretacím českých účetních standardů. 
+ 
+ 
+Popis problému 
+1. V případech, kdy společnosti nabývají položky majetku transakcemi, jako jsou fúze a nepeněžní 
+vklady (obecně veškeré případy, na které je aplikováno ustanovení § 24 odst. 3 písm. a) 
+zákona o účetnictví), praxe se značně liší v tom, jak ocenění u nabývající účetní jednotky 
+navazuje na ocenění u předchozí účetní jednotky. 
+ 
+2. Porovnáme-li ocenění před transakcí a po transakci, lze se v zásadě setkat s těmito přístupy:  
+a) Položka majetku je chápána jako nově nabytá (analogie klasické koupě) a předchozí 
+ocenění není nijak zohledňováno. 
+b) Položka majetku je chápána jako majetek s historií. 
+ 
+3. Pokud se položka chápe jako majetek s historií, existují dále rozmanité způsoby, jak navázat na 
+původní ocenění. V zásadě připadají v úvahu následující možnosti: 
+a) Nabývající účetní jednotka příslušné položky přebírá v ocenění předchůdce, přičemž: 
+i. přebírá i „strukturu“ původní účetní hodnoty, tj. účetní hodnota položky je stále 
+stejně rozdělena na brutto hodnotu, oprávky a opravné položky či 
+ii. dochází ke kompenzaci uvedených složek (např. brutto hodnoty a oprávek) 
+původní účetní hodnoty. 
+b) Nabývající účetní jednotka změní výši ocenění oproti předchůdci, přičemž při této 
+změně postupuje tak, že např.: 
+i. ponechá původní brutto hodnotu a podle potřeby upraví původní opravné 
+položky či oprávky (teprve po zrušení všech oprávek a opravných položek zvýší 
+brutto hodnotu), 
+ii. ponechá opravné položky či oprávky v původní výši a změní brutto hodnotu, 
+iii. původní brutto hodnotu, opravné položky i oprávky změní o stejné procento tak, 
+aby bylo dosaženo cílové netto hodnoty nebo 
+iv. brutto hodnotu, opravné položky a oprávky stanoví kvalifikovaným odhadem. 
+ 
+4. Existuje-li výše uvedená škála možností, je otázkou, jak vybrat nejvhodnější metodu. 
+ 
+
+                                                                                          Interpretace NÚR I-25 Ocenění po předchůdci 
+ 
+ 
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+2/4 
+5. Předmětem této Interpretace není, zda při ocenění položek majetku u nabyvatele je vhodnější 
+vycházet z jejich původní účetní hodnoty, nebo reálné hodnoty. Tato Interpretace se zabývá až 
+problémy, které jsou spojeny s realizací tohoto rozhodnutí. 
+ 
+Řešení 
+6. S výjimkou případů uvedených v odst. 7 účetní jednotka, která oceňuje majetek dle ustanovení 
+§ 24 odst. 3 písm. a) zákona o účetnictví: 
+a) v případě, že postupuje podle bodu 1 citovaného ustanovení (dále jen „ocenění v 
+účetních hodnotách předchůdce“), pro stanovení brutto hodnoty majetku použije jeho 
+netto hodnotu v účetnictví předchůdce, 
+b) v případě, že postupuje podle bodu 2 citovaného ustanovení (dále jen „ocenění reálnou 
+hodnotou“), pro stanovení brutto hodnoty majetku použije jeho reálnou hodnotu. 
+Jak při ocenění v účetních hodnotách předchůdce, tak při ocenění reálnou hodnotou jsou tedy 
+oprávky a opravné položky vždy nulové. 
+ 
+7. V případech, kdy nedošlo k faktické změně kontroly nad dotčeným majetkem, tj. transakce, při 
+kterých dochází k nabytí oceňovaného majetku, jsou důsledkem pouze formální reorganizace 
+propojených osob (např. při fúzi sesterských společností), a je-li zvoleno ocenění v účetních 
+hodnotách předchůdce, je alternativně možné přebrat veškeré složky tohoto účetního ocenění, 
+tj. původní brutto hodnotu, oprávky i opravné položky. 
+ 
+8. Je-li přebírán odepisovatelný majetek, je nutné, aby přebírající účetní jednotka přehodnotila 
+původní odpisové plány tak, aby navazovaly na rozhodnutí o způsobu ocenění a odpovídaly 
+plánovanému využití majetku. 
+ 
+9. Účetní jednotka v příloze popíše, jak bylo přistoupeno k přecenění po předchůdci. 
+ 
+Zdůvodnění 
+10. Účetní předpisy neobsahují konkrétní postup, jak prakticky provést přecenění nebo jak 
+pokračovat v ocenění použitém předchozí účetní jednotkou. K volbě daného postupu nelze v 
+zásadě využít kritéria věrného a poctivého zobrazení, neboť postupy, které připadají v úvahu, 
+není možné seřadit podle toho, jak věrně zobrazující podstatu transakce. To je způsobeno tím, 
+že transakce, při kterých se ocenění po předchůdci řeší, se účtují a vykazují v souladu s jejich 
+formou, nikoli však podstatou. 
+ 
+11. Proto pro volbu metody je třeba hledat jiné kritérium, a tímto by měl být zejména princip 
+srozumitelnosti. Většina z množiny technicky možných metod uvedených v odstavci 2 a 3 není 
+sama o sobě srozumitelná, jejich pestré použití v praxi je srozumitelnější ještě méně. Proto se 
+jako nejlepší cesta jeví vybrat z možných metod tu nejsrozumitelnější a ostatní možné metody 
+neaplikovat. 
+ 
+12. Za nejsrozumitelnější metodu se v této Interpretaci považuje postup, kdy účetní jednotka při 
+prvotním ocenění nabývaného majetku postupuje analogicky jako při pořízení majetku, tj. 
+
+                                                                                          Interpretace NÚR I-25 Ocenění po předchůdci 
+ 
+ 
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+3/4 
+majetek je zaúčtován v jedné částce, která je jeho brutto hodnotou. Tuto „pořizovací cenu“ 
+zákon umožňuje stanovit jako rovnu ocenění u předchůdce nebo na úrovni reálné hodnoty. Je-
+li majetek právě nabyt, není srozumitelné (s výjimkou případů uvedených v odst. 7) v takovém 
+okamžiku účtovat o jeho oprávkách, resp. opravných položkách. 
+ 
+13. V případech uvedených v odst. 7 je zachována naprostá ekonomická kontinuita činností 
+spjatých s daným majetkem. K takové situaci dochází při reorganizacích v rámci ekonomických 
+skupin, kdy majetek je stále pod stejnou (ultimátní) kontrolou, tj. mění se jen firma obchodní 
+společnosti, ale vše ostatní zůstává zachováno. V takovém případě je kontinuita činností 
+vyjádřena právě zachováním stávajícího ocenění včetně jeho rozdělení na jeho různé složky 
+(brutto, oprávky, opravné položky). Protože kontinuita činnosti a kontroly nad majetkem je 
+doprovázena kontinuitou účetního ocenění, vyhovuje takový postup principu srozumitelnosti. 
+ 
+14. Zachování stávajícího ocenění umožňuje § 24 odst. 3 písm. a bod 1 zákona o účetnictví. Toto 
+ustanovení neřeší, zda toto ocenění má představovat novou brutto hodnotu přebíraného 
+majetku či toto ocenění je možné převzít včetně jeho struktury, tj. v brutto ceně a souvisejících 
+korekcích vykázaných předchůdcem. Převzetí struktury ocenění nezabraňuje ani § 25 zákona, 
+který pro aktiva v zásadě vyžaduje použití pořizovacích cen, protože citované ustanovení § 24 
+a ustanovení § 25 se navzájem vylučují (výslovnou podmínkou pro použití § 24 odst. 3 
+zákona je nemožnost postupu dle § 25 zákona; pokud dojde k postupu dle § 24, nelze 
+výsledek podrobit požadavku na soulad s ustanovením § 25). 
+ 
+15. Požadavky této Interpretace vycházejí zejména z: 
+a) § 19 odst. 6 zákona o účetnictví, který vyžaduje, aby účetní závěrka byla srozumitelná. 
+Tento požadavek nemůže být splněn, pokud pečlivě nebudou zváženy možné metody 
+ocenění, vybrána nejvhodnější a tento výběr bude v příloze zdůvodněn a 
+b) § 39 odst. 5 až 7 vyhlášky č. 500/2002 Sb., které vyžadují, aby příloha informovala o 
+použitých účetních metodách, jejichž znalost je významná pro posouzení finanční a 
+majetkové situace a výsledku hospodaření účetní jednotky a pro analýzu informací 
+obsaženou v rozvaze a ve výkazu zisku a ztráty. Dále je nutné uvést způsob stanovení 
+oprávek, opravných položek, reálných hodnot a řadu dalších informací. Bez údajů o 
+metodách ocenění převzatých položek majetků se účetní závěrka stane neúplnou. 
+ 
+ 
+ 
+ 
+Datum prvního schválení 
+této interpretace NÚR: 
+18. března 2013 
+Datum poslední aktualizace 
+této interpretace NÚR: 
+1. dubna 2019 
+
+                                                                                          Interpretace NÚR I-25 Ocenění po předchůdci 
+ 
+ 
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+4/4 
+Zpracovatel interpretace: 
+Ing. Jiří Pelák, Ph.D.  
+Katedra finančního účetnictví a auditingu 
+Fakulta financí a účetnictví  
+Vysoká škola ekonomická v Praze  
+Nám. W. Churchilla 4  
+130 67 Praha 3 – Žižkov

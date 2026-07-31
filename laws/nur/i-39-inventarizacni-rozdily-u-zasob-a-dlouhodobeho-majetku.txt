@@ -1,0 +1,209 @@
+ZÁKON: NÚR I-39
+NAZEV: Interpretace Národní účetní rady I-39 – Inventarizační rozdíly u zásob a dlouhodobého majetku
+URL: http://nur.cz/wp-content/uploads/2020/10/I-39_updated.pdf
+
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+1/4 
+Interpretace NÚR 
+I–39 
+Inventarizační rozdíly u zásob a dlouhodobého majetku 
+Účetní jednotky jsou povinny vést účetnictví tak, aby účetní závěrka sestavená na jeho základě 
+podávala věrný a poctivý obraz předmětu účetnictví a finanční situace účetní jednotky (zákon 
+č. 563/1991 Sb., o účetnictví, § 7, odst. 1). Účetní jednotky účtují o stavu a pohybu majetku a jiných 
+aktiv, závazků a jiných pasiv, dále o nákladech a výnosech a o výsledku hospodaření. (zákon 
+č. 563/1991 Sb., o účetnictví, § 2, Předmět účetnictví).  
+Tato interpretace musí být aplikována v kontextu s Předmluvou Národní účetní rady 
+k interpretacím českých účetních standardů. 
+ 
+ 
+Popis problému 
+1. Cílem této interpretace je stanovit jednotný postup účtování vybraných sporných případů 
+inventarizačních rozdílů u zásob a dlouhodobého majetku. 
+ 
+2. Zákon o účetnictví vymezuje inventarizační rozdíly jako rozdíly mezi skutečným stavem a 
+stavem v účetnictví, které nelze prokázat způsobem stanoveným tímto zákonem, kdy 
+a) skutečný stav je nižší než stav v účetnictví a rozdíl se označuje jako manko, případně 
+schodek u peněžních hotovostí a cenin, nebo 
+b) skutečný stav je vyšší než stav v účetnictví a rozdíl se označuje jako přebytek. 
+ 
+3. Vyhláška č. 500/2002 Sb. (dále jen „Vyhláška“) vymezuje, že položka „F.5. Jiné provozní 
+náklady“ mj. obsahuje inventarizační rozdíly v provozní oblasti. Položka „III.3. Jiné provozní 
+výnosy“ obsahuje mj. inventarizační rozdíly v provozní oblasti, položka „K. Ostatní finanční 
+náklady“ obsahuje mj. schodky na finančním majetku a položka „VII. Ostatní finanční výnosy“ 
+obsahuje mj. nároky na náhrady schodků na finančním majetku (nikoliv přebytky). 
+ 
+4. Český účetní standard pro podnikatele č. 007 Inventarizační rozdíly a ztráty v rámci norem 
+přirozených úbytků zásob (dále jen „Standard“) stanoví postupy účtování inventarizačních 
+rozdílů. Stanoví rovněž postupy účtování inventarizačních rozdílů u dlouhodobého majetku. 
+ 
+5. Postupy účtování o manku nebo schodku uvedené ve Standardu nejsou v rozporu s Vyhláškou 
+a jsou buď provozním, nebo finančním nákladem. 
+ 
+6. Účtování přebytku do provozních výnosů podle Vyhlášky nepotvrzují postupy účtování 
+publikované ve Standardu. 
+ 
+7. Vzhledem k vymezení postupů účtování různou úrovní účetních předpisů je otázkou, zda 
+přistupovat k inventarizačním rozdílům: 
+a) jako k opravám chyb minulých období, zvláště pokud se jedná o významnou částku, 
+anebo 
+b) jako k operaci běžného účetního období. 
+
+ 
+                               Interpretace NÚR I-39 Inventarizační rozdíly u zásob a dlouhodobého majetku 
+ 
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+2/4 
+8. Dalšími otázkami je: 
+a) zda účtovat přebytky zásob jak výnos či jako korekci nákladu, 
+b) jak účtovat přebytek dlouhodobého majetku oceněného odpisovaného, a 
+c) jak účtovat přebytek dlouhodobého majetku oceněného neodpisovaného. 
+ 
+9. Tato interpretace řeší pouze některé záležitosti spojené s inventarizačními rozdíly. Neřeší 
+například účtování a vykazování pohledávky za odpovědnou osobou z titulu náhrady manka, 
+manka a přebytky peněžních prostředků, chyby v záměně u zásob aj. 
+ 
+Řešení 
+Obecně 
+10. Rozdíly zjištěné při inventarizaci se nejprve posoudí podle skutečnosti, zda se jedná o chybu 
+minulých let nebo o inventarizační rozdíl, který vznikl v běžném období. 
+ 
+11. Protože inventarizaci jsou účetní jednotky povinny provádět alespoň jedenkrát za účetní 
+období, má se za to, že případný inventarizační rozdíl se bude obvykle vztahovat k běžnému 
+účetnímu období. Toto však nemusí platit obecně a budou existovat případy, kdy účetní 
+jednotka vyhodnotí inventarizační rozdíl jako skutečnost, která nastala v předchozích 
+obdobích. 
+ 
+12. Za chybu v účetnictví lze obecně považovat opomenutí nebo chybná uvedení položek 
+vstupujících do účetní závěrky účetní jednotky za běžné, anebo jedno či několik předchozích 
+účetních období, které vznikly v důsledku nepoužívání nebo chybného použití spolehlivých 
+informací (viz Interpretace I – 29). 
+ 
+13. V případě, že rozdíl zjištěný při inventarizaci bude vyhodnocen jako chyba minulých let, je 
+třeba zkoumat, zda vznikla pouze v minulém, anebo ve více předchozích účetních obdobích. 
+Účetní jednotka přitom aplikuje Interpretaci I-29, která uvádí, že chybu je potřeba vykázat v 
+tom srovnávacím období, ke kterému se vztahuje, popřípadě v rámci nejzazšího vlastního 
+kapitálu uvedeného v účetní závěrce. 
+ 
+14. Pokud chyba vznikla v jednom či několika předchozích účetních obdobích, Vyhláška uvádí, že 
+oprava v důsledku nesprávného účtování nebo neúčtování o nákladech a výnosech v minulých 
+obdobích, pokud jsou významné, bude součástí položky „A.IV.2. Jiný výsledek hospodaření 
+minulých let“. U nevýznamných chyb budou ovlivněny náklady nebo výnosy běžného účetního 
+období. 
+ 
+15. Pokud chyba vznikla v běžném účetním období, účetní jednotka provede opravu účtování 
+standardním způsobem, tj. použije obvyklé účetní postupy odpovídající účetnímu případu. 
+ 
+Zásoby 
+16. Postup účtování přebytku zásob ve prospěch nákladů, které uvádí Standard, lze považovat za 
+vhodné řešení, na rozdíl od účtování ve výnosech, uvedené ve Vyhlášce. V běžném účetním 
+období, za které je vykázán inventarizační rozdíl, se totiž jedná o korekci hodnoty 
+vyskladněných zásob a nikoliv o dodatečný výnos z činnosti účetní jednotky. 
+ 
+
+ 
+                               Interpretace NÚR I-39 Inventarizační rozdíly u zásob a dlouhodobého majetku 
+ 
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+3/4 
+Dlouhodobý majetek 
+17. Nutnost účtování manka nebo úbytku či přebytku dlouhodobého nehmotného a hmotného 
+majetku v běžném účetním období často, vzhledem k charakteru majetku, může znamenat, že 
+došlo k opomenutí zaúčtovat pořízení tohoto majetku. 
+ 
+18. Postup účtování u mank uvádí Standard takto: 
+a) v případě, že se jedná o manka odpisovaného majetku, zůstatková cena majetku se 
+zaúčtuje na vrub příslušného účtu účtové skupiny Jiné provozní náklady a ve prospěch 
+příslušných účtů účtových skupin Oprávky k dlouhodobému nehmotnému majetku, 
+nebo Oprávky k dlouhodobému hmotnému majetku; majetek se vyřadí, 
+b) v případě, že se jedná o manko neodpisovaného majetku, vyřazovaný majetek se 
+zaúčtuje na vrub příslušného účtu účtové skupiny Jiné provozní náklady a ve prospěch 
+příslušného účtu účtové skupiny Dlouhodobý hmotný majetek neodpisovaný; majetek 
+se vyřadí. 
+ 
+19. Postup uvedený v odstavci 18 se použije u mank, která se vztahují k běžnému období. Pokud se 
+však manko vztahuje k některému z minulých období, účetní jednotka musí zvážit alternativní 
+účtování, které povede k věrnému a poctivému obrazu, včetně případné úpravy srovnávacích 
+údajů v účetní závěrce. 
+ 
+20. Postup účtování u přebytků uvádí Standard, a to: 
+a) Přebytek odpisovaného majetku se účtuje na vrub účtové skupiny dlouhodobého 
+nehmotného nebo dlouhodobého hmotného majetku, ve prospěch účtových skupin 
+oprávek dlouhodobého nehmotného nebo dlouhodobého hmotného majetku. 
+b) Přebytek neodpisovaného majetku se účtuje na vrub účtové skupiny dlouhodobého 
+hmotného majetku a ve prospěch účtu účtové skupiny Základní kapitál a kapitálové 
+fondy. 
+ 
+21. Postup podle 20a. ústí v zaúčtování přebytku odepisovaného majetku v nulové zůstatkové 
+hodnotě. Tento postup je z hlediska věrného a poctivého obrazu možný například v případě, 
+kdy by byl příslušný majetek již odepsán, k jeho plnému odepsání by došlo v minulých 
+obdobích před srovnávacím obdobím a jeho správné účtování by tedy nikterak nemělo vliv na 
+výsledovku běžného a srovnávacího období. Pokud však například přebytek pramení z toho, že 
+byl majetek nesprávně zaúčtován v běžném či minulém období nebo byl v běžném či minulém 
+období nepřesně identifikován/oceněn, musí účetní jednotka stanovit účetní postup, který 
+bude věrně a poctivě zobrazovat ekonomické použití majetku, jeho zůstatkovou hodnotu a 
+bude přebytek zohledňovat v období, ke kterému tento rozdíl věcně přísluší. 
+ 
+22. Postup dle 20b. lze využít, pokud se přebytek majetku vztahuje k běžnému období. Pokud se 
+tento přebytek vztahuje k některému z minulých období, může se jednat o chybu minulých let, 
+a tudíž může být nutné upravit rovněž příslušným způsobem srovnávací údaje v účetní závěrce. 
+ 
+23. Zákon o účetnictví požaduje ocenění nově zachyceného majetku v účetnictví (např. 
+inventarizačního přebytku) reprodukční pořizovací cenou. Pokud ovšem přebytek pramení z 
+nesprávného účtování či ocenění v minulých obdobích, je nutné jej ocenit tak, jak by byl 
+oceněn v době jeho vzniku, pokud by o majetku bylo správně účtováno. 
+ 
+
+ 
+                               Interpretace NÚR I-39 Inventarizační rozdíly u zásob a dlouhodobého majetku 
+ 
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+4/4 
+24. Vyhláška indikuje účtování o inventarizačních přebytcích ve prospěch provozních výnosů. 
+Tento postup však u dlouhodobého majetku obvykle není vhodný, neboť přebytek majetku, 
+který se vztahuje k běžnému období, by měl být vyřešen úpravou původního účetního postupu 
+a přebytek majetku, který se vztahuje k minulým obdobím, by měl být účtován a vykázán 
+zpravidla jako chyba minulých let. 
+ 
+ 
+Zdůvodnění 
+25. V souladu se zákonem o účetnictví je účetní jednotka povinna inventarizovat veškerý majetek a 
+závazky alespoň jednou za účetní období. Z porovnání účetního a skutečného stavu mohou 
+vznikat rozdíly, které je nezbytné analyzovat. 
+ 
+26. Pokud je prokázáno, že se jedná o chybu, účetní jednotka posoudí, zda vznikla v běžném nebo 
+v předchozích účetních obdobích. Při řešení chyb postupuje účetní jednotka v návaznosti na 
+Vyhlášku a I-29. 
+ 
+27. Pokud je prokázáno, že se jedná o inventarizační rozdíl, v případě zásob může vzniknout 
+problém při účtování přebytků. Jako vhodný metodický přístup se jeví korigovat nastalé 
+náklady, neboť tato skutečnost neodpovídá vymezení výnosů. 
+ 
+28. Pokud je prokázáno, že se jedno o inventarizační rozdíl, v případě dlouhodobého majetku je 
+potřeba přístup zúžit na to, zda se jedná o odpisovaný nebo neodpisovaný dlouhodobý 
+majetek a s jakým účetním obdobím souvisí. 
+ 
+29. Přebytek neodpisovaného majetku zvyšuje aktiva a vlastní kapitál účetní jednotky, přičemž v 
+běžném období se jedná o účet v účtové skupině Základní kapitál a kapitálové fondy, v 
+minulém období se jedná o účet v účtové skupině Fondy ze zisku a převedené výsledky 
+hospodaření. Účetní jednotka přitom upraví v účetní závěrce minulé výsledky hospodaření. 
+ 
+30. Při zaúčtování přebytku odpisovaného majetku musí být upřednostněna zásada věrného a 
+poctivého zobrazení skutečnosti. Lze tedy vykazovat odpisovaný majetek v nulové zůstatkové 
+hodnotě, anebo na základě zkoumání postupů v běžném i minulých účetních obdobích musí 
+být zvolen postup, který zajistí věrné a poctivé zobrazení skutečností, které nastaly. 
+ 
+ 
+ 
+Datum prvního schválení 
+této interpretace NÚR: 
+15. dubna 2019 
+Zpracovatel interpretace: 
+Ing. Hana Březinová 
+Komora auditorů ČR 
+ 
+Ing. Petr Vácha 
+Komora auditorů ČR

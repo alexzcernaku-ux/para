@@ -1,0 +1,303 @@
+ZÁKON: ČÚS č. 020
+NAZEV: Český účetní standard pro podnikatele č. 020 – Konsolidovaná účetní závěrka
+URL: https://www.mfcr.cz/assets/cs/media/Ucetnictvi_2018_Ceske-ucetni-standardy-pro-500-2002_v02.pdf
+
+Konsolidovaná účetní závěrka  
+ 
+ 
+1. Cíl  
+     Cílem tohoto standardu je stanovit podle zákona č. 563/1991 Sb., o účetnictví, ve znění 
+pozdějších předpisů, (dále jen „zákon“) a vyhlášky č. 500/2002 Sb., kterou se provádějí 
+některá ustanovení zákona, č. 563/1991 Sb., o účetnictví, ve znění pozdějších předpisů, pro 
+účetní jednotky, které jsou podnikateli účtujícími v soustavě podvojného účetnictví, ve znění 
+pozdějších předpisů, (dále jen „vyhláška“) základní postupy při konsolidaci účetní závěrky za 
+účelem docílení souladu při používání účetních metod účetními jednotkami.  
+ 
+2. Vymezení pojmů pro účely postupů pro konsolidaci  
+2.1. V případě vymezení základních pojmů, například konsolidovaná účetní závěrka, 
+konsolidační celek, konsolidující účetní jednotka, konsolidovaná účetní jednotka, účetní 
+jednotka pod společným vlivem a účetní jednotka přidružená, účetní jednotka postupuje 
+podle příslušných ustanovení zákona a vyhlášky.  
+2.2.   zrušen  
+2.3.   Podíly se zpětnou vazbou se rozumí cenné papíry a podíly konsolidující účetní jednotky 
+v držení konsolidovaných účetních jednotek. Totéž platí i vůči konsolidujícím 
+podnikům v dílčích konsolidačních celcích.  
+ 
+3. Konsolidační pravidla  
+3.1.  Konsolidující účetní jednotka stanoví a vyhlásí konsolidační pravidla, podle kterých 
+konsolidované účetní jednotky včetně zahraničních podniků (dále jen „konsolidované 
+podniky“) upraví předkládané údaje pro sestavení konsolidované účetní závěrky.  
+3.2.   Konsolidační pravidla obsahují zejména:  
+a) způsoby oceňování majetku a závazků,  
+b) požadavky na údaje určené pro konsolidaci, které předkládají konsolidované 
+podniky,  
+c) termíny předkládání údajů, termíny předložení konsolidovaných účetních závěrek 
+nižších konsolidačních celků a termín sestavení konsolidované účetní závěrky za 
+konsolidační celek v případě sestavování konsolidace po jednotlivých úrovních.  
+3.3.  Konsolidující účetní jednotka vyhlásí kromě konsolidačních pravidel také vymezení 
+konsolidačního celku, popřípadě dílčího konsolidačního celku ve formě organizačního 
+schématu.  
+ 
+4. Charakteristika a etapy plné konsolidace  
+4.1.   Charakteristika plné metody konsolidace  
+Plnou metodou konsolidace se rozumí:  
+a) začlenění jednotlivých složek rozvahy a výkazů zisku a ztráty ovládaných osob v 
+plné výši po případném přetřídění a úpravách do rozvahy a výkazu zisku a ztráty 
+konsolidující účetní jednotky,  
+b) vyloučení účetních případů mezi účetními jednotkami konsolidovaného celku, které 
+vyjadřují vzájemné vztahy,  
+c) vykázání případného konsolidačního rozdílu a jeho odpis, 
+d)  rozdělení vlastního kapitálu ovládaných osob a jejich výsledku hospodaření na 
+podíl připadající ovládající osobě a podíl menšinových držitelů cenných papírů a 
+podílů emitovaných konsolidovanými podniky,  
+e) vyloučení cenných papírů a podílů, jejichž emitentem je ovládaná osoba, a 
+ 
+66 
+vlastního kapitálu této osoby, který se váže k vylučovaným podílovým cenným 
+papírům a podílům,  
+f) 
+vypořádání podílů se zpětnou vazbou.  
+4.2.   Etapy konsolidace plnou metodou  
+4.2.1. Přetřídění a úpravy položek účetních závěrek ovládajících osob a ovládaných osob.  
+Přetřídění údajů za ovládající osoby a za ovládané osoby se provede s ohledem na 
+doplněné položky konsolidované rozvahy a konsolidovaného výkazu zisku a ztráty a 
+jejich obsahovou náplň.  
+Úpravy se uskuteční podle vyhlášených principů oceňování v konsolidačních 
+pravidlech. Úpravy tohoto charakteru se provedou pouze u těch ovládaných osob, 
+jejichž oceňovací principy se odlišují od principů stanovených konsolidačními 
+pravidly a podstatným způsobem by ovlivnily pohled na ocenění majetku v 
+konsolidované účetní závěrce a vykázaný výsledek hospodaření.  
+Údaje z účetní závěrky ovládaných osob, které mají sídlo v zahraničí a vedou 
+účetnictví v cizí měně, se přepočítávají kursem platným ke dni, ke kterému je 
+sestavována konsolidovaná účetní závěrka.  
+4.2.2.  Úpravy ocenění aktiv a závazků ovládané osoby.  
+ 
+Liší-li se významně ocenění aktiv a závazků v účetnictví ovládaných osob od reálné 
+hodnoty, provede se v souvislosti se stanovením konsolidačního rozdílu úprava 
+ocenění na reálné hodnoty aktiv a závazků ke dni akvizice nebo ke dni zvýšení účasti 
+na základním kapitálu. Do konsolidované účetní závěrky se zahrnou příslušná aktiva a 
+závazky ovládané osoby v tomto upraveném ocenění.  
+ 
+Pokud dojde k úpravám ocenění aktiv a závazků podle výše uvedeného, zároveň se 
+provedou úpravy zachycující rozdíly z operací po dni akvizice nebo zvýšení účasti na 
+vlastním kapitálu, které vyplývají ze zahrnování příslušných aktiv nebo zúčtování 
+příslušných závazků na vrub nebo ve prospěch výsledku hospodaření ovládané osoby 
+v ocenění těchto položek v účetnictví ovládané osoby a těmito operacemi vyjádřenými 
+(oceněnými) v návaznosti na upravené ocenění příslušných položek aktiv a závazků 
+pro potřeby konsolidace.  
+4.2.3.  Sumarizace údajů účetních závěrek ovládající osoby a ovládaných osob.  
+ 
+Ovládající osoba sečte přetříděné a upravené údaje ze své účetní závěrky s 
+přetříděnými a upravenými údaji účetních závěrek ovládaných osob.  
+4.2.4.  Vyloučení vzájemných operací mezi ovládající osobou a ovládanými osobami.  
+4.2.4.1.  Vyloučení účetních operací bez vlivu na výsledek hospodaření.  
+Kompletně se vyloučí vzájemné pohledávky a dluhy, náklady a výnosy v rámci 
+konsolidačního celku, které mají významný vliv na stav majetku, závazků a 
+výsledkové položky v konsolidované účetní závěrce.  
+4.2.4.2.  Vyloučení účetních operací s vlivem na výši výsledku hospodaření.  
+a) při sestavování konsolidované rozvahy a konsolidovaného výkazu zisku a ztráty 
+se vyloučí vzájemné operace mezi ovládající osobou a ovládanou osobou, 
+respektive mezi ovládanými osobami navzájem, s významným vlivem na 
+výsledek hospodaření konsolidačního celku, mimo jiné v těchto případech: 
+prodej a nákup zásob v rámci konsolidačního celku,  
+b) prodej a nákup dlouhodobého majetku v rámci konsolidačního celku,  
+c) přijaté a vyplacené podíly na zisku v rámci konsolidačního celku.  
+Při použití plné metody konsolidace se vyloučí vzájemné operace mezi ovládající 
+osobou a ovládanými osobami a také mezi ovládanými a řízenými osobami 
+navzájem.  
+Vyloučení vzájemných operací s vlivem na výsledek hospodaření se provede v 
+souladu s vyhlášenými konsolidačními pravidly.  
+ 
+67 
+V případě vylučování výsledku hospodaření realizovaného z nákupů a prodejů zásob 
+v rámci konsolidačního celku je nutno opravit v konsolidované rozvaze a 
+konsolidovaném výkazu zisku a ztráty ocenění zásob a výnosy dosažené z prodeje 
+zásob. Pro účely této úpravy položek konsolidované účetní závěrky je možno využít 
+pro úpravu výnosů a změnu ocenění zásob i průměrné rentability tržeb vypočítané u 
+dodavatelů z celkového výsledku hospodaření nebo provozního výsledku 
+hospodaření, popřípadě lze využít oborovou či výrobkovou výnosovou rentabilitu 
+dodavatele či jiný přesnější postup.  
+V případě vylučování výsledku hospodaření z nákupu a prodeje dlouhodobého 
+majetku se výnosy z prodeje dlouhodobého majetku opraví o rozdíl mezi prodejní 
+cenou a zůstatkovou cenou u dodavatele. Zároveň se upraví oprávky dlouhodobého 
+majetku v konsolidované účetní závěrce.  
+O přijaté výnosy z podílů na zisku se sníží výnosová položka konsolidovaného 
+výkazu zisku a ztráty a zároveň zvýší nerozdělený zisk minulých let nebo sníží 
+neuhrazená ztráta minulých let v konsolidované rozvaze.  
+ 4.2.5.  Konsolidační rozdíl  
+ 
+Konsolidační rozdíl je rozdíl mezi pořizovací cenou podílů konsolidované 
+účetní jednotky a jejich oceněním podle podílové účasti konsolidující účetní jednotky 
+na výši vlastního kapitálu vyjádřeného reálnou hodnotou, která vyplývá jako rozdíl 
+reálných hodnot aktiv a reálných hodnot cizího kapitálu ke dni akvizice nebo ke dni 
+dalšího zvýšení účasti (dalšího pořízení cenných papírů nebo podílů). Za den akvizice 
+se považuje den, od něhož začíná účinně ovládající osoba uplatňovat příslušný vliv 
+nad konsolidovanou účetní jednotkou.  
+ 
+Konsolidační rozdíl se odepisuje do 20 let rovnoměrným odpisem, pokud neexistují 
+důvody pro kratší dobu odpisování. Zvolená doba odpisování musí být spolehlivě 
+prokazatelná a nesmí porušovat princip věrného a poctivého obrazu předmětu 
+účetnictví a finanční situace účetní jednotky. 
+Odpisy konsolidačního rozdílu se 
+vykazují ve zvláštní položce konsolidovaného výkazu zisku a ztráty.  
+4.2.6.  Rozdělení konsolidovaného vlastního kapitálu a vyloučení cenných papírů a podílů. 
+Rozdělením vlastního kapitálu v konsolidované rozvaze se rozumí vyčlenění 
+většinového podílu tvořeného součtem vlastního kapitálu ovládající osoby a jeho 
+podílů na vlastním kapitálu ovládaných osob a jejich oddělení od menšinových podílů, 
+tj. zbývajících podílů ostatních akcionářů a společníků obchodní korporace na 
+vlastním kapitálu těchto konsolidovaných účetních jednotek.  
+ 
+Podíly, jejichž emitentem je ovládaná osoba, a vlastní kapitál ovládané osoby, který se 
+váže k podílům v držení ovládající osoby, se vyloučí z konsolidované rozvahy.  
+ 4.2.7. Menšinový vlastní kapitál  
+ 
+Jedná se o pasivní rozvahové položky, ve kterých se uvádějí menšinové podíly 
+na vlastním kapitálu ovládaných osob v členění podílů na základním kapitálu, 
+kapitálových fondech, fondech ze zisku, nerozděleném, popřípadě neuhrazeném, 
+výsledku hospodaření minulých let a výsledku hospodaření běžného účetního období.  
+4.2.8.  Rozdělení konsolidovaného výsledku hospodaření běžného období  
+ 
+Výsledek hospodaření běžného účetního období za konsolidační celek se v 
+konsolidovaném výkazu zisku a ztráty rozdělí v příslušném poměru na konsolidovaný 
+výsledek hospodaření za účetní období vztahující se k ovládající osobě a na 
+menšinový podíl na výsledku hospodaření vztahující se k ostatním akcionářům a 
+společníkům ovládaných osob.  
+4.2.9.  Vypořádání podílů se zpětnou vazbou  
+Podíly se zpětnou vazbou se vypořádají v konsolidované účetní závěrce podle 
+charakteru jejich pořízení.  
+ 
+68 
+ 
+V případě, že jsou pořizovány krátkodobě se záměrem jejich prodeje, se vykazují v 
+aktivech konsolidované rozvahy v položce krátkodobého finančního majetku.  
+ 
+V případě jejich pořízení s cílem dlouhodobého vlastnictví jsou tyto podíly vykázány 
+jako údaj představující snížení vlastního kapitálu v položce „Základní kapitál“ ve výši 
+jmenovité hodnoty a případný rozdíl je vypořádán v položce kapitálových fondů v 
+konsolidované rozvaze a jsou uvedeny v příloze.  
+ 
+5. Konsolidace ekvivalenční metodou  
+5.1.  Charakteristika konsolidace ekvivalenční metodou  
+        Touto metodou se rozumí následující úprava údajů účetní závěrky účetní jednotky 
+uplatňující podstatný vliv  
+a) vyloučení podílů z rozvahy účetní jednotky uplatňující podstatný vliv, jejichž 
+emitentem je konsolidovaná účetní jednotka pod podstatným vlivem, a jejich 
+nahrazení samostatnou rozvahovou položkou podílů v ekvivalenci oceněných ve 
+výši podílu na vlastním kapitálu konsolidované účetní jednotky pod podstatným 
+vlivem,  
+b) vypořádání rozdílu mezi oceněním podílů a konsolidační rozvahovou položkou 
+podílu v ekvivalenci vykázáním:  
+ba) poměrné části výsledku hospodaření konsolidované účetní jednotky pod 
+podstatným vlivem ve výši podílové účasti účetní jednotky uplatňující 
+podstatný vliv v samostatné položce konsolidovaného výkazu zisku a ztráty 
+„Podíl na výsledku hospodaření v ekvivalenci“ a v samostatné rozvahové 
+položce „Podíl na výsledku hospodaření v ekvivalenci“,  
+bb) konsolidačního rezervního fondu, který představuje akumulované podíly na 
+výsledcích hospodaření v ekvivalenci minulých let osob pod podstatným 
+vlivem ode dne jejich akvizice. Konsolidační rezervní fond obsahuje též podíly 
+konsolidované účetní jednotky na změnách v úhrnné výši ostatního vlastního 
+kapitálu (tj. bez výsledku hospodaření) daného období.  
+5.2.  Pokud se konsolidace provádí po jednotlivých úrovních (dílčích konsolidačních celcích), 
+část podílu na výsledku hospodaření konsolidované účetní jednotky pod podstatným 
+vlivem zachycená v konsolidovaném výkazu zisku a ztráty dílčího konsolidačního celku 
+se zahrnuje v plné výši do položky „Podíl na výsledku hospodaření v ekvivalenci“ v 
+konsolidovaném výkazu zisku a ztráty za vyšší konsolidační celek.  
+5.3.   Podíl na výsledku hospodaření v ekvivalenci.  
+         Podíl na výsledku hospodaření v ekvivalenci se týká výsledku hospodaření za běžné 
+účetní období konsolidované účetní jednotky pod podstatným vlivem a jeho výše se 
+zjistí na základě podílové účasti účetní jednotky uplatňující podstatný vliv na 
+konsolidovanou účetní jednotku pod podstatným vlivem a na základě skutečně 
+dosaženého výsledku hospodaření za období konsolidované účetní jednotky pod 
+podstatným vlivem ode dne akvizice do konce účetního období v roce akvizice 
+konsolidované účetní jednotky pod podstatným vlivem. V následujících letech se 
+konsolidovaný výsledek hospodaření v ekvivalenci stanoví jako součin podílové účasti a 
+výsledku hospodaření konsolidovanou účetní jednotku pod podstatným vlivem za účetní 
+období.  
+5.4.  Pokud se konsolidace provádí přímou metodou, převezme se poměrná část na výsledku 
+hospodaření konsolidované účetní jednotky pod podstatným vlivem odpovídající 
+podílové účasti účetní jednotky uplatňující podstatný vliv na konsolidované účetní 
+jednotce pod podstatným vlivem na základě přímých i nepřímých podílů.  
+5.5.  Při použití ekvivalenční metody se vylučují prokazatelně zjistitelné vzájemné vztahy, 
+které mají významný dopad na hodnotu vlastního kapitálu a výsledku hospodaření 
+ 
+69 
+běžného období konsolidované účetní jednotky pod podstatným vlivem.  
+5.6.   Podíly na zisku obdržené od účetních jednotek konsolidovaných ekvivalenční metodou 
+se vyloučí z výkazu zisku a ztráty účetní jednotky uplatňující podstatný vliv a zvýší se o 
+jejich výši položka konsolidovaného rezervního fondu.  
+5.7.   Konsolidační rozdíl se řeší stejně jako u plné metody.  
+ 
+6. Konsolidace poměrnou metodou  
+6.1.   Poměrnou metodou konsolidace se rozumí  
+a) vzájemné vztahy včetně vypořádání podílů se zpětnou vazbou,  
+b) začlenění jednotlivých složek rozvahy a výkazu zisku a ztráty v poměrné výši 
+odpovídající podílu ovládající osoby na osobě, která je ovládána ve shodě s další 
+nebo dalšími osobami, pokud tyto osoby mají shodný podíl na základním kapitálu 
+ovládané osoby po případném přetřídění a úpravách do rozvahy a výkazu zisku a 
+ztráty konsolidující účetní jednotky,  
+c) vykázání případného konsolidačního rozdílu a jeho odpis,  
+d) vyloučení podílů, jejichž emitentem je osoba ovládaná ve shodě s další nebo 
+dalšími osobami, pokud tyto osoby mají shodný podíl na vlastním kapitálu 
+ovládané nebo řízené osoby, a vlastního kapitálu, který se váže k vylučovaným 
+podílům.  
+6.2.  Etapy konsolidace poměrnou metodou  
+Etapy konsolidace poměrnou metodou jsou obdobné etapám použitým při konsolidaci 
+plnou metodou s tím, že vyloučení vzájemných operací mezi osobou ovládanou ve 
+shodě s další nebo dalšími osobami v konsolidačním celku a vyloučení podílů se 
+zpětnou vazbou se provede pouze v poměrné výši odpovídající podílu ovládající osoby 
+na osobě, která je ovládána ve shodě.  
+ 6.3.  Konsolidační rozdíl  
+Konsolidační rozdíly se řeší stejně jako u plné metody.  
+ 
+7. Obecná pravidla  
+7.1.  Konsolidovaná účetní závěrka se sestavuje za příslušné účetní období k datu řádné účetní 
+závěrky konsolidující účetní jednotky.  
+7.2.  Konsolidovaná rozvaha zahrnuje minimálně položky označené velkými písmeny latinské 
+abecedy a římskými číslicemi doplněné o položky podle § 65 vyhlášky. Ve 
+zveřejňovaných údajích se uvede pouze souhrnná pasivní položka „Menšinový vlastní 
+kapitál“ bez podrobnějšího členění.  
+7.3.  Konsolidovaný výkaz zisku a ztráty zahrnuje minimálně položky označené velkými 
+písmeny latinské abecedy a římskými číslicemi a výpočtové položky doplněné o 
+položky podle § 66 vyhlášky.  
+ 
+8. Konsolidovaný přehled o peněžních tocích  
+8.1. Volba metody, koncepce a modelu přehledu o peněžních tocích, obsahová náplň 
+peněžních prostředků a peněžních ekvivalentů a dalších ukazatelů je v pravomoci 
+konsolidující účetní jednotky při respektování věrného a poctivého zobrazení předmětu 
+účetnictví.  
+8.2.    Účetní jednotka uvede v příloze každou změnu v modelu, konstrukci a obsahové náplni 
+ukazatelů přehledu o peněžních tocích oproti předcházejícímu účetnímu období, 
+zejména změnu zásad při určování součástí peněžních prostředků a peněžních 
+ekvivalentů.  
+8.3.  Účetní jednotka prokáže soulad mezi částkami peněžních prostředků a peněžních 
+ekvivalentů v přehledu o peněžních tocích a mezi odpovídajícími položkami 
+ 
+70 
+vykazovanými v konsolidované rozvaze. Případné rozdíly účetní jednotka zdůvodní v 
+příloze.  
+8.4.  Účetní jednotka může zvolit podrobné nebo souhrnné členění položek přehledu o 
+peněžních tocích; je-li to vhodné, uvede vysvětlivky. 
+8.5.   Příklad možného řešení peněžních toků a ekvivalentů.  
+Vymezení položek je shodné jako v případě příkladu možného řešení přehledu o 
+peněžních tocích uvedeného v Českém účetním standardu pro podnikatele č. 023 
+Přehled o peněžních tocích, s těmito odchylkami:  
+A.1.1. Odpisy stálých aktiv s výjimkou zůstatkové ceny prodaných stálých aktiv a dále 
+umořování oceňovacího rozdílu k nabytému majetku a goodwillu a odpis 
+konsolidačních rozdílů.  
+A.1.4. Výnosy z podílů na zisku s výjimkou vyplacených od účetních jednotek v 
+konsolidačním celku.  
+B.4. Peněžní toky z nákupu obchodního závodu nebo jeho části  
+C.2.2. Vyplacení podílu na vlastním kapitálu společníkům mimo konsolidační celek (-)  
+C.2.4. Úhrada ztráty společníky mimo konsolidační celek (+)  
+C.2.6. Vyplacené podíly na zisku včetně zaplacené srážkové daně vztahující se k těmto 
+nárokům a včetně finančního vypořádání se společníky ve veřejné obchodní 
+společnosti a komplementáři u komanditních společností (-) kromě podílů 
+vyplacených mezi účetními jednotkami konsolidačního celku.  
+C.3.  Přijaté podíly na zisku od účetních jednotek mimo konsolidační celek, s výjimkou 
+účetních jednotek, jejichž předmětem činnosti je investiční činnost (+).  
+D. Rozdíly způsobené dopadem kursových rozdílů na základě zahrnutí konsolidovaných 
+účetních jednotek do konsolidace.  
+  
+9.  zrušen 
+ 
+71

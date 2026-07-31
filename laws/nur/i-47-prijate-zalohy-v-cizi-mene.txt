@@ -1,0 +1,273 @@
+ZÁKON: NÚR I-47
+NAZEV: Interpretace Národní účetní rady I-47 – Přijaté zálohy v cizí měně
+URL: http://nur.cz/wp-content/uploads/2022/02/I-47.pdf
+
+© Národní účetní rada 
+ 
+1/6 
+Interpretace Národní účetní rady 
+I-47 Přijaté zálohy v cizí měně 
+Účetní jednotky jsou povinny vést účetnictví tak, aby účetní závěrka sestavená na jeho základě 
+podávala věrný a poctivý obraz předmětu účetnictví a finanční situace účetní jednotky (zákon 
+č. 563/1991 Sb., o účetnictví, § 7, odst. 1). Za vedení účetnictví je odpovědná účetní jednotka. 
+Tato interpretace není právně závazným stanoviskem, pouze vyjadřuje odborný názor Národní 
+účetní rady a může být aplikována pouze v kontextu s Předmluvou Národní účetní rady k 
+interpretacím českých účetních předpisů. Postup popsaný v této interpretaci poskytuje účetní 
+jednotce návod v případech, kdy má jejich aplikace významný dopad na informace uvedené v 
+účetní závěrce a kdy informační přínosy jsou větší než náklady nutné na jejich získání. 
+Popis problému: 
+1. Zákon č. 563/1991 Sb., o účetnictví (dále také „zákon“), v § 4 odst. 12 ukládá účetním 
+jednotkám povinnost vést účetnictví v peněžních jednotkách české měny a v případě 
+pohledávek a závazků, a jiných vymezených aktiv a závazků, pokud jsou vyjádřeny v cizí 
+měně, jsou účetní jednotky povinny použít současně i cizí měnu. 
+2. Běžnou součástí ekonomických transakcí a událostí účetních jednotek jsou transakce 
+sjednané v jiné měně, než je měna česká, v níž mají dle zákona vést účetnictví (tzv. 
+cizoměnové transakce).  
+3. V souvislosti s cizoměnovými transakcemi je účetní jednotka vystavena (otevřena) 
+kurzovému (měnovému) riziku, pokud cizoměnová transakce bude v budoucnu 
+vypořádána peněžní platbou. Kurzové riziko se do účetnictví a do účetní závěrky přenáší 
+prostřednictvím kurzových rozdílů – ziskových nebo ztrátových a ve svém důsledku mění 
+výši výsledku hospodaření a hodnotu aktiv a závazků vykazovanou v účetní závěrce. 
+4. Kurzové riziko ze své podstaty vzniká pouze u těch cizoměnových aktiv a závazků, kdy 
+vývoj měnového kurzu má vliv na výši budoucích peněžních toků, které účetní jednotka z 
+aktiva očekává získat jako přijatou platbu, resp. v souvislosti s vypořádáním závazku, který 
+očekává uhradit (např. odběratelé, nakoupené dluhopisy, dodavatelé, přijaté úvěry apod.).  
+5. Kurzové riziko nevyplývá z aktiv a závazků, které ač jsou důsledkem cizoměnové 
+transakce, nevyjadřují směrem do budoucna očekávaný peněžní tok (např. pozemky a 
+budovy v rámci dlouhodobého hmotného majetku, zásoby, náklady příštích období, výnosy 
+příštích období, stejně tak uhrazené nebo přijaté zálohy, které nebudou v budoucnosti 
+vráceny apod.). 
+6. České účetní předpisy nedefinují obecně cizoměnová aktiva a závazky, s nimiž je spojen 
+určitý – pevný nebo jasně determinovaný – budoucí peněžní tok a tím neposkytují obecně 
+platná pravidla, která by byla použita účetními jednotkami pro kurzové přepočty 
+cizoměnových položek. 
+7. Přijatá záloha v cizí měně je v rozvaze vykazována v rámci závazků, účetní jednotky ji k 
+rozvahovému dni považují za cizoměnový závazek a provádějí její kurzový přepočet. Ve 
+finančním výsledku hospodaření jsou pak vykazovány vyplývající kurzové rozdíly.  
+
+ 
+ 
+I-47 Přijaté zálohy v cizí měně 
+ 
+© Národní účetní rada 
+ 
+2/6 
+8. K okamžiku dodání souvisejícího aktiva nebo poskytnutí služby dochází k zúčtování 
+zálohy, tj. k uskutečnění účetního případu, při němž dochází opět ke kurzovému přepočtu 
+a k vykázání kurzových rozdílů ve finančním výsledku hospodaření. Ocenění výnosu ve 
+výkazu zisku a ztráty je tak vyjádřeno v peněžních jednotkách české měny s použitím 
+měnového kurzu platného k okamžiku naplnění podmínek pro uznání výnosu. 
+9. Cílem této interpretace je stanovit účetní řešení pro vykazování záloh přijatých v cizí měně 
+v účetní závěrce a poskytnout odpovědi na následující otázky: 
+a) Co je podstatou přijaté zálohy? 
+b) Kdy je přijatá záloha (peněžním) závazkem a kdy nikoliv? 
+c) Kde v rozvaze má být vykázána přijatá záloha, pokud není závazkem? 
+d) Kdy k přijaté záloze jsou vykazovány kurzové rozdíly? 
+Řešení: 
+10. Přijatá záloha je důsledkem uzavřené prodejní transakce (prodej zboží, výrobků, služeb), 
+při níž peněžní platba byla prodávající účetní jednotkou obdržena před vlastní realizací 
+prodeje, tj. dodání aktiva, resp. poskytnutí služby, s níž je spojeno zachycení výnosu ve 
+výsledku hospodaření.  
+11. Obecně platí, že prodejní cenu lze uhradit při dodání zboží, výrobků či poskytnutí služby 
+v čase následujícím po dodání (k okamžiku dodání vzniká pohledávka), anebo v době před 
+dodáním (je zachycena přijatá záloha nebo výnos příštích období). Proto přijatá záloha 
+představuje ve své podstatě samostatnou (dílčí) část celkové prodejní ceny prodávaného 
+aktiva či poskytované služby. Přijatá záloha je financováním (úhradou) smluvené prodejní 
+transakce, přičemž se lze domnívat, že dodání aktiva, resp. poskytnutí služby ze strany 
+prodávajícího následuje. 
+12. Je-li u prodávajícího transakce, s níž souvisí přijetí zálohy, ve stavu, že dojde 
+pravděpodobně k dodání aktiva, resp. poskytnutí služby (např. byla započata výroba, 
+objednán materiál, rozplánována zakázka), je přijatá záloha samostatnou (dílčí) částí 
+celkové prodejní ceny aktiva nebo služby sjednané v cizí měně, a proto: 
+a) nepředstavuje závazek vyjádřený v cizí měně spadající do § 4 odst. 12 zákona o 
+účetnictví, který je předmětem kursového přepočtu; 
+b) účetní jednotka vykazuje zůstatek přijaté zálohy v peněžních jednotkách české měny 
+v hodnotě stanovené kurzovým přepočtem k datu poskytnutí peněžních prostředků; 
+c) přijatá záloha je v rozvaze vykazována v rámci časového rozlišení výnosů jako 
+Výnosy příštích období (obsahová shoda s I-37 Časové rozlišení a cizí měna); 
+d) část prodejní ceny, která nebyla uhrazena přijetím zálohy před dodáním aktiva či 
+poskytnutím služby, představuje další samostatnou (dílčí) část celkové prodejní ceny, 
+o níž účetní jednotka účtuje (jako o pohledávce nebo úhradě) v době realizace 
+prodejní transakce, přičemž nedochází souběžně k přepočtu částky přijaté zálohy.  
+13. Předchází-li realizaci prodejní transakce více směnných transakcí, z nichž je kumulován 
+zůstatek přijatých plateb, přísluší každé směnné transakci historický měnový kurz určený 
+k přepočtu příslušné výše zálohové platby, neboť každá přijatá platba je samostatnou (dílčí) 
+částí celkové prodejní ceny.  
+14. Představuje-li příjem peněz platby za kontinuálně ve stejnou dobu probíhající dodávky 
+(např. prodej energie) s následným vyúčtováním (např. ročním), nejedná se o zálohy dle 
+
+ 
+ 
+I-47 Přijaté zálohy v cizí měně 
+ 
+© Národní účetní rada 
+ 
+3/6 
+vymezení v odst. 10 a účetní jednotka vykáže přijaté platby průběžně ve výnosech. 
+Nejpozději k rozvahovému dni účetní jednotka odhadne výši očekávaného, resp. 
+konečného vyrovnání (s uvážením řešení dle I-18 Dohadné položky v cizí měně) tak, aby 
+výše vykázaných výnosů odpovídala předpokládanému plnění za dodávku a souvztažně 
+s úpravou výnosů vykáže cizoměnovou pohledávku nebo cizoměnový závazek. 
+15. Je-li u prodávajícího transakce, s níž souvisí přijetí zálohy, ve stavu, že dojde 
+pravděpodobně k navrácení přijaté peněžní částky a prodejní transakce nebude 
+realizována:  
+a) představuje přijatá záloha závazek vyjádřený v cizí měně spadající do § 4 odst. 12 
+zákona o účetnictví, který je předmětem kursového přepočtu; 
+b) účetní jednotka vykazuje zůstatek přijaté zálohy v peněžních jednotkách české měny 
+v hodnotě stanovené kurzovým přepočtem k rozvahovému dni, přičemž do 
+finančního výsledu hospodaření je zahrnut související kurzový rozdíl; 
+c) přijatá záloha je v rozvaze vykazována v rámci závazků. 
+Zdůvodnění: 
+16. Z podstaty kurzového rizika plyne, že přijaté zálohy, je-li očekáváno dokončení předmětné 
+prodejní transakce, nepředstavují cizoměnové závazky a (i) jsou již předmětným výnosem, 
+u něhož jen nenastal okamžik uznání ve výsledku hospodaření a (ii) není s nimi spojeno 
+kurzové riziko, protože peněžní tok jim předcházel a ve výši zálohy se očekává již 
+nepeněžní plnění. Proto se zůstatky těchto účtů k datu účetní závěrky, ani k datu zúčtování 
+záloh kurzově nepřepočítávají. 
+17. Přijaté zálohy ve své ekonomické podstatě představují předem přijatou úhradu dodávky, 
+která bude realizována v budoucnu. Přijatá záloha se přeměnění v konkrétní výnos v 
+podobě tržby při dodání předmětného aktiva či při poskytnutí služby. Podobnou úvahu lze 
+mít u výnosů příštích období, které časově rozlišují předplacené prodávané služby jako je 
+např. nájemné. 
+18. NÚR vydala interpretaci s označením I-37 Časové rozlišení a cizí měna popisující účetní 
+řešení, dle něhož náklady a výnosy příštích období jsou aktiva a závazky, které jsou 
+důsledkem již uskutečněného peněžního toku, není s nimi spojeno kurzové riziko, a proto 
+i když jsou důsledkem cizoměnové transakce, nepřísluší účetním jednotkám kurzově 
+přepočítávat jejich hodnotu. Pro zajištění věrného obrazu předmětu účetnictví a finanční 
+situace by měl být účetní jednotkou aplikován koncepčně stejný přístup popsaný v I-37 i 
+pro přijaté zálohy, u nichž je očekáváno dokončení smluvního ujednání. 
+19. Dále pak NÚR vydala I-43 Poskytnuté zálohy v cizí měně, ve které jsou upravena pravidla 
+pro zálohy zaplacené v cizí měně, a touto intepretací by měla být odborná veřejnost 
+ujištěna, že i pro přijaté zálohy platí koncepčně shodný přístup. 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+I-47 Přijaté zálohy v cizí měně 
+ 
+© Národní účetní rada 
+ 
+4/6 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Datum prvního schválení  
+ 
+31. ledna 2022 
+této interpretace NÚR: 
+ 
+Datum poslední aktualizace   
+– 
+této interpretace NÚR: 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Zpracovatelé intepretace: 
+ 
+Ing. Libor Vašek, Ph.D. 
+ 
+ 
+ 
+ 
+ 
+Fakulta financí a účetnictví VŠE v Praze 
+ 
+ 
+ 
+ 
+ 
+prof. Ing. Libuše Mullerová, CSc. 
+ 
+ 
+ 
+ 
+ 
+Fakulta financí a účetnictví VŠE v Praze 
+ 
+ 
+ 
+ 
+
+ 
+© Národní účetní rada 
+ 
+5/6 
+Vypořádání připomínek z vnějšího připomínkového řízení: 
+V rámci vnějšího připomínkového řízení NÚR obdržela níže uvedené připomínky a podněty 
+od Ing. Marie Zelenkové, Ph.D. Níže je shrnuto jejich vypořádání. 
+ 
+Připomínky k Návrhu interpretace NI-67 Přijaté zálohy v cizí měně a jejich vypořádání 
+1) Odst. 3: „…, pokud je účtování cizoměnové transakce spojeno s peněžní platbou 
+v budoucnosti.“ 
+Nejde o to, s čím je spojeno „účtování“, ale o to, že ta cizoměnová transakce bude vypořádána 
+platbou v penězích. 
+Vypořádání: Věta obsažená v odst. 3 je opravena na nové znění „…pokud cizoměnová 
+transakce bude v budoucnu vypořádána peněžní platbou“. 
+ 
+2) Odst. 17: „Přijaté zálohy ve své ekonomické podstatě představují předem přijatou úhradu, 
+která se shoduje s vymezením výnosů příštích období.“ 
+Shoduje se s principem pro vykazování výnosů příštích období. Ale nejedná se o totální 
+shodu. Tj. neplatí, že přijaté zálohy jsou naprosto totéž výnosy příštích období, co přijaté 
+zálohy. 100% shoda tu není např. z důvodů: 
+• Po záloze přichází vyúčtování dle skutečnosti (tj. přijatá záloha se nemusí 100% rovnat výši, 
+která je za poskytnutí služby požadována v okamžiku, kdy je tato výše dle skutečné 
+spotřeby vyčíslena) => např. v prosinci je zaplacena záloha na dodávku něčeho v lednu, 
+přičemž konečná výše se bude odvíjet od skutečné hodnoty odebraných dodávek něčeho 
+(služby); kdežto výnos příštího období by to byl (má-li být interpretace v souladu s českými 
+předpisy, vyhláškou atd.), pokud by byl zaplacen např. paušál bez ohledu na skutečně 
+odebrané množství/velikost (služby), tj. byla-li by částka dopředu přesně stanovena;  
+• O výnos příštího období se jedná, pokud je platba v jednom období a dodávka (služby) až 
+v budoucím období; záloha bývá zaplacena a následně vyúčtována i v rámci jednoho 
+účetního období (k řešení tohoto problému dává interpretace návod v odst. 14, který se 
+neshoduje s řešením zálohy uvedené v odst. 12). 
+• Časové rozlišení, tedy i výnosy příštích období, mohou být dlouhodobé (např. přijaté peníze 
+na 3 roky dopředu); vyúčtování záloh obvykle probíhá v krátkém (resp. ročním) období. 
+Ano, může být i dlouhodobá záloha (ve smyslu složené kauce), tato však obvykle bývá 
+vratná, a tedy by se opět řešila jinak, než výnos příštího období. 
+Samozřejmě, že záloha je platba dopředu. Přijatá záloha vs. výnos příštího období se shodují 
+v tom, že byly přijaty peníze na nějakou dodávku, která teprve bude realizována. Z výše 
+uvedeného ale vyplývá, že ne každá záloha (platba dopředu), může být výnosem příštího 
+období. Proto podle mého názoru by bylo vhodnější první větu v odst. 17 přeformulovat, 
+neboť se nejedná o absolutní shodu těchto dvou položek. A i samotná interpretace se zálohami 
+(resp. s položkou, která je prvotně zachycena jako záloha) pracuje v odstavcích 12. a 14. 
+odlišně, resp. v souladu s jejich ekonomickou podstatou. Interpretace v odst. 17 má zřejmě na 
+mysli shodný princip, postup, jak problematiku související s cizoměnovou přijatou 
+
+ 
+ 
+I-47 Přijaté zálohy v cizí měně 
+ 
+© Národní účetní rada 
+ 
+6/6 
+zálohou/výnosem příštího období řešit za podmínek uvedených v odst. 12 (nikoliv absolutní 
+shodu).  
+Tuto připomínku podtrhuje i fakt, že k časovému rozlišení se váže interpretace NUR č. 37, 
+k zálohám zaplaceným interpretace NUR č. 43 a k zálohám přijatým je nyní vydávána tato 
+interpretace. Proč by NUR vydávala několik interpretací, pokud jsou zálohy naprosto totéž, co 
+časové rozlišení? Pak by zálohy měly být součástí interpretace vážící se k časovému rozlišení. 
+I tím, že NUR vydala několik interpretací vytváří povědomí, že nejde o absolutní shodu.  
+Vypořádání: První věta obsažená v odst. 17 je přeformulována takto: „Přijaté zálohy ve své 
+ekonomické podstatě představují předem přijatou úhradu dodávky, která bude realizována 
+v budoucnu.“ 
+ 
+3) Dále několik připomínek jazykového charakteru, které byly zapracovány.

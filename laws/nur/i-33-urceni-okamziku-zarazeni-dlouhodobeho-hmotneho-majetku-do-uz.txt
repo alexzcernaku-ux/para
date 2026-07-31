@@ -1,0 +1,232 @@
+ZÁKON: NÚR I-33
+NAZEV: Interpretace Národní účetní rady I-33 – Určení okamžiku zařazení dlouhodobého hmotného majetku do užívání
+URL: http://nur.cz/wp-content/uploads/2020/10/I-33_updated.pdf
+
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+1/5 
+Interpretace NÚR 
+I–33 
+Určení okamžiku zařazení dlouhodobého hmotného majetku do užívání 
+Účetní jednotky jsou povinny vést účetnictví tak, aby účetní závěrka sestavená na jeho základě 
+podávala věrný a poctivý obraz předmětu účetnictví a finanční situace účetní jednotky (zákon 
+č. 563/1991 Sb., o účetnictví, § 7, odst. 1). Účetní jednotky účtují o stavu a pohybu majetku a jiných 
+aktiv, závazků a jiných pasiv, dále o nákladech a výnosech a o výsledku hospodaření. (zákon 
+č. 563/1991 Sb., o účetnictví, § 2, Předmět účetnictví).  
+Tato interpretace musí být aplikována v kontextu s Předmluvou Národní účetní rady 
+k interpretacím českých účetních standardů. 
+ 
+ 
+Popis problému 
+1. Při pořizování technologicky anebo finančně náročných investic musí účetní jednotky správně 
+určit okamžik zahájení pořízení majetku a okamžik ukončení pořízení majetku a jeho zařazení 
+do používání. Správné vymezení období, po které se dlouhodobý hmotný majetek nachází ve 
+fázi pořizování, je klíčové pro správné vyčíslení nákladů spojených s pořizovaným majetkem 
+pro potřeby určení pořizovací ceny majetku při jeho zařazení do používání. 
+ 
+2. Otázku stanovení okamžiku zahájení účtování souvisejících nákladů spojených s pořízením 
+dlouhodobého hmotného majetku řeší Interpretace I-5. Okamžik zařazení dlouhodobého 
+majetku do používání je upraven vyhláškou č. 500/2002 Sb., kterou se provádějí některá 
+ustanovení zákona č. 563/1991 Sb., o účetnictví, ve znění pozdějších předpisů, pro účetní 
+jednotky, které jsou podnikateli účtujícími v soustavě podvojného účetnictví (dále jen vyhláška 
+č. 500/2002 Sb.). Dle ustanovení § 7 odst. 11 „dlouhodobým hmotným majetkem se stávají 
+pořizované věci uvedené do stavu způsobilého k užívání, kterým se rozumí dokončení věci a 
+splnění technických funkcí a povinností stanovených zvláštními právními předpisy pro užívání 
+(způsobilost k provozu). Obdobně se postupuje v případě technického zhodnocení. Toto 
+ustanovení se nepoužije v případě nabytých věcí, které před nabytím byly uvedeny do stavu 
+způsobilého k užívání a nevyžadují montáž u nabyvatele.“ 
+ 
+3. Uvedení majetku do stavu způsobilého k užívání je tedy podmíněno splněním technicko- 
+ekonomických funkcí (tj. dokončení věci) a právními aspekty (tj. splněním technických funkcí a 
+povinností stanovených zvláštními právními předpisy pro užívání daného majetku – tzv. získání 
+osvědčení o způsobilosti k provozu). Ustanovení vyhlášky nedefinují pojem dokončení věci a 
+také jsou nejednoznačná, zda splnění podmínek způsobilosti k provozu nastává okamžikem 
+obdržení osvědčení od příslušné veřejné (nebo jiné pověřené) instituce, anebo již v okamžiku 
+splnění všech podmínek, které podmiňují vydání osvědčení. V některých situacích se tedy může 
+odlišovat technicko-ekonomický okamžik uvedení majetku do stavu způsobilého k používání od 
+okamžiku právního. 
+ 
+
+ 
+                Interpretace NÚR I-33 Určení okamžiku zařazení dlouhodobého hmotného majetku do 
+užívání 
+ 
+ 
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+2/5 
+4. Podmínka splnění „povinností stanovených zvláštními právními předpisy pro užívání 
+(způsobilost k provozu)“ je též nejednoznačná z hlediska vymezení obsahové podstaty pojmu 
+„způsobilost k provozu“. V úvahu přicházejí dvě možnosti, které mohou mít vliv na určení 
+okamžiku zařazení dlouhodobého majetku do používání: 
+a) způsobilost k provozu v širším smyslu slova, tj. všechna osvědčení, včetně i „vedlejších“, 
+která se nevztahují k hlavním funkčním charakteristikám pořizovaného majetku; 
+b) způsobilost k provozu v užším smyslu slova, tj. pouze ta osvědčení, která se vztahují k 
+hlavním funkčním charakteristikám pořizovaného majetku. 
+ 
+5. Tato Interpretace se zabývá účetním řešením určení okamžiku zařazení dlouhodobého 
+hmotného majetku do používání, jestliže se dokončení majetku (věci) odlišuje od okamžiku 
+obdržení právního osvědčení o způsobilosti majetku k provozu. Při zařazování dlouhodobého 
+hmotného majetku musí účetní jednotka posoudit: 
+a) ve kterém okamžiku je pořizovaný dlouhodobý hmotný majetek dokončen z technicko-
+ekonomického hlediska; 
+b) ve kterém okamžiku je pořizovaný dlouhodobý hmotný majetek způsobilý k provozu 
+podle právních předpisů; 
+c) liší-li se okamžiky v odstavci 5a a 5b, zda se bude aplikovat postup podle odstavce 7a, 
+7b, nebo 7c této Interpretace. 
+ 
+6. Tato Interpretace řeší pouze stanovení okamžiku zařazení dlouhodobého hmotného majetku 
+do používání. Veškeré ostatní aspekty související s pořízením majetku (např. určení pořizovací 
+ceny, stanovení okamžiku zahájení účtování souvisejících nákladů spojených s pořízením 
+dlouhodobého majetku, zmetky vzniklé při pořízení atd.) nejsou předmětem této Interpretace. 
+Tato Interpretace částečně nahrazuje Interpretaci I-6 Splnění podmínek pro zařazení 
+dlouhodobého hmotného majetku do užívání. Tato Interpretace se nezabývá zařazováním částí 
+majetku. Vzhledem ke specifikům se tato Interpretace nezabývá určením okamžiku zařazení 
+dlouhodobého nehmotného majetku do užívání, byť obecné principy vymezené Interpretací lze 
+použít jako východisko pro účetní zachycení obdobných případů i u dlouhodobého 
+nehmotného majetku. 
+ 
+Řešení 
+7. V případech, kdy volba mezi ekonomickým (účetním) pohledem na okamžik zařazení majetku 
+do používání je v rozporu s právním přístupem, musí účetní jednotka zvolit v souladu 
+s ustanoveními zákona č. 563/1991 Sb., o účetnictví, ve znění pozdějších předpisů (dále jen 
+zákon o účetnictví), postup, který respektuje ekonomickou podstatu transakce a nezastírá 
+skutečný stav. Při naplňování tohoto požadavku musí účetní jednotka posoudit povahu 
+naplnění podmínky způsobilosti k provozu ve vazbě na určení okamžiku zařazení majetku do 
+používání: 
+a) jestliže uvedení pořizovaného majetku do používání je podmíněno vydáním osvědčení 
+příslušnou veřejnou institucí, je ekonomické dokončení majetku závislé na právním 
+stavu majetku a účetní jednotka zařadí majetek do používání k datu, ke kterému nabylo 
+účinnost osvědčení o způsobilosti k provozu; 
+
+ 
+                Interpretace NÚR I-33 Určení okamžiku zařazení dlouhodobého hmotného majetku do 
+užívání 
+ 
+ 
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+3/5 
+b) jestliže osvědčení o způsobilosti k provozu má povahu následného nebo podmíněně 
+následného ověření a potvrzení splnění všech podmínek a majetek může být používán 
+již před vydáním osvědčení, účetní jednotka zařadí majetek do používání k okamžiku, ke 
+kterému byl majetek uveden do stavu, aby mohl být využíván k zamýšlenému účelu; 
+c) jestliže osvědčení o způsobilosti k provozu je získáno před tím, než je majetek 
+ekonomicky dokončen, účetní jednotka zařadí majetek do používání až k okamžiku, kdy 
+je majetek ve stavu k zamýšlenému používání. 
+ 
+8. Účetní jednotka zařadí majetek do používání k okamžiku splnění podmínek způsobilosti k 
+provozu, které se vztahují k hlavním funkčním charakteristikám pořizovaného majetku, a to v 
+souladu s odstavcem 7a, nebo 7b dle povahy osvědčení o způsobilosti k provozu. Jestliže 
+získání osvědčení o způsobilosti k provozu má charakter několika časově navazujících kroků, 
+účetní jednotka posoudí, zda se na daný krok vztahují ustanovení odstavce 7a, nebo 7b. 
+ 
+9. Při posuzování, zda jsou splněny podmínky pro získání osvědčení o způsobilosti k provozu 
+pořizovaného majetku, účetní jednotka zohlední veškeré dostupné informace, tj.: 
+a) vnitřní informace o splnění všech podmínek uložených právními předpisy, které budou 
+posuzovány příslušným úřadem; a 
+b) výsledky průběžných fází schvalovacího procesu a případná dílčí vyjádření dotčených 
+orgánů. 
+ 
+10. Posouzení (ne)splnění podmínek pro zařazení majetku do používání není možné revokovat, 
+pokud nebylo chybou. 
+ 
+ 
+Zdůvodnění 
+11. Účetní předpisy řeší určení okamžiku zařazení dlouhodobého majetku do používání 
+nejednoznačně. Účetní jednotky při konkrétní aplikaci musí dodržovat obecné účetní zásady v 
+kontextu zákona o účetnictví. Základním požadavkem je respektování věrného a poctivého 
+zobrazení předmětu účetnictví v účetní závěrce. V případě nesprávného určení okamžiku 
+zařazení majetku do používání může dojít k porušení zásady opatrnosti a k porušení zásady 
+věcné a časové souvislosti výnosů a nákladů s účetním obdobím. Vzhledem k charakteru 
+dlouhodobého hmotného majetku tato porušení obecných účetních zásad mohou vést k 
+chybnému vykázání částek v účetní závěrce nejen za běžné období, nýbrž i v obdobích 
+následujících. 
+ 
+12. Zdůvodnění odstavce 7a: Neumožňují-li právní předpisy používat majetek dříve, než příslušná 
+instituce vydá povolení k provozu, nemůže účetní okamžik zařazení používání nastat dříve, než 
+je osvědčení o způsobilosti k provozu získáno. Případné dřívější užívání by bylo v rozporu s 
+příslušnými právními předpisy a zařazení majetku do užívání by vedlo k porušení zásady 
+uvedené v ustanovení § 8 odst. 2 zákona o účetnictví. 
+ 
+13. Zdůvodnění odstavce 7b: Má-li osvědčení o způsobilosti pouze potvrzující povahu, může 
+majetek generovat výnosy používáním již před samotným vydáním osvědčení, přičemž majetek 
+je podmíněně používán. Podmíněné používání je dáno po dobu trvání lhůty, která je stanovena 
+
+ 
+                Interpretace NÚR I-33 Určení okamžiku zařazení dlouhodobého hmotného majetku do 
+užívání 
+ 
+ 
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+4/5 
+k odstranění nedostatků nebo jiné nápravě vyvolané právními předpisy. Lhůta končí zjednáním 
+nápravy, doplněním nebo obdobným úkonem nebo jeho marným uplynutím. Účetní jednotka 
+zařadí majetek do používání k okamžiku, ve kterém je majetek uveden do stavu, ve kterém je z 
+technicko-ekonomického hlediska připraven k užívání způsobem zamýšleným účetní 
+jednotkou. Pokud by účetní jednotka odsunula zařazení do používání až do okamžiku vydání 
+příslušného potvrzujícího osvědčení, může mj. dojít k podhodnocení odpisů (a tedy 
+nadhodnocení majetku a výsledku hospodaření) v aktuálním období a nadhodnocení odpisů (a 
+tedy podhodnocení majetku a výsledku hospodaření) v obdobích následujících. 
+ 
+14. Zdůvodnění odstavce 7c: V některých případech účetní jednotka získává osvědčení, že majetek 
+vyhovuje všem právním, hygienickým, bezpečnostním a jiným požadavkům, přestože majetek 
+ještě nevyhovuje vnitřním požadavkům jednotky na kvalitu, výkonnost nebo funkčnost daného 
+majetku. Takový majetek není ve stavu zamýšleném k používání, a nemůže být proto zařazen 
+do používání. 
+ 
+15. Zdůvodnění odstavce 8: Účetní jednotka může uspořádáním svých provozních aktivit 
+zabezpečit stav, při kterém lze, v souladu s právními předpisy, pořízený majetek používat a 
+generovat z něj výnosy, i když zatím nebylo vydáno osvědčení o způsobilosti vztahující se k 
+vedlejším funkčním charakteristikám pořizovaného majetku. Případné chybějící osvědčení o 
+způsobilosti k provozu, které se vztahuje k vedlejším funkčním charakteristikám pořizovaného 
+majetku, nemá tedy vliv na určení okamžiku zařazení majetku do používání. 
+ 
+16. Zdůvodnění odstavců 9 a 10: Při naplňování požadavků odstavců 7 a 8 musí účetní jednotka při 
+posuzování, zda byly splněny podmínky pro zařazení majetku do používání, zohlednit veškeré 
+informace, které jsou k okamžiku sestavení účetní závěrky dostupné, tj. včetně událostí po 
+rozvahovém dni v souladu s Interpretací I-24. Jestliže následný vývoj po rozhodnutí o 
+(ne)zařazení majetku do používání vede k opačnému výsledku, účetní jednotka zpětně upraví 
+účetní řešení pouze v případě, že původní rozhodnutí o (ne)zařazení majetku bylo chybou. Při 
+rozhodování, zda se (ne)jedná o chybu, účetní jednotka postupuje podle Interpretace I-29. 
+Posuzování, zda byly splněny podmínky pro zařazení majetku do používání, provádí účetní 
+jednotka průběžně. 
+ 
+17. Při naplňování požadavků této směrnice se účetním jednotkám doporučuje vytvořit vnitřní 
+účetní směrnici, která bude zároveň řešit i identifikaci stanovení okamžiku zahájení účtování 
+souvisejících nákladů spojených s pořízením dlouhodobého hmotného majetku v souladu s 
+Interpretací I-5. 
+ 
+Definice 
+Dokončením věci (majetku) se rozumí uvedení majetku na místo a do stavu, ve kterém je majetek 
+schopen soustavně generovat výnosy způsobem zamýšleným účetní jednotkou. 
+ 
+Hlavní funkční charakteristiky pořizovaného majetku jsou takové technicko-ekonomické 
+vlastnosti majetku, které umožňují majetek využívat ke generování výnosů způsobem zamýšleným 
+účetní jednotkou. 
+ 
+
+ 
+                Interpretace NÚR I-33 Určení okamžiku zařazení dlouhodobého hmotného majetku do 
+užívání 
+ 
+ 
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+5/5 
+ 
+Datum prvního schválení 
+této interpretace NÚR: 
+28. ledna 2016 
+Datum poslední aktualizace 
+této interpretace NÚR: 
+1. dubna 2019 
+Zpracovatel interpretace: 
+ 
+doc. Ing. David Procházka, Ph.D. 
+Katedra finančního účetnictví a auditingu 
+Fakulta financí a účetnictví 
+Vysoká škola ekonomická v Praze  
+Nám. W. Churchilla 4  
+130 67 Praha 3 – Žižkov

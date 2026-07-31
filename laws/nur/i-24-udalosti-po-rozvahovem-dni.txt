@@ -1,0 +1,184 @@
+ZÁKON: NÚR I-24
+NAZEV: Interpretace Národní účetní rady I-24 – Události po rozvahovém dni
+URL: http://nur.cz/wp-content/uploads/2020/10/I-24_updated.pdf
+
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+1/4 
+Interpretace NÚR 
+I–24 
+Události po rozvahovém dni 
+Účetní jednotky jsou povinny vést účetnictví tak, aby účetní závěrka sestavená na jeho základě 
+podávala věrný a poctivý obraz předmětu účetnictví a finanční situace účetní jednotky (zákon 
+č. 563/1991 Sb., o účetnictví, § 7, odst. 1). Účetní jednotky účtují o stavu a pohybu majetku a jiných 
+aktiv, závazků a jiných pasiv, dále o nákladech a výnosech a o výsledku hospodaření. (zákon 
+č. 563/1991 Sb., o účetnictví, § 2, Předmět účetnictví).  
+Tato interpretace musí být aplikována v kontextu s Předmluvou Národní účetní rady 
+k interpretacím českých účetních standardů. 
+ 
+ 
+Popis problému 
+1. Česká účetní praxe se liší v názorech na správné řešení událostí po rozvahovém dni, a to 
+zejména z důvodu, že nepanuje shoda ve výkladu ustanovení § 19 odst. 2 zákona o účetnictví, 
+které vyžaduje, aby účetní jednotka v účetní závěrce „uváděla informace podle stavu ke konci 
+rozvahového dne“. Dalším důvodem je vztah tohoto ustanovení k ustanovení § 25 odst. 3 
+zákona o účetnictví, který vyžaduje, aby „účetní jednotky při oceňování ke konci rozvahového 
+dne zahrnovaly jen zisky, které byly dosaženy, a braly v úvahu všechna předvídatelná rizika a 
+možné ztráty, které se týkají majetku a závazků a jsou jim známy do okamžiku sestavení účetní 
+závěrky, jakož i všechna snížení hodnoty…“. 
+ 
+2. Je otázkou, zda stav existující ke konci rozvahového dne (dále jen „k rozvahovému dni“) může 
+být popisován s využitím poznatků získaných po rozvahovém dni včetně takových, které 
+vyplynou z událostí, které nastaly teprve až po rozvahovém dni. 
+ 
+3. Pokud ano, je dále otázkou, po jaké období po rozvahovém dni mají tyto nové poznatky být 
+brány v úvahu. 
+ 
+4. Předmětem této Interpretace není vliv výše uvedených poznatků na posuzování předpokladu, 
+že účetní jednotka bude nepřetržitě pokračovat ve své činnosti v dohledné budoucnosti. 
+ 
+Řešení 
+5. Při sestavování účetní závěrky je nutné se zabývat všemi informacemi, které jsou účetní 
+jednotce známy do okamžiku sestavení účetní závěrky. To zahrnuje i informace o okolnostech a 
+událostech, které nastaly až po konci účetního období, za které se účetní závěrka sestavuje. 
+Tyto okolnosti a události, které nastaly v období od rozvahového dne do okamžiku sestavení 
+účetní závěrky, bez ohledu na to, zda pro účetní jednotku vyznívají pozitivně, nebo negativně, 
+se pro účely této Interpretace nazývají „událostmi po rozvahovém dni“. 
+ 
+
+                                                                                  Interpretace NÚR I-24 Události po rozvahovém dni 
+ 
+ 
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+2/4 
+6. Dopad událostí po rozvahovém dni na údaje uvedené v účetní závěrce se liší podle jejich 
+charakteru, který může být dvojí: 
+a) Jedná se o události, které prokazují stav existující k rozvahovému dni. Tyto události po 
+rozvahovém dni se pro účely této Interpretace nazývají „upravující události“. Upravující 
+události se zohledňují v příslušných účetních výkazech sestavených k rozvahovému dni 
+mimo případů, které by vedly k účtování o nedosaženém zisku (viz § 25 odst. 3 zákona o 
+účetnictví). Zohledněním upravujících událostí v účetních výkazech se účetní jednotka 
+nezbavuje povinnosti popsat tyto události také v příloze podle ustanovení § 19 odst. 5 
+zákona o účetnictví. 
+b) Jedná se o události, které prokazují stav, který nastal až po rozvahovém dni. Tyto 
+události po rozvahovém dni se pro účely této Interpretace nazývají „neupravující 
+události“.  
+Neupravující události se při sestavování účetní závěrky k danému rozvahovému dni 
+nezohledňují v příslušných účetních výkazech. Pokud by však jejich neuvedení v účetní 
+závěrce způsobilo, že účetní závěrka by se stala zavádějící, účetní jednotka je popíše v 
+příloze v účetní závěrce v souladu s ustanovením § 19 odst. 5 zákona o účetnictví. 
+ 
+7. Rozhodování o tom, zda událost po rozvahovém dni je upravující, nebo neupravující událostí, 
+může být obtížné. Například vstup dlužníka účetní jednotky do insolvence krátce po 
+rozvahovém dni spíše ukazuje na to, že dobytnost pohledávky za ním již byla pochybnou k 
+rozvahovému dni. Pokud naopak ke vstupu do insolvence dojde se značným odstupem od 
+rozvahového dne, je pravděpodobnost toho, že tato událost přináší informaci o nedobytnosti 
+pohledávky k rozvahovému dni, nižší. Proto někdy samotná informace o události po 
+rozvahovém dni nemusí být dostatečná k rozhodnutí, zda se jedná o upravující, nebo 
+neupravující událost, a je nutné zkoumat další související indicie. 
+ 
+8. Okamžik sestavení účetní závěrky se v účetní závěrce uvede v souladu s § 18 odst. 2 písm. f 
+zákona o účetnictví. Upravující a neupravující události nastalé nebo zjištěné po tomto 
+okamžiku se do účetní závěrky (včetně přílohy) nepromítají, nicméně je nutné zohlednit 
+požadavek § 21, odst. 2 písm. a zákona o účetnictví a uvést takovéto významné informace ve 
+výroční zprávě, pokud je účetní jednotka zjistí před jejím vydáním. 
+ 
+9. Pokud je účetní závěrka opravována po svém sestavení (např. v souladu s § 17 odst. 4 zákona o 
+účetnictví), jedná se o novou účetní závěrku s novým okamžikem sestavení účetní závěrky. 
+Proto musí být brány v úvahu veškeré známé události po rozvahovém dni nastalé až do 
+okamžiku sestavení nové účetní závěrky. 
+ 
+Zdůvodnění 
+10. Interpretace vychází z toho, že pokud jsou účetní jednotce k okamžiku sestavení účetní závěrky 
+známy informace, které lze označit za významné, tj. mající potenciál ovlivnit rozhodování 
+uživatelů účetní závěrky, musí tyto informace do účetní závěrky promítnout, jinak by taková 
+účetní závěrka byla zavádějící, tj. nepodávala by věrný a poctivý obraz. Přitom není na vadu, že 
+tyto informace byly získány až v následujícím účetním období či že tyto informace vyplývají z 
+
+                                                                                  Interpretace NÚR I-24 Události po rozvahovém dni 
+ 
+ 
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+3/4 
+událostí nebo skutečností, které vznikly až po rozvahovém dni; rozhodující je, že tyto informace 
+jsou účetní jednotce známy ještě před tím, než dokončí sestavování účetní závěrky 
+(Interpretace souhrnně hovoří o „událostech po rozvahovém dni“). 
+ 
+11. Upravující události se promítají do všech relevantních příslušných výkazů včetně přílohy, 
+protože účetní závěrka (tj. účetní výkazy a příloha) musí obsahovat informace (viz § 19 odst. 2 
+zákona o účetnictví) podle stavu existujícímu k rozvahovému dni (účetní závěrka neobsahuje 
+informace existující k rozvahovému dni, nýbrž informace o stavu existujícímu k rozvahovému 
+dni). Tyto informace mohou vyplývat i z upravujících událostí, které samy o sobě jsou účetními 
+případy dalšího účetního období. Zásadní pro identifikaci upravující události je totiž výhradně 
+její schopnost prokázat, jaký stav existoval již k rozvahovému dni. Například prodej zásob v 
+dalším účetním období za cenu nižší než za jejich účetní hodnotu je účetním případem dalšího 
+účetního období, nicméně z tohoto prodeje může vyplývat, jaká byla hodnota zásob již k 
+rozvahovému dni. Proto takový prodej může být vyhodnocen jako upravující událost mající vliv 
+na ocenění vykázané v účetních výkazech sestavených k rozvahovému dni. 
+ 
+12. Ačkoli § 25 odst. 3 zákona hovoří o tom, že je potřeba „brát v úvahu všechna předvídatelná 
+rizika a možné ztráty, které se týkají majetku a závazků a jsou účetní jednotce známy do 
+okamžiku sestavení účetní závěrky“, ne každá negativní událost po rozvahovém dni je 
+automaticky upravující událostí. Uvedené ustanovení je nutné číst v kontextu ustanovení § 19 
+odst. 2 cit. zákona, které vyžaduje „uvádění informací podle stavu ke konci rozvahového dne“. 
+Pokud se negativní událost vztahuje ke stavu majetku a závazků existujícímu až po rozvahovém 
+dni (např. požár skladu), není možné takovou událost označit jako upravující a nelze ji 
+promítnout do účetní závěrky sestavené k rozvahovému dni. 
+ 
+13. V případě neupravujících událostí se uvedené události promítnou pouze do přílohy (viz §19 
+odst. 5 zákona o účetnictví), a to pouze tehdy, pokud by jejich nezohlednění ohrozilo 
+vypovídací schopnost sestavované účetní závěrky. Například běžná činnost účetní jednotky 
+prováděná v dalším období nepochybně nijak nesouvisí s vypovídací schopností účetní závěrky 
+za předcházející období. Na druhou stranu, pokud účetní jednotka v dalším účetním období 
+uskuteční fúzi, tak tomu již tak být nemusí, protože fúze může mít na účetní jednotku tak 
+zásadní dopad, že jakékoli závěry (např. o kredibilitě účetní jednotky) vyvozené z účetní 
+závěrky sestavené k rozvahovému dni mohou být zcela zavádějící. 
+ 
+14. Vliv událostí po rozvahovém dni je třeba v účetní závěrce zachytit bez ohledu na to, zda mají 
+pozitivní, nebo negativní dopad na finanční situaci účetní jednotky vyjma případů vykazování 
+nedosažených (nerealizovaných) zisků. Tato výjimka v zachycování pozitivních dopadů je daná 
+zásadou opatrnosti (§ 25 odst. 3 zákona o účetnictví) a vede k rozlišení dvou typů těchto 
+pozitivních dopadů na finanční situaci účetní jednotky. Např. dopad na finanční situaci účetní 
+jednotky spočívající ve zhodnocení zásob nad jejich pořizovací cenu nelze zaúčtovat, a to i 
+tehdy, pokud událost po rozvahovém dni prokáže jejich vyšší hodnotu k rozvahovému dni. 
+Naopak, pozitivní dopad na finanční situaci účetní jednotky spočívající ve zrušení dřívějších 
+nerealizovaných ztrát zaúčtován být smí (např. zhodnocení dříve znehodnocených zásob, tj. 
+rozpuštění dříve vytvořených opravných položek). Pokud totiž ustanovení § 25 odst. 3 
+
+                                                                                  Interpretace NÚR I-24 Události po rozvahovém dni 
+ 
+ 
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+4/4 
+vyžaduje, aby „…účetní jednotky při oceňování ke konci rozvahového dne zahrnovaly jen zisky, 
+které byly dosaženy, a braly v úvahu všechna předvídatelná rizika a možné ztráty, které se 
+týkají majetku a závazků a jsou jim známy do okamžiku sestavení účetní závěrky…“, vyplývá z 
+toho, že účetní jednotky musí brát v úvahu i absenci uvedených rizik a neexistenci ztrát, a tedy 
+i související pozitivní dopady. 
+ 
+15. Události po rozvahovém dni se berou v úvahu až do okamžiku sestavení účetní závěrky. 
+Okamžikem sestavení účetní závěrky se nemá na mysli provedení uzávěrkových operací, 
+vytištění účetní závěrky apod., ale v souladu s ustanovením § 18 odst. 2 zákona o účetnictví 
+okamžik připojení podpisového záznamu k účetní závěrce. Okamžik sestavení účetní závěrky 
+(který je uveden v příslušné zveřejněné účetní závěrce) není pouhým formálním datem, je 
+sdělením, do jakého data brala účetní jednotka události po rozvahovém dni v potaz. 
+ 
+ 
+ 
+Datum prvního schválení 
+této interpretace NÚR: 
+18. března 2013 
+Datum poslední aktualizace 
+této interpretace NÚR: 
+1. dubna 2019 
+Zpracovatel interpretace: 
+Ing. Jiří Pelák, Ph.D.  
+doc. Ing. Marcela Žárová, CSc.  
+Katedra finančního účetnictví a auditingu  
+Fakulta financí a účetnictví 
+Vysoká škola ekonomická v Praze  
+Nám. W. Churchilla 4  
+130 67 Praha 3 – Žižkov

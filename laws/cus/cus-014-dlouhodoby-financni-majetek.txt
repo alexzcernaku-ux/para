@@ -1,0 +1,113 @@
+ZÁKON: ČÚS č. 014
+NAZEV: Český účetní standard pro podnikatele č. 014 – Dlouhodobý finanční majetek
+URL: https://www.mfcr.cz/assets/cs/media/Ucetnictvi_2018_Ceske-ucetni-standardy-pro-500-2002_v02.pdf
+
+Dlouhodobý finanční majetek 
+ 
+ 
+1. Cíl 
+Cílem tohoto standardu je stanovit podle zákona č. 563/1991 Sb., o účetnictví, ve 
+znění pozdějších předpisů, (dále jen „zákon“) a vyhlášky č. 500/2002 Sb., kterou se provádějí 
+některá ustanovení zákona č. 563/1991 Sb., o účetnictví, ve znění pozdějších předpisů, pro 
+účetní jednotky, které jsou podnikateli účtujícími v soustavě podvojného účetnictví, ve znění 
+pozdějších předpisů, (dále jen „vyhláška“) základní postupy účtování dlouhodobého 
+finančního majetku za účelem docílení souladu při používání účetních metod účetními 
+jednotkami v položkách 
+B.III. Dlouhodobý finanční majetek 
+B.III.1. Podíly - ovládaná nebo ovládající osoba 
+2. Zápůjčky a úvěry - ovládaná nebo ovládající osoba 
+3. Podíly - podstatný vliv 
+4. Zápůjčky a úvěry - podstatný vliv 
+5. Ostatní dlouhodobé cenné papíry a podíly 
+6. Zápůjčky a úvěry – ostatní 
+7. Ostatní dlouhodobý finanční majetek 
+         7.1.  Jiný dlouhodobý finanční majetek 
+         7.2.  Poskytnuté zálohy na dlouhodobý finanční majetek 
+vykazovaných za podmínek stanovených v § 3, 3a a 4 vyhlášky. 
+ 
+2. Obsahové vymezení 
+2.1.  Pro účely tohoto standardu se využívá obsahové vymezení dlouhodobého finančního 
+majetku uvedené v § 8 vyhlášky. 
+2.2.   Jiným dlouhodobým finančním majetkem jsou i dlouhodobé vklady. 
+2.3.   zrušen 
+ 
+3. Oceňování 
+3.1.  Dlouhodobý finanční majetek se oceňuje podle § 25 a 27 zákona a § 48 a 51 vyhlášky. 
+3.2.  Cenné papíry a podíly se podle zákona a vyhlášky oceňují pořizovací cenou (včetně 
+ážia); jsou-li však cenné papíry a podíly nabyty protihodnotou za nepeněžitý vklad 
+vložený do obchodní korporace, základem jejich ocenění u vkladatele je zůstatková 
+(účetní) cena nepeněžitého vkladu v obchodní korporaci. Tato zůstatková (účetní) cena 
+se zvyšuje o daň z přidané hodnoty, pokud zákon o dani z přidané hodnoty považuje 
+tento vklad za zdanitelné plnění. Pokud by účetní cena vkladu, s ohledem na závazky 
+přecházející současně s vkladem, dosáhla záporných hodnot, je na účtech cenných 
+papírů a podílů nulové ocenění a rozdíl je zúčtován do výnosů (cenný papír a podíl je 
+účtován na podrozvahových účtech). 
+ 
+4. Postup účtování 
+4.1. Pořizování dlouhodobého finančního majetku se uskutečňuje zejména koupí, darem nebo 
+jiným bezúplatným převodem, vkladem dlouhodobého majetku od jiné osoby, 
+poskytnutím zápůjčky, převodem finančních prostředků na dlouhodobé vklady. 
+4.1.1.  O pořízení dlouhodobého finančního majetku se účtuje na vrub příslušného účtu účtové 
+skupiny 06 – Dlouhodobý finanční majetek se souvztažným zápisem například ve 
+prospěch příslušných účtů účtových skupin 
+ 
+37 
+a) 21 – Peněžní prostředky v pokladně v případě pořízení dlouhodobého finančního 
+majetku za hotové, 
+b) 22 – Peněžní prostředky na účtech v případě poskytnutí zápůjčky, úvěru a převodu 
+finančních prostředků na dlouhodobé vklady, 
+c) 32 – Závazky (krátkodobé) nebo 47 – Dlouhodobé závazky v případě 
+bezhotovostního pořízení dlouhodobého finančního majetku, 
+d) 34 –  Zúčtování daní a dotací v případě, kdy zákon o DPH stanoví, že vklad je 
+zdanitelným plněním, 
+e) 36 – Závazky ke společníkům v případě upsání vkladu do obchodní korporace, 
+f) 37 –  Jiné závazky a pohledávky v případě uplatnění práva nákupní opce, 
+g) 41 – Základní kapitál a kapitálové fondy v případě bezúplatně převedeného 
+majetku vyjma daru,  
+h) 66  – Finanční výnosy v případě daru. 
+4.1.2.  zrušen 
+4.2. Zúčtování úroků se provede podle ustanovení Českého účetního standardu pro 
+podnikatele č. 008 Operace s cennými papíry a podíly. 
+4.3.  Postup účtování o směnkách, o změnách reálných hodnot cenných papírů, o změnách 
+ocenění ekvivalencí a pravidla pro přesun mezi jednotlivými skupinami cenných papírů 
+je stanoven v Českém účetním standardu pro podnikatele č. 008 Operace s cennými 
+papíry a podíly. 
+4.4.  Snížení dlouhodobého finančního majetku se uskutečňuje zejména prodejem, úhradou 
+splatných cenných papírů, splacením zápůjčky a úvěru, odpisem ztrátové pohledávky u 
+dlouhodobých zápůjček, darem nebo jiným bezúplatným převodem, výběrem 
+dlouhodobého vkladu a zaúčtuje se ve prospěch příslušného účtu účtové skupiny 06 - 
+Dlouhodobý finanční majetek se souvztažným zápisem na vrub příslušného účtu účtové 
+skupiny 22 – Peněžní prostředky na účtech v případě příjmu splátky dlouhodobé 
+zápůjčky a úvěru, úhrady splatných cenných papírů a výběru dlouhodobého vkladu, 54 - 
+Jiné provozní náklady v případě odpisu ztrátové pohledávky u dlouhodobých zápůjček, 
+56 - Finanční náklady v případě daru nebo jiného bezúplatného převodu a v případě 
+prodeje; v případě prodeje dluhových cenných papírů je nutno k okamžiku prodeje 
+doúčtovat naběhlý alikvotní výnosový úrok. 
+4.5. Pachtýř účtuje o dlouhodobém majetku propachtovaném podle Českého účetního 
+standardu pro podnikatele č. 011 Operace s obchodním závodem. 
+4.6. Inventarizační rozdíly dlouhodobého finančního majetku se zaúčtují podle Českého 
+účetního standardu č. 007 Inventarizační rozdíly a ztráty v rámci norem přirozených 
+úbytků zásob. 
+ 
+5. Analytické a podrozvahové účty 
+5.1.  Analytické účty se vedou podle Českého účetního standardu pro podnikatele č. 001 Účty 
+a zásady účtování na účtech. 
+5.2.  Analytické účty dlouhodobého finančního majetku se vedou podle jeho jednotlivých 
+složek; u záloh a závdavků, zápůjček a úvěrů podle jednotlivých dlužníků. Obsahují 
+údaje potřebné k identifikaci dlouhodobého finančního majetku, popřípadě údaje 
+stanovené zvláštními předpisy. 
+5.3.  Analytické účty k cenným papírům a podílům se vedou minimálně podle druhu cenných 
+papírů a dále podle emitentů a jmenovitých hodnot, popřípadě podle měn, na které 
+cenné papíry a podíly znějí. 
+5.4. U dluhových cenných papírů se úrokový výnos sleduje na analytickém účtu k 
+příslušnému účtu cenných papírů. 
+ 
+38 
+5.5.  Při inventarizací zjištěném chybějícím cenném papíru je nutno úbytek z tohoto titulu 
+uvést na odděleném analytickém účtu „Cenné papíry v umořovacím řízení“. 
+5.6.  Na podrozvahových účtech účtových skupin 75 až 79 se sledují důležité skutečnosti, 
+jejichž znalost je podstatná pro posouzení majetkoprávní situace účetní jednotky a jejích 
+ekonomických zdrojů, které lze využít, například cenný papír nebo podíl, kdy jeho 
+ocenění je nulové (viz bod 3.2.). 
+ 
+39

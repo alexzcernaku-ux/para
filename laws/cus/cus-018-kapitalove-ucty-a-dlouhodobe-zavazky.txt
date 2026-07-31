@@ -1,0 +1,220 @@
+ZÁKON: ČÚS č. 018
+NAZEV: Český účetní standard pro podnikatele č. 018 – Kapitálové účty a dlouhodobé závazky
+URL: https://www.mfcr.cz/assets/cs/media/Ucetnictvi_2018_Ceske-ucetni-standardy-pro-500-2002_v02.pdf
+
+Kapitálové účty a dlouhodobé závazky  
+ 
+ 
+1. Cíl  
+     Cílem tohoto standardu je stanovit podle zákona č. 563/1991 Sb., o účetnictví, ve znění 
+pozdějších předpisů, (dále jen „zákon“) a vyhlášky č. 500/2002 Sb., kterou se provádějí 
+některá ustanovení zákona č. 563/1991 Sb., o účetnictví, ve znění pozdějších předpisů, pro 
+účetní jednotky, které jsou podnikateli účtujícími v soustavě podvojného účetnictví, ve znění 
+pozdějších předpisů, (dále jen „vyhláška“) základní postupy účtování na kapitálových účtech 
+a dlouhodobých závazků za účelem docílení souladu při používání účetních metod účetními 
+jednotkami v položkách  
+A.I. Základní kapitál 
+A.I.1. Základní kapitál 
+ 3. Změny základního kapitálu 
+A.II. Ážio a kapitálové fondy 
+A.II.1. Ážio 
+  2. Kapitálové fondy 
+  2.1. Ostatní kapitálové fondy 
+  2.2. Oceňovací rozdíly z přecenění majetku a závazků (+/-) 
+  2.3. Oceňovací rozdíly z přecenění při přeměnách obchodních korporací (+/-) 
+  2.4. Rozdíly z přeměn obchodních korporací (+/-) 
+  2.5. Rozdíly z ocenění při přeměnách obchodních korporací (+/-) 
+A.III. Fondy ze zisku 
+A.III.1. Ostatní rezervní fondy 
+   2. Statutární a ostatní fondy 
+A.IV. Výsledek hospodaření minulých let (+/-) 
+A.IV.1. Nerozdělený zisk nebo neuhrazená ztráta minulých let (+/-) 
+         2. Jiný výsledek hospodaření minulých let (+/-) 
+A.V. Výsledek hospodaření běžného účetního období (+/-) 
+A.VI. Rozhodnuto o zálohové výplatě podílu na zisku (-) 
+C.I. Dlouhodobé závazky 
+C.I.1. Vydané dluhopisy 
+C.I.1.1. Vyměnitelné dluhopisy 
+      1.2. Ostatní dluhopisy 
+C.I.2. Závazky k úvěrovým institucím  
+3. Dlouhodobé přijaté zálohy 
+      4. Závazky z obchodních vztahů 
+5. Dlouhodobé směnky k úhradě 
+6. Závazky - ovládaná nebo ovládající osoba 
+7. Závazky - podstatný vliv 
+8. Odložený daňový závazek   
+9. Závazky – ostatní 
+      9.1. Závazky ke společníkům 
+      9.2. Dohadné účty pasivní 
+      9.3. Jiné závazky 
+vykazovaných za podmínek stanovených v § 3, 3a a 4 vyhlášky. 
+ 
+2. Obsahové vymezení  
+ 
+53 
+2.1. Pro účely tohoto standardu se využívá obsahové vymezení vlastního kapitálu a 
+dlouhodobých závazků uvedené v § 14, 14a, 15, 15a, 17, 18, 54 až 54b vyhlášky.  
+2.2.  Pasiva podle bodu 2.1. a dlouhodobé dluhy se zbytkovou splatností jeden rok a kratší, 
+které jsou vykazovány v položce „C.II. Krátkodobé závazky“, jsou účtovány v účtové 
+třídě 4, která obsahuje  
+a) základní kapitál, kapitálové fondy, fondy ze zisku, převedené výsledky 
+hospodaření, výsledek hospodaření ve schvalovacím řízení (vlastní kapitál), 
+b) rezervy,  
+c) závazky k úvěrovým institucím,  
+d) dlouhodobé závazky,  
+e) odložený daňový závazek a pohledávku,  
+f) 
+účet individuálního podnikatele. 
+ 
+3. Postupy účtování  
+3.1. Vlastní kapitál  
+3.1.1.  Na účtech účtových skupin 41 – Základní kapitál a kapitálové fondy až 43 – Výsledek 
+hospodaření se účtuje o vlastním kapitálu účetní jednotky.  
+3.1.2. Fondy se člení do účtových skupin podle toho, zda jsou tvořeny a doplňovány z 
+kapitálových vkladů peněžních i nepeněžních (kapitálové fondy) nebo ze zisku (ostatní 
+fondy). Fondy nelze tvořit na vrub nákladů či výnosů, pokud zvláštní zákon nestanoví 
+jinak.  
+3.1.3. Na příslušném účtu účtové skupiny 41 – Základní kapitál a kapitálové fondy 
+vykazovaném v položce „A.I.1. Základní kapitál“ se zaúčtuje základní kapitál a jeho 
+změny podle právní formy účetní jednotky a podle Českého účetního standardu pro 
+podnikatele č. 012 Změny vlastního kapitálu.  
+3.1.4. Odděleně se na analytickém účtu sleduje  
+a) základní kapitál vytvořený vklady,  
+b) základní kapitál vytvořený přímo nebo zprostředkovaně ze zisku.  
+c) zrušeno 
+d) zrušeno 
+3.1.5. Na příslušném účtu účtové skupiny 41 – Základní kapitál a kapitálové fondy 
+vykazovaném v položce „A.II.1. Ážio“ se zaúčtuje zejména rozdíl mezi jmenovitou 
+hodnotou nebo výší ocenění podílu na základním kapitálu u kusové akcie podle 
+zákona o obchodních korporacích a částkou, za kterou akciová společnost akcie 
+vydává (emisní kurs), popřípadě vkladů při zvyšování základního kapitálu upsáním 
+nových akcií, popřípadě nových vkladů. Obdobně je účtováno společností s ručením 
+omezeným o vkladovém ážiu (rozdíl mezi cenou nepeněžitého vkladu určenou 
+posudkem znalce a výší vkladu společníka).  
+Dále se zde zaúčtují další případy uvedené v Českém účetním standardu pro 
+podnikatele č. 012 Změny vlastního kapitálu.  
+3.1.6. Na příslušném účtu účtové skupiny 41 – Základní kapitál a kapitálové fondy 
+vykazovaném v položce „A.II.2.1. Ostatní kapitálové fondy“ se zaúčtují ostatní 
+kapitálové vklady peněžní i nepeněžní, které nezvyšují základní kapitál účetní 
+jednotky a není pro ně v předcházejících účtech této účtové skupiny samostatný 
+syntetický účet. Ve prospěch účtu se zaúčtují u družstev rovněž členské podíly na 
+družstevní bytovou výstavbu a státní příspěvek apod. Analytické účty se vedou podle 
+jednotlivých kapitálových fondů s odděleným sledováním členských podílů a státního 
+příspěvku. 
+3.1.7. Na příslušném účtu účtové skupiny 41 – Základní kapitál a kapitálové fondy 
+vykazovaném v položce „A.II.2.2. Oceňovací rozdíly z přecenění majetku a závazků 
+ 
+54 
+(+/-)“ se účtuje podle Českého účetního standardu pro podnikatele č. 008 Operace s 
+cennými papíry a podíly a Českého účetního standardu pro podnikatele č. 009 
+Deriváty.  
+3.1.8.  Na příslušných účtech účtové skupiny 41 – Základní kapitál a kapitálové fondy 
+vykazovaných v položkách „A.II.2.3. Oceňovací rozdíly z přecenění při přeměnách 
+obchodních korporací (+/-)“, „A.II.2.4. Rozdíly z přeměn obchodních korporací (+/-)“ 
+a „A.II.2.5. Rozdíly z ocenění při přeměnách obchodních korporací (+/-)“ se účtuje 
+zejména podle § 14a a 54 až 54b vyhlášky.  
+3.1.9. Na příslušném účtu účtové skupiny 41 – Základní kapitál a kapitálové fondy 
+vykazovaném v položce „A.I.3. Změny základního kapitálu“ se účtuje podle Českého 
+účetního standardu pro podnikatele č. 012 Změny vlastního kapitálu. Analytické účty 
+se vedou podle jednotlivých osob, které se zavázaly vložením vkladu zvýšit základní 
+kapitál.  
+3.1.10. Tvorba a čerpání fondů tvořených ze zisku (účtová skupina 42 – Fondy ze zisku a 
+převedené výsledky hospodaření) se řídí podle právní povahy účetní jednotky právními 
+předpisy, společenskou smlouvou, stanovami, rozhodnutím valné hromady nebo 
+členské schůze, popřípadě představenstva akciové společnosti. V případě příslušného 
+účtu účtové skupiny 42 – Fondy ze zisku a převedené výsledky hospodaření 
+vykazovaného v položce „A.III.1. Ostatní rezervní fondy“ se analytické účty vedou 
+podle jednotlivých ustanovení zákona o obchodních korporacích, pokud stanoví 
+povinnost vytvářet rezervní fond obchodní korporace, a u příslušného účtu účtové 
+skupiny 42 – Fondy ze zisku a převedené výsledky hospodaření vykazovaného v 
+položce „A.III.2. Statutární a ostatní fondy“ se vedou analytické účty podle 
+jednotlivých fondů a dále podle jednotlivých druhů čerpání fondů tvořených ze zisku. 
+V případě příslušných účtů účtové skupiny 42 – Fondy ze zisku a převedené výsledky 
+hospodaření vykazovaných v položce „A.IV.1. Nerozdělený zisk nebo neuhrazená 
+ztráta minulých let (+/-)“ se analytické účty vedou tak, aby bylo možno vykázat 
+položku „A.IV.2. Jiný výsledek hospodaření minulých let (+/-)“ podle § 15a vyhlášky.  
+3.1.11. Příslušný účet účtové skupiny 43 – Výsledek hospodaření vykazovaný v položce „ 
+A.V. Výsledek hospodaření běžného účetního období (+/-)“ je určen k rozdělení zisku, 
+nebo vypořádání ztráty podle pravidel stanovených zákonem o obchodních 
+korporacích, popřípadě jiným předpisem, rozhodnutím orgánů účetní jednotky či podle 
+rozhodnutí individuálního podnikatele. Na vrub tohoto účtu se zaúčtují i podíly na 
+zisku k výplatě podle příslušných rozhodnutí o rozdělení zisku v případech, kdy se na 
+uvedené tituly netvoří zvláštní fondy ze zisku. Tento účet nesmí mít k okamžiku 
+uzavření účetních knih zůstatek. Pokud k okamžiku uzavření účetních knih není 
+rozhodnuto o použití výsledku hospodaření, převede se zůstatek tohoto účtu ve 
+prospěch (v případě zisku) nebo na vrub (v případě ztráty) příslušného účtu účtové 
+skupiny 42 – Fondy ze zisku a převedené výsledky hospodaření vykazovaného v 
+položce „A.IV.1 Nerozdělený zisk nebo neuhrazená ztráta minulých let (+/-)“. 
+3.1.12. Na vrub příslušného účtu účtové skupiny 43 – Výsledek hospodaření vykazovaném v 
+položce „A.VI. Rozhodnuto o zálohové výplatě podílu na zisku (-)“ se zaúčtuje v 
+případě rozhodnutí o zálohách na výplatu podílu na zisku se souvztažným zápisem ve 
+prospěch příslušného účtu účtové skupiny 36 – Závazky ke společníkům. Ve prospěch 
+účtu účtové skupiny 43 – Výsledek hospodaření vykazovaném v položce „A.VI. 
+Rozhodnuto o zálohové výplatě podílu na zisku (-)“ se zaúčtuje na základě rozhodnutí 
+příslušného orgánu účetní jednotky o rozdělení zisku nebo jiných vlastních zdrojů, 
+nebo o úhradě ztráty se souvztažným zápisem zejména na vrub příslušného účtu 
+účtové skupiny 36 - Závazky ke společníkům, příslušného účtu účtové skupiny 35 – 
+Pohledávky za společníky nebo příslušného účtu účtové skupiny 42 – Fondy ze zisku a 
+ 
+55 
+převedené výsledky hospodaření.  
+3.2. Na účtech účtové skupiny 45 – Rezervy se účtuje podle Českého účetního standardu pro 
+podnikatele č. 004 Rezervy.  
+3.3. Dlouhodobé úvěry a dlouhodobé závazky  
+3.3.1.  Na příslušném účtu účtové skupiny 46 – Dlouhodobé závazky k úvěrovým institucím 
+vykazovaném v položce „C.I.2. Závazky k úvěrovým institucím“ se účtuje o úvěrech, 
+které mají dlouhodobý charakter (delší než jeden rok). Rovněž se zde účtuje o 
+dlouhodobých úvěrech, které se poskytují při eskontu směnek. Analytické účty se 
+vedou podle jednotlivých účtů úvěrů.  
+3.3.2.  Na příslušných účtech účtové skupiny 47 – Dlouhodobé závazky se účtuje o dluzích z 
+obchodního i neobchodního styku s dobou splatnosti delší než jeden rok. Analytické 
+účty se vedou podle jednotlivých věřitelů.  
+3.3.3.  Na příslušných účtech účtové skupiny 47 – Dlouhodobé závazky vykazovaných v 
+položce „C.I.6. Závazky - ovládaná nebo ovládající osoba“ a „C.I.7. Závazky - 
+podstatný vliv“ respektive „C.II.6. Závazky - ovládaná nebo ovládající osoba“ nebo 
+„C.II.7. Závazky - podstatný vliv“ se účtuje o dluzích v rámci konsolidačního celku. 
+Odděleně se na analytických účtech sledují dluhy z kapitálových operací a z 
+obchodního styku.  
+3.3.4.  Na příslušném účtu účtové skupiny 47 – Dlouhodobé závazky vykazovaném v  položce 
+„C.I.1.1. Vyměnitelné dluhopisy“ zaúčtuje emitent dluhopisů vyměnitelné dluhopisy 
+ve výši emise souvztažně s účtem určeným pro účtování pohledávek z emitovaných 
+dluhopisů. Na příslušném účtu účtové skupiny 47 – Dlouhodobé závazky 
+vykazovaném v položce „C.I.1.2. Ostatní dluhopisy“ zaúčtuje emitent dluhopisů 
+ostatní dluhopisy ve výši emise souvztažně s účtem určeným pro účtování pohledávek 
+z emitovaných dluhopisů. 
+3.3.5.  Účetní jednotka zvolí v rámci účtové skupiny 47 – Dlouhodobé závazky samostatný 
+účet, na kterém zaúčtuje zejména při pachtu obchodního závodu nebo jeho části podle 
+Českého účetního standardu pro podnikatele č. 011 Operace s obchodním závodem.   
+3.3.6.  Na příslušném účtu účtové skupiny 47 – Dlouhodobé závazky vykazovaném například 
+v položce „C.I.3. Dlouhodobé přijaté zálohy“ respektive „C.II.3. Krátkodobé přijaté 
+zálohy“ se zaúčtují přijaté zálohy a závdavky od odběratelů před splněním dluhu vůči 
+odběrateli.  
+3.3.7.  Na příslušném účtu účtové skupiny 47 – Dlouhodobé závazky vykazovaném v položce 
+„C.I.5. Dlouhodobé směnky k úhradě“ se zaúčtují směnky vlastní a akceptované 
+směnky cizí.  
+3.3.8.   Na příslušném účtu účtové skupiny 47 – Dlouhodobé závazky vykazovaném v položce 
+„C.I.9.3. Jiné závazky“ respektive „C.II.8.7. Jiné závazky“ se zaúčtují ostatní 
+dlouhodobé dluhy neúčtované na předcházejících účtech účtové skupiny 47 – 
+Dlouhodobé závazky. V této položce se vykazují také dluhy vyplývající z tichého 
+společenství.  
+3.3.9.  U pravidelně se opakujících zálohových plateb od uživatelů bytů a nebytových prostor 
+(služby spojené s užíváním bytů a nebytových prostor a nájemné či příspěvek 
+vlastníka jednotky) lze účtovat o předpisu záloh.  
+3.4.  Na příslušném účtu účtové skupiny 48 – Odložený daňový závazek a pohledávka 
+vykazovaném v položce „C.I.8. Odložený daňový závazek“ se zaúčtují částky 
+odloženého daňového dluhu nebo pohledávky podle Českého účetního standardu pro 
+podnikatele č. 003 Odložená daň.  
+3.5. Účtová skupina 49 - Individuální podnikatel 
+3.5.1. Na příslušném účtu účtové skupiny 49 – Individuální podnikatel vykazovaném v 
+položce „A.I.1. Základní kapitál“ se u fyzické osoby zaúčtují osobní vklady, včetně 
+ 
+56 
+vkladu na začátku podnikatelské činnosti a výběrů individuálního podnikatele. Při 
+otevírání účetních knih se na tento účet převede zisk, popřípadě ztráta za předcházející 
+účetní období se souvztažným zápisem na účtu určeném k zaúčtování výsledku 
+hospodaření ve schvalovacím řízení. Tento účet může nabýt pasivní, popřípadě i 
+aktivní zůstatek.  
+3.5.2.  Odděleně se zaúčtuje na analytických účtech převedený zisk nebo ztráta. 
+ 
+ 
+57

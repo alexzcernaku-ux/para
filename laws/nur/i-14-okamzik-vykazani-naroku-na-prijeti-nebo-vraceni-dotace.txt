@@ -1,0 +1,335 @@
+ZÁKON: NÚR I-14
+NAZEV: Interpretace Národní účetní rady I-14 – Okamžik vykázání nároku na přijetí nebo vrácení dotace
+URL: http://nur.cz/wp-content/uploads/2020/10/I-14_updated.pdf
+
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+1/7 
+Interpretace NÚR 
+I–14 
+Okamžik vykázání nároku na přijetí nebo vrácení dotace 
+Účetní jednotky jsou povinny vést účetnictví tak, aby účetní závěrka sestavená na jeho základě 
+podávala věrný a poctivý obraz předmětu účetnictví a finanční situace účetní jednotky (zákon 
+č. 563/1991 Sb., o účetnictví, § 7, odst. 1). Účetní jednotky účtují o stavu a pohybu majetku a jiných 
+aktiv, závazků a jiných pasiv, dále o nákladech a výnosech a o výsledku hospodaření. (zákon 
+č. 563/1991 Sb., o účetnictví, § 2, Předmět účetnictví).  
+Tato interpretace musí být aplikována v kontextu s Předmluvou Národní účetní rady 
+k interpretacím českých účetních standardů. 
+ 
+Odkaz:  
+Zákon č. 563/1991 Sb., o účetnictví, § 3 odst. 1, § 19 odst. 2 a § 25 odst. 2. 
+ČÚS pro podnikatele č. 013 – Dlouhodobý nehmotný a hmotný majetek 
+ČUS pro podnikatele č. 017 – Zúčtovací vztahy 
+ 
+Popis problému 
+1. Účetní jednotka může být příjemcem různých forem dotací poskytovaných různým způsobem z 
+různých zdrojů, a to na základě různých právních předpisů. Těmito předpisy jsou například 
+zákon č. 218/2000 Sb., o rozpočtových pravidlech, zákon č. 252/1997 Sb., o zemědělství, zákon 
+č. 435/2004 Sb., o zaměstnanosti, a další. Kromě právních předpisů mohou být poskytovány 
+dotace i podle jiných pravidel například z evropských programů nebo i soukromých prostředků. 
+ 
+2. Pro získání dotace je obvykle potřebné podat žádost. V některých případech je na základě této 
+žádosti vydán příslib jejího poskytnutí. Příslib nemusí znamenat definitivní schválení žádosti o 
+dotaci, a proto nelze na jeho základě účtovat. 
+ 
+3. Žádost a případný příslib jsou podávány velmi často v době, kdy je dotační titul teprve 
+plánován, nebo není ukončen, takže není známá skutečná výše nákladů (resp. výdajů), na nichž 
+je výše dotace závislá. Kromě toho mezi výší přislíbené dotace a schválenou (finančně 
+vypořádanou) dotací může být rozdíl. Na dotace poskytované ze státního rozpočtu není, dle 
+zákona č. 218/2000 Sb., o rozpočtových pravidlech právní nárok. Podmínky pro dotace 
+poskytované z jiných zdrojů se řídí předpisy a pravidly, na základě kterých jsou poskytovány. 
+ 
+4. Žádosti o přidělení dotací prochází schvalovacím řízením. Po jeho skončení, pokud je 
+poskytnutí dotace schváleno, uplyne nějaká doba, než je dotace skutečně finančně 
+vypořádána. 
+ 
+5. O dotaci může být žádáno jak v průběhu období, na které má být poskytnuta, tak i po jeho 
+skončení, a dotace tak může být finančně vypořádána v jiném období, než ve kterém byly 
+vynaloženy náklady, na které byla dotace poskytnuta. V praxi též dochází k tomu, že dotace je 
+
+                            Interpretace NÚR I-14 Okamžik vykázání nároku na přijetí nebo vrácení dotace 
+ 
+ 
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+2/7 
+přiznána na úhradu nákladů vynaložených ve více účetních obdobích nebo na náklady, které 
+budou vynaloženy až v budoucnu. 
+ 
+6. Dotace jsou vázány i na splnění podmínek, z nichž některé mohou být plněny až v budoucnu 
+(např. zákaz prodeje aktiva, které bylo pořízeno za přispění dotace). Nesplnění těchto 
+podmínek může mít za následek povinnost vrácení dotace. 
+ 
+7. Z výše uvedeného popisu problému je zřejmé, že na straně příjemce dotace mohou vznikat 
+následující otázky a pochybnosti:  
+a) zda a kdy se má vykazovat pohledávka z titulu nároku na přijetí dotace;  
+b) zda a kdy se má vykázat závazek z titulu povinnosti vrátit dotaci. 
+ 
+Řešení 
+8. Podání žádosti o dotaci a její schvalování až do okamžiku finančního vypořádání může 
+procházet řadou konkrétních kroků a může být doloženo nejrůznějšími typy rozhodnutí, 
+dokumentů a smluv. Tento proces, jeho kroky a dokumentace závisí od typu dotace, jejího 
+poskytovatele a příjemce dotace. Tyto skutečnosti nejsou jednou pro vždy dané, stále se 
+vyvíjejí a mění a není možné provést jejich úplný výčet. 
+ 
+9. Pro dodržení věrného a poctivého zobrazení při vykázání dotace jsou rozhodující následující 
+skutečnosti: 
+a) dotace se vykazuje zejména tak, aby byl dodržen akruální princip jejího vykázání. 
+Úkolem této zásady je zabezpečit věcnou a časovou souměřitelnost nákladů a 
+výnosů týkajících se dané dotace tak, aby nedošlo ke zkreslení výsledku hospodaření 
+vykázáním nákladu v jiném období, než ve kterém by byla vykázána dotace na 
+úhradu tohoto nákladu. Podmínkou pro dodržení této zásady ale je, že o dotaci 
+nemůže být účtováno dříve, než je splněna podmínka v bodu b); 
+b) pro vykázání dotace není důležité, kdy byla finančně vypořádána, ale rozhodující je 
+okamžik, ve kterém se proces jejího schvalování dostane do takové fáze, kdy je její 
+poskytnutí nepochybné. 
+ 
+10. Pro rozhodování o způsobu vykázání dotace není podstatné, kdo dotaci poskytuje, na 
+základě jakého dokumentu, pro jaký účel a komu. Účetní jednotka je povinna v každém 
+individuálním případě dotace posoudit všechny okolnosti jejího schvalování a poskytnutí na 
+základě všech dostupných dokumentů, které se jí týkají, a určit, do jakého období přijetí 
+dotace věcně náleží a zda a kdy vznikl nepochybný nárok na přijetí dotace. 
+ 
+11. V okamžiku vzniku nároku na přijetí dotace vykáže účetní jednotka pohledávku za 
+poskytovatelem dotace z titulu nároku na její přijetí. Okamžik skutečného finančního 
+vypořádání nehraje v tomto případě žádnou roli. 
+ 
+12. Pokud by se následně po vykázání pohledávky z titulu nároku na přijetí dotace ukázalo, že 
+původní předpoklad nebyl, z důvodů v době účtování nároku na dotaci nepředvídatelných, 
+naplněn a dotace nebyla a nebude finančně vypořádána, případně byla vypořádána v nižší 
+než původně předpokládané výši, pak účetní jednotka upraví účtování o dotaci v období, ve 
+
+                            Interpretace NÚR I-14 Okamžik vykázání nároku na přijetí nebo vrácení dotace 
+ 
+ 
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+3/7 
+kterém se tato skutečnost stala jistou. Taková operace se považuje za nový účetní případ a 
+neprojevuje se retrospektivně; její dopad je vykázán ve výsledku hospodaření toho období, 
+kdy ke zjištění takové skutečnosti došlo. 
+ 
+13. Úprava účtování o dotaci dle předchozího bodu, jejíž skutečné finanční vypořádání se 
+teprve očekává, se může projevit jak přímým snížením pohledávky, tak i vytvořením 
+opravné položky k této pohledávce. 
+ 
+14. Pokud účetní jednotka nesplní nebo poruší podmínky poskytnutí dotace takovým 
+způsobem, že jí vznikne povinnost zcela nebo částečně dotaci vrátit, pak vykáže k datu, kdy 
+vznik této povinnosti zjistila, závazek z titulu povinnosti dotaci vrátit. Taková operace se 
+považuje za nový účetní případ a neprojevuje se retrospektivně, její dopad je vykázán ve 
+výsledku hospodaření toho období, kdy ke zjištění takové skutečnosti došlo. Povinnost 
+vrátit dotaci vzniká na základě skutečnosti, že došlo k porušení dotačních pravidel a tím 
+vznikla povinnost dotaci nebo její část vrátit, přičemž neexistuje reálná alternativa tuto 
+povinnost odvrátit. Zjištění této skutečnosti není závislé na tom, zda tuto skutečnost zjistila 
+externí kontrola nebo zda o této skutečnosti ví poskytovatel dotace. 
+ 
+15. Pokud byla dotace zaúčtována jako položka snižující pořizovací cenu dlouhodobých aktiv, 
+pak se změna původní výše dotace (ať již v důsledku změny odhadu výše dotace nebo v 
+důsledku povinnosti dotaci částečně nebo zcela vrátit) projeví také úpravou výše pořizovací 
+ceny aktiva pořízeného s přispěním této dotace, a to v účetním období, ve kterém ke 
+změně původní výše došlo. 
+ 
+16. Pokud byla dotace zaúčtována jako ostatní provozní výnos pokrývající náklady, na které 
+byla dotace poskytnuta, pak se změna původní výše dotace (ať již v důsledku změny 
+odhadu výše dotace nebo v důsledku povinnosti dotaci částečně nebo zcela vrátit) zjištěná 
+v období zúčtování dotace do výnosů projeví také úpravou výnosů, ve výši, o kterou se 
+částka změny výše dotace (resp. částka, kterou je nutno vrátit) liší od dosud 
+nespotřebované částky dotace. Pokud ke zjištění dojde v některém z následujících období, 
+bude povinnost snížení dotace zúčtována jako ostatní provozní náklad. 
+ 
+17. Jestliže mezi okamžikem vykázání pohledávky z titulu nároku na přijetí dotace a okamžikem 
+jejího skutečného finančního vypořádání nastane rozvahový den, pak účetní jednotka 
+popíše v samostatné kapitole přílohy k účetní závěrce tuto skutečnost a zejména uvede 
+informace o: 
+a) poskytovateli dotace, výši dotace, účelu dotace; 
+b) identifikaci nákladů ve vykazovaném účetním období, na které byla dotace 
+poskytnuta; 
+c) podstatě a dokumentech, na základě kterých byla vykázána pohledávka z titulu 
+nároku na přijetí dotace; 
+d) úpravy výše dotace z důvodu změny odhadu a částky dotací, které byly vráceny, 
+včetně důvodů, na základě kterých musela být dotace vrácena; 
+e) podstatu a odhad případných rizik finančního nevypořádání tohoto nároku; 
+f) informace o podstatě a pravděpodobnosti případných rizik nesplnění dotačních 
+podmínek a z toho vyplývající povinnosti dotaci vrátit. 
+
+                            Interpretace NÚR I-14 Okamžik vykázání nároku na přijetí nebo vrácení dotace 
+ 
+ 
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+4/7 
+ 
+Zdůvodnění 
+18. Základním předpokladem účetnictví je vzájemná nezávislost účetních období a věcná a časová 
+souměřitelnost nákladů a výnosů (akruální princip, viz § 3 odst. 1 zákona o účetnictví, také 
+např. ČÚS č 17 v bodě 3. 7., a dále věrné a poctivé zobrazení předmětu účetnictví a finanční 
+situace účetní jednotky (viz § 7 odst. 1 zákona o účetnictví – věrný a poctivý obraz). 
+ 
+19. Pokud by byla dotace vykázána až v okamžiku jejího finančního vypořádání, hrozí situace, že se 
+tak stane v období předcházejícím nebo až následujícím po vykázání nákladů, na které je 
+dotace poskytována. V takovém případě by došlo jak k porušení akruálního principu, tak i k 
+porušení věcné a časové souměřitelnosti nákladů a výnosů. Dalším důsledkem by bylo 
+nesprávné vykázání výsledku hospodaření za dotčená účetní období a nesprávné vykázání 
+pohledávek a závazků (a tím také finanční situace účetní jednotky) k rozvahovému dni a dále by 
+byla narušena srovnatelnost údajů vykazovaných za jednotlivá účetní období. 
+ 
+20. Navzdory tomu, co bylo uvedeno v předchozích dvou odstavcích, nelze opominout ustanovení 
+§ 19 odst. 2 a 25 odst. 2 zákona, dle kterých nelze účtovat o skutečnostech, které nejsou k 
+rozvahovému dni známy ani v okamžiku, kdy je účetní závěrka sestavována, což platí obzvláště 
+o ziscích, které nebyly ještě k tomuto okamžiku dosaženy. O dotaci nelze proto účtovat dříve, 
+než bude její přijetí definitivní, jak bylo uvedeno v odst. 9b) této Interpretace. 
+ 
+21. Vzhledem k různorodosti poskytovatelů dotací, jejich druhů a účelu a složitosti schvalovacích 
+procesů při poskytování dotací nelze dát jednoduchý a jednotný návod na okamžik vykázání 
+pohledávky z titulu nároku na přijetí dotace ani určit dokument, na základě kterého je možné 
+takovou pohledávku vykázat. Správné vykázání dotace vyžaduje vždy individuální posouzení 
+konkrétního případu účetní jednotkou. Zejména se jedná o posouzení pravděpodobnosti přijetí 
+dotace a určení okamžiku a dokumentu, který vznik takového nároku zakládá. Hlavním 
+kritériem při tomto posouzení je výše uvedená zásada věcné a časové souměřitelnosti nákladů 
+a výnosů (akruální princip) a zásada věrného a poctivého obrazu s přihlédnutím k míře 
+nejistoty poskytnutí dotace k rozvahovému dni. 
+ 
+22. Pokud se ukáže, že původně provedené posouzení vzniku pohledávky z titulu nároku na přijetí 
+dotace se následně po vykázání pohledávky ukázalo jako chybné a dotace nebyla a nebude 
+finančně vypořádána, případně byla vypořádána v nižší než původně předpokládané výši, pak 
+účetní jednotka opraví účtování v období, ve kterém se tato skutečnost stala jistou. Taková 
+operace se považuje za nový účetní případ a neprojevuje se retrospektivně, její dopad je 
+vykázán ve výsledku hospodaření toho období, kdy ke zjištění takové skutečnosti došlo. 
+ 
+23. V případě porušení dotačních podmínek, které má za následek povinnost vrátit zcela nebo 
+částečně dotaci, se postupuje analogicky jako při vykázání nároku na dotaci. Závazek z titulu 
+povinnosti vrátit zcela nebo částečně dotaci musí být vykázán v tom účetním období, kdy tato 
+skutečnost nastala, a to bez ohledu na okamžik, kdy byla skutečně finančně vypořádána. Pokud 
+jsou účetní jednotce známy skutečnosti, že taková povinnost nastala, pak musí závazek 
+vykázat. Pro vykázání závazku není podstatné, kdo a jak porušení dotačních pravidel zjistil. 
+ 
+
+                            Interpretace NÚR I-14 Okamžik vykázání nároku na přijetí nebo vrácení dotace 
+ 
+ 
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+5/7 
+24. Obdržení dotace musí být v okamžiku vykázání pohledávky nepochybné. Přesto vykázaná 
+pohledávka z titulu nároku na přijetí dotace (tak jako i jakákoliv jiná pohledávka) může 
+obsahovat určité nenulové riziko její nerealizace. Proto je důležité podstatu a míru tohoto 
+případného rizika popsat v samostatné části přílohy k účetní závěrce. 
+ 
+Dodatek 
+Při řešení způsobu účtování dotací mohou vznikat různé problémy. Řešení některých z nich je 
+uvedeno v následujících bodech: 
+1. Na dotaci není právní nárok (ve smyslu ustanovení § 14 odst. 1 zákona č. 218/2000 Sb., o 
+rozpočtových pravidlech). Podmínkou pro zahájení řízení o přiznání dotace je podání žádosti 
+podle pravidel vyhlášených pro příslušný dotační titul. Tato pravidla též stanoví další postup, ze 
+kterého vyplývá, v jakém okamžiku je o poskytnutí dotace rozhodnuto. V některých případech 
+musí být žádáno o poskytnutí platby při současném vykázání splnění podmínek daných pro 
+poskytnutí dotace, někdy postačuje pouhé podání žádosti. Pro jejich poskytování je k dispozici 
+určitý objem zdrojů finančních prostředků, o které se uchází neurčitý počet žadatelů, jejichž 
+projekty procházejí výběrovým řízením. Všechny žádosti o dotace nemusí být uspokojeny. 
+Obvykle je poskytujícím orgánem vydáno rozhodnutí, a to buď o poskytnutí platby, nebo tam, 
+kde se žádost o poskytnutí platby nevyžaduje, rozhodnutí o poskytnutí dotace. Den vydání 
+rozhodnutí je obvykle tím okamžikem, který zakládá nezpochybnitelný nárok na poskytnutí 
+dotace a tímto dnem je třeba účtovat o pohledávce na dotaci. 
+ 
+2. Pokud se zúčtováním dotace sníží pořizovací cena pod hodnotu stanovenou účetní jednotkou 
+jako hranice pro zařazení věci do dlouhodobého majetku, rozhodne účetní jednotka s 
+přihlédnutím k principu významnosti o jejím ponechání v dané skupině a pokračování v 
+odpisování nebo o vyřazení tohoto majetku z evidence dlouhodobého majetku, jednorázovém 
+odepsání jeho zůstatkové hodnoty a zachycení na podrozvahovém účtu. V souladu s 
+ustanovením § 39 odst. 6 a 7 vyhlášky se v příloze uvedou informace o významných 
+odchylkách mezi rozvahovou a skutečnou hodnotou dlouhodobého majetku, které vzniknou 
+díky přijatým dotacím na jeho pořízení. 
+ 
+3. Pokud by výjimečně byla dotace vyšší než pořizovací cena dlouhodobého majetku, je 
+zúčtována do ostatních provozních výnosů v okamžiku uskutečnění účetního případu dotace. 
+ 
+4. Dotace na provozní náklady nemají vliv na ocenění výrobků ani nedokončené výroby, které 
+jsou výsledkem dotované provozní činnosti, protože výrobky jsou při jejich převzetí na sklad 
+oceňovány skutečnými vlastními náklady, případně předem stanovenými cenami podle 
+operativních (plánových) kalkulací vlastních nákladů stanovených v podmínkách technické 
+přípravy výroby. 
+ 
+5. Jestliže dojde k vynaložení nákladů v účetním období, které předchází účetnímu období, ve 
+kterém dojde ke splnění podmínek pro přijetí dotace, jsou vynaložené náklady součástí 
+nákladů těchto předchozích období (nejsou předmětem časového rozlišování) a vstupují do 
+ocenění nedokončené výroby. 
+ 
+
+                            Interpretace NÚR I-14 Okamžik vykázání nároku na přijetí nebo vrácení dotace 
+ 
+ 
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+6/7 
+6. Jestliže dojde k vynaložení nákladů v účetním období, ve kterém dojde ke splnění podmínek 
+pro přijetí dotace, přičemž výroba není v tomto období dokončena, je nedokončená výroba 
+oceněna a zachycena na účtech zásob ve výši vynaložených nákladů v souladu s ČÚS č. 015. 
+Přijatá dotace je časově rozlišena do období ukončení účetního případu. 
+ 
+7. Podpora z fondů EU, která má být vrácena podle rozhodnutí o navrácení, zahrnuje úroky v 
+přiměřené výši stanovené Komisí. Úroky jsou splatné od data, kdy byla protiprávní podpora k 
+dispozici příjemci, do data jejího navrácení. Navrácení se provede bezodkladně a v souladu s 
+postupy stanovenými příslušným prováděcím předpisem tak, aby byl zajištěn okamžitý a účinný 
+výkon rozhodnutí Komise. Účetní případ vzniká v okamžiku nabytí účinnosti rozhodnutí o 
+vrácení podpory. 
+ 
+8. Pokud je účetní jednotka povinna vrátit dotaci v částce, která se liší od její dosud nerozpuštěné 
+částky na účtech časového rozlišení (případně od částky, o kterou byla původně snížena 
+pořizovací cena aktiva), je tento rozdíl považován za náklad, resp. výnos období, ve kterém 
+došlo ke skutečnostem, na základě kterých bylo rozhodnuto o povinnosti vrátit dotaci. 
+ 
+9. Pokud by bylo účetní jednotce riziko vrácení podpory známo již v účetním období, které 
+předchází období, ve kterém nabylo rozhodnutí o (částečném) vrácení dotace právní moci, je 
+třeba v souladu s ustanovením § 25 odst. 2 zákona o účetnictví vytvořit rezervu v odpovídající 
+výši. 
+ 
+10. Jestliže byla dotace poskytnuta na pořízení zásob, které mají být následně převedeny do 
+dlouhodobého majetku (například mladá zvířata do základního stáda), aniž by jejich převod 
+ovlivnil výsledek hospodaření, je přijatá dotace zachycena jako závazek a následně, ve věcné a 
+časové souvislosti s aktivací, zúčtována jako snížení pořizovací ceny dlouhodobého majetku. 
+ 
+11. Příspěvky poskytované Úřady práce dle zákona č. 435/2004 Sb. vznikají na základě dohody, ve 
+které je vyjádřen závazek Úřadu práce, a proto při splnění dohodnutých podmínek musí být 
+účtováno o pohledávce do období vzniku nákladů, které jsou dotovány. 
+ 
+12. V případě, že dotace byla přiznána nebo poskytnuta v cizí měně, postupuje se v účetnictví při 
+přepočtu na českou měnu dle Českého účetního standardu č. 001 – Účty a účtování na účtech, 
+bod 2.4.3. Pohledávka na poskytnutí dotace je přepočtena kursem ČNB platným v den 
+uskutečnění účetního případu (viz bod 24 – 26), případně dnem doručení příslušné listiny, resp. 
+je přepočet proveden ke dni příjmu dotace, pokud nebylo v této souvislosti účtováno o 
+pohledávce. 
+ 
+13. Při přepočtu nákladů vynaložených na dotační tituly v cizích měnách se postupuje v účetnictví 
+standardním způsobem stanoveným vyhláškou a Českými účetními standardy, a to i tehdy, 
+když metodika přepočtu těchto nákladů pro účely jejich vykázání na dotovaný titul stanoví jiný 
+postup. 
+ 
+ 
+ 
+
+                            Interpretace NÚR I-14 Okamžik vykázání nároku na přijetí nebo vrácení dotace 
+ 
+ 
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+7/7 
+Datum prvního schválení 
+této interpretace NÚR: 
+4. února 2008 
+Datum poslední aktualizace 
+této interpretace NÚR: 
+1. dubna 2019 
+Zpracovatel interpretace: 
+Ing. František Louša,  
+doc. Ing. Antonín Valder, CSc.  
+Komora auditorů ČR 
+Opletalova 55 
+Praha 1 
+ 
+doc. Ing. Ladislav Mejzlík, Ph.D.,  
+prof. Ing. Libuše Müllerová, CSc, 
+Katedra finančního účetnictví a auditingu 
+Fakulta financí a účetnictví 
+Vysoká škola ekonomická v Praze 
+Nám. W. Churchilla 4 
+130 67 Praha 3

@@ -1,0 +1,58 @@
+ZÁKON: ČÚS č. 004
+NAZEV: Český účetní standard pro podnikatele č. 004 – Rezervy
+URL: https://www.mfcr.cz/assets/cs/media/Ucetnictvi_2018_Ceske-ucetni-standardy-pro-500-2002_v02.pdf
+
+Rezervy 
+ 
+ 
+1. Cíl 
+     Cílem tohoto standardu je stanovit podle zákona č. 563/1991 Sb., o účetnictví, ve znění 
+pozdějších předpisů, (dále jen „zákon“) a vyhlášky č. 500/2002 Sb., kterou se provádějí 
+některá ustanovení zákona č. 563/1991 Sb., o účetnictví, ve znění pozdějších předpisů, pro 
+účetní jednotky, které jsou podnikateli účtujícími v soustavě podvojného účetnictví, ve znění 
+pozdějších předpisů, (dále jen „vyhláška“) základní postupy účtování o tvorbě a použití rezerv 
+za účelem docílení souladu při používání účetních metod účetními jednotkami v položkách 
+B. Rezervy 
+     1. Rezerva na důchody a podobné závazky  
+     2. Rezerva na daň z příjmů  
+     3. Rezervy podle zvláštních právních předpisů 
+     4. Ostatní rezervy  
+vykazovaných za podmínek stanovených v § 3, 3a a 4 vyhlášky.  
+ 
+2. Obsahové vymezení 
+2.1. Pro účely tohoto standardu se využívá obsahové vymezení rezerv uvedené v § 16 
+vyhlášky.  
+2.2.  Účetní jednotka ve svém vnitřním předpisu stanoví, které rezervy bude tvořit a vymezí 
+jejich obsah.  
+ 
+3. Postup tvorby a použití rezerv 
+3.1.   Při tvorbě a použití rezerv se postupuje podle § 16, 27, 31 a 57 vyhlášky ve smyslu § 26 
+odst. 3 zákona.  
+3.2.  Rezervy podle zvláštních právních předpisů se vytvářejí procentem z určeného základu 
+nebo v absolutní částce, pokud právní předpis přímo nestanoví způsob jejich tvorby.  
+3.3.  Účetní jednotka ve svém vnitřním předpisu stanoví pro jednotlivé rezervy jejich výši a 
+způsob jejich vytváření a používání. 
+3.4.   zrušen 
+3.5.   zrušen   
+3.6.   zrušen   
+   
+4. Postup účtování 
+4.1.  O tvorbě rezerv se účtuje ve prospěch příslušného účtu účtové skupiny 45 – Rezervy se 
+souvztažným zápisem na vrub příslušného účtu nákladů  
+a) účtové skupiny 55 – Odpisy, rezervy, komplexní náklady příštích období a opravné 
+položky v provozní oblasti, pokud se týkají provozní činnosti,  
+b) účtové skupiny 57 – Rezervy a opravné položky ve finanční oblasti, pokud se týkají 
+finanční činnosti,  
+c) zrušeno  
+d) v účtové skupině 59 – Daně z příjmů, převodové účty a rezerva na daň z příjmů, 
+pokud se týkají rezervy na daň z příjmů.  
+4.2.  O použití rezerv nebo jejich zrušení pro nepotřebnost se účtuje na vrub příslušného účtu 
+účtové skupiny 45 – Rezervy se souvztažným zápisem ve prospěch příslušného účtu 
+nákladů účtových skupin 55 – Odpisy, rezervy, komplexní náklady příštích období a 
+opravné položky v provozní oblasti, 57 – Rezervy a opravné položky ve finanční oblasti 
+nebo 59 – Daně z příjmů, převodové účty a rezerva na daň z příjmů.  
+ 
+11 
+4.3.   Analytické účty se vedou podle jednotlivých rezerv.  
+ 
+12

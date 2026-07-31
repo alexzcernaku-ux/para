@@ -1,0 +1,180 @@
+ZÁKON: NÚR I-9
+NAZEV: Interpretace Národní účetní rady I-9 – Odložená daň – první vykázání
+URL: http://nur.cz/wp-content/uploads/2020/10/I-09_updated.pdf
+
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+1/4 
+Interpretace NÚR 
+I–9 
+Odložená daň – první vykázání 
+Účetní jednotky jsou povinny vést účetnictví tak, aby účetní závěrka sestavená na jeho základě 
+podávala věrný a poctivý obraz předmětu účetnictví a finanční situace účetní jednotky (zákon 
+č. 563/1991 Sb., o účetnictví, § 7, odst. 1). Účetní jednotky účtují o stavu a pohybu majetku a jiných 
+aktiv, závazků a jiných pasiv, dále o nákladech a výnosech a o výsledku hospodaření. (zákon 
+č. 563/1991 Sb., o účetnictví, § 2, Předmět účetnictví).  
+Tato interpretace musí být aplikována v kontextu s Předmluvou Národní účetní rady 
+k interpretacím českých účetních standardů. 
+Odkaz: ČÚS 003 – Odložená daň 
+ 
+Popis problému 
+1. V případě, že výsledkem výpočtu odložené daně je odložená daňová pohledávka, ukládají 
+České účetní standardy povinnost provést test na realizovatelnost takové pohledávky (viz 
+odstavec 2.7 ČÚS 003) a v případě, že účetní jednotka dojde k závěru, že pohledávka není 
+realizovatelná, nedovolují z důvodu opatrnosti její vykázání v aktivech podniku (viz také § 59 
+vyhl. č. 500/2002 Sb.). Dále české účetní předpisy stanoví, že se odložená daň v prvním roce 
+jejího účtování zúčtuje proti vlastnímu kapitálu do položky vykazované v pasivech A.IV.2 „Jiný 
+výsledek hospodaření minulých let“ tak, aby neovlivnila výsledek hospodaření běžného období 
+(viz odstavec 3. 1. ČÚS 003 a § 15a vyhl. č. 500/2002 Sb.). 
+ 
+2. Praktická implementace výše uvedených pravidel Českého účetního standardu však může vést 
+k otázce, zda považovat za první účtování odložené daně i případ, kdy není odložená daňová 
+pohledávka z důvodu nerealizovatelnosti po jedno, nebo i několik období od zavedení 
+standardu č. 003 vykazována v rozvaze. Obdobná situace je v případě, kdy je vykazování 
+odložené daňové pohledávky po několik období z důvodu její nerealizovatelnosti přerušeno. 
+Nejednotnost výkladu zmiňovaného pravidla u účetních jednotek by způsobila nekonzistenci a 
+nesrovnatelnost jejich účetních výkazů, zejména výsledku hospodaření za období. 
+ 
+Prakticky je možno problém ilustrovat na následujících příkladech: 
+3. Společné zadání: účetní jednotka zavedla účetní standard o odložené dani poprvé pro účetní 
+závěrku za rok 2004. V letech 2004 a 2005 vypočítala odloženou daňovou pohledávku a 
+rozhodla se ji na základě výsledku testu jako nerealizovatelnou nevykázat v rozvaze, ale pouze 
+ji zveřejnit v příloze. Varianty problému: 
+a) Výpočet odložené daně v roce 2006 skončil odloženým daňovým dluhem. Má být celý 
+odložený daňový dluh vykázán proti vlastnímu kapitálu, nebo má být oddělena 
+samostatná část odložené daně za roky 2004 a 2005 a následně vykázána proti 
+vlastnímu kapitálu a do výsledku hospodaření roku 2006 zahrnuta pouze část, která 
+vznikla za rok 2006, případně má být vykázán celý odložený daňový dluh do výsledku 
+hospodaření roku 2006? 
+
+                                                                 
+Interpretace NÚR I-9 Odložená daň – první vykázání 
+ 
+ 
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+2/4 
+b) V roce 2006 byla vypočítána odložená daňová pohledávka, ale v tomto roce změnila 
+účetní jednotka odhad její realizovatelnosti a rozhodla se uznat tuto pohledávku jako 
+aktivum a vykázat ji v rozvaze. Má být celá odložená daň za roky 2004 až 2006 vykázána 
+jako změna metody proti vlastnímu kapitálu, nebo má být vykázána celá odložená daň 
+do výsledku hospodaření roku 2006, případně se má odložená daň rozdělit na část za 
+roky 2004 a 2005 proti kapitálu a za rok 2006 do výsledku hospodaření? 
+c) Obdobnou situaci vyvolávají i příklady obdobné bodům a) a b), pokud se nejedná o 
+období navazující na zavedení českého účetního standardu o odložené dani, ale o 
+situaci, která nastane po přerušení vykazování odložené daně v průběhu používání 
+standardu o odložené dani z důvodu neuznání odložené daňové pohledávky jako aktiva 
+pro její nerealizovatelnost. 
+ 
+4. Otázka tedy je, zda se jedná v běžném období o „první rok účtování odložené daně“ v případě, 
+kdy byl český účetní standard o odložené dani zaveden v dané účetní jednotce již před jedním 
+nebo i více účetními obdobími, ale: 
+a) odložená daňová pohledávka nebyla po celou dobu od zavedení standardu vykazována 
+v rozvaze z důvodu její nerealizovatelnosti a v běžném období byla tato pohledávka 
+poprvé uznána jako aktivum a musí být vykázána; 
+b) odložená daňová pohledávka nebyla po celou dobu od zavedení standardu vykazována 
+v rozvaze z důvodu její nerealizovatelnosti a v běžném období přešla pohledávka do 
+dluhu, který musí být vykázán; 
+c) po jednom nebo i více účetních období, kdy byla odložená daň řádně vykazována v 
+rozvaze účetní jednotky, bylo její vykazování přerušeno na jedno nebo i více období, 
+protože účetní jednotka došla k názoru, že výsledná odložená daňová pohledávka není 
+realizovatelná. V běžném období však tento názor změnila a došla k názoru, že má být 
+tato pohledávka uznána jako aktivum nebo má být vykázán odložený daňový dluh. 
+ 
+Řešení 
+5. Za změnu metody, která je účtována přímo proti vlastnímu kapitálu, je možno považovat pouze 
+zaúčtování (a vykázání v rozvaze) odložené daně v prvním roce zavedení ČÚS 003 v dané účetní 
+jednotce (odst. 3. 1. ČÚS 003) a dále změnu způsobu počítání odložené daně (odst. 3. 2. ČÚS 
+003). V těchto případech se vypočítaná odložená daň zaúčtuje proti odpovídající položce 
+vlastního kapitálu (Jiný výsledek hospodaření). 
+ 
+6. Účetní jednotka je podle § 39 odst. 1 písm. b) vyhl. č. 500/2002 Sb. povinna v příloze uvést 
+použité účetní metody. V případě prvního zavedení ČÚS 003 se doporučuje, aby účetní 
+jednotka informovala o prvním použití nové účetní metody, i když uživatel může tuto informaci 
+zjistit porovnáním po sobě jdoucích příloh. 
+ 
+7. Nevykázání odložené daňové pohledávky v rozvaze pro její nerealizovatelnost, znovuvykázání 
+odložené daňové pohledávky po přerušení jejího vykazování, které nastalo pro její 
+nerealizovatelnost, vykázání odloženého daňového dluhu po jednom nebo více období, kdy 
+nebyla vykazována odložená daňová pohledávka z důvodu její nerealizovatelnosti nebo 
+vykázání odložené daňové pohledávky až po jednom nebo i více obdobích od zavedení ČÚS 
+003, ve kterých nebyla odložená daňová pohledávka vykazována z důvodu její 
+
+                                                                 
+Interpretace NÚR I-9 Odložená daň – první vykázání 
+ 
+ 
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+3/4 
+nerealizovatelnosti, se nepovažuje za změnu metody, ale za změnu odhadu (viz I-29 – Opravy 
+chyb, změny v účetních odhadech a změny v účetních metodách). 
+ 
+8. Dopady změn odhadů jsou vykazovány do výsledku hospodaření vždy v běžném období, ve 
+kterém ke změně odhadu došlo, a nikdy se nevykazují retrospektivně, tj. ve vlastním kapitálu. 
+ 
+9. Výše odložené daňové pohledávky, která nebyla z důvodu její nerealizovatelnosti vykázána v 
+rozvaze, musí být zveřejněna v příloze k účetní závěrce společně s důvody, které vedly účetní 
+jednotku k jejímu nevykázání v rozvaze. 
+ 
+Zdůvodnění 
+10. Podle českých účetních předpisů účtují účetní jednotky o odloženém daňovém dluhu vždy, 
+avšak o odložené daňové pohledávce jen v případě, že účetní jednotka očekává dosažení 
+dostatečného základu daně, který umožní využití odložené daňové pohledávky. Toto očekávání 
+je nejlepším možným odhadem budoucích skutečností provedených účetní jednotkou na 
+základě informací, které má v okamžiku provedení takového odhadu. Jestliže tedy účetní 
+jednotka o odložené daňové pohledávce neúčtovala (a nevykazovala ji v rozvaze), neměla 
+jistotu, že bude v budoucnu tato pohledávka realizovatelná. Tento odhad se však může v 
+důsledku nových skutečnosti nebo okolností či jiných vnějších či vnitřních podmínek změnit. 
+Mezi takové změny patří například původně neplánované zvýšení ziskovosti účetní jednotky 
+nebo změna daňové legislativy apod. Dopady změn odhadů jsou operací běžného účetního 
+období, a jsou tedy vykazovány vždy ve výsledku hospodaření období, ve kterém ke změně 
+odhadu došlo. Důsledky změny odhadu se mohou projevovat pouze v obdobích následujících 
+po provedení změny (prospektivně, tj. v současném a budoucích výsledcích hospodaření) a 
+nikdy se neprojeví zpětně v obdobích minulých (retrospektivně, tj. ve výsledcích hospodaření 
+minulých let). 
+ 
+11. Pokud tedy účetní jednotka po jedno nebo i více období od zavedení standardu nebo od 
+posledního vykázání odložené daně nevykazuje odloženou daňovou pohledávku v rozvaze z 
+důvodu její nerealizovatelnosti a následně se rozhodne tuto pohledávku vykázat (nebo vykázat 
+odložený daňový závazek), jedná se již o změnu odhadu a dopad takové změny bude zachycen 
+ve výsledku hospodaření toho období, ve kterém byla tato změna odhadu provedena. 
+ 
+12. Za změnu metody se považuje pouze dopad odložené daně v prvním roce jejího účtování (a 
+vykazování v rozvaze) a v případě změny způsob jejího výpočtu. V takovém případě nesmí 
+spočítaná odložená daň ovlivnit výsledek hospodaření běžného období, a její dopad se proto 
+zaúčtuje proti vlastnímu kapitálu (do položky Jiný výsledek hospodaření). 
+ 
+13. Na změnu metody by měla upozorňovat příloha. Není tedy dostatečné pouze uvádět použité 
+účetní metody, ale v případě jejich prvního použití je třeba tuto skutečnost zmínit. Tato 
+informace umožní uživatelům účetní závěrky jednoduše rozlišit změnu metody od změny 
+odhadu. 
+ 
+14. Informaci o výši odložené daňové pohledávky a důvodech jejího nevykazování v případě její 
+nerealizovatelnosti získává uživatel účetní závěrky z odpovídající části přílohy k účetní závěrce, 
+
+                                                                 
+Interpretace NÚR I-9 Odložená daň – první vykázání 
+ 
+ 
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+4/4 
+ve které musí účetní jednotka výši takové pohledávky a důvody, které vedly účetní jednotku k 
+jejímu nevykázání, zveřejnit. 
+ 
+ 
+ 
+Datum prvního schválení 
+této interpretace NÚR: 
+18. prosince 2006 
+Datum poslední aktualizace 
+této interpretace NÚR: 
+1. dubna 2019 
+Zpracovatel interpretace: 
+doc. Ing. Ladislav Mejzlík, Ph.D.  
+Katedra finančního účetnictví a auditingu  
+Fakulta financí a účetnictví  
+Vysoká škola ekonomická v Praze  
+Nám. W. Churchilla 4  
+130 67 Praha 3 – Žižkov

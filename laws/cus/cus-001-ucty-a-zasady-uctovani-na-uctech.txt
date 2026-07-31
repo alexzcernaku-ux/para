@@ -1,0 +1,115 @@
+ZÁKON: ČÚS č. 001
+NAZEV: Český účetní standard pro podnikatele č. 001 – Účty a zásady účtování na účtech
+URL: https://www.mfcr.cz/assets/cs/media/Ucetnictvi_2018_Ceske-ucetni-standardy-pro-500-2002_v02.pdf
+
+Účty a zásady účtování na účtech 
+ 
+ 
+1. Cíl 
+ 
+Cílem tohoto standardu je stanovit podle zákona č. 563/1991 Sb., o účetnictví, ve 
+znění pozdějších předpisů, (dále jen „zákon“) a vyhlášky č. 500/2002 Sb., kterou se provádějí 
+některá ustanovení zákona č. 563/1991 Sb., o účetnictví, ve znění pozdějších předpisů, pro 
+účetní jednotky, které jsou podnikateli účtujícími v soustavě podvojného účetnictví, ve znění 
+pozdějších předpisů, (dále jen „vyhláška“) základní postupy účtování na účtech za účelem 
+docílení souladu při používání účetních metod účetními jednotkami.  
+ 
+2. Obsahové vymezení 
+2.1. Účty zřizuje účetní jednotka podle § 14 zákona a § 46 vyhlášky.  
+2.2. Analytické účty  
+2.2.1.  V rámci syntetických účtů vytváří účetní jednotka analytické účty. Při vytváření 
+analytických účtů bere v úvahu následující hlediska, pokud tato nejsou již zohledněna 
+přímo syntetickými účty:  
+a) členění podle jednotlivých druhů majetku, hmotně odpovědných osob a míst 
+uložení či umístění při účtování o majetku. Odděleně se sleduje majetek zatížený 
+věcným právem, popřípadě převedené nebo poskytnuté zajištění. U pohledávek je 
+členění podle jednotlivých dlužníků; u cenných papírů se na analytických účtech 
+sledují cenné papíry v umořovacím řízení,  
+b) členění pohledávek a závazků podle jednotlivých dlužníků a věřitelů,  
+c) členění podle časového hlediska u pohledávek a závazků, to je podle § 19 odst. 8 
+zákona na krátkodobé nebo dlouhodobé pohledávky a závazky,  
+d) členění na českou a cizí měnu v případech stanovených v § 4 odst. 12 zákona,  
+e) členění podle položek účetní závěrky (včetně požadavků na sestavení přílohy),  
+f) členění pro daňové účely; tzn. pro transformaci účetního výsledku hospodaření 
+před zdaněním na základ daně vymezený zákonem o daních z příjmů, zejména 
+pokud jde o výdaje na dosažení, zajištění a udržení příjmů a zdaňované příjmy pro 
+potřeby daně z přidané hodnoty, spotřebních daní, apod.,  
+g) členění pro potřeby zúčtování s institucemi sociálního zabezpečení a zdravotního 
+pojištění,  
+h) členění z hlediska potřeb finančního řízení účetní jednotky,  
+i) členění podle požadavků externích uživatelů údajů z účetnictví, například 
+úvěrových institucí, burz, Českého statistického úřadu.  
+2.2.2.  Další požadavky na analytické účty jsou uvedeny v Českých účetních standardech pro 
+podnikatele řešících účtování jednotlivých složek majetku a závazků.  
+2.3. Podrozvahové účty  
+2.3.1. Na podrozvahových účtech v účtových skupinách 75 až 79 se sledují důležité 
+skutečnosti, jejichž znalost je podstatná pro posouzení majetkoprávní situace účetní 
+jednotky a jejich ekonomických zdrojů, které lze využít. Jedná se především o 
+využívání cizího majetku, ke kterému účetní jednotka nemá vlastnické právo, 
+popřípadě právo hospodaření s majetkem státu, dále evidence práv, o kterých se 
+neúčtuje, nebo materiálu, jehož pořízení, uchování, udržování a sledování vyplývá z 
+obecně platných právních předpisů.  
+2.3.2.  Na podrozvahových účtech se sledují zejména  
+a) přijatá depozita a hypotéky,  
+b) najatý a propachtovaný majetek,  
+ 
+4 
+c) majetek přijatý do úschovy,  
+d) zásoby přijaté ke zpracování,  
+e) směnky k inkasu použité k úhradě do doby jejich splatnosti,  
+f) přísně zúčtovatelné tiskopisy,  
+g) materiál specifického použití,  
+h) program 222,  
+i) závazky ze smluvních pokut a úroků z prodlení (účtované do 31.12.2000),  
+j) pohledávky ze smluvních pokut a úroků z prodlení (účtované do 31.12.2000),  
+k) odepsané pohledávky,  
+l) poskytnutá zástavní práva a věcná práva a převedená a poskytnutá zajištění, pokud 
+se o nich neúčtuje podle Českého účetního standardu pro podnikatele č. 013 
+Dlouhodobý nehmotný a hmotný majetek na příslušných účtech účtové třídy 0,  
+m) přijatá zástavní práva a přijatá zajištění,  
+n) závazky z leasingu,  
+o) pohledávky z leasingu,  
+p) pohledávky z pevných termínových operací,  
+q) závazky z pevných termínových operací,  
+r) pohledávky z opcí,  
+s) závazky z opcí. 
+t) zrušeno  
+2.3.3.  Na podrozvahových účtech se účtuje souvztažně s evidenčním účtem.  
+2.4. Účetní zápisy  
+2.4.1. Účetní zápisy na jednotlivých účtech v účetních knihách se provádějí způsobem 
+stanoveným v § 12, 13 a 16 zákona.  
+2.4.2.  Účetní zápisy se provádějí ke dni uskutečnění účetního případu.  
+2.4.3.  Okamžikem uskutečnění účetního případu je den, ve kterém dojde ke splnění dodávky, 
+splnění peněžitého dluhu, inkasu pohledávky, postoupení pohledávky, vkladu 
+pohledávky, poskytnutí či přijetí zálohy a závdavku, převzetí dluhu, zjištění manka, 
+schodku, přebytku či škody, pohybu majetku uvnitř účetní jednotky a k dalším 
+skutečnostem vyplývajícím ze zákona, vyhlášky, Českých účetních standardů pro 
+podnikatele a ze zvláštních právních předpisů nebo z vnitřních poměrů účetní 
+jednotky, které jsou předmětem účetnictví a které v účetní jednotce nastaly, popřípadě 
+účetní jednotka má k dispozici potřebné doklady tyto skutečnosti dokumentující. Pro 
+potřeby oceňování pohledávek a závazků vyjádřených v cizí měně ke dni jejich vzniku 
+lze za okamžik uskutečnění účetního případu považovat u dodavatele den vystavení 
+faktury nebo obdobného dokladu, u odběratele den přijetí faktury nebo obdobného 
+dokladu.  
+2.5. Vnitropodnikové účetnictví  
+2.5.1.  Formu, organizaci a zaměření vnitropodnikového účetnictví určí účetní jednotka sama; 
+přitom musí zabezpečit pro potřeby finančního účetnictví průkazné podklady  
+a) o stavu a změně stavu zásob vytvořených vlastní činností,  
+b) pro vyjádření aktivace vlastních výkonů,  
+c) pro ocenění zásob a ostatních výkonů vytvořených vlastní činností.  
+2.5.2.  Vnitropodnikové účetnictví lze organizovat  
+a) v rámci analytických účtů, přičemž se využije účtů Vnitropodnikové náklady a 
+Vnitropodnikové výnosy, které se zařadí do účtových skupin 59 – Daně z příjmů, 
+převodové účty a rezerva na daň z příjmů a 69 – Převodové účty,  
+b) v samostatném účetním okruhu, pro který se zvolí účty v rámci volných účtových 
+tříd 8 a 9. Obsahovou náplň uvedených účtových tříd, zvolených účtových skupin 
+a jednotlivých syntetických účtů si určí účetní jednotka sama,  
+ 
+5 
+c) kombinací přístupů podle písmen a) a b).  
+2.5.3. Spojovací účty prokazující návaznost na vnitropodnikové účetnictví, pokud je 
+organizováno v samostatném účetním okruhu, si účetní jednotka zvolí v rámci účtů 
+účtových tříd 8 a 9, popřípadě jejich funkci nahradí technické zpracování dat.  
+2.5.4.  Účty vnitropodnikového účetnictví uvede účetní jednotka v účtovém rozvrhu. 
+ 
+6

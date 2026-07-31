@@ -1,0 +1,196 @@
+ZÁKON: NÚR I-42
+NAZEV: Interpretace Národní účetní rady I-42 – Cizoměnové pohledávky s opravnou položkou
+URL: https://nur.cz/wp-content/uploads/2020/11/I-42.pdf
+
+© Národní účetní rada 
+Schválený text interpretace 
+1/4 
+ 
+ 
+Interpretace Národní účetní rady 
+I-42 Cizoměnové pohledávky s opravnou položkou 
+ 
+Účetní jednotky jsou povinny vést účetnictví tak, aby účetní závěrka sestavená na jeho základě 
+podávala věrný a poctivý obraz předmětu účetnictví a finanční situace účetní jednotky (zákon 
+č. 563/1991 Sb., o účetnictví § 7 odst. 1). Za vedení účetnictví je odpovědná účetní jednotka. 
+Tato interpretace není právně závazným stanoviskem, pouze vyjadřuje odborný názor 
+Národní účetní rady a může být aplikována pouze v kontextu s Předmluvou Národní účetní 
+rady k interpretacím českých účetních předpisů. Postup popsaný v této interpretaci poskytuje 
+účetní jednotce návod v případech, kdy má jejich aplikace významný dopad na informace 
+uvedené v účetní závěrce a kdy informační přínosy jsou větší než náklady nutné na jejich 
+získání. 
+ 
+Popis problému: 
+1. Zákon č. 563/1991 Sb., o účetnictví (dále také „zákon“), v § 4 odst. 12 ukládá účetním 
+jednotkám povinnost vést účetnictví v peněžních jednotkách české měny a v případě 
+pohledávek a závazků, a jiných vymezených aktiv a závazků, pokud jsou vyjádřeny v cizí 
+měně, jsou účetní jednotky povinny použít současně i cizí měnu. Povinnost přitom platí i 
+u opravných položek, pokud související majetek je vyjádřen v cizí měně. 
+2. Zákon v § 24 odst. 6 požaduje přepočítávat na českou měnu pouze majetek a závazky 
+vyjádřené v cizí měně s odkazem na § 24 odst. 2 písm. a) a b) zákona. Dle § 24 odst. 6 
+zákona účetní jednotky přepočítávají majetek a závazky vyjádřené v cizí měně na českou 
+měnu k okamžiku uskutečnění účetního případu a následně ke konci rozvahového dne. 
+3. Zákon v § 24 odst. 2 písm. b) uvádí, že ustanovení tohoto zákona o oceňování majetku a 
+závazků se použije přiměřeně i pro oceňování jiných aktiv a pasiv. 
+4. Běžnou součástí ekonomických transakcí a událostí účetních jednotek jsou transakce 
+realizované v jiné měně, než je měna česká, v níž mají dle zákona vést účetnictví a podle 
+vyhlášky sestavovat účetní závěrku – prodeje výrobků a zboží, poskytování služeb, 
+poskytování zápůjček, stejně tak nákupy dlouhodobého majetku, zásob nebo čerpání 
+úvěrů či emise dluhopisů. Účetní jednotky těmito transakcemi vstupují do cizoměnových 
+transakcí, tj. transakcí, které jsou primárně realizovány v jiné měně než v peněžních 
+jednotkách české měny. 
+5. V souvislosti s cizoměnovými transakcemi je účetní jednotka vystavena (otevřena) 
+kurzovému (měnovému) riziku, pokud je účtování cizoměnové transakce spojeno 
+s budoucí platbou v cizí měně. Kurzové riziko se do účetnictví a do účetní závěrky přenáší 
+prostřednictvím kurzových rozdílů – ziskových nebo ztrátových a ve svém důsledku mění 
+hodnotu aktiv a závazků vykazovanou v účetní závěrce.  
+
+ 
+ 
+I-42 Cizoměnové pohledávky s opravnou položku 
+ 
+© Národní účetní rada 
+Schválený text interpretace 
+2/4 
+ 
+6. Kurzové riziko je důsledkem změny kurzu v případě cizoměnových transakcí, pokud 
+z nich vstupují do účetnictví, resp. účetní závěrky aktiva a závazky vedené v cizí měně 
+(tzv. cizoměnová aktiva a závazky). Hodnota cizoměnových zůstatků, které jsou v účetní 
+závěrce vykazovány, se mění v důsledku vývoje měnového kurzu mezi cizí měnou a 
+měnou, v níž je vedeno účetnictví (tj. dle zákona českou měnou). Kurzové riziko vzniká 
+v situaci, kdy vývoj měnového kurzu má vliv na výši budoucích peněžních toků a vývoj 
+měnového kurzu se přenáší do účetnictví a účetní závěrky úpravou hodnoty vykazovaných 
+aktiv a závazků. 
+7. České účetní předpisy zahrnující zákon, vyhlášku a dále české účetní standardy, nedefinují 
+obecně cizoměnová aktiva a závazky, jiná aktiva a jiná pasiva s nimiž je spojen určitý – 
+pevný nebo jasně determinovaný – budoucí peněžní tok a tím neposkytují obecně platná 
+pravidla, která by byla použita účetními jednotkami pro kurzové přepočty cizoměnových 
+položek.  
+8. V praxi jsou používána například tato řešení účtování kurzových přepočtů pohledávek a 
+souvisejících opravných položek: 
+a) Účetní jednotky přepočítávají cizoměnovou pohledávku a vzniklý rozdíl účtují 
+jako kurzový rozdíl zahrnutý do finančních výnosů a nákladů. Opravná položka 
+vytvořená k cizoměnové pohledávce je také přepočtena a vzniklý rozdíl je 
+zaúčtován jako tvorba, resp. zúčtování opravných položek, většinou v rámci 
+provozních výnosů a nákladů, nikoliv tedy jako kurzový rozdíl zahrnutý do 
+finančních výnosů a nákladů. Toto řešení nereflektuje věrné zobrazení kurzového 
+rizika v účetnictví. 
+b) Účetní jednotky přepočítávají cizoměnovou pohledávku a vzniklý rozdíl účtují 
+jako kurzový rozdíl zahrnutý do finančních výnosů a nákladů. Opravná položka 
+vytvořená k cizoměnové pohledávce je také přepočtena a vzniklý rozdíl je 
+zaúčtován jako kurzový rozdíl zahrnutý do finančních výnosů a nákladů. Toto 
+řešení reflektuje věrně zobrazení kurzového rizika v účetnictví, nicméně uvažuje 
+přepočet celé hodnoty pohledávky a korekci opravné položky, přestože budoucí 
+peněžní tok objektivně vzniká jen u té části pohledávky, jejíž úhradu lze očekávat. 
+9. Cílem této interpretace je stanovit účetní řešení při vykazování kurzového rizika 
+vyplývajícího z pohledávek snížených o opravné položky v účetní závěrce. Předmětem 
+této interpretace není přesný účetní postup. 
+10. Předmětem řešení této intepretace jsou následující otázky: 
+a) Co je kurzové riziko u pohledávky?  
+b) Co je kurzový rozdíl a jak se vykazuje v účetnictví?  
+c) Co to je opravná položka?  
+d) K jaké hodnotě pohledávky vzniká kurzový rozdíl?  
+ 
+
+ 
+ 
+I-42 Cizoměnové pohledávky s opravnou položku 
+ 
+© Národní účetní rada 
+Schválený text interpretace 
+3/4 
+ 
+Řešení: 
+11. Kurzové riziko u cizoměnových pohledávek vyplývá z výše budoucích peněžních toků 
+(příjmů), které účetní jednotka očekává, že v budoucnu obdrží.  
+12. Kurzový rozdíl je důsledkem kurzového rizika a vykazuje se ve výsledku hospodaření 
+v rámci finančního výsledku hospodaření.   
+13. Opravná položka je vyjádřením ocenění pohledávky a bez pohledávky samostatně nemůže 
+existovat. 
+14. Kurzový rozdíl u cizoměnové pohledávky vzniká pouze z hodnoty pohledávky snížené o 
+související opravnou položku (vyjádřené v cizí měně), tj. z netto hodnoty pohledávky, 
+která je vyjádřením očekávaného peněžního toku.  
+Zdůvodnění: 
+15. Očekávaná částka pohledávky je hodnota pohledávky po snížení o opravné položky (netto 
+hodnota). Část pohledávky, k níž je vytvořena opravná položka, se považuje za hodnotu, 
+která již nepředstavuje s dostatečnou pravděpodobností budoucí peněžní tok, protože 
+účetní jednotka neočekává její úhradu. 
+16. Opravná položka k pohledávce vyjadřuje nejistotu v dobytnosti pohledávky a je ve své 
+podstatě pouze hodnotovou korekcí ocenění vykazované pohledávky. Proto je třeba 
+vnímat pohledávku a její ocenění komplexně jako jednu položku aktiv. Změna výše 
+pohledávky v důsledku změny v její dobytnosti se vykazuje jako změna opravné položky. 
+Opravná položka informuje uživatele účetní závěrky, že je spíše nepravděpodobné, že 
+daný peněžní tok získá. Formálně nedošlo k odpisu pohledávky, ale k vytvoření opravné 
+položky, která vyjadřuje snížení hodnoty pohledávky a riziko jejího neuhrazení.  
+17. Riziko budoucího peněžního toku v důsledku vývoje měnového kurzu u cizoměnové 
+pohledávky je v účetní závěrce vykázáno ve výsledku hospodaření jako kurzový rozdíl, tj. 
+kurzový zisk při zvýšení hodnoty pohledávky nebo kurzová ztráta při snížení hodnoty 
+pohledávky. 
+18. § 7 odst. 1 zákona o účetnictví uvádí, že „účetní jednotky jsou povinny vést účetnictví tak, 
+aby účetní závěrka sestavená na jeho základě podávala věrný a poctivý obraz předmětu 
+účetnictví a finanční situace účetní jednotky.“  
+19. Přístup popsaný v odst. 8 a) je zažitou praxí, který však neodpovídá věrnému zobrazení 
+kurzového rizika v účetní závěrce účetní jednotky, neboť při něm dochází k přepočtu 
+hodnoty 
+pohledávky, která je v účetnictví 
+považována 
+za pochybnou, resp. 
+nevymahatelnou, a proto k ní byla vytvořena opravná položka. Důsledkem jsou 
+vykazované kurzové rozdíly kalkulované z hodnot, s nimiž již kurzové riziko spojeno 
+není. Přístup popsaný v odst. 8 b) je postupem, který vychází z § 74 odst. 4 vyhlášky 
+č. 501/2012 Sb. a je využíván účetními jednotkami, jako jsou banky a jiné finanční 
+instituce. Praxe však ukazuje i případy, kdy tento postup využívají účetní jednotky, které 
+
+ 
+ 
+I-42 Cizoměnové pohledávky s opravnou položku 
+ 
+© Národní účetní rada 
+Schválený text interpretace 
+4/4 
+ 
+jsou podnikateli, protože jeho důsledkem je vykázání správné hodnoty kurzových rozdílů 
+ve výkazu zisku a ztráty.  
+20. Rozvaha, která je součástí účetní závěrky, je postavena na bilanční rovnosti aktiv a pasiv, 
+přičemž celková hodnota aktiv v této rovnosti je dána netto hodnotou aktiv. Dle § 4 
+odst. 4 vyhlášky č. 500/2002 Sb. rozvaha za běžné období obsahuje brutto výši aktiv, 
+související korekci a netto výši aktiv. Dle § 4 odst. 5 vyhlášky se v rozvaze za minulé 
+účetní období uvádí již pouze netto hodnota aktiv. Skutečnost, zdali je či není požadováno 
+samostatné vykázání brutto, korekce a netto ocenění, by nemělo mít vliv na účetní 
+zachycení dopadu kurzového rizika.  
+21. Pokud účetní jednotka provádí přepočet hodnoty pohledávky ve svém účetnictví na bázi 
+brutto, měla by zajistit, aby vykázání v rámci účetní závěrky bylo ve všech významných 
+ohledech v souladu s řešením uvedeným v odstavcích 11‒14 výše. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Datum prvního schválení  
+ 
+19. října 2020 
+této interpretace NÚR: 
+ 
+Datum poslední aktualizace   
+– 
+této interpretace NÚR: 
+ 
+Zpracovatelé intepretace: 
+ 
+Ing. Pěva Čouková 
+ 
+ 
+ 
+ 
+ 
+účetní-portál.cz 
+Ing. Libor Vašek, Ph.D. 
+ 
+ 
+ 
+ 
+ 
+Komora certifikovaných účetních

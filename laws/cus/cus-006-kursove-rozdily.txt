@@ -1,0 +1,46 @@
+ZÁKON: ČÚS č. 006
+NAZEV: Český účetní standard pro podnikatele č. 006 – Kursové rozdíly
+URL: https://www.mfcr.cz/assets/cs/media/Ucetnictvi_2018_Ceske-ucetni-standardy-pro-500-2002_v02.pdf
+
+Kursové rozdíly 
+ 
+ 
+1. Cíl 
+     Cílem tohoto standardu je stanovit podle zákona č. 563/1991 Sb., o účetnictví, ve znění 
+pozdějších předpisů, (dále jen „zákon“) a vyhlášky č. 500/2002 Sb., kterou se provádějí 
+některá ustanovení zákona č. 563/1991 Sb., o účetnictví, ve znění pozdějších předpisů, pro 
+účetní jednotky, které jsou podnikateli účtujícími v soustavě podvojného účetnictví, ve znění 
+pozdějších předpisů, (dále jen „vyhláška“) základní postupy účtování kursových rozdílů za 
+účelem docílení souladu při používání účetních metod účetními jednotkami.  
+ 
+2. Obsahové vymezení 
+2.1.  Základní ustanovení pro zjišťování kursových rozdílů jsou obsažena v § 24 odst. 6 až 9 
+zákona a v § 60 vyhlášky.  
+2.2.  U kursových rozdílů, které vznikají v průběhu účetního období při ocenění majetku a 
+závazků uvedených v § 4 odst. 12 zákona, se uskutečněním účetního případu rozumí 
+zejména  
+a) splnění peněžitého dluhu a inkaso pohledávky,  
+b) postoupení pohledávky a vklad pohledávky,  
+c) převzetí dluhu u původního dlužníka,  
+d) vzájemné započtení pohledávek,  
+e) úhrada úvěru nebo zápůjčky novým úvěrem nebo zápůjčkou,  
+f) převod záloh a závdavků na úhradu pohledávek a dluhů.  
+2.3.   Kursové rozdíly nevznikají při  
+a) oznámení o změně věřitele u dlužníka a u věřitele v případě, že za jeho dlužníka 
+bude plnit dlužník jiný,  
+b) dohodě o změně zahraničních měn pro úhrady nebo inkasa bez pohybu peněžních 
+prostředků s výjimkou změny na Kč,  
+c)   splácení peněžitých vkladů do obchodních korporací.  
+ 
+3. Postup účtování 
+3.1.  Základní pravidla účtování kursových rozdílů stanoví § 60 vyhlášky.  
+3.2.  O kursových rozdílech při ocenění majetku a závazků se účtuje podle povahy: 
+a) pokud vznikne kursový zisk, pak je o něm účtováno na vrub příslušného účtu 
+majetku nebo závazku se souvztažným zápisem ve prospěch příslušného účtu účtové 
+skupiny 66 – Finanční výnosy, nebo 
+b) pokud vznikne kursová ztráta, pak je o ní účtováno na vrub příslušného účtu účtové 
+skupiny 56 – Finanční náklady se souvztažným zápisem ve prospěch příslušného 
+účtu majetku nebo závazku. 
+3.3.  zrušen 
+ 
+15

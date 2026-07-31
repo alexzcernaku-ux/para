@@ -1,0 +1,232 @@
+ZÁKON: ČÚS č. 011
+NAZEV: Český účetní standard pro podnikatele č. 011 – Operace s obchodním závodem
+URL: https://www.mfcr.cz/assets/cs/media/Ucetnictvi_2018_Ceske-ucetni-standardy-pro-500-2002_v02.pdf
+
+Operace s obchodním závodem  
+ 
+ 
+1. Cíl  
+     Cílem tohoto standardu je stanovit podle zákona č. 563/1991 Sb., o účetnictví, ve znění 
+pozdějších předpisů, (dále jen „zákon“) a vyhlášky č. 500/2002 Sb., kterou se provádějí 
+některá ustanovení zákona č. 563/1991 Sb., o účetnictví, ve znění pozdějších předpisů, pro 
+účetní jednotky, které jsou podnikateli účtujícími v soustavě podvojného účetnictví, ve znění 
+pozdějších předpisů, (dále jen „vyhláška“) základní postupy při prodeji a pachtu obchodního 
+závodu, pobočky nebo jiné části obchodního závodu (dále jen „obchodní závod nebo jeho 
+část“) a při přeměnách účetních jednotek podle příslušných ustanovení občanského zákoníku 
+a zákona č. 125/2008 Sb., o přeměnách obchodních společností a družstev (dále jen „zákon o 
+přeměnách“) za účelem docílení souladu při používání účetních metod účetními jednotkami.  
+ 
+2. Postup účtování při přeměně obchodní korporace 
+2.1. Účetní závěrky sestavují zúčastněné účetní jednotky podle příslušných ustanovení zákona 
+o přeměnách.  
+2.1.1. Při sestavování konečné účetní závěrky ke dni předcházejícímu rozhodný den 
+zúčastněné účetní jednotky rozhodnou, zda oceňovací rozdíly k nabytému majetku, 
+goodwill, opravné položky k jednotlivým druhům majetku, přechodná aktiva a pasiva, 
+rezervy a zajišťovací deriváty budou převáděny na nástupnickou účetní jednotku; toto 
+rozhodnutí a jeho odůvodnění uvedou v příloze.  
+2.1.2. Při změně právní formy položky uvedené v bodu 2.1.1. přecházejí do zahajovací 
+rozvahy účetní jednotky beze změn.  
+2.2.   Odložená daň přechází na nástupnickou účetní jednotku. Podkladem pro stanovení 
+odložené daně mohou být pouze položky, které přecházejí na nástupnickou účetní 
+jednotku. O odložené dani se účtuje podle § 59 vyhlášky a Českého účetního 
+standardu pro podnikatele č. 003 Odložená daň.  
+2.3 zrušen  
+2.4. 
+2.4.1.  O oceňování majetku a závazků reálnou hodnotou při přeměně obchodní korporace 
+účetní jednotky účtují zejména v souladu s § 17 odst. 3 až 6 zákona a § 6 odst. 3, § 7 
+odst. 10, § 14a, 54 až 54b vyhlášky. 
+2.4.2. Postup účtování na příslušném účtu vykazovaném v položce „A.II.2.5.                        
+Rozdíly z ocenění při přeměnách obchodních korporací“  
+Účetní jednotka k okamžiku stanovenému vyhláškou  
+a) zaúčtuje při způsobu ocenění podle § 24 odst. 3 písm. a) bodu 2 zákona o rozdílech 
+vzniklých z ocenění majetku a závazků reálnou hodnotou na vrub nebo ve prospěch 
+příslušných analytických účtů majetku a závazků souvztažně s příslušným účtem 
+vykázaným v položce „A.II.2.3 Oceňovací rozdíly z přecenění při přeměnách 
+obchodních korporací“. Souvztažně s tímto účtem zaúčtuje účetní jednotka na 
+příslušný účet vykazovaný v položce „A.II.2.5. Rozdíly z ocenění při přeměnách 
+obchodních korporací (+/-)“ oceňovací rozdíly, které se vztahují k úbytkům 
+majetku a závazků ode dne následujícího po rozvahovém dni pro ocenění do 
+rozhodného dne, 
+b) zaúčtuje při způsobu ocenění podle § 24 odst. 3 písm. a) bodu 1 zákona převzetí 
+jednotlivých složek majetku a závazků na vrub nebo ve prospěch příslušných účtů 
+majetku a závazků souvztažně s příslušným účtem vykázaným v položce „A.II.2.3. 
+Oceňovací rozdíly z přecenění při přeměnách obchodních korporací“. Souvztažně s 
+ 
+23 
+tímto účtem zaúčtuje účetní jednotka i oceňovací rozdíl k nabytému majetku. Výše 
+oceňovacího rozdílu k nabytému majetku zaúčtovaná na příslušném účtu 
+vykazovaném v položce „B.II.3. Oceňovací rozdíl k nabytému majetku“ se stanoví 
+podle ocenění k rozvahovému dni pro ocenění. Existuje-li k rozhodnému dni 
+ocenění jmění posudkem znalce a na základě tohoto ocenění jmění by došlo k 
+úbytku položky „B.II.3. Oceňovací rozdíl k nabytému majetku“ oproti její původní 
+výši stanovené k rozvahovému dni pro ocenění, zaúčtuje účetní jednotka tento 
+úbytek na příslušný účet vykazovaný v položce „B.II.3. Oceňovací rozdíl 
+k nabytému majetku“ souvztažně s příslušným účtem vykazovaným v položce 
+„A.II.2.5. Rozdíly z ocenění při přeměnách obchodních korporací (+/-)“.  
+2.5. zrušen  
+2.6. zrušen  
+2.7. 
+2.7.1.  Úpravami podle vyhlášky § 54b může být například i:  
+a) vykázání všech aktiv a závazků, které se vykazují v souladu se zákonem a 
+vyhláškou,  
+b) vyloučení aktiv a závazků, které nejsou vykazovány v souladu se zákonem a 
+vyhláškou, 
+c) zrušeno 
+d) při použití metody stanovené v § 24 odst. 3 písm. a) bodu 1 zákona, vykázání 
+jednotlivých složek aktiv a pasiv v ocenění v souladu se zákonem a vyhláškou při 
+respektování principu významnosti.  
+2.7.2. Pokud při výše uvedených úpravách vzniknou rozdíly vypořádají se s příslušným účtem 
+vykazovaným v položce „A.II.2.4. Rozdíly z přeměn obchodních korporací (+/-)“.  
+2.8. Podíly vydané zanikajícími účetními jednotkami v držení jiné zúčastněné účetní jednotky, 
+jsou v zahajovací rozvaze nástupnické účetní jednotky plně vyloučeny proti vlastnímu 
+kapitálu v ocenění uvedeném na účtu příslušného podílu v účetnictví účetní jednotky, 
+která tyto podíly držela. Obdobně se postupuje v případě ostatních přeměn, pokud v 
+souladu se zvláštním právními předpisy (například zákonem o přeměnách) podíly v 
+důsledku přeměny zanikají.  
+2.9. Podíly vydané při sloučení nástupnickou účetní jednotkou v držení zúčastněné zanikající 
+účetní jednotky se vykáží v zahajovací rozvaze jako vlastní podíly v ocenění, ve kterém 
+byly tyto podíly oceněny na příslušných účtech cenných papírů a podílů v účetnictví 
+zúčastněné zanikající účetní jednotky. Jsou-li podíly použity v souladu se zvláštním 
+právním předpisem k výměně za podíly společníkům zanikající obchodní korporace, jsou 
+v zahajovací rozvaze nástupnické obchodní korporace vyloučeny proti vlastnímu kapitálu 
+v ocenění, ve kterém byly podíly oceněny v účetnictví zúčastněné zanikající účetní 
+jednotky. Obdobně se postupuje v případě ostatních přeměn, pokud na účetní jednotku v 
+souladu se zvláštními právními předpisy upravujícími problematiku přeměn (například 
+zákon o přeměnách) přejdou vlastní podíly nebo jsou použity k výměně společníkům 
+obchodní korporace. Do doby výměny se o těchto podílech účtuje na podrozvahových 
+účtech.  
+2.10. zrušen  
+2.11. Při přeměně obchodní korporace postupují účetní jednotky při vedení účetnictví zejména 
+podle § 17 odst. 3 až 6 zákona. Při samostatném vedení účetnictví zúčastněných 
+účetních jednotek je třeba v případě odmítnutí zápisu do obchodního rejstříku zajistit 
+účetnictví zúčastněných účetních jednotek tak, jako by k přeměně obchodní korporace  
+nedošlo. Ke dni zápisu přeměny obchodní korporace do obchodního rejstříku se 
+neuzavírají účetní knihy.  
+2.12. Při vedení účetnictví od rozhodného dne je třeba dbát na řádné oceňování výkonů s 
+ 
+24 
+ohledem na skutečnost, že podle výsledku zápisu přeměny obchodní korporace nebo 
+odmítnutí zápisu přeměny obchodní korporace do obchodního rejstříku je na tyto 
+výkony možné pohlížet jako na vnitropodnikové výkony nebo výkony pro cizí (podle 
+povahy přeměny obchodní korporace). Zároveň je nutné vnitřním předpisem upravit 
+způsob číslování a ukládání účetních dokladů v tomto období.  
+2.13. Pokud zákon o přeměnách stanoví vyrovnání či doplatky nebo vypořádání některým 
+akcionářům či společníkům obchodní korporace, snižují vyplácené prostředky složky 
+vlastního kapitálu s výjimkou základního kapitálu.  
+2.14.  zrušen  
+ 
+3. Postup účtování při prodeji obchodního závodu nebo jeho části 
+3.1.  Při prodeji obchodního závodu nebo jeho části prodávající zruší rezervy (s výjimkou 
+rezerv povinně vytvářených podle zvláštních zákonů - například atomový zákon, zákon 
+o odpadech) a opravné položky, které se váží k prodávanému majetku, ve prospěch 
+nákladů, zruší se oceňovací rozdíl k nabytému majetku či goodwill (z předešlých 
+transakcí či vkladů) nepřímo prostřednictvím účtů oprávek a příslušných účtů účtové 
+skupiny 55 – Odpisy, rezervy, komplexní náklady příštích období a opravné položky v 
+provozní oblasti nebo 64 – Jiné provozní výnosy podle povahy daného zůstatku. Časové 
+rozlišení související s prodejem obchodního závodu nebo jeho části se v případě, že jeho 
+povaha umožňuje převod na kupujícího, vyúčtuje podle bodu 3.2. obdobně jako prodej 
+pohledávky nebo jako převzetí dluhu, v ostatních případech se zaúčtuje do výsledku 
+hospodaření. Dohadné položky aktivní přecházejí jako pohledávka na kupujícího, 
+dohadné položky pasivní jako dluh, který přebírá kupující.  
+3.2.  Prodávající účtuje o prodávaném majetku jako o mimořádném provozním nákladu na 
+příslušný účet účtové skupiny 54 – Jiné provozní náklady a o tržbě z prodeje jako o 
+mimořádném provozním výnosu na příslušný účet účtové skupiny 64 – Jiné provozní 
+výnosy. Předávané závazky a rezervy povinně vytvářené podle zvláštních zákonů 
+uvedené v bodu 3.1. zaúčtuje jako mimořádný provozní náklad ve prospěch příslušného 
+účtu účtové skupiny 54 – Jiné provozní náklady.  
+3.3.  Kupující zaúčtuje kupní cenu obchodního závodu nebo jeho části a převzatý majetek a 
+závazky, popřípadě rezervy dle bodu 3.1., s případným využitím položky goodwillu 
+nebo oceňovacího rozdílu k nabytému majetku podle ustanovení § 6 a 7 vyhlášky. 
+ 
+4. Postup účtování při pachtu obchodního závodu nebo jeho části 
+4.1.  Smluvní strany musí jednoznačně identifikovat majetek a závazky, které náleží k 
+obchodnímu závodu nebo jeho části a které podle ustanovení občanského zákoníku 
+přecházejí z propachtovatele na pachtýře.  
+4.2.  Pokud je ve smlouvě o pachtu obchodního závodu dohodnuto, že propachtovaný 
+dlouhodobý majetek bude odpisovat pachtýř, propachtovatel převede majetek 
+přenechaný k požívání z příslušných účtů účtových skupin 01 – Dlouhodobý nehmotný 
+majetek, 02 – Dlouhodobý hmotný majetek odpisovaný, 03 – Dlouhodobý hmotný 
+majetek neodpisovaný, 07 – Oprávky k dlouhodobému nehmotnému majetku a 08 – 
+Oprávky k dlouhodobému hmotnému majetku na vrub příslušného účtu účtové skupiny 
+06 – Dlouhodobý finanční majetek. Pokud jsou k majetku zaúčtovány opravné položky, 
+zruší se zaúčtováním ve prospěch příslušného účtu nákladů. Dále se majetek z 
+příslušného účtu účtové skupiny 06 – Dlouhodobý finanční majetek zaúčtuje na vrub 
+příslušného účtu účtové skupiny 37 – Jiné pohledávky a závazky; příslušný účet účtové 
+skupiny 06 – Dlouhodobý finanční majetek není nutno použít, lze účtovat přímo na 
+příslušný účet účtové skupiny 37 – Jiné pohledávky a závazky. Pachtýř zaúčtuje majetek 
+přenechaný k požívání na příslušné účty účtové třídy 0 a ve prospěch příslušného účtu 
+ 
+25 
+účtové skupiny 47 – Dlouhodobé závazky v ocenění majetku u propachtovatele a 
+uvedeném ve smlouvě.  
+4.3. V případě, kdy je hrazené pachtovné vyšší než odpisy, se celková částka sjednaná ve 
+smlouvě rozdělí na složku odpovídající:  
+a) výši odpisů, o které se účtuje na vrub příslušného účtu dlouhodobého závazku u 
+pachtýře a ve prospěch příslušného účtu dlouhodobé pohledávky u propachtovatele, a  
+b) pachtovnému, o kterém pachtýř účtuje na vrub příslušného účtu nákladů a 
+propachtovatel ve prospěch příslušného účtu výnosů.     
+4.4. V případě, kdy bude hrazené pachtovné nižší než (uplatňované) odpisy, použije se 
+následující postup:  
+a) 
+pachtýř o částku hrazeného pachtovného sníží příslušný dlouhodobý závazek 
+(příslušný účet účtové skupiny 47 – Dlouhodobé závazky) a k rozvahovému dni 
+zaúčtuje rozdíl mezi odpisy a částkou zaplaceného pachtovného na vrub příslušného 
+účtu účtové skupiny 47 – Dlouhodobé závazky a ve prospěch příslušného účtu výnosů,  
+b) 
+propachtovatel o částku přijatého pachtovného sníží příslušnou dlouhodobou 
+pohledávku za pachtýřem (příslušný účet účtové skupiny 37 – Jiné pohledávky a 
+závazky) a k rozvahovému dni zaúčtuje rozdíl mezi odpisy a částkou přijatého 
+pachtovného na vrub příslušného účtu nákladů a ve prospěch příslušného účtu účtové 
+skupiny 37 –  Jiné pohledávky a závazky.  
+4.5.  Umožní-li smlouva o pachtu obchodního závodu účtovat u pachtýře o oceňovacím 
+rozdílu k nabytému majetku nebo goodwillu vytvořeném propachtovatelem před 
+započetím pachtu obchodního závodu, částka odpisů k danému oceňovacímu rozdílu 
+nebo goodwillu (do nákladů či do výnosů) bude korigovat účet příslušného 
+dlouhodobého závazku (příslušný účet účtové skupiny 47 – Dlouhodobé závazky) u 
+pachtýře a příslušné dlouhodobé pohledávky (příslušný účet účtové skupiny 37 –  Jiné 
+pohledávky a závazky) u propachtovatele.  
+ 4.6.  Majetek vrácený po skončení pachtu pachtýř zaúčtuje ve prospěch příslušných účtů 
+účtových skupin 01 – Dlouhodobý nehmotný majetek, 02 – Dlouhodobý hmotný majetek 
+odpisovaný a 03 – Dlouhodobý hmotný majetek neodpisovaný, na vrub příslušných účtů 
+účtových skupin 07 - Oprávky k dlouhodobému nehmotnému majetku a 08 – Oprávky k 
+dlouhodobému hmotnému majetku a na vrub příslušného účtu účtové skupiny 47 – 
+Dlouhodobé závazky. Majetek vrácený po skončení pachtu propachtovatel vyúčtuje na 
+vrub příslušných účtů účtových skupin 01 – Dlouhodobý nehmotný majetek, 02 – 
+Dlouhodobý hmotný majetek odpisovaný a 03 – Dlouhodobý hmotný majetek 
+neodpisovaný, ve prospěch příslušných účtů účtových skupin 07 – Oprávky k 
+dlouhodobému nehmotnému majetku a 08 – Oprávky k dlouhodobému hmotnému 
+majetku a ve prospěch příslušného účtu účtové skupiny 37 – Jiné pohledávky a závazky. 
+Pokud by měl být vrácený majetek znovu propachtován, zaúčtuje se na vrub příslušného 
+účtu účtové skupiny 06 – Dlouhodobý finanční majetek a ve prospěch příslušného účtu 
+účtové skupiny 37 – Jiné pohledávky a závazky.  
+4.7.  O přechodu vlastnictví k příslušným zásobám uskutečněného formou prodeje se účtuje 
+účtováno jako o prodeji zásob. 
+4.8.  Cenné papíry, pokud budou součástí propachtovaného obchodního závodu nebo jeho 
+části, přejdou v souladu se smluvním ujednáním a podle smluvního ujednání o nich 
+bude účtováno.  
+4.9.   Pokud pohledávky a dluhy přecházejí ze zákona na pachtýře, účtuje se o nich jako o 
+prodeji pohledávek a převzetí dluhů. 
+4.10. V případě, že při vracení propachtovaného obchodního závodu nebo jeho části vznikne 
+rozdíl mezi hodnotou vráceného obchodního závodu nebo jeho části (tj. rozdíl hodnoty 
+aktiv a závazků) a dlouhodobou pohledávkou (závazkem), je nutné jej vyrovnat. Pokud 
+ 
+26 
+není ve smlouvě dohodnuto jinak: 
+a) pachtýř účtuje o doplatku rozdílu na vrub příslušného účtu účtové skupiny 47 – 
+Dlouhodobé závazky se souvztažným zápisem ve prospěch příslušného účtu účtové 
+skupiny 22 – Peněžní prostředky na účtech, 
+b) propachtovatel účtuje o příjmu rozdílu na vrub příslušného účtu účtové skupiny 22 – 
+Peněžní prostředky na účtech se souvztažným zápisem ve prospěch příslušného účtu 
+37 – Jiné pohledávky a závazky.  
+         V případě, že pachtýř vrací vyšší hodnoty, než je zůstatek účtu dlouhodobého závazku 
+(účtová skupina 47 – Dlouhodobé závazky), zaúčtuje pachtýř uvedený rozdíl do 
+provozních nákladů a propachtovatel do provozních výnosů, pokud není ve smlouvě 
+dohodnuto jinak.  
+4.11. U rezerv a účtů časového rozlišení, které pachtýř využije, je nutno dohodnout, zda 
+souvisejí s obchodním závodem nebo jeho části a zda se budou převádět; účtuje se o 
+nich na základě ustanovení ve smlouvě. Rezervy podle zvláštních právních předpisů 
+vykazované v položce „B.3. Rezervy podle zvláštních právních předpisů“ se 
+nepřevádějí, pokud zvláštní zákon nestanoví jinak.  
+4.12. zrušen 
+ 
+27

@@ -1,0 +1,85 @@
+ZÁKON: NÚR I-1
+NAZEV: Interpretace Národní účetní rady I-1 – Přechodné rozdíly při výchozím uznání aktiv
+URL: http://nur.cz/wp-content/uploads/2020/10/I-01_updated.pdf
+
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+1/2 
+Interpretace NÚR 
+I–1 
+Přechodné rozdíly při výchozím uznání aktiv 
+Účetní jednotky jsou povinny vést účetnictví tak, aby účetní závěrka sestavená na jeho základě 
+podávala věrný a poctivý obraz předmětu účetnictví a finanční situace účetní jednotky (zákon 
+č. 563/1991 Sb., o účetnictví, § 7, odst. 1). Účetní jednotky účtují o stavu a pohybu majetku a jiných 
+aktiv, závazků a jiných pasiv, dále o nákladech a výnosech a o výsledku hospodaření. (zákon 
+č. 563/1991 Sb., o účetnictví, § 2, Předmět účetnictví).  
+Tato interpretace musí být aplikována v kontextu s Předmluvou Národní účetní rady 
+k interpretacím českých účetních standardů. 
+Odkaz: ČÚS 003 – Odložená daň 
+ 
+Popis problému 
+1. Obecné pravidlo obsažené v českém účetním standardu 003 uvádí, že se odložená daň zjišťuje 
+ze všech přechodných rozdílů, které vznikají z rozdílného účetního a daňového pohledu na 
+položky zachycené v účetnictví. Přechodný rozdíl vzniká vždy, když se nerovná účetní hodnota 
+aktiva nebo závazku daňové hodnotě. Většina přechodných rozdílů, které vznikají z rozdílného 
+účetního a daňového pohledu na položky zachycené v účetnictví, jsou rozdíly tzv. časové, kdy 
+stejný náklad nebo výnos ovlivní účetní zisk v jiném období než daňový zisk, a tudíž z nich 
+vzniká odložená daň vždy. Dále existují takové přechodné rozdíly, které však nejsou zároveň 
+časovými rozdíly, což je případ některých přechodných rozdílů při výchozím uznání aktiva. 
+Takový rozdíl může vzniknout pořízením dlouhodobého majetku (například osobního 
+automobilu), u nějž zákon o daních z příjmů stanovuje maximální výši vstupní daňové základny. 
+ 
+2. Rozdíl mezi výchozí účetní hodnotou aktiva a jeho vstupní daňovou základnou by tedy měl mít 
+za následek vznik přechodného rozdílu. Protože ustanovení Českého účetního standardu 003 – 
+Odložená daň tuto konkrétní situaci výslovně neřeší, může být v těchto případech odložená 
+daň vykázána v různých účetních jednotkách způsobem, který je nejednotný, případně v 
+rozporu s obecně uznávanými účetními zásadami zakotvenými v zákoně o účetnictví. 
+ 
+3. Z uvedeného popisu problému vnikají následující otázky: 
+a) zda vzniká přechodný rozdíl, 
+b) zda je správné v takových případech odloženou daň vykázat, 
+c) kde by měla být případná odložená daň vykázána. 
+ 
+Řešení 
+4. Nákup aktiva, jehož výchozí účetní hodnota se liší od vstupní daňové základny, způsobuje 
+přechodný rozdíl. 
+5. Dopad takového přechodného rozdílu ve formě odložené daně se vykazuje v souladu s 
+povahou této transakce, tj. jako součást pořizovací ceny kupovaného aktiva. 
+
+ 
+Interpretace NÚR I-1 Přechodné rozdíly při výchozím uznání aktiv 
+ 
+ 
+ 
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+2/2 
+6. Zahrnutí odložené daně do pořizovací ceny by však mohlo snížit vypovídací schopnost účetních 
+výkazů, a proto se nedoporučuje podniku, aby uznával výsledný odložený daňový závazek nebo 
+pohledávku ani při výchozím uznání, ani následně. 
+ 
+Zdůvodnění 
+7. V souladu s principem věrného a poctivého zobrazení obsaženým v zákoně o účetnictví je 
+nezbytné dodržet pravidlo, že se odložená daň vykazuje shodně s transakcí, která odloženou 
+daň vyvolala. V případě výchozího uznání aktiva by se odložená daň musela vykazovat jako 
+součást pořizovacích nákladů daného aktiva. Takový druh pořizovacího nákladu neuznává ani 
+zákon o účetnictví, ani Mezinárodní standardy účetního výkaznictví (například IAS 12), které 
+uvádějí, že tento postup by mohl snížit vypovídací schopnost účetních výkazů, a proto se 
+nedoporučuje podniku, aby uznal výsledný odložený daňový závazek nebo pohledávku ani při 
+výchozím uznání aktiva, ani následně. Toto pravidlo bylo použito pro popsané transakce i při 
+stanovení řešení v této Interpretaci. 
+ 
+ 
+Datum prvního schválení 
+této interpretace NÚR: 
+28. února 2005 
+Datum poslední aktualizace 
+této interpretace NÚR: 
+1. dubna 2019 
+Zpracovatel interpretace: 
+prof. Ing. Libuše Müllerová, CSc.  
+Katedra finančního účetnictví a auditingu  
+Fakulta financí a účetnictví  
+Vysoká škola ekonomická v Praze  
+Nám. W. Churchilla 4  
+130 67 Praha 3 – Žižkov

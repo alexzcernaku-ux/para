@@ -1,0 +1,454 @@
+ZÁKON: NÚR I-54
+NAZEV: Interpretace Národní účetní rady I-54 – Ocenění finanční investice při vkladu a rozdělení vyčleněním
+URL: http://nur.cz/wp-content/uploads/2026/05/I-54.pdf
+
+Interpretace Národní účetní rady 
+I-54 Ocenění finanční investice při vkladu a rozdělení 
+vyčleněním 
+Účetní jednotky jsou povinny vést účetnictví tak, aby účetní závěrka sestavená na jeho základě 
+podávala věrný a poctivý obraz předmětu účetnictví a finanční situace účetní jednotky (zákon 
+č. 563/1991 Sb., o účetnictví, § 7 odst. 1). Za vedení účetnictví je odpovědná účetní jednotka. 
+Tato interpretace není právně závazným stanoviskem, pouze vyjadřuje odborný názor Národní 
+účetní rady a může být aplikována pouze v kontextu s Předmluvou Národní účetní rady 
+k interpretacím českých účetních předpisů. Postup popsaný v této interpretaci poskytuje účetní 
+jednotce návod v případech, kdy má jejich aplikace významný dopad na informace uvedené 
+v účetní závěrce a kdy informační přínosy jsou větší než náklady nutné na jejich získání. 
+Popis problému: 
+1. Dne 19. 7. 2024 nabyl účinnosti zákon č. 162/2024 Sb., kterým se mění zákon č. 125/2008 
+Sb., o přeměnách obchodních společností a družstev, ve znění pozdějších předpisů (dále jen 
+„zákon o přeměnách“) a další související zákony. Uvedená novela zákona o přeměnách 
+přinesla novou formu rozdělení – rozdělení vyčleněním. 
+2. Úprava jednotlivých druhů přeměn v účetních předpisech není celistvá. Zatímco zákon 
+č. 563/1991 Sb., o účetnictví, upravuje oblast přeměn obecně, prováděcí předpisy k tomuto 
+zákonu již upravují jednotlivé druhy přeměn zvlášť, přitom novela zákona o přeměnách 
+nebyla v těchto předpisech reflektována a konkrétní úprava rozdělení vyčleněním chybí.  
+3. Rozdělení vyčleněním (viz zákon o přeměnách, § 243 odst. 1 písm. c) lze z ekonomického 
+hlediska přirovnat k obdobě vkladu (peněžitého, nepeněžitého i vkladu obchodního 
+závodu). Nepeněžité vklady a vklady obchodních závodů však, stejně jako je tomu u 
+rozdělení vyčleněním, představují transakci, která v účetních předpisech není doposud zcela 
+vyřešena. V účetních předpisech nalezneme účetní řešení u nabyvatele vkládaného jmění, 
+komplexní řešení účetního postupu u vkladatele a společnosti rozdělované vyčleněním však 
+chybí.  
+4. V důsledku vkladu nebo rozdělení vyčleněním vkladatel nebo rozdělovaná společnost 
+nabývá podíl, a to výměnou za část jmění, která přechází na již existující nebo v důsledku 
+této transakce vznikající účetní jednotku.   
+
+ 
+ 
+I-53 Ocenění finanční investice při vkladu a rozdělení vyčleněním 
+ 
+© Národní účetní rada 
+ 
+2/7 
+ 
+5. Tato interpretace má za cíl stanovit postup ocenění nabytého podílu u vkladatele nebo u 
+společnosti rozdělované vyčleněním, a to zejména s ohledem na navazující otázky:  
+a) Jak vykázat výslednou hodnotu investice, pokud je záporná? 
+b) Jak při ocenění podílu u vkladatele postupovat při vkladu aktiv, ke kterým jsou 
+vytvořeny opravné položky, a jak postupovat u rezerv, které souvisí s předmětem 
+vkladu? 
+c) Jak postupovat u vkladatele při ocenění podílu, pokud se k předmětu vkladu váže 
+oceňovací rozdíl k nabytému majetku (dále jen „oceňovací rozdíl“) nebo goodwill? 
+d) Jak při ocenění podílu u vkladatele postupovat při vkladu aktiv a závazků, ke kterým se 
+vážou odložené daňové pohledávky anebo odložené daňové závazky? 
+6. Pro potřeby interpretace se za „vklad“ považuje jak předmět vkladu, tak vyčleněná část 
+jmění při rozdělení vyčleněním a „vkladatelem“ se rozumí účetní jednotka, která získává 
+podíl v důsledku vkladu nebo rozdělení vyčleněním.  
+Řešení: 
+7. Základem ocenění finanční investice u vkladatele je netto účetní hodnota předmětu vkladu 
+u vkladatele. To znamená, že 
+a) oprávky a opravné položky k aktivům, která jsou předmětem vkladu, a 
+b) rezervy, které souvisí s předmětem vkladu,  
+přecházejí na nabyvatele a ve svém důsledku tak snižují účetní hodnotu nově uznané 
+finanční investice. 
+8. Pokud by účetní hodnota vkladu, s ohledem na závazky přecházející současně s vkladem, 
+dosáhla záporných hodnot, je na účtech cenných papírů a podílů nulové ocenění a záporný 
+rozdíl je zúčtován kapitálově. Tento postup je odchylný od současného znění bodu 
+3.2. Českého účetního standardu (ČÚS) – č. 014 Dlouhodobý finanční majetek, dle kterého 
+je záporný rozdíl účtován do výnosů. 
+9. Správné prvotní ocenění nově uznané finanční investice vyžaduje aktualizaci účetních 
+hodnot opravných položek a rezerv před uskutečněním vkladu. K tomu je vhodné vzít 
+v potaz znalecký posudek vypracovaný pro potřeby vkladu. Jestliže znalec ocení vkládané 
+aktivum na hodnotu nižší než tu, která je zobrazena v účetnictví vkladatele, vkladatel 
+posoudí, zda toto nižší ocenění aktiva neindikuje nutnost dodatečné opravné položky, která 
+tak sníží hodnotu získaného podílu. Jestliže naopak znalecké ocenění aktiva je vyšší než 
+jeho účetní hodnota, a jsou-li k tomuto aktivu vytvořeny v účetnictví vkladatele opravné 
+položky, je nutno zvážit, zda znalecké ocenění, s ohledem na povahu budoucího 
+ekonomického užitku z vkládaného aktiva, není indikátorem pro snížení výše opravných 
+položek. Obdobně vkladatel posoudí s přihlédnutím ke znaleckému posudku oprávněnost a 
+výši ocenění rezerv, které souvisí s předmětem vkladu. 
+10. V případě odložených daňových pohledávek a závazků, které vycházejí z přechodného 
+rozdílu mezi daňovou a účetní hodnotou aktiv a závazků, které jsou předmětem vkladu, 
+
+ 
+ 
+I-53 Ocenění finanční investice při vkladu a rozdělení vyčleněním 
+ 
+© Národní účetní rada 
+ 
+3/7 
+ 
+dochází k jejich zaúčtování proti účtu finanční investice, obdobně jako je tomu u ostatních 
+aktiv a závazků.  
+11. Kladný oceňovací rozdíl a/nebo goodwill související s předmětem vkladu zvyšuje ocenění 
+finanční investice, zatímco záporný oceňovací rozdíl a/nebo goodwill související 
+s předmětem vkladu ocenění finanční investice snižuje. 
+12. Hodnotu odložené daně je nutné aktualizovat k datu transakce, stejně jako hodnotu 
+opravných položek a rezerv.  
+13. Doposud nevykazovanou odloženou daňovou pohledávku lze vykázat a zvýšit tak o ni 
+hodnotu vzniklé finanční investice v případě, že je pravděpodobné, že nabyvatel bude mít 
+právo a dostatečný daňový základ k jejímu uplatnění.  
+Zdůvodnění: 
+14. Zákon o účetnictví uvádí, že zobrazení je poctivé, když jsou při něm použity účetní metody, 
+které vedou k dosažení věrnosti. Volba účetní metody tedy není libovolná a účetní jednotka 
+by měla při volbě účetní metody vždy vyhodnotit, zdali zobrazení transakce v účetní závěrce 
+s použitím zvolené účetní metody povede k věrnému a poctivému obrazu předmětu 
+účetnictví a finanční situace. 
+15. Ocenění finanční investice u vkladatele by mělo vycházet ze zůstatkové hodnoty aktiv a 
+účetní hodnoty závazků, které jsou předmětem vkladu.  
+16. V případě, že účetní hodnota závazků převyšuje účetní hodnotu aktiv, které jsou předmětem 
+vkladu, jeví se dosavadní postup, kdy tento rozdíl byl vykázán jako výnos, za nevhodný 
+vzhledem ke skutečnosti, že následné přecenění (např. k datu účetní závěrky) je vykázáno 
+kapitálově.  
+17. Rozpuštění opravných položek či rezerv u vkladatele je možné pouze tehdy, je-li 
+v souvislosti s přípravou vkladu zjištěna chyba odhadu.  
+18. Korekce hodnot vkládaných aktiv by měly být utvořeny na základě nejlepšího možného 
+odhadu účetní jednotky o ekonomické užitečnosti těchto aktiv.  Rozpuštění opravných 
+položek by vedlo k nadhodnocení finanční investice a výsledku hospodaření. Znalecký 
+posudek, který byl vypracován pro ocenění vkladu u nabyvatele, přitom lze vzít v úvahu 
+pro úpravu opravných položek.  
+19. V případě účetních rezerv taktéž vycházíme ze skutečnosti, že v okamžiku vkladu jsou 
+utvořeny ve výši, která představuje nejlepší možný odhad budoucích výdajů.  
+20. Před vkladem či vyčleněním je nutno udělat analýzu oceňovacího rozdílu, goodwillu a 
+rezerv, zda souvisí s vkládaným obchodním závodem (např. rezerva na záruční opravy) 
+nebo s vkladatelem (např. rezerva na sankce od finančního úřadu). 
+21. Odložené daňové pohledávky a závazky je nutné považovat za svého druhu korekci hodnoty 
+předmětných aktiv a závazků, ze kterých jsou odvozeny (v případě, že je předmětem vkladu 
+
+ 
+ 
+I-53 Ocenění finanční investice při vkladu a rozdělení vyčleněním 
+ 
+© Národní účetní rada 
+ 
+4/7 
+ 
+i daňová ztráta, tak ta je fakticky samostatným aktivem), a jako takové mají zvyšovat 
+(odložená daňová pohledávka), či snižovat (odložený daňový závazek) ocenění finanční 
+investice. 
+22. Účetní jednotka vykazuje předchozí nezachycenou odloženou daňovou pohledávku v tom 
+rozsahu, v jakém je pravděpodobné, že budoucí zdanitelný zisk bude schopen odloženou 
+daňovou pohledávku pokrýt. V případě, že účetní jednotka z důvodu opatrnosti doposud 
+nevykazuje odloženou daňovou pohledávku, avšak zároveň je pravděpodobné, že nabyvatel 
+vkladu bude mít právo a dostatečný daňový základ k jejímu uplatnění, je vhodné odloženou 
+daňovou pohledávku před účtováním o vkladu v účetnictví vkladatele vykázat a zvýšit tak 
+o ni hodnotu vzniklé finanční investice.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+       
+ 
+ 
+ 
+ 
+Datum prvního schválení  
+ 
+20. dubna 2026 
+této interpretace NÚR: 
+ 
+Datum poslední aktualizace   
+– 
+této interpretace NÚR: 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Zpracovatelé intepretace: 
+ 
+doc. Ing. Jana Skálová, Ph.D. 
+ 
+ 
+ 
+ 
+ 
+Komora daňových poradců ČR 
+ 
+ 
+ 
+ 
+ 
+Ing. et Ing. Jáchym Lukeš, Ph.D. 
+ 
+ 
+ 
+ 
+ 
+Ministerstvo financí ČR 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+I-53 Ocenění finanční investice při vkladu a rozdělení vyčleněním 
+ 
+© Národní účetní rada 
+ 
+5/7 
+ 
+Příloha  
+ 
+1. 
+Příklad na vklad obchodního závodu  
+Společnost A je společností, která bude vkládat svůj obchodní závod do jiné společnosti. 
+Aktiva 
+B 
+K 
+N 
+Pasiva  
+ 
+DHM - movité věci    
+8 500 
+4 500 
+4 000 
+Základní kapitál            
+1 000 
+Materiál        
+2 000 
+500 
+1 500 
+Nerozdělený zisk 
+minulých let    
+836 
+Výrobky            
+1 000 
+ 
+1 000 
+Vlastní kapitál 
+1 836 
+Pohledávky      
+1 000 
+300 
+700 
+ 
+ 
+Peníze  
+2 500 
+ 
+2 500 
+Dodavatelé 
+2 700 
+Odložená daňová 
+pohledávka 
+336 
+ 
+336 
+Rezervy účetní  
+2 000 
+ 
+ 
+ 
+ 
+Dlouhodobý bankovní 
+úvěr  
+3 500 
+ 
+ 
+ 
+ 
+Dluhy celkem 
+8 200 
+Aktiva celkem  
+15 336 
+5 300 
+10 036 Pasiva celkem  
+10 036 
+ 
+Doplňující údaje k rozvaze 
+1. 
+Daňová zůstatková cena dlouhodobého hmotného majetku je 2 800.  
+2. 
+K materiálu je vytvořena účetní opravná položka.  
+3. 
+K pohledávkám jsou vytvořeny pouze účetní opravné položky, nikoliv daňové.  
+4. 
+Účetní rezerva je rezerva na reklamace (záruční opravy).  
+ 
+Výpočet odložené daně 
+Položka  
+Účetní hodnota  
+Daňová hodnota  
+Rozdíl P/Z 
+DHM - movité věci              
+4 000 
+2 800 
+(-) 1 200 (Z) 
+Materiál        
+1 500 
+2 000 
+500 (P) 
+Pohledávky   
+700 
+1 000 
+300 (P) 
+Rezervy  
+2 000 
+0 
+2 000 (P) 
+Saldo 
+ 
+ 
+1 600 (P) 
+Odložená daňová pohledávka 1 600 x 21 % =  
+336 
+Odložená daňová pohledávka byla vykázána v aktualizované výši ke dni předcházejícímu 
+vkladu obchodního závodu.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+I-53 Ocenění finanční investice při vkladu a rozdělení vyčleněním 
+ 
+© Národní účetní rada 
+ 
+6/7 
+ 
+ 
+Varianta I.  
+Předmětem vkladu bude celý obchodní závod, tedy všechna aktiva (včetně všech peněžních 
+prostředků) a všechny dluhy.  
+Účetní zobrazení vkladu obchodního závodu se zúčtováním účetních opravných položek a 
+účetních rezerv do hodnoty podílu, tedy hodnota podílu je vypočtena jako  
+netto hodnota aktiv 10 036 mínus vkládané dluhy včetně rezerv 8 200 = hodnota podílu tak 
+bude 1 836. 
+ 
+Aktiva 
+Pasiva 
+Podíl na dceřiné společnosti B 
+1 836 
+Základní kapitál            
+1 000 
+ 
+ 
+Nerozdělený zisk minulých let  
+836 
+Aktiva celkem  
+1 836 
+Pasiva celkem 
+1 836 
+ 
+Varianta II.  
+Pokud by se vkladatel rozhodl, že vloží peníze pouze ve výši 300 a ponechá si peníze ve výši 
+2 200, dojde ke snížení netto hodnoty aktiv na 7 836.  
+Hodnota podílu bude vypočtena jako: 
+Netto hodnota aktiv 7 836 mínus vkládané dluhy včetně rezerv 8 200 = - 364. 
+Hodnota podílu nemůže být záporná, proto bude vykázána v nulové výši a částka ve výši 364 
+bude vykázána kapitálově.  
+ 
+Aktiva 
+Pasiva 
+Podíl na dceřiné společnosti B 
+0 
+Základní kapitál            
+1 000 
+Peníze  
+2 200 
+Nerozdělený zisk minulých let 
+836 
+ 
+ 
+Kapitálové fondy  
+364 
+Aktiva celkem  
+2 200 
+Pasiva celkem 
+2 200 
+ 
+ 
+2. 
+Ustanovení právních předpisů   
+Abychom nemuseli hledat související právní úpravu, která je k přeměnám obecně v naší 
+legislativě, tak jsme si dovolili udělat zde přehled všech důležitých ustanovení:  
+● V Českém účetním standardu 011 Operace s obchodním závodem není upraveno účetní 
+zachycení vkladu obchodního závodu. V praxi se tak při vkladech obchodních závodů 
+lze setkat s aplikací různých účetních metod, které z větší či menší míry vycházejí 
+z účetní metody prodeje obchodního závodu (výsledkové řešení u vybraných položek) 
+nebo z účetního zachycení nepeněžitých vkladů (rozvahové řešení) dle ČÚS 012 – 
+Změny vlastního kapitálu a ČÚS 014 – Dlouhodobý finanční majetek.  
+● Dle  ČÚS 012 – Změny vlastního kapitálu: vkladatel po zápisu do veřejného rejstříku, 
+kdy dojde k výměně potvrzení o převzetí vkladu za akcie nebo zatímní listy, zaúčtuje 
+na vrub příslušného účtu cenných papírů a podílů a ve prospěch příslušného účtu účtové 
+skupiny 36 – Závazky ke společníkům celkovou hodnotu upsaného vkladu; zároveň 
+zaúčtuje zůstatek analytického účtu v účtové skupině 37 – Jiné pohledávky a závazky 
+(tj. již odúčtovaná aktiva ve prospěch nabyvatele) na vrub příslušného účtu účtové 
+skupiny 36 – Závazky ke společníkům; v případě nepeněžitého vkladu se tento postup 
+uplatní přiměřeně s ohledem na ustanovení Českého účetního standardu pro podnikatele 
+č. 014 Dlouhodobý finanční majetek 
+
+ 
+ 
+I-53 Ocenění finanční investice při vkladu a rozdělení vyčleněním 
+ 
+© Národní účetní rada 
+ 
+7/7 
+ 
+● Dle ČÚS - 014 Dlouhodobý finanční majetek (bod. 3.2.) jsou-li cenné papíry a podíly 
+nabyty protihodnotou za nepeněžitý vklad vložený do obchodní korporace, základem 
+jejich ocenění u vkladatele je zůstatková (účetní) cena nepeněžitého vkladu v obchodní 
+korporaci. Tato zůstatková (účetní) cena se zvyšuje o daň z přidané hodnoty, pokud 
+zákon o dani z přidané hodnoty považuje tento vklad za zdanitelné plnění. Pokud by 
+účetní cena vkladu, s ohledem na závazky přecházející současně s vkladem, dosáhla 
+záporných hodnot, je na účtech cenných papírů a podílů nulové ocenění a rozdíl je 
+zúčtován do výnosů (cenný papír a podíl je účtován na podrozvahových účtech). 
+● Dlouhodobý finanční majetek (získané podíly u vkladatele) se oceňuje dle příslušných 
+ustanovení zákona (§ 25 a 27) a vyhlášky (§ 48 a 51). Cenné papíry a podíly se podle 
+zákona a vyhlášky oceňují pořizovací cenou (včetně ážia). 
+● Oceněním aktiv a závazků při operacích se závodem nebo jeho částí se zabývají i 
+interpretace I-25 Ocenění po předchůdci a I-48 Ocenění aktiv a závazků při operacích 
+se závodem nebo jeho částí, která řeší, jak promítnout hodnoty aktiv a závazků do 
+účetnictví nabyvatele (zda přebírat brutto hodnoty a oprávky, či pouze netto hodnoty). 
+Tyto interpretace se ale nezabývají otázkou, jak ocenit získané podíly u vkladatele, které 
+pozbývá výměnou za vkládaná aktiva a závazky (obchodní závod). 
+ 
+ 
+Historické okénko 
+Od roku 1993 do konce roku 2003 platilo Opatření ministerstva financí, kterým se stanovila 
+účtová osnova a postupy účtování pro podnikatele. V tomto opatření bylo uvedeno v úvodních 
+ustanoveních v čl. XII – Zásady pro tvorbu a používání opravných položek v odst. 10, že 
+opravné položky při vkladu majetku, ke kterému se váží, vstupují do pořizovací ceny cenných 
+papírů a podílů. Ve vyhlášce č. 500/2002 Sb., která vstoupila v platnost k 1. 1. 2003, ani 
+v českých účetních standardech se toto pravidlo již neopakovalo a není uvedeno. Tato změna 
+nebyla komentována v důvodové zprávě k těmto novým předpisům. Účetní veřejnost na to 
+reagovala změnou používaných postupů, tedy postupem, kdy začaly být rozpouštěny opravné 
+položky výsledkově před vkladem aktiva. Změna se zejména dotkla vkladatelů pohledávek, 
+kteří rozpouštěli účetní i zákonné opravné položky ke vkládaným pohledávkám. Zdůvodnění 
+tohoto postupu se opíralo i o to, že při nepeněžitém vkladu pohledávek nelze na nabyvatele již 
+vytvořenou zákonnou opravnou položku převést (to jde jen při vkladu obchodního závodu podle 
+§ 23a ZDP), musí ji tedy vkladatel rozpustit, dodanit a nabyvatel znovu vytvořit. Daňový dopad 
+vkladu pohledávek za třetí osobou byl tedy stejný jako při kapitalizaci pohledávek společníka 
+za společností, tedy při zvýšení základního kapitálu nepeněžitým vkladem a započtení 
+jmenovité hodnoty pohledávky.

@@ -1,0 +1,427 @@
+ZÁKON: NÚR I-53
+NAZEV: Interpretace Národní účetní rady I-53 – Ocenění cenných papírů a podílů ekvivalencí v individuální účetní závěrce podnikatelů
+URL: http://nur.cz/wp-content/uploads/2026/04/I-53.pdf
+
+Interpretace Národní účetní rady 
+I-53 Ocenění cenných papírů a podílů ekvivalencí v individuální 
+účetní závěrce podnikatelů     
+Účetní jednotky jsou povinny vést účetnictví tak, aby účetní závěrka sestavená na jeho základě 
+podávala věrný a poctivý obraz předmětu účetnictví a finanční situace účetní jednotky (zákon 
+č. 563/1991 Sb., o účetnictví, § 7, odst. 1). Za vedení účetnictví je odpovědná účetní jednotka. 
+Tato interpretace není právně závazným stanoviskem, pouze vyjadřuje odborný názor Národní 
+účetní rady a může být aplikována pouze v kontextu s Předmluvou Národní účetní rady k 
+interpretacím českých účetních předpisů. Postup popsaný v této interpretaci poskytuje účetní 
+jednotce návod v případech, kdy má jejich aplikace významný dopad na informace uvedené v 
+účetní závěrce a kdy informační přínosy jsou větší než náklady nutné na jejich získání. 
+Popis problému: 
+1. Ekvivalenční metoda používaná jako účetní metoda v úpravě českých účetních předpisů pro 
+nekonsolidovanou a konsolidovanou účetní závěrku účetních jednotek podnikatelů, resp. bank 
+a finančních institucí nabývá několika podob a zásadně narušuje srovnatelnost poskytovaných 
+účetních informací, neboť jsou aplikovány různé účetní postupy vedoucí k odlišné výši ocenění 
+finanční investice. A to přesto, že jde ve všech případech o použití ekvivalenční metody, jejíž 
+úprava má korespondovat s úpravou Směrnice EU č. 34/2013 (Směrnice). 
+2. Ekvivalenční metoda popsaná ve Směrnici je primárně určená pro sestavení konsolidované 
+účetní závěrky. Nicméně Směrnice připouští použití této ekvivalenční metody i pro sestavení 
+individuální účetní závěrky. 
+3. Odlišnosti v úpravě ekvivalenční metody v českých účetních předpisech jsou následující:  
+a) Ocenění ekvivalencí v nekonsolidované účetní závěrce podnikatelů nevyžaduje samostatné 
+vykázání goodwillu, přičemž změna ocenění finanční investice se zachytí jako rozvahová 
+změna vlastního kapitálu účetní jednotky v části kapitálových fondů.  
+b) Ocenění ekvivalencí v účetní závěrce finanční instituce vychází z prvotního zachycení, kdy 
+se pořizovací cena podílu rozdělí na podíl na vlastním kapitálu a goodwill, který je zachycen 
+a vykazován samostatně v rámci dlouhodobého nehmotného majetku. Prvotní ocenění 
+podílu je následně: 
+i. snižováno o přijaté podíly na zisku ve výši před zdaněním, popřípadě o další přijaté 
+příspěvky z rozdělení; 
+
+ 
+I-53 Ocenění cenných papírů a podílů ekvivalencí v individuální účetní 
+závěrce podnikatelů     
+ 
+© Národní účetní rada 
+ 
+2/9 
+ii. 
+zvyšováno o podíl na zisku nebo snižováno o podíl na ztrátě ovládané osoby nebo 
+osoby pod podstatným vlivem, který vznikl po datu nabytí podílu (vykázáno ve 
+výsledovce), a 
+iii. 
+snižováno nebo zvyšováno o podíly na změnách ve vlastním kapitálu ovládané 
+osoby nebo osoby pod podstatným vlivem, které nebyly zahrnuty do výkazu zisku 
+a ztráty ovládané osoby nebo osoby pod podstatným vlivem. 
+c) Ocenění ekvivalencí v konsolidované účetní závěrce podnikatelů vnímá ekvivalenci jako 
+konsolidační metodu, přičemž její postupy jsou obdobné těm, které používají finanční 
+instituce. Ocenění vyžaduje prvotní rozdělení pořizovací ceny podílu na položku Cenné 
+papíry v ekvivalenci a Konsolidační rozdíl a následné úpravy cenných papírů v ekvivalenci 
+o podíl na výsledku hospodaření a ostatních změnách vlastního kapitálu a odpis 
+konsolidačního rozdílu. Dále se do ocenění ekvivalencí v konsolidované účetní závěrce 
+promítá i eliminace dopadů vzájemných vazeb na vlastní kapitál. 
+4. V praxi je ocenění ekvivalencí často využíváno, avšak v řadě případů (zejména v případech, 
+kdy byl obchodní podíl pořízen koupí spíše než vkladem či u podílů v zahraničních účetních 
+jednotkách) její použití vede ke zkreslení finanční situace účetní jednotky, která obchodní 
+podíly drží. V důsledku tak nedochází k naplnění požadavku zákona, aby účetní závěrka 
+zobrazovala věrný a poctivý obraz účetnictví a finanční situace. Zkreslení je dáno úvahou, že 
+podílem na vlastním kapitálu ovládané osoby nebo osoby pod podstatným vlivem, jak jej 
+zmiňuje vyhláška, je myšlen podíl na účetní hodnotě vlastního kapitálu evidovaného účetní 
+jednotkou, v níž má vykazující účetní jednotka obchodní podíl, nikoli na poakviziční změně 
+vlastního kapitálu. 
+5. Předmětem řešení této interpretace jsou následující otázky: 
+a) Mají být majetkové účasti s rozhodujícím či podstatným vlivem oceněny ekvivalencí s 
+použitím různých postupů, jedná-li se o finanční instituci, podnikatelskou účetní jednotku 
+či konsolidovanou účetní závěrku? 
+b) Je vlastním kapitálem ovládané osoby nebo osoby pod podstatným vlivem myšlena účetní 
+hodnota vlastního kapitálu nebo jiná jeho hodnota?  Jaký vlastní kapitál by měl být použitý 
+při ocenění ekvivalencí? 
+c) Jak by měly účetní jednotky postupovat při ocenění ekvivalencí? 
+Řešení: 
+6. Postup při určení hodnoty ocenění ekvivalencí pro účely nekonsolidované účetní závěrky (ať 
+už podnikatelské účetní jednotky či finanční instituce) a postup při konsolidaci ekvivalencí pro 
+účely konsolidované účetní závěrky by měl být ve své podstatě shodný, neboť východiskem je 
+jedna metoda ekvivalence upravená v evropské směrnici, vůči níž nemohou být české účetní 
+předpisy v rozporu. 
+
+ 
+I-53 Ocenění cenných papírů a podílů ekvivalencí v individuální účetní 
+závěrce podnikatelů     
+ 
+© Národní účetní rada 
+ 
+3/9 
+7. Cenný papír, resp. podíl držený v ovládané osobě nebo osobě pod podstatným vlivem je k 
+okamžiku pořízení oceněn dle § 25, odst. 1 zákona o účetnictví pořizovací cenou bez ohledu 
+na to, zdali si účetní jednotka pro ocenění po dobu držby zvolí ocenění ekvivalencí. 
+8. Pořizovací cena by měla být následně upravována o  
+a) podíl na změně vlastního kapitálu mezi datem pořízení podílu a datem ocenění ekvivalencí 
+a  
+b) odpis goodwillu, resp. rozdílu mezi pořizovací cenou podílu a podílem na reálné hodnotě 
+nabytých aktiv a dluhů po zohlednění odložené daně. 
+9. Pokud se liší významně ocenění aktiv a závazků v účetnictví účetní jednotky pod podstatným 
+vlivem od jejich reálné hodnoty, provede se úprava ocenění vlastního kapitálu na reálné 
+hodnoty aktiv a závazků ke dni pořízení podílu. Tato úprava zahrnuje i případné zachycení 
+související odložené daně. Pokud k takovým úpravám ocenění k datu pořízení podílu dojde, 
+sleduje se vývoj takto upravené hodnoty čistých aktiv po dni pořízení podílu, a k rozvahovému 
+dni je nutné upravit hodnotu vlastního kapitálu o dopad k datu pořízení investice provedeného 
+ocenění reálnou hodnotou v období po datu akvizice. Pokud však byl podíl nabyt přeměnou 
+(např. vyčleněním) a v rámci přeměny dojde k přecenění aktiv a závazků, použijí se účetní 
+hodnoty, které byly v účetnictví před přeměnou. 
+10. Výše vlastního kapitálu účetní jednotky pod podstatným vlivem musí být současně založena na 
+stejných účetních metodách jako vlastní kapitál vykazující účetní jednotky, tedy ve vazbě na 
+české účetní předpisy. To platí pro použití metody ekvivalence jak v individuální, tak 
+konsolidované účetní závěrce. 
+11. Změny v ocenění podílů oceňovaných ekvivalencí v individuální účetní závěrce, tj. podílem na 
+vlastním kapitálu, se vyjádří jako součet: 
+a) podílu na změně vlastního kapitálu po zohlednění případných úprav z rozdílných účetních 
+metod (viz odstavec 10) a po zohlednění úprav z dopadů provedeného přecenění aktiv a 
+závazků k datu akvizice (viz odstavec 9); a 
+b) odpisu rozdílu mezi pořizovací cenou podílu a podílem na reálné hodnotě aktiv a dluhů k 
+datu pořízení podílu (obdoba goodwillu podle vyhlášky 501/2002 a konsolidačního rozdílu 
+v konsolidované účetní závěrce). Doba odpisování tohoto goodwillu by měla odrážet dobu, 
+po kterou bude účetní jednotka získávat z pořízení podílu ekonomické užitky, a pokud 
+účetní jednotka sestavuje individuální i konsolidovanou účetní závěrku, lze předpokládat, 
+že bude v zásadě stejná, jako doba odepisování konsolidačního rozdílu.  
+12. Jak podíl na změně vlastního kapitálu (odst. 11a), tak odpis výše popsaného rozdílu (odst. 11b) 
+budou v individuální účetní závěrce vykázány prostřednictvím položky Oceňovací rozdíly ve 
+vlastním kapitálu. 
+
+ 
+I-53 Ocenění cenných papírů a podílů ekvivalencí v individuální účetní 
+závěrce podnikatelů     
+ 
+© Národní účetní rada 
+ 
+4/9 
+13. K rozvahovému dni musí účetní jednotka otestovat hodnotu podílu vyplývající z použití 
+ocenění ekvivalencí, na znehodnocení, tj. posoudit, zdali její zpětnězískatelná částka není nižší, 
+než ocenění ekvivalencí. V případě znehodnocení podílu musí účetní jednotka vykázat 
+opravnou položku ve výši rozdílu mezi zpětnězískatelnou částkou podílu a hodnotou 
+stanovenou oceněním ekvivalencí. 
+14. Účetní jednotka v souvislosti s oceněním investice ekvivalenční metodou zváží uznání 
+odložené daně (viz řešení interpretace NÚR I-4). 
+15. Účetní jednotka zveřejní v příloze účetní závěrky relevantní informace, včetně rozdělení účetní 
+hodnoty podílu oceněného ekvivalencí na podíl na vlastním kapitálu a na goodwill, a dobu 
+odpisování goodwillu. 
+16. Analogicky může účetní jednotka postupovat i při ocenění podílů v účetních jednotkách pod 
+společným vlivem. 
+Zdůvodnění: 
+17. Možnost ocenění podílů ekvivalencí v individuální účetní závěrce vychází ze Směrnice, 
+přičemž dle čl. 9, odst. 7, písm. a) jde o ekvivalenční metodu vymezenou pro účely 
+konsolidované účetní závěrky (odkaz na čl. 27 Směrnice). Při jejím použití mají být zohledněny 
+nezbytné úpravy vyplývající ze zvláštních vlastností roční účetní závěrky v porovnání s 
+konsolidovanou účetní závěrkou.   
+18. Směrnice dále umožňuje, aby při použití ekvivalenční metody v individuální účetní závěrce 
+byly změny oceňované majetkové účasti promítnuty jako přímá úprava vlastního kapitálu 
+účetní jednotky s výjimkou přijatých dividend, resp. k výplatě schválených, dosud 
+nevyplacených dividend, které se vykazují vždy jako výnos ve výsledku hospodaření účetní 
+jednotky.  
+19. Úprava pořizovací ceny o podíl na poakviziční změně vlastního kapitálu a o odpis „goodwillu“ 
+povede k obdobnému ocenění podílu v aktivech jak v individuální účetní závěrce podnikatelů, 
+tak v individuální účetní závěrce finančních institucí či v konsolidované účetní závěrce. 
+20. Aby byla zajištěna konzistence mezi pojetím ekvivalence v individuální účetní závěrce 
+podnikatelů, v individuální účetní závěrce finančních institucí a v konsolidované účetní 
+závěrce, musí účetní jednotka k okamžiku pořízení podílu vyjádřit vlastní kapitál účetní 
+jednotky pod podstatným vlivem reálnou hodnotou, obdobně jako je požadováno pro účely 
+konsolidované účetní závěrky a v období od data akvizice sledovat jeho vývoj a stanovit k 
+rozvahovému dni úpravy vlastního kapitálu evidovaného v účetnictví účetní jednotky pod 
+podstatným vlivem na hodnotu vlastního kapitálu navazujícího v bilanční kontinuitě na jeho 
+
+ 
+I-53 Ocenění cenných papírů a podílů ekvivalencí v individuální účetní 
+závěrce podnikatelů     
+ 
+© Národní účetní rada 
+ 
+5/9 
+reálnou hodnotu stanovenou k datu akvizice – pořízení podílu včetně zohlednění úprav a změn 
+související odložené daně.   
+21. Ocenění prostým podílem na vlastním kapitálu (jak může být interpretováno ustanovení § 51 
+odst. 3 vyhlášky pro podnikatele) neodpovídá požadavkům Směrnice a je zavádějící zejména v 
+situaci, kdy byl podíl pořízen koupí a již v okamžiku pořízení se kupní cena významně lišila od 
+podílu na účetní hodnotě vlastního kapitálu nabývané účetní jednotky. Takový postup zpravidla 
+vede ke snížení hodnoty dlouhodobého finančního majetku a zároveň k záporným hodnotám 
+ve vlastním kapitálu, přitom k takovému snížení hodnoty dlouhodobého finančního majetku 
+zpravidla není důvod. V úpravě konsolidované účetní závěrky ve vyhlášce č. 500/2002 Sb. je 
+sice také podíl v přidruženém podniku oceněn podílem na vlastním kapitálu, zároveň je ale v 
+samostatné položce vykázán konsolidační rozdíl, který představuje rozdíl mezi pořizovací 
+cenou podílu a podílem na reálné hodnotě čistých aktiv. V individuální účetní závěrce ovšem 
+konsolidační rozdíl vykázaný není a ocenění prostým podílem na vlastním kapitálu tak v řadě 
+případů vede ke snížení hodnoty majetku. 
+22. Pořizovací cena podílu v ovládané osobě nebo osobě pod podstatným vlivem je ovlivněna 
+reálnými hodnotami aktiv a dluhů spíše než jejich účetními hodnotami. Změna vlastního 
+kapitálu mezi datem nabytí podílu a datem jeho ocenění tak musí například reflektovat odpisy 
+z reálné hodnoty dlouhodobých aktiv k datu nabytí podílu spíše než z jejich historické 
+pořizovací ceny. Obdobný požadavek obsahuje vyhláška č. 500/2002 Sb. i v úpravě 
+ekvivalence pro konsolidovanou účetní závěrku. 
+23. Má-li účetní závěrka podávat věrný a poctivý obraz, musí účetní jednotka pro obdobné 
+transakce použít stejné účetní metody.  Z toho důvodu není možné, aby byla pro ocenění 
+ekvivalencí použitá hodnota vlastního kapitálu, která vychází z účetních metod odlišných od 
+těch, které používá vykazující účetní jednotka. Obdobný požadavek je obsažen i v úpravě 
+ekvivalence pro konsolidovanou účetní závěrku. Kromě vykazování podílu na změně vlastního 
+kapitálu je nutné do ocenění ekvivalencí promítnout i snížení hodnoty podílu, které souvisí s 
+konzumací ekonomických užitků plynoucích z rozdílu mezi pořizovací cenou a podílem na 
+reálné hodnotě aktiv a závazků k datu pořízení podílu, neboli z očekávání investora ve vztahu 
+k budoucí výkonnosti investice. 
+24. Podíl na změně vlastního kapitálu a odpis souvisejícího goodwillu je vykázán prostřednictvím 
+položky Oceňovací rozdíly ve vlastním kapitálu vzhledem k tomu, že vyhláška č. 500/2002 
+požaduje, aby změny v ocenění cenných papírů a podílů neurčených k obchodování byly 
+účtovány prostřednictvím rozvahových účtů v účtové skupině 41. Tato možnost není v rozporu 
+se Směrnicí. 
+25. Zásada opatrnosti vyžaduje, aby hodnota aktiv nebyla nadhodnocena. Má-li účetní jednotka 
+indikace, že by hodnota podílu v ovládané osobě či osobě pod podstatným vlivem mohla být 
+
+ 
+I-53 Ocenění cenných papírů a podílů ekvivalencí v individuální účetní 
+závěrce podnikatelů     
+ 
+© Národní účetní rada 
+ 
+6/9 
+snížena, musí stanovit zpětnězískatelnou částku jako vyšší z reálné hodnoty (snížené o náklady 
+na prodej) a hodnoty z užívání. Do výpočtu hodnoty z užívání jsou zahrnuty buď očekávané 
+peněžní toky z dividend či podílů na zisku, nebo peněžní toky generované ovládanou osobou 
+nebo osobou pod podstatným vlivem a zahrnující i příjmy z případného prodeje podílu. 
+26. Relevantním a požadovaným rozdílem mezi pojetím ekvivalence v individuální účetní závěrce 
+podnikatelů a v konsolidované účetní závěrce je: 
+a) skutečnost, že pro účely konsolidované účetní závěrky je hodnota podílu rozdělena na dvě 
+samostatně vykazované položky (vnitřní složky celkového ocenění), a to na hodnotu podílu 
+na vlastním kapitálu a na hodnotu konsolidačního rozdílu; 
+b) vykázání podílu na změně ve vlastním kapitálu, která v konsolidované účetní závěrce 
+vykazuje buď ve výsledku hospodaření či přímo ve složkách vlastním kapitálu, a to s 
+ohledem na položku vlastního kapitálu, u které ke změně došlo. V individuální účetní 
+závěrce podnikatelů se podíl na změně vlastního kapitálu vykazuje přímo ve vlastním 
+kapitálu v položce oceňovací rozdíly; 
+c) přístup k eliminaci dopadu vzájemných transakcí, jejichž řešení a zohlednění 
+v konsolidované účetní závěrce je mnohem širší.  
+27. Zákon o účetnictví nedefinuje následné ocenění podílů v účetních jednotkách pod společným 
+vlivem.  Tyto podíly jsou prvotně oceněny pořizovací cenou a je-li naplněn požadavek na věrné 
+a poctivé zobrazení finanční situace a finanční výkonnosti účetní jednotky, lze i tyto podíly 
+v individuální účetní závěrce podnikatelů ocenit ekvivalencí. 
+ 
+ 
+Datum prvního schválení  
+ 
+23. března 2026 
+této interpretace NÚR: 
+ 
+Datum poslední aktualizace   
+– 
+této interpretace NÚR: 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Zpracovatelé intepretace: 
+ 
+Ing. Alice Štěpánková Šrámková 
+ 
+ 
+ 
+ 
+ 
+Svaz účetních ČR 
+ 
+ 
+ 
+ 
+ 
+Ing. Libor Vašek, Ph.D. 
+ 
+ 
+ 
+ 
+ 
+Fakulta financí a účetnictví VŠE v Praze 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+I-53 Ocenění cenných papírů a podílů ekvivalencí v individuální účetní 
+závěrce podnikatelů     
+ 
+© Národní účetní rada 
+ 
+7/9 
+Příklady pro individuální účetní závěrku podnikatelů 
+Příklad 1 
+Účetní jednotka A dne 1. 1. 20X4 založila s dalšími dvěma společníky účetní jednotku B. 
+Peněžitý vklad představující 40% podíl v účetní jednotce B byl ve výši 100 000 Kč. Celkový 
+základní a zároveň vlastní kapitál účetní jednotky B byl k datu 1. 1. 20X4 ve výši 250 000 Kč.   
+K 31. 12. 20X4 byl vlastní kapitál účetní jednotky B ve výši 480 000 Kč. Účetní jednotka B 
+sestavuje svoji účetní závěrku dle českých účetních předpisů. 
+Řešení 
+K datu pořízení podílu se účetní hodnota čistých aktiv účetní jednotky B významně nelišila od 
+jejich reálných hodnot.  K datu účetní závěrky tak nebylo nutné upravovat hodnotu vlastního 
+kapitálu účetní jednotky B, protože používá stejné účetní postupy jako účetní jednotka A 
+Výňatky z rozvahy účetní jednotky A  
+Aktiva (v tis. Kč) 
+Pasiva (v tis. Kč) 
+Cenné papíry a podíly 
+100 + 40 % x (480 – 250) 
+192 
+Oceňovací rozdíly 
+40 % x (480 – 250) 
+92 
+ 
+ 
+Příklad 2 
+Účetní jednotka A pořídila dne 1. 1. 20X4 40% podíl v účetní jednotce B za 6 000 tis. Kč. 
+Vlastní kapitál účetní jednotky B byl k datu 1. 1. 20X4 ve výši 10 000 tis. Kč. K datu pořízení 
+podílu nebyly identifikovány žádné významné rozdíly mezi účetními a reálnými hodnotami 
+aktiv a dluhů účetní jednotky B.  Účetní jednotka A očekává, že z pořízení podílu v účetní 
+jednotce B ji budou plynout ekonomické užitky po dobu 10 let. 
+K 31. 12. 20X4 byl vlastní kapitál účetní jednotky B ve výši 12 000 tis. Kč. Účetní jednotka B 
+sestavuje svoji účetní závěrku dle českých účetních předpisů. 
+Řešení 
+Výpočet goodwillu: 6 000 – 40 % x 10 000 = 2 000 
+Roční odpis goodwillu: 2 000 / 10 = 200 
+Oceňovací rozdíly budou stanoveny jako podíl na změně vlastního kapitálu minus odpis 
+goodwillu, tj. 40 % x (12 000 – 10 000) – 200 = 600 
+Výňatky z rozvahy účetní jednotky A  
+Aktiva (v tis. Kč) 
+Pasiva (v tis. Kč) 
+Cenné papíry a podíly 
+6 600 
+Oceňovací rozdíly 
+600 
+Peníze 
+-6 000 
+xxx 
+xxx 
+ 
+ 
+ 
+
+ 
+I-53 Ocenění cenných papírů a podílů ekvivalencí v individuální účetní 
+závěrce podnikatelů     
+ 
+© Národní účetní rada 
+ 
+8/9 
+Příklad 3 
+Účetní jednotka A pořídila dne 1. 1. 20X4 40% podíl v účetní jednotce B za 8 000 tis. Kč. 
+Vlastní kapitál účetní jednotky B byl k datu 1. 1. 20X4 ve výši 10 000 tis. Kč. K datu pořízení 
+podílu účetní jednotka A identifikovala, že budova vlastněná účetní jednotkou B má reálnou 
+hodnotu o 6 000 tis. Kč vyšší, než je její účetní hodnota. Účetní jednotka B hodlá budovu 
+používat ještě 20 let. Účetní jednotka A očekává, že z pořízení podílu v účetní jednotce B ji 
+budou plynout ekonomické užitky po dobu 20 let. Daňová sazba je 21 % a nejsou uvažovány 
+žádné jiné přechodné rozdíly v účetní a daňové hodnotě aktiv a dluhů u účetní jednotky B. 
+K 31. 12. 20X4 byl vlastní kapitál účetní jednotky B ve výši 12 000 tis. Kč. Účetní jednotka B 
+sestavuje svoji účetní závěrku dle českých účetních předpisů. 
+Řešení 
+Výpočet goodwillu: 8 000 – 40 % x (10 000 + 6 000 – 6 000 x 21 %) = 2 104 
+Roční odpis goodwillu: 2 104 / 20 = 105 
+Úprava ročního odpisu reflektující reálnou hodnotu budovy: 6 000 / 20 = 300 
+Úprava odloženého daňového závazku: 6 000 x 21 % / 20 = 63 
+Oceňovací rozdíly budou stanoveny jako podíl na změně vlastního kapitálu (v účetních 
+hodnotách) upravený o odpis z rozdílného ocenění budovy (včetně související odložené daně) a 
+dále minus odpis goodwillu, tj. 40 % x (12 000 – 10 000 – 300 + 63) - 105 = 600 
+Výňatky z rozvahy účetní jednotky A  
+Aktiva (v tis. Kč) 
+Pasiva (v tis. Kč) 
+Cenné papíry a podíly 
+8 600 
+Oceňovací rozdíly 
+600 
+Peníze 
+-
+8 000 
+xxx 
+xxx 
+ 
+ 
+ 
+
+ 
+I-53 Ocenění cenných papírů a podílů ekvivalencí v individuální účetní 
+závěrce podnikatelů     
+ 
+© Národní účetní rada 
+ 
+9/9 
+Příklad 4 
+Účetní jednotka A pořídila dne 1. 1. 20X1 40% podíl v účetní jednotce B za 6 000 tis. EUR. 
+Účetní jednotka B sestavuje svoji účetní závěrku dle slovenských účetních předpisů. Vlastní 
+kapitál účetní jednotky B v souladu se slovenskými účetními předpisy byl k datu 1. 1. 20X4 ve 
+výši 10 000 tis. EUR. V souladu s českými účetními předpisy by byl ve výši 9 600 EUR včetně 
+dopadu na odloženou daň. K datu pořízení podílu nebyly identifikovány žádné významné 
+rozdíly mezi účetními a reálnými hodnotami aktiv a dluhů účetní jednotky B. Účetní jednotka 
+A očekává, že z pořízení podílu v účetní jednotce B ji budou plynout ekonomické užitky po 
+dobu 10 let. 
+K 31. 12. 20X4 byl vlastní kapitál účetní jednotky B v souladu se slovenskými účetními 
+předpisy ve výši 12 000 tis. EUR. V souladu s českými účetními předpisy by byl ve výši 11 700 
+EUR včetně dopadu na odloženou daň. 
+Měna účetnictví účetní jednotky A je česká koruna. 
+Kurz Kč/EUR 
+K 1. 1. 20X4  
+25,00 
+K 31. 12. 20X4 
+25,20 
+ 
+Řešení 
+Pořizovací cena: 6 000 x 25 = 150 000 tis. Kč 
+Vlastní kapitál k datu pořízení podílu: 9 600 x 25 = 240 000 tis. Kč 
+Výpočet goodwillu: 150 000 – 40 % x 240 000 = 54 000 tis. Kč 
+Roční odpis goodwillu: 54 000 / 10 = 5 400 tis. Kč 
+Vlastní kapitál k 31. 12. 20X4: 11 700 x 25,2 = 294 840 tis. Kč 
+Oceňovací rozdíly budou stanoveny jako podíl na změně vlastního kapitálu minus odpis 
+goodwillu, tj. 40 % x (294 840 – 240 000) – 5 400 = 16 536 
+Výňatky z rozvahy účetní jednotky A  
+Aktiva (v tis. Kč) 
+Pasiva (v tis. Kč) 
+Cenné papíry a podíly 
+166 536 
+Oceňovací rozdíly 
+16 536 
+Peníze 
+-150 000 
+xxx 
+xxx

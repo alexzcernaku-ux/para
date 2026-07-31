@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Generátor dokumentů — Para</title>
+<link rel="icon" href="assets/img/logo/logo-mark.png" />
+<link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+
+<div class="app-loading" id="page-loading">
+  <img src="assets/img/mascot/mascot-pocita.png" alt="" />
+  Chvilku strpení…
+</div>
+
+<div class="hidden" id="page-shell">
+  <div class="app-topbar" style="padding: 16px 28px;">
+    <a href="app.html" style="display:flex; align-items:center; gap:10px; text-decoration:none;">
+      <img src="assets/img/logo/logo-primary-light.png" alt="Para" style="height:26px" />
+    </a>
+    <div style="display:flex; align-items:center; gap:16px;">
+      <a href="app.html" class="btn btn-secondary">← Zpět do chatu</a>
+      <button type="button" class="app-signout-btn" id="signout-btn">Odhlásit se</button>
+    </div>
+  </div>
+
+  <div class="gen-shell">
+    <div class="gen-head">
+      <img src="assets/img/mascot/mascot-pocita.png" alt="Para vyplňuje dokument" class="mascot-img" />
+      <span class="eyebrow" style="justify-content:center; display:flex;">Generátor dokumentů</span>
+      <h1 style="margin: 10px 0 4px;">Vystavte doklad za pár minut</h1>
+      <p>Vaše firemní údaje doplníme z profilu, zbytek vyplňte a stáhněte jako PDF.</p>
+    </div>
+
+    <div class="doctype-tabs" id="doctype-tabs">
+      <button type="button" class="doctype-tab active" data-doctype="faktura">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 12h6M9 16h6M9 8h1" /><path d="M14 3H7a2 2 0 00-2 2v14a2 2 0 002 2h10a2 2 0 002-2V8z" /><path d="M14 3v5h5" /></svg>
+        Faktura
+      </button>
+      <button type="button" class="doctype-tab" data-doctype="storno">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3H7a2 2 0 00-2 2v14a2 2 0 002 2h10a2 2 0 002-2V8z" /><path d="M14 3v5h5" /><path d="M9.5 12.5l5 5M14.5 12.5l-5 5" /></svg>
+        Storno faktury
+      </button>
+      <button type="button" class="doctype-tab" data-doctype="upominka">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 8a6 6 0 10-12 0c0 7-3 9-3 9h18s-3-2-3-9" /><path d="M13.73 21a2 2 0 01-3.46 0" /></svg>
+        Upomínka
+      </button>
+      <button type="button" class="doctype-tab" data-doctype="smlouva">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3H7a2 2 0 00-2 2v14a2 2 0 002 2h10a2 2 0 002-2V8z" /><path d="M14 3v5h5" /><path d="M9 17l1.5-4.5L18 5l2 2-7.5 7.5z" /></svg>
+        Smlouva o dílo
+      </button>
+    </div>
+
+    <!-- ===================== FAKTURA ===================== -->
+    <form class="card doctype-panel" id="panel-faktura" data-doctype="faktura">
+      <div class="gen-subheading">Vaše údaje (dodavatel)</div>
+      <div class="calc-form-grid">
+        <div class="calc-field"><label for="f-supplier-name">Jméno / název firmy</label><input class="text-input" id="f-supplier-name" required /></div>
+        <div class="calc-field"><label for="f-supplier-address">Adresa sídla</label><input class="text-input" id="f-supplier-address" required /></div>
+        <div class="calc-field"><label for="f-supplier-ico">IČO</label><input class="text-input" id="f-supplier-ico" /></div>
+        <div class="calc-field" id="f-supplier-dic-field"><label for="f-supplier-dic">DIČ</label><input class="text-input" id="f-supplier-dic" /></div>
+      </div>
+
+      <div class="gen-subheading">Odběratel</div>
+      <div class="calc-form-grid">
+        <div class="calc-field"><label for="f-customer-name">Jméno / název firmy</label><input class="text-input" id="f-customer-name" required /></div>
+        <div class="calc-field"><label for="f-customer-address">Adresa</label><input class="text-input" id="f-customer-address" required /></div>
+        <div class="calc-field"><label for="f-customer-ico">IČO (nepovinné)</label><input class="text-input" id="f-customer-ico" /></div>
+        <div class="calc-field"><label for="f-customer-dic">DIČ (nepovinné)</label><input class="text-input" id="f-customer-dic" /></div>
+      </div>
+
+      <div class="gen-subheading">Údaje dokladu</div>
+      <div class="calc-form-grid">
+        <div class="calc-field"><label for="f-doc-number">Evidenční číslo</label><input class="text-input" id="f-doc-number" required /></div>
+        <div class="calc-field"><label for="f-issue-date">Datum vystavení</label><input type="date" class="text-input" id="f-issue-date" required /></div>
+        <div class="calc-field"><label for="f-tax-point-date">Datum uskutečnění plnění (DUZP)</label><input type="date" class="text-input" id="f-tax-point-date" required /></div>
+        <div class="calc-field"><label for="f-due-date">Datum splatnosti</label><input type="date" class="text-input" id="f-due-date" required /></div>
+        <div class="calc-field"><label for="f-payment-method">Forma úhrady</label><input class="text-input" id="f-payment-method" value="Bankovním převodem" /></div>
+        <div class="calc-field"><label for="f-account-number">Číslo účtu</label><input class="text-input" id="f-account-number" /></div>
+      </div>
+
+      <div class="gen-subheading">Položky</div>
+      <div class="item-row-header" id="f-item-header">
+        <span>Popis</span><span>Množ.</span><span>Cena/ks</span><span>DPH</span><span></span>
+      </div>
+      <div class="item-rows" id="f-items"></div>
+      <button type="button" class="btn btn-secondary item-row-add" id="f-add-item">+ Přidat položku</button>
+
+      <div class="gen-subheading">Poznámka</div>
+      <div class="calc-field full" style="margin-bottom: 22px;">
+        <textarea class="text-input" id="f-note" rows="2" placeholder="nepovinné"></textarea>
+      </div>
+
+      <div class="gen-submit-row">
+        <span class="gen-submit-status" id="f-status"></span>
+        <button type="submit" class="btn btn-primary" id="f-submit">Stáhnout jako PDF</button>
+      </div>
+    </form>
+
+    <!-- ===================== STORNO FAKTURY ===================== -->
+    <form class="card doctype-panel hidden" id="panel-storno" data-doctype="storno">
+      <div class="gen-subheading">Vaše údaje (dodavatel)</div>
+      <div class="calc-form-grid">
+        <div class="calc-field"><label for="s-supplier-name">Jméno / název firmy</label><input class="text-input" id="s-supplier-name" required /></div>
+        <div class="calc-field"><label for="s-supplier-address">Adresa sídla</label><input class="text-input" id="s-supplier-address" required /></div>
+        <div class="calc-field"><label for="s-supplier-ico">IČO</label><input class="text-input" id="s-supplier-ico" /></div>
+        <div class="calc-field" id="s-supplier-dic-field"><label for="s-supplier-dic">DIČ</label><input class="text-input" id="s-supplier-dic" /></div>
+      </div>
+
+      <div class="gen-subheading">Odběratel</div>
+      <div class="calc-form-grid">
+        <div class="calc-field"><label for="s-customer-name">Jméno / název firmy</label><input class="text-input" id="s-customer-name" required /></div>
+        <div class="calc-field"><label for="s-customer-address">Adresa</label><input class="text-input" id="s-customer-address" required /></div>
+        <div class="calc-field"><label for="s-customer-ico">IČO (nepovinné)</label><input class="text-input" id="s-customer-ico" /></div>
+        <div class="calc-field"><label for="s-customer-dic">DIČ (nepovinné)</label><input class="text-input" id="s-customer-dic" /></div>
+      </div>
+
+      <div class="gen-subheading">Opravovaný doklad</div>
+      <div class="calc-form-grid">
+        <div class="calc-field"><label for="s-doc-number">Evidenční číslo opravného dokladu</label><input class="text-input" id="s-doc-number" required /></div>
+        <div class="calc-field"><label for="s-issue-date">Datum vystavení</label><input type="date" class="text-input" id="s-issue-date" required /></div>
+        <div class="calc-field"><label for="s-original-doc-number">Číslo původní faktury</label><input class="text-input" id="s-original-doc-number" required /></div>
+        <div class="calc-field"><label for="s-original-issue-date">Datum vystavení původní faktury</label><input type="date" class="text-input" id="s-original-issue-date" required /></div>
+        <div class="calc-field"><label for="s-discovery-date">Den zjištění důvodu opravy</label><input type="date" class="text-input" id="s-discovery-date" /></div>
+      </div>
+
+      <div class="calc-field full" style="margin-bottom: 22px;">
+        <label for="s-reason" style="font-size:13px; font-weight:700; color:var(--slate); text-transform:uppercase; letter-spacing:0.03em; margin-bottom:8px; display:block;">Důvod opravy</label>
+        <textarea class="text-input" id="s-reason" rows="2" required></textarea>
+      </div>
+
+      <div class="gen-subheading" id="s-amounts-heading">Částky</div>
+      <div class="calc-form-grid" id="s-vat-amounts">
+        <div class="calc-field"><label for="s-original-base">Původní základ daně</label><input type="number" step="0.01" class="text-input" id="s-original-base" value="0" /></div>
+        <div class="calc-field"><label for="s-corrected-base">Opravený základ daně</label><input type="number" step="0.01" class="text-input" id="s-corrected-base" value="0" /></div>
+        <div class="calc-field"><label for="s-original-vat">Původní DPH</label><input type="number" step="0.01" class="text-input" id="s-original-vat" value="0" /></div>
+        <div class="calc-field"><label for="s-corrected-vat">Opravená DPH</label><input type="number" step="0.01" class="text-input" id="s-corrected-vat" value="0" /></div>
+      </div>
+
+      <div class="gen-submit-row">
+        <span class="gen-submit-status" id="s-status"></span>
+        <button type="submit" class="btn btn-primary" id="s-submit">Stáhnout jako PDF</button>
+      </div>
+    </form>
+
+    <!-- ===================== UPOMÍNKA ===================== -->
+    <form class="card doctype-panel hidden" id="panel-upominka" data-doctype="upominka">
+      <div class="gen-subheading">Vaše údaje (odesílatel)</div>
+      <div class="calc-form-grid">
+        <div class="calc-field"><label for="u-supplier-name">Jméno / název firmy</label><input class="text-input" id="u-supplier-name" required /></div>
+        <div class="calc-field"><label for="u-supplier-address">Adresa</label><input class="text-input" id="u-supplier-address" required /></div>
+      </div>
+
+      <div class="gen-subheading">Adresováno (dlužník)</div>
+      <div class="calc-form-grid">
+        <div class="calc-field"><label for="u-customer-name">Jméno / název firmy</label><input class="text-input" id="u-customer-name" required /></div>
+        <div class="calc-field"><label for="u-customer-address">Adresa</label><input class="text-input" id="u-customer-address" required /></div>
+      </div>
+
+      <div class="gen-subheading">Nezaplacená faktura</div>
+      <div class="calc-form-grid">
+        <div class="calc-field"><label for="u-issue-date">Datum vystavení upomínky</label><input type="date" class="text-input" id="u-issue-date" required /></div>
+        <div class="calc-field"><label for="u-original-doc-number">Číslo faktury</label><input class="text-input" id="u-original-doc-number" required /></div>
+        <div class="calc-field"><label for="u-original-issue-date">Datum vystavení faktury</label><input type="date" class="text-input" id="u-original-issue-date" required /></div>
+        <div class="calc-field"><label for="u-original-due-date">Původní splatnost</label><input type="date" class="text-input" id="u-original-due-date" required /></div>
+        <div class="calc-field"><label for="u-amount">Dlužná částka (Kč)</label><input type="number" step="0.01" class="text-input" id="u-amount" required /></div>
+        <div class="calc-field"><label for="u-new-due-date">Nový termín úhrady</label><input type="date" class="text-input" id="u-new-due-date" required /></div>
+      </div>
+
+      <label class="gen-checkbox-row">
+        <input type="checkbox" id="u-include-interest" checked />
+        Připomenout možnost úroku z prodlení (bez konkrétní sazby)
+      </label>
+
+      <div class="gen-subheading">Poznámka</div>
+      <div class="calc-field full" style="margin-bottom: 22px;">
+        <textarea class="text-input" id="u-note" rows="2" placeholder="nepovinné"></textarea>
+      </div>
+
+      <div class="gen-submit-row">
+        <span class="gen-submit-status" id="u-status"></span>
+        <button type="submit" class="btn btn-primary" id="u-submit">Stáhnout jako PDF</button>
+      </div>
+    </form>
+
+    <!-- ===================== SMLOUVA O DÍLO ===================== -->
+    <form class="card doctype-panel hidden" id="panel-smlouva" data-doctype="smlouva">
+      <div class="gen-subheading">Zhotovitel (vy)</div>
+      <div class="calc-form-grid">
+        <div class="calc-field"><label for="c-contractor-name">Jméno / název firmy</label><input class="text-input" id="c-contractor-name" required /></div>
+        <div class="calc-field"><label for="c-contractor-address">Adresa sídla</label><input class="text-input" id="c-contractor-address" required /></div>
+        <div class="calc-field"><label for="c-contractor-ico">IČO</label><input class="text-input" id="c-contractor-ico" /></div>
+        <div class="calc-field" id="c-contractor-dic-field"><label for="c-contractor-dic">DIČ</label><input class="text-input" id="c-contractor-dic" /></div>
+      </div>
+
+      <div class="gen-subheading">Objednatel</div>
+      <div class="calc-form-grid">
+        <div class="calc-field"><label for="c-client-name">Jméno / název firmy</label><input class="text-input" id="c-client-name" required /></div>
+        <div class="calc-field"><label for="c-client-address">Adresa</label><input class="text-input" id="c-client-address" required /></div>
+        <div class="calc-field"><label for="c-client-ico">IČO (nepovinné)</label><input class="text-input" id="c-client-ico" /></div>
+      </div>
+
+      <div class="gen-subheading">Předmět díla</div>
+      <div class="calc-field full" style="margin-bottom: 22px;">
+        <textarea class="text-input" id="c-subject" rows="3" required placeholder="Co přesně má zhotovitel provést…"></textarea>
+      </div>
+
+      <div class="gen-subheading">Cena a termín</div>
+      <div class="calc-form-grid">
+        <div class="calc-field"><label for="c-price">Cena díla bez DPH (Kč)</label><input type="number" step="0.01" class="text-input" id="c-price" required /></div>
+        <div class="calc-field" id="c-vat-rate-field"><label for="c-vat-rate">Sazba DPH</label>
+          <select class="text-input" id="c-vat-rate">
+            <option value="21">21 %</option>
+            <option value="12">12 %</option>
+            <option value="0">0 %</option>
+          </select>
+        </div>
+        <div class="calc-field"><label for="c-payment-method">Forma úhrady</label><input class="text-input" id="c-payment-method" value="na základě faktury vystavené po předání díla" /></div>
+        <div class="calc-field"><label for="c-completion-date">Termín provedení díla</label><input type="date" class="text-input" id="c-completion-date" required /></div>
+        <div class="calc-field"><label for="c-sign-place">Místo podpisu</label><input class="text-input" id="c-sign-place" /></div>
+        <div class="calc-field"><label for="c-sign-date">Datum podpisu</label><input type="date" class="text-input" id="c-sign-date" required /></div>
+      </div>
+
+      <div class="gen-subheading">Další ujednání</div>
+      <div class="calc-field full" style="margin-bottom: 22px;">
+        <textarea class="text-input" id="c-note" rows="2" placeholder="nepovinné"></textarea>
+      </div>
+
+      <div class="gen-submit-row">
+        <span class="gen-submit-status" id="c-status"></span>
+        <button type="submit" class="btn btn-primary" id="c-submit">Stáhnout jako PDF</button>
+      </div>
+    </form>
+
+    <div class="disclaimer-banner" style="margin-top: 8px;">
+      <div class="icon-circle">
+        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 9v4M12 17h.01" /><path d="M10.3 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.7 3.86a2 2 0 00-3.4 0z" /></svg>
+      </div>
+      <div>
+        <h3>Vzory, ne právní ani daňové poradenství</h3>
+        <p>Dokumenty vychází z náležitostí podle zákona o účetnictví, zákona o DPH a občanského zákoníku, ale nezohledňují specifika vaší situace. U nestandardních případů si dokument nechte zkontrolovat účetním nebo advokátem.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  window.PARA_CONFIG = {
+    endpoint: "https://fibytymnzgluyxxszria.supabase.co/functions/v1/zakon-query",
+    anonKey: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImZpYnl0eW1uemdsdXl4eHN6cmlhIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODU0MzM4ODgsImV4cCI6MjEwMTAwOTg4OH0.hFEzCTPZEGpQaQguytnu8Hyz6z9j6P5M1E17l2WfGdE",
+    supabaseUrl: "https://fibytymnzgluyxxszria.supabase.co",
+    supabaseAnonKey: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImZpYnl0eW1uemdsdXl4eHN6cmlhIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODU0MzM4ODgsImV4cCI6MjEwMTAwOTg4OH0.hFEzCTPZEGpQaQguytnu8Hyz6z9j6P5M1E17l2WfGdE",
+  };
+</script>
+<script type="module" src="assets/js/generator-page.js"></script>
+
+</body>
+</html>

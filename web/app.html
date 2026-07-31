@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Chat — Para</title>
+<link rel="icon" href="assets/img/logo/logo-mark.png" />
+<link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+
+<div class="app-loading" id="app-loading">
+  <img src="assets/img/mascot/mascot-pocita.png" alt="" />
+  Chvilku strpení…
+</div>
+
+<div class="app-shell hidden" id="app-shell">
+  <aside class="app-sidebar">
+    <div class="app-sidebar-header">
+      <img src="assets/img/logo/logo-primary-light.png" alt="Para" />
+      <button type="button" class="btn btn-secondary btn-block app-new-btn" id="new-question-btn">+ Nový dotaz</button>
+    </div>
+    <div class="app-history-list" id="history-list">
+      <div class="app-history-empty">Zatím žádná historie dotazů.</div>
+    </div>
+    <div class="app-sidebar-footer">
+      <div class="app-user-email" id="user-email"></div>
+      <button type="button" class="app-signout-btn" id="signout-btn">Odhlásit se</button>
+    </div>
+  </aside>
+
+  <main class="app-main">
+    <div class="app-topbar">
+      <h1>§ Para</h1>
+      <div style="display:flex; align-items:center; gap:14px;">
+        <a href="terminy.html" class="btn btn-secondary" style="padding: 8px 16px; font-size: 13.5px; display:inline-flex; align-items:center; gap:6px;">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="16" rx="2" /><path d="M8 3v4M16 3v4M3 10h18" /></svg>
+          Termíny
+        </a>
+        <a href="kontrola-dokladu.html" class="btn btn-secondary" style="padding: 8px 16px; font-size: 13.5px; display:inline-flex; align-items:center; gap:6px;">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 11l3 3L22 4" /><path d="M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11" /></svg>
+          Kontrola dokladu
+        </a>
+        <a href="generator-dokumentu.html" class="btn btn-secondary" style="padding: 8px 16px; font-size: 13.5px; display:inline-flex; align-items:center; gap:6px;">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 12h6M9 16h6M9 8h1" /><path d="M14 3H7a2 2 0 00-2 2v14a2 2 0 002 2h10a2 2 0 002-2V8z" /><path d="M14 3v5h5" /></svg>
+          Dokumenty
+        </a>
+        <a href="dap-generator.html" class="btn btn-secondary" style="padding: 8px 16px; font-size: 13.5px; display:inline-flex; align-items:center; gap:6px;">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9M16.5 3.5a2.12 2.12 0 013 3L7 19l-4 1 1-4L16.5 3.5z" /></svg>
+          Vyplnit přiznání
+        </a>
+        <a href="kontrola-priznani.html" class="btn btn-secondary" style="padding: 8px 16px; font-size: 13.5px; display:inline-flex; align-items:center; gap:6px;">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 11l3 3L22 4" /><path d="M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11" /></svg>
+          Kontrola přiznání
+        </a>
+        <a href="dph-generator.html" class="btn btn-secondary" style="padding: 8px 16px; font-size: 13.5px; display:inline-flex; align-items:center; gap:6px;">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9M16.5 3.5a2.12 2.12 0 013 3L7 19l-4 1 1-4L16.5 3.5z" /></svg>
+          Vyplnit DPH
+        </a>
+        <a href="kontrola-dph.html" class="btn btn-secondary" style="padding: 8px 16px; font-size: 13.5px; display:inline-flex; align-items:center; gap:6px;">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 11l3 3L22 4" /><path d="M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11" /></svg>
+          Kontrola DPH
+        </a>
+        <a href="kontrola-kh.html" class="btn btn-secondary" style="padding: 8px 16px; font-size: 13.5px; display:inline-flex; align-items:center; gap:6px;">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 11l3 3L22 4" /><path d="M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11" /></svg>
+          Kontrola KH
+        </a>
+        <a href="prehled-osvc.html" class="btn btn-secondary" style="padding: 8px 16px; font-size: 13.5px; display:inline-flex; align-items:center; gap:6px;">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21l7.78-7.55 1.06-1.06a5.5 5.5 0 000-7.78z" /></svg>
+          Přehled OSVČ
+        </a>
+        <div class="app-profile-chip" id="profile-chip"></div>
+      </div>
+    </div>
+
+    <div class="app-thread-wrap" id="thread">
+      <div class="app-empty" id="empty-state">
+        <img src="assets/img/mascot/mascot-vita.png" alt="Para" />
+        <h3>Na co se chcete zeptat?</h3>
+        <p>Odpovím na základě nahraných zákonů a přizpůsobím to vašemu profilu — vždy s odkazem na konkrétní paragraf.</p>
+      </div>
+    </div>
+
+    <div class="app-composer-wrap">
+      <form class="demo-composer" id="composer">
+        <textarea id="input" rows="1" placeholder="Napište dotaz o účetnictví nebo daních…" aria-label="Váš dotaz"></textarea>
+        <button type="submit" class="demo-send-btn" id="send-btn" aria-label="Odeslat dotaz">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12l16-7-6 16-3-6-7-3z" /></svg>
+        </button>
+      </form>
+      <div class="app-composer-hint">Para není daňové ani účetní poradenství — u důležitých rozhodnutí konzultujte s odborníkem.</div>
+    </div>
+  </main>
+</div>
+
+<script>
+  window.PARA_CONFIG = {
+    endpoint: "https://fibytymnzgluyxxszria.supabase.co/functions/v1/zakon-query",
+    anonKey: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImZpYnl0eW1uemdsdXl4eHN6cmlhIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODU0MzM4ODgsImV4cCI6MjEwMTAwOTg4OH0.hFEzCTPZEGpQaQguytnu8Hyz6z9j6P5M1E17l2WfGdE",
+    supabaseUrl: "https://fibytymnzgluyxxszria.supabase.co",
+    supabaseAnonKey: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImZpYnl0eW1uemdsdXl4eHN6cmlhIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODU0MzM4ODgsImV4cCI6MjEwMTAwOTg4OH0.hFEzCTPZEGpQaQguytnu8Hyz6z9j6P5M1E17l2WfGdE",
+  };
+</script>
+<script type="module">
+  import {
+    requireOnboardedProfile,
+    signOut,
+    insertQueryHistory,
+    listQueryHistory,
+  } from "./assets/js/supabase-client.js";
+
+  const LEGAL_FORM_LABELS = {
+    osvc_pausal: "OSVČ · paušální výdaje",
+    osvc_skutecne: "OSVČ · skutečné výdaje",
+    sro: "s.r.o.",
+  };
+
+  const cfg = window.PARA_CONFIG || {};
+  const ENDPOINT = cfg.endpoint || "http://localhost:8787";
+  const ANON_KEY = cfg.anonKey || "";
+
+  const loadingEl = document.getElementById("app-loading");
+  const shellEl = document.getElementById("app-shell");
+  const thread = document.getElementById("thread");
+  const composer = document.getElementById("composer");
+  const input = document.getElementById("input");
+  const sendBtn = document.getElementById("send-btn");
+  const historyList = document.getElementById("history-list");
+  const userEmailEl = document.getElementById("user-email");
+  const profileChipEl = document.getElementById("profile-chip");
+  const newQuestionBtn = document.getElementById("new-question-btn");
+  const signoutBtn = document.getElementById("signout-btn");
+
+  let session = null;
+  let profile = null;
+  let chatHistory = []; // {role, content} pro kontext posledních zpráv, ne DB historie
+
+  function escapeHtml(s) {
+    return s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+  }
+  function formatAnswer(text) {
+    return escapeHtml(text).replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>");
+  }
+
+  function clearEmptyState() {
+    const empty = thread.querySelector(".app-empty");
+    if (empty) empty.remove();
+  }
+
+  function addMessage(role, text) {
+    clearEmptyState();
+    const wrap = document.createElement("div");
+    wrap.className = `demo-msg ${role}`;
+
+    const avatar = document.createElement("div");
+    if (role === "assistant") {
+      avatar.className = "avatar";
+      const img = document.createElement("img");
+      img.src = "assets/img/mascot/mascot-face-icon.png";
+      img.alt = "Para";
+      avatar.appendChild(img);
+    } else {
+      avatar.className = "avatar user-avatar";
+      avatar.textContent = "TY";
+    }
+
+    const bubble = document.createElement("div");
+    bubble.className = "demo-bubble";
+    if (role === "assistant") bubble.innerHTML = formatAnswer(text);
+    else bubble.textContent = text;
+
+    wrap.appendChild(avatar);
+    wrap.appendChild(bubble);
+    thread.appendChild(wrap);
+    thread.scrollTop = thread.scrollHeight;
+    return { wrap, bubble };
+  }
+
+  function addTyping() {
+    const { wrap, bubble } = addMessage("assistant", "");
+    bubble.innerHTML = '<span class="demo-typing"><span></span><span></span><span></span></span>';
+    return wrap;
+  }
+
+  function addSources(sources) {
+    if (!sources || !sources.length) return;
+    const wrap = document.createElement("div");
+    wrap.className = "demo-sources";
+    sources.slice(0, 6).forEach((s) => {
+      const tag = document.createElement(s.source_url ? "a" : "span");
+      tag.className = "demo-source-tag";
+      if (s.source_url) {
+        tag.href = s.source_url;
+        tag.target = "_blank";
+        tag.rel = "noopener";
+      }
+      tag.textContent = `${s.law_name || ""} ${s.section_ref || ""}`.trim();
+      wrap.appendChild(tag);
+    });
+    thread.appendChild(wrap);
+    thread.scrollTop = thread.scrollHeight;
+  }
+
+  function addExportButton(question, answer, sources) {
+    const btn = document.createElement("button");
+    btn.type = "button";
+    btn.className = "pdf-export-btn";
+    btn.innerHTML =
+      '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12M7 10l5 5 5-5M5 21h14" /></svg> Stáhnout jako PDF';
+    btn.addEventListener("click", async () => {
+      btn.disabled = true;
+      const originalText = btn.innerHTML;
+      btn.textContent = "Generuji…";
+      try {
+        const { generateAnswerPdf } = await import("./assets/js/pdf-export.js");
+        generateAnswerPdf({ question, answer, sources });
+      } catch (err) {
+        console.error("Export PDF selhal:", err.message);
+        alert("Export do PDF se nepovedl. Zkuste to prosím znovu.");
+      } finally {
+        btn.disabled = false;
+        btn.innerHTML = originalText;
+      }
+    });
+    thread.appendChild(btn);
+    thread.scrollTop = thread.scrollHeight;
+  }
+
+  function profileForRequest() {
+    if (!profile) return null;
+    return {
+      legalForm: LEGAL_FORM_LABELS[profile.legal_form] || profile.legal_form,
+      vatPayer: profile.vat_payer,
+      note: profile.note,
+    };
+  }
+
+  async function callEndpoint(question, typingEl) {
+    const res = await fetch(ENDPOINT, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        ...(ANON_KEY ? { Authorization: `Bearer ${ANON_KEY}` } : {}),
+      },
+      body: JSON.stringify({ question, history: chatHistory, profile: profileForRequest() }),
+    });
+    if (!res.ok) throw new Error(`Server odpověděl chybou (${res.status}).`);
+
+    const contentType = res.headers.get("content-type") || "";
+
+    if (contentType.includes("ndjson") && res.body) {
+      const reader = res.body.getReader();
+      const decoder = new TextDecoder();
+      let buffer = "";
+      let fullAnswer = "";
+      let sources = [];
+      let bubbleEl = null;
+
+      for (;;) {
+        const { done, value } = await reader.read();
+        if (done) break;
+        buffer += decoder.decode(value, { stream: true });
+        const lines = buffer.split("\n");
+        buffer = lines.pop();
+        for (const line of lines) {
+          if (!line.trim()) continue;
+          let evt;
+          try {
+            evt = JSON.parse(line);
+          } catch {
+            continue;
+          }
+          if (evt.type === "sources") {
+            sources = evt.data || [];
+          } else if (evt.type === "delta") {
+            if (typingEl && typingEl.isConnected) {
+              typingEl.remove();
+              const created = addMessage("assistant", "");
+              bubbleEl = created.bubble;
+            }
+            fullAnswer += evt.text;
+            bubbleEl.innerHTML = formatAnswer(fullAnswer);
+            thread.scrollTop = thread.scrollHeight;
+          } else if (evt.type === "error") {
+            throw new Error(evt.message || "Neznámá chyba.");
+          }
+        }
+      }
+      if (typingEl && typingEl.isConnected) typingEl.remove();
+      if (!fullAnswer) addMessage("assistant", "Nepodařilo se získat odpověď.");
+      addSources(sources);
+      return { answer: fullAnswer, sources, streamed: true };
+    }
+
+    const data = await res.json();
+    if (data.error) throw new Error(data.error);
+    return data;
+  }
+
+  async function ask(question) {
+    if (!question.trim()) return;
+    addMessage("user", question);
+    input.value = "";
+    input.style.height = "auto";
+    sendBtn.disabled = true;
+    input.disabled = true;
+
+    const typingEl = addTyping();
+
+    try {
+      const data = await callEndpoint(question, typingEl);
+      if (!data.streamed) {
+        if (typingEl && typingEl.isConnected) typingEl.remove();
+        addMessage("assistant", data.answer || "Nepodařilo se získat odpověď.");
+        addSources(data.sources);
+      }
+      if (data.answer) addExportButton(question, data.answer, data.sources || []);
+      chatHistory.push({ role: "user", content: question });
+      chatHistory.push({ role: "assistant", content: data.answer || "" });
+      chatHistory = chatHistory.slice(-6);
+
+      insertQueryHistory({
+        userId: session.user.id,
+        question,
+        answer: data.answer || "",
+        sources: data.sources || [],
+      })
+        .then(() => loadHistory())
+        .catch((err) => console.error("Nepodařilo se uložit historii:", err.message));
+    } catch (err) {
+      if (typingEl && typingEl.isConnected) typingEl.remove();
+      addMessage("assistant", `Omlouvám se, něco se pokazilo (${err.message}). Zkuste to prosím znovu.`);
+    } finally {
+      sendBtn.disabled = false;
+      input.disabled = false;
+      input.focus();
+    }
+  }
+
+  function renderHistoryItem(row) {
+    const btn = document.createElement("button");
+    btn.type = "button";
+    btn.className = "app-history-item";
+    const q = document.createElement("div");
+    q.className = "hi-question";
+    q.textContent = row.question;
+    const d = document.createElement("div");
+    d.className = "hi-date";
+    d.textContent = new Date(row.created_at).toLocaleString("cs-CZ", { day: "numeric", month: "numeric", hour: "2-digit", minute: "2-digit" });
+    btn.appendChild(q);
+    btn.appendChild(d);
+    btn.addEventListener("click", () => {
+      thread.innerHTML = "";
+      addMessage("user", row.question);
+      addMessage("assistant", row.answer);
+      addSources(row.sources);
+      addExportButton(row.question, row.answer, row.sources || []);
+    });
+    return btn;
+  }
+
+  async function loadHistory() {
+    try {
+      const rows = await listQueryHistory(session.user.id, 50);
+      historyList.innerHTML = "";
+      if (!rows.length) {
+        historyList.innerHTML = '<div class="app-history-empty">Zatím žádná historie dotazů.</div>';
+        return;
+      }
+      rows.forEach((row) => historyList.appendChild(renderHistoryItem(row)));
+    } catch (err) {
+      console.error("Nepodařilo se načíst historii:", err.message);
+    }
+  }
+
+  function renderProfileChip() {
+    profileChipEl.innerHTML = "";
+    if (!profile) return;
+
+    if (profile.company_name) {
+      const nameEl = document.createElement("span");
+      nameEl.style.cssText = "font-size:13px;color:var(--slate);font-weight:600;margin-right:4px;";
+      nameEl.textContent = profile.company_name;
+      profileChipEl.appendChild(nameEl);
+    }
+
+    const formChip = document.createElement("span");
+    formChip.className = "chip chip-indigo";
+    formChip.textContent = LEGAL_FORM_LABELS[profile.legal_form] || profile.legal_form;
+    profileChipEl.appendChild(formChip);
+
+    const vatChip = document.createElement("span");
+    vatChip.className = `chip ${profile.vat_payer ? "chip-sky" : "chip-green"}`;
+    vatChip.textContent = profile.vat_payer ? "Plátce DPH" : "Neplátce DPH";
+    profileChipEl.appendChild(vatChip);
+  }
+
+  composer.addEventListener("submit", (e) => {
+    e.preventDefault();
+    ask(input.value);
+  });
+  input.addEventListener("keydown", (e) => {
+    if (e.key === "Enter" && !e.shiftKey) {
+      e.preventDefault();
+      composer.requestSubmit();
+    }
+  });
+  input.addEventListener("input", () => {
+    input.style.height = "auto";
+    input.style.height = `${Math.min(input.scrollHeight, 120)}px`;
+  });
+
+  newQuestionBtn.addEventListener("click", () => {
+    chatHistory = [];
+    thread.innerHTML = `
+      <div class="app-empty" id="empty-state">
+        <img src="assets/img/mascot/mascot-vita.png" alt="Para" />
+        <h3>Na co se chcete zeptat?</h3>
+        <p>Odpovím na základě nahraných zákonů a přizpůsobím to vašemu profilu — vždy s odkazem na konkrétní paragraf.</p>
+      </div>`;
+    input.focus();
+  });
+
+  signoutBtn.addEventListener("click", () => signOut());
+
+  (async () => {
+    const result = await requireOnboardedProfile();
+    if (!result) return; // guard už přesměrovává
+    session = result.session;
+    profile = result.profile;
+
+    userEmailEl.textContent = session.user.email;
+    renderProfileChip();
+    await loadHistory();
+
+    loadingEl.classList.add("hidden");
+    shellEl.classList.remove("hidden");
+    input.focus();
+  })();
+</script>
+
+</body>
+</html>

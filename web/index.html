@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Para — AI účetní asistent pro OSVČ a malé firmy</title>
+<meta name="description" content="Para je AI asistent na české účetní a daňové zákony. Zeptejte se česky, odpověď dostanete do pár vteřin i s citací konkrétního paragrafu. 3 dotazy zdarma bez registrace." />
+<link rel="icon" href="assets/img/logo/logo-mark.png" />
+<link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+
+<a class="skip-link" href="#hlavni-obsah">Přeskočit na obsah</a>
+
+<!-- ============================= NAV ============================= -->
+<header class="nav">
+  <div class="nav-inner container">
+    <a class="nav-logo" href="#top" aria-label="Para — domů">
+      <img src="assets/img/logo/logo-primary-light.png" alt="Para" />
+    </a>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#jak-to-funguje">Jak to funguje</a></li>
+        <li><a href="#pro-koho">Pro koho</a></li>
+        <li><a href="kalkulacky.html">Kalkulačky</a></li>
+        <li><a href="#cenik">Ceník</a></li>
+      </ul>
+    </nav>
+    <div class="nav-actions">
+      <a class="btn btn-ghost" href="prihlaseni.html">Přihlásit se</a>
+      <a class="btn btn-primary" href="#vyzkouset">Vyzkoušet zdarma</a>
+    </div>
+    <button class="nav-toggle" id="nav-toggle" aria-label="Otevřít menu">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16" /></svg>
+    </button>
+  </div>
+</header>
+
+<!-- Mobilní menu overlay -->
+<div class="mobile-menu hidden" id="mobile-menu">
+  <div class="mobile-menu-top">
+    <img src="assets/img/logo/logo-primary-light.png" alt="Para" style="height:28px" />
+    <button class="mobile-menu-close" id="mobile-menu-close" aria-label="Zavřít menu">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18" /></svg>
+    </button>
+  </div>
+  <a href="#jak-to-funguje">Jak to funguje</a>
+  <a href="#pro-koho">Pro koho</a>
+  <a href="kalkulacky.html">Kalkulačky</a>
+  <a href="#cenik">Ceník</a>
+  <a href="prihlaseni.html">Přihlásit se</a>
+  <a class="btn btn-primary btn-block" href="#vyzkouset">Vyzkoušet zdarma</a>
+</div>
+
+<main id="hlavni-obsah">
+
+  <!-- ============================= HERO ============================= -->
+  <section class="hero" id="top">
+    <div class="container hero-inner">
+      <div class="hero-copy">
+        <span class="eyebrow hero-eyebrow">§ AI účetní asistent</span>
+        <h1>Účetnictví, které <span class="accent">mluví lidsky.</span></h1>
+        <p class="lead">
+          Para hlídá české účetní a daňové zákony za vás. Zeptejte se běžnou řečí a dostanete
+          srozumitelnou odpověď — vždy s odkazem na konkrétní paragraf, ať si to můžete ověřit sami.
+        </p>
+        <div class="hero-cta-row">
+          <a class="btn btn-primary btn-lg" href="#vyzkouset">Vyzkoušet zdarma</a>
+          <a class="btn btn-ghost btn-lg" href="#jak-to-funguje">Jak to funguje</a>
+        </div>
+        <div class="hero-cta-note">
+          <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5" /></svg>
+          3 dotazy zdarma, žádná registrace
+        </div>
+        <div class="hero-trust">
+          <div class="hero-trust-item">
+            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l7 3v6c0 4.5-3 7.5-7 9-4-1.5-7-4.5-7-9V6l7-3z" /></svg>
+            Vychází z platných zákonů ČR
+          </div>
+          <div class="hero-trust-item">
+            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8" /><path d="M12 8v4l3 2" /></svg>
+            Odpověď do pár vteřin
+          </div>
+          <div class="hero-trust-item">
+            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M8 4h11a1 1 0 011 1v13a1 1 0 01-1 1H8m0-15L4 8m4-4v15m0 0l-4-4" /></svg>
+            Vždy s citací paragrafu
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="hero-visual-frame">
+          <div class="hero-visual-glow" aria-hidden="true"></div>
+          <img src="assets/img/mascot/mascot-hero.png" alt="Para, maskot ve tvaru paragrafu, ukazuje na přehled příjmů a výdajů" class="mascot-img" />
+          <div class="hero-floating-card card-1">
+            <div class="fc-label">Zisk</div>
+            <div class="fc-value pos">+15,6 %</div>
+          </div>
+          <div class="hero-floating-card card-2">
+            <div class="fc-label">Doklady</div>
+            <div class="fc-value">Vše zaúčtováno</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================= PROBLÉM → ŘEŠENÍ ======================= -->
+  <section id="jak-to-funguje">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">Problém → řešení</span>
+        <h2>Papírování vás zdržuje. Para ho zvládne s vámi.</h2>
+        <p>Nemusíte umět zákon o DPH nazpaměť. Stačí se zeptat.</p>
+      </div>
+
+      <div class="compare">
+        <div class="card compare-card compare-before">
+          <h3>
+            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9" /><path d="M9 9l6 6M15 9l-6 6" /></svg>
+            Bez Para
+          </h3>
+          <ul class="compare-list">
+            <li><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9" /><path d="M9 9l6 6M15 9l-6 6" /></svg>Hodiny hledání v zákonech a vyhláškách</li>
+            <li><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9" /><path d="M9 9l6 6M15 9l-6 6" /></svg>Nejistota, jestli postup sedí i na váš případ</li>
+            <li><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9" /><path d="M9 9l6 6M15 9l-6 6" /></svg>Drahá konzultace i na jednoduchý dotaz</li>
+            <li><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9" /><path d="M9 9l6 6M15 9l-6 6" /></svg>Riziko, že vám unikne změna zákona nebo termín</li>
+          </ul>
+        </div>
+
+        <div class="card compare-card compare-after">
+          <h3>
+            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5" /></svg>
+            S Para
+          </h3>
+          <ul class="compare-list">
+            <li><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5" /></svg>Srozumitelná odpověď do pár vteřin, kdykoliv</li>
+            <li><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5" /></svg>Odpověď šitá na váš typ podnikání a DPH režim</li>
+            <li><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5" /></svg>Vždy s odkazem na konkrétní paragraf — ověříte si to sami</li>
+            <li><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5" /></svg>Zdarma na běžné dotazy, bez čekání na termín</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================= ŽIVÁ UKÁZKA ========================= -->
+  <section class="bg-mist" id="vyzkouset">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">Živá ukázka</span>
+        <h2>Zeptejte se Para. Napřímo, tady.</h2>
+        <p>Žádné vymyšlené screenshoty — tohle je skutečný chat napojený na zákony nahrané v databázi.</p>
+      </div>
+
+      <div class="demo-shell">
+        <div class="demo-side">
+          <img src="assets/img/mascot/mascot-kontroluje.png" alt="Para kontroluje paragrafy lupou" class="mascot-img" />
+          <h3>Para hlídá paragrafy</h3>
+          <p>Odpovědi vychází přímo z nahraných zákonů — zákon o účetnictví, o daních z příjmů a o DPH — ne z obecné znalosti internetu.</p>
+
+          <button type="button" class="demo-example-q" data-question="Musím vést účetnictví jako OSVČ plátce DPH?">Musím vést účetnictví jako OSVČ plátce DPH?</button>
+          <button type="button" class="demo-example-q" data-question="Jak zaúčtuji nákup notebooku na IČO?">Jak zaúčtuji nákup notebooku na IČO?</button>
+          <button type="button" class="demo-example-q" data-question="Jaký je aktuální limit pro paušální daň?">Jaký je aktuální limit pro paušální daň?</button>
+
+          <div class="demo-quota">Zbývá vám <strong id="demo-quota-count">3</strong> z 3 dotazů zdarma bez registrace.</div>
+        </div>
+
+        <div class="demo-main">
+          <div class="demo-thread" id="demo-thread">
+            <div class="demo-empty">Napište dotaz vlevo dole nebo klikněte na jeden z ukázkových dotazů.</div>
+          </div>
+
+          <div class="demo-error hidden" id="demo-error" role="alert"></div>
+
+          <div class="demo-locked hidden" id="demo-locked">
+            <h3>Docházejí vám dotazy zdarma</h3>
+            <p>Založte si účet a pokračujte bez omezení — s historií dotazů, osobním nastavením a přehledem termínů.</p>
+            <a class="btn btn-primary" href="prihlaseni.html">Založit účet zdarma</a>
+          </div>
+
+          <form class="demo-composer" id="demo-composer">
+            <textarea id="demo-input" rows="1" placeholder="Napište dotaz o účetnictví nebo daních…" aria-label="Váš dotaz"></textarea>
+            <button type="submit" class="demo-send-btn" id="demo-send" aria-label="Odeslat dotaz">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12l16-7-6 16-3-6-7-3z" /></svg>
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================ PRO KOHO ============================ -->
+  <section id="pro-koho">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">Pro koho je Para</span>
+        <h2>Ať podnikáte sami, nebo máte tým.</h2>
+        <p>Para se přizpůsobí vaší situaci — od paušálních výdajů po s.r.o.</p>
+      </div>
+
+      <div class="audience-grid">
+        <div class="card audience-card">
+          <div class="icon-circle">
+            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4" /><path d="M4 20c0-4 3.5-7 8-7s8 3 8 7" /></svg>
+          </div>
+          <h3>OSVČ</h3>
+          <p class="desc">Paušální výdaje, skutečné výdaje, DPH — Para vám pomůže se zorientovat, ať jste na volné noze v jakémkoli oboru.</p>
+          <ul class="audience-list">
+            <li><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5" /></svg>Kolik vám zůstane po dani a pojistném</li>
+            <li><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5" /></svg>Kdy se vyplatí paušál a kdy skutečné výdaje</li>
+            <li><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5" /></svg>Termíny přiznání a záloh, ať vám nic neuteče</li>
+            <li><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5" /></svg>Kdy se stáváte plátcem DPH</li>
+          </ul>
+        </div>
+
+        <div class="card audience-card">
+          <div class="icon-circle">
+            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 21V6l7-3 7 3v15M4 21h16M9 21v-5h4v5M9 10h1M9 13h1M13 10h1M13 13h1" /></svg>
+          </div>
+          <h3>Malá firma</h3>
+          <p class="desc">Pro s.r.o. i větší OSVČ — kontrola dokladů, orientace v DPH a povinnostech bez nutnosti volat účetní na každou maličkost.</p>
+          <ul class="audience-list">
+            <li><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5" /></svg>Kontrola náležitostí faktur podle § 29 zákona o DPH</li>
+            <li><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5" /></svg>Srovnání s.r.o. vs. OSVČ pro vaši situaci</li>
+            <li><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5" /></svg>Přehled termínů DPH a daňových povinností</li>
+            <li><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5" /></svg>Rychlá odpověď mezi schůzkami s účetní</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================== KALKULAČKY =========================== -->
+  <section class="bg-mist" id="kalkulacky">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">Kalkulačky</span>
+        <h2>Kalkulačky, které ukážou čísla, ne jen paragrafy.</h2>
+        <p>Spočítejte si dopředu, kolik vám reálně zůstane — bez tabulek a excelu.</p>
+      </div>
+
+      <div class="calc-grid">
+        <a class="card calc-card" href="kalkulacky.html#tool-kolik-mi-zbyde" style="text-decoration:none; display:flex;">
+          <div class="calc-card-top">
+            <div class="icon-circle">
+              <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="3" width="14" height="18" rx="2" /><path d="M8 7h8M8 11h1M12 11h1M16 11h1M8 15h1M12 15h1M16 15h1" /></svg>
+            </div>
+            <span class="chip chip-green">Vyzkoušet →</span>
+          </div>
+          <h3>Kolik mi zbyde</h3>
+          <p>Zadejte hrubý příjem a zvolte režim — paušál, skutečné výdaje nebo s.r.o. Uvidíte čistý zisk po dani a pojistném.</p>
+          <div class="calc-preview">
+            <div class="calc-preview-row"><span class="label">Hrubý příjem</span><span class="value">89 540 Kč</span></div>
+            <div class="calc-preview-row"><span class="label">Daň a pojistné</span><span class="value">32 180 Kč</span></div>
+            <div class="calc-bar"><div class="calc-bar-fill" style="width: 64%"></div></div>
+            <div class="calc-preview-row"><span class="label">Čistý zisk</span><span class="value accent">57 360 Kč</span></div>
+          </div>
+        </a>
+
+        <a class="card calc-card" href="kalkulacky.html#tool-srovnani" style="text-decoration:none; display:flex;">
+          <div class="calc-card-top">
+            <div class="icon-circle">
+              <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19V9M12 19V5M20 19v-7" /><path d="M4 19h16" /></svg>
+            </div>
+            <span class="chip chip-green">Vyzkoušet →</span>
+          </div>
+          <h3>Paušál vs. skutečné výdaje vs. s.r.o.</h3>
+          <p>Srovnávací tabulka s reálnými čísly na základě vašeho příjmu — ať vidíte, která varianta se letos vyplatí nejvíc.</p>
+          <div class="calc-preview">
+            <div class="calc-preview-row"><span class="label">Paušální výdaje</span><span class="value">57 360 Kč</span></div>
+            <div class="calc-preview-row"><span class="label">Skutečné výdaje</span><span class="value">52 940 Kč</span></div>
+            <div class="calc-preview-row"><span class="label">s.r.o.</span><span class="value accent">61 120 Kč</span></div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================== CENÍK ============================== -->
+  <section id="cenik">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">Ceník</span>
+        <h2>Začněte zdarma. Rozšiřte, až to bude potřeba.</h2>
+        <p>Žádné skryté poplatky. Zrušíte kdykoliv.</p>
+      </div>
+
+      <div class="pricing-grid">
+        <div class="card price-card">
+          <h3>Zdarma</h3>
+          <p class="price-plan-desc">Pro rychlé ověření, jak Para odpovídá.</p>
+          <div class="price-amount"><span class="num">0 Kč</span><span class="period">/ napořád</span></div>
+          <ul class="price-features">
+            <li><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5" /></svg>Omezený počet dotazů měsíčně</li>
+            <li><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5" /></svg>Odpovědi vždy s citací paragrafu</li>
+            <li><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5" /></svg>Přístup k základním kalkulačkám</li>
+          </ul>
+          <a class="btn btn-secondary btn-block" href="prihlaseni.html">Založit účet zdarma</a>
+        </div>
+
+        <div class="card price-card pro">
+          <span class="chip chip-indigo price-badge">Pro podnikatele</span>
+          <h3>Pro</h3>
+          <p class="price-plan-desc">Pro OSVČ a firmy, které chtějí mít vše na jednom místě.</p>
+          <div class="price-amount"><span class="num">Brzy</span><span class="period">finální cena se upřesňuje</span></div>
+          <ul class="price-features">
+            <li><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5" /></svg>Neomezené dotazy</li>
+            <li><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5" /></svg>Historie všech dotazů</li>
+            <li><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5" /></svg>Sledování novel zákonů podle vašeho profilu</li>
+            <li><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5" /></svg>Export odpovědi jako PDF s citacemi</li>
+          </ul>
+          <a class="btn btn-primary btn-block" href="#" data-open-waitlist>Chci vědět jako první</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================ DISCLAIMER ============================ -->
+  <section style="padding-top: 0;">
+    <div class="container">
+      <div class="disclaimer-banner">
+        <div class="icon-circle">
+          <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 9v4M12 17h.01" /><path d="M10.3 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.7 3.86a2 2 0 00-3.4 0z" /></svg>
+        </div>
+        <div>
+          <h3>Para není daňové ani účetní poradenství</h3>
+          <p>Odpovědi vychází z nahraných zákonů a standardů, ale nenahrazují konzultaci s daňovým poradcem nebo účetním — zvlášť u složitějších nebo netypických situací. U důležitých rozhodnutí si odpověď vždy ověřte s odborníkem.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================ FINAL CTA ============================ -->
+  <section>
+    <div class="container">
+      <div class="final-cta">
+        <div class="final-cta-copy">
+          <h2>Přestaňte hledat. Začněte se ptát.</h2>
+          <p>Založte si účet zdarma a mějte Para po ruce, kdykoliv si nejste jistí.</p>
+        </div>
+        <div class="final-cta-actions">
+          <a class="btn btn-primary btn-lg" href="prihlaseni.html">Založit účet zdarma</a>
+        </div>
+        <div class="final-cta-visual">
+          <img src="assets/img/mascot/mascot-vita.png" alt="Para vás vítá" class="mascot-img" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ============================== FOOTER ============================== -->
+<footer>
+  <div class="container footer-inner">
+    <div class="footer-logo">
+      <img src="assets/img/logo/logo-primary-light.png" alt="Para" style="height:24px" />
+    </div>
+    <ul class="footer-links">
+      <li><a href="#jak-to-funguje">Jak to funguje</a></li>
+      <li><a href="#pro-koho">Pro koho</a></li>
+      <li><a href="kalkulacky.html">Kalkulačky</a></li>
+      <li><a href="#cenik">Ceník</a></li>
+      <li><a href="#" data-open-waitlist>Kontakt</a></li>
+    </ul>
+    <p class="footer-copy">© 2026 Para. Odpovědi asistenta nejsou daňové poradenství — u důležitých rozhodnutí konzultujte s odborníkem.</p>
+  </div>
+</footer>
+
+<!-- ============================ WAITLIST MODAL ============================ -->
+<div class="modal-backdrop hidden" id="waitlist-backdrop">
+  <div class="modal" role="dialog" aria-modal="true" aria-labelledby="waitlist-title">
+    <button type="button" class="modal-close" id="waitlist-close" aria-label="Zavřít">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18" /></svg>
+    </button>
+    <img src="assets/img/mascot/mascot-ma-vas-rad.png" alt="" class="modal-mascot mascot-img" />
+    <div id="waitlist-form-state">
+      <h3 id="waitlist-title">Registrace se připravuje</h3>
+      <p>Nechte nám e-mail a napíšeme vám hned, jakmile bude spuštěná — dostanete přednostní přístup.</p>
+      <form id="waitlist-form">
+        <input type="email" id="waitlist-email" placeholder="vas@email.cz" required aria-label="E-mail" />
+        <button type="submit" class="btn btn-primary btn-block" id="waitlist-submit">Chci vědět jako první</button>
+      </form>
+      <p class="caption modal-note">Žádný spam — napíšeme jen jednou, až bude registrace živá.</p>
+    </div>
+    <div id="waitlist-success-state" class="hidden">
+      <h3>Díky, ozveme se!</h3>
+      <p>Jakmile spustíme registraci, budete mezi prvními, kdo se dozví.</p>
+    </div>
+  </div>
+</div>
+
+<script>
+  window.PARA_CONFIG = {
+    // TODO: po nasazení supabase/functions/zakon-query přepsat na produkční URL
+    endpoint: "https://fibytymnzgluyxxszria.supabase.co/functions/v1/zakon-query",
+    anonKey: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImZpYnl0eW1uemdsdXl4eHN6cmlhIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODU0MzM4ODgsImV4cCI6MjEwMTAwOTg4OH0.hFEzCTPZEGpQaQguytnu8Hyz6z9j6P5M1E17l2WfGdE",
+    // TODO: potřeba pro waitlist formulář — Project Settings → API
+    supabaseUrl: "https://fibytymnzgluyxxszria.supabase.co",
+    supabaseAnonKey: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImZpYnl0eW1uemdsdXl4eHN6cmlhIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODU0MzM4ODgsImV4cCI6MjEwMTAwOTg4OH0.hFEzCTPZEGpQaQguytnu8Hyz6z9j6P5M1E17l2WfGdE",
+  };
+</script>
+<script src="assets/js/main.js"></script>
+<script src="assets/js/waitlist.js"></script>
+<script src="assets/js/trial-chat.js"></script>
+
+</body>
+</html>

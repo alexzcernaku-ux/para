@@ -1,0 +1,238 @@
+ZÁKON: NÚR I-31
+NAZEV: Interpretace Národní účetní rady I-31 – Mezitímní účetní výkaznictví
+URL: http://nur.cz/wp-content/uploads/2020/10/I-31_updated.pdf
+
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+1/5 
+Interpretace NÚR 
+I–31 
+Mezitímní účetní výkaznictví 
+Účetní jednotky jsou povinny vést účetnictví tak, aby účetní závěrka sestavená na jeho základě 
+podávala věrný a poctivý obraz předmětu účetnictví a finanční situace účetní jednotky (zákon 
+č. 563/1991 Sb., o účetnictví, § 7, odst. 1). Účetní jednotky účtují o stavu a pohybu majetku a jiných 
+aktiv, závazků a jiných pasiv, dále o nákladech a výnosech a o výsledku hospodaření. (zákon 
+č. 563/1991 Sb., o účetnictví, § 2, Předmět účetnictví).  
+Tato interpretace musí být aplikována v kontextu s Předmluvou Národní účetní rady k interpretacím 
+českých účetních standardů. 
+ 
+ 
+Popis problému 
+1. Některé účetní jednotky zveřejňují o sobě účetní informace i mimo své řádné nebo mimořádné 
+účetní závěrky (dále „mezitímní účetní výkaznictví“), přičemž zveřejněním se v této Interpretaci 
+rozumí zpřístupnění účetních informací osobám mimo účetní jednotku. 
+ 
+2. Mezitímní účetní výkaznictví je po těchto účetních jednotkách požadováno právními předpisy 
+(např. v případě mezitímní účetní závěrky dle zákona o účetnictví), může vyplývat ze smluv (např. 
+smlouvy o úvěru), může být vyžadováno regulačními orgány či vlastníky nebo může být zcela 
+dobrovolné. 
+ 
+3. Rozsah mezitímního účetního výkaznictví může být různý: může se jednat o informace, které 
+svým rozsahem odpovídají obsahu účetní závěrky či některému účetnímu výkazu, nebo se může 
+jednat pouze o prezentaci specifických prvků, účtů či položek účetních výkazů. Může se např. 
+jednat o mezitímní výkaz odpovídající svým obsahem rozvaze, soupis pohledávek, opravných 
+položek k pochybným pohledávkám, zásob, soupis rezerv či soupis plateb v souvislosti s 
+pronájmem majetku. Související příloha obvykle tvoří popis významných účetních pravidel, která 
+byla použita, a další vysvětlující informace týkající vykazované mezitímní účetní informace. 
+ 
+4. Mezitímní účetní výkaznictví může být pravidelné (např. pololetně, čtvrtletně nebo měsíčně) 
+nebo jednorázové (nahodilé, pro zvláštní účely, ad hoc). 
+ 
+5. Mezitímní účetní výkaznictví slouží všem, kteří vyžadují relevantní informace o aktuální finanční 
+situaci a vývoji hospodaření účetní jednotky od poslední řádné účetní závěrky. Znalost těchto 
+informací může být například nutná při rozhodování o rozdělení zisku a obdobných transakcích 
+s vlastníky společnosti, pokud jsou činěna s takovým časovým odstupem od poslední řádné 
+účetní závěrky, že již nelze považovat v ní vykázané informace za aktuální, a tudíž relevantní. 
+ 
+6. Mezitímní účetní výkaznictví není českými účetními předpisy upraveno mimo případ mezitímní 
+účetní závěrky. I tato pravidla jsou však velmi stručná, omezující se v zásadě na to, že na 
+
+                                                                               Interpretace NÚR I-31 Mezitímní účetní výkaznictví 
+ 
+ 
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+2/5 
+mezitímní účetní závěrku se použijí ustanovení zákona o účetnictví vztahující se na účetní 
+závěrky obecně. 
+ 
+7. Základními problémy řešenými touto Interpretací jsou tedy následující otázky: 
+a) jaká pravidla a požadavky se vztahují na mezitímní účetní výkaznictví a 
+b) zda jsou tato pravidla pro všechny formy mezitímního výkaznictví stejná, a pokud ne, jak 
+se liší. 
+ 
+8. Cílem této Interpretace je stanovení pravidel pro mezitímní účetní výkaznictví, nikoli nahrazení 
+či modifikace stávajících pravidel obsažených v účetních předpisech nebo stanovených 
+příslušným regulátorem. 
+ 
+Řešení 
+Pravidelně se opakující mezitímní účetní výkaznictví, které svým rozsahem odpovídá účetní 
+závěrce 
+9. Mezitímní účetní výkaznictví, které svým rozsahem odpovídá účetní závěrce, tj. veškeré 
+standardní součásti účetní závěrky stanovené zákonem o účetnictví (účetní výkazy a příloha), a 
+které se pravidelně (např. pololetně, čtvrtletně, měsíčně) opakuje (dále jen „pravidelné 
+mezitímní účetní výkaznictví“), podléhá, pokud dále není uvedeno jinak, stejným účetním 
+pravidlům jako sestavení řádné účetní závěrky. 
+ 
+10. Dle principu uvedeného v předchozím odstavci se k mezitímnímu účetnímu období v zásadě 
+přistupuje stejně, jako by se jednalo o standardní roční účetní období. To znamená, že do 
+mezitímního účetního výkaznictví musí být zahrnuty na akruálním principu všechny účetní 
+operace, které se daného mezitímního období týkají, bez ohledu na to, kdy byly zaplaceny, nebo 
+kdy se o nich účetní jednotka dozvěděla. 
+Zejména se jedná o následující: 
+a) V mezitímních obdobích se účtují i ty operace, které účetní jednotky někdy účtují jen k 
+datu sestavení řádné účetní závěrky, jako jsou například kursové rozdíly, přeceňování na 
+reálnou hodnotu, opravné položky k různým typům aktiv, inventarizační rozdíly, dohadné 
+položky, rezervy, odložená a splatná daň z příjmů apod. 
+b) Náklady a výnosy, které se vyskytují sezónně nebo cyklicky (opakující se letní nebo zimní 
+prodejní sezóny apod.), se považují za výnosy a náklady toho mezitímního období, ve 
+kterém nastaly. 
+c) Nahodilé a jednorázové transakce (škody, jednorázové opravy, dotace apod.) se považují 
+za výnosy a náklady toho mezitímního období, ve kterém nastaly. 
+d) Náklady a výnosy, které se vztahují rovnoměrně k celému ročnímu účetnímu období 
+(například nájemné placené na celé účetní období, roční odměny zaměstnancům apod.) 
+se časově rozliší poměrnou částí do všech mezitímních období, kterých se to týká. 
+ 
+11. Pravidelné mezitímní účetní výkaznictví se liší od sestavení řádné účetní závěrky zejména tímto: 
+a) Významnost se posuzuje vzhledem k údajům zveřejňovaným v rámci mezitímního 
+výkaznictví a vzhledem k účelu mezitímních informací. 
+b) V mezitímním účetním výkaznictví se obvykle používají ve větší míře odhady, než je 
+tomu v případě řádné účetní závěrky. 
+
+                                                                               Interpretace NÚR I-31 Mezitímní účetní výkaznictví 
+ 
+ 
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+3/5 
+c) Některé účetní operace uvedené v odst. 9 se při sestavování řádné účetní závěrky 
+účtují na základě inventarizace (opravné položky, manka apod.). Při mezitímním 
+výkaznictví lze tyto operace zaúčtovat i na základě odhadů založených na 
+alternativních postupech. Vhodnost alternativních postupů se posuzuje s ohledem na 
+významnost dle odstavce a). 
+ 
+12. Srovnávací informace v mezitímních účetních výkazech se uvedou tak, že: 
+a) srovnávacím obdobím pro stavové veličiny rozvahových položek ke konci všech 
+mezitímních účetních období je vždy stav k poslednímu rozvahovému dni z řádné 
+účetní závěrky, 
+b) srovnávacím obdobím pro tokové veličiny výkazu zisku a ztráty, výkazu o peněžních 
+tocích či výkazu o změnách o vlastním kapitálu je vždy stejné mezitímní období 
+minulého účetního období, 
+c) mezitímní výkaz zisku a ztráty se vykazuje vždy jak za dané mezitímní účetní období, 
+tak i kumulovaně od počátku účetního období (například za druhé čtvrtletí a zároveň 
+za první pololetí). 
+ 
+13. V příloze k mezitímnímu účetnímu výkaznictví účetní jednotka popíše přinejmenším: 
+a) principy, na základě kterých byl stanoven její hospodářský rok; 
+b) účel sestavení mezitímního účetního výkaznictví; 
+c) podstatu a vlastnosti cyklických a sezónních nákladů a výnosů; 
+d) podstatu a vlastnosti významných jednorázových či nahodilých nákladů nebo výnosů, 
+ke kterým došlo v průběhu mezitímního období; 
+e) významné události, které nastaly v běžném a/nebo srovnávacím období; 
+f) souhrn podstatných účetních pravidel a další vysvětlující informace včetně veškerých 
+změn v účetních pravidlech, které nastaly oproti poslední řádné účetní závěrce a 
+které bude účetní jednotka aplikovat v řádné účetní závěrce v aktuálním účetním 
+období, včetně vyčíslení dopadů změny příslušného účetního pravidla na finanční 
+situaci a výsledek hospodaření. 
+ 
+14. Pokud účetní jednotka sestavuje konsolidovanou účetní závěrku, měla by účetní jednotka 
+poskytovat i konsolidované mezitímní účetní výkaznictví. 
+ 
+Zkrácené pravidelné mezitímní výkaznictví 
+15. Pravidelné mezitímní výkaznictví může být vyhotoveno i ve zkrácené podobě tak, že jsou z 
+účetních výkazů zveřejněny jen součtové řádky doplněné o vybrané komentáře nahrazující 
+přílohu. 
+ 
+16. Pro zkrácené pravidelné mezitímní výkaznictví platí pravidla uvedená v odst. 9 až 14 vyjma 
+požadavků na podrobnost údajů uváděné ve výkazech a příloze. 
+ 
+Jednorázové mezitímní účetní výkaznictví, které svým rozsahem odpovídá účetní závěrce 
+17. Na jednorázové mezitímním účetním výkaznictví, které svým rozsahem odpovídá účetní závěrce 
+(dále jen „jednorázové mezitímní účetní výkaznictví“), včetně mezitímní účetní závěrky 
+vymezené zákonem o účetnictví, se vztahují, není-li uvedeno jinak, odstavce 9 až 13 a 15 až 16. 
+ 
+
+                                                                               Interpretace NÚR I-31 Mezitímní účetní výkaznictví 
+ 
+ 
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+4/5 
+18. Pokud u tokových veličin nejsou k dispozici srovnávací údaje, které by byly srovnatelné, 
+srovnávací údaje se neuvedou a odst. 12 písm. b) a c) se nepoužijí. 
+ 
+Mezitímní vykázání jednotlivých účetních výkazů, prvků, účtů či položek účetních výkazů 
+19. Při mezitímním vykazování jednotlivých účetních výkazů, prvků, účtů či položek účetních výkazů 
+se postupuje tak, jako by tyto vybrané účetní informace měly být součástí pravidelného či 
+jednorázového mezitímního účetního výkaznictví (podle povahy). 
+ 
+20. Srovnávací informace se nemusí uvádět. Pokud se uvedou, musí být srovnatelné. 
+ 
+ 
+Zdůvodnění 
+21. Stanovení pravidel pro mezitímní účetní výkaznictví je důležité proto, že je používáno k 
+průběžnému informování o aktuálním vývoji výkonnosti a finanční situace účetní jednotky, podle 
+kterého činí zásadní rozhodnutí řada uživatelů (investoři na kapitálovém trhu, poskytovatelé 
+úvěrů apod.). Vzhledem k absenci účetních právních předpisů upravujících obsah takového 
+výkaznictví závěrek a vzhledem ke skutečnosti, že nebývá povinnost jej ověřit auditorem, mohou 
+být takové informace při nesprávném postupu při jejich sestavení zavádějící. 
+ 
+22. Úkolem této Interpretace je zajistit, aby informace zveřejňované prostřednictvím mezitímního 
+účetního výkaznictví byly konzistentní, srovnatelné a poskytovaly aktuální a úplný pohled na 
+hospodaření účetní jednotky za vykazované mezitímní období. Z uvedeného důvodu tato 
+Interpretace doporučuje, aby pro mezitímní účetní výkaznictví byla použita účetní jednotkou 
+obdobná pravidla jako v případě řádné účetní závěrky. 
+ 
+23. Obecná zásada, že postupy použité pro mezitímní účetní výkaznictví jsou v principu shodné s 
+pravidly pro sestavení řádné účetní závěrky, umožňuje účetním jednotkám vyřešit i ty konkrétní 
+případy a operace, které nelze dopředu předvídat nebo v této Interpretaci jmenovitě uvádět. 
+ 
+24. Vzhledem k tomu, že základním účetním obdobím, na které se uplatňují veškeré zásady, principy 
+a účetní metody, je roční období, využívá mezitímní účetní výkaznictví některé úlevy a výjimky, 
+které jsou popsány v části Řešení této Interpretace. Z důvodu těchto výjimek nelze aplikovat na 
+mezitímní účetní výkaznictví v plné míře všechny účetní postupy tak, jako by tomu bylo v případě 
+řádné účetní závěrky. 
+ 
+25. Pro zajištění kvality mezitímního účetního výkaznictví je zásadní správné stanovení 
+hospodářského roku s ohledem na sezónní a cyklickou povahu činnosti účetní jednotky. Účetní 
+období by mělo být stanoveno tak, aby se jeho začátek a konec kryl se začátkem a koncem cyklu 
+způsobeného sezónností prováděné podnikatelské činnosti, pokud to je proveditelné a nebrání 
+tomu jiné okolnosti, například sestavování konsolidované účetní závěrky skupiny. 
+ 
+26. Cyklické výnosy a náklady se přiřazují příslušné části účetního období a nikoli celému ročnímu 
+období, protože princip srovnatelnosti nákladů a výnosů se v případě tohoto typu nákladů a 
+výnosů uplatňuje mezi stejnými částmi různých ročních účetních období nebo až za roční období 
+jako celek. V důsledku toho se také upřednostňuje časová souvislost výnosů a nákladů s daným 
+mezitímním obdobím nad věcnou souvislostí mezi výnosy a náklady. 
+
+                                                                               Interpretace NÚR I-31 Mezitímní účetní výkaznictví 
+ 
+ 
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+5/5 
+27. To, že zákon o účetnictví v případě mezitímních účetních závěrek nevyžaduje inventarizaci, 
+neznamená, že účetní jednotka nemusí účtovat o transakcích, které se na základě inventarizace 
+obvykle účtují. Dokonce se může ukázat, že provedení inventarizace bude nutné, pokud ji 
+nebude možné nahradit jinými alternativními postupy s ohledem na významnost. 
+ 
+28. Tato Interpretace nestanovuje okruh účetních jednotek, které mají povinnost provádět 
+mezitímní účetní výkaznictví, protože tato povinnost je jim uložena jinými právními předpisy 
+nebo smluvními ujednáními. Tyto předpisy nebo ujednání rovněž určují za jaké období, do kdy, 
+komu a jakým způsobem má být mezitímní účetní výkaznictví předloženo. 
+ 
+ 
+ 
+Datum prvního schválení 
+této interpretace NÚR: 
+31. října 2014 
+Datum poslední aktualizace 
+této interpretace NÚR: 
+1. dubna 2019 
+Zpracovatel interpretace: 
+doc. Ing. Ladislav Mejzlík, Ph.D. 
+Katedra finančního účetnictví a auditingu 
+Fakulta financí a účetnictví 
+Vysoká škola ekonomická v Praze  
+Nám. W. Churchilla 4  
+130 67 Praha 3 – Žižkov

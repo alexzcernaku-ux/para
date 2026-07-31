@@ -1,0 +1,219 @@
+ZÁKON: NÚR I-48
+NAZEV: Interpretace Národní účetní rady I-48 – Ocenění aktiv a závazků při operacích se závodem nebo jeho částí
+URL: http://nur.cz/wp-content/uploads/2023/02/I-48.pdf
+
+© Národní účetní rada 
+ 
+1/5 
+ 
+Interpretace Národní účetní rady 
+I-48 Ocenění aktiv a závazků při operacích se závodem nebo jeho 
+částí 
+Účetní jednotky jsou povinny vést účetnictví tak, aby účetní závěrka sestavená na jeho základě 
+podávala věrný a poctivý obraz předmětu účetnictví a finanční situace účetní jednotky (zákon 
+č. 563/1991 Sb., o účetnictví, § 7, odst. 1). Za vedení účetnictví je odpovědná účetní jednotka. 
+Tato interpretace není právně závazným stanoviskem, pouze vyjadřuje odborný názor Národní 
+účetní rady a může být aplikována pouze v kontextu s Předmluvou Národní účetní rady k 
+interpretacím českých účetních předpisů. Postup popsaný v této interpretaci poskytuje účetní 
+jednotce návod v případech, kdy má jejich aplikace významný dopad na informace uvedené v 
+účetní závěrce a kdy informační přínosy jsou větší než náklady nutné na jejich získání. 
+Popis problému: 
+1. Při operacích se závodem nebo jeho částí přistupují účetní jednotky k ocenění nabývaných 
+položek aktiv a závazků různě – oceňují je reálnou hodnotou nebo přebírají ocenění od 
+vkladatele (prodávajícího). Důsledkem je potom rozpoznání goodwillu nebo oceňovacího 
+rozdílu k nabytému majetku v rozvaze nabyvatele (kupujícího).  
+2. Vyhláška č. 500/2002 Sb. v § 6 a v § 7 definuje goodwill a oceňovací rozdíl k nabytému 
+majetku a dobu jejich odpisování. Praxe často přistupuje k volbě ocenění nabytých aktiv a 
+ke stanovení doby odpisování goodwillu a oceňovacího rozdílu „intuitivně“ bez hlubšího 
+zvážení vypovídací hodnoty goodwillu či oceňovacího rozdílu k nabytému majetku.  
+Znalecké posudky přitom často neobsahují ocenění jednotlivých nabývaných položek, které 
+je potřebné pro vyčíslení goodwillu, ale určují ocenění podniku jako celku vedoucí následně 
+k zachycení oceňovacího rozdílu k nabytému majetku. 
+3. Oceněním aktiv a závazků při operacích se závodem nebo jeho částí se zabývá i interpretace  
+I-25 Ocenění po předchůdci, která řeší, jak promítnout hodnoty aktiv a závazků do 
+účetnictví nabyvatele (zda přebírat brutto hodnoty a oprávky, či pouze netto hodnoty). Tato 
+interpretace se ale nezabývá otázkou, která z metod pro ocenění nabytých aktiv a závazků 
+je vhodnější. 
+
+ 
+ I-48 Ocenění aktiv a závazků při operacích se závodem nebo jeho částí 
+ 
+© Národní účetní rada 
+ 
+2/5 
+ 
+4. Interpretace řeší následující otázky: 
+a) Kdy je vhodné ocenit nabytá aktiva a závazky reálnou hodnotou a vykázat goodwill 
+(dále „metoda goodwillu“)? 
+b) Kdy je vhodné převzít ocenění aktiv a závazků od vkladatele (prodávajícího) (dále 
+„metoda oceňovacího rozdílu“) a vykázat oceňovací rozdíl k nabytému majetku? 
+c) Jak stanovit dobu odpisování goodwillu, resp. oceňovacího rozdílu k nabytému 
+majetku?  
+d) V kterých situacích vzniká odložená daň a jak má být vykázána? 
+Řešení: 
+5. Preferovaným řešením by měla být vždy metoda goodwillu, při níž jsou dle §6, odst. 3,  
+písm. c) vyhlášky č. 500/2002 Sb., individuálně přeceněny složky majetku snížené o 
+převzaté dluhy. Reálná hodnota jednotlivých položek by měla být stanovena v souladu s § 
+27 zákona č. 563/1991 Sb., o účetnictví. V tomto kontextu by mělo být přistupováno i při 
+ocenění a v komunikaci se znalcem, který ocenění stanovuje. Výsledný rozdíl mezi 
+oceněním obchodního závodu jako celku a jeho individuálně oceněných aktiv a závazků 
+představuje goodwill, který by měl být odpisován po dobu, po kterou nabytá aktiva generují 
+budoucí ekonomický užitek. V odůvodněných případech tato doba odpisování může 
+přesáhnout i 120 měsíců, tedy dobu, kterou jako maximální dobu odpisování goodwillu 
+umožňuje v § 56, odst. 2 vyhláška č. 500/2002 Sb. 
+6. K datu nabytí obchodního závodu, jeho části či jiného obdobného celku účetní jednotka 
+zachytí veškeré závazky, které k tomuto okamžiku mají charakter závazku, to znamená 
+představují povinnost nabyvatele převést peněžní prostředky nebo jiná aktiva, a tato 
+povinnost vyplývá z minulé události, která nastala na straně prodávajícího nebo vkladatele 
+před transakcí s obchodním závodem a k datu převodu nebyla vypořádána. Za takové 
+závazky se považují i rezervy, pokud souvisejí s riziky, která nabyvatel přebírá, například 
+rezervy na rekultivace, záruční opravy či již schválené restrukturalizace, ve kterých bude 
+nabyvatel pokračovat. 
+7. K datu nabytí obchodního závodu účetní jednotka dále zachytí všechna aktiva, která již byla 
+na straně prodávajícího nebo vkladatele zcela odepsána, ale přitom jsou stále využívána a 
+přinášejí budoucí ekonomické užitky. 
+8. Rozdíl mezi účetní a reálnou hodnotou nabytých aktiv a závazků vykáže účetní jednotka 
+v následujících účetních obdobích ve výkazu zisku a ztráty ve věcné a časové souvislosti, a 
+to například prostřednictvím odpisů, úrokových výnosů (nákladů), či dle podstaty 
+příslušného aktiva (závazku). 
+9. Vznikne-li v důsledku individuálního ocenění aktiv a závazků záporný goodwill, měla by 
+účetní jednotka toto individuální ocenění prověřit a ujistit se, že v případě koupě 
+
+ 
+ I-48 Ocenění aktiv a závazků při operacích se závodem nebo jeho částí 
+ 
+© Národní účetní rada 
+ 
+3/5 
+ 
+obchodního závodu skutečně realizovala výhodnou koupi a zdali v případě vkladu či 
+přeměn je ocenění obchodního závodu jako celku správné.  
+10. V případě, kdy náklady na získání reálného ocenění jednotlivých složek obchodního závodu 
+převyšují přínos takové informace, použije účetní jednotka metodu oceňovacího rozdílu.   
+11. Situace, kdy oceňovací rozdíl nabývá záporných hodnot, může indikovat, že hodnoty aktiv 
+obchodního závodu jsou nadhodnoceny a účetní jednotka by měla zvážit využití metody 
+goodwillu. 
+12. Doba odpisování goodwillu by měla odrážet dobu, po kterou účetní jednotka očekává 
+ekonomický prospěch z transakce, na základě které goodwill vznikl.   
+13. Doba odpisování oceňovacího rozdílu by měla odrážet dobu odpisování souvisejících 
+stálých aktiv. 
+14. Jak goodwill, tak oceňovací rozdíl, by měl být testován na znehodnocení v kontextu I-45 
+Znehodnocení stálých hmotných a nehmotných aktiv – testování a vykazování, v případě, že 
+účetní jednotka získá informace, které indikují, že by dlouhodobá aktiva mohla být 
+nadhodnocena. 
+15. Při přeměnách a nepeněžitých vkladech je nutné vykázat i související odloženou daň 
+v souladu s interpretací I-2 Přechodné rozdíly při přeměnách a vkladech. 
+Zdůvodnění: 
+16. Zákon o účetnictví v § 7, odst. 2 uvádí, že poctivé zobrazení je takové, když jsou při něm 
+použity účetní metody, které vedou k dosažení věrnosti. Volba účetní metody tedy není 
+libovolná a účetní jednotka by měla při volbě účetní metody vždy vyhodnotit, zdali 
+zobrazení transakce v účetní závěrce s použitím zvolené účetní metody povede k věrnému 
+a poctivému obrazu předmětu účetnictví a finanční situace.  
+17. Ocenění nabytých složek obchodního závodu v jejich individuálním oceněním k datu 
+transakce odpovídá situaci, kdy by si jednotlivé složky majetku účetní jednotka pořídila 
+samostatně a odpovídá tak jejich pořizovacím cenám k rozhodnému dni přeměny či k datu 
+pořízení obchodního závodu. 
+18. Reálná hodnota, která by měla být použita pro ocenění jednotlivých složek majetku, je 
+definována zákonem o účetnictví v § 27.  Metodu ocenění závazků při transakcích se 
+závodem vyhláška č. 500/2002 Sb. neurčuje, obsahuje pouze neurčitý termín „převzaté 
+dluhy“.  Ocenění převzatých dluhů k datu nabytí závodu by mělo odpovídat způsobu, 
+kterým byly oceněny při stanovení celkové hodnoty závodu.  
+
+ 
+ I-48 Ocenění aktiv a závazků při operacích se závodem nebo jeho částí 
+ 
+© Národní účetní rada 
+ 
+4/5 
+ 
+19. ČÚS 011 Operace s obchodním závodem vyžaduje, aby při prodeji obchodního závodu 
+nebo jeho části byly rozpuštěny rezervy (s výjimkou povinně vytvářených rezerv podle 
+zvláštních právních předpisů) a opravné položky. Takový postup ovšem často v praxi vede 
+k situaci, kdy nabyvatel rezervy opět vytváří, a to výsledkově, protože v souvislosti 
+s nabytím závodu převzal i rizika, na která byly rezervy vytvořeny. Hodnota takových rizik 
+je přitom zohledněna v ocenění (kupní ceně) závodu, a proto by související rezervy měly 
+být součástí ocenění nabytých aktiv a závazků s dopadem na výši goodwillu, případně 
+oceňovacího rozdílu. 
+20. Následné odpisy či spotřeba individuálně oceněných položek bude v účetní závěrce 
+poskytovat věrnější zobrazení skutečnosti.   
+21. Převzetí účetních hodnot aktiv a závazků od vkladatele (prodávajícího) může představovat 
+i riziko převzetí nesprávného ocenění těchto položek v účetnictví vkladatele 
+(prodávajícího). 
+22. Záporný oceňovací rozdíl může v podstatě představovat opravnou položku k některým 
+položkám dlouhodobých aktiv a z tohoto důvodu může být jeho samostatné zachycení a 
+prezentace pro uživatele účetní závěrky nesrozumitelná. 
+23. Situace, kdy hodnota oceňovacího rozdílu dosahuje v poměru k hodnotě stálých aktiv 
+podstatné výše, může indikovat, že rozvahové hodnoty jednotlivých položek mohou být pro 
+uživatele obtížně interpretovatelné a mohou ovlivnit rozhodovací schopnosti uživatelů. 
+Primárním cílem účetní závěrky je přitom poskytovat relevantní informace pro ekonomická 
+rozhodnutí jejích uživatelů. A proto obvykle nelze v tomto případě považovat metodu 
+oceňovacího rozdílu za metodu vedoucí k věrnému zobrazení, jak požaduje §7 zákona o 
+účetnictví.  
+24. Odpisování goodwillu po dobu, po kterou daná transakce přináší budoucí ekonomický 
+užitek, je v souladu s metodou věcné a časové souvislosti nákladů a výnosů. 
+25. V odůvodněných případech nemusí být vhodné při vyřazení poslední složky nabytého 
+majetku vykázat zůstatkovou hodnotu oceňovacího rozdílu ve výkazu zisku a ztráty tak, jak 
+vyžaduje vyhláška v § 7, odst. 10.  I při odpisování oceňovacího rozdílu by měla být 
+dodržena metoda věcné a časové souvislosti nákladů a výnosů. Generátorem hodnoty 
+(příjmů) obchodního závodu může být nehmotné aktivum, které v rozvaze sice není 
+vykázáno, ale které pro nabyvatele představuje budoucí ekonomický prospěch. Oceňovací 
+rozdíl by měl být potom odpisován po dobu, po kterou takové aktivum generuje 
+ekonomický prospěch. 
+26. Při přeměnách a vkladech se nemění daňové základny aktiv a závazků, a proto je nutné 
+vykázat související odloženou daň. U koupě obchodního závodu je účetní hodnotou i 
+daňovou základnou jeho pořizovací cena, a proto v tomto případě odložená daň nevzniká. 
+
+ 
+ I-48 Ocenění aktiv a závazků při operacích se závodem nebo jeho částí 
+ 
+© Národní účetní rada 
+ 
+5/5 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Datum prvního schválení  
+ 
+16. ledna 2023 
+této interpretace NÚR: 
+ 
+Datum poslední aktualizace   
+– 
+této interpretace NÚR: 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Zpracovatelé intepretace: 
+ 
+Ing. Alice Šrámková 
+ 
+ 
+ 
+ 
+ 
+Komora certifikovaných účetních 
+ 
+ 
+ 
+ 
+ 
+Ing. Libor Vašek, Ph.D. 
+ 
+ 
+ 
+ 
+ 
+Fakulta financí a účetnictví VŠE v Praze

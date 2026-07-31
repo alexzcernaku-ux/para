@@ -1,0 +1,169 @@
+ZÁKON: NÚR I-15
+NAZEV: Interpretace Národní účetní rady I-15 – Zúčtování nevyplacených přiznaných podílů na zisku
+URL: http://nur.cz/wp-content/uploads/2020/10/I-15_updated.pdf
+
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+1/4 
+Interpretace NÚR 
+I–15 
+Zúčtování nevyplacených přiznaných podílů na zisku 
+Účetní jednotky jsou povinny vést účetnictví tak, aby účetní závěrka sestavená na jeho základě 
+podávala věrný a poctivý obraz předmětu účetnictví a finanční situace účetní jednotky (zákon 
+č. 563/1991 Sb., o účetnictví, § 7, odst. 1). Účetní jednotky účtují o stavu a pohybu majetku a jiných 
+aktiv, závazků a jiných pasiv, dále o nákladech a výnosech a o výsledku hospodaření. (zákon 
+č. 563/1991 Sb., o účetnictví, § 2, Předmět účetnictví).  
+Tato interpretace musí být aplikována v kontextu s Předmluvou Národní účetní rady 
+k interpretacím českých účetních standardů. 
+ 
+ 
+Popis problému 
+1. Akciové společnosti přiznávají podíl na zisku na základě valnou hromadou schváleného návrhu 
+na rozdělení disponibilního zisku vytvořeného a zdaněného v předcházejících účetních a 
+zdaňovacích obdobích. 
+ 
+2. Přiznaný podíl na zisku představuje nárok akcionáře vyjádřený v účetnictví jako závazek 
+společnosti vůči akcionářům, který je následně snížen o daň stanovenou na základě zvláštní 
+sazby daně v souladu s § 36 ZDP, s výjimkou podílů osvobozených od daně podle § 19 ZDP. 
+ 
+3. Podíl na zisku v kapitálových společnostech je splatný do tří měsíců ode dne, kdy bylo přijato 
+rozhodnutí nejvyššího orgánu obchodní korporace, ledaže společenská smlouva nebo nejvyšší 
+orgán určí jinak (§ 34 zákona o obchodních korporacích). 
+ 
+4. Akciová společnost vyplatí podíl na zisku na své náklady a nebezpečí pouze bezhotovostním 
+převodem na účet akcionáře uvedený v seznamu akcionářů (§ 348 odst. 3 zákona o obchodních 
+korporacích). 
+ 
+5. V řadě případů se stává, že akcionáři si podíl na zisku nevyzvednou (zejména v případech 
+akcionářů z kuponové privatizace), ať již z jakéhokoliv důvodu, přičemž společnosti vykazují v 
+pasivech rozvahy závazky z titulu neuplatněného nároku na výplatu podílu po dlouhou dobu. 
+ 
+6. V této souvislosti vzniká otázka (a), po jakou dobu má účetní jednotka závazek představující 
+nárok akcionáře na výplatu podílu na zisku vykazovat v rozvaze, (b) jak zaúčtovat případné 
+vyvedení tohoto závazku z rozvahy. 
+ 
+Řešení 
+7. Závazek z titulu neuplatněného nároku na výplatu podílu na zisku se promlčuje po uplynutí 
+obecné tříleté promlčecí lhůty. Podle občanského zákoníku začíná promlčecí doba běžet ode 
+
+                                    Interpretace NÚR I-15 Zúčtování nevyplacených přiznaných podílů na zisku 
+ 
+ 
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+2/4 
+dne, kdy měl být nárok splněn nebo kdy mělo být započato s jeho plněním (doba splatnosti), tj. 
+ode dne, který je uveden výše v odst. 3. 
+ 
+8. Promlčený závazek z titulu neuplatněného nároku na výplatu podílu na zisku se vyřadí z 
+rozvahových účtů souvztažně ve prospěch vlastního kapitálu na základě rozhodnutí vedení 
+společnosti. 
+ 
+9. Závazek představující nárok na výplatu podílu na zisku se dále eviduje v knize podrozvahových 
+účtů (tzn., že závazek zůstává v účetnictví). Vyřazením závazku z rozvahových účtů nárok 
+akcionáře na výplatu podílu na zisku nezaniká. 
+ 
+10. Účetní jednotka vyřazení závazku, představující nárok na výplatu podílu na zisku, vykáže v 
+účetní závěrce (ve výkazu o změnách vlastního kapitálu a popíše v příloze), kterou předkládá ke 
+schválení valné hromadě. 
+ 
+11. Pokud by poté, co byl závazek z titulu neuplatněného nároku na výplatu podílu na zisku 
+vyřazen z účetnictví, mělo dojít k uplatnění nároku na výplatu podílu původně určeným 
+akcionářům a společnost nenamítne promlčení, účtovala by se tato výplata na vrub vlastního 
+kapitálu. 
+ 
+12. Pokud valná hromada akcionářů rozhodne o výplatě této části vlastního kapitálu všem 
+akcionářům nebo prioritním akcionářům, případně o použití k jiným účelům (např. k úhradě 
+ztráty), účtují se tyto transakce obvyklým způsobem. 
+ 
+13. Uvedený postup účtování promlčených závazků z titulu neuplatněného nároku na výplatu 
+dividend nelze použít na jiné promlčené závazky. 
+ 
+Zdůvodnění 
+14. Závazek z titulu neuplatněného nároku na výplatu podílu na zisku by měl být po uplynutí 
+promlčecí lhůty vyřazen z rozvahy, neboť tato lhůta je dostatečně dlouhá pro to, aby se 
+akcionář k výplatě podílu přihlásil. Uplynutím této lhůty je jejich výplata málo pravděpodobná. 
+ 
+15. Vykazování promlčených závazků v rozvaze účetní jednotky bezdůvodně zhoršuje ukazatele 
+finanční analýzy. Proto by měly být z rozvahy tyto závazky vyřazeny a dále sledovány v knize 
+podrozvahových účtů. Evidence závazků na podrozvahových účtech neznamená jejich vyřazení 
+z účetnictví, neboť kniha podrozvahových účtů je podle zákona o účetnictví jednou z účetních 
+knih. 
+ 
+16. České účetní předpisy vyřazení závazku z titulu nevyplacených podílů na zisku jmenovitě 
+neřeší. Pouze v ČUS č. 019 – Náklady a výnosy se uvádí v odst. 4.1.3., že právně zaniklé závazky 
+se vyúčtují na příslušný účet ostatních výnosů, s určitými výjimkami uváděnými jako příkladný 
+výčet (splnění, splynutí, započtení, dohody o nahrazení dosavadního závazku závazkem novým, 
+narovnáním). 
+ 
+
+                                    Interpretace NÚR I-15 Zúčtování nevyplacených přiznaných podílů na zisku 
+ 
+ 
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+3/4 
+17. Vzhledem k absenci definic pojmů v českých účetních předpisech je v tomto případě možné 
+vycházet z obecné definice výnosů v účetní teorii, kde jsou chápány jako „hrubé přírůstky 
+ekonomických užitků, které vznikají běžnými činnostmi účetní jednotky, jestliže tyto přírůstky 
+vedou ke zvýšení vlastního kapitálu odlišnému od jeho zvýšení v souvislosti s příspěvky 
+vlastníků“. 
+ 
+18. Vyřazení závazku z titulu neuplatněného nároku na výplatu podílů na zisku není výnosem, 
+neboť není výsledkem běžné činnosti účetní jednotky a jeho důsledkem není přírůstek 
+ekonomických užitků (nelze očekávat přínos jako protihodnotu realizovaného výkonu). Závazek 
+vznikl v důsledku rozdělení zisku, který – pokud by nebyl rozdělen – by zůstal jako součást 
+vlastního kapitálu účetní jednotky. Proto je logické, že nevyplacené podíly na zisku by měly být 
+do vlastního kapitálu vráceny jako nerozdělený zisk, odkud byly v rámci rozdělení zisku 
+vyvedeny. 
+ 
+19. Účetní jednotka má povinnost vyřazení závazku z titulu neuplatněného nároku na výplatu 
+podílu na zisku zveřejnit v účetní závěrce, kterou schvaluje valná hromada. V její kompetenci je 
+také další použití této části vlastního kapitálu. 
+ 
+Vypořádání připomínek 
+Ing. Jan Zeman 
+1) Co dál po převedení promlčených závazků z titulu nevyplacených podílů na zisku na zvláštním 
+účtu vlastního kapitálu? Lze použít tyto prostředky třeba v budoucnu ke krytí vzniklé ztráty? 
+Podle mne je problém také v tom, že se jedná o zdaněné prostředky. 
+2) Obdobný problém může nastat i u s. r. o., kde v minulosti byly na závazky převedeny podíly z 
+důvodu možnosti odpočtu 1/2 sražené daně od daně z příjmů a společnost nemá na vyplacení 
+podílů prostředky. I na tyto podíly se vztahují, podle ustanovení odst. 2 § 123 obchodního 
+zákoníku, obdobná ustanovení jako na dividendy. Nevyplacené podíly, které jsou na závazcích, 
+jsou problém např. při žádosti o úvěr. 
+ 
+Ing. Lenka Rückerová 
+Domnívám se, že by měla Interpretace obsahovat určení toho, o čem valná hromada má 
+rozhodnout, aby nebylo možné rozhodnutí posoudit jako zrušení výplaty podílu na zisku pro 
+všechny akcionáře. V komentáři prof. Dědiče k obchodnímu zákoníku k ustanovení § 178 je 
+uvedeno: 
+„Vzniklo-li právo na konkrétní dividendu rozhodnutím valné hromady, může zaniknout jen způsoby 
+stanovenými v občanském a obchodním zákoníku pro zánik závazků. 
+Podle našeho názoru nelze připustit, aby valná hromada rozhodla později o zrušení svého 
+rozhodnutí o dividendě, neboť by šlo o nedovolený zásah do nabytých práv. Zrušením rozhodnutí o 
+dividendě by totiž právo na konkrétní dividendu zaniklo.“ 
+ 
+Závěr 
+1) První připomínka byla do Interpretace zapracována. 
+2) Druhá připomínka byla zapracována zpřesněním formulací, jejichž výsledkem by mělo být 
+přesnější vnímání toho, že vyřazením závazku z rozvahy právo na výplatu dividendy nezaniká. 
+
+                                    Interpretace NÚR I-15 Zúčtování nevyplacených přiznaných podílů na zisku 
+ 
+ 
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+4/4 
+Datum prvního schválení 
+této interpretace NÚR: 
+14. prosince 2009 
+Datum poslední aktualizace 
+této interpretace NÚR: 
+1. dubna 2019 
+Zpracovatel interpretace: 
+prof. Ing. Libuše Müllerová, CSc.  
+Katedra finančního účetnictví a auditingu  
+Fakulta financí a účetnictví 
+Vysoká škola ekonomická v Praze 
+Nám. W. Churchilla 4  
+130 67 Praha 3 – Žižkov

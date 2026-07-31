@@ -1,0 +1,226 @@
+ZÁKON: NÚR I-12
+NAZEV: Interpretace Národní účetní rady I-12 – Faktoring
+URL: http://nur.cz/wp-content/uploads/2020/10/I-12_updated.pdf
+
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+1/5 
+Interpretace NÚR 
+I–12 
+Faktoring 
+Účetní jednotky jsou povinny vést účetnictví tak, aby účetní závěrka sestavená na jeho základě 
+podávala věrný a poctivý obraz předmětu účetnictví a finanční situace účetní jednotky (zákon 
+č. 563/1991 Sb., o účetnictví, § 7, odst. 1). Účetní jednotky účtují o stavu a pohybu majetku a jiných 
+aktiv, závazků a jiných pasiv, dále o nákladech a výnosech a o výsledku hospodaření. (zákon 
+č. 563/1991 Sb., o účetnictví, § 2, Předmět účetnictví).  
+Tato interpretace musí být aplikována v kontextu s Předmluvou Národní účetní rady 
+k interpretacím českých účetních standardů. 
+ 
+ 
+Popis problému 
+1. Faktoring není v našem právním systému definován ani speciálně upraven účetním či daňovým 
+předpisem, kromě několika odkazů neřešících obsah ani formu. Obecně představuje faktoring 
+nikoliv pojem právní, ale pojem ekonomický, představující službu s cílem zajistit určitý 
+specifický způsob financování v souvislosti s pohledávkami. Konkrétních forem faktoringu je 
+celá řada v závislosti na smluvním ujednání. Přitom je nutno ve smlouvě mezi společností 
+poskytující tuto službu (faktorem) a společností, které je tato služba poskytována (klientem), 
+přesně specifikovat, jak je to s právy (vlastnictvím) pohledávek a riziky jejich vymáhání. 
+ 
+2. V návaznosti na to lze rozlišit dvě základní formy faktoringu, z nichž každá může obsahovat 
+další modifikace: 
+a) faktor nepřebírá ani právo (vlastnictví), ani rizika (správa pohledávek), 
+b) faktor přebírá jak právo (vlastnictví), tak rizika (postoupení či prodej pohledávek), přitom 
+míra převzetí rizika faktorem může být různá. 
+ 
+3. Cílem Interpretace není vysvětlovat různé formy faktoringu, které nemají vliv na to, jak má být 
+o jednotlivých formách faktoringu správně účtováno. Zobrazení faktoringové transakce v 
+účetnictví může být zásadně pouze dvojí – rozvahově (tj. pouze na úrovni zúčtovacích vztahů), 
+nebo výsledkově (jako prodej pohledávky). 
+ 
+Řešení 
+Předání pohledávek ke správě 
+ 
+4. V situacích, které odpovídají bodu a), se jedná o faktoring, kdy jsou poskytovány pouze služby, 
+pohledávky (jejich vlastnictví) nepřechází na faktora. Jedná se tedy o služby poskytované při 
+vymáhání a správě portfolia pohledávek, které současně znamenají určitou formu financování s 
+cílem zabezpečení likvidity účetní jednotky tam, kde sjednané lhůty splatnosti pohledávek 
+(často z konkurenčních důvodů) jsou relativně dlouhé. Nejedná se tedy o postoupení 
+pohledávek, ale o předání pohledávek ke správě. 
+
+                                                                    
+ Interpretace NÚR I-12 Faktoring 
+ 
+ 
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+2/5 
+5. V případě, že faktor pouze přebírá pohledávky do správy, nejde o změnu vlastnictví. Kvůli 
+evidenci a snazšímu vymáhání pohledávek přebírá v tomto případě faktor pohledávky do 
+správy od klienta za nominální hodnotu a z praktických důvodů dlužník pak nezasílá úhradu 
+původnímu věřiteli, ale faktorovi. Vzhledem k tomu, že tyto pohledávky zůstávají ve vlastnictví 
+klienta, zůstávají i v jeho účetnictví. Pohledávky předané do správy faktorovi se v účetnictví 
+klienta pouze přeúčtují na jiný analytický účet pohledávek, aby byly evidovány odděleně od 
+ostatních pohledávek. U faktora se pohledávky převzaté do správy sledují pouze na 
+podrozvahových účtech. 
+ 
+6. Ze strany faktora může být předfinancování pohledávek doplněno poskytnutím překlenovacího 
+úvěru, kdy vedle poplatku za službu si faktor účtuje i úrok, obojí je výnosem faktora a 
+nákladem klienta. V případě stanovení výše poplatků za službu i výše úroků z úvěrů je třeba 
+důsledně respektovat ustanovení daňové legislativy (např. § 23 odst. 7 a § 23 odst. 10 zákona o 
+daních z příjmů). Zda je úhrada pohledávek poukazována na účet původního vlastníka, nebo na 
+účet faktora, je relevantní pouze pro zaúčtování vzájemných pohledávek a závazků včetně 
+možných zápočtů, a případně pro samotný zánik pohledávky. 
+ 
+7. Úhrada poplatku a úroku faktorovi zpravidla probíhá zápočtem. V případě, kdy je částka od 
+dlužníka poukázána na účet faktora, započítává se u klienta jeho závazek vůči faktorovi z titulu 
+poskytnutí úvěru, úroku a poplatku za službu s pohledávkami vůči faktorovi evidovanými na 
+samostatném analytickém účtu (balík pohledávek předaných ke správě). Klient doplatí 
+případný rozdíl, pokud součet úvěru, úroku a odměny za službu převýší hodnotu pohledávek 
+předaných ke správě inkasovanou faktorem od dlužníka. U faktora se stejně tak započte 
+pohledávka vůči klientovi z titulu poskytnutého úvěru, úroku a odměny za správu pohledávek 
+se závazkem z titulu inkasa pohledávek převzatých do správy od dlužníků; uhrazené 
+pohledávky vyřadí faktor z podrozvahových účtů. 
+ 
+8. V případě neúspěšného inkasa od dlužníků vrací faktor pohledávky klientovi (vyřadí je z 
+podrozvahových účtů). Klient převede tyto pohledávky z účtu pohledávek předaných ke správě 
+zpět na účet odběratelů a splatí faktorovi částku poskytnutou při předfinancování (popř. splácí 
+úvěr, úrok a poplatek za službu). 
+ 
+Postoupení pohledávek 
+ 
+9. Jiná je situace v případě b), kdy faktoringová společnost pohledávky skutečně nakoupí a v 
+souladu se smlouvou dochází též k přechodu vlastnictví k pohledávkám. Dochází přitom ke 
+změně věřitele, klient již není věřitelem původního odběratele, ale stává se věřitelem faktora z 
+titulu prodeje pohledávky a zároveň jeho dlužníkem z titulu poskytnutého úvěru. Pohledávka 
+se tak stala vlastnictvím faktora, který je nyní věřitelem původního dlužníka, aniž by měl klient 
+s touto pohledávkou již cokoliv společného. 
+ 
+10. Jestliže je smlouva uzavřena jako prodej pohledávky s přechodem vlastnictví i rizik, je nutné 
+podle platných účetních předpisů účtovat výsledkově. Pohledávka se v tomto případě zpravidla 
+prodává za nižší než nominální hodnotu. Zde se ovšem nelze vyhnout daňovému dopadu a 
+rozdíl mezi nominální hodnotou pohledávky a prodejní hodnotou pohledávky, případně 
+zvýšenou o vytvořenou opravnou položku, rezervu nebo o diskont připadající na zbývající dobu 
+
+                                                                    
+ Interpretace NÚR I-12 Faktoring 
+ 
+ 
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+3/5 
+do lhůty splatnosti, jehož výše se posuzuje podle úrokové sazby obvyklé při poskytování 
+finančních prostředků s odpovídající dobou splatnosti (viz § 24 odst. 2 písm. s) zákona o daních 
+z příjmů), je nedaňový náklad. 
+ 
+11. Při prodeji pohledávek, kdy se jejich vlastníkem stává faktor, nelze již klientovi účtovat náklady 
+na správu pohledávek, ale pouze náklady související s uzavřením smlouvy o prodeji 
+pohledávek, pokud takové vznikly. V případě, že faktor poskytl klientovi úvěr, je úrok daňovým 
+nákladem klienta ve výši ceny obvyklé a výnosem faktora. 
+ 
+12. V určitých případech může dojít k situaci, kdy je smlouva sice svým názvem deklarovaná jako 
+smlouva o postoupení pohledávky, avšak svým obsahem daným konkrétními ustanoveními 
+tomu věcně neodpovídá. Skutečná (ekonomická) podstata ujednání je tak zastírána stavem 
+právním. Takovou situací může být například smlouva, ve které faktor nepřebírá zcela rizika 
+spojená s inkasem pohledávek a za určitých (nepravděpodobných) podmínek může v případě 
+jejich nezaplacení vrátit pohledávky zpět klientovi. V tomto případě může vznikat pochybnost, 
+zda takovou smlouvu účtovat u klienta výsledkově či rozvahově a je nezbytné vždy pečlivě a 
+individuálně posoudit obsah smlouvy a zvolit způsob účtování o smlouvě, který odpovídá 
+jejímu skutečnému obsahu. 
+ 
+Zdůvodnění 
+13. Faktoring je finanční služba, která může mít jak charakter spravování pohledávek, tak charakter 
+prodeje pohledávek současně s cílem financování klienta. Míra převzetí rizika za dobytnost 
+pohledávek faktorem může být různá, závisí vždy na konkrétní smlouvě. 
+ 
+14. Za poskytnuté služby platí klient faktorovi odměnu za správu (v případě předání pohledávek ke 
+správě) a úrok (v případě poskytnutí úvěru či předfinancování), které jsou z hlediska daně z 
+příjmů daňově relevantním nákladem klienta bez zvláštních omezení. Je však třeba důsledně 
+dbát na to, aby nedošlo k zastření skutečného stavu formou a aby se cena služby a úrok 
+pohybovaly na úrovni „ceny obvyklé“. 
+ 
+15. Klient při faktoringu účtuje v závislosti na tom, o jakou formu faktoringu se jedná. Předání 
+pohledávek ke správě se neúčtuje do výnosů, ani se neuplatňuje jako náklad hodnota 
+pohledávek předávaných ke správě. Pohledávky zůstávají ve vlastnictví klienta, a proto je také 
+vykazuje jako aktivum. Výsledkové účtování by v tomto případě nabalovalo obraty nákladů a 
+výnosů (ve výnosech již bylo o pohledávce účtováno při jejím vzniku), a docházelo by tak ke 
+zkreslování finančních ukazatelů účetní jednotky, předmětem jejíž činnosti není obchodování s 
+pohledávkami. Faktor eviduje pohledávky převzaté do správy na podrozvahových účtech 
+(nejsou jeho vlastnictvím). 
+ 
+16. Pokud ze smlouvy uzavřené mezi faktorem a klientem vyplývá, že dochází k převodu vlastnictví 
+pohledávek, je třeba podle našich účetních předpisů postupovat stejně jako při prodeji 
+jakéhokoliv jiného aktiva, tj. zaúčtovat prodej pohledávek do výnosů a účetní hodnotu 
+pohledávek zúčtovat do nákladů. Zde je pak nutné respektovat daňové dopady (viz bod 10). 
+Faktor se stává vlastníkem a účtuje o nakoupených pohledávkách na rozvahových účtech. 
+ 
+
+                                                                    
+ Interpretace NÚR I-12 Faktoring 
+ 
+ 
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+4/5 
+17. Pokud však ze smlouvy jasně vyplývá, že se pohledávky v případě, že nebudou zaplaceny, vrací 
+klientovi, neboť faktor nepřebírá rizika jejich inkasa, může dojít k tomu, že ekonomická 
+podstata smluvního ujednání je zastírána stavem právním. Vzhledem k tomu, že úkolem 
+účetnictví je poskytnout věrný a poctivý obraz skutečnosti (viz § 7 odst. 1), je účetnictví 
+ekonomickým informačním nástrojem, který musí respektovat přednost obsahu před formou 
+(viz § 7 odst. 2) a klient by měl zvolit takový způsob účtování, který odpovídá skutečnému 
+obsahu smluvního ujednání a povaze transakce na jejím základě provedené, a to bez ohledu na 
+stav právní a na název smlouvy. 
+ 
+ 
+Vypořádání připomínek 
+1. Výbor pro metodiku KAČR – připomínky zpřesňující některé formulace – byly zapracovány. 
+ 
+2. Komora daňových poradců – připomínky zpřesňující některé formulace, vyškrtnout přirovnání 
+k leasingu v úvodním odstavci – bylo zapracováno. 
+ 
+3. Tax Partners Consulting – připomínka uvádí různé formy faktoringu – bylo zapracováno, že 
+smyslem Interpretace není řešení forem, ale účtování, které bez ohledu na formu smlouvy 
+může být jen dvojí (rozvahové a výsledkové). Akceptovaná byla připomínka, že je zcela 
+nemožné požadovat, aby ve smlouvě bylo uvedeno, že jde o „nevratný proces“ – tato 
+formulace byla vypuštěna. 
+ 
+4. Ernst & Young – připomínka k bodu 12 – nejedná se o výjimečné, ale o nejběžnější případy, 
+doporučení bylo tento typ faktoringu více propracovat. Upravena byla formulace, že se 
+nejedná o výjimečné případy, ale o určité případy. Další rozvedení tohoto bodu není možné v 
+závislosti na různých typech faktoringu a různém smluvním ujednání, proto je to pokryto 
+formulací, že je nutno vždy posuzovat individuálně každou smlouvu a účtovat tak, aby to 
+odpovídalo nikoliv formě, ale obsahu.  
+ 
+5. Ing. Sehnalová doporučuje formulovat účtování v závislosti na „záměru účetní jednotky“, 
+pokud používá faktoring jako způsob financování – účtuje se rozvahově, pokud prodává 
+pohledávky a obchoduje s nimi – účtuje se výsledkově. Domnívám se, že záměr se těžko 
+dokazuje, a proto vždy bude záležet na posouzení smlouvy a jejím faktickém obsahu. 
+Připomínka, že výsledkové účtování zvyšuje uměle obrat účetní jednotky, a tím zkresluje její 
+finanční ukazatele, byla zapracována. 
+ 
+ 
+ 
+Datum prvního schválení 
+této interpretace NÚR: 
+20. května 2007 
+Datum poslední aktualizace 
+této interpretace NÚR: 
+1. dubna 2019 
+
+                                                                    
+ Interpretace NÚR I-12 Faktoring 
+ 
+ 
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+5/5 
+Zpracovatel interpretace: 
+prof. Ing. Libuše Müllerová, CSc. 
+Katedra finančního účetnictví a auditingu 
+Vysoká škola ekonomická v Praze 
+Nám. W. Churchilla 4 
+130 67 Praha 3 – Žižkov 
+ 
+Ing. Jiří Škampa 
+Komora daňových poradců ČR 
+Kozí 4 
+602 00 Brno

@@ -1,0 +1,136 @@
+ZÁKON: NÚR I-28
+NAZEV: Interpretace Národní účetní rady I-28 – Následné vrácení dotace na dlouhodobý majetek
+URL: http://nur.cz/wp-content/uploads/2020/10/I-28_updated.pdf
+
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+1/3 
+Interpretace NÚR 
+I–28 
+Následné vrácení dotace na dlouhodobý majetek 
+ 
+Účetní jednotky jsou povinny vést účetnictví tak, aby účetní závěrka sestavená na jeho základě 
+podávala věrný a poctivý obraz předmětu účetnictví a finanční situace účetní jednotky (zákon 
+č. 563/1991 Sb., o účetnictví, § 7, odst. 1). Účetní jednotky účtují o stavu a pohybu majetku a jiných 
+aktiv, závazků a jiných pasiv, dále o nákladech a výnosech a o výsledku hospodaření. (zákon 
+č. 563/1991 Sb., o účetnictví, § 2, Předmět účetnictví).  
+Tato interpretace musí být aplikována v kontextu s Předmluvou Národní účetní rady 
+k interpretacím českých účetních standardů. 
+ 
+Odkaz:  
+Zákon č. 563/1991 Sb., o účetnictví, § 3 odst. 1, § 19 odst. 2 a § 25 odst. 1. 
+ČÚS pro podnikatele č. 013 – Dlouhodobý nehmotný a hmotný majetek 
+ČÚS pro podnikatele č. 017 – Zúčtovací vztahy 
+ 
+Popis problému 
+1. Účetní jednotka v daném účetním období pořídila dlouhodobý majetek, v tomto období jej i 
+zařadila do používání v pořizovací ceně snížené o dotaci, a případně zahájila i jeho odepisování. 
+ 
+2. V důsledku porušení podmínek pro získání dotace má účetní jednotka v některém z období 
+následujících po pořízení majetku povinnost dotaci vrátit (v souladu s I-14 Okamžik vykázání 
+nároku na přijetí nebo vrácení dotace). 
+ 
+3. Tato Interpretace upravuje pouze způsob účetního zachycení následného vrácení dotace na 
+pořízení dlouhodobého majetku, a nikoliv jiné následné úpravy pořizovací ceny dlouhodobého 
+majetku, jako jsou opravy chyb, změny metod, reklamace, slevy, opravné položky apod. V 
+těchto případech se postupuje odlišným způsobem například v souladu s I-26 Slevy z pořizovací 
+ceny dlouhodobého hmotného majetku v následujících účetních obdobích po uvedení do 
+užívání. 
+ 
+4. Podstatou problému je a otázka zní, jak má účetní jednotka správně postupovat v situaci, kdy 
+bude muset následně po zařazení aktiva do používání část nebo celou dotaci na takové 
+aktivum vrátit? 
+ 
+Řešení 
+5. Pokud účetní jednotce vznikne (po sestavení účetní závěrky za minulé účetní období) povinnost 
+vrátit část nebo celou dotaci, je důležité, aby účetní jednotka prokázala, kdy se o takové 
+povinnosti dozvěděla, a to bez ohledu na to, kdy k vrácení dotace skutečně došlo: 
+a) v případě, že účetní jednotka nemůže prokázat, že se o povinnosti vrátit dotaci 
+dozvěděla až po sestavení účetní závěrky za období, ve kterém byla dotace obdržena (v 
+souladu s postupy uvedenými v I-24 Události po rozvahovém dni), jedná se o účetní 
+
+                                           Interpretace NÚR I-28 Následné vrácení dotace na dlouhodobý majetek 
+ 
+ 
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+2/3 
+chybu a je třeba ji opravit retrospektivně proti minulému účetnímu období, tj. 
+proúčtovat dopad proti vlastnímu kapitálu (do položky „Jiný výsledek hospodaření“), a 
+při dodržení požadavků I-30 Srovnatelnost informací za běžné a minulé účetní období v 
+individuální účetní závěrce podnikatelů; 
+b) v případě, že účetní jednotka může prokázat, že se o povinnosti vrátit dotaci dozvěděla 
+až po sestavení účetní závěrky za období, ve kterém byla dotace obdržena (v souladu s 
+postupy uvedenými v I-24 Události po rozvahovém dni), nejedná se o účetní chybu, ale 
+o změnu odhadu, jejíž důsledky se zaúčtují a vykáží prospektivně jako operace nového 
+účetního období, tj. proúčtují se do výsledku hospodaření běžného období. 
+ 
+6. Bez ohledu na to, zda je následné vrácení dotace klasifikováno jako oprava chyby nebo operace 
+běžného období, musí účetní jednotka v důsledku vrácení dotace upravit pořizovací cenu a 
+oprávky aktiva nakoupeného z dotace tak, aby po této úpravě byly ve výši, ve které by byly 
+vykázány v případě, že by dotace nikdy nebyla přijata. 
+ 
+7. Podstatu následného vrácení dotace, způsob jejího řešení a dopady na účetní výkazy popíše 
+účetní jednotka v samostatném komentáři v příloze k účetní závěrce. 
+ 
+ 
+ 
+Zdůvodnění 
+8. V případech povinnosti vrátit část dotace nebo celou dotaci záleží na tom, zda tato povinnost 
+nastala, nebo se o ní účetní jednotka dozvěděla ještě před sestavením účetní závěrky. Jestliže 
+se o povinnosti vrátit dotaci dozvěděla a dotaci vrátila ve stejném účetním období, kdy dotaci 
+získala (a to včetně událostí po rozvahovém dni v souladu s I-24 Události po rozvahovém dni), 
+pak opraví pořizovací cenu dlouhodobého majetku a výši oprávek (odpisů) ještě v období, za 
+které se sestavuje účetní závěrka, a není tedy nutno řešit problém následného vrácení dotace v 
+dalším účetním období. 
+ 
+9. Jestliže se účetní jednotka dozvěděla o povinnosti vrátit dotaci v jednom účetním období, ale 
+dotaci vrátila (tj. peněžní tok nastal) až v některém z následujících účetních období (po 
+sestavení účetní závěrky), nejedná se o chybu ani o událost po rozvahovém dni, ale o operaci 
+běžného období. V takovém případě účetní jednotka upraví pořizovací cenu a oprávky 
+dlouhodobého majetku na výši, která by byla v případě, že by majetek pořizovala bez dotace, a 
+zaúčtuje svůj závazek vůči poskytovateli dotace. Vrácení dotace je pak účtováno jako úhrada 
+závazku jejímu poskytovateli. 
+ 
+10. Může však nastat situace, že účetní jednotka nemůže prokázat, že o povinnosti vrátit dotaci 
+nevěděla ještě před sestavením účetní závěrky. Přesto, že v takovém případě měla zaúčtovat 
+závazek z titulu povinnosti vrátit dotaci ještě v minulém účetním období, neučinila tak. V 
+takovém případě se jedná o účetní chybu, kterou je třeba opravit retrospektivně proti 
+vlastnímu kapitálu (tj. proti „Jinému výsledku hospodaření“), a to včetně úpravy srovnávacích 
+údajů jak v rozvaze, tak i ve výkazu zisku a ztráty, a to v souladu s I-30 Srovnatelnost informací 
+za běžné a minulé účetní období v individuální účetní závěrce podnikatele. 
+ 
+
+                                           Interpretace NÚR I-28 Následné vrácení dotace na dlouhodobý majetek 
+ 
+ 
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+3/3 
+11. Pokud účetní jednotka může prokázat, že se o povinnosti vrátit dotaci dozvěděla až po 
+sestavení účetní závěrky, nejedná se o účetní chybu, ale již o operaci nového účetního období. 
+ 
+12. Účetní jednotka zařadí majetek získaný s přispěním dotace do dlouhodobého majetku bez 
+ohledu na výslednou hodnotu po odpočtu dotace od pořizovací ceny (tedy i v případě nulové 
+výsledné hodnoty) a není možné jej vyřadit s odůvodněním, že jeho hodnota poklesla pod limit 
+stanovený účetní jednotkou pro zařazování do dlouhodobého majetku. Majetek zůstává takto 
+zařazen a vykazován (a nesmí být vyřazen) po celou dobu platnosti podmínek pro získání 
+dotace, a nemůže tedy nastat situace, že by vznikla povinnost vrátit dotaci na majetek, který již 
+byl z dlouhodobého majetku vyřazen. 
+ 
+ 
+ 
+Datum prvního schválení 
+této interpretace NÚR: 
+11. listopadu 2013 
+Datum poslední aktualizace 
+této interpretace NÚR: 
+1. dubna 2019 
+Zpracovatel interpretace: 
+prof. Ing. Libuše Müllerová, CSc. 
+doc. Ing. Ladislav Mejzlík, Ph.D. 
+Katedra finančního účetnictví a auditingu 
+Fakulta financí a účetnictví 
+Vysoká škola ekonomická v Praze 
+Nám. W. Churchilla 4 
+130 67 Praha 3

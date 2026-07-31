@@ -1,0 +1,126 @@
+ZÁKON: ČÚS č. 016
+NAZEV: Český účetní standard pro podnikatele č. 016 – Krátkodobý finanční majetek, peněžní prostředky a krátkodobé závazky k úvěrovým
+URL: https://www.mfcr.cz/assets/cs/media/Ucetnictvi_2018_Ceske-ucetni-standardy-pro-500-2002_v02.pdf
+
+Krátkodobý finanční majetek, peněžní prostředky a krátkodobé závazky k úvěrovým 
+institucím 
+ 
+ 
+1. Cíl 
+     Cílem tohoto standardu je stanovit podle zákona č. 563/1991 Sb., o účetnictví, ve znění 
+pozdějších předpisů, (dále jen „zákon“„) a vyhlášky č. 500/2002 Sb., kterou se provádějí 
+některá ustanovení zákona č. 563/1991 Sb., o účetnictví, ve znění pozdějších předpisů, pro 
+účetní jednotky, které jsou podnikateli účtujícími v soustavě podvojného účetnictví, ve znění 
+pozdějších předpisů, (dále jen „vyhláška“) základní postupy účtování krátkodobého 
+finančního majetku, peněžních prostředků a krátkodobých závazků k úvěrovým institucím za 
+účelem docílení souladu při používání účetních metod účetními jednotkami v položkách 
+C.III. Krátkodobý finanční majetek 
+C.III.1. Podíly - ovládaná nebo ovládající osoba 
+2. Ostatní krátkodobý finanční majetek 
+C.IV. Peněžní prostředky 
+C.IV.1. Peněžní prostředky v pokladně 
+ 2. Peněžní prostředky na účtech 
+A.I.2. Vlastní podíly (-) 
+C.II.2. Závazky k úvěrovým institucím  
+C.II.8.2. Krátkodobé finanční výpomoci 
+vykazovaných za podmínek stanovených v § 3, 3a a 4 vyhlášky. 
+ 
+2. Obsahové vymezení 
+2.1.  Pro účely tohoto standardu se využívá obsahové vymezení krátkodobého finančního 
+majetku a peněžních prostředků uvedené v § 12 a 12a vyhlášky. 
+2.2.  U dlouhodobých závazků k úvěrovým institucím se zbytkovou splatností jeden rok a 
+kratší, které jsou vykazovány v položce „C.II.2. Závazky k úvěrovým institucím“ se 
+postupuje podle Českého účetního standardu pro podnikatele č. 018 Kapitálové účty a 
+dlouhodobé závazky. 
+2.3.   zrušen 
+2.4.   zrušen 
+ 
+3. Postup účtování 
+3.1.  Finanční účty v cizích měnách se v účetnictví vedou v českých korunách i v cizích 
+měnách. 
+3.2.   Účtová skupina 21 – Peněžní prostředky v pokladně  
+3.2.1. Účtuje se zde o stavu a pohybu peněžních prostředků v hotovosti na základě pokladních 
+dokladů; o stavu a pohybu šeků přijatých místo hotových peněz, poukázek k zúčtování 
+(například poukázky na odběr zboží, služeb). Peníze v hotovosti svěřené pracovníkům 
+k použití na předem stanovené účely a šeky vydané k použití se zaúčtují jako 
+pohledávky za zaměstnanci, popřípadě společníky. Na analytických účtech se vede 
+stav a pohyb valut, šeků, poukázek k zúčtování znějících na cizí měnu odděleně podle 
+jednotlivých měn. 
+3.2.2.  Účtuje se zde o stavu a pohybu cenin (například poštovní známky, kontrolní pásky 
+určené ke značení lihu, dálniční nálepky, kolky, telefonní a ostatní karty, mají-li 
+hodnotu, ze které bude moci být po vydání do užívání čerpáno) před jejich vydáním. 
+Jako ceniny se zaúčtují i poukázky na stravování při zajištění stravování 
+ 
+43 
+prostřednictvím stravenek apod. Ceniny svěřené pracovníkům k použití na předem 
+stanovené účely se zaúčtují jako pohledávky za zaměstnanci, popřípadě společníky. 
+3.2.3.  Rozdíly vzniklé při inventarizaci pokladní hotovosti a cenin se považují za schodek, 
+popřípadě přebytek. 
+3.3.  Účtová skupina 22 – Peněžní prostředky na účtech 
+3.3.1.  Účtuje se zde zejména na základě oznámení banky nebo spořitelních a úvěrních 
+družstev o přijatých nebo o provedených platbách (výpisy účtů). O vkladech nebo 
+výběrech peněz v hotovosti a o převodech mezi účty lze účtovat prostřednictvím účtu 
+určeného účetní jednotkou pro účtování peněz na cestě. 
+3.3.2.  Analytické účty se vedou podle jednotlivých účtů otevřených v bankách nebo ve 
+spořitelních a úvěrních družstvech účetní jednotce. Účty peněžních prostředků mají 
+zpravidla aktivní zůstatek. Pasivní zůstatek k rozvahovému dni je obsahem 
+krátkodobých závazků v položce „C.II.2. Závazky k úvěrovým institucím.  
+3.4.  Účtová skupina 23 – Krátkodobé úvěry 
+3.4.1.  Účtuje se zde na základě oznámení úvěrové instituce o přijatých nebo provedených 
+platbách (výpisy účtů). Účtuje se zde o krátkodobých úvěrech poskytnutých nejvýše 
+na dobu jednoho roku, o překlenovacích úvěrech, pokud nebyly řešeny v rámci účtu 
+peněžních 
+prostředků, 
+o 
+krátkodobých 
+úvěrech 
+poskytnutých 
+na 
+základě 
+eskontovaných směnek apod. Analytické účty se vedou podle jednotlivých účtů úvěrů 
+otevřených účetní jednotce. 
+3.4.2.  Souvztažným zápisem k účtu úvěrů je zápis na příslušném účtu účtové skupiny 22 – 
+Peněžní prostředky na účtech. Uhradí-li úvěrová instituce dluh vůči dodavateli  přímo 
+z úvěru, zaúčtuje se poskytnutý úvěr ve prospěch příslušného úvěru se souvztažným 
+zápisem na vrub příslušného účtu účtových skupin 32 – Závazky (krátkodobé), 
+respektive 47 – Dlouhodobé závazky. 
+3.4.3.  Na vrub příslušného účtu eskontních úvěrů, po obdržení avíza od úvěrové instituce o 
+úhradě směnky či jiného cenného papíru dlužníkem, zaúčtuje účetní jednotka úhradu 
+úvěru se souvztažným zápisem ve prospěch příslušného účtu určeného pro účtování 
+pohledávek za eskontované cenné papíry. Na vrub příslušného účtu eskontních úvěrů 
+se účtuje i o vrácení neuhrazené směnky nebo jiného cenného papíru bankou, a to 
+souvztažným zápisem ve prospěch účtu (splacení eskontního úvěru). 
+3.5. Na příslušné účty účtové skupiny 24 – Krátkodobé finanční výpomoci se zaúčtují 
+krátkodobé finanční výpomoci poskytnuté účetní jednotce jinými osobami než 
+úvěrovými institucemi (třetími osobami) a společníky obchodních korporací. Jedná se 
+například o poskytnuté peněžní prostředky na základě účetní jednotkou vystavených 
+krátkodobých dluhopisů, vystavených hypotečních zástavních listů.  
+3.6.  Účtová skupina 25 – Krátkodobý finanční majetek tvoří část finančního majetku, který 
+má účetní jednotka převážně v držení pouze do jednoho roku, například cenné papíry k 
+obchodování a cenné papíry se splatností do jednoho roku, vlastní akcie a vlastní 
+obchodní podíly, vlastní dluhopisy, ostatní realizovatelné cenné papíry a ostatní cenné 
+papíry, například nakoupené opční listy. Pokud jsou nakoupené opční listy v držení až 
+do dne uplatnění přednostního práva, zaúčtují se v tento den do nákladů na příslušný 
+účet účtové skupiny 56 - Finanční náklady, ať je právo uplatněno či nikoliv. Analytické 
+účty se vedou podle druhů cenných papírů. Pro účtování o cenných papírech se použijí 
+ustanovení Českého účetního standardu pro podnikatele č. 008 Operace s cennými 
+papíry a podíly. 
+3.7.  Účtová skupina 26 – Převody mezi finančními účty se používá pro překlenutí časového 
+nesouladu mezi vklady, výběry peněz, šeků a jiných hotovostí a přijetím příslušných 
+výpisů účtů účetní jednotkou. Obdobně se zde účtuje o účetních případech, při kterých 
+dochází k časovému nesouladu při převodech mezi účty účetní jednotky v bankách nebo 
+ 
+44 
+spořitelních a úvěrních družstev. Na příslušných účtech účtové skupiny 26 – Převody 
+mezi finančními účty se vklady nebo výběry peněz v hotovosti a šeků zaúčtují podle 
+pokladních dokladů nebo výpisů účtů. Na těchto účtech je možné zaúčtovat i směnky na 
+cestě. 
+3.8. Na příslušných účtech účtové skupiny 29 – Opravné položky ke krátkodobému 
+finančnímu majetku se zaúčtují ve výjimečných případech opravné položky k ocenění 
+krátkodobého finančního majetku vedeného na příslušných účtech účtové skupiny 25 –
+Krátkodobý finanční majetek. Postup účtování opravných položek je stanoven Českým 
+účetním standardem pro podnikatele č. 005 Opravné položky. 
+3.9.  Inventarizační rozdíly se zaúčtují podle Českého účetního standardu pro podnikatele 007 
+Inventarizační rozdíly a ztráty v rámci norem přirozených úbytků zásob. 
+ 
+45

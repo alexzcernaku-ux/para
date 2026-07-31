@@ -1,0 +1,185 @@
+ZÁKON: NÚR I-51
+NAZEV: Interpretace Národní účetní rady I-51 – Vykazování výrobků a zboží používaných k předvádění
+URL: http://nur.cz/wp-content/uploads/2025/06/I-51.pdf
+
+© Národní účetní rada 
+ 
+1/4 
+Interpretace Národní účetní rady 
+I-51 Vykazování výrobků a zboží používaných k předvádění 
+Účetní jednotky jsou povinny vést účetnictví tak, aby účetní závěrka sestavená na jeho základě 
+podávala věrný a poctivý obraz předmětu účetnictví a finanční situace účetní jednotky (zákon 
+č. 563/1991 Sb., o účetnictví, § 7, odst. 1). Za vedení účetnictví je odpovědná účetní jednotka. 
+Tato interpretace není právně závazným stanoviskem, pouze vyjadřuje odborný názor Národní 
+účetní rady a může být aplikována pouze v kontextu s Předmluvou Národní účetní rady 
+k interpretacím českých účetních předpisů. Postup popsaný v této interpretaci poskytuje účetní 
+jednotce návod v případech, kdy má jejich aplikace významný dopad na informace uvedené 
+v účetní závěrce a kdy informační přínosy jsou větší než náklady nutné na jejich získání. 
+Popis problému: 
+1. Účetní předpisy ukládají účetním jednotkám v souvislosti s vykazováním aktiv rozlišovat stálá 
+aktiva a oběžná aktiva, do kterých mimo jiné patří výrobky a zboží. V obchodní praxi výrobci 
+a obchodníci často své výrobky a zboží před prodejem zákazníkovi po určitou dobu předvádějí. 
+2. Předváděné výrobky nebo zboží, musí být ve stavu schopném plnit předváděcí funkci. V 
+takovém případě mohou vznikat pochybnosti zda splnění podmínek pro užívání majetku, jako 
+je např. registrace auta, kolaudace nemovitosti apod. musí vést k vykazování daného výrobku 
+či zboží jako stálého aktiva. 
+3. Účetní jednotky používají různé obchodních politiky pro výrobky a zboží určené k předvádění: 
+a) Záměrem účetní jednotky je výrobky a zboží používat k předvádění dočasně po dobu kratší 
+než jeden rok a následně tyto výrobky a zboží prodat zákazníkovi (s případnou slevou); 
+b) Záměrem účetní jednotky je výrobky a zboží používat k předvádění dočasně po dobu delší 
+než jeden rok a následně tyto výrobky a zboží prodat zákazníkovi (s případnou slevou); 
+c) Záměrem účetní jednotky je výrobky a zboží používat k předvádění po celou dobu 
+životnosti a následně je zlikvidovat. 
+4. České účetní předpisy definují zboží jako movité věci nabyté za účelem prodeje, pokud s 
+těmito věcmi účetní jednotka obchoduje. Výrobky jsou definovány jako věci vlastní výroby 
+určené k prodeji nebo ke spotřebě uvnitř účetní jednotky. Mezi stálá aktiva patří hmotné movité 
+věci a jejich soubory se samostatným technicko-ekonomickým určením s dobou použitelnosti 
+delší než jeden rok a od výše ocenění určené účetní jednotkou, a to při splnění povinností 
+stanovených zákonem, zejména respektováním principu významnosti a věrného a poctivého 
+zobrazení majetku. 
+
+ 
+ 
+I-51 Vykazování výrobků a zboží používaných k předvádění 
+ 
+ 
+© Národní účetní rada 
+ 
+2/4 
+5. Předmětem řešení této interpretace jsou následující otázky: 
+a) Vykazují se výrobky a zboží používané k předvádění vždy jako zásoby? 
+b) Může nastat situace, kdy se výrobek a zboží určené k předvádění „reklasifikuje“ do stálých 
+aktiv z důvodu předpokládané délky používání k předvádění a ocenění? Pokud ano, za 
+jakých podmínek tato „reklasifikace“ nastane? 
+c) Má na vykazování vliv to, zda bylo nutné uvést výrobek a zboží do provozuschopného 
+stavu (viz bod 2)? 
+6. Tato interpretace řeší situaci, kdy jsou výrobky a zboží účetní jednotkou používány výhradně 
+k předvádění zákazníkům a nejsou používány k žádné jiné činnosti účetní jednotky. 
+7. Z důvodu přehlednosti je řešení popsáno pro zboží. V případě výrobků se postupuje obdobně. 
+Řešení: 
+8. Předváděcí zboží je nutné vykazovat podle jeho skutečné funkce a využití. 
+a) Pokud je zboží určeno k předvádění zákazníkům a není primárně určeno k prodeji 
+zákazníkům, slouží jako ukázka nebo demonstrační zboží. Takové zboží by mělo být 
+vykazováno jako stálé aktivum, pokud účetní jednotka očekává, že bude toto zboží 
+používáno jako ukázka nebo demonstrační zboží po dobu delší, než jeden rok, případně 
+dobu delší, než je prodejní cyklus zboží u zboží s prodejním cyklem delším než jeden rok, 
+a ocenění je od výše určené účetní jednotkou, a to při splnění povinností stanovených 
+zákonem, zejména respektováním principu významnosti a věrného a poctivého zobrazení 
+majetku.  
+b) Pokud však zboží zůstává v podstatě prodejním zbožím a je předváděno pouze jako součást 
+prodejního procesu, pak ho musí účetní jednotka i nadále vykazovat jako zásoby. Jako 
+zásoby se vykazuje zboží určené primárně k prodeji, u kterého účetní jednotka neočekává 
+dlouhodobé využití k předvádění. 
+9. Předváděcí zboží uvedené v bodě 8 písm. a) účetní jednotka reklasifikuje jako stálé aktivum a 
+ocení pořizovací cenou. Po dobu předpokládané doby používání účetní jednotkou (po dobu 
+životnosti) se tento majetek odpisuje. Při stanovení odpisového plánu by měla účetní jednotka 
+s ohledem na významnost zvážit využití zbytkové hodnoty, zejména s ohledem na možný 
+prodej zboží v delším časovém období. 
+10. Předváděcí zboží, jehož pořizovací cena je nižší než limit stanovený účetní jednotkou pro 
+vykazování stálého aktiva a účetní jednotka očekává využití tohoto zboží k předvádění po dobu 
+delší než jeden rok nebo po dobu delší, než je prodejní cyklus zboží, vykáže účetní jednotka 
+toto zboží v nákladech v okamžiku, kdy rozhodne o jeho předvádění. V případě naplnění 
+hlediska významnosti účetní jednotka tyto náklady časově rozliší. 
+11. Zboží uvedené v bodě 8. písm. b) se ocení pořizovací cenou. Při následném ocenění (např. k 
+rozvahovému dni) se toto zboží ocení pořizovací cenou nebo čistou realizovatelnou hodnotou, 
+podle toho, která je nižší. Čistá realizovatelná hodnota se stanoví jako prodejní cena snížená o 
+prodejní náklady. 
+
+ 
+ 
+I-51 Vykazování výrobků a zboží používaných k předvádění 
+ 
+ 
+© Národní účetní rada 
+ 
+3/4 
+12. Zaregistrování zboží v příslušném registru, pokud je nutné pro jeho předvádění, není důvodem 
+pro reklasifikaci zboží ze zásob na stálé aktivum. 
+Zdůvodnění: 
+13. Nutnou podmínkou pro vykazování stálého aktiva je předpokládaná doba použitelnosti delší 
+než jeden rok a ocenění od výše určené účetní jednotkou, a to při splnění povinností 
+stanovených zákonem, zejména při respektování principu významnosti a věrného a poctivého 
+zobrazení majetku. 
+14. Majetek uvedený v bodě 8 písm. b) vykazovaný jako zboží může být zaregistrován příslušném 
+registru a případně také pojištěn, pokud je registrace a případně pojištění nutnou podmínkou 
+pro předvádění zboží zákazníkům. Tyto úkony však nejsou dostačující podmínkou k 
+reklasifikaci zboží na stálé aktivum. 
+15. Zákon o účetnictví požaduje, aby účetní jednotky při oceňování ke konci rozvahového dne 
+zahrnuly jen zisky, které byly k rozvahovému dni dosaženy, a braly v úvahu všechna 
+předvídatelná rizika a možné ztráty, které se týkají majetku a závazků a jsou jim známy do 
+okamžiku sestavení účetní závěrky, jakož i všechna snížení hodnoty bez ohledu na to, zda je 
+výsledkem hospodaření účetního období zisk nebo ztráta. Pro naplnění této povinnosti účetní 
+jednotky používají opravné položky a odpisy majetku. 
+16. Prodejní cyklus zahrnuje všechny procesy, které se týkají prodeje zboží od momentu navázání 
+vztahu se zákazníkem až po přijetí platby. Tento cyklus obvykle zahrnuje identifikaci 
+zákazníka nebo obchodní příležitosti, vyjednání podmínek a uzavření smlouvy o prodeji, 
+dodání zboží, vystavení faktury a přijetí platby od zákazníka. V zásobách se vykazuje zboží 
+také v případě, že je jeho prodejní cyklus delší než dvanáct měsíců. 
+ 
+ 
+ 
+Datum prvního schválení  
+ 
+19. května 2025 
+této interpretace NÚR: 
+ 
+Datum poslední aktualizace   
+– 
+této interpretace NÚR: 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Zpracovatelé intepretace: 
+ 
+Ing. Simona Pacáková 
+ 
+ 
+ 
+ 
+ 
+Svaz účetních ČR 
+ 
+ 
+
+ 
+© Národní účetní rada 
+ 
+4/4 
+ 
+ 
+ 
+Vypořádání připomínek z vnějšího připomínkového řízení: 
+ 
+1) připomínka RNDr. Petr Baránek, daňový poradce 803: 
+ 
+V řešení v bodě 8 písm. a) není zcela zřejmé, ve kterých případech má účetní jednotka preferovat 
+„dobu delší, než jeden rok“ a ve kterých případech má účetní jednotka preferovat „dobu delší, než 
+je prodejní cyklus zboží“. 
+ 
+Stanovisko Národní účetní rady:  
+Připomínka byla akceptována, text byl upraven. 
+ 
+ 
+ 
+2) připomínky Ing. Vojtěch Souček, daňový poradce 4534 
+ 
+V popisu problému se předpokládá, že účetní jednotka je schopna určit záměr používat aktivum k 
+předvádění po dobu delší / kratší než jeden rok. V praxi je ale právě toto největší problém, protože 
+prodejci či marketingové entity mající na starost propagaci určité značky/ výrobku v daném 
+regionu nejsou schopni k okamžiku pořízení aktiva sloužícího k předvádění stanovit dobu, po 
+kterou bude aktivum využíváno k předváděcím účelům, např. v důsledku (ne)úspěchu konkrétní 
+marketingové akce pro které předmětné aktivum slouží, či z důvodu obdržení výhodné nabídky na 
+odkup "předváděcího" aktiva kdykoliv v průběhu předvádění. V praxi tak u klientů běžně tato 
+obdobná aktiva v majetku po dobu pouze několika měsíců, ale současně i po dobu několika let. 
+Je možné návrh interpretace doplnit o navržený postup, jak v takovém případě postupovat ve 
+vztahu k těmto aktivum? 
+ 
+Stanovisko národní účetní rady:  
+Připomínka není akceptována. Účetní jednotka musí vždy získat takové informace, aby byla 
+schopna určit záměr, jakým bude používat aktivum. Toto pravidlo platí obecně pro veškerá aktiva 
+účetní jednotky. Následná nepřesnost původního odhadu není chybou a neprojevuje se tedy 
+retrospektivně.

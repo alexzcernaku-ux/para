@@ -1,0 +1,193 @@
+ZÁKON: NÚR I-32
+NAZEV: Interpretace Národní účetní rady I-32 – Struktura a obsah přehledu o změnách vlastního kapitálu
+URL: http://nur.cz/wp-content/uploads/2020/10/I-32_updated.pdf
+
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+1/4 
+Interpretace NÚR 
+I–32 
+Struktura a obsah přehledu o změnách vlastního kapitálu 
+Účetní jednotky jsou povinny vést účetnictví tak, aby účetní závěrka sestavená na jeho základě 
+podávala věrný a poctivý obraz předmětu účetnictví a finanční situace účetní jednotky (zákon 
+č. 563/1991 Sb., o účetnictví, § 7, odst. 1). Účetní jednotky účtují o stavu a pohybu majetku a jiných 
+aktiv, závazků a jiných pasiv, dále o nákladech a výnosech a o výsledku hospodaření. (zákon 
+č. 563/1991 Sb., o účetnictví, § 2, Předmět účetnictví).  
+Tato interpretace musí být aplikována v kontextu s Předmluvou Národní účetní rady 
+k interpretacím českých účetních standardů. 
+ 
+ 
+Popis problému 
+1. Vedle výnosů a nákladů, jejichž přehled je prezentován ve výkazu zisku a ztráty, existuje řada 
+transakcí, které významně mění vlastní kapitál („VK“) a finanční situaci účetní jednotky. Tyto 
+transakce jsou prezentovány v přehledu o změnách vlastního kapitálu, který však není účetními 
+předpisy pro podnikatele blíže upraven. 
+ 
+2. Otázkou tedy je: 
+a) jak by měla vypadat struktura přehledu a 
+b) jak podrobné informace by se měly v přehledu uvádět. 
+ 
+Řešení 
+3. Přehled o změnách vlastního kapitálu (dále jen „přehled“) se sestavuje v tabelární formě, 
+přičemž sloupce představují jednotlivé části vlastního kapitálu a v řádcích se uvádí transakce 
+měnící výši a/nebo strukturu vlastního kapitálu (dále jen „transakce“). 
+ 
+Sloupce 
+4. V přehledu se vlastní kapitál člení na stejné části v rozvaze, přičemž: 
+a) části vlastního kapitálu v nulové výši se mezi sloupci neuvádí, 
+b) nevýznamné části VK či jednu významnou a ostatní nevýznamné části VK, jejichž kód 
+řádku v rozvaze začíná stejným písmenem, lze kumulovat do jednoho sloupce, 
+c) výsledek hospodaření minulých let vč. jiného výsledku hospodaření minulých let lze 
+agregovat s výsledkem hospodaření běžného období včetně vyplacených záloh na 
+podíly na zisku; takto agregovaný údaj lze např. označit za „kumulované výsledky 
+hospodaření minulých let“. 
+ 
+5. V posledním sloupci přehledu se uvádí celkový dopad transakcí uvedených v daném řádku na 
+vlastní kapitál. 
+ 
+ 
+
+ 
+                            Interpretace NÚR I-32 Struktura a obsah přehledu o změnách vlastního kapitálu 
+ 
+ 
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+2/4 
+Řádky 
+6. Transakce, které jsou uváděny v řádcích přehledu, lze agregovat tehdy, když se jedná o 
+transakce stejného charakteru. Pokud jsou složky takto agregovaného údaje významné, v 
+příloze se uvede jejich rozpis. Transakce, které mění pouze strukturu (nikoli výši) vlastního 
+kapitálu, přičemž dotčené části vlastního kapitálu jsou agregovány ve stejném sloupci (viz odst. 
+4), se v přehledu neuvádějí (např. převod výsledku hospodaření běžného účetního období do 
+nerozděleného zisku minulých let, je-li zvolena možnost agregace výsledků hospodaření 
+minulých let). 
+ 
+7. Mimo zisku běžného období, který se v přehledu uvádí vždy ve výši po zdanění, se transakce 
+uvádějí neupravené o příslušný daňový efekt. Daňový efekt těchto transakcí se vykazuje 
+agregovaně na zvláštním řádku. Alternativně lze daňové efekty transakcí ve vlastním kapitálu 
+agregovat s transakcemi, které jsou jejich příčinou. V takovém případě se v příloze u dotčených 
+transakcí uvede jejich výše před zachycením daňového efektu, daňový efekt a jejich rozdíl. 
+ 
+8. V přehledu se uvádí transakce za běžné období a za tolik srovnávacích období, jako u ostatních 
+výkazů uvedených v účetní závěrce. U nejstaršího srovnávacího období se v jednotlivých 
+sloupcích přehledu uvádí i počáteční zůstatky. 
+ 
+9. Transakce uváděné v přehledu se v daném účetním období rozdělí na dvě části: (a) kapitálové 
+transakce s vlastníky a (b) ostatní transakce. Za kapitálové transakce s vlastníky se považují 
+pouze transakce uskutečněné mezi účetní jednotkou a jejími vlastníky, které jsou kapitálového 
+charakteru, např. zvýšení a snížení základního kapitálu nebo distribuce podílů na zisku. Toto 
+členění může být nahrazeno dostatečným popisem transakcí se spřízněnými stranami v příloze. 
+ 
+Chyby a změny metod 
+10. V přehledu údaje za srovnávací období obsahují zásadně částky, které byly uvedeny v 
+původních (minulých) účetních výkazech, tj. nikoli opravené o opravy chyb a změny metod. 
+Opravy chyb a změny metod se uvedou jako samostatné transakce; první účtování o odložené 
+dani se považuje za změnu metody. 
+ 
+11. Pokud opravy chyb a změny metod mění i počáteční zůstatky nejstaršího uváděného 
+srovnávacího období, je potřeba uvést, jak tyto počáteční zůstatky vypadaly původně, před 
+opravou, jak byly opraveny a jaká je jejich výše po opravě. 
+ 
+Přeměny obchodních společností a družstev 
+12. Pokud se konečné zůstatky pokračující účetní jednotky, která se zúčastnila přeměny, z tohoto 
+důvodu liší od jejích počátečních zůstatků, v přehledu se uvede, o kolik a jak se počáteční 
+zůstatky takto změnily. 
+ 
+13. Totéž platí i v případě, pokud se v důsledku přeměny analogicky mění počáteční zůstatky 
+nejstaršího uváděného srovnávacího období. 
+ 
+14. Přeměny se v přehledu prezentují odděleně, na rozhraní dvou účetních období. Odstavec č. 9 
+upravující dělení transakcí na transakce s vlastníky a ostatní transakce se na přeměny 
+nepoužije. 
+
+ 
+                            Interpretace NÚR I-32 Struktura a obsah přehledu o změnách vlastního kapitálu 
+ 
+ 
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+3/4 
+Konsolidovaná ÚZ 
+15. Konsolidovaná účetní závěrka by měla obsahovat popis transakcí, které změnily výši 
+menšinových podílů na vlastním kapitálu. Tento popis by měl být obdobou přehledu s tím, že u 
+menšinových podílů na vlastním kapitálu se neuvádí jejich vnitřní struktura. V tomto popisu se 
+uvedou pouze transakce, které mění celkovou výši menšinových podílů na vlastním kapitálu. 
+ 
+16. Tento popis lze v příloze v účetní závěrce uvést buď odděleně, nebo ho lze připojit k přehledu, 
+a to jako zvláštní sloupec za sloupec „celkem“ dle odst. 5. 
+ 
+ 
+Zdůvodnění 
+17. Národní účetní rada touto Interpretací reaguje na situaci, kdy (a) účetní předpisy neupravují 
+vzhled a strukturu přehledu o změnách vlastního kapitálu a (b) vzhled a struktura těchto 
+přehledů se v praxi výrazně liší. 
+ 
+18. Cílem přehledu je informovat o důvodech změn vlastního kapitálu za účetní období. Z toho 
+důvodu se NÚR přiklonila k verzi přehledu, který obsahuje (obdobně jako výkaz zisku a ztráty) 
+významné transakce, resp. kategorie transakcí (řádky přehledu). Ve sloupcích přehledu se 
+analyzují dopady transakcí na jednotlivé složky vlastního kapitálu. 
+ 
+19. Interpretace umožňuje agregaci všech dosažených výsledků hospodaření do jediné položky 
+„kumulovaného výsledku hospodaření“. Důvodem je srozumitelné podání vlivu transakcí na 
+finanční situaci účetní jednotky, a to na úkor jejich často rozmanité právní klasifikace. Toto 
+pojetí tak respektuje, že výplaty podílů na zisku i záloh na podíly na zisku mají de facto stejný 
+efekt na finanční situaci účetní jednotky. Obdobně, výplaty zisku z nerozděleného zisku nebo 
+zisku ve schvalovacím řízení, mají taktéž stejný ekonomický efekt. Tento přístup dále eliminuje 
+vykazování převodů mezi složkami vlastního kapitálu, které nemají žádný dopad na finanční 
+situaci účetní jednotky (např. převod zisku běžného období na zisk ve schvalovacím řízení a 
+dále na zisk minulých let). V neposlední řadě se také zprůhlední dopad oprav chyb a změn 
+metod na finanční situaci účetní jednotky. 
+ 
+20. Interpretace preferuje brutto způsob zohlednění daňových efektů, tj. způsob, kdy z přehledu je 
+zvlášť patrné např. přecenění realizovatelných papírů v důsledku změny jejich reálné hodnoty a 
+zvlášť je uveden daňový efekt přecenění (obvykle vyvolané vznikem odložené daně), protože je 
+to přehlednější a efektivnější než vykazování transakcí včetně jejich daňových efektů a s 
+rozepsáním daňových efektů v příloze. 
+ 
+21. Transakce s vlastníky se zcela zásadně ekonomicky liší od transakcí s třetími stranami. Z tohoto 
+důvodu Interpretace vyžaduje, aby transakce s vlastníky byly v přehledu jako takové jasně 
+označeny. 
+ 
+22. Jednou z užitečných vlastností přehledu je prezentace dopadů oprav chyb a změn metod. Z 
+toho důvodu se údaje v přehledu (na rozdíl např. od výkazu o zisku a ztrátě) neuvádějí rovnou 
+ve své upravené výši. 
+ 
+
+ 
+                            Interpretace NÚR I-32 Struktura a obsah přehledu o změnách vlastního kapitálu 
+ 
+ 
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+4/4 
+23. Protože přeměny obchodních společností a družstev přerušují běh účetního období, vykazují se 
+zvlášť jako transakce, které mění počáteční zůstatky účetního období po přeměně. 
+ 
+24. Součástí konsolidované účetní závěrky by měl být i komentář ke změnám menšinových podílů 
+na vlastním kapitálu. Vzhledem k tomu, že české účetní předpisy tyto podíly neoznačují jako 
+součást vlastního kapitálu, ponechává se na úvaze účetních jednotek, zda tyto změny vysvětlí 
+odděleně v příloze, či zda je z důvodu úspornosti či přehlednosti spojí s prezentací změn ve 
+vlastním kapitálu. 
+ 
+Příklady k Interpretaci 
+Interpretace obsahuje rozsáhlý příklad, který ilustruje podobu přehledu o změnách vlastního 
+kapitálu, který zahrnuje celou škálu rozmanitých transakcí s vlivem na výši vlastního kapitálu. 
+Příklad lze stáhnout z webu NÚR (www.nur.cz) v podobě excelové tabulky. 
+ 
+ 
+ 
+Datum prvního schválení 
+této interpretace NÚR: 
+21. září 2015 
+Datum poslední aktualizace 
+této interpretace NÚR: 
+1. dubna 2019 
+Zpracovatel interpretace: 
+ 
+Ing. Jiří Pelák, Ph.D.  
+Katedra finančního účetnictví a auditingu 
+Fakulta financí a účetnictví 
+Vysoká škola ekonomická v Praze  
+Nám. W. Churchilla 4  
+130 67 Praha 3 – Žižkov

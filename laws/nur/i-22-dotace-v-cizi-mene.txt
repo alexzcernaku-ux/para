@@ -1,0 +1,219 @@
+ZÁKON: NÚR I-22
+NAZEV: Interpretace Národní účetní rady I-22 – Dotace v cizí měně
+URL: http://nur.cz/wp-content/uploads/2020/10/I-22_updated.pdf
+
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+1/5 
+Interpretace NÚR 
+I–22 
+Dotace v cizí měně 
+Účetní jednotky jsou povinny vést účetnictví tak, aby účetní závěrka sestavená na jeho základě 
+podávala věrný a poctivý obraz předmětu účetnictví a finanční situace účetní jednotky (zákon 
+č. 563/1991 Sb., o účetnictví, § 7, odst. 1). Účetní jednotky účtují o stavu a pohybu majetku a jiných 
+aktiv, závazků a jiných pasiv, dále o nákladech a výnosech a o výsledku hospodaření. (zákon 
+č. 563/1991 Sb., o účetnictví, § 2, Předmět účetnictví).  
+Tato interpretace musí být aplikována v kontextu s Předmluvou Národní účetní rady 
+k interpretacím českých účetních standardů. 
+ 
+ 
+Popis problému 
+1. Existují případy, kdy účetní jednotky obdrží dotaci (např. fondů EU) v cizí měně. 
+ 
+2. Přijatá dotace představuje do okamžiku jejího použití závazek vůči poskytovateli dotace, že 
+bude použita na stanovený účel, účtovaný ve prospěch odpovídajícího účtu Zúčtování dotací. 
+Její použití je pak účtováno ve věcné a časové souvislosti na vrub tohoto účtu souvztažně s 
+účtem výnosů nebo majetku v závislosti na účelu dotace a způsobu jejího zúčtování. 
+ 
+3. V případě, že existuje nezpochybnitelný nárok na dotaci (viz ČUS č. 017 bod 3. 7. a také 
+Interpretace NÚR I-14 Okamžik vykázání nároku na přijetí nebo vrácení dotace), účetní 
+jednotka z důvodu dodržení zásady akruálního principu o tomto nároku účtuje před jejím 
+připsáním na účet. 
+ 
+4. Otázka zní: 
+a) zda po přijetí dotace, kdy byla přijata nárokovaná výše cizí měny, avšak po přepočtu 
+novým kursem v jiné korunové výši, vzniká kursový rozdíl, 
+b) jak účtovat situaci, kdy byla přijatá dotace v jiné než nárokované výši, 
+c) jak účtovat případné vrácení dotace při nedodržení stanovených podmínek nebo při 
+jejím nečerpání, a zda přitom vzniká kursový rozdíl. 
+ 
+Řešení 
+5. Nezpochybnitelný nárok na dotaci se zaúčtuje ve prospěch účtu Zúčtování dotací souvztažně 
+na vrub účtu Jiné pohledávky. 
+ 
+6. Pro vyčíslení korunové hodnoty nároku na dotaci se použije kurs (aktuální nebo pevný) dle 
+okamžiku uskutečnění účetního případu, kterým je okamžik, kdy se nárok na dotaci stal 
+nezpochybnitelným (např. datum, kdy účetní jednotka obdrží písemnou informaci týkající se 
+rozhodnutí o přidělení dotace). 
+ 
+
+                                                                                                  Interpretace NÚR I-22 Dotace v cizí měně 
+ 
+ 
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+2/5 
+7. Dotace zaúčtovaná na účtu Zúčtování dotací představuje zdroj v korunové hodnotě, který bude 
+použit k pokrytí provozních nákladů či nákladů na investici (v závislosti na účelu dotace), tj. 
+korunová hodnota stanovená dle předchozího odstavce je konečná a nadále se nijak 
+neupravuje o změny cizoměnového kursu. 
+ 
+8. Korunové vyjádření devizové pohledávky nároku na dotaci se však již upravuje s ohledem na 
+vývoj cizoměnového kursu, kdy vzniká kursový rozdíl, a to jak k rozvahovému dni v případě, že 
+dotace dosud nebyla přijata, tak při přijetí dotace. 
+ 
+9. V případě, že obdržená částka cizí měny se liší od zaúčtovaného nároku vyjádřeného v cizí 
+měně, je třeba tento nárok nejprve opravit (snížit nebo zvýšit), a to za použití původního kursu, 
+kterým byl nárok zaúčtován, tj. v důsledku změny odhadu nárokované částky vyjádřené v cizí 
+měně nevzniká kursový zisk/ztráta. Kursový zisk/ztráta vzniká pouze mezi korunovou hodnotou 
+upraveného nároku a skutečně přijatou korunovou hodnotou. 
+ 
+10. Pokud má účetní jednotka povinnost vrátit celou dotaci, která již byla zúčtována do výnosů 
+(dotace na úhradu nákladů) nebo snížila pořizovací cenu dlouhodobého majetku (dotace na 
+investici), zaúčtuje se závazek vůči poskytovateli dotace souvztažně jako storno výnosů (je-li to 
+v účetním období, ve kterém došlo k zúčtování dotace) nebo na vrub nákladů (je-li to v 
+některém z následujících účetních období), případně na vrub dlouhodobého majetku (zvýšení 
+pořizovací ceny). Korunová částka na účtu Zúčtování dotace je v tomto případě stejná jako 
+částka, která byla při použití dotace zúčtována. Závazek z titulu vrácení dotace se zaúčtuje již v 
+aktuálním nebo pevném kursu s vyčíslením kursového rozdílu. 
+ 
+11. Pokud má účetní jednotka povinnost vrátit pouze část dotace, která již byla zúčtována, 
+postupuje se obdobně jako v odstavci 10 s tím, že se pracuje s poměrnou částí vracené dotace. 
+ 
+12. V případě povinnosti vrátit dotaci z důvodu jejího nečerpání se zůstatek na účtu Zúčtování 
+dotací přeúčtuje v korunové výši ve prospěch závazku vůči poskytovateli dotace. Závazek se již 
+vyjádří v aktuálním nebo pevném kursu s vyčíslením kursového rozdílu. 
+ 
+13. Po vrácení dotace se vyrovná závazek z běžného nebo devizového účtu a zaúčtuje se příslušný 
+kursový rozdíl, který na účtu závazku vznikl mezi kursem v okamžiku zaúčtování povinnosti 
+vrátit dotaci a kursem použitým při vrácení dotace. Pokud mezi vrácením dotace a 
+zaúčtováním závazku vrátit dotaci nastane rozvahový den, je nutné vyčíslit vzniklý kursový 
+rozdíl k tomuto okamžiku a zaúčtovat ho jako kursový zisk/ztrátu. 
+ 
+Zdůvodnění 
+14. Nezpochybnitelný nárok na dotaci se účtuje v souladu s ČUS č. 017 bod 3.7. jako pohledávka. 
+ 
+15. Situace, že účetní jednotka obdrží dotaci dříve, než začne realizovat účel, na který je dotace 
+přidělená, je bez problémů, ať se jedná o dotaci v české nebo v cizí měně. V tom případě je 
+známa korunová částka dotace a v té pak již probíhá její čerpání. 
+ 
+
+                                                                                                  Interpretace NÚR I-22 Dotace v cizí měně 
+ 
+ 
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+3/5 
+16. Tato Interpretace však řeší situaci, kdy je třeba z důvodu zajištění věcné a časové souvislosti s 
+příslušným obdobím pokrýt náklady, na které bude dotace přidělena, nebo snížit pořizovací 
+cenu dotované investice. Proto doporučuje v případě nezpochybnitelného nároku na dotaci o 
+tomto nároku účtovat (viz též I-14 Okamžik vykázání nároku na přijetí nebo vrácení dotace). 
+ 
+17. Z důvodu pohybu kursu vznikne kursový rozdíl mezi pohledávkou (tj. nárokem na dotaci) a 
+jejím vyrovnáním (přijetím dotace). Kursový rozdíl zde vzniká pouze na účtu pohledávky, a to 
+stejně jako u jakékoliv jiné cizoměnové pohledávky. Na účtu Zúčtování dotací se však nadále 
+pracuje jen s korunovou hodnotou, a to z toho důvodu, že tento závazek není závazkem 
+vyjádřeným v cizí měně dle § 4 odst. 12 a § 24 odst. 6 zákona o účetnictví. To, zda je závazek 
+vyjádřen v cizí měně, je dáno měnou, ve které má být tento závazek vypořádán. V případě 
+závazku ze zúčtování dotací se nejedná o závazek představující budoucí odliv cizoměnových 
+peněžních prostředků, nýbrž je to zdroj na pokrytí provozních nákladů či nákladů na investici, 
+které jsou zaúčtovány rovněž v korunové hodnotě. 
+ 
+18. Problém nastává tehdy, když dotace není přijatá ve stejné výši, v jaké byla nárokovaná; v tom 
+případě je třeba opravit původní účtování nároku na dotaci a její zúčtování za použití stejného 
+kursu, jakým byl nárok a zúčtování původně zaúčtováno. V tomto případě se u zdroje na účtu 
+Zúčtování dotací nejedná o předpis a úhradu, při kterém vzniká kursový rozdíl, ale o změnu 
+odhadu. Kursový rozdíl pak opět vzniká pouze na účtu pohledávky. 
+ 
+19. Při vrácení dotace (ať již z důvodu jejího nevyčerpání nebo porušení podmínek) vzniká závazek 
+vrátit dotaci. Na účtu Zúčtování dotací se povinnost vrácení zaúčtuje v hodnotě původního 
+nároku souvztažně ve prospěch závazku vůči poskytovateli dotace. Kursový rozdíl vznikne v 
+tomto případě na účtu závazku mezi kursem při zaúčtování povinnosti vrátit dotaci a kursem 
+úhrady. 
+ 
+ 
+Vypořádání připomínek k I-22 z vnějšího připomínkového řízení 
+ 
+1. Připomínky Ladislava Poláčka 
+1. Použití dohadných položek (původně uvedeno v návrhu dotace) – jde o nezpochybnitelný 
+nárok, a proto je jeho výše jistá, proto se domnívám, že použití dohadných položek není 
+dostatečně zdůvodněno. Pokud by měl být tento názor aplikován, pak by musely být veškeré 
+pohledávky považovány za dohadné, protože vždy se může stát, že budou fakturované výkony 
+či dodávky reklamovány. Připomínka byla akceptována, při účtování je používán účet 
+pohledávek. 
+ 
+2. Přepočet cizí měny – proč by neměl být nezpochybnitelný nárok v cizí měně, tudíž pohledávka, 
+považován za pohledávku v cizí měně, když jak jeho úhrada, tak i případná vratka bude s 
+největší pravděpodobností opět v cizí měně? 
+Jak vyplývá z příkladů, pohledávka je účtována v cizí měně a je s ní zacházeno jako s 
+jakoukoliv cizoměnovou pohledávkou, tj. vzniká kursový rozdíl jak k rozvahovému dni, tak při 
+úhradě (viz bod 8 Interpretace). Naproti tomu částka na účtu Zúčtování dotací je již korunová, 
+neboť se nejedná o závazek ve smyslu budoucího odlivu peněžních prostředků tak, jak definuje 
+
+                                                                                                  Interpretace NÚR I-22 Dotace v cizí měně 
+ 
+ 
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+4/5 
+závazky účetní teorie. Jedná se o zdroj na úhradu příslušných nákladů (provozních nebo 
+investičních). 
+ 
+2. Připomínky KDP ČR 
+1. Nedoporučujeme použití dohadných účtů. O nároku na dotaci účtujeme v okamžiku, kdy je 
+znám tzv. nezpochybnitelný nárok na dotaci. Připomínka byla akceptována, při účtování je 
+používán účet pohledávek. 
+ 
+2. Neshodujeme se s tím, že navržená Interpretace účetní skupinu 34 nepovažuje za zúčtovací 
+vztah. Dle našeho názoru a dle přílohy Vyhlášky č.. 500/2002 Sb. Pro podnikatele se jedná o 
+závazkový účet a ten, pokud je vyjádřen v cizí měně, musí být podle § 4 odst. 12 ZÚ nadále v 
+cizí měně evidován a přepočítáván podle § 24 ZÚ. Účetní jednotka může v souladu s účetními 
+předpisy vyřešit situaci tím, že použití dotace zaúčtuje bez zbytečného odkladu souvztažně s 
+účtem výnosů, případně majetku. A dále bez zbytečného odkladu po zaplacení část výnosů, 
+která se váže k budoucím účetním obdobím, zaúčtuje na účet 384 – Výnosy příštích období. 
+Tím nadále nebude docházet k přepočtům závazkového účtu 34x, protože bude zúčtován – 
+použit. Logickým důvodem tzv. „nepřepočítávání“ účtu 384 je v tomto případě to, že ve 
+skutečnosti nevzniká kursové riziko, pokud již bylo uhrazeno (obdoba aktivního účtu 381– 
+Náklady příštích období). 
+Účtová skupina 34 je považována za zúčtovací vztah (Interpretace netvrdí opak), ale již ne 
+cizoměnový. Závazkem se přijatá dotace stává vůči poskytovateli dotace v tom smyslu, že 
+bude použita na stanovený účel, nikoliv ve smyslu odlivu peněžních prostředků (jako např. u 
+závazků z titulu obchodních vztahů nebo úvěrů a půjček). Okamžité zúčtování nároku na 
+dotaci do výnosů, dlouhodobého majetku nebo na účty časového rozlišení je možné, 
+výsledek je však stejný jako v případě, že zůstatek zůstane již jako korunový na účtu 
+Zúčtovacích vztahů. Je to pouze ošizení obsahu formou. 
+ 
+3. Při vrácení dotace nesouhlasíme s použitím tzv. „starého kursu“ – původního kursu k novému 
+okamžiku účetního případu. Vrácení dotace úplné nebo částečné je novým okamžikem 
+uskutečnění účetního případu. Účetní předpisy zde neumožňují výjimku, aby v okamžiku 
+účetního případu byl použit jiný než platný účetní kurs k okamžiku uskutečnění účetního 
+případu (kurs devizového trhu vyhlášeného ČNB jak uvádí § 24 odst. 6 ZÚ). 
+Interpretace není v rozporu s námitkou, neboť na účtu závazků z titulu povinnosti vrátit 
+dotaci se používá již „nový kurs“ (viz bod 12 Interpretace). Na účtu Zúčtování dotace se 
+pracuje s původní (tj. korunovou) hodnotou z důvodů vysvětlených výše. 
+ 
+ 
+ 
+ 
+Datum prvního schválení 
+této interpretace NÚR: 
+19. listopadu 2011 
+Datum poslední aktualizace 
+této interpretace NÚR: 
+1. dubna 2019 
+
+                                                                                                  Interpretace NÚR I-22 Dotace v cizí měně 
+ 
+ 
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+5/5 
+Zpracovatel interpretace: 
+prof. Ing. Libuše Mullerová, CSc  
+doc. Ing. Ladislav Mejzlík, Ph.D.  
+Ing. Jiří Pelák, Ph.D.  
+Katedra finančního účetnictví a auditingu  
+Fakulta financí a účetnictví  
+Vysoká škola ekonomická v Praze 
+Nám W. Churchilla 4 
+130 67 Praha 3

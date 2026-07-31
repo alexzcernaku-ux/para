@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Kontrola přiznání k DPH — Para</title>
+<link rel="icon" href="assets/img/logo/logo-mark.png" />
+<link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+
+<div class="app-loading" id="page-loading">
+  <img src="assets/img/mascot/mascot-kontroluje.png" alt="" />
+  Chvilku strpení…
+</div>
+
+<div class="hidden" id="page-shell">
+  <div class="app-topbar" style="padding: 16px 28px;">
+    <a href="app.html" style="display:flex; align-items:center; gap:10px; text-decoration:none;">
+      <img src="assets/img/logo/logo-primary-light.png" alt="Para" style="height:26px" />
+    </a>
+    <div style="display:flex; align-items:center; gap:16px;">
+      <a href="app.html" class="btn btn-secondary">← Zpět do chatu</a>
+      <button type="button" class="app-signout-btn" id="signout-btn">Odhlásit se</button>
+    </div>
+  </div>
+
+  <div class="kd-shell">
+    <div class="kd-head">
+      <img src="assets/img/mascot/mascot-kontroluje.png" alt="Para kontroluje přiznání k DPH" class="mascot-img" />
+      <span class="eyebrow" style="justify-content:center; display:flex;">Kontrola přiznání k DPH</span>
+      <h1 style="margin: 10px 0 4px;">Sedí vám výpočet daně?</h1>
+      <p>Nahrajte přiznání (25 5401) — přepočítáme daň na výstupu podle sazeb, odpočet a vlastní daň / nadměrný odpočet podle vzorců z tiskopisu.</p>
+      <p style="margin-top: 8px;"><a href="dph-generator.html" style="color: var(--indigo); font-weight: 600;">Ještě přiznání nemáte? Nechte si ho pomoct vyplnit →</a></p>
+    </div>
+
+    <div class="disclaimer-banner" style="margin-bottom: 28px;">
+      <div class="icon-circle">
+        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 9v4M12 17h.01" /><path d="M10.3 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.7 3.86a2 2 0 00-3.4 0z" /></svg>
+      </div>
+      <div>
+        <h3>Kontrola výpočtu, ne daňové poradenství</h3>
+        <p>Para ověřuje jen ř. 1, 2, 40, 41, 46 a 62–65 — řádky, které tiskopis sám označuje jako určené pro běžné plátce bez zahraničního obchodu a bez kráceného odpočtu. Přeshraniční plnění, krácení nároku a vypořádání koeficientu nekontroluje. U důležitých rozhodnutí se poraďte s daňovým poradcem.</p>
+      </div>
+    </div>
+
+    <div class="doctype-tabs" id="mode-tabs">
+      <button type="button" class="doctype-tab active" data-mode="vision">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 16V4M12 4L7 9M12 4l5 5" /><path d="M5 16v2a2 2 0 002 2h10a2 2 0 002-2v-2" /></svg>
+        Nahrát PDF nebo foto
+      </button>
+      <button type="button" class="doctype-tab" data-mode="xml">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3H7a2 2 0 00-2 2v14a2 2 0 002 2h10a2 2 0 002-2V8z" /><path d="M14 3v5h5" /><path d="M9.5 13l1.5 1.5L9.5 16M14.5 13L13 14.5l1.5 1.5" /></svg>
+        Nahrát XML z EPO
+      </button>
+    </div>
+
+    <div class="card" style="padding: 32px;">
+      <div id="mode-vision">
+        <div class="kd-dropzone" id="dropzone">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 16V4M12 4L7 9M12 4l5 5" /><path d="M5 16v2a2 2 0 002 2h10a2 2 0 002-2v-2" /></svg>
+          <p>Klikněte nebo přetáhněte fotku či PDF přiznání</p>
+          <p class="hint">JPG, PNG nebo PDF, max. 9 MB</p>
+          <input type="file" id="file-input" accept="image/jpeg,image/png,image/webp,application/pdf" />
+        </div>
+
+        <div class="kd-preview hidden" id="preview-row">
+          <img id="preview-img" class="hidden" alt="Náhled přiznání" />
+          <div id="preview-file-icon" class="kd-file-icon hidden">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2h9l5 5v13a2 2 0 01-2 2H6a2 2 0 01-2-2V4a2 2 0 012-2z" /><path d="M15 2v5h5" /></svg>
+          </div>
+          <div class="kd-preview-name" id="preview-name"></div>
+          <button type="button" class="kd-preview-remove" id="preview-remove" aria-label="Odebrat soubor">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18" /></svg>
+          </button>
+        </div>
+
+        <div class="kd-submit-row">
+          <button type="button" class="btn btn-primary btn-lg btn-block" id="check-btn" disabled>Zkontrolovat přiznání</button>
+        </div>
+      </div>
+
+      <div id="mode-xml" class="hidden">
+        <div class="kd-dropzone" id="xml-dropzone">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 16V4M12 4L7 9M12 4l5 5" /><path d="M5 16v2a2 2 0 002 2h10a2 2 0 002-2v-2" /></svg>
+          <p>Klikněte nebo přetáhněte XML soubor podání</p>
+          <p class="hint">Soubor vytvořený pro podání přes EPO / MOJE daně</p>
+          <input type="file" id="xml-file-input" accept=".xml,text/xml,application/xml" />
+        </div>
+
+        <div class="kd-preview hidden" id="xml-preview-row">
+          <div class="kd-file-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2h9l5 5v13a2 2 0 01-2 2H6a2 2 0 01-2-2V4a2 2 0 012-2z" /><path d="M15 2v5h5" /></svg>
+          </div>
+          <div class="kd-preview-name" id="xml-preview-name"></div>
+          <button type="button" class="kd-preview-remove" id="xml-preview-remove" aria-label="Odebrat soubor">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18" /></svg>
+          </button>
+        </div>
+
+        <div class="kd-submit-row">
+          <button type="button" class="btn btn-primary btn-lg btn-block" id="xml-check-btn" disabled>Zkontrolovat XML</button>
+        </div>
+      </div>
+
+      <div class="kd-error hidden" id="error-box"></div>
+      <div class="kd-results hidden" id="results"></div>
+    </div>
+  </div>
+</div>
+
+<script>
+  window.PARA_CONFIG = {
+    endpoint: "https://fibytymnzgluyxxszria.supabase.co/functions/v1/zakon-query",
+    anonKey: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImZpYnl0eW1uemdsdXl4eHN6cmlhIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODU0MzM4ODgsImV4cCI6MjEwMTAwOTg4OH0.hFEzCTPZEGpQaQguytnu8Hyz6z9j6P5M1E17l2WfGdE",
+    kontrolaDphEndpoint: "https://fibytymnzgluyxxszria.supabase.co/functions/v1/kontrola-dph-priznani",
+    supabaseUrl: "https://fibytymnzgluyxxszria.supabase.co",
+    supabaseAnonKey: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImZpYnl0eW1uemdsdXl4eHN6cmlhIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODU0MzM4ODgsImV4cCI6MjEwMTAwOTg4OH0.hFEzCTPZEGpQaQguytnu8Hyz6z9j6P5M1E17l2WfGdE",
+  };
+</script>
+<script type="module">
+  import { requireOnboardedProfile, signOut } from "./assets/js/supabase-client.js";
+  import { checkDphConsistency, parseDphXml } from "./assets/js/dph-check.js";
+
+  const cfg = window.PARA_CONFIG || {};
+  const ENDPOINT = cfg.kontrolaDphEndpoint;
+  const ANON_KEY = cfg.anonKey || "";
+  const MAX_FILE_BYTES = 9 * 1024 * 1024;
+
+  const loadingEl = document.getElementById("page-loading");
+  const shellEl = document.getElementById("page-shell");
+  const signoutBtn = document.getElementById("signout-btn");
+  const errorBox = document.getElementById("error-box");
+  const resultsEl = document.getElementById("results");
+
+  signoutBtn.addEventListener("click", () => signOut());
+
+  (async () => {
+    const result = await requireOnboardedProfile();
+    if (!result) return;
+    loadingEl.classList.add("hidden");
+    shellEl.classList.remove("hidden");
+  })();
+
+  function showError(msg) {
+    errorBox.textContent = msg;
+    errorBox.classList.remove("hidden");
+  }
+  function hideError() {
+    errorBox.classList.add("hidden");
+  }
+  function resetResults() {
+    hideError();
+    resultsEl.classList.add("hidden");
+    resultsEl.innerHTML = "";
+  }
+
+  const modeTabs = document.querySelectorAll(".doctype-tab");
+  const modeVision = document.getElementById("mode-vision");
+  const modeXml = document.getElementById("mode-xml");
+  modeTabs.forEach((tab) => {
+    tab.addEventListener("click", () => {
+      modeTabs.forEach((t) => t.classList.toggle("active", t === tab));
+      modeVision.classList.toggle("hidden", tab.dataset.mode !== "vision");
+      modeXml.classList.toggle("hidden", tab.dataset.mode !== "xml");
+      resetResults();
+    });
+  });
+
+  const ICONS = {
+    ano: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5" /></svg>',
+    chybi: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18" /></svg>',
+    nesedi: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18" /></svg>',
+    nejiste: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9.09 9a3 3 0 015.83 1c0 2-3 2-3 4" /><path d="M12 17h.01" /></svg>',
+  };
+
+  function fmtKc(n) {
+    return `${Math.round(n).toLocaleString("cs-CZ")} Kč`;
+  }
+
+  function renderChecks(checks, sourceNote) {
+    if (!checks.length) {
+      resultsEl.innerHTML = `
+        <div class="kd-result-summary issues">
+          <div><p>V dokumentu se nenašly žádné z kontrolovaných řádků (ř. 1, 2, 40, 41). Zkontrolujte, že jde o tiskopis 25 5401 a že obsahuje C. oddíl (stranu 2).</p></div>
+        </div>`;
+      resultsEl.classList.remove("hidden");
+      return;
+    }
+    const hasIssues = checks.some((c) => c.stav !== "ano");
+    let html = `
+      <div class="kd-result-summary ${hasIssues ? "issues" : "ok"}">
+        <div>
+          <div class="kd-doc-type">Kontrola výpočtu</div>
+          <p>${hasIssues ? "Některé řádky nesedí s vzorcem z tiskopisu, nebo je něco potřeba doplnit — podrobnosti níže." : "Zkontrolované řádky odpovídají vzorcům z tiskopisu."}${sourceNote ? " " + sourceNote : ""}</p>
+        </div>
+      </div>
+      <div class="kd-checklist">`;
+    for (const c of checks) {
+      const compareLine =
+        c.ocekavano !== undefined && c.uvedeno !== undefined && c.stav !== "ano"
+          ? `<div class="kd-check-para">Podle vzorce: ${fmtKc(c.ocekavano)} · V přiznání: ${fmtKc(c.uvedeno)}</div>`
+          : "";
+      html += `
+        <div class="kd-check-item ${c.stav}">
+          <div class="kd-check-icon">${ICONS[c.stav] || ""}</div>
+          <div class="kd-check-body">
+            <div class="kd-check-title">ř. ${c.radek} — ${c.popis}</div>
+            ${c.poznamka ? `<div class="kd-check-note">${c.poznamka}</div>` : ""}
+            ${c.poznamkaOdhad ? `<div class="kd-check-para">${c.poznamkaOdhad}</div>` : ""}
+            ${compareLine}
+          </div>
+        </div>`;
+    }
+    html += "</div>";
+    resultsEl.innerHTML = html;
+    resultsEl.classList.remove("hidden");
+    resultsEl.scrollIntoView({ behavior: "smooth", block: "nearest" });
+  }
+
+  // --- Vision ---------------------------------------------------------
+  const dropzone = document.getElementById("dropzone");
+  const fileInput = document.getElementById("file-input");
+  const previewRow = document.getElementById("preview-row");
+  const previewImg = document.getElementById("preview-img");
+  const previewFileIcon = document.getElementById("preview-file-icon");
+  const previewName = document.getElementById("preview-name");
+  const previewRemove = document.getElementById("preview-remove");
+  const checkBtn = document.getElementById("check-btn");
+  let selectedFile = null;
+
+  function setFile(file) {
+    resetResults();
+    if (!file) return;
+    if (!["image/jpeg", "image/png", "image/webp", "application/pdf"].includes(file.type)) {
+      showError("Nepodporovaný formát — nahrajte prosím JPG, PNG nebo PDF.");
+      return;
+    }
+    if (file.size > MAX_FILE_BYTES) {
+      showError("Soubor je moc velký (limit 9 MB).");
+      return;
+    }
+    selectedFile = file;
+    previewRow.classList.remove("hidden");
+    previewName.textContent = file.name;
+    checkBtn.disabled = false;
+    if (file.type === "application/pdf") {
+      previewImg.classList.add("hidden");
+      previewFileIcon.classList.remove("hidden");
+    } else {
+      previewFileIcon.classList.add("hidden");
+      previewImg.classList.remove("hidden");
+      const reader = new FileReader();
+      reader.onload = (e) => (previewImg.src = e.target.result);
+      reader.readAsDataURL(file);
+    }
+  }
+
+  dropzone.addEventListener("click", () => fileInput.click());
+  fileInput.addEventListener("change", () => setFile(fileInput.files[0]));
+  ["dragenter", "dragover"].forEach((evt) => dropzone.addEventListener(evt, (e) => { e.preventDefault(); dropzone.classList.add("dragover"); }));
+  ["dragleave", "drop"].forEach((evt) => dropzone.addEventListener(evt, (e) => { e.preventDefault(); dropzone.classList.remove("dragover"); }));
+  dropzone.addEventListener("drop", (e) => { const f = e.dataTransfer.files[0]; if (f) setFile(f); });
+  previewRemove.addEventListener("click", () => {
+    selectedFile = null;
+    fileInput.value = "";
+    previewRow.classList.add("hidden");
+    checkBtn.disabled = true;
+    resetResults();
+  });
+
+  function fileToBase64(file) {
+    return new Promise((resolve, reject) => {
+      const reader = new FileReader();
+      reader.onload = () => resolve(reader.result.split(",")[1]);
+      reader.onerror = reject;
+      reader.readAsDataURL(file);
+    });
+  }
+
+  checkBtn.addEventListener("click", async () => {
+    if (!selectedFile) return;
+    resetResults();
+    checkBtn.disabled = true;
+    checkBtn.textContent = "Čtu přiznání…";
+    try {
+      const base64 = await fileToBase64(selectedFile);
+      const res = await fetch(ENDPOINT, {
+        method: "POST",
+        headers: { "Content-Type": "application/json", ...(ANON_KEY ? { Authorization: `Bearer ${ANON_KEY}` } : {}) },
+        body: JSON.stringify({ image: base64, mediaType: selectedFile.type }),
+      });
+      const data = await res.json();
+      if (!res.ok || data.error) throw new Error(data.error || `Server odpověděl chybou (${res.status}).`);
+      const checks = checkDphConsistency(data.hodnoty || {});
+      const nejisteCount = (data.nejiste || []).length;
+      const note = data.poznamka
+        ? `Poznámka ke čtení dokumentu: ${data.poznamka}`
+        : nejisteCount
+        ? `U ${nejisteCount} položek si model nebyl jistý přečtenou hodnotou — zkontrolujte je ručně.`
+        : "";
+      renderChecks(checks, note);
+    } catch (err) {
+      showError(`Kontrolu se nepodařilo dokončit (${err.message}). Zkuste to prosím znovu.`);
+    } finally {
+      checkBtn.disabled = false;
+      checkBtn.textContent = "Zkontrolovat přiznání";
+    }
+  });
+
+  // --- XML ------------------------------------------------------------
+  const xmlDropzone = document.getElementById("xml-dropzone");
+  const xmlFileInput = document.getElementById("xml-file-input");
+  const xmlPreviewRow = document.getElementById("xml-preview-row");
+  const xmlPreviewName = document.getElementById("xml-preview-name");
+  const xmlPreviewRemove = document.getElementById("xml-preview-remove");
+  const xmlCheckBtn = document.getElementById("xml-check-btn");
+  let selectedXmlFile = null;
+
+  function setXmlFile(file) {
+    resetResults();
+    if (!file) return;
+    if (!file.name.toLowerCase().endsWith(".xml")) {
+      showError("Nahrajte prosím soubor s příponou .xml.");
+      return;
+    }
+    selectedXmlFile = file;
+    xmlPreviewRow.classList.remove("hidden");
+    xmlPreviewName.textContent = file.name;
+    xmlCheckBtn.disabled = false;
+  }
+
+  xmlDropzone.addEventListener("click", () => xmlFileInput.click());
+  xmlFileInput.addEventListener("change", () => setXmlFile(xmlFileInput.files[0]));
+  ["dragenter", "dragover"].forEach((evt) => xmlDropzone.addEventListener(evt, (e) => { e.preventDefault(); xmlDropzone.classList.add("dragover"); }));
+  ["dragleave", "drop"].forEach((evt) => xmlDropzone.addEventListener(evt, (e) => { e.preventDefault(); xmlDropzone.classList.remove("dragover"); }));
+  xmlDropzone.addEventListener("drop", (e) => { const f = e.dataTransfer.files[0]; if (f) setXmlFile(f); });
+  xmlPreviewRemove.addEventListener("click", () => {
+    selectedXmlFile = null;
+    xmlFileInput.value = "";
+    xmlPreviewRow.classList.add("hidden");
+    xmlCheckBtn.disabled = true;
+    resetResults();
+  });
+
+  xmlCheckBtn.addEventListener("click", async () => {
+    if (!selectedXmlFile) return;
+    resetResults();
+    xmlCheckBtn.disabled = true;
+    xmlCheckBtn.textContent = "Kontroluji…";
+    try {
+      const text = await selectedXmlFile.text();
+      const radky = parseDphXml(text);
+      const checks = checkDphConsistency(radky);
+      renderChecks(checks, "");
+    } catch (err) {
+      showError(`Kontrolu se nepodařilo dokončit (${err.message}).`);
+    } finally {
+      xmlCheckBtn.disabled = false;
+      xmlCheckBtn.textContent = "Zkontrolovat XML";
+    }
+  });
+</script>
+
+</body>
+</html>

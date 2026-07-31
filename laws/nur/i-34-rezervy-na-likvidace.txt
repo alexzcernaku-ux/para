@@ -1,0 +1,234 @@
+ZÁKON: NÚR I-34
+NAZEV: Interpretace Národní účetní rady I-34 – Rezervy na likvidace
+URL: http://nur.cz/wp-content/uploads/2020/10/I-34_updated.pdf
+
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+1/5 
+Interpretace NÚR 
+I–34 
+Rezervy na likvidace 
+Účetní jednotky jsou povinny vést účetnictví tak, aby účetní závěrka sestavená na jeho základě 
+podávala věrný a poctivý obraz předmětu účetnictví a finanční situace účetní jednotky (zákon 
+č. 563/1991 Sb., o účetnictví, § 7, odst. 1). Účetní jednotky účtují o stavu a pohybu majetku a jiných 
+aktiv, závazků a jiných pasiv, dále o nákladech a výnosech a o výsledku hospodaření. (zákon 
+č. 563/1991 Sb., o účetnictví, § 2, Předmět účetnictví).  
+Tato interpretace musí být aplikována v kontextu s Předmluvou Národní účetní rady 
+k interpretacím českých účetních standardů. 
+ 
+ 
+Popis problému 
+1. Účetním jednotkám může vznikat povinnost provést likvidaci následků své vlastní činnosti či, 
+obvykle na konci jejich doby užitečné životnosti, provést likvidaci vybraných aktiv (dále jen 
+„likvidace“). 
+ 
+2. Povinnost likvidace může být ukládána zvláštními právními předpisy (např. ze zákona o 
+odpadech), může vyplývat ze smluv (např. povinnost uvést najatou věc do původního stavu či 
+odstranit stavbu k okamžiku zániku práva stavby) či případně jiných okolností. Povinnost 
+likvidace může vzniknout jednorázově (např. v důsledku pořízení specifického aktiva), nebo 
+může být vyvolána postupně činností účetní jednotky či používáním aktiva. 
+ 
+3. V některých případech mohou právní předpisy vyžadovat, aby za účelem uhrazení likvidace 
+účetní jednotky ukládaly peněžní prostředky na zvláštní účty nebo je převáděly třetím stranám. 
+ 
+4. Otázkou je: 
+a) Jak by se povinnost likvidace měla promítnout v účetnictví včetně toho, zda by se tak 
+mělo dít jednorázově, či postupně, 
+b) jak by mělo být účtováno ukládání peněžních prostředků určených na pokrytí budoucí 
+likvidace. 
+ 
+Řešení 
+5. Povinnost provést likvidaci účetní jednotka ve svém účetnictví vyjádří jako rezervu („rezerva na 
+likvidaci“). Tato rezerva se tvoří postupně, jak je provozována činnost vyvolávající povinnost 
+likvidace („rezerva na likvidaci následků činnosti“) nebo používáno aktivum, jehož likvidaci je 
+účetní jednotka povinna provést („rezerva na likvidaci aktiva“). 
+ 
+6. Výše rezervy na likvidaci následků činnosti je k rozvahovému dni stanovena na základě 
+nejlepšího odhadu částky výdajů, která by byla potřebná na úhradu likvidace následků činnosti 
+uskutečněné k rozvahovému dni. Pokud se vychází z odhadu celkových výdajů potřebných na 
+
+ 
+                                                                                             Interpretace NÚR I-34 Rezervy na likvidace 
+ 
+ 
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+2/5 
+úhradu likvidace po ukončení příslušné činnosti, při stanovení výše rezervy k rozvahovému dni 
+se zohlední poměrná míra doposud uskutečněných činností. 
+ 
+7. Výše rezervy na likvidaci aktiva je k rozvahovému dni stanovena na základě odhadu celkových 
+výdajů potřebných na úhradu likvidace po ukončení používání aktiva a míry dosavadního 
+využití aktiva. Při stanovení míry dosavadního využití aktiva se vychází ze stejných údajů jako 
+při stanovení jeho odpisů. 
+ 
+8. V některých případech se povinnost likvidace vztahuje jak na aktivum účetní jednotky, tak i 
+následky její činnosti (např. skládka a následné ukládání odpadu na ní). V takovém případě se 
+výše rezervy k rozvahovému dni stanoví vždy jako součet rezervy na likvidaci aktiva a rezervy 
+na likvidaci následků činnosti. 
+ 
+9. Budoucí události se vezmou v úvahu při stanovení výše rezervy, jen pokud je dostatečně 
+pravděpodobné, že nastanou. Takovými budoucími událostmi jsou např. vynalezení nových 
+technologií pro likvidace škod nebo změny v právních předpisech. 
+ 
+10. Při stanovení výše rezervy na likvidaci aktiv se nezohledňuje očekávaný výnos z vyřazení 
+likvidovaných aktiv. Tento výnos by měl být zohledněn v jejich zbytkové hodnotě. 
+ 
+11. Změna rezervy stanovené dle odst. 6 až 10 je nákladem na tvorbu rezerv vyjma případu 
+uvedeném v odst. 12. Vzhledem k tomu, že náklad na tvorbu rezerv je rozdílem výše rezerv 
+vypočtených ke konci předcházejícího a běžného období, tvorba rezervy nemusí být 
+rovnoměrná a náklad na tvorbu rezerv se může v jednotlivých obdobích lišit. 
+ 
+12. V případě, že účetní jednotka pořídila aktivum spjaté s povinností likvidace, které již bylo 
+používáno resp. převzala činnost, v rámci jejíhož provozu již vznikla povinnost likvidace jejích 
+následků předchozímu provozovateli, a současně s tím na účetní jednotku přešla povinnost 
+likvidace aktiva resp. dosavadních následků převzaté činnosti, účetní jednotka vykáže k datu 
+pořízení aktiva nebo převzetí činnosti rezervu na likvidaci ve výši stanovené dle odst. 6 až 10, 
+která odpovídá dosavadní míře využití aktiva resp. provozované činnosti. Vznik této rezervy 
+účetní jednotka zaúčtuje podle charakteru transakce, nikoli však jako náklad. Další změny této 
+rezervy se účtují dle odst. 11. 
+ 
+13. Postup dle odst. 12 se použije také v případech, kdy účetní jednotka převzala aktiva nebo 
+činnosti uvedené v odst. 12 v rámci přijetí vkladu obchodního závodu nebo přeměn 
+obchodních korporací. Pokud však účetní jednotka v rámci uvedených transakcí přebírá 
+položky aktiv a pasiv od předchozího provozovatele v účetních hodnotách, převezme v 
+účetních hodnotách i rezervy na likvidace. 
+ 
+14. Rezerva vč. odhadů potřebných k jejímu výpočtu podléhají inventarizaci. 
+ 
+15. Pokud zvláštní právní předpis vyžaduje, aby účetní jednotka převáděla peněžní prostředky na 
+zvláštní bankovní účty (dále „vinkulované účty“) za účelem jejich pozdějšího využití k likvidaci, 
+je účtování stejné jako u běžných převodů peněz (např. na vrub běžného bankovního účtu a ve 
+
+ 
+                                                                                             Interpretace NÚR I-34 Rezervy na likvidace 
+ 
+ 
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+3/5 
+prospěch vinkulovaného účtu). Pokud jsou peněžní prostředky převáděny za stejným účelem 
+třetím osobám, účtuje se o pohledávkách. 
+ 
+16. Pokud je zvláštním právním předpisem vyžadované ukládání peněžních prostředků účetními 
+předpisy označeno jako rezerva podle zvláštních právních předpisů (dále „zákonná rezerva“), 
+odchylka rezervy stanovené dle odst. 6 až 10 a zákonné rezervy se v rozvaze vykáže mezi 
+ostatními rezervami. Rezerva dle odst. 6 až 10 se popíše v příloze včetně jejího rozdělení v 
+rozvaze na zákonnou a ostatní rezervu. 
+ 
+17. Pro rezervu a případnou pohledávku z převedených peněžních prostředků dle odst. 13 platí 
+zákaz kompenzace, a to i kdyby svěřené prostředky měly být využity přímo k zákonem 
+vyžadované likvidaci stranou, které byly tyto prostředky svěřené. 
+ 
+18. V příloze v účetní závěrce se uvede způsob stanovení rezervy na likvidaci a období, ve kterém 
+se očekává provedení likvidace. V případě rezervy na likvidaci aktiva se uvede také odhad 
+částky výdajů potřebných na úhradu likvidace aktiva. 
+ 
+ 
+Zdůvodnění 
+19. Rezerva na likvidaci reprezentuje dluh účetní jednotky spočívající v povinnosti uhradit likvidaci 
+následků své činnosti, použití aktiva nebo jeho samotného pořízení. Typickými příklady je 
+povinnost rekultivovat skládku nebo povinnost zlikvidovat ekologicky nebezpečná aktiva, jako 
+jsou např. solární panely. Často tyto povinnosti vyplývají ze zvláštních zákonů, mohou však 
+vyplývat z jiných okolností jako např. ze smluvní povinnosti odstranit stavbu postavenou na 
+základě práva stavby před jeho zánikem nebo uvést najatý majetek do původního stavu. 
+ 
+20. Z uvedeného je patrné, že dluh spočívající v povinnosti likvidace může vzniknout jednorázově 
+(např. v důsledku pořízení nebezpečného aktiva nebo v důsledku provedení technického 
+zhodnocení na najatém majetku) nebo může vznikat postupně (např. v důsledku rozšiřováním 
+skládky). Vzniká-li dluh postupně, jeho nárůst je nákladem (tvorbou rezervy). Tento náklad 
+může být případně i aktivován, např. pokud povinnost likvidace vzniká v důsledku výroby 
+výrobků. 
+ 
+21. Vzniká-li dluh spočívající v povinnosti likvidace jednorázově, měl by správně být zaúčtován 
+proti pořizovací ceně příslušného aktiva, neboť takové aktivum nelze bez uvedené povinnosti 
+pořídit. Národní účetní rada nicméně pro toto řešení nenalezla dostatečnou oporu v účetních 
+předpisech. Zároveň však s ohledem na princip věcné a časové souvislosti výnosů a nákladů 
+nelze připustit jednorázové vytvoření takové rezervy do nákladů. Proto se v Interpretaci 
+navrhuje postupná tvorba rezervy. 
+ 
+22. Rezervu účetní jednotka vykáže jednorázově pouze v případě, když pořídila aktivum nebo 
+převzala aktivitu od jiné účetní jednotky, která už toto aktivum používala nebo činnost 
+provozovala. V takovém případě účetní jednotka vykáže rezervu ve výši, v jaké by byla, kdyby 
+toto aktivum používala nebo činnost provozovala sama (výše rezervy u předchozí účetní 
+jednotky se přitom nebere v úvahu). Toto řešení je v souladu s principem, na kterém je 
+založena tato Interpretace, a sice, že rezerva se zásadně tvoří postupně, jak je používáno 
+
+ 
+                                                                                             Interpretace NÚR I-34 Rezervy na likvidace 
+ 
+ 
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+4/5 
+příslušné aktivum nebo provozována příslušná činnost, a to bez ohledu na to, kdo aktivum 
+užíval nebo kdo činnost provozoval. Vzhledem k tomu, že takové zaúčtování rezervy není 
+změnou rezervy v důsledku vlastní činnosti, nelze vznik této rezervy zaúčtovat jako náklad. 
+Místo toho bude účtována v souladu s danou transakcí (např. v rámci účtování koupě 
+obchodního závodu nebo souboru aktiv a dluhů). 
+ 
+23. Ustanovení odst. 12 nemá přednost před postupy předepsanými pro účtování vkladů 
+obchodních závodů a přeměn obchodních korporací. Proto v případech, kdy účetní jednotka 
+přebírá položky aktiv a pasiv od předchozího provozovatele v účetních hodnotách, nestanovuje 
+výši přebírané rezervy sama, ale navazuje na její dosavadní účetní ocenění. Otázka vhodnosti 
+převzetí položek aktiv a pasiv v účetních hodnotách v uvedených transakcích je předmětem 
+Interpretace Národní účetní rady č. I-25 Ocenění po předchůdci. 
+ 
+24. Tato Interpretace nepředpokládá, že náklad na tvorbu rezervy bude vypočten jako odhad 
+konečné výše rezervy vydělený počtem let tvorby rezervy. Takové zjednodušení lze připustit 
+pouze v případě, kdy se předpokládá rovnoměrné rozložení činnosti nebo používání majetku 
+vyvolávající povinnost likvidace. I v takovém případě je však třeba mít na paměti, že v každém 
+období náklad na tvorbu rezervy bude složen z tvorby rezervy v důsledku uskutečněné činnosti 
+a změny odhadu celkových nákladů na likvidaci (např. v důsledku dostupnosti nových 
+technologií) v rámci inventarizace rezervy. 
+ 
+25. V případě souběhu rezervy na likvidaci aktiva a rezervy na likvidace důsledků činnosti (odst. 8) 
+je nutné posuzovat tyto komponenty odděleně, protože využití aktiva může být v čase jinak 
+rozloženo než průběh příslušné činnosti. 
+ 
+26. Výše dluhu spočívajícího v povinnosti uhradit likvidaci je odhadem, který je zcela v kompetenci 
+účetní jednotky. Částky, které jsou různými zvláštními právními předpisy označovány za 
+„rezervy“, se mohou shodovat se skutečnými náklady na likvidaci pouze náhodou, a proto z 
+nich účetní jednotka při stanovení výše rezervy nevychází. Nicméně se předpokládá, že tyto 
+předpisy obsahují jakési minimální odhady budoucích úhrad, a proto by účetní jednotka měla 
+znovu vyhodnotit výše svých odhadů, pokud dospěla k menší částce rezerv, než kolik vyplývá z 
+příslušných předpisů. 
+ 
+27. Pokud zvláštní předpisy stanovují, že účetní jednotka je povinna spořit na budoucí úhradu 
+likvidace, spoření těchto částek se účtuje jako obyčejné převody peněžních prostředků. 
+Povinně spořené prostředky jsou nezávislé na odhadech skutečných nákladů na likvidaci, a 
+proto mezi účtováním rezerv a převody peněžních prostředků není žádná účetní vazba. 
+ 
+28. Rezervy vytvořené ve výši stanovené zvláštními předpisy mají obvykle zvláštní daňový režim, 
+přičemž pro zajištění průkaznosti jejich tvorby a výše se využívá účetnictví. Proto tato 
+Interpretace navrhuje, aby odchylky rezervy stanovené dle odst. 6 a následujících a zákonné 
+rezervy byly zřetelně odlišené. S ohledem na obtížnou srozumitelnost dělení „jedné“ rezervy 
+na její „zákonnou“ a „ostatní“ část musí být toto rozdělení popsáno v příloze. 
+ 
+
+ 
+                                                                                             Interpretace NÚR I-34 Rezervy na likvidace 
+ 
+ 
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+5/5 
+29. V případě rezervy na likvidaci aktiva se v příloze uvede celá částka výdajů potřebných k úhradě 
+likvidace aktiva, protože odpovídající rezerva se v souladu s odst. 5 tvoří postupně, a tudíž její 
+částka v průběhu času vyjadřuje pouze část potřebných výdajů na likvidaci aktiva. 
+ 
+ 
+Datum prvního schválení 
+této interpretace NÚR: 
+16. června 2016 
+Datum poslední aktualizace 
+této interpretace NÚR: 
+1. dubna 2019 
+Zpracovatel interpretace: 
+ 
+Ing. Jiří Pelák, Ph.D.  
+Katedra finančního účetnictví a auditingu 
+Fakulta financí a účetnictví 
+Vysoká škola ekonomická v Praze  
+Nám. W. Churchilla 4  
+130 67 Praha 3 – Žižkov

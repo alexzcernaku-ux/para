@@ -1,0 +1,185 @@
+ZÁKON: ČÚS č. 023
+NAZEV: Český účetní standard pro podnikatele č. 023 – Přehled o peněžních tocích
+URL: https://www.mfcr.cz/assets/cs/media/Ucetnictvi_2018_Ceske-ucetni-standardy-pro-500-2002_v02.pdf
+
+Přehled o peněžních tocích  
+ 
+ 
+1. Cíl  
+     Cílem tohoto standardu je stanovit podle zákona č. 563/1991 Sb., o účetnictví, ve znění 
+pozdějších předpisů, (dále jen „zákon“) a vyhlášky č. 500/2002 Sb., kterou se provádějí 
+některá ustanovení zákona č. 563/1991 Sb., o účetnictví, ve znění pozdějších předpisů, pro 
+účetní jednotky, které jsou podnikateli účtujícími v soustavě podvojného účetnictví, ve znění 
+pozdějších předpisů, (dále jen „vyhláška“) základní postupy při sestavování přehledu o 
+peněžních tocích za účelem docílení souladu při používání účetních metod účetními 
+jednotkami.  
+ 
+2. Obsahové vymezení  
+2.1.  Tento standard uvádí příklad možného řešení přehledu o peněžních tocích nepřímou 
+metodou.  
+2.2. Volba metody, koncepce a modelu přehledu o peněžních tocích, obsahová náplň 
+peněžních prostředků a peněžních ekvivalentů a dalších ukazatelů je při respektování 
+ustanovení § 40, 41, 42 a 43 vyhlášky v pravomoci vykazující účetní jednotky.  
+ 
+3. Postup  
+3.1.  Účetní jednotka uvede v příloze každou změnu v modelu, konstrukci a obsahové náplni 
+ukazatelů přehledu o peněžních tocích oproti předcházejícímu účetnímu období, 
+zejména změny zásad při určování součástí peněžních prostředků a peněžních 
+ekvivalentů.  
+3.2.  Účetní jednotka může zvolit podrobné nebo souhrnné členění položek přehledu o 
+peněžních tocích; je-li to vhodné, uvede vysvětlivky.  
+3.3.  Příklad možného řešení přehledu o peněžních tocích nepřímou metodou s vysvětlivkami  
+3.3.1. Možné řešení přehledu o peněžních tocích  
+ 
+P. Stav peněžních prostředků a peněžních ekvivalentů na začátku účetního období  
+ 
+          Peněžní toky z hlavní výdělečné činnosti (provozní činnost)  
+ 
+Z. Účetní zisk nebo ztráta před zdaněním (do ukazatele nejsou zahrnuty příslušné účty 
+účtové skupiny 59 - Daně z příjmů, převodové účty a rezerva na daň z příjmů)1)  
+ 
+A.1. Úpravy o nepeněžní operace  
+A.1.1.  Odpisy stálých aktiv2) (+) s výjimkou zůstatkové ceny prodaných stálých aktiv, a 
+dále umořování oceňovacího rozdílu k nabytému majetku3) a goodwillu3) (+/-)  
+A.1.2.  Změna stavu opravných položek,4) rezerv  
+A.1.3.  Zisk (ztráta) z prodeje stálých aktiv (-/+) (vyúčtování do výnosů „-“, do nákladů 
+„+“)  
+A.1.4.  Výnosy z podílů na zisku (-)  
+A.1.5. Vyúčtované nákladové úroky (+) s výjimkou úroků zahrnovaných do ocenění 
+dlouhodobého majetku, a vyúčtované výnosové úroky (-)  
+A.1.6. Případné úpravy o ostatní nepeněžní operace  
+ 
+A.* Čistý peněžní tok z provozní činnosti před zdaněním a změnami pracovního 
+kapitálu  
+ 
+ 
+77 
+A.2. Změny stavu nepeněžních složek pracovního kapitálu5)  
+A.2.1. Změna stavu pohledávek z provozní činnosti (+/-), aktivních účtů časového 
+rozlišení a dohadných účtů aktivních  
+A.2.2. Změna stavu krátkodobých závazků z provozní činnosti (+/-), pasivních účtů 
+časového rozlišení a dohadných účtů pasivních  
+A.2.3.  Změna stavu zásob (+/-)  
+A.2.4. Změna stavu krátkodobého finančního majetku nespadajícího do peněžních 
+prostředků a peněžních ekvivalentů  
+ 
+A.** Čistý peněžní tok z provozní činnosti před zdaněním  
+ 
+A.3. Vyplacené úroky s výjimkou úroků zahrnovaných do ocenění dlouhodobého 
+majetku (-)  
+ 
+A.4. Přijaté úroky (+)  
+ 
+A.5. Zaplacená daň z příjmů a za doměrky daně za minulá období  
+        (-)  
+ 
+A.6.  zrušen 
+ 
+A.7. Přijaté podíly na zisku (+) (lze postupovat odlišně v souladu s § 43 odst. 4 
+vyhlášky)  
+ 
+A.*** Čistý peněžní tok z provozní činnosti  
+  
+Peněžní toky z investiční činnosti  
+ 
+B.1. Výdaje spojené s nabytím stálých aktiv6)  
+  
+B.2. Příjmy z prodeje stálých aktiv  
+ 
+B.3. Zápůjčky a úvěry spřízněným osobám  
+ 
+B.*** Čistý peněžní tok vztahující se k investiční činnosti  
+ 
+Peněžní toky z finančních činností  
+ 
+C.1. Dopady změn dlouhodobých závazků, popřípadě takových krátkodobých 
+závazků,7) které spadají do oblasti finanční činnosti (například některé provozní 
+úvěry) na peněžní prostředky a peněžní ekvivalenty  
+ 
+C.2. Dopady změn vlastního kapitálu na peněžní prostředky a peněžní ekvivalenty 
+C.2.1. Zvýšení peněžních prostředků a peněžních ekvivalentů z titulu zvýšení 
+základního kapitálu, ážia, popřípadě fondů ze zisku včetně složených záloh na 
+toto zvýšení (+)  
+C.2.2. Vyplacení podílu na vlastním kapitálu společníkům (-)  
+C.2.3. Další vklady peněžních prostředků společníků a akcionářů (+)  
+C.2.4. Úhrada ztráty společníky (+)  
+C.2.5. Přímé platby na vrub fondů (-)  
+ 
+78 
+C.2.6. Vyplacené podíly na zisku včetně zaplacené srážkové daně vztahující se k těmto 
+nárokům a včetně finančního vypořádání se společníky veřejné obchodní 
+společnosti a komplementáři u komanditních společností (-)  
+ 
+C.*** Čistý peněžní tok vztahující se k finanční činnosti  
+ 
+F. Čisté zvýšení nebo snížení peněžních prostředků  
+ 
+R. Stav peněžních prostředků a peněžních ekvivalentů na konci účetního období8)  
+  
+3.3.2. Vysvětlivky k možnému řešení přehledu o peněžních tocích  
+1) Jedná se o nákladové položky splatné a odložené daně z příjmů, dodatečné odvody 
+daně z příjmů a převod podílu společníkům veřejných obchodních společností a 
+komplementářům komanditních společností.  
+2) Tato položka obsahuje pravidelné odpisy dlouhodobého majetku podle odpisového 
+plánu účetní jednotky. Dále se do tohoto údaje zahrnou také zůstatkové ceny, 
+popřípadě pořizovací ceny fyzicky likvidovaných nebo darovaných stálých aktiv, 
+kromě případů prodeje stálých aktiv. Údaj se vykáže se znaménkem „+“.  
+3) Odpis aktivního oceňovacího rozdílu k nabytému majetku a odpis goodwillu se čerpá 
+z příslušného účtu účtové skupiny 55 - Odpisy, rezervy, komplexní náklady příštích 
+období a opravné položky v provozní oblasti. Údaj se vykáže se znaménkem „+“. 
+Odpis pasivního oceňovacího rozdílu k nabytému majetku a odpis záporného 
+goodwillu se čerpá z příslušných účtů účtové skupiny 64 – Jiné provozní výnosy. 
+Údaj se vykáže se znaménkem „-“.  
+4) Změna stavu opravných položek se vypočítá jako souhrnný rozdíl mezi konečným 
+stavem opravných položek k majetkovým účtům a stavem těchto položek na počátku 
+vykazovaného účetního období. Přírůstek se označí znaménkem „+“, úbytek 
+znaménkem „-“.  
+5) Při výpočtu změny stavu položek pracovního kapitálu v oddílu A.2. se vychází z 
+brutto stavů uvedených v rozvaze.  
+Účetní jednotka si pro účely sestavení přehledu o peněžních tocích nepřímou 
+metodou vymezí pohledávky a závazky, které se vztahují k provozní činnosti.  
+6) Pro účely tohoto přehledu může účetní jednotka zjistit výdaje spojené s pořízením 
+dlouhodobého majetku buď  
+a)  brutto způsobem, tzn. přírůstek (nabytí) dlouhodobého majetku se upraví o změnu 
+závazků a poskytnuté zálohy a závdavky související s pořízením dlouhodobého 
+majetku, nebo  
+b) netto způsobem, u kterého se vykáží skutečné výdaje spojené s pořízením 
+dlouhodobého majetku.  
+ 
+ 
+Brutto způsob  
+Za nabytí stálých aktiv se považuje zejména  
+a)  nákup,  
+b)  vytvoření vlastní činností,  
+c)  poskytnutí zápůjček a úvěrů charakteru finančních investic a zápůjček a úvěrů k 
+účetním jednotkám v rámci konsolidačního celku a k ostatním spřízněným osobám.  
+Do nabytí stálých aktiv se nezahrnuje zvýšení nebo snížení jejich ocenění, které se 
+účtuje souvztažným zápisem na příslušný účet účtové skupiny 41 - Základní kapitál a 
+kapitálové fondy.  
+Údaje se čerpají z obratů strany Má dáti příslušných účtů účtových skupin 04 - 
+ 
+79 
+Nedokončený dlouhodobý nehmotný a hmotný majetek, 05 – Poskytnuté zálohy na 
+dlouhodobý majetek, popřípadě příslušných účtů účtových skupin 01 – Dlouhodobý 
+nehmotný majetek, 02 – Dlouhodobý hmotný majetek odpisovaný, 03 – Dlouhodobý 
+hmotný majetek neodpisovaný a příslušných účtů účtové skupiny 06 – Dlouhodobý 
+finanční majetek (příslušná částka se vykáže se znaménkem „-“).  
+7) K dlouhodobým, popřípadě krátkodobým závazkům patří zejména dluhy z titulu 
+zápůjček, úvěrů, finančního leasingu včetně úvěrů a zápůjček k účetním jednotkám v 
+rámci konsolidačního celku a k ostatním spřízněným osobám s výjimkou dluhů z 
+pořízení dlouhodobého majetku.  
+8)   Výpočet ukazatelů přehledu peněžních toků:  
+A.* = Z + A.1.  
+A.1. = A.1.1. až A.1.6.  
+A.** = A.* + A.2.  
+A.2. = A.2.1. až A.2.4.  
+A.*** = A.** + A.3. + A.4. + A.5 + A.7.  
+B.*** = B.1. + B.2. + B.3.  
+C.*** = C.1. + C.2.  
+C.2. = C.2.1. až C.2.6.  
+F = A.*** + B.*** + C.***  
+R = P + F 
+ 
+ 
+ 
+80

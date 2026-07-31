@@ -1,0 +1,464 @@
+ZÁKON: NÚR I-18
+NAZEV: Interpretace Národní účetní rady I-18 – Dohadné položky v cizí měně
+URL: http://nur.cz/wp-content/uploads/2020/10/I-18_updated.pdf
+
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+1/9 
+Interpretace NÚR 
+I–18 
+Dohadné položky v cizí měně 
+Účetní jednotky jsou povinny vést účetnictví tak, aby účetní závěrka sestavená na jeho základě 
+podávala věrný a poctivý obraz předmětu účetnictví a finanční situace účetní jednotky (zákon 
+č. 563/1991 Sb., o účetnictví, § 7, odst. 1). Účetní jednotky účtují o stavu a pohybu majetku a jiných 
+aktiv, závazků a jiných pasiv, dále o nákladech a výnosech a o výsledku hospodaření. (zákon 
+č. 563/1991 Sb., o účetnictví, § 2, Předmět účetnictví).  
+Tato interpretace musí být aplikována v kontextu s Předmluvou Národní účetní rady 
+k interpretacím českých účetních standardů. 
+ 
+ 
+Popis problému 
+1. Je častou praxí, že účetní jednotky v okamžiku, kdy obdrží příslušné potřebné účetní 
+doklady, odúčtují dohadné položky opačným zápisem, než jak byly vytvořeny, a poté 
+zaúčtují účetní případ na základě obdržených účetních dokladů. Tato praxe je často 
+společná jak pro dohadné položky, které představují závazky a pohledávky, které budou 
+uhrazovány v české měně, tak i pro dohadné položky, které byly vytvořeny pro 
+nedostatečnou dokumentaci cizoměnových závazků a pohledávek (dále také „cizoměnové 
+dohadné položky“). 
+ 
+2. Je otázkou, zda je takový postup akceptovatelný u cizoměnových dohadných položek. Aby 
+bylo možné rozhodnout o správném postupu, je potřeba odpovědět na následující otázky: 
+a) zda cizoměnové dohadné položky jsou cizoměnovou pohledávkou či závazkem, 
+jinými slovy, zda se odhad, který položky představují, primárně vyjadřuje v české 
+měně (tj. nejsou cizoměnovými pohledávkami a závazky), či v cizí měně a musí se 
+přepočíst na českou měnu (tj. jsou cizoměnovými pohledávkami a závazky); a pokud 
+se cizoměnové dohadné položky uznají za typ cizoměnového závazku, resp. 
+Pohledávky, 
+b) zda se řešení dohadných položek, které vznikly v důsledku pořízení dlouhodobého 
+majetku, zboží, služeb, nebo naopak nároku na obdržení určité částky, liší, 
+c) zda je možné pouze jedno účetní řešení, nebo více, 
+d) zda zrušení dohadné položky a (následné) zaúčtování závazku v jisté výši, jehož 
+odhadnutou výši dohadná položka vyjadřovala, jsou nezávislými účetními 
+operacemi, či souvisejícími účetními operacemi, 
+e) jakým kursem by mělo být zaúčtováno vytvoření dohadné položky, 
+f) zda k rozvahovému dni tyto položky přeceňovat podle „závěrkového kursu“, 
+g) zda při takovém přecenění vzniká kursový rozdíl, 
+h) jak by se měla účtovat změna odhadu výše cizoměnové dohadné položky. 
+ 
+ 
+ 
+
+                                                                           Interpretace NÚR I-18 Dohadné položky v cizí měně 
+ 
+ 
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+2/9 
+Řešení 
+3. Vyjadřuje-li dohadná položka odhadnutou výši cizoměnového závazku nebo pohledávky 
+(cizoměnová dohadná položka), odhaduje se její výše v příslušné cizí měně, nikoli v Kč (viz odst. 
+8 a 9). 
+ 
+4. Metodiku stanovení okamžiku účetního případu, podle kterého účetní jednotka určí měnový 
+kurs pro zaúčtování dohadné položky, si účetní jednotka stanoví ve svých vnitropodnikových 
+směrnicích. Kursem k okamžiku uskutečnění případu nemusí nutně být kurs, který účetní 
+jednotka používá k okamžiku zaúčtování dohadné položky. Okamžik účetního případu a 
+okamžik zaúčtování mohou představovat dva různé okamžiky. (viz odst. 10 až 13) 
+ 
+5. K datu účetní závěrky, při přepočtu dle ustanovení § 24 odst. 6 písm. b zákona o účetnictví, se 
+při stanovení korunové výše cizoměnové dohadné položky vychází z odhadu cizoměnové 
+částky a příslušného měnového kursu ČNB platného k poslednímu dni účetního období. 
+Vznikající rozdíly se účtují proti stejným účtům jako v případě „běžných“ cizoměnových závazků 
+a pohledávek. 
+ 
+6. Na počátku dalšího účetního období nelze automaticky hromadně rušit cizoměnové dohadné 
+položky. Cizoměnové dohadné položky se zruší teprve při obdržení kompletní dokumentace. 
+Při tom účetní jednotka dbá na to, aby ocenění pořizované položky (služba, zásoba, majetek 
+apod.) zohlednilo měnový kurs k okamžiku příslušného účetního případu. Metodiku stanovení 
+okamžiku účetního případu účetní jednotka popíše ve svých vnitropodnikových směrnicích. (viz 
+odst. 14) 
+ 
+7. Při stanovení metodiky účtování cizoměnových dohadných položek, kterou účetní jednotka 
+popíše ve svých vnitropodnikových směrnicích, by účetní jednotka měla respektovat, že na 
+účetní řešení cizoměnových dohadných položek nemá vliv, zda vznikly v důsledku pořízení 
+dlouhodobého majetku, zboží, služeb, nebo naopak nároku na obdržení určité částky. Veškeré 
+tyto skupiny cizoměnových dohadných položek by měly podléhat stejným účetním pravidlům. 
+Dále je třeba při stanovení této metodiky mít na paměti, že pořizovací ceny nesmí zahrnovat 
+kursové zisky nebo ztráty. (viz odst. 15) 
+ 
+Zdůvodnění 
+8. Dohadná položka je jen zvláštním názvem pohledávky a závazku v těch případech, kdy je jejich 
+výše odhadnuta. Neznalostí přesné částky se nemění charakter závazku, resp. pohledávky a 
+příslušných dohadných položek z cizoměnových na korunové. Dohadné položky vyjadřují 
+nárok, resp. povinnost uhradit příslušnou částku v cizí měně. Jedná se proto o cizoměnové 
+pohledávky a závazky a podle toho s nimi také musí být zacházeno (např. je třeba upravit jejich 
+korunovou hodnotu na konci účetního období podle závěrkového kursu a tuto úpravu 
+zaúčtovat jako kursový zisk nebo ztrátu, případně dle ustanovení § 60 odst. 5 vyhl. č. 500/2002 
+Sb.). 
+ 
+9. Odhad výše dohadné položky je nutné provést v měně, ve které příslušný závazek, resp. 
+pohledávka mají být dle smlouvy, či dle očekávání, pokud smlouva neexistuje, uhrazeny. Došlo-
+
+                                                                           Interpretace NÚR I-18 Dohadné položky v cizí měně 
+ 
+ 
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+3/9 
+li by na místo toho k odhadu částky v české měně, byl by takovým postupem odhadnut i 
+očekávaný kurs cizí měny. České účetní předpisy neumožňují cizoměnové závazky a pohledávky 
+účtovat v budoucích a odhadnutých kursech. Příkladem uvedeného špatného postupu je 
+situace, kdy účetní jednotka zaúčtuje korunovou výši cizoměnové dohadné položky podle 
+informací pocházejících z následujícího účetního období svědčících o tom, jaká bude definitivní 
+výše závazku nebo pohledávky v korunách, tj. účtuje o dohadných položkách do dosud 
+neuzavřeného účetního období poté, co přijala nebo vystavila konečnou fakturu a zaúčtovala ji 
+příslušným kursem, čímž zjistila definitivní částku vyjádřenou v Kč. Takový postup vede ke 
+korunovému vyčíslení cizoměnové dohadné položky pomocí nesprávného kursu. 
+ 
+10. Hlavním problémem při účtování cizoměnových závazků a pohledávek v odhadnuté výši je 
+stanovení okamžiku uskutečnění účetního případu. To má zásadní vliv na měnový kurs, pomocí 
+kterého se stanoví korunová částka příslušné transakce. Vzhledem k tomu, že je více možností, 
+které nejsou v rozporu s českými účetními předpisy, NÚR žádný z nich neupřednostňuje. 
+ 
+11. Okamžik uskutečnění účetního případu je okamžik, kdy nastala skutečnost, která je předmětem 
+účetnictví (§ 6 odst. 1 ZÚ), je to tedy okamžik, kdy nastala změna stavu majetku, závazků, 
+vlastního kapitálu, nebo náklad či výnos (§ 2 ZÚ). Okamžik, kdy daná skutečnost nastala, se 
+může lišit od okamžiku, kdy byla tato skutečnost zachycena jako účetní zápis do účetních knih 
+(§ 6 odst. 2 ZÚ), což je v této Interpretaci označováno jako okamžik zaúčtování. 
+ 
+12. Český účetní standard č. 1 nabízí několik alternativ ke stanovení okamžiku uskutečnění 
+účetního případu. Relevantními okamžiky pro účely této Interpretace jsou zejména: (a) splnění 
+dodávky, (b) zjištění manka, schodku, přebytku (datum inventarizace) a (c) u dodavatele den 
+vystavení faktury nebo obdobného dokladu, u odběratele den přijetí faktury nebo obdobného 
+dokladu. 
+ 
+13. Vzhledem k tomu, že Český účetní standard č. 1 uvádí veškeré alternativy jako rovnocenné, 
+účetní jednotky se mohou rozhodnout pro použití kterékoli z nich. Jediná omezení jsou (i) 
+ustanovení § 7 odst. 2 zák. o účetnictví „…Tam, kde účetní jednotka může volit mezi více 
+možnostmi dané účetní metody a zvolená možnost by zastírala skutečný stav, je účetní 
+jednotka povinna zvolit jinou možnost, která skutečnému stavu odpovídá….“, (ii) dodržení 
+zásady zachování účetních metod (§ 7 odst. 4 zák. o účetnictví) a (iii) systematičnost, která 
+vyplývá ze zásady zachování účetních metod tím, že tato zásada implicitně zakazuje nahodilost 
+účetních metod (je tedy nutné definovat skupiny transakcí, na které se příslušné metody 
+používají). 
+ 
+14. Z tohoto důvodu tedy zaúčtování definitivního závazku nebo pohledávky musí navazovat na 
+účtování dohadné položky, protože při jejím vzniku (případně úpravě) byl použit kurs 
+stanovený k příslušnému okamžiku uskutečnění účetního případu. Proto také volby, které jsou 
+zmíněny v odst. 12 lze použít pouze tak, že se účetní jednotka rozhodne pro jednu z nich a pak 
+této volbě přizpůsobí další postup. Tj. nelze použít více variant najednou např. tím způsobem, 
+že pořízení zboží bude v jednom účetním období zaúčtováno dle varianty (a), tj. dle kursu k 
+okamžiku pořízení, a v následujícím účetním období, až bude k dispozici faktura, bude tento 
+zápis zrušen a místo toho bude zboží zaúčtováno dle varianty (c). 
+ 
+
+                                                                           Interpretace NÚR I-18 Dohadné položky v cizí měně 
+ 
+ 
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+4/9 
+15. Podstata dohadné položky pasivní je vždy stejná, ať se jedná o pořízení dlouhodobého 
+majetku, zboží, služeb. Důvodem je to, že se vždy jedná o závazek, resp. pohledávku, jejichž 
+výše je odhadnutá. Příčina vzniku pohledávky a závazku je z účetního hlediska irelevantní. 
+ 
+ 
+Zapracování připomínek z vnějšího připomínkového řízení 
+ 
+Ing. Michal Kadlec 
+1. Ne úplně jsem pochopil bod 9 – věta první – poslední slovo (uhrazeny --> pravděpodobně 
+fakturovány). Já bych výši dohadné položky stanovoval v měně, ve které bude příslušný 
+závazek (nebo pohledávka) fakturován (např. podle smlouvy, obvyklé měny fakturace...), a ne 
+podle toho, v jaké měně budou placeny. To, v jaké měně bude pak závazek (pohledávka) 
+skutečně hrazen, je věc jiná. Navíc i s ohledem na bod 2 f a bod 5 – pokud budu tvořit kursové 
+rozdíly – tak musím brát hodnotu dohadné položky v měně, ve které bude pravděpodobně 
+fakturovaná. 
+ 
+2. V bodě 5 – bych pak jasně napsal, že dohadné položky již vytvořené – ty které zůstaly z 
+minulého období a vytvořené v průběhu nového období – se přepočítají kursem ČNB k 
+rozvahovému dni (jestli to tak bylo myšleno). 
+ 
+3. Celou Interpretaci bych možná doplnil i o problematiku rezerv v cizí měně (ale to asi nebylo 
+cílem). 
+ 
+Vypořádání připomínky 
+1. Připomínka akceptována. 
+2. Připomínka akceptována. 
+3. Připomínka neakceptována. NÚR si za cíl Interpretace stanovila pouze cizoměnové 
+dohadné položky. 
+ 
+ 
+Ing. Pavel Janda 
+Přečetl jsem si výše zmíněný návrh Interpretace na www.ucetnikavarna.cz, a jako mnohaletého 
+praktika v oboru účetnictví/účetních systémů (a tedy i pozorovatele změn v činnosti účtáren v ČR 
+za posledních cca 20 let) mne tak trochu zaujal. Poměrně dobře totiž ilustruje, kam až jsme se v 
+rámci vyhovění požadavkům na „věrný“ obraz účetnictví (přesněji: zejména požadavkům 
+auditorských firem a zahraničních mateřských společností) dostali. 
+Předesílám, že reakci píši „z voleje“, nečinil jsem si tedy žádnou přípravu ani nestudoval další 
+podklady. 
+Tedy k věci: 
+ 
+Za prvé 
+Především mne mrzí, že v článku jsem nikde nezahlédl zmíněn prapůvod tvorby dohadných 
+položek. Tím totiž podle mého soudu není dohadování „pohledávek a závazků“, jak v textu 
+několikrát zmiňujete. Smyslem dohadných položek (kdysi „Nevyfakturovaných dodávek“) bylo 
+dostat do účetní závěrky náklady a výnosy, jakož i hodnotu dodávek (příjem na sklad, případně 
+
+                                                                           Interpretace NÚR I-18 Dohadné položky v cizí měně 
+ 
+ 
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+5/9 
+investice), které s ní věcně a časově souvisí – byť jsou fakticky zúčtovány (např. jako faktury) v 
+období jiném. 
+Z praxe možná víte (nebo můžete snadno zjistit), že v cizí měně se zpravidla účtuje na oněch 
+pohledávkách a závazcích (to účetní předpisy samozřejmě logicky vyžadují), o které až tak nejde, 
+naopak na druhé straně (náklady, výnosy, zásoby, investice) se tak nečiní, neb to zde nemá žádný 
+význam (a také žádný předpis – tedy alespoň zatím, chce se říci kupodivu – to nevyžaduje). 
+To je také důvodem, proč se dohady dělávají v korunách (i tam, kde jde fakticky o vztah se 
+zahraničím). Účty dohadných položek z toho důvodu ani nebývají nastaveny jako cizoměnové, a 
+tedy relevantní ke kursovým přepočtům. Ano, u zahraničních dodávek je pro přepočet třeba použít 
+rozumný kurs – v tom souhlasím – a není od věci jej stanovit vnitřním předpisem. Použití reálného 
+kursu z dalšího období (např. ze známé již vystavené faktury) se sice může jevit jako nepatřičné, ale 
+upřímně řečeno – je to to nejpřesnější zobrazení dohadu, jaké si lze představit. 
+O co tedy vlastně jde? O reálné zobrazení v duchu standardů, či o slepé dodržování pravidel, byť 
+tím vědomě zanáším do účetnictví nepřesnost (vždyť skutečnost již v tomto případě znám ...)? 
+Výklad vztažený pouze k pohledávko/závazkové straně mince se zde evidentně nutně dostává do 
+akademické roviny – a pouze v té lze s ním souhlasit. 
+ 
+Za druhé 
+Musím upozornit na nepřesnost, ve výkladu obsaženou. Konkrétně se ve výkladu říká, že „odhad 
+výše dohadné položky je nutné provést v měně, ve které příslušný závazek, resp. pohledávka 
+budou uhrazeny“. 
+To je samozřejmě do důsledku vzato nemožné. Stává se totiž, že pohledávka/závazek jsou z 
+různých důvodů uhrazeny ve měně jiné. 
+Správné by tedy bylo uvést „ve měně, ve které (pravděpodobně) závazek, resp. Pohledávka 
+vznikne“. 
+ 
+Za třetí 
+Abychom vyhověli aktuálním požadavkům, tvoříme dohady jak na běžícím páse; v řadě firem (se 
+zahraničními vlastníky) dokonce měsíčně, a to již skoro na vše (tedy i tam, kde to z důvodu 
+opakovanosti nákladů nemá valný informační dopad). Vzhledem k časté nutnosti tyto dohady 
+účtovat na objekty controllingu (př. zakázky, střediska) to nejednou vede k situaci, že absolutní 
+většinu účetních zápisů v měsíční uzávěrce tvoří dohady a jejich storna. 
+ 
+Řečeno více polopatě 
+Před lety se účetní věnovali tomu, aby účetní evidence co nejvíce odpovídala zobrazení 
+výrobního/obchodního procesu ve firmě. Dohady tvořili samozřejmě tam, kde to bylo účelné, 
+zejména při roční účetní uzávěrce. Nyní se účetní (zejména u větších firem a firem se zahraničními 
+vlastníky) prakticky bez přestání věnují formálnímu naplnění požadavků valících se ze všech stran, 
+pro samé dohadování a storna dohadů (mimo jiné) jim na efektivní zobrazení a kontrolu reality 
+jaksi nezbývá prostor. Navíc vypovídací schopnost účetních zápisů, v nichž se to hemží dohady a 
+jejich storny, je zoufalá. Pokud se vám zdá, že přeháním, nedá se nic dělat. Pokud nikoliv, – 
+řekněte, zda toto byl smysl zavádění účetních standardů? 
+ 
+Shrnutí 
+V kontextu výše zmíněného je podle mne požadavek na to, aby dohady na dodávky vyúčtované v 
+zahraniční měně byly účtovány též v zahraniční měně (a k nim při roční závěrce prováděn kursový 
+
+                                                                           Interpretace NÚR I-18 Dohadné položky v cizí měně 
+ 
+ 
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+6/9 
+přepočet na účtech dohadných položek), samoúčelný. Informační přínos je nulový, reálný kursový 
+dopad může mít pouze závazek reálný, nikoliv fiktivní. Ve vámi uvedeném případě, kdy znám 
+konečné vyúčtování, je práce věnovaná kursovému přepočtu ke „správnému datu“ a zúčtování 
+„kursových rozdílů“ dokonce kontraproduktivní. 
+Nechápejte prosím výše uvedených pár vět jako pokus o negaci aplikace účetních standardů či 
+znevážení snahy pomoci účetním zorientovat se v jednotlivých účetními standardy upravovaných 
+oblastech. Chtěl jsem pouze upozornit na to, že v některých případech (a toto je jeden z nich) lze z 
+účetních předpisů (zákonů) a standardů odvodit požadavky, které nemají reálný přínos, – naopak 
+představují pouze zvýšení pracnosti a popření původního smyslu oněch standardů. 
+ 
+ 
+Vypořádání připomínky 
+1. Připomínka neakceptována. Souhlasíme s tím, že transakce, které způsobují vznik dohadných 
+položek, jsou výnosem, nákladem či pořízením aktiva. Nicméně nesouhlasíme s tím, že právě to 
+je důvodem, aby se cizoměnové dohadné položky stanovovaly v Kč. To, že 
+náklad/výnos/aktivum jsou stanoveny jednou provždy v Kč, není důvodem pro to, aby 
+související 
+dohadná 
+položka 
+byla 
+také 
+stanovena 
+v 
+Kč. 
+Dohadná 
+položka 
+je 
+závazkem/pohledávkou v cizí měně a jako taková je vystavena kursovému riziku na rozdíl od 
+příslušného výnosu/nákladu/aktiva. 
+2. Připomínka akceptována. 
+3. Připomínka neakceptována. Připomínka popírá potřebu dané Interpretace tím, že popírá 
+význam odhadů. S tímto přístupem nesouhlasíme. Pokud o určité nastalé transakci chybí 
+přesné informace, má větší vypovídací hodnotu tyto informace nahradit odhadem, než je 
+nevykázat vůbec. Dále nesouhlasíme s tím, že dohadná položka pasivní není reálný závazek. 
+ 
+S posledním uvedeným připomínáme, že NÚR doporučuje používat Interpretace 
+u významných transakcí. 
+ 
+ 
+Zdeňka Klimešová 
+V Popisu problému je v bodě 2) písm. f) uvedeno –zda k rozvahovému dni přeceňovat podle 
+„závěrkového kursu“. 
+V části Řešení je uvedeno: 
+bod 5 „K datu účetní závěrky při stanovení korunové výše cizoměnové dohadné položky... vychází z 
+odhadu cizoměnové částky a příslušného měnového kursu ČNB platného k poslednímu dni 
+účetního období“. 
+bod 6 „Na počátku dalšího účetního období... Cizoměnové dohadné položky se zruší teprve po 
+obdržení kompletní dokumentace“. 
+V části Zdůvodnění: 
+bod 8 „... Jedná se proto o cizoměnové pohledávky a závazky a podle toho s nimi musí být 
+zacházeno (např. je třeba upravit jejich korunovou hodnotu na konci účetního/chybí slovo 
+období/podle závěrkového kursu...)“. 
+Domnívám se, že by bylo vhodné bod 8 doplnit v části „... (např. je třeba upravit jejich korunovou 
+hodnotu na konci účetního/chybí slovo období/podle závěrkového kursu... == a vzniklý rozdíl 
+vypořádat prostřednictvím účtů kursových rozdílů stejným způsobem jako u účtů pohledávek a 
+závazků == a tento bod přesunout do části Řešení).“ 
+
+                                                                           Interpretace NÚR I-18 Dohadné položky v cizí měně 
+ 
+ 
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+7/9 
+Takto by byla v části Řešení podána odpověď na otázku uvedenou v části Popis problému, bod 2 f). 
+V praxi se stává, že dohadné položky jsou tvořeny v průběhu účetního období, k zúčtování dojde až 
+následující účetní období (tj. byly vytvořeny např. v květnu a k rozvahovému nebylo možno je 
+zrušit), případně jsou dohadné položky tvořeny v jednom období, ale k jejich zrušení nedojde v 
+bezprostředně následujícím účetním období. 
+Doplnění by posílilo jistotu o správnosti účtování cizoměnových dohadných položek a změně jejich 
+hodnoty k rozvahovému dni. 
+ 
+Vypořádání připomínky 
+Připomínky akceptovány. 
+ 
+ 
+Ing. Mrkvičková, KCÚ ČR 
+A) Po projednání návrhu Interpretace v metodické radě KCÚ ČR sdělujeme naše stanovisko k dané 
+problematice: 
+1. Dohadné položky v cizí měně vyjadřují expozici účetní jednotky vůči měnovému riziku, a 
+tedy náklady a výnosy související s tímto rizikem by měly být účtovány na příslušné 
+výsledkové účty, neměly by tedy vstupovat do ocenění pořizovaných zásob či 
+dlouhodobého majetku ani by se neměly stát součástí jiných nákladů účtovaných na jiných 
+účtech (např. nákladů na služby). 
+ 
+2. Ze stejného důvodu by účetní řešení mělo zajišťovat, aby fungovalo zajištění proti 
+měnovému riziku, či lépe řečeno, je-li zajištění ekonomicky účinné, mělo by být účinné i 
+účetně a zisky a ztráty ze zajištěného aktiva, příslibu či pravděpodobné transakce by 
+neměly být ve výkazu zisku a ztráty, nebo by měly být kompenzovány ztrátami a zisky ze 
+zajištění. 
+ 
+3. Mělo by být řešeno i časové rozlišení, které je povahou podobné dohadným položkám a liší 
+se jen tím, že neznáme přesnou částku, tj. výdaje příštího období a příjmy příštího období. 
+ 
+4. Je třeba zvážit i účetní řešení pro účetní jednotky, které používají pevný měnový kurs, a to 
+včetně zajištění. 
+ 
+B) S ohledem na výše uvedené body by podle našeho názoru mělo být v Interpretaci 
+navíc uvedeno: 
+1. Dohadnou položku je nutno odúčtovat stejným kursem, jakým je zaúčtována příslušná 
+faktura či jiný příslušný účetní doklad. Toto je pouze naznačeno ve Zdůvodnění (odstavec 
+14), přestože je to klíčové pro zachování principů uvedených výše. Pokud toto nebude 
+zachováno, kursový zisk nebo ztráta, vyplývající z rozdílu kursu, jímž je zrušena dohadná 
+položka, a kursu, jímž je zaúčtována faktura, vstoupí do ocenění zásob či dlouhodobého 
+majetku nebo na nákladové účty např. služeb, což je v rozporu s legislativou. 
+ 
+2. Legislativní úprava zajištění je bohužel nekonsistentní, zajištění očekávaných transakcí a 
+pevných příslibů (tedy např. smlouvy na nákup zařízení denominované v cizí měně), které 
+předchází tvorbě dohadné položky (např. na dosud nevyfakturovanou dodávku) se liší 
+podle toho, zda je zajištěno derivátem, nederivátovým finančním nástrojem nebo 
+
+                                                                           Interpretace NÚR I-18 Dohadné položky v cizí měně 
+ 
+ 
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+8/9 
+nefinančním aktivem, a to navíc ještě pro podnikatele je to jinak upraveno než pro finanční 
+instituce. Podnikatel může zajistit očekávanou transakci nebo pevný příslib nederivátovým 
+aktivem nebo závazkem, ale zajištění není účetně účinné, protože jakmile smluvní vztah 
+zaúčtuje (a tedy vytvoří dohadnou položku v cizí měně na nevyfakturovanou dodávku), 
+musí kursové rozdíly ze zajištění, které dosud účtoval do kapitálu, odúčtovat tak jako tak do 
+výkazu zisku a ztráty. U finanční instituce je to jinak: kursové rozdíly ze zajištění očekávané 
+transakce i pevného příslibu se vykazují v příslušné položce pasiv, načež se stanou součástí 
+ocenění aktiv nebo závazků z této transakce či pevného příslibu vzniklých. 
+V podstatě stejné je to pro zajištění derivátem, a to naštěstí stejně pro finanční instituce i 
+podnikatele. Zajištění měnového rizika od očekávané transakce až po úhradu dodaného 
+zboží či služby tedy opět může – tam, kde je to podle legislativy možné– být účetně účinné 
+jen tehdy, pokud bude dohadná položka odúčtována stejným kursem, jakým bude 
+zaúčtována faktura. 
+ 
+3. Podle našeho názoru platí, že časové rozlišení (příjmy příštích období a výdaje příštích 
+období) v cizí měně nelze účtovat. Vzhledem k tomu, že účetní jednotka nezná budoucí 
+kurs, kterým bude účtovat skutečný náklad v korunách, nezná ani jeho přesnou částku, a 
+tedy není splněn jeden z předpokladů pro účtování časového rozlišení. V cizí měně lze tedy 
+použít pouze dohadné položky.  
+Z toho pohledu ale nutně plyne otázka, zda mezi časové rozlišení dále zahrnovat i 
+pohledávky a závazky (tj. příjmy příštích období a výdaje příštích období), či zda časové 
+rozlišení začít konečně chápat jako časové rozlišení nákladů a výnosů. To je ale otázka pro 
+event. jinou Interpretaci. 
+ 
+4. Vše, co je uvedeno výše, platí i pro účetní jednotky, které používají pevný kurs, kursové 
+rozdíly se zaúčtují nejpozději při platbě či při přepočtu na konci účetního období. 
+ 
+5. Závěr: návrh Interpretace je momentálně pojat jako velmi obecný, nezaměřuje se na 
+detailnější části problematiky, nedává konkrétnější návody, konstatuje stav české účetní 
+legislativy. 
+ 
+ 
+Vypořádání připomínky 
+A: 
+1. Připomínka nemá vliv na dosavadní text Interpretace, text je v souladu s připomínkou. 
+2. Připomínka akceptována, doplněn odstavec 8 o odkaz na vyhl. č. 500/2002 Sb., § 60 odst. 
+5. 
+3. Připomínka neakceptována. Záměrem NÚR je vždy řešit, pokud možno, užší problém. 
+Interpretace se nevztahuje na časové rozlišení denominované v cizí měně. 
+4. Připomínka nemá vliv na dosavadní text Interpretace. Interpretace se vztahuje i na 
+popisované situace bez potřeby měnit její znění. „Kurs, který účetní jednotka používá v 
+daném okamžiku,“ může být jak pevný kurs, tak aktuální. 
+B: 
+1. Připomínka nemá vliv na dosavadní text Interpretace. Tento princip je obsažen v odstavcích 
+6 a 14. Klíčem ke správnému řešení je správné stanovení „příslušného“ okamžiku 
+uskutečnění účetního případu. Správné stanovení tohoto okamžiku není přímo předmětem 
+
+                                                                           Interpretace NÚR I-18 Dohadné položky v cizí měně 
+ 
+ 
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+9/9 
+této Interpretace, nicméně odstavec 14 naznačuje, že běžně se za okamžik účetního 
+případu, kterým je pořízení zboží, považuje okamžik pořízení zboží a že pořízení zboží 
+nemůže mít dva okamžiky uskutečnění, kdy k pořízení došlo. 
+2. Připomínka nemá vliv na dosavadní text Interpretace. Cizoměnová dohadná položka má 
+stejný režim jako cizoměnová pohledávka či závazek. Tato Interpretace tedy nemůže ani 
+vylepšit, ani zhoršit odúčtování zmíněných akumulovaných kursových rozdílů ve vlastním 
+kapitálu. Analogické řešení s „běžnými“ pohledávkami a závazky je odvislé od správného 
+stanovení okamžiku uskutečnění účetního případu a platí totéž, co v předchozím bodě. 
+3. Připomínka neakceptována, je mimo předmět Interpretace. 
+4. Viz vypořádání k A4. 
+5. Připomínka nemá vliv na dosavadní text Interpretace. Text je záměrně obecný. 
+ 
+ 
+ 
+Datum prvního schválení 
+této interpretace NÚR: 
+21. června 2010 
+Datum poslední aktualizace 
+této interpretace NÚR: 
+1. dubna 2019 
+Zpracovatel interpretace: 
+Ing. Jiří Pelák, Ph.D.  
+Katedra finančního účetnictví a auditingu 
+Fakulta financí a účetnictví 
+Vysoká škola ekonomická v Praze  
+Nám. W. Churchilla 4  
+130 67 Praha 3 – Žižkov  
+ 
+Mgr. Edita Ševcovicová  
+Komora daňových poradců ČR

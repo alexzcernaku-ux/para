@@ -1,0 +1,96 @@
+ZÁKON: ČÚS č. 005
+NAZEV: Český účetní standard pro podnikatele č. 005 – Opravné položky
+URL: https://www.mfcr.cz/assets/cs/media/Ucetnictvi_2018_Ceske-ucetni-standardy-pro-500-2002_v02.pdf
+
+Opravné položky 
+ 
+ 
+1. Cíl 
+     Cílem tohoto standardu je stanovit podle zákona č. 563/1991 Sb., o účetnictví, ve znění 
+pozdějších předpisů, (dále jen „zákon“) a vyhlášky č. 500/2002 Sb., kterou se provádějí 
+některá ustanovení zákona č. 563/1991 Sb., o účetnictví, ve znění pozdějších předpisů, pro 
+účetní jednotky, které jsou podnikateli účtujícími v soustavě podvojného účetnictví, ve znění 
+pozdějších předpisů, (dále jen „vyhláška“) základní postupy účtování o opravných položkách 
+za účelem docílení souladu při používání účetních metod účetními jednotkami. 
+ 
+2. Obsahové vymezení 
+     Opravnými položkami se vyjadřuje přechodné snížení hodnoty majetku za podmínek 
+uvedených v § 55 vyhlášky. 
+ 
+3. Postup tvorby a použití 
+3.1.  Při tvorbě a použití opravných položek se postupuje podle § 55 vyhlášky ve smyslu § 26 
+odst. 3 zákona. 
+3.2.  zrušen 
+3.3.  zrušen 
+3.4. zrušen 
+3.5.   zrušen 
+   
+4. Postup účtování 
+4.1.  Opravné položky u dlouhodobého nehmotného a hmotného majetku 
+4.1.1.  O tvorbě opravných položek k dlouhodobému nehmotnému a hmotnému majetku se  
+účtuje na vrub příslušného účtu účtové skupiny 55 – Odpisy, rezervy, komplexní 
+náklady příštích období a opravné položky v provozní oblasti souvztažně 
+s příslušnými účty účtové skupiny 09 – Opravné položky k dlouhodobému majetku; o 
+snížení nebo zrušení opravných položek se účtuje ve prospěch příslušného účtu účtové 
+skupiny 55 – Odpisy, rezervy, komplexní náklady příštích období a opravné položky 
+v provozní oblasti souvztažně s příslušnými účty účtové skupiny 09 – Opravné položky 
+k dlouhodobému majetku.  
+4.1.2.  Opravné položky k odpisovanému dlouhodobému majetku, jehož užitná hodnota se 
+běžně snižuje opotřebením, se tvoří v případech, kdy je jeho užitná hodnota zjištěná 
+při inventarizaci výrazně nižší, než je jeho ocenění v účetnictví po odečtení oprávek, a 
+toto snížení hodnoty nelze považovat za definitivní (za snížení trvalého charakteru).  
+4.2.  Opravné položky k zásobám 
+4.2.1.  O tvorbě opravných položek k zásobám se účtuje na vrub příslušného účtu účtové 
+skupiny 55 – Odpisy, rezervy, komplexní náklady příštích období a opravné položky 
+v provozní oblasti souvztažně s příslušnými účty účtové skupiny 19 – Opravné 
+položky k zásobám; o snížení nebo zrušení opravných položek se účtuje ve prospěch 
+příslušného účtu účtové skupiny 55 – Odpisy, rezervy, komplexní náklady příštích 
+období a opravné položky v provozní oblasti souvztažně s příslušnými účty účtové 
+skupiny 19 – Opravné položky k zásobám.  
+4.2.2.  zrušen 
+4.3.  Opravné položky ke krátkodobému finančnímu majetku 
+ 
+13 
+O tvorbě opravných položek ke krátkodobému finančnímu majetku se  účtuje na vrub 
+příslušného účtu účtové skupiny 57 – Rezervy a opravné položky ve finanční oblasti 
+souvztažně s příslušnými účty účtové skupiny 29 – Opravné položky ke krátkodobému 
+finančnímu majetku; o snížení nebo zrušení opravných položek se účtuje ve prospěch 
+příslušného účtu účtové skupiny 57 – Rezervy a opravné položky ve finanční oblasti 
+souvztažně s příslušnými účty účtové skupiny 29 – Opravné položky ke krátkodobému 
+finančnímu majetku.  
+4.4.  Opravné položky k pohledávkám 
+4.4.1.  O tvorbě opravných položek k pohledávkám se  účtuje na vrub příslušného účtu 
+účtové skupiny 55 – Odpisy, rezervy, komplexní náklady příštích období a opravné 
+položky v provozní oblasti souvztažně s příslušnými účty účtové skupiny 39 – 
+Opravná položka k zúčtovacím vztahům a vnitřní zúčtování; o snížení nebo zrušení 
+opravných položek se účtuje ve prospěch příslušného účtu účtové skupiny 55 –Odpisy, 
+rezervy, komplexní náklady příštích období a opravné položky v provozní oblasti 
+souvztažně s příslušnými účty účtové skupiny 39 – Opravná položka k zúčtovacím 
+vztahům a vnitřní zúčtování. Na analytických účtech se člení opravné položky 
+vytvořené v souladu se zvláštním právním předpisem1) a ostatní opravné položky 
+k pohledávkám. 
+4.4.2.  zrušen 
+4.4.3.  Výše opravné položky, vytvářené podle zvláštního právního předpisu1) nebo nad jeho 
+rámec, nesmí přesáhnout účetní hodnotu pohledávky na rozvahovém účtu, k níž je 
+opravná položka tvořena. V případech, ve kterých bude opravná položka vytvořena ve 
+výši 100 % hodnoty nepromlčené pohledávky s výjimkou pohledávek za dlužníky v  
+insolvenčním řízení, může být tato pohledávka odepsána a opravná položka k ní 
+zrušena. Takto odepsaná pohledávka se dále sleduje na podrozvahových účtech 
+s výjimkou těch pohledávek, u kterých došlo k jejich zániku. Přijatá úhrada odepsané 
+pohledávky se zaúčtuje jako výnos na příslušném účtu účtové skupiny 64 – Jiné 
+provozní výnosy a zachytí se na podrozvahových účtech 
+4.5.  Postup účtování opravných položek na vrub či ve prospěch příslušných účtů nákladů je 
+uveden v Českém účetním standardu pro podnikatele č. 019 Náklady a výnosy. 
+4.6.  Při prodeji majetku se opravné položky, které se k němu váží, zruší vyúčtováním ve 
+prospěch příslušného nákladového účtu. 
+4.7.  V případě, že se při inventarizaci závazků zjistí, že jejich částka je vyšší než jejich výše 
+v účetnictví, nevytvářejí se opravné položky, ale zvýšení se zaúčtuje přímo na účtu 
+závazků se souvztažným zápisem na vrub příslušného účtu nákladů.  
+ 
+ 
+                                                 
+1)  Například zákon č. 593/1992 Sb., o rezervách pro zjištění základu daně z příjmů, ve znění pozdějších 
+předpisů. 
+ 
+ 
+14

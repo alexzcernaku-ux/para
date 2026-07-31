@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Generátor daňového přiznání — Para</title>
+<link rel="icon" href="assets/img/logo/logo-mark.png" />
+<link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+
+<div class="app-loading" id="page-loading">
+  <img src="assets/img/mascot/mascot-pocita.png" alt="" />
+  Chvilku strpení…
+</div>
+
+<div class="hidden" id="page-shell">
+  <div class="app-topbar" style="padding: 16px 28px;">
+    <a href="app.html" style="display:flex; align-items:center; gap:10px; text-decoration:none;">
+      <img src="assets/img/logo/logo-primary-light.png" alt="Para" style="height:26px" />
+    </a>
+    <div style="display:flex; align-items:center; gap:16px;">
+      <a href="app.html" class="btn btn-secondary">← Zpět do chatu</a>
+      <button type="button" class="app-signout-btn" id="signout-btn">Odhlásit se</button>
+    </div>
+  </div>
+
+  <div class="gen-shell" style="max-width: 640px;">
+    <div class="gen-head">
+      <img src="assets/img/mascot/mascot-pocita.png" alt="Para pomáhá s přiznáním" class="mascot-img" />
+      <span class="eyebrow" style="justify-content:center; display:flex;">Generátor daňového přiznání</span>
+      <h1 style="margin: 10px 0 4px;">Projdeme to spolu, krok za krokem</h1>
+      <p>Postupně se zeptám na to, co je potřeba pro přiznání k dani z příjmů (§ 7 — samostatná činnost). Na konci dostanete vyplněný tiskopis 25 5405 jako PDF.</p>
+    </div>
+
+    <div id="blocked-notice" class="disclaimer-banner hidden" style="margin-bottom: 24px;">
+      <div class="icon-circle">
+        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 9v4M12 17h.01" /><path d="M10.3 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.7 3.86a2 2 0 00-3.4 0z" /></svg>
+      </div>
+      <div>
+        <h3>Tenhle generátor je pro OSVČ (fyzické osoby)</h3>
+        <p>Podle profilu podnikáte přes s.r.o. — to se přiznává na jiném tiskopisu (daň z příjmů právnických osob), který tenhle generátor zatím nepokrývá. To obvykle řeší účetní/daňový poradce.</p>
+      </div>
+    </div>
+
+    <div id="wizard-wrap">
+      <div class="wiz-progress" id="wiz-progress"></div>
+
+      <div class="card wiz-card" id="wiz-card">
+        <div class="para-intro" style="margin-bottom: 22px;">
+          <img src="assets/img/mascot/mascot-pocita.png" alt="Para" class="mascot-img" />
+          <div class="para-bubble" id="wiz-bubble"></div>
+        </div>
+
+        <div id="wiz-body"></div>
+
+        <div class="wiz-nav">
+          <button type="button" class="btn btn-secondary" id="wiz-back">← Zpět</button>
+          <button type="button" class="btn btn-primary" id="wiz-next">Pokračovat →</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="disclaimer-banner" style="margin-top: 24px;">
+      <div class="icon-circle">
+        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 9v4M12 17h.01" /><path d="M10.3 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.7 3.86a2 2 0 00-3.4 0z" /></svg>
+      </div>
+      <div>
+        <h3>Podklad k přiznání, ne hotové podání</h3>
+        <p>Vyplní jen řádky týkající se příjmů ze samostatné činnosti (§ 7) a navazujícího výpočtu daně — pokud máte i jiné druhy příjmů (zaměstnání, nájem, kapitálový majetek), doplňte je v PDF ručně. Před podáním si výsledek zkontrolujte, případně na stránce „Kontrola přiznání“, nebo s daňovým poradcem.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  window.PARA_CONFIG = {
+    endpoint: "https://fibytymnzgluyxxszria.supabase.co/functions/v1/zakon-query",
+    anonKey: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImZpYnl0eW1uemdsdXl4eHN6cmlhIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODU0MzM4ODgsImV4cCI6MjEwMTAwOTg4OH0.hFEzCTPZEGpQaQguytnu8Hyz6z9j6P5M1E17l2WfGdE",
+    supabaseUrl: "https://fibytymnzgluyxxszria.supabase.co",
+    supabaseAnonKey: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImZpYnl0eW1uemdsdXl4eHN6cmlhIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODU0MzM4ODgsImV4cCI6MjEwMTAwOTg4OH0.hFEzCTPZEGpQaQguytnu8Hyz6z9j6P5M1E17l2WfGdE",
+  };
+</script>
+<script type="module" src="assets/js/dap-generator-page.js"></script>
+
+</body>
+</html>

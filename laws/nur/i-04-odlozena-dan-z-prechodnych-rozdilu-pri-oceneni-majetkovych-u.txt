@@ -1,0 +1,137 @@
+ZÁKON: NÚR I-4
+NAZEV: Interpretace Národní účetní rady I-4 – Odložená daň z přechodných rozdílů při ocenění majetkových účastí metodou ekvivalence
+URL: http://nur.cz/wp-content/uploads/2020/10/I-04_updated.pdf
+
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+1/3 
+Interpretace NÚR 
+I–4 
+Odložená daň z přechodných rozdílů při ocenění majetkových účastí metodou 
+ekvivalence 
+Účetní jednotky jsou povinny vést účetnictví tak, aby účetní závěrka sestavená na jeho základě 
+podávala věrný a poctivý obraz předmětu účetnictví a finanční situace účetní jednotky (zákon 
+č. 563/1991 Sb., o účetnictví, § 7, odst. 1). Účetní jednotky účtují o stavu a pohybu majetku a jiných 
+aktiv, závazků a jiných pasiv, dále o nákladech a výnosech a o výsledku hospodaření. (zákon 
+č. 563/1991 Sb., o účetnictví, § 2, Předmět účetnictví).  
+Tato interpretace musí být aplikována v kontextu s Předmluvou Národní účetní rady 
+k interpretacím českých účetních standardů. 
+ 
+Odkaz:  
+Zákon č. 563/1991 Sb., o účetnictví, ve znění pozdějších předpisů 
+Vyhláška č. 500/2002 Sb., ve znění pozdějších předpisů 
+ČÚS 003 – Odložená daň 
+ČÚS 008 – Operace s cennými papíry a podíly 
+ČÚS 020 – Konsolidace 
+Zákon o daních z příjmů č. 586/1992 Sb., ve znění pozdějších předpisů 
+ 
+Popis problému 
+1. Zákon o účetnictví v § 27 umožňuje podíl, který představuje účast s rozhodujícím nebo 
+podstatným vlivem, ocenit ekvivalencí (protihodnotou). Dle Českého účetního standardu č. 008 
+– Operace s cennými papíry a podíly se příslušná změna ocenění zúčtuje kapitálově. V případě 
+konsolidované účetní závěrky se ekvivalenční metoda použije pro účasti s podstatným vlivem a 
+v souladu s § 66 vyhlášky č. 500/2002 Sb. a Českým účetním standardem č. 020 – Konsolidace 
+se příslušný přírůstek odpovídající nárůstu podílu na vlastním kapitálu konsolidované účetní 
+jednotky vykáže výsledkově. 
+ 
+2. Otázkou je: 
+a) zda se v těchto případech zároveň vypočítá a vykáže odložená daň, 
+b) zda se v případě jejího vykázání zúčtuje a vykáže vždy výsledkově (dle ČÚS č. 003). 
+ 
+Řešení 
+3. Odložená daň v případě ekvivalence se vypočítá a vykáže v návaznosti na zdanění případných 
+budoucích výplat podílů na zisku ve výši daně vybírané srážkou dle zákona o daních z příjmů. 
+Vzhledem k tomu, že tato daň podléhá osvobození u společností, které jsou pro účely zákona o 
+daních z příjmů definovány jako dceřiné, přichází výpočet a vykázání odložené daně v úvahu 
+pouze v těch specifických případech, kdy je ekvivalenční metoda použita u těch účetních 
+
+         Interpretace NÚR I-4 Odložená daň z přechodných rozdílů při ocenění majetkových účastí 
+metodou ekvivalence 
+ 
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+2/3 
+jednotek, které z hlediska zákona o daních z příjmů nevyhovují definici dceřiné společnosti. 
+Pokud v tomto případě bude odložená daň zúčtována a vykázána, měla by být v budoucnu 
+zpětně odúčtována v návaznosti na výplatu podílů na zisku nebo v tom období, ve kterém 
+příslušná společnost splní kritéria definice dceřiné společnosti. 
+ 
+4. Při přecenění ekvivalencí k rozvahovému dni, kdy je původní cena finančního aktiva upravena 
+na hodnotu nižší, přichází v úvahu účtování o odložené dani pouze v případě, že byl v minulosti 
+zúčtován odložený daňový závazek, a to pouze do výše tohoto závazku. 
+ 
+5. Ustanovení ČÚS č. 003 – Odložená daň konkrétně neřeší postup při účtování odložené daně z 
+titulu přecenění finančního majetku ekvivalencí, což znamená, že by účetní jednotka měla 
+postupovat dle výše zmiňovaného postupu ČÚS č. 003 a účtovat výsledkově. To je však v 
+případě nekonsolidované účetní závěrky v rozporu s obecně uznávanými účetními zásadami 
+zakotvenými v zákoně o účetnictví. Odložená daň by v takovém případě měla být zúčtovaná 
+proti neuhrazené ztrátě minulých let, respektive oproti vlastnímu kapitálu. Naopak v případě 
+konsolidované účetní závěrky, kdy roční přírůstek čistých aktiv je vykazován jako podíl na 
+výsledku hospodaření v ekvivalenci výsledkově, se i případná související odložená daň zúčtuje 
+také výsledkově. 
+ 
+Zdůvodnění 
+6. Ekvivalenční metoda se používá v případech rozhodujícího či podstatného vlivu (při konsolidaci 
+pouze v případech podstatného vlivu). Aniž je to v našich účetních předpisech tak jednoznačně 
+uvedeno, lze dovodit, že rozhodující či podstatný vliv souvisí vždy se záměrem dlouhodobého 
+držení a ovládání (uplatňování podílu na ovládání při podstatném vlivu), nikoliv se záměrem 
+prodeje příslušných účastí (cenných papírů či vkladů) v blízké budoucnosti. Tento záměr je pak 
+rozhodující i pro posouzení případné budoucí daňové povinnosti. Pokud je záměrem ovládat či 
+se podílet na ovládání a dlouhodobě příslušnou účast držet, pak přicházejí v úvahu zejména 
+příjmy z podílů na zisku od příslušných účetních jednotek. Pokud jsou tedy předtím vykazovány 
+přírůstky z ocenění formou ekvivalence, je třeba je považovat za zdroje, které se později 
+případně projeví ve výnosech z podílů na zisku nebo v příjmech z prodeje podílu.  
+Dle současného zákona o daních z příjmů podléhají jak příjmy z podílu na zisku, tak příjmy z 
+prodeje podílu osvobození od daně z příjmů v případě dceřiných společností definovaných 
+tímto zákonem. Pokud tedy bude oceňována ekvivalencí účast v takové, z hlediska daně z 
+příjmů dceřiné společnosti, nebude odložená daň vykazována. To platí jak pro konsolidovanou, 
+tak nekonsolidovanou účetní závěrku. Její výpočet (ve výši 15% srážkové daně) a její vykázání 
+přichází v úvahu pouze v těch případech, kdy je uplatňován rozhodující nebo podstatný vliv v 
+účetní jednotce, která není dceřinou společností dle zákona o daních z příjmů. Dle obecných 
+účetních zásad i obsahu a účelu odložené daně by mělo její zúčtování a vykázání příslušně 
+korigovat dosažené výsledky hospodaření a případné zdroje k rozdělení v návaznosti na 
+budoucí daňové závazky či pohledávky související s již uskutečněnými transakcemi a dalšími 
+účetními operacemi účetní jednotky. Pokud tyto transakce a operace mají dopad na výsledek 
+hospodaření běžného období, je třeba i korekci vykázat výsledkově. Pokud ale existují operace, 
+které nemají výsledkový dopad, což je v našem případě použití ekvivalence u 
+nekonsolidovaných účetních závěrek, pak i příslušná odložená daň by neměla být účtována 
+výsledkově, ale kapitálově. 
+
+         Interpretace NÚR I-4 Odložená daň z přechodných rozdílů při ocenění majetkových účastí 
+metodou ekvivalence 
+ 
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+3/3 
+Dle ustanovení zákona o účetnictví postupuje účetní jednotka při použití účetních metod 
+stanovených prováděcími právními předpisy tak, aby byl v prvé řadě podán věrný a poctivý 
+obraz účetnictví. Zákon připouští ve výjimečných případech možnost použít účetní metody, 
+které se odchylují od účetních metod stanovených prováděcími právními předpisy. Proto v 
+souladu s principem věrného a poctivého zobrazení je tedy možné vykázat odloženou daň ve 
+výše uvedených případech v návaznosti na účetní operaci, která odloženou daň vyvolala, tzn. 
+kapitálově. 
+ 
+7. V případě konsolidované účetní závěrky je při použití ekvivalence vykazován podíl na přírůstku 
+(případně úbytku) vlastního kapitálu formou podílu na výsledku hospodaření v ekvivalenci, 
+tedy výsledkově. Pak i případná odložená daň musí být zúčtována a vykázána výsledkově. 
+ 
+ 
+ 
+Datum prvního schválení 
+této interpretace NÚR: 
+14. prosince 2005 
+Datum poslední aktualizace 
+této interpretace NÚR: 
+1. dubna 2019 
+ 
+Zpracovatel interpretace: 
+Ing. Lubomír Harna 
+Svaz účetních  
+Štěpánská 28  
+110 00 Praha 1  
+ 
+Mgr. Edita Ševcovicová  
+Fučík & partneři, s.r.o.  
+Areál Zálesí  
+Pod Višňovkou 33  
+140 00 Praha 4

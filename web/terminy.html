@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Termíny — Para</title>
+<link rel="icon" href="assets/img/logo/logo-mark.png" />
+<link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+
+<div class="app-loading" id="page-loading">
+  <img src="assets/img/mascot/mascot-kontroluje.png" alt="" />
+  Chvilku strpení…
+</div>
+
+<div class="hidden" id="page-shell">
+  <div class="app-topbar" style="padding: 16px 28px;">
+    <a href="app.html" style="display:flex; align-items:center; gap:10px; text-decoration:none;">
+      <img src="assets/img/logo/logo-primary-light.png" alt="Para" style="height:26px" />
+    </a>
+    <div style="display:flex; align-items:center; gap:16px;">
+      <a href="app.html" class="btn btn-secondary">← Zpět do chatu</a>
+      <button type="button" class="app-signout-btn" id="signout-btn">Odhlásit se</button>
+    </div>
+  </div>
+
+  <div class="terminy-shell">
+    <div class="terminy-head">
+      <img src="assets/img/mascot/mascot-kontroluje.png" alt="Para hlídá termíny" class="mascot-img" />
+      <span class="eyebrow" style="justify-content:center; display:flex;">Termínovník</span>
+      <h1 style="margin: 10px 0 4px;">Vaše nejbližší povinnosti</h1>
+      <p>Spočítáno podle vašeho profilu — typ podnikání a DPH režim. Termíny, které se vás netýkají, tu nejsou.</p>
+    </div>
+
+    <div id="timeline-container"></div>
+  </div>
+</div>
+
+<script>
+  window.PARA_CONFIG = {
+    endpoint: "https://fibytymnzgluyxxszria.supabase.co/functions/v1/zakon-query",
+    anonKey: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImZpYnl0eW1uemdsdXl4eHN6cmlhIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODU0MzM4ODgsImV4cCI6MjEwMTAwOTg4OH0.hFEzCTPZEGpQaQguytnu8Hyz6z9j6P5M1E17l2WfGdE",
+    supabaseUrl: "https://fibytymnzgluyxxszria.supabase.co",
+    supabaseAnonKey: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImZpYnl0eW1uemdsdXl4eHN6cmlhIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODU0MzM4ODgsImV4cCI6MjEwMTAwOTg4OH0.hFEzCTPZEGpQaQguytnu8Hyz6z9j6P5M1E17l2WfGdE",
+  };
+</script>
+<script type="module">
+  import { requireOnboardedProfile, signOut } from "./assets/js/supabase-client.js";
+  import { computeDeadlines, urgencyLevel } from "./assets/js/deadlines.js";
+
+  const loadingEl = document.getElementById("page-loading");
+  const shellEl = document.getElementById("page-shell");
+  const container = document.getElementById("timeline-container");
+  const signoutBtn = document.getElementById("signout-btn");
+
+  const MESICE = ["leden", "únor", "březen", "duben", "květen", "červen", "červenec", "srpen", "září", "říjen", "listopad", "prosinec"];
+  // slice(0,3) by dal "čer" pro červen i červenec zároveň — vlastní zkratky.
+  const MESICE_ZKRATKA = ["led", "úno", "bře", "dub", "kvě", "čvn", "čvc", "srp", "zář", "říj", "lis", "pro"];
+
+  function renderTimeline(items) {
+    if (!items.length) {
+      container.innerHTML = `
+        <div class="terminy-empty">
+          <img src="assets/img/mascot/mascot-ma-vas-rad.png" alt="" />
+          <h3>Žádné termíny na dohled</h3>
+          <p>V nejbližších měsících vás nečeká žádná povinnost, kterou umíme spočítat.</p>
+        </div>`;
+      return;
+    }
+
+    let html = "";
+    let lastMonthKey = null;
+    for (const item of items) {
+      const monthKey = `${item.date.getFullYear()}-${item.date.getMonth()}`;
+      if (monthKey !== lastMonthKey) {
+        html += `<div class="timeline-month-label">${MESICE[item.date.getMonth()]} ${item.date.getFullYear()}</div>`;
+        lastMonthKey = monthKey;
+      }
+      const level = urgencyLevel(item.zbyvaDni);
+      const countdownText = item.zbyvaDni <= 0 ? "Dnes" : item.zbyvaDni === 1 ? "Zítra" : `Za ${item.zbyvaDni} dní`;
+      html += `
+        <div class="timeline-item ${level}">
+          <div class="timeline-date">
+            <div class="day">${item.date.getDate()}.</div>
+            <div class="mon">${MESICE_ZKRATKA[item.date.getMonth()]}</div>
+          </div>
+          <div class="timeline-body">
+            <div class="timeline-body-top">
+              <div class="timeline-title">${item.title}</div>
+              <span class="timeline-countdown ${level}">${countdownText}</span>
+            </div>
+            <p class="timeline-desc">${item.popis}</p>
+            <div class="timeline-source">${item.zdroj}</div>
+          </div>
+        </div>`;
+    }
+    container.innerHTML = html;
+  }
+
+  signoutBtn.addEventListener("click", () => signOut());
+
+  (async () => {
+    const result = await requireOnboardedProfile();
+    if (!result) return;
+    const { profile } = result;
+
+    renderTimeline(computeDeadlines(profile));
+
+    loadingEl.classList.add("hidden");
+    shellEl.classList.remove("hidden");
+  })();
+</script>
+
+</body>
+</html>

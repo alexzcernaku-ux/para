@@ -1,0 +1,242 @@
+ZÁKON: NÚR I-43
+NAZEV: Interpretace Národní účetní rady I-43 – Poskytnuté zálohy v cizí měně
+URL: http://nur.cz/wp-content/uploads/2021/08/I-43.pdf
+
+© Národní účetní rada 
+Schválený text interpretace 
+1/5 
+ 
+ 
+Interpretace Národní účetní rady 
+I-43 Poskytnuté zálohy v cizí měně 
+ 
+Účetní jednotky jsou povinny vést účetnictví tak, aby účetní závěrka sestavená na jeho základě 
+podávala věrný a poctivý obraz předmětu účetnictví a finanční situace účetní jednotky (zákon 
+č. 563/1991 Sb., o účetnictví § 7 odst. 1). Za vedení účetnictví je odpovědná účetní jednotka. 
+Tato interpretace není právně závazným stanoviskem, pouze vyjadřuje odborný názor 
+Národní účetní rady a může být aplikována pouze v kontextu s Předmluvou Národní účetní 
+rady k interpretacím českých účetních předpisů. Postup popsaný v této interpretaci poskytuje 
+účetní jednotce návod v případech, kdy má jejich aplikace významný dopad na informace 
+uvedené v účetní závěrce a kdy informační přínosy jsou větší než náklady nutné na jejich 
+získání. 
+ 
+Popis problému: 
+1. Zákon č. 563/1991 Sb., o účetnictví (dále také „zákon“), v § 4 odst. 12 ukládá účetním 
+jednotkám povinnost vést účetnictví v peněžních jednotkách české měny a v případě 
+pohledávek a závazků, a jiných vymezených aktiv a závazků, pokud jsou vyjádřeny v cizí 
+měně, jsou účetní jednotky povinny použít současně i cizí měnu. 
+2. Zákon v § 24 odst. 6 požaduje přepočítávat na českou měnu pouze majetek a závazky 
+vyjádřené v cizí měně s odkazem na § 24 odst. 2 písm. a) a b) zákona. Dle § 24 odst. 6 
+zákona účetní jednotky přepočítávají majetek a závazky vyjádřené v cizí měně na českou 
+měnu k okamžiku uskutečnění účetního případu a následně ke konci rozvahového dne. 
+3. Vyhláška č. 500/2002 Sb., v § 4 odst. 8 (dále také „vyhláška“) v návaznosti na zákon 
+stanoví, že se účetní závěrka sestavuje v peněžních jednotkách české měny.  
+4. Zákon v § 25 odst. 5 stanoví, že se pro účely tohoto zákona pořizovací cenou rozumí cena, 
+za kterou byl majetek pořízen a náklady s jeho pořízením související.  
+5. Vyhláška v § 47 odst. 2 stanoví, že součástí ocenění dlouhodobého nehmotného a 
+hmotného majetku a technického zhodnocení zejména nejsou kursové rozdíly (písm. c). 
+6. Běžnou součástí ekonomických transakcí a událostí účetních jednotek jsou transakce 
+sjednané v jiné měně, než je měna česká, v níž mají dle zákona vést účetnictví a podle 
+vyhlášky sestavovat účetní závěrku – prodeje výrobků a zboží, poskytování služeb, 
+poskytování zápůjček, stejně tak nákupy dlouhodobého majetku, zásob nebo čerpání 
+úvěrů či emise dluhopisů. Účetní jednotky těmito transakcemi vstupují do cizoměnových 
+transakcí, tj. transakcí, které jsou primárně sjednané v jiné měně než v peněžních 
+jednotkách české měny.  
+7. V souvislosti s cizoměnovými transakcemi je účetní jednotka vystavena (otevřena) 
+kurzovému (měnovému) riziku, pokud je účtování cizoměnové transakce spojeno 
+
+ 
+ 
+I-43 Poskytnuté zálohy v cizí měně 
+ 
+© Národní účetní rada 
+Schválený text interpretace 
+2/5 
+ 
+s peněžní platbou v budoucnosti. Kurzové riziko se do účetnictví a do účetní závěrky 
+přenáší prostřednictvím kurzových rozdílů – ziskových nebo ztrátových a ve svém 
+důsledku mění hodnotu aktiv a závazků vykazovanou v účetní závěrce.  
+8. Kurzové riziko ze své podstaty tedy vzniká pouze u těch cizoměnových aktiv a závazků, 
+kdy vývoj měnového kurzu má vliv na výši budoucích peněžních toků, které účetní 
+jednotka z aktiva očekává získat jako přijatou platbu, resp. v souvislosti s vypořádáním 
+závazku, které očekává uhradit (např. odběratelé, nakoupené dluhopisy, dodavatelé, 
+přijaté úvěry apod.). Kursové riziko nevyplývá z aktiv a závazků, které ač jsou důsledkem 
+cizoměnové transakce, nevyjadřují směrem do budoucna očekávaný peněžní tok (např. 
+pozemky a budovy v rámci dlouhodobého hmotného majetku, zásoby, náklady příštích 
+období, výnosy příštích období, stejně tak uhrazené zálohy, které nebudou v budoucnosti 
+vráceny apod.) 
+9. České účetní předpisy zahrnující zákon, vyhlášku a dále české účetní standardy, nedefinují 
+obecně cizoměnová aktiva a závazky, s nimiž je spojen určitý – pevný nebo jasně 
+determinovaný – budoucí peněžní tok a tím neposkytují obecně platná pravidla, která by 
+byla použita účetními jednotkami pro kurzové přepočty cizoměnových položek.  
+10. V důsledku výše uvedeného jsou v praxi používány rozlišné přístupy k účtování a 
+vykazování kurzových přepočtů pohledávek vyplývajících ze záloh poskytnutých v cizí 
+měně, přičemž převažuje přístup popsaný v odst. 11, který je však v rozporu s podstatou 
+vymezení kurzového rizika a který současně nereflektuje věrné zobrazení kurzového 
+rizika v účetní závěrce. Navíc je v rozporu s vymezením pořizovací ceny.  
+11. Účetní jednotky k rozvahovému dni považují poskytnuté zálohy (na pořízení 
+dlouhodobého majetku, zásob či služeb) za cizoměnová aktiva (za pohledávky) a 
+přistupují k jejich kurzovému přepočtu, přičemž ve finančním výsledku hospodaření jsou 
+vykazovány kurzové rozdíly. K okamžiku dodání souvisejícího aktiva dochází k zúčtování 
+zálohy, tj. k uskutečnění účetního případu, při němž dochází opět ke kurzovému přepočtu 
+a k vykázání kurzových rozdílů ve finančním výsledku hospodaření. Ocenění pořízeného 
+aktiva v rozvaze nebo nakoupené služby vstupující rovnou do nákladů je vyjádřeno 
+v peněžních jednotkách české měny s použitím měnového kurzu platného k okamžiku 
+dodání. 
+12. Cílem této interpretace je stanovit účetní řešení při vykazování záloh poskytnutých v cizí 
+měně v účetní závěrce. Tato interpretace naopak neupravuje účetní řešení záloh přijatých 
+v cizí měně. 
+13. Předmětem řešení této interpretace jsou následující otázky: 
+a) Co je podstatou poskytnuté zálohy?  
+b) Kdy je záloha pohledávkou?  
+c) Kde v rozvaze má být vykázána poskytnutá záloha, pokud není pohledávkou? 
+d) Kdy k poskytnuté záloze jsou vykazovány kurzové rozdíly?  
+
+ 
+ 
+I-43 Poskytnuté zálohy v cizí měně 
+ 
+© Národní účetní rada 
+Schválený text interpretace 
+3/5 
+ 
+ 
+Řešení: 
+14. Poskytnutá záloha je v účetnictví důsledkem úhrady (části) pořizovací ceny majetku nebo 
+služby před jejich vlastním dodáním. Obecně platí, že pořizovací cenu nakupovaného 
+majetku nebo služby lze uhradit hned při jejich dodání, v čase následujícím dodání (k 
+okamžiku dodání vzniká závazek), anebo v době před dodáním (je zachycena poskytnutá 
+záloha). Proto poskytnutá záloha, s výjimkou odst. 15, představuje ve své podstatě 
+samostatnou (dílčí) část celkové pořizovací ceny nakupovaného majetku / služby. 
+Poskytnutá záloha je financováním (úhradou) smluvené dodávky majetku nebo služby, 
+přičemž je obvyklé, že takové dodání následuje. 
+15. Tvrzení uvedené v odst. 14 neplatí, pokud je pravděpodobné, že dojde k navrácení 
+uskutečněné platby, resp. nedojde k dodání majetku nebo služby. Indikací přitom může 
+být prodlení v dodání, vedený spor s dodavatelem, doložené informace, od dodavatele, že 
+k plnění nedojde apod. V takovém případě je poskytnutá záloha cizoměnovou 
+pohledávkou, je-li uhrazena v transakci sjednané v cizí měně a platí řešení popsané v odst. 
+19.   
+16. Je-li poskytnutá záloha samostatnou (dílčí) částí celkové pořizovací ceny majetku nebo 
+služeb v transakce sjednané v cizí měně, tj. je očekáváno dodání předmětu smluvního 
+ujednání:  
+a) poskytnutá záloha nepředstavuje majetek vyjádřený v cizí měně spadající do 
+rozsahu § 4 odst. 12, který je předmětem kurzového přepočtu; 
+b) účetní jednotka vykazuje zůstatek poskytnuté zálohy v peněžních jednotkách české 
+měny v hodnotě stanovené kurzovým přepočtem k datu účetního případu, 
+konkrétně k datu poskytnutí peněžních prostředků; 
+c) poskytnutá záloha je v rozvaze vykazována (i) v rámci dlouhodobého majetku, je-
+li očekávaným plněním pořízení dlouhodobého majetku, (ii) v rámci zásob, je-li 
+očekávaným plněním pořízení zásob nebo (iii) v rámci nákladů příštích období, je-
+li očekávaným plněním pořízení služby; 
+d) výše celkových pořizovacích nákladů majetku nebo služby, která nebyla zálohou 
+uhrazena, představuje další samostatnou (dílčí) část celkové pořizovací ceny, o níž 
+účetní jednotka účtuje (jako o závazku nebo úhradě) v době dodání majetku nebo 
+služby, přičemž nedochází souběžně k přepočtu částky poskytnuté zálohy. 
+17. Předchází-li dodání majetku nebo služby více směnných transakcí, z nichž je kumulován 
+zůstatek poskytnutých záloh, přísluší každé směnné transakci historický měnový kurz 
+určený k přepočtu příslušné výše zálohové platby, neboť každá uhrazená záloha je 
+samostatnou (dílčí) částí celkových pořizovacích nákladů. 
+18. Je-li předmětem transakce platba za kontinuálně ve stejnou dobu probíhající dodávky 
+(např. energii) s následným vyúčtováním (např. ročním), nejedná se o zálohu dle 
+vymezení v odst. 14 a účetní jednotka vykáže platby průběžně v nákladech, nejpozději 
+však k rozvahovému dni. Průběžně, nejpozději však k rozvahovému dni, účetní jednotka 
+
+ 
+ 
+I-43 Poskytnuté zálohy v cizí měně 
+ 
+© Národní účetní rada 
+Schválený text interpretace 
+4/5 
+ 
+zachytí cizoměnovou pohledávku nebo cizoměnový závazek ve výši očekávaného, resp. 
+konečného vyrovnání (s uvážením řešení dle I-18 Dohadné položky v cizí měně).  
+19. Je-li poskytnutá záloha cizoměnovou pohledávkou, tj. je očekáváno navrácení peněžní 
+částky: 
+a) poskytnutá záloha představuje majetek vyjádřený v cizí měně spadající do rozsahu 
+§ 4 odst. 12, který je předmětem kurzového přepočtu přepočtu; 
+b) účetní jednotka vykazuje zůstatek poskytnuté zálohy v peněžních jednotkách české 
+měny v hodnotě stanovené kurzovým přepočtem k rozvahovému dni, přičemž do 
+finančního výsledu hospodaření je zahrnut související kurzový rozdíl vyjadřující 
+změnu hodnoty aktiva vyjádřenou v peněžních jednotkách české měny (s 
+uvážením I-42 Cizoměnové pohledávky s opravnou položkou);  
+c) poskytnutá záloha je v rozvaze vykazována v rámci pohledávek. 
+ 
+Zdůvodnění: 
+20. Pořizovací cenou je dle zákona cena, za kterou byl majetek pořízen a náklady s jeho 
+pořízením související. Předchází-li dodání zaplacení zálohy, dochází ve své podstatě k 
+úhradě pořizovací ceny a k zachycení části celkového ocenění nakupovaného majetku, 
+případně služby do účetnictví.  
+21. Z podstaty kurzového rizika, vymezeného též v I-42 Cizoměnové pohledávky s opravnou 
+položkou, plyne, že poskytnuté zálohy, je-li očekáváno dokončení předmětného ujednání, 
+nepředstavují cizoměnové pohledávky, jsou již předmětným majetkem a není s nimi 
+spojeno kurzové riziko, protože peněžní tok jim předcházel a ve výši zálohy se očekává již 
+nepeněžní plnění. Proto se zůstatky těchto účtů k datu účetní závěrky, ani k datu zúčtování 
+záloh kurzově nepřepočítávají.  
+22. Poskytnuté zálohy se ve své ekonomické podstatě shodují s vymezením nákladů příštích 
+období. Poskytnutá záloha se přeměnění v konkrétní zásobu nebo dlouhodobý majetek a 
+následně v náklad v podobě např. spotřeby materiálu, prodaného zboží nebo odpisů. 
+Podobnou úvahu lze mít u nákladů příštích období, které a priory časově rozlišují 
+předplacené nakupované služby. 
+23. Národní účetní rada vydala interpretaci s označením I-37 Časové rozlišení a cizí měna 
+popisující účetní řešení, dle něhož náklady a výnosy příštích období jsou aktiva a závazky, 
+které jsou důsledkem již uskutečněného peněžního toku, není s nimi spojeno kurzové 
+riziko, a proto i když jsou důsledkem cizoměnové transakce, nepřísluší účetním jednotkám 
+kurzově přepočítávat jejich hodnotu. Pro zajištění věrného obrazu předmětu účetnictví a 
+finanční situace by měl být účetní jednotkou aplikován koncepčně stejný přístup popsaný 
+v I-37 i pro poskytnuté zálohy, u nichž je očekáváno dokončení smluvního ujednání.  
+24. § 7 odst. 1 zákona o účetnictví uvádí, že „účetní jednotky jsou povinny vést účetnictví tak, 
+aby účetní závěrka sestavená na jeho základě podávala věrný a poctivý obraz předmětu 
+účetnictví a finanční situace účetní jednotky.“ Přístup účetních jednotek, které v účetní 
+
+ 
+ 
+I-43 Poskytnuté zálohy v cizí měně 
+ 
+© Národní účetní rada 
+Schválený text interpretace 
+5/5 
+ 
+závěrce vykazují kurzové rozdíly z kurzového přepočtu poskytnutých záloh, u nichž není 
+očekáváno jejich navrácení, lze považovat za postup, který je v rozporu se zajištěním 
+věrného a poctivého obrazu finanční situace, potažmo finanční výkonnosti účetní jednotky 
+v účetní závěrce.   
+25. Účetní jednotky by měly uvážit ustanovení zákona (§ 7 odst. 1) jako vyšší normy a 
+upřednostnit ho před ustavením ČÚS č. 006 odst. 2.2. Postupy vyplývající z ustanovení 
+ČÚS č. 006 lze použít pouze tehdy, je-li dokončení ekonomické transakce, v jejíž 
+souvislosti došlo k poskytnutí zálohy, nepravděpodobné.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Datum prvního schválení  
+ 
+19. října 2020 
+této interpretace NÚR: 
+ 
+Datum poslední aktualizace   
+– 
+této interpretace NÚR: 
+ 
+Zpracovatelé intepretace: 
+ 
+Ing. Libor Vašek, Ph.D. 
+ 
+ 
+ 
+ 
+ 
+Komora certifikovaných účetních 
+Ing. Pěva Čouková 
+ 
+ 
+ 
+ 
+ 
+účetní-portál.cz

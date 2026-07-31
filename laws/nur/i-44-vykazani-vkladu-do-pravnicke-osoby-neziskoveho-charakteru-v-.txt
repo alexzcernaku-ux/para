@@ -1,0 +1,615 @@
+ZÁKON: NÚR I-44
+NAZEV: Interpretace Národní účetní rady I-44 – Vykázání vkladu do právnické osoby neziskového charakteru v aktivech vkladatele
+URL: https://nur.cz/wp-content/uploads/2021/03/I-44.pdf
+
+Interpretace Národní účetní rady 
+I-44 Vykázání vkladu do právnické osoby neziskového 
+charakteru v aktivech vkladatele 
+ 
+Účetní jednotky jsou povinny vést účetnictví tak, aby účetní závěrka sestavená na jeho základě podávala 
+věrný a poctivý obraz předmětu účetnictví a finanční situace účetní jednotky (zákon č. 563/1991 Sb., o 
+účetnictví, § 7, odst. 1). Za vedení účetnictví je odpovědná účetní jednotka. Tato interpretace není právně 
+závazným stanoviskem, pouze vyjadřuje odborný názor Národní účetní rady a může být aplikována pouze 
+v kontextu s Předmluvou Národní účetní rady k interpretacím českých účetních předpisů. Postup popsaný 
+v této interpretaci poskytuje účetní jednotce návod v případech, kdy má jejich aplikace významný dopad 
+na informace uvedené v účetní závěrce a kdy informační přínosy jsou větší než náklady nutné na jejich 
+získání. 
+ 
+Popis problému: 
+1. V praxi se lze setkat s různými přístupy k účetnímu řešení vkladu do právnických osob 
+neziskového charakteru v účetní závěrce vkladatele. Hlavní příčinou je chybějící úprava 
+v účetních předpisech. Protože se vklady do neziskových organizací obvykle vykazují 
+v nákladech vkladatele, je cílem této interpretace řešit speciální situaci, kdy tomu tak není a 
+povaha některých vkladů může mít charakter investice. Dále je cílem stanovit pravidla pro 
+vykazování vkladů do právnických osob neziskového charakteru.  
+2. V praxi se vyskytují podnikatelské subjekty, které mají ve svých firemních politikách mimo 
+jiné veřejnou prospěšnost, kterou realizují formou poskytování darů nebo služeb potřebným. 
+Často k této prospěšné činnosti zakládají právnické osoby, jejichž posláním není podnikání, 
+ale právě dobročinné nebo společenské účely. Zákon č. 89/2012 Sb., občanský zákoník, ve 
+znění pozdějších předpisů, (dále jen „občanský zákoník“) k tomuto účelu umožňuje založit 
+fundaci (nadaci nebo nadační fond) nebo ústav. Do konce roku 2013 bylo možné založit také 
+obecně prospěšnou společnost.  
+3. Zakladatel fundace, ústavu či obecně prospěšné společnosti se v zakladatelském právním 
+jednání (dále jen „zakládací listina“) může zavázat k poskytnutí vkladu zakladatele.  
+4. Občanský zákoník umožňuje právnickým osobám zakládat svěřenské fondy a vyčleňovat do 
+nich majetek.  
+5. Obdobně jako zakladatelé se mohou zavázat ke vkladům do právnických osob neziskového 
+charakteru také další vkladatelé či poskytovatelé, kteří nejsou zakladateli.  
+6. V praxi může nastat situace, kdy poskytovatel daru právnické osobě neziskového charakteru 
+získá pozici nebo pozice ve správní radě či obdobném řídícím orgánu této právnické osoby a 
+tím může získat kontrolu nad touto právnickou osobou. 
+
+ 
+I-44 Vykázání vkladu do právnické osoby neziskového charakteru 
+v aktivech vkladatele 
+ 
+ 
+© Národní účetní rada 
+Schválený text interpretace 
+2/13 
+7. Zákon č. 563/1991 Sb., o účetnictví (dále také „zákon“) v § 2, odst. 1 ukládá účetním 
+jednotkám účtovat o stavu a pohybu majetku a jiných aktiv, závazků včetně dluhů a jiných 
+pasiv, dále o nákladech a výnosech a o výsledku hospodaření. 
+8. Vyhláška 500/2002 Sb., kterou se provádějí některá ustanovení zákona č. 563/1991 Sb., o 
+účetnictví, ve znění pozdějších předpisů, pro účetní jednotky, které jsou podnikateli 
+účtujícími v soustavě podvojného účetnictví ani související české účetní standardy číslo 001–
+024 explicitně neřeší jakým způsobem se vykazuje poskytnutí vkladu do právnické osoby 
+neziskového charakteru v účetní závěrce vkladatele. 
+9. V praxi účetní jednotky používají jednu z následujících možností 
+a) vykázání vkladu jako nákladové položky běžného účetního období; 
+b) vykázání vkladu jako finanční investice ve stálých aktivech. 
+10. Vzhledem k absenci účetních předpisů pro vykázání vkladu v účetní závěrce vkladatele 
+vyvstávají následující otázky 
+a) za jakých podmínek se vykazuje vklad do právnické osoby neziskového charakteru 
+jako finanční investice ve stálých aktivech a kdy v provozních nákladech; 
+b) jak se oceňuje vklad v případě jeho vykázání jako finanční investice ve stálých 
+aktivech; 
+c) postupujete se obdobně při vykazování vkladů i ostatních vkladatelů, kteří nejsou 
+zakladatelé; 
+d) kdy se právnická osoba neziskového charakteru, do které je vkládán majetek, zahrnuje 
+do konsolidačního celku. 
+11. Tato interpretace řeší pouze postup na straně vkladatele. 
+ 
+Řešení: 
+12. Definice. Pro účely této interpretace 
+a) za vkladatele se považuje zakladatel, vkladatel, poskytovatel i dárce; 
+b) za vklad se považují peněžní či nepeněžní majetkové hodnoty, které vkladatel 
+poskytne právnické osobě neziskového charakteru; 
+c) za právnickou osobu neziskového charakteru se považuje právnická osoba nebo 
+svěřenský fond, jejímž hlavním posláním není podnikatelská činnost, tj. právnická 
+osoba, která nebyla založena či zřízena za účelem podnikání.  
+13. Vklady do právnických osob neziskového charakteru se obvykle vykazují jako položka 
+provozních nákladů. Ve výjimečných případech, pokud jsou splněny podmínky uvedené 
+v bodě 14, se vklady mohou vykázat ve stálých aktivech jako finanční investice. 
+
+ 
+I-44 Vykázání vkladu do právnické osoby neziskového charakteru 
+v aktivech vkladatele 
+ 
+ 
+© Národní účetní rada 
+Schválený text interpretace 
+3/13 
+14. Vkladatel vykáže vklad do založené právnické osoby neziskového charakteru jako finanční 
+investice ve stálých aktivech, pokud jsou splněny současně dvě podmínky 
+a) založená právnická osoba neziskového charakteru je pod kontrolou vkladatele a 
+b) vkladatel očekává z tohoto vkladu budoucí ekonomické užitky, které umí spolehlivě 
+ocenit. 
+ 
+15. Jako finanční investice ve stálých aktivech vkladatele se vklad vykazuje obdobným způsobem 
+jako vklady do obchodních korporací.  
+16. Navržené řešení se obdobně aplikuje při vykazování vkladů do právnických osob 
+neziskového charakteru se sídlem nebo místem vedení v zahraničí. 
+17. Navržené řešení se aplikuje při vykazování vkladů do právnických osob neziskového 
+charakteru bez ohledu na konkrétní typ právního jednání, kterým je poskytován vklad.  
+18. Peněžní vklad vkladatele se v okamžiku vkladu ocení nominální hodnotou vložených 
+finančních prostředků. Nepeněžní vklad se u vkladatele ocení účetní hodnotou vkládaného 
+majetku. Toto platí i v případě, že občanský zákoník vyžaduje ocenění předmětu vkladu 
+znalcem, které slouží jako východisko pro ocenění vkladu vkladatele (např. ve fundaci nebo 
+ústavu).  
+19. Pokud je vklad vykázán jako finanční investice ve stálých aktivech, nesmí být jeho ocenění 
+vyšší než hodnota budoucího ekonomického užitku. Pokud je účetní hodnota vkládaného 
+majetku vyšší než hodnota očekávaného budoucího ekonomického užitku, je rozdíl 
+provozním nákladem. Není vhodné v okamžiku prvotního ocenění ocenit vklad jeho účetní 
+hodnotou a ve stejném okamžiku k němu vytvořit opravnou položku ve výši zjištěného 
+rozdílu. 
+20. Vklad vykázaný jako finanční investice ve stálých aktivech podléhá testu na snížení hodnoty 
+prováděnému vždy nejpozději k datu účetní závěrky. 
+21. Pokud má vkladatel povinnost sestavit konsolidovanou účetní závěrku, a právnická osoba 
+neziskového charakteru, do které byl vložen majetek, je pod kontrolou vkladatele, je vkladatel 
+povinen zvážit, zda zahrnout právnickou osobu neziskového charakteru do konsolidačního 
+celku za podmínek stanovených zákonem a prováděcími právními předpisy.  
+22. Pro účely bodu 21. není podstatné, zda vklad do právnické osoby, která je pod kontrolou, byl 
+klasifikován jako finanční investice ve stálých aktivech nebo jako položka provozních 
+nákladů. 
+
+ 
+I-44 Vykázání vkladu do právnické osoby neziskového charakteru 
+v aktivech vkladatele 
+ 
+ 
+© Národní účetní rada 
+Schválený text interpretace 
+4/13 
+23. Při zvažování, zda zahrnout právnickou osobu neziskového charakteru, do které je vložen 
+majetek, do konsolidačního celku bere vkladatel v úvahu 
+a) zda je právnická osoba neziskového charakteru pod jeho kontrolou, 
+b) zda je ekonomicky zdůvodnitelné zahrnutí právnické osoby neziskového charakteru 
+do konsolidačního celku, 
+c) přinese-li zahrnutí do konsolidačního celku vyšší informační hodnotu pro uživatele 
+konsolidované účetní závěrky, 
+d) nebude-li zkreslena konsolidovaná účetní závěrka nezahrnutím právnické osoby 
+neziskového charakteru do konsolidačního celku, 
+e) zda lze vyloučit právnickou osobu neziskového charakteru z důvodů vyjmenovaných 
+zákonem nebo prováděcími předpisy k zákonu. 
+24. Vykázáním vkladu do právnické osoby neziskového charakteru může vkladateli vzniknout 
+povinnost sestavovat konsolidovanou účetní závěrku. 
+25. Obdobným způsobem jako vklad do právnické osoby neziskového charakteru se řeší vykázání 
+vyčlenění majetku z vlastnictví vkladatele do svěřenského fondu, jehož hlavním posláním 
+podle zakladatelského právního jednání není podnikatelská činnost. 
+Zdůvodnění: 
+26. Vykazování vkladů majetku do jiné účetní jednotky je konzistentní bez ohledu na právní 
+formu účetní jednotky, do které je vkládán majetek. 
+27. Navržené řešení dává přednost ekonomické podstatě vkladu před stavem formálně právním, 
+proto je vhodné aplikovat toto řešení bez ohledu na konkrétní typ právního jednání. 
+28. Vkladatel by měl při vykázání vkladu jako finanční investice ve stálých aktivech vzít v úvahu 
+také míru kontroly založené právnické osoby neziskového charakteru. Vklad do právnické 
+osoby neziskového charakteru může být tedy vykázán v souladu se zákonem o účetnictví jako 
+vklad  
+a) do ovládané osoby – pokud vkladatel uplatňuje rozhodující vliv ve smyslu zákona o 
+účetnictví. Takový vliv má vkladatel, který je jediným vkladatelem, nebo při 
+rozhodování více vkladatelů disponuje více než 50 % hlasovacích práv; 
+b) do osoby pod podstatným vlivem – pokud vkladatel při rozhodování více vkladatelů 
+disponuje nejméně 20 % hlasovacích práv, avšak nemá rozhodující nebo společný 
+vliv; nebo 
+c) ostatní – pokud vkladatel neuplatňuje rozhodující ani podstatný vliv.  
+ 
+
+ 
+I-44 Vykázání vkladu do právnické osoby neziskového charakteru 
+v aktivech vkladatele 
+ 
+ 
+© Národní účetní rada 
+Schválený text interpretace 
+5/13 
+29. Zákon nedefinuje pojem „ovládaná osoba“. Vyhláška č. 500/2002 Sb., kterou se provádějí 
+některá ustanovení zákona č. 563/1991 Sb., o účetnictví, ve znění pozdějších předpisů, pro 
+účetní jednotky, které jsou podnikateli účtujícími v soustavě podvojného účetnictví, tento 
+pojem také neřeší. V oblasti obchodních korporací definuje pojem „ovládající osoba“ a 
+„ovládaná osoba“ § 71 a násl. zákona č. 90/2012 Sb., o obchodních korporacích, ve znění 
+pozdějších předpisů. Ovládající osobou je osoba, která může v obchodní korporaci přímo či 
+nepřímo uplatňovat rozhodující vliv. Ovládanou osobou je obchodní korporace ovládaná 
+ovládající osobou. 
+30. O zakladateli fundace, ústavu, obecně prospěšné společnosti či svěřenského fondu, můžeme 
+říci, že tuto osobu obdobným způsobem ovládá, pokud splňuje podmínky stanovené v bodě 
+28. Při vykázání vkladu jako finanční investice ve stálých aktivech zohlední zakladatel míru 
+své kontroly obdobným způsobem, jakých se vykazují vklady do obchodních korporací.  
+31. Pokud má fundace, ústav či obecně prospěšná společnost více zakladatelů, vyplývá vždy ze 
+zakládací listiny podíl jednotlivých zakladatelů na hlasovacích právech při rozhodování 
+zakladatelů v oblastech, které jim podle zakládací listiny náleží (např. jmenování členů 
+orgánů nebo změny zakládací listiny).  
+32. Vkladatel ovládá právnickou osobu prostřednictvím fyzických osob, které má právo jmenovat 
+a odvolávat. Možnost jmenovat a odvolávat členy orgánů právnické osoby je 
+charakteristickým znakem ovládání, avšak samotná možnost jmenování či odvolávání 
+nepostačuje, je vždy nutné vzít v úvahu ustanovení zakládacích dokumentů.     
+33. Vkladatel by měl testovat, zda mu aktivum přinese budoucí ekonomické užitky. Vklad 
+nahrazuje původně vykazované aktivum, které je předmětem vkladu, a měl by být testován 
+obdobně jako původní aktivum. V případě, že vkladatel dočasně neočekává budoucí 
+ekonomické užitky, měl by snížit hodnotu finanční investice prostřednictvím opravných 
+položek. V praxi může nastat situace, při které se změní vnitřní poměry právnické osoby 
+neziskového charakteru (např. změnou zakládací listiny). Změna vnitřních poměrů může vést 
+k vytvoření opravné položky, ke změně či zrušení vytvořené opravné položky.   
+34. Při testování budoucích ekonomických užitků by měl vkladatel vzít v úvahu ustanovení 
+zakládacích dokumentů. Pokud z těchto dokumentů vyplývá, že posláním právnické osoby je 
+sloužit ve prospěch jejího zakladatele nebo vkladatele, je pravděpodobné, že vklady do 
+takové právnické osoby přinesou vkladateli budoucí ekonomické užitky.  
+35. Podle § 22 zákona sestavuje konsolidovanou závěrku účetní jednotka, která je obchodní 
+společností a je ovládající osobou s výjimkou ovládajících osob, které vykonávají společný 
+vliv. Konsolidační celek tvoří účetní jednotka, která je ovládající osobou a účetní jednotky, 
+které jsou ovládanými osobami podle § 22 odst. 3 zákona. Právní forma ovládaných osob 
+nemá vliv na jejich zahrnování do konsolidačního celku. 
+
+ 
+I-44 Vykázání vkladu do právnické osoby neziskového charakteru 
+v aktivech vkladatele 
+ 
+ 
+© Národní účetní rada 
+Schválený text interpretace 
+6/13 
+36. Důvodem pro zahrnování právnických osob neziskového charakteru, které jsou pod kontrolou 
+vkladatele, do konsolidačního celku je mimo jiné 
+a) ochrana uživatelů konsolidované účetní závěrky před jejím zkreslováním 
+prostřednictvím neziskových organizací 
+b) vykázání skutečné výše finančních prostředků vynaložených na veřejně prospěšné 
+účely očištěných o náklady na správu   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Datum prvního schválení  
+ 
+14. prosince 2020 
+této interpretace NÚR: 
+ 
+Datum poslední aktualizace   
+– 
+této interpretace NÚR: 
+ 
+Zpracovatelé intepretace: 
+ 
+Ing. Simona Pacáková 
+ 
+ 
+ 
+ 
+ 
+Svaz účetních ČR 
+ 
+
+ 
+I-44 Vykázání vkladu do právnické osoby neziskového charakteru 
+v aktivech vkladatele 
+ 
+ 
+© Národní účetní rada 
+Schválený text interpretace 
+7/13 
+Příklady k I-44 
+ 
+A) FUNDACE: Občanský zákoník umožňuje zakladateli nastavit pravidla fungování fundace s různou 
+mírou závislosti na zakladateli. Zakladatel si může pro sebe v zakládací listině vyhradit například  
+• 
+právo změnit zakládací listinu, 
+• 
+právo jmenovat členy správní rady a ostatních orgánů, 
+• 
+právo na výplatu likvidačního zůstatku při zániku nadace. 
+Tato práva zakladatele jsou významným znakem ovládání (kontroly).  
+ 
+B) ÚSTAV: Pro vklad do ústavu platí obdobná pravidla jako v bodě 33 pro fundace, protože § 418 
+Občanského zákoníku stanoví, že se na právní poměry ústavu použijí obdobně ustanovení o nadaci. 
+ 
+C) OBECNĚ PROSPĚŠNÁ SPOLEČNOST: Zákon č. 248/1995 Sb., o obecně prospěšných 
+společnostech, ve znění pozdějších předpisů, ponechává zakladateli možnost 
+• 
+jmenovat a odvolávat členy správní rady 
+• 
+změnit nebo zrušit rozhodnutí správní rady o zrušení obecně prospěšné společnosti 
+Naopak tento zákon:  
+• 
+zakazuje používat výsledek hospodaření (zisk) ve prospěch zakladatelů, 
+• 
+vyplácet podíl na likvidačním zůstatku zakladatelům, pokud zakladatel není kraj, Česká 
+republika nebo jiná obecně prospěšná společnost. 
+Podle výše uvedeného právního stavu je zřejmé, že by podmínky pro vykázání vkladu jako finanční 
+investice ve stálých aktivech splnily pouze účetní jednotky typu kraj, Česká republika nebo obecně 
+prospěšná společnost.  
+ 
+D) SVĚŘENSKÝ FOND: Podle § 1449 odst. 2 občanského zákoníku svěřenský fond zřízený k 
+soukromému účelu může sloužit k prospěchu určité osoby. Tento fond lze zřídit i za účelem 
+investování pro dosažení zisku k rozdělení mezi zakladatele, zaměstnance, společníky či jiné osoby. 
+Zakladatel svěřenského fondu vydává statut svěřenského fondu a v rámci svých zakladatelských práv 
+může  
+• 
+jmenovat a odvolávat svěřenského správce; 
+• 
+sám vykonávat funkci svěřenského správce za slnění ostatních podmínek; 
+• 
+být osobou obmyšlenou a mít právo na plody a užitky ze svěřenského fondu; 
+• 
+mít právo na vydání majetku při zániku svěřenského fondu. 
+Konkrétní míra vlivu zakladatele na svěřenský fond je závislá na znění statutu svěřenského fondu. 
+ 
+E) Očekávaný budoucí ekonomický užitek 
+Očekávaný budoucí ekonomický užitek umožňuje přinášet budoucí přírůstky čistých peněžních toků 
+vkladateli. Očekávaný budoucí ekonomický užitek v případě založené právnické osoby neziskového 
+charakteru může být například  
+• 
+vrácení nepeněžního vkladu zpět vkladateli v souladu se zakládací listinou; 
+• 
+vrácení likvidačního zůstatku vkladateli v souladu se zakládací listinou; 
+• 
+výnos z převodu zakladatelských práv; 
+• 
+výnosy z nadačních příspěvků atd. 
+
+ 
+I-44 Vykázání vkladu do právnické osoby neziskového charakteru 
+v aktivech vkladatele 
+ 
+ 
+© Národní účetní rada 
+Schválený text interpretace 
+8/13 
+ 
+F) Příklady možných vkladů a návrh řešení pro výkaznictví 
+1) Peněžní vklad do nadace, jejímž posláním je public relations (udržování a ovlivňování vztahů 
+s veřejností) zakladatele. Zakladatel má kontrolu nad právnickou osobou, nesplňuje však další 
+podmínky uvedené v bodě 13: 
+• 
+v individuální účetní závěrce bude vklad vykázán jako provozní náklad; 
+• 
+v případné konsolidované účetní závěrce bude vklad vykázán jako náklad na reklamu. 
+2) Vklad do právnické osoby neziskového charakteru, který zahrnuje dvě transakce, a to vklad 
+peněžních prostředků určených na provoz právnické osoby neziskového charakteru a vklad 
+nemovité věci, která má být po stanovené době vrácena vkladateli. Vkladatel splňuje všechny 
+podmínky stanovené v bodě 13:  
+• 
+vložené peněžní prostředky budou vykázány v individuální závěrce jako provozní náklad; 
+• 
+nemovitá věc bude v individuální účetní závěrce vykázána jako finanční investice ve 
+stálých aktivech oceněné účetní hodnotou vkládaného majetku s případným zohledněním 
+znehodnocení této finanční investice ke dni účetní závěrky. 
+ 
+ 
+
+ 
+I-44 Vykázání vkladu do právnické osoby neziskového charakteru 
+v aktivech vkladatele 
+ 
+ 
+© Národní účetní rada 
+Schválený text interpretace 
+9/13 
+Vypořádání připomínek z vnějšího připomínkového řízení 
+Připomínka k návrhu interpretace NI – 62 Vykázání vkladu do právnické osoby neziskového 
+charakteru v účetní závěrce vkladatele 
+ 
+Vážení, 
+ 
+v rámci veřejného připomínkového řízení si dovoluji předložit připomínku k výše zmíněnému 
+návrhu interpretace NI – 62. Při výkonu své profese se v posledních letech poměrně intenzivně 
+věnuji oblasti správy majetku a problematice fundačních a trustových struktur, včetně svěřenských 
+fondů, a jsem přesvědčena, že návrh interpretace tak, jak je formulován, není v souladu se základní 
+koncepční podstatou těchto právních forem, kterých se navrhované účetní řešení týká. 
+ 
+Obávám se také, že interpretace v navržené podobě může (v rozporu se svým cílem) v praxi 
+vyvolat značnou nejistotu pro účetní jednotky, které poskytují významné vklady či dary do 
+neziskových subjektů (nadací, nadačních fondů, svěřenských fondů), jež založily za účelem 
+financování či výkonu veřejně prospěšných aktivit – tedy subjektů neziskového charakteru, jak jsou 
+v návrhu interpretace označovány. 
+ 
+Odůvodnění: 
+ 
+1. Nerovnoměrný prostor věnovaný standardním a krajním situacím 
+ 
+Návrh interpretace může vzbuzovat u čtenáře dojem, že v principu existují dva (s obdobnou 
+mírou pravděpodobnosti se vyskytující) způsoby vykazování vkladů do výše zmíněných 
+subjektů neziskového charakteru (nadací, nadačních a svěřenských fondů), tedy vykázání v 
+nákladech běžného období nebo jako aktivum v podobě finanční investice, v závislosti na 
+splnění dalších podmínek (bod 13 NI – 62). 
+ 
+Řešení, které je podle mého názoru v souladu s povahou předmětných právních forem, pokud jsou 
+užívány korektně, tedy vykázání vkladu (či daru) jako nákladů běžného účetního období, věnuje 
+návrh interpretace naprosto marginální prostor v rozsahu cca dvou řádků, a to při absenci 
+jakéhokoliv odůvodnění (bod 9, 13 NI – 62). Celé účetní řešení je naopak zaměřeno na podmínky 
+vykázání vkladu či daru do předmětných subjektů neziskového charakteru jako aktiva/finanční 
+investice, které však v zásadě může být naplněno pouze při použití těchto právních forem v rozporu 
+s jejich účelem (viz níže). 
+ 
+Obsah a struktura návrhu interpretace proto podle mého názoru neodpovídá přístupu 
+deklarovanému v předmluvě k Interpretacím českých účetních předpisů, tedy že Národní účetní 
+rada bere při posuzování, zda se určitou otázkou bude zabývat, v úvahu mimo jiné fakt, zda 
+problém „není individuální a zasahuje významnou část účetní praxe“. Návrh interpretace NI – 62 
+představuje koncepční řešení pro situace, kdy dochází k využití zmíněných právních forem v 
+rozporu s jejich neziskovým, veřejně prospěšným účelem, případně k jejich zneužití. Takové 
+situace sice v praxi nelze vyloučit, nicméně lze předpokládat, že půjde o zcela výjimečné případy. 
+ 
+2. Odlišná ekonomická podstata vkladů do fundací a svěřenských fondů v porovnání s vklady 
+do korporací daná podstatou právní formy 
+
+ 
+I-44 Vykázání vkladu do právnické osoby neziskového charakteru 
+v aktivech vkladatele 
+ 
+ 
+© Národní účetní rada 
+Schválený text interpretace 
+10/13 
+ 
+Ve zdůvodnění návrhu interpretace se uvádí, že navržené řešení dává přednost ekonomické 
+podstatě vkladu před stavem formálně právním a aplikuje se bez ohledu na konkrétní typ právního 
+jednání (bod 27 NI – 62). Návrh řešení vychází z předpokladu, že ekonomická podstata vkladu, 
+pod který 
+v případě subjektů neziskového charakteru zahrnuje i dary, bude (za splnění definovaných 
+podmínek) shodná bez ohledu na právní formu příjemce (body 26, 27 NI – 62). Tento předpoklad je 
+však nesprávný, jelikož právě zásadní odlišnost klíčových koncepčních prvků jednotlivých 
+právních forem ve své podstatě determinuje odlišnost ekonomické povahy vkladu majetku jejich 
+zakladatele/vkladatele. Ekonomická podstata vkladu do korporace v porovnání s vklady do fundace 
+či vyčlenění majetku do svěřenského fondu tedy bude z povahy věci odlišná (viz níže). 
+ 
+Návrh řešení také aplikuje pravidla ovládání (vlivu či kontroly) definovaná v oblasti obchodních 
+korporací na dotčené subjekty neziskového charakteru, tedy fundace a trustové formy (body 28, 
+29, 30 NI – 62). Tento přístup je také koncepčně v rozporu s podstatou daných právních forem, 
+následkem je pak minimálně značně zavádějící formulace návrhu řešení, aplikovatelná pouze 
+v případě jejich využití v rozporu s účelem, případně zneužití. 
+ 
+3. Povaha aktiva a charakteristické znaky 
+ 
+Na rozdíl od korporací by pro úvahy o vykázání vkladu či daru v aktivech vkladatele v případě 
+fundací či svěřenských fondů z důvodu jejich podstaty primárně neměla být rozhodující hodnota 
+vkladu či míra vlivu na tyto subjekty jako takové, tedy na složení jejich orgánů, ale otázka vlivu 
+na majetek, který takový subjekt spravuje, resp. účel jeho použití. 
+ 
+Nadace, nadační fondy či svěřenské fondy jsou vytvořené majetkem vyčleněným k určitému účelu 
+a jejich činnost se tedy váže na účel, k němuž byly zřízeny. Podstatou těchto právních forem je 
+oddělení dotčeného majetku od zakladatele/vkladatele, aby sloužil definovanému účelu. Účel 
+stanoví zakladatel v zakladatelském jednání a členové orgánů jsou povinni jej svým konáním 
+naplňovat, bez ohledu na to, kdo je do těchto orgánů jmenoval. Členové orgánů fundací či 
+svěřenského fondu jsou tedy odpovědní účelu, pro který byly fundace či svěřenský fond založeny, 
+nikoliv členům, resp. zakladatelům či vkladatelům, jako je tomu v případě obchodní korporace. 
+ 
+České účetní předpisy sice nedefinují pojem aktiva, není však důvod se domnívat, že základní 
+charakteristické znaky by měly být odlišné od mezinárodně uznávaných účetních standardů, pokud 
+mají naplňovat věrné a poctivé zobrazení situace účetní jednotky. Jedním ze základních znaků je 
+kontrola aktiva jako zdroje ze strany účetní jednotky, což nemůže být v případě fundací a 
+trustových forem u zakladatele či vkladatele z povahy věci naplněno. Právo jmenovat a odvolávat 
+členy orgánů těchto subjektů (tedy kontrola nad subjektem jako takovým, viz např. bod 14, 22, 28, 
+29, 30 NI – 62) nemá na skutečnost, za jakým účelem se bude vložený majetek používat, resp. 
+jakému účelu bude sloužit, žádný vliv. Jak je uvedeno výše, členové orgánů mají povinnost s péčí 
+řádného hospodáře vykonávat svou činnost v zájmu účelu, k němuž byly fundace nebo svěřenský 
+fond založeny, a nikoliv v zájmu osoby, která je do orgánu díky svému vlivu jmenovala. 
+ 
+Jak uvádí i návrh interpretace, aktiva by měla být vykazována v rozvaze účetní jednotky, pokud je 
+pravděpodobné, že jí přinesou budoucí ekonomické užitky, které je schopna spolehlivě vyčíslit 
+(bod 14, 31 NI – 62). V případě vkladů či darů do nadací, nadačních či svěřenských fondů 
+
+ 
+I-44 Vykázání vkladu do právnické osoby neziskového charakteru 
+v aktivech vkladatele 
+ 
+ 
+© Národní účetní rada 
+Schválený text interpretace 
+11/13 
+založených 
+k neziskovému účelu nemůže z povahy věci dojít k naplnění ani tohoto definičního znaku aktiva, 
+pokud nedochází k využití zmíněných právních forem v rozporu s jejich (veřejně prospěšným) 
+účelem, případně zneužití. Vklady do těchto subjektů jsou však předmětem návrhu interpretace 
+(viz body 1 a 2 NI – 62). 
+ 
+Zahrnutí dotčených subjektů do konsolidačního celku by dávalo uživatelům účetních výkazů 
+informaci, že majetek vyčleněný do těchto subjektů je pod kontrolou konsolidující účetní jednotky 
+a může být využíván způsobem, který jí bude přinášet ekonomický prospěch. Taková informace je 
+v přímém rozporu se základní podstatou těchto právních forem. 
+ 
+4. Krajní situace porušující účel a rozporné s podstatou dotčených právních forem 
+ 
+V případě zakladatelů/vkladatelů, kteří jsou obchodními korporacemi, tedy právnickými osobami 
+založenými za účelem dosahování zisku, sice nelze očekávat motivaci vedenou myšlenkami 
+altruismu, nicméně skutečnost, že zakládají fundace, popř. svěřenské fondy, za účelem výkonu 
+neziskových, resp. veřejně prospěšných činností proto, aby „zlepšily“ svou obchodní pozici 
+naplňováním firemních politik společenské odpovědnosti, neznamená, že dané neziskové subjekty 
+skutečně neslouží k deklarovaným veřejně prospěšným účelům (a nikoliv ekonomickému 
+prospěchu svého zakladatele, přestože si ponechal práva na jmenování i odvolávání orgánů těchto 
+subjektů, aby si udržel potřebnou kontrolu ohledně naplňování účelu). 
+ 
+Za předpokladu, že by předmětné neziskové subjekty ve skutečnosti sloužily k tomu, aby 
+přinášely (vyčíslitelné) ekonomické užitky jejich zakladateli či vkladateli, přestože byly 
+formálně založeny k veřejně prospěšnému účelu deklarovanému zakladatelským jednáním, a 
+nakládání s majetkem fundace či svěřenského fondu bylo skutečně ovlivňováno zakladatelem či 
+vkladatelem v jeho prospěch (byly by tedy splněny charakteristické znaky aktiva pro vykázání 
+vkladu jako finanční 
+investice), nabízí se úvaha ohledně naplnění znaků zneužití práva podobně jako v případě 
+fyzických osob u známých kauz řešených Nejvyšším správním soudem (pro příklad lze zmínit 
+případ obecně známý pod označením Potápěči, tedy rozhodnutí NSS ze dne 10.11. 2005 sp. zn. 1 
+Afs 107/2004). 
+ 
+Navíc je třeba si uvědomit, že taková situace by měla závažné dopady do jiných oblastí, a to nejen 
+na ne/možnost odečtu poskytnutých darů od základu daně, ale i například z hlediska insolvenčního 
+nebo dědického práva (s ohledem na pochybnosti, zda skutečně došlo k vyčlenění majetku a tedy 
+jeho oddělení od majetku zakladatele/vkladatele, zda dotčený subjekt skutečně naplňuje znaky 
+fundace či svěřenského fondu a podobně). 
+ 
+5. Rozhodující aspekt soukromého práva v případě dotčených právních forem 
+ 
+Jelikož se domnívám, že řešení popsané v návrhu interpretace může vycházet z určitého 
+nepochopení základní koncepční podstaty právních forem, kterých se týká, požádala jsem o 
+vysvětlující komentář dva přední odborníky zabývající se fundačním a trustovým, resp. 
+korporačním právem, a to doc. JUDr. Kateřinu Ronovskou, Ph.D. a doc. JUDr. Bohumila Havla, 
+Ph.D. Dovolím si tedy k této připomínce připojit jejich stručný komentář k návrhu interpretace NI–
+
+ 
+I-44 Vykázání vkladu do právnické osoby neziskového charakteru 
+v aktivech vkladatele 
+ 
+ 
+© Národní účetní rada 
+Schválený text interpretace 
+12/13 
+62, resp. k podmínkám vykázání vkladů či darů do nadací, nadačních a svěřenských fondů jako 
+aktiva (finanční investice) obdobně jako v případě vkladů do obchodní korporace, tak jak jsou 
+formulovány v návrhu řešení: 
+ 
+Fundace (nadace, nadační fondy) a svěřenské fondy se liší od obchodních korporací 
+zásadním způsobem, a to již tím, že u nich chybí společník, tedy ekonomický residuální 
+vlastník. 
+ 
+Zakladatel totiž nemá (a ani si svým projevem vůle nemůže založit) majetkové (vlastnické) právo k 
+fundaci/svěřenskému fondu, které by mělo charakter podílu (proto se o fundacích někdy hovoří jako 
+o 
+„sirotčích“ právnických osobách). Zakladatel tak svým projevem vůle zřídí právnickou osobu, ale 
+nezíská za to žádné směnitelné protiplnění, o svůj „vklad“ zcela přichází. Nejde proto ani o 
+investici, protože není co vracet nebo obchodovat. Navíc zakladatel, stejně jako všichni ostatní 
+aktéři (fundace, členové jejich orgánů a beneficienti), musí činit vše, co činí v souladu s účelem 
+fundace – nejedná se podnikatelský subjekt s volnou mírou riskantní úvahy, ale o osamostatněný 
+majetek, jehož účel vymezil právě zakladatel. 
+ 
+Zakladatel nemá a nemůže mít formální vliv na činnost orgánů fundace, a to ani když si vymezí 
+právo jmenovat členy orgánů fundace, protože všichni jsou povinni jednat s péčí řádného 
+hospodáře, tj. loajálně a pečlivě, navíc mají povinnost poslušnosti účelu (duty of obedience), která 
+se u fundací/svěřenských fondů projevuje velmi intenzivně. Jinými slovy, i kdyby zakladatel svůj 
+vliv neformálně vyvíjel, zákonná povinnost nezávislosti v rámci péče řádného hospodáře tomu 
+nastavuje jasné mantinely a takovýto vliv musí být odmítnut. 
+ 
+Zakladatel nemá ve fundaci pozici ovládající nebo jinak ovlivňující osoby mj. proto, že žádné 
+postavení ve fundaci nemá, jen ji zřídil a jednotlivé složky její správy jsou na něm nezávislé. Pro 
+nadace se navíc neuplatní ani regulace ovládání upravená v ZOK (§ 74 a násl.), která dopadá na 
+vliv vůči společnostem, ne jiným právnickým osobám. 
+Jelikož se návrh interpretace dotýká oblasti, která je v praxi významná, doc. Ronovská i doc. 
+Havel vyjádřili ochotu poskytnout v případě zájmu autorům interpretace podrobnější vysvětlení 
+právního základu dotčených právních forem a možnost další diskuse této problematiky, kterou si 
+na závěr připomínky dovolím tlumočit. 
+ 
+ 
+S pozdravem 
+ 
+ 
+Simona Hornochová 
+ 
+ 
+ 
+Vyjádření k připomínkám: 
+ 
+
+ 
+I-44 Vykázání vkladu do právnické osoby neziskového charakteru 
+v aktivech vkladatele 
+ 
+ 
+© Národní účetní rada 
+Schválený text interpretace 
+13/13 
+Národní účetní rada projednala jednotlivé body z Odůvodnění zaslané připomínky a zaujala 
+následující stanovisko: 
+ 
+K bodu 1  
+ 
+Připomínka byla akceptována, byly upřesněny “Popis problému” v bodě 1 a “Řešení” v bodě 13 
+Interpretace.   
+ 
+  
+K bodu 2 
+ 
+Připomínka nebyla akceptována. Tato interpretace neřeší právní formu neziskové právnické osoby, 
+ale vlastnosti vkladu a jeho ovládání. Cílem interpretace je zaměřit vkladatele na posouzení povahy 
+vkladu, a nikoliv na formální stav. Vkladatel by měl dát přednost obsahu před formou právního aktu 
+vkladu a formou právnické osoby, do které je vkládán majetek. Obecná pravidla ovládání právnické 
+osoby jsou platná bez ohledu na právní formu právnické osoby, do které je vkládán majetek. 
+ 
+ 
+K bodu 3 
+ 
+Připomínka byla akceptována. Byl doplněn bod 31. a 33. do zdůvodnění. 
+ 
+ 
+K bodu 4 
+ 
+Připomínka nebyla akceptována. Pojem „veřejná prospěšnost“ není shodný s pojmem „neziskový 
+charakter“. Právnická osoba neziskového charakteru je založena za jiným účelem, než je podnikání. 
+Tento účel však nemusí být nutně veřejně prospěšný celé společnosti. Může být prospěšný například 
+pouze svému zakladateli. Pokud se bude jednat o vklad do účetní jednotky (právnické osoby), jejímž 
+účelem je dosahování prospěchu pouze svému zakladateli, je nutné zvážit postup podle této 
+interpretace. Tato interpretace neřeší porušování právních předpisů.  
+ 
+K bodu 5  
+ 
+Vysvětleno v předešlých bodech.

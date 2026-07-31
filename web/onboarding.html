@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Nastavení profilu — Para</title>
+<link rel="icon" href="assets/img/logo/logo-mark.png" />
+<link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+
+<div class="auth-shell">
+  <div class="auth-topbar">
+    <img src="assets/img/logo/logo-primary-light.png" alt="Para" />
+  </div>
+
+  <div class="auth-main">
+    <div class="card auth-card wide hidden" id="onboarding-card">
+      <div class="para-intro">
+        <img src="assets/img/mascot/mascot-pocita.png" alt="Para" class="mascot-img" />
+        <div class="para-bubble">
+          Ahoj! Než začneme, řekněte mi pár věcí o vašem podnikání — díky tomu vám budu radit
+          přesně na míru vaší situaci, ne obecně.
+        </div>
+      </div>
+
+      <form id="onboarding-form">
+        <div class="ares-box">
+          <span class="field-label">IČO (nepovinné — vyplní zbytek za vás)</span>
+          <div class="ares-row">
+            <input type="text" inputmode="numeric" id="ico-input" class="text-input" placeholder="např. 12345678" maxlength="8" />
+            <button type="button" class="btn btn-secondary" id="ico-lookup-btn">Načíst z ARES</button>
+          </div>
+          <div class="ares-result hidden" id="ares-result"></div>
+          <div class="ares-error hidden" id="ares-error"></div>
+        </div>
+
+        <span class="field-label">Jak podnikáte?</span>
+        <div class="choice-grid" id="legal-form-group">
+          <label class="choice-card">
+            <input type="radio" name="legal_form" value="osvc_pausal" />
+            <h4>OSVČ — paušální výdaje</h4>
+            <p>Výdaje počítáte procentem z příjmů, ne podle skutečných dokladů.</p>
+          </label>
+          <label class="choice-card">
+            <input type="radio" name="legal_form" value="osvc_skutecne" />
+            <h4>OSVČ — skutečné výdaje</h4>
+            <p>Vedete daňovou evidenci nebo účetnictví se skutečnými náklady.</p>
+          </label>
+          <label class="choice-card">
+            <input type="radio" name="legal_form" value="sro" />
+            <h4>s.r.o.</h4>
+            <p>Podnikáte přes společnost s ručením omezeným.</p>
+          </label>
+        </div>
+
+        <span class="field-label">Jste plátce DPH?</span>
+        <div class="choice-grid cols-2" id="vat-payer-group">
+          <label class="choice-card">
+            <input type="radio" name="vat_payer" value="true" />
+            <h4>Ano</h4>
+            <p>Jsem plátce DPH.</p>
+          </label>
+          <label class="choice-card">
+            <input type="radio" name="vat_payer" value="false" />
+            <h4>Ne</h4>
+            <p>Nejsem plátce DPH.</p>
+          </label>
+        </div>
+
+        <span class="field-label">Chcete něco doplnit? (nepovinné)</span>
+        <textarea class="text-input" id="note" rows="2" placeholder="např. obor podnikání, konkrétní téma, které vás zajímá…" style="margin-bottom: 24px;"></textarea>
+
+        <button type="submit" class="btn btn-primary btn-block btn-lg" id="onboarding-submit" disabled>Pokračovat do aplikace</button>
+      </form>
+    </div>
+
+    <div class="app-loading" id="onboarding-loading">
+      <img src="assets/img/mascot/mascot-pocita.png" alt="" />
+      Chvilku strpení…
+    </div>
+  </div>
+</div>
+
+<script>
+  window.PARA_CONFIG = {
+    endpoint: "https://fibytymnzgluyxxszria.supabase.co/functions/v1/zakon-query",
+    anonKey: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImZpYnl0eW1uemdsdXl4eHN6cmlhIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODU0MzM4ODgsImV4cCI6MjEwMTAwOTg4OH0.hFEzCTPZEGpQaQguytnu8Hyz6z9j6P5M1E17l2WfGdE",
+    supabaseUrl: "https://fibytymnzgluyxxszria.supabase.co",
+    supabaseAnonKey: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImZpYnl0eW1uemdsdXl4eHN6cmlhIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODU0MzM4ODgsImV4cCI6MjEwMTAwOTg4OH0.hFEzCTPZEGpQaQguytnu8Hyz6z9j6P5M1E17l2WfGdE",
+  };
+</script>
+<script type="module">
+  import { requireSession, getProfile, saveProfile, APP_PAGE } from "./assets/js/supabase-client.js";
+  import { lookupIco } from "./assets/js/ares.js";
+
+  const card = document.getElementById("onboarding-card");
+  const loading = document.getElementById("onboarding-loading");
+  const form = document.getElementById("onboarding-form");
+  const submitBtn = document.getElementById("onboarding-submit");
+  const noteInput = document.getElementById("note");
+  const icoInput = document.getElementById("ico-input");
+  const icoLookupBtn = document.getElementById("ico-lookup-btn");
+  const aresResultEl = document.getElementById("ares-result");
+  const aresErrorEl = document.getElementById("ares-error");
+
+  let session = null;
+  let aresData = null; // { ico, dic, companyName, vatPayer, isSro, isOsvc } — poslední úspěšný lookup
+
+  (async () => {
+    session = await requireSession();
+    if (!session) return; // requireSession už přesměrovává na přihlášení
+
+    // Kdo už onboarding jednou dokončil, sem nemá co znovu chodit.
+    try {
+      const profile = await getProfile(session.user.id);
+      if (profile.onboarded_at) {
+        window.location.href = APP_PAGE;
+        return;
+      }
+    } catch (err) {
+      console.error("Nepodařilo se načíst profil:", err.message);
+    }
+
+    loading.classList.add("hidden");
+    card.classList.remove("hidden");
+  })();
+
+  function updateSelection(groupEl) {
+    groupEl.querySelectorAll(".choice-card").forEach((card) => {
+      const input = card.querySelector("input");
+      card.classList.toggle("selected", input.checked);
+    });
+    checkFormValid();
+  }
+
+  function checkFormValid() {
+    const legalForm = form.querySelector('input[name="legal_form"]:checked');
+    const vatPayer = form.querySelector('input[name="vat_payer"]:checked');
+    submitBtn.disabled = !(legalForm && vatPayer);
+  }
+
+  document.getElementById("legal-form-group").addEventListener("change", (e) => updateSelection(e.currentTarget));
+  document.getElementById("vat-payer-group").addEventListener("change", (e) => updateSelection(e.currentTarget));
+
+  function selectRadio(name, value) {
+    const input = form.querySelector(`input[name="${name}"][value="${value}"]`);
+    if (!input) return;
+    input.checked = true;
+    input.closest(".choice-grid").dispatchEvent(new Event("change", { bubbles: true }));
+  }
+
+  icoLookupBtn.addEventListener("click", async () => {
+    aresErrorEl.classList.add("hidden");
+    aresResultEl.classList.add("hidden");
+    icoLookupBtn.disabled = true;
+    icoLookupBtn.textContent = "Hledám…";
+
+    try {
+      aresData = await lookupIco(icoInput.value);
+
+      const bits = [];
+      if (aresData.companyName) bits.push(`<strong>${aresData.companyName}</strong>`);
+      if (aresData.address) bits.push(aresData.address);
+      if (aresData.dic) bits.push(`DIČ ${aresData.dic}`);
+      bits.push(aresData.vatPayer ? "plátce DPH" : "neplátce DPH");
+      aresResultEl.innerHTML =
+        '<svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5" /></svg>' +
+        `<span>Nalezeno: ${bits.join(" · ")}</span>`;
+      aresResultEl.classList.remove("hidden");
+
+      selectRadio("vat_payer", aresData.vatPayer ? "true" : "false");
+      if (aresData.isSro) selectRadio("legal_form", "sro");
+      // OSVČ: ARES nerozliší paušál/skutečné výdaje, tak se tam nic
+      // nepředvybírá — uživatel si tu jednu volbu zvolí sám.
+    } catch (err) {
+      aresData = null;
+      aresErrorEl.textContent = err.message;
+      aresErrorEl.classList.remove("hidden");
+    } finally {
+      icoLookupBtn.disabled = false;
+      icoLookupBtn.textContent = "Načíst z ARES";
+    }
+  });
+
+  form.addEventListener("submit", async (e) => {
+    e.preventDefault();
+    if (!session) return;
+
+    const legalForm = form.querySelector('input[name="legal_form"]:checked')?.value;
+    const vatPayer = form.querySelector('input[name="vat_payer"]:checked')?.value === "true";
+    if (!legalForm) return;
+
+    submitBtn.disabled = true;
+    submitBtn.textContent = "Ukládám…";
+
+    try {
+      await saveProfile(session.user.id, {
+        legalForm,
+        vatPayer,
+        note: noteInput.value.trim(),
+        ico: aresData?.ico,
+        dic: aresData?.dic,
+        companyName: aresData?.companyName,
+        address: aresData?.address,
+      });
+      window.location.href = APP_PAGE;
+    } catch (err) {
+      submitBtn.disabled = false;
+      submitBtn.textContent = "Pokračovat do aplikace";
+      alert(`Nepodařilo se uložit profil (${err.message}). Zkuste to prosím znovu.`);
+    }
+  });
+</script>
+
+</body>
+</html>

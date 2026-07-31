@@ -1,0 +1,98 @@
+ZÁKON: ČÚS č. 003
+NAZEV: Český účetní standard pro podnikatele č. 003 – Odložená daň
+URL: https://www.mfcr.cz/assets/cs/media/Ucetnictvi_2018_Ceske-ucetni-standardy-pro-500-2002_v02.pdf
+
+Odložená daň 
+ 
+ 
+1. Cíl 
+ 
+Cílem tohoto standardu je stanovit podle zákona č. 563/1991 Sb., o účetnictví, ve 
+znění pozdějších předpisů, (dále jen „zákon“) a vyhlášky č. 500/2002 Sb., kterou se provádějí 
+některá ustanovení zákona č. 563/1991 Sb., o účetnictví, ve znění pozdějších předpisů, pro 
+účetní jednotky, které jsou podnikateli účtujícími v soustavě podvojného účetnictví, ve znění 
+pozdějších předpisů, (dále jen „vyhláška“) základní postupy účtování o odložené dani za 
+účelem docílení souladu při používání účetních metod účetními jednotkami ve vykazovaných 
+položkách „C.II.1.4. Odložená daňová pohledávka“ nebo „C.I.8. Odložený daňový závazek“ a 
+položce „L.2. Daň z příjmů odložená (+/-)“ za podmínek stanovených v § 3, 3a a 4 vyhlášky.  
+ 
+2. Obsahové vymezení 
+2.1.   Rozsah povinnosti účtovat o odložené dani a základní principy jejího vyčíslení stanoví § 
+59 vyhlášky. 
+2.2.  Daňová povinnost odložená vyplývá z rozdílů, které nastávají v okamžiku odlišného 
+pohledu účetního a daňového na určité položky v účetnictví.  
+2.3.  Z titulu odlišného účetního a daňového pohledu vznikají rozdíly, které mají povahu 
+rozdílů přechodných. Přechodné rozdíly mohou být  
+a) zdanitelné, které vyústí ve zdanitelné částky při určování základu daně budoucích 
+období, tzn. vedou k odloženému daňovému dluhu (například je-li účetní hodnota 
+dlouhodobého hmotného majetku vyšší než hodnota tohoto majetku pro daňové 
+účely), 
+b) odčitatelné, které vyústí v částky, které jsou odčitatelné při určování základu daně 
+budoucích období, tzn. vedou k odložené daňové pohledávce (například je-li účetní 
+hodnota pohledávek snížená o opravné položky nižší než hodnota těchto pohledávek 
+včetně daňově uznatelných opravných položek).  
+2.4.  Odložená daň se zjišťuje ze všech přechodných rozdílů, které vznikají z rozdílného 
+účetního a daňového pohledu na položky zachycené v účetnictví.  
+2.5.  Odloženými daňovými dluhy se rozumí částky daně z příjmů k úhradě v budoucích 
+obdobích z titulu rozdílů (viz bod 2.3. písm. a)).  
+2.6. Odloženými daňovými pohledávkami se rozumí částky daně z příjmů, které budou 
+uplatněny v příštích obdobích. Tyto pohledávky mohou vzniknout z titulu  
+a) odčitatelných přechodných rozdílů, 
+b) převedených nevyužitých daňových ztrát,  
+c) převedených nevyužitých daňových odpočtů a jiných časově převoditelných 
+daňových nároků (nároků převoditelných do budoucna).  
+2.7.  Ke konci rozvahového dne účetní jednotka prověřuje účetní hodnotu odložené daňové 
+pohledávky a v případě, že je nepravděpodobné, že bude dosažen dostatečný základ 
+daně, který by umožnil využití části nebo celé odložené daňové pohledávky, účetní 
+hodnota odložené daňové pohledávky se snižuje. Snížení se provádí v rozsahu, v jakém 
+je pravděpodobné, že dostatečný základ daně nebude dosažitelný. Účetní jednotka 
+vykazuje předchozí nezachycenou odloženou daňovou pohledávku v tom rozsahu, v 
+jakém je pravděpodobné, že budoucí zdanitelný zisk bude schopen odloženou daňovou 
+pohledávku pokrýt.  
+2.8.   zrušen 
+2.9.   zrušen 
+2.10. Odložené daňové dluhy a odložené daňové pohledávky vyúčtované na příslušném účtu 
+ 
+9 
+účtové skupiny 48 – Odložený daňový závazek a pohledávka se vykazují po vzájemném 
+vyúčtování jako zůstatek tohoto účtu při respektování podmínek uvedených v bodě 2.7.  
+ 
+3. Postup účtování 
+3.1. Při prvním účtování o odložené dani se část odložené daně, která se vztahuje k 
+předchozím účetním obdobím, zaúčtuje na příslušném účtu účtové skupiny 42 – Fondy 
+ze zisku a převedené výsledky hospodaření vykazovaném v položce „A.IV.3. Jiný 
+výsledek hospodaření minulých let“ a část, která se vztahuje k běžnému účetnímu 
+období, na příslušných účtech účtové skupiny 59 – Daně z příjmů, převodové účty a 
+rezerva na daň z příjmů. V následujících letech se na příslušném účtu účtové skupiny 48 
+– Odložený daňový závazek a pohledávka účtuje zvýšení nebo snížení odložené daně 
+meziročně vypočtené ze všech přechodných rozdílů.  
+3.2.  V případě změny metody (tj. i změna způsobu výpočtu odložené daně) se vzniklé rozdíly 
+zaúčtují na příslušných účtech účtové skupiny 42 – Fondy ze zisku a převedené výsledky 
+hospodaření s vysvětlením příslušné změny v příloze.  
+3.3.  O odloženém daňovém dluhu se účtuje na vrub příslušného účtu účtové skupiny 59 – 
+Daň z příjmů, převodové účty a rezerva na daň z příjmů a ve prospěch příslušného účtu 
+účtové skupiny 48 – Odložený daňový závazek a pohledávka.  
+3.4.  O odložené daňové pohledávce se účtuje ve prospěch příslušného účtu účtové skupiny 59 
+– Daň z příjmů, převodové účty a rezerva na daň z příjmů a na vrub příslušného účtu 
+účtové skupiny 48 – Odložený daňový závazek a pohledávka. O odložené daňové 
+pohledávce se účtuje pouze tehdy, je-li pravděpodobné, že základ daně, proti kterému 
+bude možné využít rozdíly (viz bod 2.3. písm. b)), je dosažitelný. K tomu, aby základ 
+daně mohl být považován za dosažitelný, musí existovat dostatečné zdanitelné 
+přechodné rozdíly, které se vztahují ke stejným správcům daní z příjmů a k téže 
+zdaňované účetní jednotce, u níž se očekává vrácení  
+a) ve stejném období, ve kterém je očekáván návrat odčitatelných přechodných rozdílů 
+nebo 
+b) v obdobích, ve kterých daňová ztráta, která vyplývá z odložené daňové pohledávky, 
+může být zpětně uplatnitelná nebo převedena do dalších období.  
+Za těchto okolností je odložená daňová pohledávka zaúčtována v období, ve kterém 
+odčitatelné přechodné rozdíly vznikají.  
+3.5. Změní-li se sazba daně z příjmů, je nutno stanovit nový zůstatek účtu odložené daně a 
+rozdíl zaúčtovat prostřednictvím příslušného účtu účtové skupiny 59 - Daně z příjmů, 
+převodové účty a rezerva na daň z příjmů.  
+3.6. Přecenění aktiv při přeměnách obchodních korporací a při vkladech majetku dává 
+vzniknout rozdílům, které vyústí v odloženou daň. Přitom účetní hodnota majetku je 
+zvýšena (případně snížena) na reálnou hodnotu, ale daňová základna zůstává v původní 
+pořizovací ceně. Při účtování o odložené dani použije účetní jednotka postup podle 
+vyhlášky § 59 odst. 6 věty první.  
+ 
+10

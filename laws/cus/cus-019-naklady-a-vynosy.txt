@@ -1,0 +1,385 @@
+ZÁKON: ČÚS č. 019
+NAZEV: Český účetní standard pro podnikatele č. 019 – Náklady a výnosy
+URL: https://www.mfcr.cz/assets/cs/media/Ucetnictvi_2018_Ceske-ucetni-standardy-pro-500-2002_v02.pdf
+
+Náklady a výnosy 
+ 
+ 
+1. Cíl 
+ 
+Cílem tohoto standardu je stanovit podle zákona č. 563/1991 Sb., o účetnictví, ve 
+znění pozdějších předpisů, (dále jen „zákon“) a vyhlášky č. 500/2002 Sb., kterou se provádějí 
+některá ustanovení zákona č. 563/1991 Sb., o účetnictví, ve znění pozdějších předpisů, pro 
+účetní jednotky, které jsou podnikateli účtujícími v soustavě podvojného účetnictví, ve znění 
+pozdějších předpisů, (dále jen „vyhláška“) základní postupy účtování nákladů a výnosů za 
+účelem docílení souladu při používání účetních metod účetními jednotkami.  
+ 
+2. Obsahové vymezení 
+2.1.   Pro účely tohoto standardu se využívá obsahové vymezení nákladů a výnosů uvedené v 
+§ 20 až 38 vyhlášky.  
+2.2.   zrušen  
+2.3.  Pokud účetní jednotka účtuje o dani z přidané hodnoty na příslušném účtu účtové 
+skupiny 34 – Zúčtovaní daní a dotací, potom částka daně z přidané hodnoty není 
+součástí nákladů, respektive výnosů.  
+ 
+3.  Postup účtování o nákladech 
+3.1. Účtová třída 5 - Náklady  
+3.1.1.   zrušen  
+3.1.2.   Analytické účty v účtové třídě 5 je třeba stanovit též s ohledem na požadavky zákona 
+o daních z příjmů (podklady pro analýzu připočitatelných a odpočitatelných položek 
+pro zjištění základu daně z příjmů). 
+3.1.3.  Pokud ve vyúčtováních za přijaté služby nebo nákladech zúčtovaných podle jiných 
+dokladů budou zahrnuty také částky, které nepatří do nákladů účetní jednotky 
+(například soukromé telefonní hovory, přepravné, nájemné, elektrický proud apod.), 
+lze postupovat takto:  
+a) zjistí-li se před zaúčtováním příslušných vyúčtování nároky, které mají pracovníci, 
+popřípadě jiné účetní jednotky uhradit, částky takových nároků se zaúčtují přímo 
+na příslušné účty účtové třídy 3,  
+b) nezjistí-li se tyto částky před zachycením příslušných vyúčtování, zaúčtují se 
+částky na příslušné účty účtové třídy 5. O dodatečně přijaté náhrady nebo 
+vyúčtované nároky na ně na účtech v účtové třídě 3 se sníží náklady v účtové třídě 
+5,  
+c) u účetních jednotek, které poskytují služby, se v nákladech v účtové třídě 5 
+zaúčtují celé částky faktur či jiných dokladů a tržby za poskytnuté služby se 
+zaúčtují v účtové třídě 6.  
+3.2.  Účtová skupina 50 – Spotřebované nákupy  
+3.2.1.  Na účtech této účtové skupiny se účtuje v závislosti na zvoleném způsobu účtování o 
+zásobách.  
+3.2.2.  Při uplatnění způsobu A:  
+a) v průběhu účetního období se spotřebovávané položky materiálu a zboží í zaúčtují 
+na vrub příslušných účtů účtové skupiny 50 – Spotřebované nákupy se 
+souvztažným zápisem ve prospěch účtů zásob, 
+b) při uzavírání účetních knih se případné rozdíly mezi fyzickým stavem zásob 
+zjištěných při inventarizaci a účetním stavem na příslušných účtech zásob zaúčtují 
+podle své povahy podle Českého účetního standardu pro podnikatele č. 007 
+ 
+58 
+Inventarizační rozdíly a ztráty v rámci norem přirozených úbytků zásob. 
+ 
+3.2.3.  Při uplatnění způsobu B:  
+a) v průběhu účetního období se náklady, které tvoří pořizovací cenu jednotlivých 
+položek nákupu, zaúčtují na vrub příslušných účtů účtové skupiny 50 – 
+Spotřebované   nákupy,  
+b) při uzavírání účetních knih se počáteční zůstatky účtů vyjadřujících stav materiálu 
+a zboží na skladě a v prodejnách zaúčtují souvztažným zápisem na vrub 
+příslušných účtů účtové skupiny 50  – Spotřebované nákupy. Konečné stavy zásob 
+materiálu a zboží ověřené inventarizací se zaúčtují na vrub příslušných účtů 
+účtových skupin 11 – Materiál a 13 – Zboží a ve prospěch příslušných účtů účtové 
+skupiny 50 – Spotřebované nákupy. U inventarizačních rozdílů se postupuje podle 
+Českého účetního standardu pro podnikatele č. 007 Inventarizační rozdíly a ztráty 
+v rámci norem přirozených úbytků zásob.  
+3.2.4. Na příslušných účtech účtové skupiny 50 – Spotřebované nákupy se zaúčtují též 
+neskladovatelné nákupy.  
+3.3.   Účtová skupina 51 –  Služby  
+Na účtech této účtové skupiny se účtuje o nákladech za externí služby, tj. výkony od 
+jiných účetních jednotek. Výjimku tvoří příslušný účet sloužící k zaúčtování nákladů na 
+reprezentaci, kde se účelově shromažďují náklady týkající se reprezentace a kde se 
+účtuje i o vlastních výkonech, které se použijí pro účely reprezentace. Na příslušném 
+účtu účtové skupiny 51 – Služby se účtuje též o drobném nehmotném majetku, o kterém 
+účetní jednotka rozhodla, že není dlouhodobým majetkem, podle § 6 odst. 2 písm. b) 
+vyhlášky.  
+3.4.   Účtová skupina 52 – Osobní náklady  
+Na příslušných účtech účtové skupiny 52 – Osobní náklady se účtují veškeré požitky 
+zaměstnanců včetně příjmů společníků obchodní korporace ze závislé činnosti. Na 
+těchto účtech se zaúčtují mzdy zásadně v hrubých částkách. Do hrubé mzdy musí být 
+zahrnuta také naturální mzda, je-li součástí mzdy. Nepeněžní plnění mezd (naturální 
+mzda) se zaúčtuje v ocenění podle jiného právního předpisu.  
+3.5. Účtová skupina 53 – Daně a poplatky 
+3.5.1.  V této účtové skupině se zaúčtují daně, odvody a jiná obdobná peněžitá plnění 
+charakteru nákladů včetně nákladů na soudní poplatky v případech, kdy je účetní 
+jednotka poplatníkem, s výjimkou daně z příjmů, která se účtuje na vrub příslušných 
+účtů účtové skupiny 59 – Daně z příjmů, převodové účty a rezerva na daň z příjmů.  
+3.5.2.  V této účtové skupině se zaúčtují též doměrky těchto daní za minulá léta. 
+3.6. Účtová skupina 54 –  Jiné provozní náklady  
+3.6.1.  Na vrub příslušného účtu účtové skupiny 54 – Jiné provozní náklady se při prodeji 
+dlouhodobého majetku účtuje o rozdílu mezi oceněním prodaného odpisovaného 
+dlouhodobého majetku zaúčtovaného na účtech účtových skupin 01 – Dlouhodobý 
+nehmotný majetek, 02 – Dlouhodobý hmotný majetek odpisovaný a vytvořenými 
+oprávkami. Dále se na vrub tohoto účtu účtuje o ocenění prodaného neodpisovaného 
+dlouhodobého hmotného majetku zaúčtovaného na účtech účtové skupiny 03 – 
+Dlouhodobý hmotný majetek neodpisovaný a náklady na pořízení prodaného 
+nedokončeného dlouhodobého nehmotného a hmotného majetku zaúčtované na 
+příslušných účtech účtové skupiny 04 – Nedokončený dlouhodobý nehmotný a hmotný 
+majetek. 
+3.6.2.  Na vrub příslušného účtu účtové skupiny 54 – Jiné provozní náklady se při prodeji 
+materiálu zaúčtuje úbytek materiálu v ocenění, které vychází z ocenění tohoto 
+materiálu na příslušných účtech v účtové třídě 1.  
+ 
+59 
+3.6.3.  Na vrub příslušného účtu účtové skupiny 54 – Jiné provozní náklady se účtuje o 
+poskytnutých darech nebo jiném bezúplatném převodu v provozní oblasti. Patří sem 
+například zůstatková cena darovaného dlouhodobého nehmotného a hmotného 
+majetku včetně daňové povinnosti z titulu daně z přidané hodnoty.  
+3.6.4  Na vrub příslušného účtu 54 – Jiné provozní náklady se účtuje o nákladech 
+souvisejících s pokutami a úroky z prodlení; částky dluhů se zaúčtují bez ohledu na to, 
+zda byly zaplaceny či nikoliv. 
+3.6.5.   zrušen 
+3.6.6.  Na vrub příslušného účtu účtové skupiny 54 – Jiné provozní náklady se účtuje o 
+odpisech pohledávek. Jmenovitá hodnota těchto pohledávek se při plném či částečném 
+odepsání zaúčtuje na podrozvahových účtech. Na vrub tohoto účtu se zaúčtuje i 
+hodnota pohledávky při jejím postoupení. 
+3.6.7.  Na vrub příslušného účtu (příslušných účtů) účtové skupiny 54 – Jiné provozní náklady 
+se zaúčtují ostatní položky neúčtované na předcházejících účtech, které se týkají 
+provozní oblasti a mimořádné náklady v provozní oblasti.    
+3.6.8.   Na vrub příslušného účtu účtové skupiny 54 – Jiné provozní se zaúčtují manka a 
+škody na majetku. 
+3.7. Účtová skupina 55 – Odpisy, rezervy, komplexní náklady příštích období a opravné 
+položky v provozní oblasti  
+3.7.1.  Na vrub příslušného účtu účtové skupiny 55 – Odpisy, rezervy, komplexní náklady 
+příštích období a opravné položky v provozní oblasti se účtuje o odpisech 
+dlouhodobého majetku, včetně odpisů goodwillu a oceňovacího rozdílu k nabytému 
+majetku, podle Českého účetního standardu pro podnikatele č. 013 Dlouhodobý 
+nehmotný a hmotný majetek. 
+3.7.2.  Na vrub příslušného účtu účtové skupiny 55 – Odpisy, rezervy, komplexní náklady 
+příštích období a opravné položky v provozní oblasti se zaúčtuje tvorba rezerv 
+vztahujících se k provozní oblasti s výjimkou rezervy na daň z příjmů, se souvztažným 
+zápisem ve prospěch příslušných účtů účtové skupiny 45 – Rezervy. Ve prospěch 
+příslušného účtu účtové skupiny 55 – Odpisy, rezervy, komplexní náklady příštích 
+období a opravné položky v provozní oblasti se účtuje o použití rezerv nebo o jejich 
+zrušení pro nepotřebnost vztahujících se k provozní oblasti s výjimkou rezervy na daň 
+z příjmů se souvztažným zápisem na vrub příslušného účtu rezerv v účtové skupině 45 
+– Rezervy.  
+3.7.3.  Na vrub příslušného účtu účtové skupiny 55 – Odpisy, rezervy, komplexní náklady 
+příštích období a opravné položky v provozní oblasti se zaúčtuje tvorba komplexních 
+nákladů příštích období (náklady, které se souhrnně vztahují k danému účelu) se 
+souvztažným zápisem ve prospěch příslušného účtu účtové skupiny 38 – Přechodné 
+účty aktiv a pasiv. Ve prospěch tohoto účtu se zaúčtuje snížení komplexních nákladů 
+příštích období nebo jejich zrušení se souvztažným zápisem na vrub příslušného účtu 
+účtové skupiny 38 – Přechodné účty aktiv a pasiv.  
+3.7.4.   zrušen 
+3.7.5.  Na vrub příslušného účtu účtové skupiny 55 – Odpisy, rezervy, komplexní náklady 
+příštích období a opravné položky v provozní oblasti se účtuje o tvorbě opravných 
+položek v provozní oblasti, se souvztažným zápisem ve prospěch příslušných účtů 
+účtových skupin 09 – Opravné položky k dlouhodobému majetku, 19 – Opravné 
+položky k zásobám a 39 – Opravná položka k zúčtovacím vztahům a vnitřní zúčtování. 
+Ve prospěch příslušných účtů účtové skupiny 55 – Odpisy, rezervy, komplexní náklady 
+příštích období a opravné položky v provozní oblasti se zaúčtuje částečné nebo plné 
+rozpuštění opravných položek, když pominuly důvody pro jejich existenci, se 
+souvztažným zápisem na vrub příslušných účtů účtových skupin 09 – Opravné položky 
+ 
+60 
+k dlouhodobému majetku, 19 – Opravné položky k zásobám a 39 –  Opravná položka k 
+zúčtovacím vztahům a vnitřní zúčtování.  
+3.8.  Účtová skupina 56 – Finanční náklady  
+3.8.1.  Na vrub příslušného účtu účtové skupiny 56 – Finanční náklady se účtuje o prodeji 
+cenných papírů a podílů souvztažně se zápisy na příslušných účtech účtových skupin 
+06 – Dlouhodobý finanční majetek nebo 25 – Krátkodobý finanční majetek. V 
+případech prodeje dlužných cenných papírů je nutno k okamžiku prodeje doúčtovat 
+naběhlý alikvotní výnosový úrok.  
+3.8.2.   Na vrub příslušného účtu účtové skupiny 56 – Finanční náklady se zaúčtuje platební 
+povinnost z titulu úroků zejména vůči úvěrovým institucím, včetně úroků z prodlení 
+podle smlouvy o úvěru, v případě zápůjček, finančních operací (například eskontace 
+cenných papírů). Nepatří sem úroky, které se zahrnují do pořizovací ceny 
+dlouhodobého nehmotného a hmotného majetku podle § 47 odst. 1 písm. b) vyhlášky. 
+Zahrnování úroků se zahájí prvním použitím úvěru nebo zápůjčky na tento účel. Je-li 
+úvěr nebo zápůjčka použit i na jiný účel, a to doložený věcně i hodnotově, zaúčtují se 
+úroky proporcionálně na jednotlivé účely.  
+3.8.3.  Na vrub příslušného účtu účtové skupiny 56 – Finanční náklady se zaúčtují kursové 
+rozdíly podle § 60 vyhlášky a podle Českého účetního standardu pro podnikatele č. 
+006 Kursové rozdíly.  
+3.8.4. Na vrub příslušných účtů účtové skupiny 56 – Finanční náklady se účtuje o 
+oceňovacích rozdílech při uplatnění reálné hodnoty podle § 51 až § 53a vyhlášky a 
+podle Českého účetního standardu pro podnikatele č. 008 Operace s cennými papíry a 
+podíly a Českého účetního standardu pro podnikatele č. 009 Deriváty.  
+3.8.5.  Na vrub příslušného účtu v účtové skupině 56 – Finanční náklady se dále zaúčtují 
+ostatní náklady peněžního styku, zejména náklady vůči úvěrovým institucím, pojistné, 
+náklady spojené se získáním záruk a obdobné náklady, jakož i depozitní poplatky s 
+výjimkou případů, kdy se tyto položky stávají součástí pořizovací ceny majetku. Dále 
+se zde účtuje o poskytnutých darech nebo jiném bezúplatném převodu a mimořádných 
+nákladech ve finanční oblasti. 
+3.9. Účtová skupina 57 – Rezervy a opravné položky ve finanční oblasti  
+3.9.1.  Na vrub příslušného účtu účtové skupiny 57 – Rezervy a opravné položky ve finanční 
+oblasti se zaúčtuje tvorba rezerv týkajících se finančních nákladů s výjimkou rezervy 
+na daň z příjmů se souvztažným zápisem ve prospěch příslušného účtu účtové skupiny 
+45 – Rezervy. Ve prospěch příslušného účtu účtové skupiny 57 – Rezervy a opravné 
+položky ve finanční oblasti se zaúčtuje použití rezerv nebo jejich zrušení pro 
+nepotřebnost s výjimkou rezervy na daň z příjmů se souvztažným zápisem na vrub 
+příslušného účtu účtové skupiny 45 – Rezervy.  
+3.9.2. Na vrub příslušného účtu účtové skupiny 57 – Rezervy a opravné položky ve finanční 
+oblasti se zaúčtuje tvorba opravných položek ve finanční oblasti souvztažně ve 
+prospěch příslušných účtů účtové skupiny 09 – Opravné položky k dlouhodobému 
+majetku a účtů účtové skupiny 29 – Opravné položky ke krátkodobému finančnímu 
+majetku. Ve prospěch tohoto účtu se zaúčtuje částečné nebo plné rozpuštění 
+opravných položek ve finanční oblasti, když pominuly důvody pro jejich existenci, se 
+souvztažným zápisem na vrub příslušných účtů účtové skupiny 09 – Opravné položky 
+k dlouhodobému majetku a účtové skupiny 29 – Opravné položky ke krátkodobému 
+finančnímu majetku.  
+3.10.  Účtová skupina 58 – Změna stavu zásob vlastní činnosti a aktivace  
+3.10.1. Na příslušných účtech účtové skupiny 58 – Změna stavu zásob vlastní činnosti a 
+aktivace vykazovaných v položce „B. Změna stavu zásob vlastní činnosti (+/-)“ se 
+účtuje, v závislosti na zvoleném způsobu účtování zásob, o přírůstcích a úbytcích 
+ 
+61 
+zásob vlastní činnosti. Souvztažnými účty jsou příslušné účty v účtové třídě 1. Při 
+účtování o zásobách způsobem B, pokud je hodnota zásob vyplývající z inventarizace 
+zásob koncem příslušného období vyšší než na počátku období, se o rozdílu účtuje ve 
+prospěch příslušných účtů účtové skupiny 58 – Změna stavu zásob vlastní činnosti a 
+aktivace; v opačném případě o rozdílu účtuje na vrub příslušných účtů této účtové 
+skupiny.  
+3.10.2  zrušen  
+3.10.3. Ve prospěch příslušných účtů účtové skupiny 58 – Změna stavu zásob vlastní činnosti 
+a aktivace vykazovaných v položce „C. Aktivace (-)“ se účtuje o snížení nákladů 
+v provozní oblasti z titulu vytvoření zásob nebo dlouhodobého nehmotného a 
+hmotného majetku vlastní činností se souvztažným zápisem zejména na vrub 
+příslušného účtu účtových skupin 
+a) 04 – Nedokončený dlouhodobý nehmotný a hmotný majetek v případě 
+dlouhodobého nehmotného a hmotného majetku vytvořeného vlastní činností,   
+b) 11 – Materiál, 13 – Zboží nebo 50 – Spotřebované nákupy v případě zásob 
+vytvořených vlastní činnost a to podle zvoleného způsobu účtování o zásobách. 
+3.10.4. zrušen 
+3.10.5. zrušen  
+3.10.6. zrušen   
+3.11.  Účtová skupina 59 –  Daně z příjmů, převodové účty a rezerva na daň z příjmů 
+3.11.1. O splatné dani z příjmů k rozvahovému dni se účtuje na vrub příslušného účtu účtové 
+skupiny 59 – Daně z příjmů, převodové účty a rezerva na daň z příjmů se 
+souvztažným zápisem ve prospěch příslušného účtu účtové skupiny 34 – Zúčtování 
+daní a dotací.  
+3.11.2. O odložené dani se účtuje podle svého charakteru na příslušném účtu účtové skupiny 
+59 – Daně z příjmů, převodové účty a rezerva na daň z příjmů se souvztažným 
+zápisem na vrub, popřípadě ve prospěch účtu účtové skupiny 48 – Odložený daňový 
+závazek a pohledávka. 
+3.11.3. Na vrub příslušného účtu v účtové skupině 59 – Daně z příjmů, převodové účty a 
+rezerva na daň z příjmů se dále zaúčtují doměrky daně za minulá léta a ve prospěch 
+vratky daně za minulá léta.  
+3.11.4. Na příslušném účtu účtové skupiny 59 – Daně z příjmů, převodové účty a rezerva na 
+daň z příjmů se zaúčtuje nárok na podíl na zisku či povinnost úhrady ztráty vůči 
+společníkům veřejné obchodní společnosti nebo komplementářům komanditní 
+společnosti (souvztažný zápis je na příslušném účtu účtové skupiny 36 – Závazky ke 
+společníkům nebo na příslušném účtu účtové skupiny 35 – Pohledávky za společníky).  
+3.11.5. Ve prospěch příslušného převodového účtu provozních nákladů účtové skupiny 59 – 
+Daně z příjmů, převodové účty a rezerva na daň z příjmů se zaúčtují například 
+mimořádné náklady související s postoupením nebo ukončením hospodářské činnosti, 
+či složky hospodářské činnosti účetní jednotky se souvztažným zápisem na vrub 
+příslušného účtu účtové skupiny 54 – Jiné provozní náklady nebo na vrub příslušných 
+účtů účtové skupiny 56 – Finanční náklady, jestliže se jedná o náklady finančního 
+charakteru.  
+3.11.6. Ve prospěch příslušného převodového účtu finančních nákladů účtové skupiny 59 – 
+Daně z příjmů, převodové účty a rezerva na daň z příjmů se účtuje převod finančních 
+nákladů na vrub provozních nákladů v zájmu upřesnění vykázaného provozního a 
+finančního výsledku hospodaření.  
+3.11.7. V účtové skupině 59 – Daně z příjmů, převodové účty a rezerva na daň z příjmů se 
+účtuje také o tvorbě a použití rezervy na daň z příjmů podle § 16 odst. 3 vyhlášky a 
+Českého účetního standardu pro podnikatele č. 004 Rezervy.  
+ 
+62 
+ 
+4. Postup účtování o výnosech 
+4.1. Účtová třída 6 - Výnosy  
+4.1.1.  Slevy a srážky jsou u dodavatele součástí tržeb, mohou však být pro ně zřízeny 
+samostatné analytické účty. Za slevy a srážky se považují všechny položky bez ohledu 
+na to, zda zákazník měl předem na slevu nárok, či zda jde o slevu dodatečně uznanou, 
+například pro špatnou jakost.  
+4.1.2.  V případě úrokových výnosů (příjmů), které se podle zákona o daních z příjmů zdaňují 
+zvláštní sazbou daně a sraženou daň je možno započíst na celkovou daňovou 
+povinnost, se sražená daň z příjmů zaúčtuje na vrub příslušného účtu účtové skupiny 
+34 – Zúčtování daní a dotací. V ostatních případech se úrokový výnos (příjem) 
+zaúčtuje v netto částce; pokud se uvedený úrokový výnos (příjem) zaúčtuje v brutto 
+částce, je nutno vyúčtovat částku srážkové daně odpovídající vyúčtovanému 
+úrokovému výnosu na příslušný účet účtové skupiny 59 – Daně z příjmů, převodové 
+účty a rezerva na daň z příjmů. Podíly na zisku, vypořádací podíly, podíly na 
+likvidačním zůstatku nebo jim obdobná plnění, plynou-li ze zahraničí, se zaúčtují v 
+brutto částce, a plynou-li z tuzemska, se zaúčtují v netto částce.  
+4.1.3. Právně zaniklé dluhy se zaúčtují na příslušný účet ostatních výnosů (s výjimkou 
+například splnění, splynutí, započtení, novace, narovnání, pokud jde o stejné částky 
+(případný rozdíl se zaúčtuje do výnosů)). 
+4.1.4.  zrušen 
+4.2.  Účtová skupina 60 – Tržby za vlastní výkony a zboží  
+Ve prospěch účtů této účtové skupiny se zaúčtují tržby se souvztažným zápisem na vrub 
+příslušných účtů účtové skupiny 31 – Pohledávky (krátkodobé i dlouhodobé), popřípadě 
+příslušného účtu účtové skupiny 21 – Peněžní prostředky v pokladně.  
+4.3.   zrušen 
+4.4.  zrušen 
+4.4.1. zrušen 
+4.4.2. zrušen 
+4.4.3  zrušen 
+4.5. Účtová skupina 64 – Jiné provozní výnosy 
+4.5.1.  Ve prospěch příslušných účtů účtové skupiny 64 – Jiné provozní výnosy se účtuje o 
+výnosech z prodeje dlouhodobého nehmotného a hmotného majetku a materiálu, jakož 
+i o odhadu poplatků z licencí nebo jiných majetkových práv, pokud není ještě známa 
+výše poplatků, se souvztažným zápisem na vrub příslušných účtů účtové skupiny 31 – 
+Pohledávky (krátkodobé i dlouhodobé), popřípadě na vrub příslušného účtu účtové 
+skupiny 38 – Přechodné účty aktiv a pasiv, jedná-li se o částky pohledávek, u nichž 
+není známa jejich přesná výše.  
+4.5.2.   Ve prospěch příslušného účtu účtové skupiny 64 –  Jiné provozní výnosy se účtuje o 
+výnosech souvisejících s pokutami a úroky z prodlení; částky pohledávek se zaúčtují 
+bez ohledu na to, zda byly zaplaceny či nikoliv. 
+4.5.3.  Ve prospěch příslušného účtu účtové skupiny 64 – Jiné provozní výnosy se zaúčtují 
+úhrady pohledávek, které byly v minulosti odepsány na vrub nákladů a od tohoto 
+okamžiku se o nich neúčtovalo. Na tento účet se zaúčtují i výnosy z postoupení 
+pohledávek.  
+4.5.4.  Ve prospěch příslušného účtu účtové skupiny 64 – Jiné provozní výnosy se účtuje o 
+odpisech záporného goodwillu a záporného oceňovacího rozdílu k nabytému majetku 
+podle Českého účetního standardu pro podnikatele č. 013 Dlouhodobý nehmotný a 
+hmotný majetek. 
+4.5.5.  Ve prospěch příslušného účtu účtové skupiny 64 – Jiné provozní výnosy se zaúčtují 
+ 
+63 
+výnosy na předcházejících účtech neuvedené, mající vztah k provozní oblasti, 
+mimořádné výnosy v provozní oblasti a přijaté dary v provozní oblasti; rovněž se zde 
+zaúčtují nároky na náhradu škody zaúčtované na příslušném účtu účtové skupiny 54 – 
+Jiné provozní náklady. Na tomto účtu se dále zaúčtují inventarizační rozdíly podle 
+Českého účetního standardu pro podnikatele č. 007 Inventarizační rozdíly a ztráty v 
+rámci norem přirozených úbytků zásob. 
+4.6.  Účtová skupina 66 – Finanční výnosy  
+4.6.1.  Ve prospěch příslušného účtu účtové skupiny 66 –  Finanční výnosy se zaúčtuje prodej 
+cenných papírů a podílů účtovaných v účtových skupinách 06 – Dlouhodobý finanční 
+majetek nebo 25 –  Krátkodobý finanční majetek.  
+4.6.2.  Ve prospěch příslušného účtu účtové skupiny 66 – Finanční výnosy  se zaúčtují nároky 
+na výnosové úroky od bank, spořitelních a úvěrních družstev a jiných dlužníků a 
+obdobná plnění.  
+4.6.3.  Ve prospěch příslušného účtu účtové skupiny 66 – Finanční výnosy se zaúčtují kursové 
+rozdíly podle Českého účetního standardu pro podnikatele č. 006 Kursové rozdíly.  
+4.6.4.  V účtové skupině 66 – Finanční výnosy se účtuje podle Českého účetního standardu 
+pro podnikatele č. 008 Operace s cennými papíry a podíly a Českého účetního 
+standardu pro podnikatele č. 009 Deriváty, dále například podíly na zisku či úroky, 
+vyplývající z vlastnictví finančního majetku.  
+4.6.5.  V účtové skupině 66 – Finanční výnosy se dále účtuje o přijatých darech ve finanční 
+oblasti, o mimořádných výnosech ve finanční oblasti a o finančních výnosech, o 
+kterých nebylo účtováno na předcházejících účtech této účtové skupiny. 
+4.7. zrušen 
+4.7.1.  zrušen 
+4.7.2.  zrušen  
+4.7.3.  zrušen 
+4.8.  Účtová skupina 69 – Převodové účty  
+4.8.1.  Na vrub příslušného účtu účtové skupiny 69 – Převodové účty se zaúčtují například 
+mimořádné výnosy související s postoupením nebo ukončením hospodářské činnosti 
+či složky hospodářské činnosti účetní jednotky se souvztažným zápisem ve prospěch 
+příslušného účtu účtové skupiny 64 – Jiné provozní výnosy, popřípadě ve prospěch 
+příslušných účtů účtové skupiny 66 –  Finanční výnosy, jestliže se jedná o výnosy 
+finančního charakteru.  
+4.8.2.  Na vrub příslušného účtu účtové skupiny 69 – Převodové účty se účtuje například 
+převod finančních výnosů ve prospěch příslušného účtu provozních výnosů v zájmu 
+upřesnění vykazovaného provozního a finančního výsledku hospodaření. 
+5.  zrušen 
+5.1.zrušen  
+5.2. zrušen  
+ 
+6. Zásady účtování o nákladech a výnosech a jejich časové rozlišení 
+6.1.  Náklady a výnosy účetní jednotky zaúčtují podle těchto zásad  
+a) náklady a výnosy se účtují zásadně do období, s nímž časově a věcně souvisejí,  
+b) zrušeno  
+c) náhrady vynaložených nákladů minulých účetních období se účtují do výnosů 
+běžného roku,  
+d) náklady a výdaje, které se týkají budoucích období, je nutno časově rozlišit ve formě 
+nákladů příštích období nebo výdajů příštích období na příslušných účtech účtové 
+skupiny 38 – Přechodné účty aktiv a pasiv,  
+e) výnosy a příjmy, které se týkají budoucích období, je nutno časově rozlišit ve formě 
+ 
+64 
+výnosů příštích období nebo příjmů příštích období na příslušných účtech účtové 
+skupiny 38 –  Přechodné účty aktiv a pasiv.  
+6.2.   zrušen 
+6.3.  Účty časového rozlišení podléhají inventuře a při inventarizaci se posuzuje jejich výše a 
+odůvodněnost.  
+6.4.   Časové rozlišení není nutno používat v případech, jde-li o:  
+a) nevýznamné částky, kdy jejich ponecháním v nákladech či výnosech bez časového 
+rozlišení není dotčen účel časového rozlišení a účetní jednotka tím prokazatelně 
+nesleduje záměrné upravování výsledku hospodaření,  
+b) pravidelně se opakující výdaje, popřípadě příjmy, za předpokladu, že se výrazněji 
+neovlivní věcná a časová souvislost nákladů a výnosů.  
+6.5.  Účetní jednotka stanoví postup při časovém rozlišení nákladů a výnosů a nesmí jej 
+každoročně měnit. Ke změně může dojít jen zcela výjimečně, a je nutno přitom 
+postupovat podle ustanovení § 7 odst. 4 zákona.  
+ 
+ 
+65

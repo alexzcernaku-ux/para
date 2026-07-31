@@ -1,0 +1,230 @@
+ZÁKON: NÚR I-27
+NAZEV: Interpretace Národní účetní rady I-27 – Následné získání dotace na dlouhodobý majetek
+URL: http://nur.cz/wp-content/uploads/2020/10/I-27_updated.pdf
+
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+1/5 
+Interpretace NÚR 
+I–27 
+Následné získání dotace na dlouhodobý majetek 
+ 
+Účetní jednotky jsou povinny vést účetnictví tak, aby účetní závěrka sestavená na jeho základě 
+podávala věrný a poctivý obraz předmětu účetnictví a finanční situace účetní jednotky (zákon 
+č. 563/1991 Sb., o účetnictví, § 7, odst. 1). Účetní jednotky účtují o stavu a pohybu majetku a jiných 
+aktiv, závazků a jiných pasiv, dále o nákladech a výnosech a o výsledku hospodaření. (zákon 
+č. 563/1991 Sb., o účetnictví, § 2, Předmět účetnictví).  
+Tato interpretace musí být aplikována v kontextu s Předmluvou Národní účetní rady 
+k interpretacím českých účetních standardů. 
+ 
+Odkaz:  
+Zákon č. 563/1991 Sb., o účetnictví, § 3 odst. 1, § 19 odst. 2 a § 25 odst. 1. 
+ČÚS pro podnikatele č. 013 – Dlouhodobý nehmotný a hmotný majetek 
+ČÚS pro podnikatele č. 017 – Zúčtovací vztahy 
+ 
+Popis problému 
+1. Účetní jednotka pořídila dlouhodobý majetek se záměrem financovat jej prostřednictvím 
+dotace a ve sledovaném účetním období jej zařadila do používání ve skutečné pořizovací ceně. 
+Z této ceny ho začala účetně odpisovat. 
+ 
+2. Na pořízení daného dlouhodobého majetku účetní jednotka požádala o dotaci, avšak 
+neúčtovala o nezpochybnitelném nároku na dotaci (v souladu s I-14 Okamžik vykázání nároku 
+na přijetí nebo vrácení dotace) a nesnížila pořizovací cenu dlouhodobého majetku zařazeného 
+do užívání. 
+ 
+3. V následujícím účetním období (po sestavení účetní závěrky) účetní jednotka dotaci na pořízení 
+dlouhodobého majetku obdržela. 
+ 
+4. Tato Interpretace řeší tedy pouze situaci, kdy účetní jednotka měla od samého počátku úmysl 
+pořídit majetek s pomocí dotace, která však byla skutečně získána až v některém z 
+následujících období po podání žádosti o dotaci. 
+ 
+5. Interpretace se tedy nevztahuje na situace, kdy pořízení majetku a požádání o dotaci spolu 
+časově a věcně nesouviselo a o dotaci bylo požádáno až poté, co byl majetek pořízen bez 
+záměru požádat o dotaci.  
+ 
+6. Rovněž se tato Interpretace nevztahuje na jiné následné události upravující pořizovací cenu 
+majetku, jako jsou opravy chyb, změny metod, reklamace, slevy, opravné položky apod. V 
+těchto případech se postupuje odlišným způsobem, například v souladu s I-26 Slevy z 
+pořizovací ceny dlouhodobého hmotného majetku v následujících účetních obdobích po 
+uvedení majetku do užívání. 
+ 
+
+                                           Interpretace NÚR I-27 Následné získání dotace na dlouhodobý majetek 
+ 
+ 
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+2/5 
+7. Podstatou problému je a otázka zní, jak má účetní jednotka v popisované situaci správně 
+postupovat: 
+a) Je nevykázání pohledávky z titulu nároku na dotaci chybou, která se má opravit řádným 
+postupem jako oprava chyby minulých období? 
+b) Je získání dotace běžnou účetní operací následujícího období, nevykázání pohledávky z 
+titulu dotace v minulém období bylo správné, a nejedná se tedy o chybu a nepostupuje 
+se jako při opravě chyb minulých období? 
+c) Jak postupovat v případě, že následně obdržená dotace převyšuje aktuální zůstatkovou 
+cenu dlouhodobého majetku. 
+ 
+Řešení 
+8. Postup podle bodu 7a) se použije v případě, kdy účetní jednotka není schopna prokázat, že 
+postupovala správně, když nezaúčtovala nárok na dotaci na základě nezpochybnitelného 
+nároku na ni v roce pořízení a zařazení majetku do používání. Vzhledem k tomu, že o nároku na 
+dotaci a současně o snížení pořizovací ceny měla účtovat, jedná se o chybu, kterou je třeba v 
+následujícím období opravit. 
+ 
+9. Opravy významných účetních chyb se účtují retrospektivně proti položce vlastního kapitálu 
+„Jiný výsledek hospodaření“. Oprava se tedy zaúčtuje v následujícím období jako snížení 
+pořizovací ceny dlouhodobého majetku (o částku dotace) a adekvátní snížení oprávek proti 
+Jinému výsledku hospodaření. Z důvodu zajištění srovnatelnosti (viz též I-30 Srovnatelnost 
+informací za běžné a minulé účetní období v individuální účetní závěrce podnikatelů) se v 
+rozvaze opraví ve srovnávacích údajích minulých období odpovídající položky (Pořizovací cena 
+DHM, oprávky DHM a Jiný výsledek hospodaření). Ve výkazu zisku a ztráty se rovněž opraví za 
+srovnatelné období odpovídající položky (odpisy a výsledek hospodaření). Pokud k chybě došlo 
+již v předminulých obdobích, postupuje se v souladu s výše zmíněnou Interpretací I-30. 
+ 
+10. Postup podle bodu 7b) se použije v případě, že nezaúčtování nároku na dotaci v roce pořízení a 
+zařazení majetku do používání bylo podle tehdy dostupných informací správné. Účetní 
+jednotka může prokázat, že neměla nezpochybnitelný nárok, a tedy ani jistotu, že dotaci 
+obdrží, a proto se nejedná o chybu. Důsledky následného získání dotace se tedy v účetnictví 
+vykáží jako změna odhadu prospektivně. Při posuzování toho, kdy a zda účetní jednotka měla 
+dostatečně průkaznou informaci o nároku na dotaci, se postupuje v souladu s Interpretací I-24 
+Události po rozvahovém dni. 
+ 
+11. V účetním období, ve kterém byla následně získána dotace, sníží účetní jednotka pořizovací 
+cenu dlouhodobého majetku o přijatou dotaci a zároveň sníží adekvátně oprávky na výši, která 
+by byla, kdyby se odpisovalo ze snížené pořizovací ceny již od okamžiku pořízení majetku. 
+Výsledný rozdíl se proúčtuje do výsledku běžného období jako snížení provozních nákladů 
+(odpisů). Majetek se od tohoto okamžiku nadále odpisuje ze snížené pořizovací ceny. 
+ 
+12. Pokud účetní jednotka v souladu s dostupnými informacemi nevykázala nárok na získání 
+dotace a v souladu s I-14 Okamžik vykázání nároku na přijetí nebo vrácení dotace nevykázala 
+pohledávku, může následně dojít k situaci, že v důsledku odpisu takového aktiva z pořizovací 
+ceny v plné výši převýší hodnota vzniklého nezpochybnitelného nároku (resp. částka přijaté 
+dotace) celkovou zůstatkovou cenu dlouhodobého majetku v okamžiku, kdy vznikl 
+
+                                           Interpretace NÚR I-27 Následné získání dotace na dlouhodobý majetek 
+ 
+ 
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+3/5 
+nezpochybnitelný nárok na přijetí dotace, nebo byla dotace přijata. V takovém případě se 
+nejedná o účetní chybu, dopad takové skutečnosti se vykáže prospektivně a účetní jednotka 
+částku, o kterou nárok nebo částka přijaté dotace převyšuje zůstatkovou cenu, zúčtuje do 
+výnosů období, ve kterém vznikl nezpochybnitelný nárok, resp. byla dotace přijata. 
+ 
+13. V důsledku výše následně získané dotace může dojít k situaci, že výsledná pořizovací cena 
+poklesne pod limit pro zařazení do dlouhodobého majetku stanovený účetní jednotkou. Tato 
+skutečnost však není důvodem k vyřazení aktiva z dlouhodobého majetku. 
+ 
+14. Podstatu následného získání dotace, způsob jejího řešení a dopady na účetní výkazy popíše 
+účetní jednotka v samostatném komentáři v příloze k účetní závěrce. 
+ 
+ 
+ 
+Zdůvodnění 
+15. Účetní předpisy (a stejně i Interpretace I-14 Okamžik vykázání nároku na přijetí nebo vrácení 
+dotace) dovolují účtovat o nároku na dotaci pouze v případě, že má účetní jednotka na dotaci 
+„nezpochybnitelný nárok“ a její obdržení na pořízení dlouhodobého majetku je prakticky jisté. 
+V opačném případě lze o dotaci účtovat až v okamžiku jejího přijetí. 
+ 
+16. Bylo-li o dotaci na pořízení dlouhodobého majetku požádáno již v souvislosti s jeho pořízením, 
+pak musí účetní jednotka v okamžiku následného získání dotace posoudit, zda původní 
+nezaúčtování nároku na dotaci v roce pořízení a zařazení majetku do používání v plné 
+pořizovací ceně, bylo podle tehdy dostupných informací chybou, nebo ne. Pokud ano, pak se v 
+účetnictví postupuje jako v případě oprav jakékoliv jiné významné chyby, tzn. retrospektivně 
+proti vlastnímu kapitálu (tj. Jinému výsledku hospodaření). Současně s opravou této chyby je v 
+zájmu zabezpečení srovnatelnosti účetních výkazů nezbytné upravit srovnatelné informace 
+minulého období, tak jak to doporučuje I-30 Srovnatelnost informací za běžné a minulé účetní 
+období v individuální účetní závěrce podnikatelů. Tzn. opravit pořizovací cenu a oprávky 
+majetku v rozvaze v rámci srovnávacích údajů, a odpisy a výsledek hospodaření ve výkazu zisku 
+a ztráty v rámci srovnávacích údajů. 
+ 
+17. Pokud nebylo možno podle původně dostupných informací předpokládat, že dotace bude 
+prakticky s jistotou obdržena a účetní jednotka správně nevykázala pohledávku z titulu nároku 
+na dotaci, je její získání v následujícím období po zařazení majetku do používání považováno za 
+změnu odhadu. Nejedná se o chybu a dopady přijetí dotace se vykazují prospektivně do 
+výsledku hospodaření běžného období. Následné získání dotace se v tomto případě proúčtuje 
+snížením pořizovací ceny dlouhodobého majetku a adekvátní úpravou oprávek na výši, která by 
+byla, kdyby se odpisovalo od okamžiku pořízení majetku již ze snížené pořizovací ceny. 
+Výsledná částka úpravy se zúčtuje jako operace běžného období snížením odpisů. V účetnictví 
+se nadále odpisuje ze snížené pořizovací ceny. 
+ 
+18. Pro posouzení, zda se jednalo o chybu nebo změnu odhadu a jestli má tedy účetní jednotka 
+postupovat retrospektivně proti Jinému výsledku nebo prospektivně zúčtovat dopad 
+následného získání dotace proti výsledku hospodaření běžného období lze použít Interpretaci 
+NI-48 Opravy chyb, změny v účetních odhadech a změny v účetních metodách a Interpretaci 
+
+                                           Interpretace NÚR I-27 Následné získání dotace na dlouhodobý majetek 
+ 
+ 
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+4/5 
+zabývající se opravami chyb I-30 Srovnatelnost informací za běžné a minulé účetní období v 
+individuální účetní závěrce podnikatelů. 
+ 
+19. Postup zvolený pro situaci popsanou v otázce 7b) vede k tomu, že je v konečném důsledku 
+zabezpečena srovnatelnost informací mezi majetky, u kterých byla pohledávka z titulu nároku 
+na dotaci vykázána a u kterých ne, a to bez ohledu na to, zda nevykázání pohledávky bylo 
+chybou, nebo ne. Toto řešení rovněž zabezpečuje srovnatelnost údajů o majetku nabytého 
+obdobným způsobem mezi účetními jednotkami a zabezpečuje správné vykázání pořizovacích 
+cen a oprávek (brutto a korekce) v rozvaze, což je důležité například pro vstupní údaje finanční 
+analýzy. Tento postup je používán pouze v případech vymezených a popsaných touto 
+Interpretací a nepoužívá se v případě jiných následných změn pořizovací ceny dlouhodobého 
+hmotného majetku, jako jsou například reklamace, slevy, změny metod a opravy chyb, které 
+nevyplývají z následného získání dotace. V takových případech se upravuje pouze pořizovací 
+cena bez adekvátní úpravy oprávek. Viz například I-26 Slevy z pořizovací ceny dlouhodobého 
+hmotného majetku v následujících účetních obdobích po uvedení do užívání. 
+ 
+20. V případě, že výše následně vykázaného nezpochybnitelného nároku nebo následně získané 
+dotace je vyšší než aktuální zůstatková cena (například proto, že aktivum bylo v minulém 
+období již odepisováno a dotace je v plné výši pořizovací ceny apod.), rozdíl mezi zůstatkovou 
+cenou a nárokem (resp. přijatou dotací) se považuje za snížení provozních nákladů (odpisů) 
+období, ve kterém ke vzniku nároku (resp. přijetí dotace) došlo. Odepisování aktiva z plné 
+pořizovací ceny v období před vykázáním nároku (resp. přijetím dotace) není možno považovat 
+za účetní chybu, protože účetní jednotka postupovala správně podle tehdy známých informací, 
+nebyla schopna prokázat nezpochybnitelný nárok na přijetí dotace, a v důsledku toho 
+nevykázala pohledávku. Odpisy vykázané v minulém období zůstávají v původní výši a není 
+nutno je opravovat. 
+ 
+21. Pokles pořizovací ceny majetku v důsledku následného získání dotace pod limit, který si účetní 
+jednotka stanovila pro zařazování do dlouhodobého majetku, nemůže být důvodem k jeho 
+vyřazení z dlouhodobého majetku, pokud nadále trvají podmínky pro získání dotace. Majetek 
+tedy bude součástí dlouhodobého majetku bez ohledu na výslednou výši jeho pořizovací ceny 
+po celou dobu platnosti podmínek dotace a vyřazen může být až po jejich vypršení. 
+ 
+22. Oprava účetní chyby v případě řešení podle bodu 7a) může mít také daňové dopady. 
+Odpovídající daň se v takovém případě vykáže v účetnictví jako daňový závazek proti Jinému 
+výsledku hospodaření včetně postupu pro zajištění srovnatelnosti informací podle I-30 
+Srovnatelnost informací za běžné a minulé účetní období v individuální účetní závěrce 
+podnikatelů. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+                                           Interpretace NÚR I-27 Následné získání dotace na dlouhodobý majetek 
+ 
+ 
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+5/5 
+Datum prvního schválení 
+této interpretace NÚR: 
+11. listopadu 2013 
+Datum poslední aktualizace 
+této interpretace NÚR: 
+1. dubna 2019 
+Zpracovatel interpretace: 
+prof. Ing. Libuše Müllerová, CSc. 
+doc. Ing. Ladislav Mejzlík, Ph.D. 
+Katedra finančního účetnictví a auditingu 
+Fakulta financí a účetnictví 
+Vysoká škola ekonomická v Praze 
+Nám. W. Churchilla 
+130 67 Praha 3

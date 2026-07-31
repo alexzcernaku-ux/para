@@ -1,0 +1,161 @@
+ZÁKON: NÚR I-23
+NAZEV: Interpretace Národní účetní rady I-23 – Oceňování nabyté cizoměnové pohledávky
+URL: http://nur.cz/wp-content/uploads/2020/10/I-23_updated.pdf
+
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+1/4 
+Interpretace NÚR 
+I–23 
+Oceňování nabyté cizoměnové pohledávky 
+Účetní jednotky jsou povinny vést účetnictví tak, aby účetní závěrka sestavená na jeho základě 
+podávala věrný a poctivý obraz předmětu účetnictví a finanční situace účetní jednotky (zákon 
+č. 563/1991 Sb., o účetnictví, § 7, odst. 1). Účetní jednotky účtují o stavu a pohybu majetku a jiných 
+aktiv, závazků a jiných pasiv, dále o nákladech a výnosech a o výsledku hospodaření. (zákon 
+č. 563/1991 Sb., o účetnictví, § 2, Předmět účetnictví).  
+Tato interpretace musí být aplikována v kontextu s Předmluvou Národní účetní rady 
+k interpretacím českých účetních standardů. 
+ 
+ 
+Popis problému 
+1. Účetní jednotky nabývají pohledávky, jejichž jmenovitá hodnota je vyjádřena v cizí měně (dále 
+jen cizoměnové pohledávky). 
+ 
+2. V souladu se zákonem o účetnictví se pohledávky nabyté za úplatu oceňují pořizovací cenou. V 
+případě, že jsou pohledávky vyjádřeny v cizí měně, jsou účetní jednotky povinny v souladu se 
+zákonem o účetnictví použít současně s peněžními jednotkami české měny i cizí měnu. Zákon 
+výslovně nestanoví, zda se vyjádření v cizí měně vztahuje k pořizovací ceně pohledávky, či 
+pouze k její jmenovité hodnotě. 
+ 
+3. Je tedy otázkou: 
+a) Zda použít k ocenění pořizované pohledávky měnu, za kterou je fakticky pořizováno, 
+nebo zda použít k ocenění pořizované pohledávky pouze českou měnu, a to i v případě, 
+pokud je pořízena ve měně jmenovité hodnoty, popř. v jiné cizí měně, nebo zda použít 
+k ocenění pořizované pohledávky vždy měnu, ve které je vyjádřena jmenovitá hodnota 
+pohledávky. 
+b) Jakým způsobem postupovat pro vyjádření vedlejších pořizovacích nákladů, tj. zda je 
+přepočítat do měny, v níž bude oceněna pořízená pohledávka. 
+ 
+Řešení 
+4. Pokud je jmenovitá hodnota pohledávky vyjádřena v cizí měně (tzn. jiné než v české měně), 
+jedná se o cizoměnovou pohledávku, respektive cizoměnový majetek účetní jednotky. 
+ 
+5. Pokud je pohledávka pořizována za jinou měnu, než ve které je vyjádřena jmenovitá hodnota 
+pohledávky, provede účetní jednotka přepočet měn. Pro pořizovací cenu pořízené pohledávky 
+použije současně s českou měnou přepočtenou cizí měnu. 
+ 
+6. Přepočet provede u všech položek, které jsou součástí pořizovací ceny, tzn. u všech nákladů 
+souvisejících s pořízením. 
+
+                                                    Interpretace NÚR I-23 Oceňování nabyté cizoměnové pohledávky 
+ 
+ 
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+2/4 
+7. Pro přepočet použije měnový kurz k okamžiku uskutečnění účetního případu v souladu s 
+vnitropodnikovou směrnicí (denní, pevný). 
+ 
+8. Pohledávka, jejíž jmenovitá hodnota je vyjádřena v cizí měně, je cizoměnový majetek účetní 
+jednotky a je nutné k němu takto po celou dobu jeho existence přistupovat. Tzn., účetní 
+jednotka účtuje o kurzových rozdílech z přecenění pohledávky k rozvahovému dni (či k jinému 
+dni, k němuž se sestavuje účetní závěrka), při nakládání s pohledávkou (další postoupení) i při 
+zániku (úhrada, odpis apod.) pohledávky. 
+ 
+Zdůvodnění 
+9. Držením nabyté cizoměnové pohledávky je výsledek hospodaření účetní jednotky ovlivněn 
+kurzovým (měnovým) rizikem. Pro zobrazení těchto vlivů je žádoucí vyjádřit ekvivalent celkové 
+pořizovací ceny pohledávky ve měně, ve které je vyjádřena jmenovitá hodnota pohledávky, 
+neboť ta je určující pro kurzové vlivy ovlivňující inkasovanou výši pohledávky. 
+ 
+ 
+ 
+Zapracování připomínek z vnějšího připomínkového řízení 
+ 
+Prof. Ing. Libuše Müllerová, CSc. 
+1. Navrhuji vypustit bod 3 b), zda evidovat cizoměnovou pohledávku pouze v české měně. Bod je 
+v rozporu se zákonem. 
+2. Zpřesnit formulaci v bodu 5, aby bylo jednoznačné, že se přepočítává z pořizovací ceny v jiné 
+měně, než je jmenovitá hodnota na měnu jmenovité hodnoty. 
+3. Oddělit v řešení do samostatného bodu odpověď na otázku d), nově c). 
+4. Oddělit v řešení do samostatného bodu použitý kurz, protože se týká celého řešení. 
+ 
+Vypořádání připomínky 
+1. Připomínka částečně akceptována. Otázky a) – c) byly spojeny a označeny a), protože se 
+jednalo o jednu otázku s nastíněnými třemi možnostmi řešení. Vzhledem k tomu, že se jedná o 
+otázku, není třeba, aby její znění bylo v souladu se zákonem. Problematiku formulovanou 
+otázkou řeší praxe nekonzistentně – používá všechna nastíněná řešení, a proto její položení je 
+legitimní a dala právě podnět ke vzniku této Interpretace. Za důležité považujeme tuto otázku 
+formulovat a následně k ní Interpretovat řešení (bod 4+5) a zdůvodnění řešení (bod 9), které 
+považujeme, že je v souladu se zákonem. 
+2. Připomínka akceptována. Případy těchto přepočtů jsou uvedeny i v ilustrativních příkladech. 
+3. Připomínka akceptována. 
+4. Připomínka akceptována. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+                                                    Interpretace NÚR I-23 Oceňování nabyté cizoměnové pohledávky 
+ 
+ 
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+3/4 
+Příklady k Interpretaci 
+ 
+Příklad – zadání 
+ 
+Společnost A koupila v roce 2010 pohledávku za společností C ve jmenovité hodnotě 
+100 EUR od společnosti B. Pohledávku koupila za: 
+1. 100 EUR 
+2. 2 000 Kč 
+3. 100 USD 
+4. 50 EUR + 1 000 Kč zaplatila za právní služby v souvislosti s pořízením pohledávky 
+K 31. 12. 2010 provedla přecenění pohledávky. V roce 2011 společnost C pohledávku uhradila v 
+plné výši (100 EUR). 
+Zaúčtujte účetní případy roku 2010 a 2011 z pohledu společnosti A vyplývající z výše uvedených 
+informací. 
+ 
+Kurz 2010: 
+EUR 25 Kč/EUR; při úhradě 26 Kč/EUR 
+USD 18 Kč/USD; při úhradě 19 Kč/USD 
+Kurz 31. 12. 2010: 
+EUR 27 Kč/EUR 
+Kurz 2011: 
+EUR 28 Kč/EUR 
+ 
+ 
+Příklad – řešení 
+ 
+ 
+
+                                                    Interpretace NÚR I-23 Oceňování nabyté cizoměnové pohledávky 
+ 
+ 
+© 2019 Národní účetní rada 
+Schválený text interpretace 
+4/4 
+ 
+ 
+ 
+ 
+Datum prvního schválení 
+této interpretace NÚR: 
+18. března 2013 
+Datum poslední aktualizace 
+této interpretace NÚR: 
+1. dubna 2019 
+Zpracovatel interpretace: 
+Mgr. Edita Ševcovicová 
+daňový poradce  
+Komora daňových poradců ČR 
+Fučík & partneři, s.r.o.  
+ 
+Ing. Petra Vaněčková 
+auditor 
+Komora auditorů ČR 
+Fučík & partneři, s.r.o.
