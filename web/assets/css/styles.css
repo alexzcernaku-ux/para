@@ -220,7 +220,7 @@ p { font-size: var(--body-size); font-weight: var(--body-weight); color: var(--s
   gap: 20px;
 }
 .nav-logo { display: flex; align-items: center; }
-.nav-logo img { height: 32px; width: auto; }
+.nav-logo img { height: 36px; width: auto; }
 .nav-links {
   display: flex;
   align-items: center;
@@ -254,8 +254,10 @@ p { font-size: var(--body-size); font-weight: var(--body-weight); color: var(--s
   overflow: hidden;
   padding: 72px 0 60px;
   background:
-    /* Fadeuje radiály hladce do bílé, ať sekce nekončí ostrou hranou. */
-    linear-gradient(to bottom, transparent 0%, transparent 55%, var(--white) 100%),
+    /* Fadeuje radiály hladce do bílé nahoře i dole, ať sekce nezačíná/nekončí
+       ostrou hranou — radiály samy o sobě mají střed těsně nad/na okraji
+       sekce, takže bez týhle vrstvy jsou tam plnou silou hned od hrany. */
+    linear-gradient(to bottom, var(--white) 0%, transparent 14%, transparent 55%, var(--white) 100%),
     radial-gradient(700px 400px at 85% -10%, rgba(139, 92, 246, 0.14), transparent 60%),
     radial-gradient(500px 300px at 5% 10%, rgba(99, 102, 241, 0.10), transparent 60%);
 }
@@ -774,6 +776,32 @@ footer { padding: 48px 0 32px; border-top: 1px solid #eef1f6; }
 .hero-floating-card { animation: cardFloat 4.5s ease-in-out infinite; }
 .hero-floating-card.card-2 { animation-delay: 1.4s; }
 
+/* Rollout — nadpisy se "vysouvají" zpod masky (clip-path), místo aby jen
+   naskočily. Funguje bez extra HTML wrapperu, clip-path se dá animovat
+   přímo na h1/h2. Hero h1 hraje hned při načtení (vždy viditelný nad
+   ohybem), section h2 čeká na stejný .is-visible signál jako zbytek
+   .reveal bloku, ve kterém sedí. */
+@keyframes rollUp {
+  from { clip-path: inset(100% 0 0 0); transform: translateY(14px); }
+  to { clip-path: inset(0 0 0 0); transform: translateY(0); }
+}
+@keyframes fadeRise {
+  from { opacity: 0; transform: translateY(14px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.hero-copy h1 { animation: rollUp 0.9s cubic-bezier(0.16, 1, 0.3, 1) 0.1s both; }
+.hero-eyebrow { animation: fadeRise 0.7s ease 0s both; }
+.hero-copy p.lead { animation: fadeRise 0.7s ease 0.28s both; }
+.hero-cta-row { animation: fadeRise 0.7s ease 0.42s both; }
+.hero-cta-note { animation: fadeRise 0.7s ease 0.52s both; }
+.hero-trust { animation: fadeRise 0.7s ease 0.6s both; }
+
+.js-ready .section-head h2 {
+  clip-path: inset(100% 0 0 0);
+  transition: clip-path 0.8s cubic-bezier(0.16, 1, 0.3, 1) 0.08s;
+}
+.section-head.is-visible h2 { clip-path: inset(0 0 0 0); }
+
 /* .reveal je viditelný VŽDY, dokud main.js nepotvrdí, že běží (třída
    .js-ready na <html>) — bez JS (nebo dokud se nenačte) je tak obsah vidět
    normálně, žádné riziko "navždy neviditelné sekce". Teprve pak se schová
@@ -790,13 +818,24 @@ footer { padding: 48px 0 32px; border-top: 1px solid #eef1f6; }
 @media (prefers-reduced-motion: reduce) {
   .hero-visual-frame img,
   .hero-visual-glow,
-  .hero-floating-card {
+  .hero-floating-card,
+  .hero-copy h1,
+  .hero-eyebrow,
+  .hero-copy p.lead,
+  .hero-cta-row,
+  .hero-cta-note,
+  .hero-trust {
     animation: none;
   }
   .reveal,
   .js-ready .reveal {
     opacity: 1;
     transform: none;
+    transition: none;
+  }
+  .section-head h2,
+  .js-ready .section-head h2 {
+    clip-path: none;
     transition: none;
   }
   .feature-card,
