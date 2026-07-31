@@ -254,6 +254,8 @@ p { font-size: var(--body-size); font-weight: var(--body-weight); color: var(--s
   overflow: hidden;
   padding: 72px 0 60px;
   background:
+    /* Fadeuje radiály hladce do bílé, ať sekce nekončí ostrou hranou. */
+    linear-gradient(to bottom, transparent 0%, transparent 55%, var(--white) 100%),
     radial-gradient(700px 400px at 85% -10%, rgba(139, 92, 246, 0.14), transparent 60%),
     radial-gradient(500px 300px at 5% 10%, rgba(99, 102, 241, 0.10), transparent 60%);
 }
@@ -704,6 +706,120 @@ footer { padding: 48px 0 32px; border-top: 1px solid #eef1f6; }
 .footer-links a { font-size: 13.5px; color: var(--slate); text-decoration: none; font-weight: 500; }
 .footer-links a:hover { color: var(--indigo); }
 .footer-copy { font-size: 12.5px; color: #94a3b8; width: 100%; margin-top: 8px; }
+
+/* =========================================================================
+   CO VŠECHNO PARA UMÍ (feature grid)
+   ========================================================================= */
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(255px, 1fr));
+  gap: 20px;
+}
+.feature-card {
+  padding: 28px;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+.feature-card .icon-circle { background: var(--indigo-soft); color: var(--indigo); margin-bottom: 14px; }
+.feature-card h3 { font-size: 18px; margin-bottom: 6px; display: flex; align-items: center; gap: 9px; flex-wrap: wrap; }
+.feature-card p { font-size: 14px; color: var(--slate); flex: 1; }
+.feature-card .feature-link {
+  margin-top: 16px;
+  font-size: 13.5px;
+  font-weight: 700;
+  color: var(--indigo);
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.feature-card .feature-link svg { width: 15px; height: 15px; transition: transform 0.2s ease; }
+.feature-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 20px 44px rgba(99, 102, 241, 0.16);
+  border-color: #c7d2fe;
+}
+.feature-card:hover .feature-link svg { transform: translateX(3px); }
+.feature-tag {
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  padding: 3px 9px;
+  border-radius: var(--radius-pill);
+  background: var(--violet-soft);
+  color: #6d28d9;
+}
+
+/* =========================================================================
+   JEMNÉ ANIMACE — plovoucí maskot, pulzující glow, odhalení při scrollu.
+   Vše vypnuto pro prefers-reduced-motion (viz media query úplně dole).
+   ========================================================================= */
+@keyframes mascotFloat {
+  0%, 100% { transform: translateY(0) rotate(0deg); }
+  50% { transform: translateY(-14px) rotate(-1.2deg); }
+}
+@keyframes cardFloat {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-8px); }
+}
+@keyframes glowPulse {
+  0%, 100% { opacity: 0.18; transform: scale(1); }
+  50% { opacity: 0.3; transform: scale(1.06); }
+}
+.hero-visual-frame img { animation: mascotFloat 6s ease-in-out infinite; }
+.hero-visual-glow { animation: glowPulse 5s ease-in-out infinite; }
+.hero-floating-card { animation: cardFloat 4.5s ease-in-out infinite; }
+.hero-floating-card.card-2 { animation-delay: 1.4s; }
+
+/* .reveal je viditelný VŽDY, dokud main.js nepotvrdí, že běží (třída
+   .js-ready na <html>) — bez JS (nebo dokud se nenačte) je tak obsah vidět
+   normálně, žádné riziko "navždy neviditelné sekce". Teprve pak se schová
+   a čeká na .is-visible od IntersectionObserveru (s vlastní pojistkou —
+   viz main.js). */
+.js-ready .reveal {
+  opacity: 0;
+  transform: translateY(22px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+.reveal.is-visible { opacity: 1; transform: translateY(0); }
+.reveal-stagger.is-visible > * { transition-delay: calc(var(--stagger-i, 0) * 70ms); }
+
+@media (prefers-reduced-motion: reduce) {
+  .hero-visual-frame img,
+  .hero-visual-glow,
+  .hero-floating-card {
+    animation: none;
+  }
+  .reveal,
+  .js-ready .reveal {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+  .feature-card,
+  .calc-card,
+  .audience-card,
+  .price-card {
+    transition: none;
+  }
+}
+
+/* Lehký hover-lift na kartách, kam se dá kliknout — mimo .feature-card
+   definované výše, protože .card se používá i pro nekliknutelné panely
+   napříč appkou. */
+.calc-card,
+.audience-card,
+.price-card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+a.calc-card:hover,
+.price-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 20px 44px rgba(99, 102, 241, 0.14);
+}
 
 /* =========================================================================
    RESPONSIVE
