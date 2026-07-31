@@ -5,7 +5,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Přihlášení — Para</title>
 <meta name="description" content="Přihlaste se do Para e-mailem, bez hesla. Odkaz na přihlášení vám pošleme na e-mail." />
-<link rel="icon" href="assets/img/logo/logo-mark.png" />
+<link rel="icon" href="/favicon.ico" sizes="any" />
+<link rel="icon" href="assets/img/logo/logo-mark.png" type="image/png" />
+<link rel="apple-touch-icon" href="assets/img/logo/logo-mark.png" />
 <link rel="stylesheet" href="assets/css/styles.css" />
 </head>
 <body>
@@ -91,7 +93,12 @@
     submitBtn.textContent = "Odesílám…";
 
     try {
-      const redirectTo = `${window.location.origin}${window.location.pathname.replace(/prihlaseni\.html$/, "")}app.html`;
+      // Netlify defaultně servíruje "pretty URLs" (bez přípony .html) — pathname
+      // proto může být "/prihlaseni" i "/prihlaseni.html" podle toho, jak sem
+      // uživatel přišel. Odvozovat cílovou URL regexem nad pathname bylo křehké
+      // (bez shody vzniklo třeba "/prihlaseniapp.html") — app.html je vždy v
+      // kořeni webu, takže stačí absolutní cesta bez ohledu na aktuální URL.
+      const redirectTo = `${window.location.origin}/app.html`;
       await sendMagicLink(email, redirectTo);
       sentToEl.textContent = email;
       formState.classList.add("hidden");

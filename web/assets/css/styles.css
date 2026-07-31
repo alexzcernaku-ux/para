@@ -256,10 +256,12 @@ p { font-size: var(--body-size); font-weight: var(--body-weight); color: var(--s
   background:
     /* Fadeuje radiály hladce do bílé nahoře i dole, ať sekce nezačíná/nekončí
        ostrou hranou — radiály samy o sobě mají střed těsně nad/na okraji
-       sekce, takže bez týhle vrstvy jsou tam plnou silou hned od hrany. */
-    linear-gradient(to bottom, var(--white) 0%, transparent 14%, transparent 55%, var(--white) 100%),
-    radial-gradient(700px 400px at 85% -10%, rgba(139, 92, 246, 0.14), transparent 60%),
-    radial-gradient(500px 300px at 5% 10%, rgba(99, 102, 241, 0.10), transparent 60%);
+       sekce, takže bez týhle vrstvy jsou tam plnou silou hned od hrany.
+       Barevná zóna (8–78 %) je schválně široká, ať fialová pokryje většinu
+       sekce, ne jen tenký proužek u okrajů. */
+    linear-gradient(to bottom, var(--white) 0%, transparent 8%, transparent 78%, var(--white) 100%),
+    radial-gradient(950px 600px at 85% -5%, rgba(139, 92, 246, 0.18), transparent 68%),
+    radial-gradient(750px 460px at 5% 20%, rgba(99, 102, 241, 0.13), transparent 68%);
 }
 .hero-inner {
   display: grid;
