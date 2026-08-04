@@ -42,16 +42,16 @@
       <form id="payer-form">
         <div class="doctype-tabs" id="buyer-type-tabs" role="tablist" style="margin-bottom: 16px;">
           <button type="button" class="doctype-tab" data-buyer="person" role="tab" style="flex:1; justify-content:center;">Soukromá osoba</button>
-          <button type="button" class="doctype-tab" data-buyer="company" role="tab" style="flex:1; justify-content:center;">Firma / IČO</button>
+          <button type="button" class="doctype-tab" data-buyer="company" role="tab" style="flex:1; justify-content:center;">Podnikatel — na IČO</button>
         </div>
 
         <div id="company-fields" class="hidden">
-          <input type="text" id="company-name" class="text-input" placeholder="Název firmy" autocomplete="organization" aria-label="Název firmy" />
+          <input type="text" id="company-name" class="text-input" placeholder="Název / obchodní jméno" autocomplete="organization" aria-label="Název nebo obchodní jméno" />
           <div class="choice-grid cols-2" style="margin-bottom: 0; display:grid; grid-template-columns:1fr 1fr; gap:12px;">
             <input type="text" id="company-ico" class="text-input" placeholder="IČO" inputmode="numeric" maxlength="8" aria-label="IČO" />
             <input type="text" id="company-dic" class="text-input" placeholder="DIČ (nepovinné)" aria-label="DIČ" />
           </div>
-          <p class="form-hint" style="margin: -8px 0 16px;">Fakturační údaje firmy — na doklad z platby. Jméno a telefon níže patří skutečné osobě, která platbu provádí (vyžaduje GoPay kvůli ověření karty).</p>
+          <p class="form-hint" style="margin: -8px 0 16px;">Fakturační údaje na doklad z platby — platí i pro OSVČ, ne jen s.r.o. Jméno a telefon níže patří skutečné osobě, která platbu provádí (vyžaduje GoPay kvůli ověření karty).</p>
         </div>
 
         <div class="choice-grid cols-2" style="margin-bottom: 0; display:grid; grid-template-columns:1fr 1fr; gap:12px;">
@@ -194,6 +194,36 @@
 
   let session = null;
 
+  // Para už tyhle údaje často zná z onboardingu/ARES (14_schema_profiles_ares.sql)
+  // — nemá smysl nutit uživatele je psát znovu. IČO mají i OSVČ, ne jen
+  // s.r.o., proto přepínač reaguje na profile.ico, ne na legal_form === 'sro'.
+  function prefillFromProfile(profile) {
+    if (profile.ico) {
+      buyerType = "company";
+      renderBuyerType();
+      companyNameInput.value = profile.company_name || "";
+      companyIcoInput.value = profile.ico || "";
+      document.getElementById("company-dic").value = profile.dic || "";
+    }
+
+    // U OSVČ je company_name z ARES ve tvaru "Jméno Příjmení" (fyzická osoba
+    // podnikatel) — u s.r.o. je to název firmy, tam by rozdělení na
+    // jméno/příjmení dávalo nesmysl, proto jen pro osvc_* varianty.
+    const isOsvc = profile.legal_form === "osvc_pausal" || profile.legal_form === "osvc_skutecne";
+    if (isOsvc && profile.company_name && profile.company_name.trim().includes(" ")) {
+      const [first, ...rest] = profile.company_name.trim().split(/\s+/);
+      document.getElementById("payer-first-name").value = first;
+      document.getElementById("payer-last-name").value = rest.join(" ");
+    }
+
+    if (profile.address) {
+      // Adresa je v profilu jedno pole (15_schema_profiles_address.sql), ne
+      // rozdělené na ulici/město/PSČ — spolehlivě naparsovat nejde, tak ji
+      // dáme celou do pole Ulice jako výchozí bod, uživatel si ji doupraví.
+      document.getElementById("payer-street").value = profile.address;
+    }
+  }
+
   async function goToAppOrOnboarding(profile) {
     window.location.href = profile.onboarded_at ? APP_PAGE : ONBOARDING_PAGE;
   }
@@ -226,6 +256,7 @@
     document.getElementById("plan-intro").textContent = isInTrial(profile)
       ? "Appku zatím používáte v rámci zkušební doby zdarma — předplatné si můžete nastavit už teď, nebo počkat, až zkušební doba skončí. Vyberte tarif a zadejte fakturační údaje."
       : "Zkušební doba zdarma skončila. Vyberte tarif a zadejte fakturační údaje — na platbu vás pak přesměrujeme na zabezpečenou bránu GoPay.";
+    prefillFromProfile(profile);
 
     if (new URLSearchParams(window.location.search).get("platba") === "vysledek") {
       showOnly("pending");
