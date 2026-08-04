@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Můj účet — Para</title>
+<link rel="icon" href="/favicon.ico" sizes="any" />
+<link rel="icon" href="assets/img/logo/logo-mark.png" type="image/png" />
+<link rel="apple-touch-icon" href="assets/img/logo/logo-mark.png" />
+<link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+
+<div class="auth-shell">
+  <div class="auth-topbar">
+    <a href="app.html" aria-label="Para — appka">
+      <img src="assets/img/logo/logo-primary-light.png" alt="Para" />
+    </a>
+  </div>
+
+  <div class="auth-main">
+    <div class="card auth-card wide hidden" id="account-card">
+      <h1>Můj účet</h1>
+      <p id="account-email" class="form-hint" style="margin-top: -14px; margin-bottom: 24px;"></p>
+
+      <div class="param-box" id="subscription-box">
+        <h3>Předplatné</h3>
+        <div class="param-row"><span class="param-label">Tarif</span><span class="param-value" id="sub-plan">—</span></div>
+        <div class="param-row"><span class="param-label">Stav</span><span class="param-value" id="sub-status">—</span></div>
+        <div class="param-row"><span class="param-label">Platí do</span><span class="param-value" id="sub-period-end">—</span></div>
+      </div>
+
+      <div id="cancel-section">
+        <p class="form-hint">Zrušením se zastaví budoucí opakované platby — appku můžete používat dál až do konce už zaplaceného období.</p>
+        <button type="button" class="btn btn-secondary btn-block" id="cancel-btn">Zrušit předplatné</button>
+      </div>
+
+      <div id="canceled-section" class="hidden">
+        <p class="form-hint">Předplatné je zrušené, další platba se už nestrhne. Appku můžete používat do konce zaplaceného období uvedeného výše.</p>
+      </div>
+
+      <p class="form-hint" style="text-align:center; margin-top: 22px;">
+        <a href="app.html">← Zpět do appky</a> · <a href="obchodni-podminky.html">Obchodní podmínky</a> · <a href="podminky-opakovanych-plateb.html">Podmínky opakovaných plateb</a>
+      </p>
+    </div>
+
+    <div class="app-loading" id="page-loading">
+      <img src="assets/img/mascot/mascot-pocita.png" alt="" />
+      Chvilku strpení…
+    </div>
+  </div>
+</div>
+
+<script>
+  window.PARA_CONFIG = {
+    supabaseUrl: "https://fibytymnzgluyxxszria.supabase.co",
+    supabaseAnonKey: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImZpYnl0eW1uemdsdXl4eHN6cmlhIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODU0MzM4ODgsImV4cCI6MjEwMTAwOTg4OH0.hFEzCTPZEGpQaQguytnu8Hyz6z9j6P5M1E17l2WfGdE",
+  };
+</script>
+<script type="module">
+  import { requireOnboardedProfile, cancelSubscription } from "./assets/js/supabase-client.js";
+
+  const PLAN_LABELS = { monthly: "Měsíčně — 299 Kč / měsíc", yearly: "Ročně — 2 990 Kč / rok" };
+  const STATUS_LABELS = { active: "Aktivní", past_due: "Aktivní (platba se opakovaně nezdařila)", canceled: "Zrušené", none: "Bez předplatného" };
+
+  const accountCard = document.getElementById("account-card");
+  const pageLoading = document.getElementById("page-loading");
+  const cancelSection = document.getElementById("cancel-section");
+  const canceledSection = document.getElementById("canceled-section");
+  const cancelBtn = document.getElementById("cancel-btn");
+
+  let session = null;
+
+  function formatDate(iso) {
+    if (!iso) return "—";
+    return new Date(iso).toLocaleDateString("cs-CZ", { day: "numeric", month: "long", year: "numeric" });
+  }
+
+  function render(profile) {
+    document.getElementById("account-email").textContent = session.user.email;
+    document.getElementById("sub-plan").textContent = PLAN_LABELS[profile.subscription_plan] || "—";
+    document.getElementById("sub-status").textContent = STATUS_LABELS[profile.subscription_status] || profile.subscription_status;
+    document.getElementById("sub-period-end").textContent = formatDate(profile.subscription_current_period_end);
+
+    const isCanceling = profile.subscription_cancel_at_period_end;
+    cancelSection.classList.toggle("hidden", !!isCanceling);
+    canceledSection.classList.toggle("hidden", !isCanceling);
+  }
+
+  (async () => {
+    const result = await requireOnboardedProfile();
+    if (!result) return;
+    session = result.session;
+    render(result.profile);
+
+    pageLoading.classList.add("hidden");
+    accountCard.classList.remove("hidden");
+  })();
+
+  cancelBtn.addEventListener("click", async () => {
+    if (!confirm("Opravdu chcete zrušit předplatné? Appku můžete používat dál až do konce už zaplaceného období, další platba se ale nestrhne.")) return;
+
+    cancelBtn.disabled = true;
+    cancelBtn.textContent = "Ruším…";
+    try {
+      await cancelSubscription(session.access_token);
+      cancelSection.classList.add("hidden");
+      canceledSection.classList.remove("hidden");
+    } catch (err) {
+      alert(`Nepodařilo se zrušit předplatné (${err.message}). Zkuste to prosím znovu, nebo napište na info@paraai.cz.`);
+    } finally {
+      cancelBtn.disabled = false;
+      cancelBtn.textContent = "Zrušit předplatné";
+    }
+  });
+</script>
+
+</body>
+</html>

@@ -777,6 +777,36 @@ section { padding: 84px 0; }
 .final-cta-visual { display: flex; align-items: flex-end; gap: 24px; }
 
 /* =========================================================================
+   LEGAL STRÁNKY (obchodní podmínky, kontakt, podmínky opakovaných plateb)
+   ========================================================================= */
+.legal-main { padding: 56px 0 80px; }
+.legal-container { max-width: 720px; margin: 0 auto; padding: 0 24px; }
+.legal-header { margin-bottom: 40px; }
+.legal-header .eyebrow { display: block; margin-bottom: 10px; }
+.legal-header h1 { margin-bottom: 8px; }
+.legal-updated { font-size: 13px; color: var(--slate); }
+.legal-content h2 { font-size: 19px; font-weight: 700; margin: 36px 0 12px; color: var(--navy); }
+.legal-content h2:first-child { margin-top: 0; }
+.legal-content p { margin: 0 0 14px; color: var(--slate); line-height: 1.7; }
+.legal-content ul, .legal-content ol { margin: 0 0 14px; padding-left: 22px; color: var(--slate); line-height: 1.7; }
+.legal-content li { margin-bottom: 6px; }
+.legal-content strong { color: var(--navy); }
+.legal-content a { color: var(--indigo); font-weight: 600; }
+
+.param-box {
+  background: var(--indigo-soft);
+  border: 1px solid #c7d2fe;
+  border-radius: var(--radius-lg);
+  padding: 22px 24px;
+  margin: 0 0 20px;
+}
+.param-box h3 { font-size: 14.5px; font-weight: 700; color: #4338ca; margin-bottom: 14px; }
+.param-row { display: flex; justify-content: space-between; gap: 16px; padding: 8px 0; border-bottom: 1px solid rgba(99, 102, 241, 0.15); font-size: 13.5px; }
+.param-row:last-child { border-bottom: none; }
+.param-row .param-label { color: #4338ca; font-weight: 600; flex-shrink: 0; }
+.param-row .param-value { color: var(--navy); text-align: right; }
+
+/* =========================================================================
    FOOTER
    ========================================================================= */
 footer { padding: 48px 0 32px; border-top: 1px solid #eef1f6; }
@@ -1204,6 +1234,9 @@ textarea.text-input { resize: vertical; min-height: 70px; font-family: var(--fon
   padding: 0;
 }
 .app-signout-btn:hover { color: var(--danger); }
+.app-sidebar-footer-links { display: flex; align-items: center; gap: 8px; }
+.app-sidebar-footer-links a.app-signout-btn:hover { color: var(--indigo); }
+.app-sidebar-footer-sep { color: #cbd5e1; font-size: 12px; }
 
 .app-main { flex: 1; display: flex; flex-direction: column; min-width: 0; }
 .app-topbar {

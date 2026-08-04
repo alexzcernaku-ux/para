@@ -51,8 +51,26 @@
           <input type="text" id="payer-postal" class="text-input" placeholder="PSČ" required autocomplete="postal-code" aria-label="PSČ" />
         </div>
 
+        <div class="param-box" style="margin-top: 8px;">
+          <h3>Parametry opakované platby</h3>
+          <div class="param-row"><span class="param-label">Důvod platby</span><span class="param-value">Předplatné Para Pro (SaaS)</span></div>
+          <div class="param-row"><span class="param-label">Částka</span><span class="param-value" id="param-amount">299 Kč, fixní</span></div>
+          <div class="param-row"><span class="param-label">Frekvence</span><span class="param-value" id="param-frequency">1× měsíčně</span></div>
+          <div class="param-row"><span class="param-label">Doba trvání</span><span class="param-value">Do zrušení uživatelem</span></div>
+          <div class="param-row"><span class="param-label">Zrušení</span><span class="param-value">Kdykoli v profilu appky</span></div>
+        </div>
+
+        <label class="gen-checkbox-row" style="align-items: flex-start;">
+          <input type="checkbox" id="consent-checkbox" required style="margin-top: 2px;" />
+          <span>
+            Souhlasím se založením opakované platby s parametry výše a s uložením platebních údajů u
+            platební brány GoPay (PCI DSS Level 1). Přečetl/a jsem si
+            <a href="podminky-opakovanych-plateb.html" target="_blank" rel="noopener">Podmínky opakovaných plateb</a>
+            a <a href="obchodni-podminky.html" target="_blank" rel="noopener">Obchodní podmínky</a>.
+          </span>
+        </label>
+
         <button type="submit" class="btn btn-primary btn-block btn-lg" id="payer-submit" style="margin-top: 6px;">Pokračovat k platbě — <span id="submit-price">299 Kč</span></button>
-        <p class="form-hint" style="text-align:center; margin-top: 10px;">Platba probíhá přes zabezpečenou bránu GoPay. Předplatné se automaticky obnovuje, zrušit ho můžete kdykoliv.</p>
       </form>
     </div>
 
@@ -117,6 +135,8 @@
 
   const planTabs = document.getElementById("plan-tabs");
   const submitPriceEl = document.getElementById("submit-price");
+  const paramAmountEl = document.getElementById("param-amount");
+  const paramFrequencyEl = document.getElementById("param-frequency");
   let selectedPlan = new URLSearchParams(window.location.search).get("plan") === "yearly" ? "yearly" : "monthly";
 
   function renderPlanTabs() {
@@ -124,6 +144,8 @@
       tab.classList.toggle("active", tab.dataset.plan === selectedPlan);
     });
     submitPriceEl.textContent = PLAN_PRICES[selectedPlan].label;
+    paramAmountEl.textContent = `${PLAN_PRICES[selectedPlan].label}, fixní`;
+    paramFrequencyEl.textContent = selectedPlan === "yearly" ? "1× ročně" : "1× měsíčně";
   }
   planTabs.addEventListener("click", (e) => {
     const tab = e.target.closest(".doctype-tab");

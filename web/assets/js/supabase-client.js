@@ -146,6 +146,23 @@ export async function requireOnboardedProfile() {
   return { session, profile };
 }
 
+// Zrušení předplatného (ucet.html) — volá gopay-cancel-subscription, která
+// nastaví subscription_cancel_at_period_end. Appka zůstává funkční do konce
+// zaplaceného období, viz Obchodní podmínky čl. 5 a gopay-charge-renewals.
+export async function cancelSubscription(accessToken) {
+  const res = await fetch(`${cfg.supabaseUrl}/functions/v1/gopay-cancel-subscription`, {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+      Authorization: `Bearer ${accessToken}`,
+      apikey: cfg.supabaseAnonKey,
+    },
+  });
+  const data = await res.json();
+  if (!res.ok) throw new Error(data.error || `Chyba serveru (${res.status})`);
+  return data;
+}
+
 export async function saveProfile(userId, { legalForm, vatPayer, note, ico, dic, companyName, address }) {
   const { error } = await supabase
     .from("profiles")

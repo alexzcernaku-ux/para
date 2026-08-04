@@ -40,7 +40,7 @@ Deno.serve(async (_req) => {
     // při dalším běhu cronu místo čekání na ruční zásah uživatele.
     const { data: dueProfiles, error } = await supabase
       .from("profiles")
-      .select("id, subscription_plan, subscription_status, gopay_parent_payment_id")
+      .select("id, subscription_plan, subscription_status, subscription_cancel_at_period_end, gopay_parent_payment_id")
       .in("subscription_status", ["active", "past_due"])
       .not("gopay_parent_payment_id", "is", null)
       .lte("subscription_current_period_end", new Date().toISOString());
@@ -49,6 +49,14 @@ Deno.serve(async (_req) => {
     const results: any[] = [];
 
     for (const profile of dueProfiles || []) {
+      if (profile.subscription_cancel_at_period_end) {
+        // Uživatel zrušil přes ucet.html (gopay-cancel-subscription) — žádná
+        // další platba, jen appku po vypršení období oficiálně uzavřít.
+        await supabase.from("profiles").update({ subscription_status: "canceled" }).eq("id", profile.id);
+        results.push({ userId: profile.id, canceled: true });
+        continue;
+      }
+
       const planInfo = PLAN_PRICES[profile.subscription_plan as string];
       if (!planInfo) {
         // Neznámý/chybějící tarif — nedá se spočítat částka, přeskočit a
