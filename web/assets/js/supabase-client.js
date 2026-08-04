@@ -211,6 +211,23 @@ export async function updateProfileBillingInfo(userId, { companyName, ico, dic, 
   if (error) throw error;
 }
 
+// Vzhled dokladů (24_schema_invoice_branding.sql) — logo/barva/patička
+// místo pevného vzhledu Para na PDF z generator-dokumentu.html.
+export async function updateInvoiceBranding(userId, { brandName, accentColor, logoDataUrl, logoWidth, logoHeight, footerNote }) {
+  const { error } = await supabase
+    .from("profiles")
+    .update({
+      invoice_brand_name: brandName || null,
+      invoice_accent_color: accentColor || null,
+      invoice_logo_data_url: logoDataUrl || null,
+      invoice_logo_width: logoWidth || null,
+      invoice_logo_height: logoHeight || null,
+      invoice_footer_note: footerNote || null,
+    })
+    .eq("id", userId);
+  if (error) throw error;
+}
+
 export async function insertQueryHistory({ userId, question, answer, sources }) {
   const { error } = await supabase
     .from("query_history")

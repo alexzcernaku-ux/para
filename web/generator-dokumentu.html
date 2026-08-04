@@ -35,6 +35,47 @@
       <p>Vaše firemní údaje doplníme z profilu, zbytek vyplňte a stáhněte jako PDF.</p>
     </div>
 
+    <details class="card branding-panel" id="branding-panel">
+      <summary>Vzhled dokladů — logo, barva a patička <span class="form-hint">(volitelné, uloží se samo)</span></summary>
+      <div class="branding-panel-body">
+        <div class="branding-logo-row">
+          <div class="branding-logo-preview" id="logo-preview">
+            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" /><circle cx="8.5" cy="8.5" r="1.5" /><path d="M21 15l-5-5L5 21" /></svg>
+          </div>
+          <div>
+            <input type="file" id="logo-file" accept="image/png,image/jpeg,image/svg+xml" class="hidden" />
+            <button type="button" class="btn btn-secondary" id="logo-upload-btn">Nahrát logo</button>
+            <button type="button" class="btn btn-secondary hidden" id="logo-remove-btn" style="margin-left: 8px;">Odebrat</button>
+            <p class="form-hint" style="margin-top: 6px;">Nahradí "§ Para" v hlavičce dokladu. Pokud logo nenahrajete, můžete místo něj zadat jen vlastní název níže.</p>
+          </div>
+        </div>
+
+        <div class="calc-field" style="max-width: 340px;">
+          <label for="brand-name-input">Vlastní název místo "Para" (nepovinné, jen bez loga)</label>
+          <input type="text" class="text-input" id="brand-name-input" placeholder="např. název vaší firmy" maxlength="60" />
+        </div>
+
+        <div class="calc-field">
+          <label>Barva zvýraznění</label>
+          <div class="branding-color-row" id="color-swatches">
+            <button type="button" class="branding-color-swatch" data-color="#6366f1" style="background:#6366f1" aria-label="Indigo"></button>
+            <button type="button" class="branding-color-swatch" data-color="#8b5cf6" style="background:#8b5cf6" aria-label="Fialová"></button>
+            <button type="button" class="branding-color-swatch" data-color="#0ea5e9" style="background:#0ea5e9" aria-label="Modrá"></button>
+            <button type="button" class="branding-color-swatch" data-color="#22c55e" style="background:#22c55e" aria-label="Zelená"></button>
+            <button type="button" class="branding-color-swatch" data-color="#f59e0b" style="background:#f59e0b" aria-label="Oranžová"></button>
+            <button type="button" class="branding-color-swatch" data-color="#ef4444" style="background:#ef4444" aria-label="Červená"></button>
+            <button type="button" class="branding-color-swatch" data-color="#0f172a" style="background:#0f172a" aria-label="Černá"></button>
+            <input type="color" id="brand-color-input" value="#6366f1" aria-label="Vlastní barva" />
+          </div>
+        </div>
+
+        <div class="calc-field full">
+          <label for="footer-note-input">Poznámka v patičce dokladu (nepovinné)</label>
+          <input type="text" class="text-input" id="footer-note-input" placeholder="např. bankovní spojení nebo poděkování za spolupráci" maxlength="140" />
+        </div>
+      </div>
+    </details>
+
     <div class="doctype-tabs" id="doctype-tabs">
       <button type="button" class="doctype-tab active" data-doctype="faktura">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 12h6M9 16h6M9 8h1" /><path d="M14 3H7a2 2 0 00-2 2v14a2 2 0 002 2h10a2 2 0 002-2V8z" /><path d="M14 3v5h5" /></svg>

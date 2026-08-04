@@ -3,7 +3,14 @@
 // a odeslání dat do pdf-documents.js. Auth stejně jako terminy.html /
 // kontrola-dokladu.html (requireOnboardedProfile guard).
 
-import { requireOnboardedProfile, signOut, updateProfileBillingInfo, listClients, upsertClientByName } from "./supabase-client.js";
+import {
+  requireOnboardedProfile,
+  signOut,
+  updateProfileBillingInfo,
+  listClients,
+  upsertClientByName,
+  updateInvoiceBranding,
+} from "./supabase-client.js";
 
 let knownClients = [];
 
@@ -39,6 +46,117 @@ async function persistClient(userId, clientData) {
   } catch (err) {
     console.error("Nepodařilo se uložit klienta do databáze:", err.message);
   }
+}
+
+// --- Vzhled dokladů (24_schema_invoice_branding.sql) ------------------------
+// Logo/barva/patička pro všechny 4 typy dokumentů — čte a ukládá se z
+// jednoho společného panelu nahoře (branding-panel), viz initBrandingPanel().
+
+let logoState = { dataUrl: null, width: null, height: null };
+
+function currentBranding() {
+  return {
+    brandName: document.getElementById("brand-name-input").value.trim(),
+    accentColor: document.getElementById("brand-color-input").value,
+    logoDataUrl: logoState.dataUrl,
+    logoWidth: logoState.width,
+    logoHeight: logoState.height,
+    footerNote: document.getElementById("footer-note-input").value.trim(),
+  };
+}
+
+async function persistBranding(userId) {
+  try {
+    await updateInvoiceBranding(userId, currentBranding());
+  } catch (err) {
+    console.error("Nepodařilo se uložit vzhled dokladů:", err.message);
+  }
+}
+
+function setLogoPreview(dataUrl) {
+  const preview = document.getElementById("logo-preview");
+  const removeBtn = document.getElementById("logo-remove-btn");
+  if (dataUrl) {
+    preview.innerHTML = `<img src="${dataUrl}" alt="Logo" />`;
+    removeBtn.classList.remove("hidden");
+  } else {
+    preview.innerHTML =
+      '<svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" /><circle cx="8.5" cy="8.5" r="1.5" /><path d="M21 15l-5-5L5 21" /></svg>';
+    removeBtn.classList.add("hidden");
+  }
+}
+
+function setActiveSwatch(hex) {
+  document.querySelectorAll(".branding-color-swatch").forEach((btn) => {
+    btn.classList.toggle("active", btn.dataset.color.toLowerCase() === (hex || "").toLowerCase());
+  });
+}
+
+// Zmenší nahraný obrázek na canvasu, ať base64 v profiles zbytečně
+// nenabobtná (žádný Supabase Storage bucket, ukládá se přímo do sloupce,
+// viz komentář v 24_schema_invoice_branding.sql) — poměr stran se zachová,
+// aby logo v PDF nebylo zdeformované (viz docHeader v pdf-documents.js).
+function resizeLogoFile(file) {
+  const MAX_W = 300;
+  const MAX_H = 100;
+  return new Promise((resolve, reject) => {
+    const reader = new FileReader();
+    reader.onerror = () => reject(new Error("Nepodařilo se načíst soubor."));
+    reader.onload = () => {
+      const img = new Image();
+      img.onerror = () => reject(new Error("Soubor není platný obrázek."));
+      img.onload = () => {
+        const scale = Math.min(1, MAX_W / img.width, MAX_H / img.height);
+        const width = Math.round(img.width * scale);
+        const height = Math.round(img.height * scale);
+        const canvas = document.createElement("canvas");
+        canvas.width = width;
+        canvas.height = height;
+        canvas.getContext("2d").drawImage(img, 0, 0, width, height);
+        resolve({ dataUrl: canvas.toDataURL("image/png"), width, height });
+      };
+      img.src = reader.result;
+    };
+    reader.readAsDataURL(file);
+  });
+}
+
+function initBrandingPanel(profile) {
+  document.getElementById("brand-name-input").value = profile.invoice_brand_name || "";
+  document.getElementById("footer-note-input").value = profile.invoice_footer_note || "";
+  const accentColor = profile.invoice_accent_color || "#6366f1";
+  document.getElementById("brand-color-input").value = accentColor;
+  setActiveSwatch(accentColor);
+
+  if (profile.invoice_logo_data_url) {
+    logoState = { dataUrl: profile.invoice_logo_data_url, width: profile.invoice_logo_width, height: profile.invoice_logo_height };
+    setLogoPreview(logoState.dataUrl);
+  }
+
+  document.getElementById("color-swatches").addEventListener("click", (e) => {
+    const btn = e.target.closest(".branding-color-swatch");
+    if (!btn) return;
+    document.getElementById("brand-color-input").value = btn.dataset.color;
+    setActiveSwatch(btn.dataset.color);
+  });
+  document.getElementById("brand-color-input").addEventListener("input", (e) => setActiveSwatch(e.target.value));
+
+  document.getElementById("logo-upload-btn").addEventListener("click", () => document.getElementById("logo-file").click());
+  document.getElementById("logo-file").addEventListener("change", async (e) => {
+    const file = e.target.files[0];
+    if (!file) return;
+    try {
+      logoState = await resizeLogoFile(file);
+      setLogoPreview(logoState.dataUrl);
+    } catch (err) {
+      alert(`Nepodařilo se nahrát logo (${err.message}).`);
+    }
+    e.target.value = "";
+  });
+  document.getElementById("logo-remove-btn").addEventListener("click", () => {
+    logoState = { dataUrl: null, width: null, height: null };
+    setLogoPreview(null);
+  });
 }
 
 const loadingEl = document.getElementById("page-loading");
@@ -186,9 +304,11 @@ function initFaktura(profile, session, isVatPayer) {
         accountNumber: val("f-account-number"),
         items,
         note: val("f-note"),
+        branding: currentBranding(),
       });
       persistBillingInfo(session.user.id, supplier);
       persistClient(session.user.id, customer);
+      persistBranding(session.user.id);
     });
   });
 }
@@ -240,9 +360,11 @@ function initStorno(profile, session, isVatPayer) {
         correctedBase: num("s-corrected-base"),
         originalVat: isVatPayer ? num("s-original-vat") : 0,
         correctedVat: isVatPayer ? num("s-corrected-vat") : 0,
+        branding: currentBranding(),
       });
       persistBillingInfo(session.user.id, supplier);
       persistClient(session.user.id, customer);
+      persistBranding(session.user.id);
     });
   });
 }
@@ -273,9 +395,11 @@ function initUpominka(profile, session) {
         newDueDate: val("u-new-due-date"),
         includeInterestNote: document.getElementById("u-include-interest").checked,
         note: val("u-note"),
+        branding: currentBranding(),
       });
       persistBillingInfo(session.user.id, { ...supplier, ico: profile.ico, dic: profile.dic });
       persistClient(session.user.id, customer);
+      persistBranding(session.user.id);
     });
   });
 }
@@ -314,9 +438,11 @@ function initSmlouva(profile, session, isVatPayer) {
         signPlace: val("c-sign-place"),
         signDate: val("c-sign-date"),
         note: val("c-note"),
+        branding: currentBranding(),
       });
       persistBillingInfo(session.user.id, contractor);
       persistClient(session.user.id, client);
+      persistBranding(session.user.id);
     });
   });
 }
@@ -365,6 +491,7 @@ function applyPrefillFromQuery() {
     console.error("Nepodařilo se načíst klienty:", err.message);
   }
 
+  initBrandingPanel(profile);
   initTabs();
   initFaktura(profile, session, isVatPayer);
   initStorno(profile, session, isVatPayer);

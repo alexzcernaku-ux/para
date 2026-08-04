@@ -58,6 +58,17 @@ function ensureSpace(doc, y, needed, state) {
   return y;
 }
 
+// Vzhled dokladů (24_schema_invoice_branding.sql) — accentColor přichází
+// jako hex string z color inputu, jsPDF ale chce [r,g,b]. Neplatný/chybějící
+// hex tiše spadne zpátky na výchozí INDIGO, ať PDF nikdy nespadne na
+// špatně uloženou barvu.
+function hexToRgb(hex) {
+  const m = /^#?([0-9a-f]{6})$/i.exec(hex || "");
+  if (!m) return INDIGO;
+  const n = parseInt(m[1], 16);
+  return [(n >> 16) & 255, (n >> 8) & 255, n & 255];
+}
+
 function fmtMoney(n) {
   const num = Number(n);
   if (!isFinite(num)) return "0,00 Kč";
@@ -71,12 +82,22 @@ function fmtDate(d) {
   return date.toLocaleDateString("cs-CZ", { day: "numeric", month: "numeric", year: "numeric" });
 }
 
-function docHeader(doc, title, meta) {
+function docHeader(doc, title, meta, branding) {
+  const accent = branding?.accentColor ? hexToRgb(branding.accentColor) : INDIGO;
   let y = MARGIN;
-  doc.setFont("PlusJakartaSans", "bold");
-  doc.setFontSize(11);
-  doc.setTextColor(...INDIGO);
-  doc.text("§ Para", MARGIN, y);
+
+  if (branding?.logoDataUrl && branding.logoWidth && branding.logoHeight) {
+    // Pevná výška 8 mm, šířka dopočtená z uloženého poměru stran, ať se
+    // logo nezkreslí (viz resize na canvasu při uploadu v generator-page.js).
+    const logoHeight = 8;
+    const logoWidth = logoHeight * (branding.logoWidth / branding.logoHeight);
+    doc.addImage(branding.logoDataUrl, "PNG", MARGIN, y - 6, logoWidth, logoHeight);
+  } else {
+    doc.setFont("PlusJakartaSans", "bold");
+    doc.setFontSize(11);
+    doc.setTextColor(...accent);
+    doc.text(branding?.brandName?.trim() || "§ Para", MARGIN, y);
+  }
 
   doc.setFont("PlusJakartaSans", "normal");
   doc.setFontSize(8.5);
@@ -103,26 +124,30 @@ function docHeader(doc, title, meta) {
   return y + 10;
 }
 
-function drawFooter(doc, note = DISCLAIMER) {
+function drawFooter(doc, note = DISCLAIMER, extraNote) {
+  // Vlastní patičková poznámka (bankovní spojení, poděkování apod.) jde nad
+  // právní disclaimer, ne místo něj — ten je bezpečnostní pojistka, kterou
+  // nechceme, aby šlo nastavením vzhledu omylem smazat.
+  const fullNote = extraNote?.trim() ? `${extraNote.trim()}\n${note}` : note;
   const totalPages = doc.internal.getNumberOfPages();
   for (let i = 1; i <= totalPages; i++) {
     doc.setPage(i);
     doc.setFont("PlusJakartaSans", "normal");
     doc.setFontSize(7.5);
     doc.setTextColor(...MUTED);
-    const wrapped = doc.splitTextToSize(note, CONTENT_WIDTH - 22);
-    doc.text(wrapped, MARGIN, PAGE_HEIGHT - 12);
+    const wrapped = doc.splitTextToSize(fullNote, CONTENT_WIDTH - 22);
+    doc.text(wrapped, MARGIN, PAGE_HEIGHT - 12 - (wrapped.length - 1) * 3.2);
     doc.text(`${i} / ${totalPages}`, PAGE_WIDTH - MARGIN, PAGE_HEIGHT - 12, { align: "right" });
   }
 }
 
 // Dvojice bloků "Dodavatel" / "Odběratel" vedle sebe.
-function drawParties(doc, y, left, right) {
+function drawParties(doc, y, left, right, accent = INDIGO) {
   const colWidth = (CONTENT_WIDTH - 10) / 2;
   const draw = (block, x) => {
     doc.setFont("PlusJakartaSans", "bold");
     doc.setFontSize(8.5);
-    doc.setTextColor(...INDIGO);
+    doc.setTextColor(...accent);
     doc.text(block.label.toUpperCase(), x, y);
     let ly = y + 6;
     block.lines.filter(Boolean).forEach((line, i) => {
@@ -217,10 +242,10 @@ function drawSummaryRows(doc, y, state, rows) {
   return y + 4;
 }
 
-function drawSectionLabel(doc, text, y) {
+function drawSectionLabel(doc, text, y, accent = INDIGO) {
   doc.setFont("PlusJakartaSans", "bold");
   doc.setFontSize(9);
-  doc.setTextColor(...INDIGO);
+  doc.setTextColor(...accent);
   doc.text(text.toUpperCase(), MARGIN, y);
   return y + 7;
 }
@@ -255,14 +280,15 @@ function saveDoc(doc, prefix) {
 // 1. FAKTURA
 // ---------------------------------------------------------------------------
 export function generateFakturaPdf(data) {
-  const { isVatPayer, supplier, customer, docNumber, issueDate, taxPointDate, dueDate, paymentMethod, accountNumber, items, note } = data;
+  const { isVatPayer, supplier, customer, docNumber, issueDate, taxPointDate, dueDate, paymentMethod, accountNumber, items, note, branding } = data;
+  const accent = branding?.accentColor ? hexToRgb(branding.accentColor) : INDIGO;
 
   const doc = new jsPDF({ unit: "mm", format: "a4" });
   registerFont(doc);
   const state = newPageState();
-  let y = docHeader(doc, "Faktura", docNumber ? `č. ${docNumber}` : null);
+  let y = docHeader(doc, "Faktura", docNumber ? `č. ${docNumber}` : null, branding);
 
-  y = drawParties(doc, y, { label: "Dodavatel", lines: partyLines(supplier) }, { label: "Odběratel", lines: partyLines(customer) });
+  y = drawParties(doc, y, { label: "Dodavatel", lines: partyLines(supplier) }, { label: "Odběratel", lines: partyLines(customer) }, accent);
 
   y = drawFactsRow(doc, y, [
     { label: "Vystaveno", value: fmtDate(issueDate) },
@@ -334,7 +360,7 @@ export function generateFakturaPdf(data) {
 
   if (note) {
     y = ensureSpace(doc, y, 14, state);
-    y = drawSectionLabel(doc, "Poznámka", y);
+    y = drawSectionLabel(doc, "Poznámka", y, accent);
     y = drawParagraphText(doc, note, y, state, { fontSize: 9.5, lineHeight: 5 });
   }
 
@@ -342,7 +368,8 @@ export function generateFakturaPdf(data) {
     doc,
     isVatPayer
       ? `${DISCLAIMER} Náležitosti daňového dokladu dle §29 zákona č. 235/2004 Sb., o DPH, a §11 zákona č. 563/1991 Sb., o účetnictví.`
-      : `${DISCLAIMER} Náležitosti účetního dokladu dle §11 zákona č. 563/1991 Sb., o účetnictví.`
+      : `${DISCLAIMER} Náležitosti účetního dokladu dle §11 zákona č. 563/1991 Sb., o účetnictví.`,
+    branding?.footerNote
   );
   saveDoc(doc, "faktura");
 }
@@ -365,14 +392,16 @@ export function generateStornoPdf(data) {
     correctedBase,
     originalVat,
     correctedVat,
+    branding,
   } = data;
+  const accent = branding?.accentColor ? hexToRgb(branding.accentColor) : INDIGO;
 
   const doc = new jsPDF({ unit: "mm", format: "a4" });
   registerFont(doc);
   const state = newPageState();
-  let y = docHeader(doc, isVatPayer ? "Opravný daňový doklad" : "Dobropis", docNumber ? `č. ${docNumber}` : null);
+  let y = docHeader(doc, isVatPayer ? "Opravný daňový doklad" : "Dobropis", docNumber ? `č. ${docNumber}` : null, branding);
 
-  y = drawParties(doc, y, { label: "Dodavatel", lines: partyLines(supplier) }, { label: "Odběratel", lines: partyLines(customer) });
+  y = drawParties(doc, y, { label: "Dodavatel", lines: partyLines(supplier) }, { label: "Odběratel", lines: partyLines(customer) }, accent);
 
   y = drawFactsRow(doc, y, [
     { label: "Vystaveno", value: fmtDate(issueDate) },
@@ -381,7 +410,7 @@ export function generateStornoPdf(data) {
     { label: "Zjištěn důvod", value: fmtDate(discoveryDate) },
   ]);
 
-  y = drawSectionLabel(doc, "Důvod opravy", y);
+  y = drawSectionLabel(doc, "Důvod opravy", y, accent);
   y = drawParagraphText(doc, reason, y, state);
   y += 4;
 
@@ -428,7 +457,8 @@ export function generateStornoPdf(data) {
     doc,
     isVatPayer
       ? `${DISCLAIMER} Náležitosti opravného daňového dokladu dle §45 zákona č. 235/2004 Sb., o DPH.`
-      : DISCLAIMER
+      : DISCLAIMER,
+    branding?.footerNote
   );
   saveDoc(doc, "storno-faktury");
 }
@@ -437,14 +467,15 @@ export function generateStornoPdf(data) {
 // 3. UPOMÍNKA
 // ---------------------------------------------------------------------------
 export function generateUpominkaPdf(data) {
-  const { supplier, customer, issueDate, originalDocNumber, originalIssueDate, originalDueDate, amount, newDueDate, includeInterestNote, note } = data;
+  const { supplier, customer, issueDate, originalDocNumber, originalIssueDate, originalDueDate, amount, newDueDate, includeInterestNote, note, branding } = data;
+  const accent = branding?.accentColor ? hexToRgb(branding.accentColor) : INDIGO;
 
   const doc = new jsPDF({ unit: "mm", format: "a4" });
   registerFont(doc);
   const state = newPageState();
-  let y = docHeader(doc, "Upomínka", `k faktuře ${originalDocNumber || ""}`.trim());
+  let y = docHeader(doc, "Upomínka", `k faktuře ${originalDocNumber || ""}`.trim(), branding);
 
-  y = drawParties(doc, y, { label: "Odesílatel", lines: partyLines(supplier) }, { label: "Adresováno", lines: partyLines(customer) });
+  y = drawParties(doc, y, { label: "Odesílatel", lines: partyLines(supplier) }, { label: "Adresováno", lines: partyLines(customer) }, accent);
 
   y = drawFactsRow(doc, y, [
     { label: "Vystaveno", value: fmtDate(issueDate) },
@@ -453,7 +484,7 @@ export function generateUpominkaPdf(data) {
     { label: "Dlužná částka", value: fmtMoney(amount) },
   ]);
 
-  y = drawSectionLabel(doc, "Text upomínky", y);
+  y = drawSectionLabel(doc, "Text upomínky", y, accent);
   const body =
     `Vážený obchodní partnere,\n\n` +
     `dovolujeme si Vás upozornit, že faktura č. ${originalDocNumber || "—"} ze dne ${fmtDate(originalIssueDate)} ` +
@@ -476,11 +507,11 @@ export function generateUpominkaPdf(data) {
 
   if (note) {
     y += 2;
-    y = drawSectionLabel(doc, "Poznámka", y);
+    y = drawSectionLabel(doc, "Poznámka", y, accent);
     y = drawParagraphText(doc, note, y, state, { fontSize: 9.5, lineHeight: 5 });
   }
 
-  drawFooter(doc, DISCLAIMER);
+  drawFooter(doc, DISCLAIMER, branding?.footerNote);
   saveDoc(doc, "upominka");
 }
 
@@ -488,12 +519,13 @@ export function generateUpominkaPdf(data) {
 // 4. SMLOUVA O DÍLO
 // ---------------------------------------------------------------------------
 export function generateSmlouvaPdf(data) {
-  const { contractor, client, subject, price, isVatPayer, vatRate, paymentMethod, completionDate, signPlace, signDate, note } = data;
+  const { contractor, client, subject, price, isVatPayer, vatRate, paymentMethod, completionDate, signPlace, signDate, note, branding } = data;
+  const accent = branding?.accentColor ? hexToRgb(branding.accentColor) : INDIGO;
 
   const doc = new jsPDF({ unit: "mm", format: "a4" });
   registerFont(doc);
   const state = newPageState();
-  let y = docHeader(doc, "Smlouva o dílo", null);
+  let y = docHeader(doc, "Smlouva o dílo", null, branding);
 
   doc.setFont("PlusJakartaSans", "normal");
   doc.setFontSize(9);
@@ -501,7 +533,7 @@ export function generateSmlouvaPdf(data) {
   doc.text("uzavřená podle §2586 a násl. zákona č. 89/2012 Sb., občanského zákoníku", MARGIN, y);
   y += 10;
 
-  y = drawParties(doc, y, { label: "Zhotovitel", lines: partyLines(contractor) }, { label: "Objednatel", lines: partyLines(client) });
+  y = drawParties(doc, y, { label: "Zhotovitel", lines: partyLines(contractor) }, { label: "Objednatel", lines: partyLines(client) }, accent);
 
   const priceNum = Number(price) || 0;
   const vat = isVatPayer ? priceNum * ((Number(vatRate) || 0) / 100) : 0;
@@ -534,7 +566,7 @@ export function generateSmlouvaPdf(data) {
 
   for (const clause of clauses) {
     y = ensureSpace(doc, y, 16, state);
-    y = drawSectionLabel(doc, clause.title, y);
+    y = drawSectionLabel(doc, clause.title, y, accent);
     y = drawParagraphText(doc, clause.text, y, state);
     y += 3;
   }
@@ -557,7 +589,8 @@ export function generateSmlouvaPdf(data) {
 
   drawFooter(
     doc,
-    `${DISCLAIMER} Vzorová smlouva podle §2586 a násl. zákona č. 89/2012 Sb. — u nestandardních ujednání doporučujeme právní kontrolu.`
+    `${DISCLAIMER} Vzorová smlouva podle §2586 a násl. zákona č. 89/2012 Sb. — u nestandardních ujednání doporučujeme právní kontrolu.`,
+    branding?.footerNote
   );
   saveDoc(doc, "smlouva-o-dilo");
 }
