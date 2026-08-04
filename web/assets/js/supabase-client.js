@@ -25,6 +25,7 @@ export const supabase = createClient(
 export const LOGIN_PAGE = "prihlaseni.html";
 export const ONBOARDING_PAGE = "onboarding.html";
 export const APP_PAGE = "app.html";
+export const SUBSCRIBE_PAGE = "predplatne.html";
 
 export async function getSession() {
   const { data, error } = await supabase.auth.getSession();
@@ -33,12 +34,46 @@ export async function getSession() {
 }
 
 // Pošle magic link. redirectTo musí být na allow-listu v Supabase
-// (Authentication → URL Configuration → Redirect URLs).
+// (Authentication → URL Configuration → Redirect URLs). Ponecháno jako
+// záložní cesta (odkaz "přihlásit se odkazem" na prihlaseni.html) — hlavní
+// cesta je teď heslo, viz signUpWithPassword/signInWithPassword níže.
 export async function sendMagicLink(email, redirectTo) {
   const { error } = await supabase.auth.signInWithOtp({
     email,
     options: { emailRedirectTo: redirectTo },
   });
+  if (error) throw error;
+}
+
+// Registrace heslem — pošle potvrzovací e-mail (Supabase Auth to dělá samo,
+// stejná šablona jako pro magic link, jen s odkazem "potvrdit e-mail" místo
+// "přihlásit se"). Dokud uživatel nepotvrdí, signInWithPassword neprojde.
+export async function signUpWithPassword(email, password, redirectTo) {
+  const { data, error } = await supabase.auth.signUp({
+    email,
+    password,
+    options: { emailRedirectTo: redirectTo },
+  });
+  if (error) throw error;
+  return data;
+}
+
+export async function signInWithPassword(email, password) {
+  const { data, error } = await supabase.auth.signInWithPassword({ email, password });
+  if (error) throw error;
+  return data;
+}
+
+// Odešle e-mail s odkazem na nastavení nového hesla (odkaz vede na
+// reset-hesla.html, kde se stránka podle přítomnosti session pozná, že je
+// v "recovery" režimu — viz supabase.auth.onAuthStateChange tam).
+export async function sendPasswordReset(email, redirectTo) {
+  const { error } = await supabase.auth.resetPasswordForEmail(email, { redirectTo });
+  if (error) throw error;
+}
+
+export async function updatePassword(newPassword) {
+  const { error } = await supabase.auth.updateUser({ password: newPassword });
   if (error) throw error;
 }
 
@@ -67,12 +102,43 @@ export async function getProfile(userId) {
   return data;
 }
 
-// Vyžaduje session I dokončený onboarding (legal_form vyplněný). Použij na
-// app.html — pokud profil ještě není hotový, pošle uživatele na onboarding.
-export async function requireOnboardedProfile() {
+// Dočasná výjimka z placení (19_schema_subscriptions.sql) — dokud GoPay
+// neběží naostro, e-maily na tomhle seznamu appku používají zdarma. RLS na
+// subscription_whitelist dovolí zjistit jen vlastní e-mail, ne celý seznam.
+async function isWhitelisted(email) {
+  const { data, error } = await supabase.from("subscription_whitelist").select("email").eq("email", email).maybeSingle();
+  if (error) {
+    console.error("Nepodařilo se ověřit whitelist:", error.message);
+    return false;
+  }
+  return !!data;
+}
+
+function isSubscriptionActive(profile) {
+  return profile.subscription_status === "active" || profile.subscription_status === "past_due";
+}
+
+// Vyžaduje session A aktivní předplatné (nebo whitelist výjimku) — bez toho
+// appku nejde použít vůbec, ani onboarding. Použij na app.html i na
+// onboarding.html.
+export async function requireActiveSubscription() {
   const session = await requireSession();
   if (!session) return null;
   const profile = await getProfile(session.user.id);
+  if (isSubscriptionActive(profile) || (await isWhitelisted(session.user.email))) {
+    return { session, profile };
+  }
+  window.location.href = SUBSCRIBE_PAGE;
+  return null;
+}
+
+// Vyžaduje session, aktivní předplatné I dokončený onboarding (legal_form
+// vyplněný). Použij na app.html a všech nástrojích — bez předplatného pošle
+// na predplatne.html, s předplatným ale bez onboardingu na onboarding.html.
+export async function requireOnboardedProfile() {
+  const result = await requireActiveSubscription();
+  if (!result) return null;
+  const { session, profile } = result;
   if (!profile.onboarded_at) {
     window.location.href = ONBOARDING_PAGE;
     return null;

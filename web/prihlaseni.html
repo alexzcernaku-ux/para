@@ -4,7 +4,7 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Přihlášení — Para</title>
-<meta name="description" content="Přihlaste se do Para e-mailem, bez hesla. Odkaz na přihlášení vám pošleme na e-mail." />
+<meta name="description" content="Přihlaste se do Para e-mailem a heslem, nebo si založte účet." />
 <link rel="icon" href="/favicon.ico" sizes="any" />
 <link rel="icon" href="assets/img/logo/logo-mark.png" type="image/png" />
 <link rel="apple-touch-icon" href="assets/img/logo/logo-mark.png" />
@@ -23,19 +23,40 @@
     <div class="card auth-card" id="auth-card">
       <div id="auth-form-state">
         <img src="assets/img/mascot/mascot-vita.png" alt="Para vás vítá" class="mascot-img" />
-        <h1>Přihlášení</h1>
-        <p>Zadejte e-mail a pošleme vám přihlašovací odkaz. Pokud u nás ještě nemáte účet, založíme vám ho automaticky.</p>
-        <form id="login-form">
-          <input type="email" id="login-email" class="text-input" placeholder="vas@email.cz" required aria-label="E-mail" />
-          <button type="submit" class="btn btn-primary btn-block" id="login-submit">Poslat přihlašovací odkaz</button>
+
+        <div class="doctype-tabs" id="mode-tabs" style="margin-bottom: 18px;">
+          <button type="button" class="doctype-tab active" data-mode="login" style="flex:1; justify-content:center;">Přihlásit se</button>
+          <button type="button" class="doctype-tab" data-mode="register" style="flex:1; justify-content:center;">Založit účet</button>
+        </div>
+
+        <h1 id="form-title">Přihlášení</h1>
+        <p id="form-subtitle">Zadejte e-mail a heslo.</p>
+
+        <form id="auth-form">
+          <input type="email" id="auth-email" class="text-input" placeholder="vas@email.cz" required autocomplete="email" aria-label="E-mail" />
+          <input type="password" id="auth-password" class="text-input" placeholder="Heslo" required autocomplete="current-password" minlength="8" aria-label="Heslo" />
+          <button type="submit" class="btn btn-primary btn-block" id="auth-submit">Přihlásit se</button>
         </form>
-        <p class="form-hint">Žádné heslo — jen odkaz platný pro jedno přihlášení.</p>
+
+        <p class="form-hint" id="forgot-wrap"><a href="reset-hesla.html" id="forgot-link">Zapomenuté heslo?</a></p>
+        <p class="form-hint">nebo <a href="#" id="magic-link-toggle">přihlásit se odkazem do e-mailu</a> (bez hesla)</p>
+      </div>
+
+      <div id="magic-form-state" class="hidden">
+        <img src="assets/img/mascot/mascot-vita.png" alt="Para vás vítá" class="mascot-img" />
+        <h1>Přihlášení odkazem</h1>
+        <p>Zadejte e-mail a pošleme vám přihlašovací odkaz platný pro jedno přihlášení.</p>
+        <form id="magic-form">
+          <input type="email" id="magic-email" class="text-input" placeholder="vas@email.cz" required aria-label="E-mail" />
+          <button type="submit" class="btn btn-primary btn-block" id="magic-submit">Poslat přihlašovací odkaz</button>
+        </form>
+        <p class="form-hint"><a href="#" id="password-toggle">← Zpět na přihlášení heslem</a></p>
       </div>
 
       <div id="auth-success-state" class="hidden">
         <img src="assets/img/mascot/mascot-ma-vas-rad.png" alt="" class="mascot-img" />
-        <h1>Zkontrolujte e-mail</h1>
-        <p>Poslali jsme přihlašovací odkaz na <strong id="sent-to-email"></strong>. Klikněte na něj a budete přihlášeni.</p>
+        <h1 id="success-title">Zkontrolujte e-mail</h1>
+        <p id="success-text">Poslali jsme odkaz na <strong id="sent-to-email"></strong>.</p>
         <p class="form-hint">Nic nepřišlo? Zkontrolujte spam, nebo to zkuste znovu za chvíli.</p>
       </div>
 
@@ -50,64 +71,169 @@
   window.PARA_CONFIG = {
     endpoint: "https://fibytymnzgluyxxszria.supabase.co/functions/v1/zakon-query",
     anonKey: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImZpYnl0eW1uemdsdXl4eHN6cmlhIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODU0MzM4ODgsImV4cCI6MjEwMTAwOTg4OH0.hFEzCTPZEGpQaQguytnu8Hyz6z9j6P5M1E17l2WfGdE",
-    // TODO: doplnit reálné Supabase URL/anon key (Project Settings → API)
     supabaseUrl: "https://fibytymnzgluyxxszria.supabase.co",
     supabaseAnonKey: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImZpYnl0eW1uemdsdXl4eHN6cmlhIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODU0MzM4ODgsImV4cCI6MjEwMTAwOTg4OH0.hFEzCTPZEGpQaQguytnu8Hyz6z9j6P5M1E17l2WfGdE",
   };
 </script>
 <script type="module">
-  import { sendMagicLink, getSession, APP_PAGE } from "./assets/js/supabase-client.js";
+  import { sendMagicLink, signUpWithPassword, signInWithPassword, getSession, APP_PAGE } from "./assets/js/supabase-client.js";
 
   const formState = document.getElementById("auth-form-state");
+  const magicState = document.getElementById("magic-form-state");
   const successState = document.getElementById("auth-success-state");
-  const form = document.getElementById("login-form");
-  const emailInput = document.getElementById("login-email");
-  const submitBtn = document.getElementById("login-submit");
-  const sentToEl = document.getElementById("sent-to-email");
 
-  // Už přihlášený uživatel sem nemá co dělat — pošli ho rovnou do appky
-  // (requireOnboardedProfile na app.html ho případně přesměruje dál na onboarding).
+  const modeTabs = document.getElementById("mode-tabs");
+  const formTitle = document.getElementById("form-title");
+  const formSubtitle = document.getElementById("form-subtitle");
+  const authForm = document.getElementById("auth-form");
+  const emailInput = document.getElementById("auth-email");
+  const passwordInput = document.getElementById("auth-password");
+  const submitBtn = document.getElementById("auth-submit");
+  const forgotWrap = document.getElementById("forgot-wrap");
+
+  const magicForm = document.getElementById("magic-form");
+  const magicEmailInput = document.getElementById("magic-email");
+  const magicSubmitBtn = document.getElementById("magic-submit");
+
+  const sentToEl = document.getElementById("sent-to-email");
+  const successTitle = document.getElementById("success-title");
+  const successText = document.getElementById("success-text");
+
+  const urlParams = new URLSearchParams(window.location.search);
+  const planParam = urlParams.get("plan") === "yearly" ? "yearly" : urlParams.get("plan") === "monthly" ? "monthly" : null;
+  let mode = "login"; // "login" | "register"
+
+  // Po přihlášení/registraci jde uživatel rovnou na Předplatné, pokud přišel
+  // z ceníku s konkrétním tarifem (ať se mu předvyplní) — jinak do appky,
+  // kde requireOnboardedProfile/requireActiveSubscription stejně přesměruje
+  // na predplatne.html, pokud předplatné ještě nemá.
+  function postAuthRedirect() {
+    window.location.href = planParam ? `predplatne.html?plan=${planParam}` : APP_PAGE;
+  }
+
+  // Už přihlášený uživatel sem nemá co dělat.
   getSession().then((session) => {
-    if (session) window.location.href = APP_PAGE;
+    if (session) postAuthRedirect();
   }).catch(() => {});
 
-  function removeError() {
+  function removeError(form) {
     const existing = form.querySelector(".form-error");
     if (existing) existing.remove();
   }
-  function showError(message) {
-    removeError();
+  function showError(form, message) {
+    removeError(form);
     const p = document.createElement("p");
     p.className = "form-error";
     p.textContent = message;
     form.appendChild(p);
   }
 
-  form.addEventListener("submit", async (e) => {
+  function activateMode(targetMode) {
+    mode = targetMode;
+    modeTabs.querySelectorAll(".doctype-tab").forEach((t) => t.classList.toggle("active", t.dataset.mode === targetMode));
+    removeError(authForm);
+    if (mode === "register") {
+      formTitle.textContent = "Založit účet";
+      formSubtitle.textContent = "Zadejte e-mail a zvolte heslo (aspoň 8 znaků).";
+      submitBtn.textContent = "Založit účet";
+      passwordInput.autocomplete = "new-password";
+      forgotWrap.classList.add("hidden");
+    } else {
+      formTitle.textContent = "Přihlášení";
+      formSubtitle.textContent = "Zadejte e-mail a heslo.";
+      submitBtn.textContent = "Přihlásit se";
+      passwordInput.autocomplete = "current-password";
+      forgotWrap.classList.remove("hidden");
+    }
+  }
+
+  // Z ceníku na landing page přichází uživatel rovnou s ?mode=register — ať
+  // nemusí ještě jednou překlikávat na "Založit účet" sám.
+  if (urlParams.get("mode") === "register") activateMode("register");
+
+  modeTabs.querySelectorAll(".doctype-tab").forEach((tab) => {
+    tab.addEventListener("click", () => activateMode(tab.dataset.mode));
+  });
+
+  document.getElementById("magic-link-toggle").addEventListener("click", (e) => {
     e.preventDefault();
-    removeError();
+    formState.classList.add("hidden");
+    magicState.classList.remove("hidden");
+  });
+  document.getElementById("password-toggle").addEventListener("click", (e) => {
+    e.preventDefault();
+    magicState.classList.add("hidden");
+    formState.classList.remove("hidden");
+  });
+
+  authForm.addEventListener("submit", async (e) => {
+    e.preventDefault();
+    removeError(authForm);
     const email = emailInput.value.trim();
-    if (!email) return;
+    const password = passwordInput.value;
+    if (!email || !password) return;
 
     submitBtn.disabled = true;
-    submitBtn.textContent = "Odesílám…";
+    submitBtn.textContent = mode === "register" ? "Zakládám…" : "Přihlašuji…";
+
+    try {
+      if (mode === "register") {
+        const redirectTo = `${window.location.origin}/app.html`;
+        const { session } = await signUpWithPassword(email, password, redirectTo);
+        if (session) {
+          // Potvrzení e-mailu je v projektu vypnuté (nebo self-confirm) — session
+          // dorazila rovnou, netřeba čekat na klik v e-mailu.
+          postAuthRedirect();
+          return;
+        }
+        sentToEl.textContent = email;
+        successTitle.textContent = "Potvrďte e-mail";
+        successText.innerHTML = `Poslali jsme potvrzovací odkaz na <strong>${email}</strong>. Klikněte na něj a budete přihlášeni.`;
+        formState.classList.add("hidden");
+        successState.classList.remove("hidden");
+      } else {
+        await signInWithPassword(email, password);
+        postAuthRedirect();
+      }
+    } catch (err) {
+      const friendly = /invalid login credentials/i.test(err.message)
+        ? "Špatný e-mail nebo heslo."
+        : /user already registered/i.test(err.message)
+        ? "Tenhle e-mail už má účet — zkuste se rovnou přihlásit."
+        : err.message;
+      showError(authForm, friendly);
+    } finally {
+      submitBtn.disabled = false;
+      submitBtn.textContent = mode === "register" ? "Založit účet" : "Přihlásit se";
+    }
+  });
+
+  magicForm.addEventListener("submit", async (e) => {
+    e.preventDefault();
+    removeError(magicForm);
+    const email = magicEmailInput.value.trim();
+    if (!email) return;
+
+    magicSubmitBtn.disabled = true;
+    magicSubmitBtn.textContent = "Odesílám…";
 
     try {
       // Netlify defaultně servíruje "pretty URLs" (bez přípony .html) — pathname
       // proto může být "/prihlaseni" i "/prihlaseni.html" podle toho, jak sem
-      // uživatel přišel. Odvozovat cílovou URL regexem nad pathname bylo křehké
-      // (bez shody vzniklo třeba "/prihlaseniapp.html") — app.html je vždy v
-      // kořeni webu, takže stačí absolutní cesta bez ohledu na aktuální URL.
+      // uživatel přišel. app.html je vždy v kořeni webu, takže stačí absolutní
+      // cesta bez ohledu na aktuální URL (viz historii commitů k téhle stránce).
       const redirectTo = `${window.location.origin}/app.html`;
       await sendMagicLink(email, redirectTo);
       sentToEl.textContent = email;
-      formState.classList.add("hidden");
+      successTitle.textContent = "Zkontrolujte e-mail";
+      successText.innerHTML = `Poslali jsme přihlašovací odkaz na <strong>${email}</strong>. Klikněte na něj a budete přihlášeni.`;
+      magicState.classList.add("hidden");
       successState.classList.remove("hidden");
     } catch (err) {
-      showError(`Nepodařilo se odeslat odkaz (${err.message}). Zkuste to prosím znovu.`);
+      showError(magicForm, `Nepodařilo se odeslat odkaz (${err.message}).`);
     } finally {
-      submitBtn.disabled = false;
-      submitBtn.textContent = "Poslat přihlašovací odkaz";
+      magicSubmitBtn.disabled = false;
+      magicSubmitBtn.textContent = "Poslat přihlašovací odkaz";
     }
   });
 </script>

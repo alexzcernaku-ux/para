@@ -93,7 +93,7 @@
   };
 </script>
 <script type="module">
-  import { requireSession, getProfile, saveProfile, APP_PAGE } from "./assets/js/supabase-client.js";
+  import { requireActiveSubscription, getProfile, saveProfile, APP_PAGE } from "./assets/js/supabase-client.js";
   import { lookupIco } from "./assets/js/ares.js";
 
   const card = document.getElementById("onboarding-card");
@@ -110,18 +110,14 @@
   let aresData = null; // { ico, dic, companyName, vatPayer, isSro, isOsvc } — poslední úspěšný lookup
 
   (async () => {
-    session = await requireSession();
-    if (!session) return; // requireSession už přesměrovává na přihlášení
+    const result = await requireActiveSubscription();
+    if (!result) return; // requireActiveSubscription už přesměrovává na přihlášení/předplatné
+    session = result.session;
 
     // Kdo už onboarding jednou dokončil, sem nemá co znovu chodit.
-    try {
-      const profile = await getProfile(session.user.id);
-      if (profile.onboarded_at) {
-        window.location.href = APP_PAGE;
-        return;
-      }
-    } catch (err) {
-      console.error("Nepodařilo se načíst profil:", err.message);
+    if (result.profile.onboarded_at) {
+      window.location.href = APP_PAGE;
+      return;
     }
 
     loading.classList.add("hidden");

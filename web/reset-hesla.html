@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Obnovení hesla — Para</title>
+<link rel="icon" href="/favicon.ico" sizes="any" />
+<link rel="icon" href="assets/img/logo/logo-mark.png" type="image/png" />
+<link rel="apple-touch-icon" href="assets/img/logo/logo-mark.png" />
+<link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+
+<div class="auth-shell">
+  <div class="auth-topbar">
+    <a href="index.html" aria-label="Para — domů">
+      <img src="assets/img/logo/logo-primary-light.png" alt="Para" />
+    </a>
+  </div>
+
+  <div class="auth-main">
+    <div class="card auth-card" id="auth-card">
+      <div id="request-state">
+        <img src="assets/img/mascot/mascot-vita.png" alt="" class="mascot-img" />
+        <h1>Zapomenuté heslo</h1>
+        <p>Zadejte e-mail, pošleme vám odkaz na nastavení nového hesla.</p>
+        <form id="request-form">
+          <input type="email" id="request-email" class="text-input" placeholder="vas@email.cz" required aria-label="E-mail" />
+          <button type="submit" class="btn btn-primary btn-block" id="request-submit">Poslat odkaz</button>
+        </form>
+      </div>
+
+      <div id="sent-state" class="hidden">
+        <img src="assets/img/mascot/mascot-ma-vas-rad.png" alt="" class="mascot-img" />
+        <h1>Zkontrolujte e-mail</h1>
+        <p>Poslali jsme odkaz na nastavení nového hesla na <strong id="sent-to-email"></strong>.</p>
+        <p class="form-hint">Nic nepřišlo? Zkontrolujte spam, nebo to zkuste znovu za chvíli.</p>
+      </div>
+
+      <div id="new-password-state" class="hidden">
+        <img src="assets/img/mascot/mascot-vita.png" alt="" class="mascot-img" />
+        <h1>Nové heslo</h1>
+        <p>Zadejte nové heslo k účtu (aspoň 8 znaků).</p>
+        <form id="new-password-form">
+          <input type="password" id="new-password" class="text-input" placeholder="Nové heslo" required minlength="8" autocomplete="new-password" aria-label="Nové heslo" />
+          <button type="submit" class="btn btn-primary btn-block" id="new-password-submit">Nastavit heslo</button>
+        </form>
+      </div>
+
+      <div id="done-state" class="hidden">
+        <img src="assets/img/mascot/mascot-ma-vas-rad.png" alt="" class="mascot-img" />
+        <h1>Heslo nastaveno</h1>
+        <p>Můžete se teď přihlásit novým heslem.</p>
+        <a class="btn btn-primary btn-block" href="app.html">Pokračovat do appky</a>
+      </div>
+
+      <div class="auth-footer-link">
+        <a href="prihlaseni.html">← Zpět na přihlášení</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  window.PARA_CONFIG = {
+    supabaseUrl: "https://fibytymnzgluyxxszria.supabase.co",
+    supabaseAnonKey: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImZpYnl0eW1uemdsdXl4eHN6cmlhIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODU0MzM4ODgsImV4cCI6MjEwMTAwOTg4OH0.hFEzCTPZEGpQaQguytnu8Hyz6z9j6P5M1E17l2WfGdE",
+  };
+</script>
+<script type="module">
+  import { supabase, sendPasswordReset, updatePassword } from "./assets/js/supabase-client.js";
+
+  const requestState = document.getElementById("request-state");
+  const sentState = document.getElementById("sent-state");
+  const newPasswordState = document.getElementById("new-password-state");
+  const doneState = document.getElementById("done-state");
+
+  const requestForm = document.getElementById("request-form");
+  const requestEmail = document.getElementById("request-email");
+  const requestSubmit = document.getElementById("request-submit");
+  const sentToEmail = document.getElementById("sent-to-email");
+
+  const newPasswordForm = document.getElementById("new-password-form");
+  const newPasswordInput = document.getElementById("new-password");
+  const newPasswordSubmit = document.getElementById("new-password-submit");
+
+  function showOnly(el) {
+    [requestState, sentState, newPasswordState, doneState].forEach((s) => s.classList.toggle("hidden", s !== el));
+  }
+
+  function removeError(form) {
+    const existing = form.querySelector(".form-error");
+    if (existing) existing.remove();
+  }
+  function showError(form, message) {
+    removeError(form);
+    const p = document.createElement("p");
+    p.className = "form-error";
+    p.textContent = message;
+    form.appendChild(p);
+  }
+
+  // Odkaz z e-mailu přiveze Supabase klienta do "PASSWORD_RECOVERY" stavu
+  // (detectSessionInUrl v supabase-client.js session z odkazu zpracuje samo)
+  // — jen na tenhle event přepneme na formulář s novým heslem.
+  supabase.auth.onAuthStateChange((event) => {
+    if (event === "PASSWORD_RECOVERY") {
+      showOnly(newPasswordState);
+    }
+  });
+
+  requestForm.addEventListener("submit", async (e) => {
+    e.preventDefault();
+    removeError(requestForm);
+    const email = requestEmail.value.trim();
+    if (!email) return;
+
+    requestSubmit.disabled = true;
+    requestSubmit.textContent = "Odesílám…";
+    try {
+      const redirectTo = `${window.location.origin}/reset-hesla.html`;
+      await sendPasswordReset(email, redirectTo);
+      sentToEmail.textContent = email;
+      showOnly(sentState);
+    } catch (err) {
+      showError(requestForm, `Nepodařilo se odeslat odkaz (${err.message}).`);
+    } finally {
+      requestSubmit.disabled = false;
+      requestSubmit.textContent = "Poslat odkaz";
+    }
+  });
+
+  newPasswordForm.addEventListener("submit", async (e) => {
+    e.preventDefault();
+    removeError(newPasswordForm);
+    const password = newPasswordInput.value;
+    if (!password) return;
+
+    newPasswordSubmit.disabled = true;
+    newPasswordSubmit.textContent = "Ukládám…";
+    try {
+      await updatePassword(password);
+      showOnly(doneState);
+    } catch (err) {
+      showError(newPasswordForm, `Nepodařilo se nastavit heslo (${err.message}).`);
+    } finally {
+      newPasswordSubmit.disabled = false;
+      newPasswordSubmit.textContent = "Nastavit heslo";
+    }
+  });
+</script>
+
+</body>
+</html>

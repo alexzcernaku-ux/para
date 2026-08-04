@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Předplatné — Para</title>
+<link rel="icon" href="/favicon.ico" sizes="any" />
+<link rel="icon" href="assets/img/logo/logo-mark.png" type="image/png" />
+<link rel="apple-touch-icon" href="assets/img/logo/logo-mark.png" />
+<link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+
+<div class="auth-shell">
+  <div class="auth-topbar">
+    <a href="index.html" aria-label="Para — domů">
+      <img src="assets/img/logo/logo-primary-light.png" alt="Para" />
+    </a>
+  </div>
+
+  <div class="auth-main">
+    <div class="card auth-card wide hidden" id="plan-state">
+      <img src="assets/img/mascot/mascot-vita.png" alt="" class="mascot-img" />
+      <h1>Aktivujte předplatné Para Pro</h1>
+      <p>Bez aktivního předplatného appku bohužel nejde používat. Vyberte tarif a zadejte fakturační údaje — na platbu vás pak přesměrujeme na zabezpečenou bránu GoPay.</p>
+
+      <div class="doctype-tabs" id="plan-tabs" role="tablist" style="margin-bottom: 22px;">
+        <button type="button" class="doctype-tab" data-plan="monthly" role="tab">
+          <div>
+            <strong>Měsíčně</strong>
+            <div class="form-hint" style="margin-top:2px;">299 Kč / měsíc</div>
+          </div>
+        </button>
+        <button type="button" class="doctype-tab" data-plan="yearly" role="tab">
+          <div>
+            <strong>Ročně</strong>
+            <div class="form-hint" style="margin-top:2px;">2 990 Kč / rok · ušetříte 2 měsíce</div>
+          </div>
+        </button>
+      </div>
+
+      <form id="payer-form">
+        <div class="choice-grid cols-2" style="margin-bottom: 0; display:grid; grid-template-columns:1fr 1fr; gap:12px;">
+          <input type="text" id="payer-first-name" class="text-input" placeholder="Jméno" required autocomplete="given-name" aria-label="Jméno" />
+          <input type="text" id="payer-last-name" class="text-input" placeholder="Příjmení" required autocomplete="family-name" aria-label="Příjmení" />
+        </div>
+        <input type="tel" id="payer-phone" class="text-input" placeholder="Telefon (např. +420 777 123 456)" required autocomplete="tel" aria-label="Telefon" />
+        <input type="text" id="payer-street" class="text-input" placeholder="Ulice a číslo popisné" required autocomplete="street-address" aria-label="Ulice a číslo popisné" />
+        <div class="choice-grid cols-2" style="margin-bottom: 0; display:grid; grid-template-columns:2fr 1fr; gap:12px;">
+          <input type="text" id="payer-city" class="text-input" placeholder="Město" required autocomplete="address-level2" aria-label="Město" />
+          <input type="text" id="payer-postal" class="text-input" placeholder="PSČ" required autocomplete="postal-code" aria-label="PSČ" />
+        </div>
+
+        <button type="submit" class="btn btn-primary btn-block btn-lg" id="payer-submit" style="margin-top: 6px;">Pokračovat k platbě — <span id="submit-price">299 Kč</span></button>
+        <p class="form-hint" style="text-align:center; margin-top: 10px;">Platba probíhá přes zabezpečenou bránu GoPay. Předplatné se automaticky obnovuje, zrušit ho můžete kdykoliv.</p>
+      </form>
+    </div>
+
+    <div class="card auth-card hidden" id="redirecting-state">
+      <img src="assets/img/mascot/mascot-pracuje.png" alt="" class="mascot-img" />
+      <h1>Přesměrovávám na platbu…</h1>
+      <p>Chvilku strpení, otevíráme platební bránu GoPay.</p>
+    </div>
+
+    <div class="card auth-card hidden" id="result-pending-state">
+      <img src="assets/img/mascot/mascot-pracuje.png" alt="" class="mascot-img" />
+      <h1>Zpracováváme platbu…</h1>
+      <p>Potvrzení od GoPay obvykle přijde do pár vteřin. Nezavírejte prosím tuhle stránku.</p>
+    </div>
+
+    <div class="card auth-card hidden" id="result-success-state">
+      <img src="assets/img/mascot/mascot-ma-vas-rad.png" alt="" class="mascot-img" />
+      <h1>Platba proběhla, díky!</h1>
+      <p>Předplatné je aktivní. Pokračujte do aplikace.</p>
+      <a class="btn btn-primary btn-block" href="app.html" id="result-success-link">Pokračovat do appky</a>
+    </div>
+
+    <div class="card auth-card hidden" id="result-failed-state">
+      <img src="assets/img/mascot/mascot-kontroluje.png" alt="" class="mascot-img" />
+      <h1>Platba se nezdařila</h1>
+      <p>GoPay platbu nedokončil (mohli jste ji třeba jen zrušit). Nic se neděje, zkuste to prosím znovu.</p>
+      <button type="button" class="btn btn-primary btn-block" id="result-retry-btn">Zkusit znovu</button>
+    </div>
+
+    <div class="app-loading" id="page-loading">
+      <img src="assets/img/mascot/mascot-pocita.png" alt="" />
+      Chvilku strpení…
+    </div>
+  </div>
+</div>
+
+<script>
+  window.PARA_CONFIG = {
+    supabaseUrl: "https://fibytymnzgluyxxszria.supabase.co",
+    supabaseAnonKey: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImZpYnl0eW1uemdsdXl4eHN6cmlhIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODU0MzM4ODgsImV4cCI6MjEwMTAwOTg4OH0.hFEzCTPZEGpQaQguytnu8Hyz6z9j6P5M1E17l2WfGdE",
+  };
+</script>
+<script type="module">
+  import { requireSession, getProfile, ONBOARDING_PAGE, APP_PAGE } from "./assets/js/supabase-client.js";
+
+  const PLAN_PRICES = { monthly: { amountKc: 299, label: "299 Kč" }, yearly: { amountKc: 2990, label: "2 990 Kč" } };
+  const CHECKOUT_URL = `${window.PARA_CONFIG.supabaseUrl}/functions/v1/gopay-checkout`;
+
+  const states = {
+    plan: document.getElementById("plan-state"),
+    redirecting: document.getElementById("redirecting-state"),
+    pending: document.getElementById("result-pending-state"),
+    success: document.getElementById("result-success-state"),
+    failed: document.getElementById("result-failed-state"),
+  };
+  const pageLoading = document.getElementById("page-loading");
+
+  function showOnly(key) {
+    pageLoading.classList.add("hidden");
+    Object.entries(states).forEach(([k, el]) => el.classList.toggle("hidden", k !== key));
+  }
+
+  const planTabs = document.getElementById("plan-tabs");
+  const submitPriceEl = document.getElementById("submit-price");
+  let selectedPlan = new URLSearchParams(window.location.search).get("plan") === "yearly" ? "yearly" : "monthly";
+
+  function renderPlanTabs() {
+    planTabs.querySelectorAll(".doctype-tab").forEach((tab) => {
+      tab.classList.toggle("active", tab.dataset.plan === selectedPlan);
+    });
+    submitPriceEl.textContent = PLAN_PRICES[selectedPlan].label;
+  }
+  planTabs.addEventListener("click", (e) => {
+    const tab = e.target.closest(".doctype-tab");
+    if (!tab) return;
+    selectedPlan = tab.dataset.plan;
+    renderPlanTabs();
+  });
+  renderPlanTabs();
+
+  let session = null;
+
+  async function goToAppOrOnboarding(profile) {
+    window.location.href = profile.onboarded_at ? APP_PAGE : ONBOARDING_PAGE;
+  }
+
+  // Po návratu z GoPay (return_url) appka poll-uje profil, dokud
+  // gopay-webhook nedoběhne a nezapíše subscription_status — notifikace od
+  // GoPay chodí asynchronně, typicky ale během pár vteřin.
+  async function pollForActiveSubscription(userId, { attempts = 10, intervalMs = 2000 } = {}) {
+    for (let i = 0; i < attempts; i++) {
+      const profile = await getProfile(userId);
+      if (profile.subscription_status === "active" || profile.subscription_status === "past_due") {
+        return { ok: true, profile };
+      }
+      await new Promise((r) => setTimeout(r, intervalMs));
+    }
+    return { ok: false, profile: null };
+  }
+
+  (async () => {
+    session = await requireSession();
+    if (!session) return;
+
+    const profile = await getProfile(session.user.id);
+    const isActive = profile.subscription_status === "active" || profile.subscription_status === "past_due";
+    if (isActive) {
+      await goToAppOrOnboarding(profile);
+      return;
+    }
+
+    if (new URLSearchParams(window.location.search).get("platba") === "vysledek") {
+      showOnly("pending");
+      const result = await pollForActiveSubscription(session.user.id);
+      if (result.ok) {
+        document.getElementById("result-success-link").href = result.profile.onboarded_at ? APP_PAGE : ONBOARDING_PAGE;
+        showOnly("success");
+      } else {
+        showOnly("failed");
+      }
+      return;
+    }
+
+    showOnly("plan");
+  })();
+
+  document.getElementById("result-retry-btn").addEventListener("click", () => {
+    window.history.replaceState({}, "", "predplatne.html");
+    showOnly("plan");
+  });
+
+  document.getElementById("payer-form").addEventListener("submit", async (e) => {
+    e.preventDefault();
+    if (!session) return;
+
+    const submitBtn = document.getElementById("payer-submit");
+    submitBtn.disabled = true;
+    submitBtn.textContent = "Zakládám platbu…";
+
+    try {
+      const payer = {
+        firstName: document.getElementById("payer-first-name").value.trim(),
+        lastName: document.getElementById("payer-last-name").value.trim(),
+        phoneNumber: document.getElementById("payer-phone").value.trim(),
+        street: document.getElementById("payer-street").value.trim(),
+        city: document.getElementById("payer-city").value.trim(),
+        postalCode: document.getElementById("payer-postal").value.trim(),
+      };
+
+      const res = await fetch(CHECKOUT_URL, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Authorization: `Bearer ${session.access_token}`,
+          apikey: window.PARA_CONFIG.supabaseAnonKey,
+        },
+        body: JSON.stringify({ plan: selectedPlan, payer }),
+      });
+      const data = await res.json();
+      if (!res.ok) throw new Error(data.error || `Chyba serveru (${res.status})`);
+
+      showOnly("redirecting");
+      window.location.href = data.gwUrl;
+    } catch (err) {
+      submitBtn.disabled = false;
+      submitBtn.textContent = `Pokračovat k platbě — ${PLAN_PRICES[selectedPlan].label}`;
+      alert(`Nepodařilo se založit platbu (${err.message}). Zkuste to prosím znovu.`);
+    }
+  });
+</script>
+
+</body>
+</html>
