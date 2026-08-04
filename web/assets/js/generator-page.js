@@ -273,6 +273,37 @@ function initSmlouva(profile, session, isVatPayer) {
   });
 }
 
+// Umožní přijít sem ze Sledování faktur (odkaz "Vygenerovat upomínku" u
+// faktury po splatnosti) s předvyplněnými údaji, ať je uživatel nepřepisuje
+// ručně — viz faktury-page.js, který tenhle odkaz staví.
+function applyPrefillFromQuery() {
+  const params = new URLSearchParams(window.location.search);
+  const tab = params.get("tab");
+  if (!tab) return;
+
+  const tabBtn = document.querySelector(`.doctype-tab[data-doctype="${tab}"]`);
+  if (tabBtn) tabBtn.click();
+
+  if (tab === "upominka") {
+    const map = {
+      customerName: "u-customer-name",
+      amount: "u-amount",
+      originalDocNumber: "u-original-doc-number",
+      originalIssueDate: "u-original-issue-date",
+      originalDueDate: "u-original-due-date",
+    };
+    for (const [param, id] of Object.entries(map)) {
+      const v = params.get(param);
+      const el = document.getElementById(id);
+      if (v && el) el.value = v;
+    }
+    const newDueEl = document.getElementById("u-new-due-date");
+    if (newDueEl && !newDueEl.value) newDueEl.value = addDaysISO(10);
+    const issueEl = document.getElementById("u-issue-date");
+    if (issueEl && !issueEl.value) issueEl.value = todayISO();
+  }
+}
+
 (async () => {
   const result = await requireOnboardedProfile();
   if (!result) return;
@@ -284,6 +315,7 @@ function initSmlouva(profile, session, isVatPayer) {
   initStorno(profile, session, isVatPayer);
   initUpominka(profile, session);
   initSmlouva(profile, session, isVatPayer);
+  applyPrefillFromQuery();
 
   loadingEl.classList.add("hidden");
   shellEl.classList.remove("hidden");

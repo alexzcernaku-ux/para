@@ -152,6 +152,40 @@
         </p>
       </div>
 
+      <div class="card calc-tool-card" id="tool-pausalni-dan">
+        <div class="calc-tool-head">
+          <span class="eyebrow">Srovnání</span>
+          <h2>Paušální daň vs. normální režim</h2>
+          <p>Paušální daň nahrazuje daň i pojistné jednou měsíční platbou — a navíc obvykle nemusíte podávat přiznání ani přehledy. Vyplatí se to i po penězích?</p>
+        </div>
+
+        <div class="calc-form-grid">
+          <div class="calc-field">
+            <label for="k3-prijem">Hrubý roční příjem</label>
+            <input type="number" inputmode="numeric" id="k3-prijem" class="text-input" value="900000" min="0" step="1000" />
+          </div>
+          <div class="calc-field full">
+            <label>Typ činnosti</label>
+            <div class="calc-radio-row" id="k3-pausal-typ-group">
+              <label class="calc-radio-chip"><input type="radio" name="k3-pausal-typ" value="remeslo" />80 % — řemeslo, zemědělství</label>
+              <label class="calc-radio-chip"><input type="radio" name="k3-pausal-typ" value="zivnost" checked />60 % — ostatní živnosti</label>
+              <label class="calc-radio-chip"><input type="radio" name="k3-pausal-typ" value="jine" />40 % — svobodná povolání</label>
+              <label class="calc-radio-chip"><input type="radio" name="k3-pausal-typ" value="najem" />30 % — nájem</label>
+            </div>
+          </div>
+        </div>
+
+        <div class="compare-cols" id="k3-results"></div>
+
+        <p class="calc-note" id="k3-note"></p>
+        <p class="calc-note">
+          Do paušální daně nemůžete vstoupit jako plátce DPH, se souběžným zaměstnáním nad určitý příjem, ani
+          s dalšími příjmy (kapitálový majetek, nájem mimo podnikání, ostatní) nad 50 000 Kč ročně — tahle
+          kalkulačka tyhle podmínky nekontroluje, jen porovnává částky. Zápis do režimu se podává finanční
+          správě do 10. ledna (u nově zahajované činnosti do dne zahájení).
+        </p>
+      </div>
+
       <div class="disclaimer-banner">
         <div class="icon-circle">
           <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 9v4M12 17h.01" /><path d="M10.3 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.7 3.86a2 2 0 00-3.4 0z" /></svg>

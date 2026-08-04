@@ -72,6 +72,17 @@ function renderTable(invoices) {
       const status = statusOf(inv);
       const issueStr = new Date(inv.issue_date).toLocaleDateString("cs-CZ");
       const dueStr = inv.due_date ? new Date(inv.due_date).toLocaleDateString("cs-CZ") : "—";
+      const canRemind = direction === "vystavena" && status === "overdue";
+      const remindHref = canRemind
+        ? `generator-dokumentu.html?${new URLSearchParams({
+            tab: "upominka",
+            customerName: inv.counterparty_name || "",
+            amount: String(inv.amount),
+            originalDocNumber: inv.number || "",
+            originalIssueDate: inv.issue_date || "",
+            originalDueDate: inv.due_date || "",
+          })}`
+        : null;
       return `
         <tr>
           <td data-label="Číslo">${inv.number || "—"}</td>
@@ -80,6 +91,7 @@ function renderTable(invoices) {
           <td data-label="Splatnost">${dueStr}</td>
           <td data-label="Částka" class="amount">${formatKc(inv.amount)}</td>
           <td data-label="Stav"><button type="button" class="list-status-toggle ${status}" data-id="${inv.id}" data-paid="${inv.paid}">${STATUS_LABEL[status]}</button></td>
+          <td data-label="">${canRemind ? `<a href="${remindHref}" target="_blank" class="list-remind-link">Upomínka</a>` : ""}</td>
           <td data-label=""><button type="button" class="list-row-delete" data-del="${inv.id}" aria-label="Smazat"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18" /></svg></button></td>
         </tr>`;
     })

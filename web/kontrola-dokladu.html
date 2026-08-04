@@ -85,7 +85,7 @@
   };
 </script>
 <script type="module">
-  import { requireOnboardedProfile, signOut } from "./assets/js/supabase-client.js";
+  import { requireOnboardedProfile, signOut, insertLedgerEntry, insertInvoice } from "./assets/js/supabase-client.js";
 
   const cfg = window.PARA_CONFIG || {};
   const ENDPOINT = cfg.kontrolaDokladuEndpoint;
@@ -108,12 +108,14 @@
   const resultsEl = document.getElementById("results");
 
   let selectedFile = null;
+  let userId = null;
 
   signoutBtn.addEventListener("click", () => signOut());
 
   (async () => {
     const result = await requireOnboardedProfile();
     if (!result) return;
+    userId = result.session.user.id;
     loadingEl.classList.add("hidden");
     shellEl.classList.remove("hidden");
   })();
@@ -232,9 +234,72 @@
         </div>`;
     }
     html += "</div>";
+
+    const amountGuess = data.celkovaCastka ? String(data.celkovaCastka).replace(/[^\d.,]/g, "").replace(",", ".") : "";
+    const dateGuess = /^\d{4}-\d{2}-\d{2}$/.test(data.datumVystaveni || "") ? data.datumVystaveni : new Date().toISOString().slice(0, 10);
+    const descGuess = data.dodavatel || data.evidencniCislo || "";
+
+    html += `
+      <div class="card" style="padding: 24px; margin-top: 20px;" id="save-to-ledger-card">
+        <h3 style="margin-bottom: 14px; font-size: 15px;">Uložit do evidence</h3>
+        <div class="wiz-row3-even">
+          <div class="wiz-field"><label>Typ</label>
+            <select class="text-input" id="sl-type">
+              <option value="vydaj" selected>Výdaj</option>
+              <option value="prijem">Příjem</option>
+            </select>
+          </div>
+          <div class="wiz-field"><label>Datum</label><input type="date" class="text-input" id="sl-date" value="${dateGuess}" /></div>
+          <div class="wiz-field"><label>Částka (Kč)</label><input type="number" class="text-input" id="sl-amount" min="0" step="1" value="${amountGuess}" /></div>
+        </div>
+        <div class="wiz-field"><label>Popis</label><input type="text" class="text-input" id="sl-desc" value="${(descGuess || "").replace(/"/g, "&quot;")}" /></div>
+        <label style="display:flex; align-items:center; gap:8px; font-size:13.5px; color:var(--slate); margin-bottom:16px;">
+          <input type="checkbox" id="sl-also-invoice" style="width:16px; height:16px;" ${data.typDokladu !== "nejisty" ? "checked" : ""} />
+          Zároveň přidat do Sledování faktur (jako přijatá faktura)
+        </label>
+        <button type="button" class="btn btn-primary" id="sl-save-btn">Uložit do evidence</button>
+        <span id="sl-status" style="margin-left: 12px; font-size: 13px; color: var(--slate);"></span>
+      </div>`;
+
     resultsEl.innerHTML = html;
     resultsEl.classList.remove("hidden");
     resultsEl.scrollIntoView({ behavior: "smooth", block: "nearest" });
+
+    document.getElementById("sl-save-btn").addEventListener("click", async (e) => {
+      const btn = e.target;
+      const statusEl = document.getElementById("sl-status");
+      const amount = Number(document.getElementById("sl-amount").value);
+      if (!amount || amount <= 0) {
+        statusEl.textContent = "Zadejte platnou částku.";
+        statusEl.style.color = "var(--danger)";
+        return;
+      }
+      btn.disabled = true;
+      statusEl.style.color = "var(--slate)";
+      statusEl.textContent = "Ukládám…";
+      try {
+        const type = document.getElementById("sl-type").value;
+        const entryDate = document.getElementById("sl-date").value;
+        const description = document.getElementById("sl-desc").value.trim();
+        await insertLedgerEntry(userId, { entryDate, type, amount, category: "Z kontroly dokladu", description });
+        if (document.getElementById("sl-also-invoice").checked) {
+          await insertInvoice(userId, {
+            direction: "prijata",
+            number: data.evidencniCislo || "",
+            counterpartyName: data.dodavatel || "",
+            issueDate: entryDate,
+            amount,
+          });
+        }
+        statusEl.style.color = "#15803d";
+        statusEl.textContent = "Uloženo ✓";
+        btn.disabled = true;
+      } catch (err) {
+        statusEl.style.color = "var(--danger)";
+        statusEl.textContent = `Nepodařilo se uložit (${err.message}).`;
+        btn.disabled = false;
+      }
+    });
   }
 
   checkBtn.addEventListener("click", async () => {

@@ -3,6 +3,7 @@
 
 import { vypocetOSVC, vypocetSRO, formatKc } from "./tax-calc.js";
 import { PAUSALNI_VYDAJE } from "./tax-constants.js";
+import { vypocetPausalniDan, PAUSALNI_DAN_MAX_PRIJEM } from "./pausalni-dan.js";
 
 function row(label, value, opts = {}) {
   const cls = ["calc-row", opts.total ? "total" : "", opts.negative ? "negative" : ""]
@@ -144,6 +145,65 @@ function selectedValue(groupEl, name) {
   wireRadioGroup(pausalTypGroup, render);
   prijemInput.addEventListener("input", render);
   vydajeInput.addEventListener("input", render);
+
+  render();
+})();
+
+/* ============================= Kalkulačka 3 ============================= */
+(function initKalkulacka3() {
+  const prijemInput = document.getElementById("k3-prijem");
+  const pausalTypGroup = document.getElementById("k3-pausal-typ-group");
+  const resultsEl = document.getElementById("k3-results");
+  const noteEl = document.getElementById("k3-note");
+  if (!prijemInput) return;
+
+  function col(title, rows, isWinner) {
+    return `
+      <div class="compare-col ${isWinner ? "winner" : ""}">
+        ${isWinner ? '<span class="chip chip-green winner-badge">Nejvýhodnější</span>' : ""}
+        <div class="compare-col-title"><h4>${title}</h4></div>
+        ${rows}
+      </div>`;
+  }
+
+  function render() {
+    const prijem = Number(prijemInput.value) || 0;
+    const pausalTyp = selectedValue(pausalTypGroup, "k3-pausal-typ");
+
+    const rNormalni = vypocetOSVC({ prijem, rezim: "pausal", pausalTyp });
+    const rPausalniDan = vypocetPausalniDan({ prijem, pausalTyp });
+
+    if (!rPausalniDan.eligible) {
+      resultsEl.innerHTML = col(
+        `Paušál (${Math.round(PAUSALNI_VYDAJE[pausalTyp].procento * 100)} %)`,
+        row("Čistý zisk", formatKc(rNormalni.cistyZisk), { total: true }),
+        false
+      );
+      noteEl.textContent = `Nad ${formatKc(PAUSALNI_DAN_MAX_PRIJEM)} ročního příjmu nejde do paušální daně vstoupit vůbec — pro srovnání zbývá jen normální režim.`;
+      return;
+    }
+
+    const normalniRows =
+      row("Daň z příjmů", "− " + formatKc(rNormalni.dan), { negative: true }) +
+      row("Sociální pojištění", "− " + formatKc(rNormalni.socialni), { negative: true }) +
+      row("Zdravotní pojištění", "− " + formatKc(rNormalni.zdravotni), { negative: true }) +
+      row("Čistý zisk", formatKc(rNormalni.cistyZisk), { total: true });
+
+    const pausalniDanRows =
+      row(`Pásmo ${rPausalniDan.pasmo}`, formatKc(rPausalniDan.mesicniPlatba) + " / měsíc") +
+      row("Roční platba celkem", "− " + formatKc(rPausalniDan.rocniPlatba), { negative: true }) +
+      row("Čistý zisk", formatKc(rPausalniDan.cistyZisk), { total: true });
+
+    const best = Math.max(rNormalni.cistyZisk, rPausalniDan.cistyZisk);
+
+    resultsEl.innerHTML =
+      col(`Normální režim (paušál ${Math.round(PAUSALNI_VYDAJE[pausalTyp].procento * 100)} %)`, normalniRows, rNormalni.cistyZisk === best) +
+      col("Paušální daň", pausalniDanRows, rPausalniDan.cistyZisk === best);
+    noteEl.textContent = "";
+  }
+
+  wireRadioGroup(pausalTypGroup, render);
+  prijemInput.addEventListener("input", render);
 
   render();
 })();

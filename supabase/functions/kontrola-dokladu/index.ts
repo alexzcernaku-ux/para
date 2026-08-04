@@ -55,7 +55,11 @@ podle českého zákona o DPH. Dostaneš obrázek nebo PDF dokladu. Tvůj úkol:
 
 {
   "typDokladu": "plny" | "zjednoduseny" | "nejisty",
-  "celkovaCastka": "částka jak je uvedená na dokladu, nebo null",
+  "celkovaCastka": "částka jak je uvedená na dokladu (jen číslo, bez měny a mezer, desetinná tečka), nebo null",
+  "datumVystaveni": "datum vystavení ve formátu YYYY-MM-DD, nebo null",
+  "dodavatel": "název/jméno dodavatele tak, jak je na dokladu, nebo null",
+  "odberatel": "název/jméno odběratele tak, jak je na dokladu, nebo null",
+  "evidencniCislo": "evidenční/pořadové číslo dokladu, nebo null",
   "shrnuti": "1-2 věty lidsky, co je/není v pořádku",
   "polozky": [
     { "klic": "kratky_identifikator", "popis": "název náležitosti česky", "stav": "ano" | "chybi" | "nejiste", "poznamka": "co přesně je/chybí, nebo proč nejisté", "paragraf": "§ 29 odst. 1 písm. a)" }

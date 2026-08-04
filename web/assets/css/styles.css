@@ -1828,6 +1828,8 @@ textarea.text-input { resize: vertical; min-height: 70px; font-family: var(--fon
 .list-status-toggle.paid { background: var(--green-soft); color: #15803d; border-color: #bbf7d0; }
 .list-status-toggle.unpaid { background: var(--amber-soft); color: #b45309; border-color: #fde68a; }
 .list-status-toggle.overdue { background: var(--danger-soft); color: #b91c1c; border-color: #fecaca; }
+.list-remind-link { font-size: 12px; font-weight: 700; color: var(--indigo); text-decoration: none; white-space: nowrap; }
+.list-remind-link:hover { text-decoration: underline; }
 
 @media (max-width: 720px) {
   .list-table { display: block; }
