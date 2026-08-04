@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Evidence příjmů a výdajů — Para</title>
+<link rel="icon" href="/favicon.ico" sizes="any" />
+<link rel="icon" href="assets/img/logo/logo-mark.png" type="image/png" />
+<link rel="apple-touch-icon" href="assets/img/logo/logo-mark.png" />
+<link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+
+<div class="app-loading" id="page-loading">
+  <img src="assets/img/mascot/mascot-pocita.png" alt="" />
+  Chvilku strpení…
+</div>
+
+<div class="hidden" id="page-shell">
+  <div class="app-topbar" style="padding: 16px 28px;">
+    <a href="app.html" style="display:flex; align-items:center; gap:10px; text-decoration:none;">
+      <img src="assets/img/logo/logo-primary-light.png" alt="Para" style="height:29px" />
+    </a>
+    <div style="display:flex; align-items:center; gap:16px;">
+      <a href="app.html" class="btn btn-secondary">← Zpět do chatu</a>
+      <button type="button" class="app-signout-btn" id="signout-btn">Odhlásit se</button>
+    </div>
+  </div>
+
+  <div class="list-shell">
+    <div class="list-head">
+      <img src="assets/img/mascot/mascot-pocita.png" alt="Para" class="mascot-img" />
+      <span class="eyebrow" style="justify-content:center; display:flex;">Evidence příjmů a výdajů</span>
+      <h1 style="margin: 10px 0 4px;">Vaše čísla na jednom místě</h1>
+      <p>Průběžná daňová evidence — zapsané řádky pak Para umí použít v kalkulačkách, přiznáních a hlídání obratu DPH, ať je nemusíte pokaždé zadávat ručně.</p>
+    </div>
+
+    <div style="display:flex; justify-content:flex-end; margin-bottom: 14px;">
+      <select class="text-input" id="year-filter" style="max-width: 160px;"></select>
+    </div>
+
+    <div class="card list-summary" id="summary-card">
+      <div class="list-summary-row pos"><span>Příjmy</span><strong id="sum-income">0 Kč</strong></div>
+      <div class="list-summary-row neg"><span>Výdaje</span><strong id="sum-expense">0 Kč</strong></div>
+      <div class="list-summary-row total"><span>Rozdíl</span><strong id="sum-diff">0 Kč</strong></div>
+    </div>
+
+    <div class="card list-form-card">
+      <h3 style="margin-bottom: 16px;">Přidat záznam</h3>
+      <form id="entry-form">
+        <div class="wiz-yesno" style="margin-bottom: 18px;">
+          <label class="calc-radio-chip"><input type="radio" name="f-type" value="prijem" checked /> Příjem</label>
+          <label class="calc-radio-chip"><input type="radio" name="f-type" value="vydaj" /> Výdaj</label>
+        </div>
+        <div class="wiz-row3-even">
+          <div class="wiz-field"><label>Datum</label><input type="date" class="text-input" id="f-date" required /></div>
+          <div class="wiz-field"><label>Částka (Kč)</label><input type="number" class="text-input" id="f-amount" min="0" step="1" required /></div>
+          <div class="wiz-field">
+            <label>Kategorie</label>
+            <select class="text-input" id="f-category">
+              <option>Tržby/služby</option>
+              <option>Materiál a zboží</option>
+              <option>Služby</option>
+              <option>Mzdy a odměny</option>
+              <option>Nájem</option>
+              <option>Doprava a PHM</option>
+              <option>Vybavení a kancelář</option>
+              <option>Pojištění</option>
+              <option>Bankovní poplatky</option>
+              <option>Jiné</option>
+            </select>
+          </div>
+        </div>
+        <div class="wiz-field"><label>Popis (nepovinné)</label><input type="text" class="text-input" id="f-description" placeholder="např. faktura č. 2026015" /></div>
+        <button type="submit" class="btn btn-primary" id="entry-submit">+ Přidat záznam</button>
+      </form>
+    </div>
+
+    <div class="list-table-wrap">
+      <div id="entries-empty" class="list-empty hidden">Zatím žádné záznamy pro vybraný rok.</div>
+      <table class="list-table hidden" id="entries-table">
+        <thead>
+          <tr><th>Datum</th><th>Kategorie</th><th>Popis</th><th>Částka</th><th></th></tr>
+        </thead>
+        <tbody id="entries-tbody"></tbody>
+      </table>
+    </div>
+
+    <div class="card hidden" style="padding: 26px; margin-top: 22px;" id="yoy-card">
+      <h3 style="margin-bottom: 14px;">Meziroční srovnání</h3>
+      <div class="list-table-wrap">
+        <table class="list-table">
+          <thead><tr><th>Rok</th><th>Příjmy</th><th>Výdaje</th><th>Rozdíl</th></tr></thead>
+          <tbody id="yoy-tbody"></tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="disclaimer-banner" style="margin-top: 24px;">
+      <div class="icon-circle">
+        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 9v4M12 17h.01" /><path d="M10.3 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.7 3.86a2 2 0 00-3.4 0z" /></svg>
+      </div>
+      <div>
+        <h3>Pomocná evidence, ne účetnictví</h3>
+        <p>Zjednodušený přehled příjmů a výdajů pro orientaci a podklady — nenahrazuje daňovou evidenci vedenou podle § 7b zákona o daních z příjmů, ani podvojné účetnictví. U důležitých rozhodnutí se poraďte s účetním.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  window.PARA_CONFIG = {
+    supabaseUrl: "https://fibytymnzgluyxxszria.supabase.co",
+    supabaseAnonKey: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImZpYnl0eW1uemdsdXl4eHN6cmlhIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODU0MzM4ODgsImV4cCI6MjEwMTAwOTg4OH0.hFEzCTPZEGpQaQguytnu8Hyz6z9j6P5M1E17l2WfGdE",
+  };
+</script>
+<script type="module" src="assets/js/evidence-page.js"></script>
+
+</body>
+</html>

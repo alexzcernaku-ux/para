@@ -130,3 +130,151 @@ export async function listQueryHistory(userId, limit = 50) {
   if (error) throw error;
   return data;
 }
+
+// --- Evidence příjmů a výdajů (16_schema_ledger.sql) -----------------------
+
+export async function listLedgerEntries(userId, { from, to } = {}) {
+  let query = supabase.from("ledger_entries").select("*").eq("user_id", userId).order("entry_date", { ascending: false });
+  if (from) query = query.gte("entry_date", from);
+  if (to) query = query.lte("entry_date", to);
+  const { data, error } = await query;
+  if (error) throw error;
+  return data;
+}
+
+export async function insertLedgerEntry(userId, { entryDate, type, amount, category, description, invoiceId }) {
+  const { data, error } = await supabase
+    .from("ledger_entries")
+    .insert({ user_id: userId, entry_date: entryDate, type, amount, category: category || null, description: description || null, invoice_id: invoiceId || null })
+    .select()
+    .single();
+  if (error) throw error;
+  return data;
+}
+
+export async function updateLedgerEntry(id, { entryDate, type, amount, category, description }) {
+  const { error } = await supabase
+    .from("ledger_entries")
+    .update({ entry_date: entryDate, type, amount, category: category || null, description: description || null })
+    .eq("id", id);
+  if (error) throw error;
+}
+
+export async function deleteLedgerEntry(id) {
+  const { error } = await supabase.from("ledger_entries").delete().eq("id", id);
+  if (error) throw error;
+}
+
+// Hromadné vložení (Import bankovního výpisu) — jeden insert místo řádku po řádku.
+export async function insertLedgerEntriesBulk(userId, entries) {
+  const rows = entries.map((e) => ({
+    user_id: userId,
+    entry_date: e.entryDate,
+    type: e.type,
+    amount: e.amount,
+    category: e.category || null,
+    description: e.description || null,
+  }));
+  const { data, error } = await supabase.from("ledger_entries").insert(rows).select();
+  if (error) throw error;
+  return data;
+}
+
+// --- Sledování faktur (16_schema_ledger.sql) --------------------------------
+
+export async function listInvoices(userId) {
+  const { data, error } = await supabase
+    .from("invoices")
+    .select("*")
+    .eq("user_id", userId)
+    .order("issue_date", { ascending: false });
+  if (error) throw error;
+  return data;
+}
+
+export async function insertInvoice(userId, invoice) {
+  const { data, error } = await supabase
+    .from("invoices")
+    .insert({
+      user_id: userId,
+      direction: invoice.direction,
+      number: invoice.number || null,
+      counterparty_name: invoice.counterpartyName || null,
+      counterparty_ico: invoice.counterpartyIco || null,
+      issue_date: invoice.issueDate,
+      due_date: invoice.dueDate || null,
+      amount: invoice.amount,
+      vat_amount: invoice.vatAmount || 0,
+      note: invoice.note || null,
+    })
+    .select()
+    .single();
+  if (error) throw error;
+  return data;
+}
+
+export async function updateInvoice(id, invoice) {
+  const { error } = await supabase
+    .from("invoices")
+    .update({
+      direction: invoice.direction,
+      number: invoice.number || null,
+      counterparty_name: invoice.counterpartyName || null,
+      counterparty_ico: invoice.counterpartyIco || null,
+      issue_date: invoice.issueDate,
+      due_date: invoice.dueDate || null,
+      amount: invoice.amount,
+      vat_amount: invoice.vatAmount || 0,
+      note: invoice.note || null,
+    })
+    .eq("id", id);
+  if (error) throw error;
+}
+
+export async function setInvoicePaid(id, paid) {
+  const { error } = await supabase
+    .from("invoices")
+    .update({ paid, paid_date: paid ? new Date().toISOString().slice(0, 10) : null })
+    .eq("id", id);
+  if (error) throw error;
+}
+
+export async function deleteInvoice(id) {
+  const { error } = await supabase.from("invoices").delete().eq("id", id);
+  if (error) throw error;
+}
+
+// --- Kniha jízd (16_schema_ledger.sql) --------------------------------------
+
+export async function listVehicleTrips(userId, { from, to } = {}) {
+  let query = supabase.from("vehicle_trips").select("*").eq("user_id", userId).order("trip_date", { ascending: false });
+  if (from) query = query.gte("trip_date", from);
+  if (to) query = query.lte("trip_date", to);
+  const { data, error } = await query;
+  if (error) throw error;
+  return data;
+}
+
+export async function insertVehicleTrip(userId, trip) {
+  const { data, error } = await supabase
+    .from("vehicle_trips")
+    .insert({
+      user_id: userId,
+      trip_date: trip.tripDate,
+      purpose: trip.purpose,
+      route: trip.route || null,
+      distance_km: trip.distanceKm,
+      consumption_l_100km: trip.consumptionL100km || null,
+      fuel_type: trip.fuelType || null,
+      fuel_price_override: trip.fuelPriceOverride || null,
+    })
+    .select()
+    .single();
+  if (error) throw error;
+  return data;
+}
+
+export async function deleteVehicleTrip(id) {
+  const { error } = await supabase.from("vehicle_trips").delete().eq("id", id);
+  if (error) throw error;
+}

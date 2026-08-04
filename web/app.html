@@ -63,11 +63,29 @@
               <a href="kontrola-kh.html"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 11l3 3L22 4" /><path d="M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11" /></svg>Kontrola KH</a>
             </div>
             <div class="app-tools-group">
+              <div class="app-tools-group-label">Evidence</div>
+              <a href="evidence.html"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19V9M12 19V5M20 19v-7" /><path d="M4 19h16" /></svg>Příjmy a výdaje</a>
+              <a href="faktury.html"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 12h6M9 16h6M9 8h1" /><path d="M14 3H7a2 2 0 00-2 2v14a2 2 0 002 2h10a2 2 0 002-2V8z" /><path d="M14 3v5h5" /></svg>Sledování faktur</a>
+              <a href="kniha-jizd.html"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 17h14M5 17a2 2 0 01-2-2v-1a2 2 0 012-2l1.5-4.5A2 2 0 018.4 6h7.2a2 2 0 011.9 1.5L19 12a2 2 0 012 2v1a2 2 0 01-2 2M5 17a2 2 0 002 2h0a2 2 0 002-2M15 17a2 2 0 002 2h0a2 2 0 002-2" /></svg>Kniha jízd</a>
+              <a href="import-vypisu.html"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 16V4M12 4L7 9M12 4l5 5" /><path d="M5 16v2a2 2 0 002 2h10a2 2 0 002-2v-2" /></svg>Import výpisu</a>
+            </div>
+            <div class="app-tools-group">
               <div class="app-tools-group-label">Ostatní</div>
               <a href="kontrola-dokladu.html"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 11l3 3L22 4" /><path d="M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11" /></svg>Kontrola dokladu</a>
               <a href="generator-dokumentu.html"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 12h6M9 16h6M9 8h1" /><path d="M14 3H7a2 2 0 00-2 2v14a2 2 0 002 2h10a2 2 0 002-2V8z" /><path d="M14 3v5h5" /></svg>Generátor dokumentů</a>
               <a href="prehled-osvc.html"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21l7.78-7.55 1.06-1.06a5.5 5.5 0 000-7.78z" /></svg>Přehled OSVČ</a>
+              <a href="export-balicku.html"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4" /><path d="M7 10l5 5 5-5M12 15V3" /></svg>Export pro účetního</a>
             </div>
+          </div>
+        </div>
+
+        <div class="app-notif-menu">
+          <button type="button" class="btn btn-secondary app-topbar-btn app-notif-btn" id="notif-btn" aria-haspopup="true" aria-expanded="false" aria-label="Upozornění">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 8a6 6 0 00-12 0c0 7-3 9-3 9h18s-3-2-3-9" /><path d="M13.73 21a2 2 0 01-3.46 0" /></svg>
+            <span class="app-notif-badge hidden" id="notif-badge">0</span>
+          </button>
+          <div class="app-tools-panel app-notif-panel hidden" id="notif-panel">
+            <div id="notif-list" class="app-notif-list"></div>
           </div>
         </div>
 
@@ -109,8 +127,11 @@
     signOut,
     insertQueryHistory,
     listQueryHistory,
+    listLedgerEntries,
+    listInvoices,
   } from "./assets/js/supabase-client.js";
   import { computeDeadlines, urgencyLevel } from "./assets/js/deadlines.js";
+  import { computeObratStatus } from "./assets/js/obrat-dph.js";
 
   const LEGAL_FORM_LABELS = {
     osvc_pausal: "OSVČ · paušální výdaje",
@@ -160,6 +181,7 @@
   toolsMenuBtn.addEventListener("click", (e) => {
     e.stopPropagation();
     const isOpen = !toolsMenuPanel.classList.contains("hidden");
+    closeNotifMenu();
     if (isOpen) {
       closeToolsMenu();
     } else {
@@ -167,16 +189,42 @@
       toolsMenuBtn.setAttribute("aria-expanded", "true");
     }
   });
+  const notifBtn = document.getElementById("notif-btn");
+  const notifPanel = document.getElementById("notif-panel");
+  const notifBadge = document.getElementById("notif-badge");
+  const notifList = document.getElementById("notif-list");
+
+  function closeNotifMenu() {
+    notifPanel.classList.add("hidden");
+    notifBtn.setAttribute("aria-expanded", "false");
+  }
+  notifBtn.addEventListener("click", (e) => {
+    e.stopPropagation();
+    const isOpen = !notifPanel.classList.contains("hidden");
+    closeToolsMenu();
+    if (isOpen) {
+      closeNotifMenu();
+    } else {
+      notifPanel.classList.remove("hidden");
+      notifBtn.setAttribute("aria-expanded", "true");
+    }
+  });
+
   document.addEventListener("click", (e) => {
     if (!toolsMenuPanel.contains(e.target)) closeToolsMenu();
+    if (!notifPanel.contains(e.target)) closeNotifMenu();
   });
   document.addEventListener("keydown", (e) => {
-    if (e.key === "Escape") closeToolsMenu();
+    if (e.key === "Escape") {
+      closeToolsMenu();
+      closeNotifMenu();
+    }
   });
 
   let session = null;
   let profile = null;
   let chatHistory = []; // {role, content} pro kontext posledních zpráv, ne DB historie
+  let lastObratStatus = null;
 
   function escapeHtml(s) {
     return s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
@@ -193,15 +241,17 @@
   const MESICE_ZKRATKA = ["led", "úno", "bře", "dub", "kvě", "čvn", "čvc", "srp", "zář", "říj", "lis", "pro"];
 
   const HOME_TOOLS = [
+    { href: "evidence.html", label: "Příjmy a výdaje", icon: '<path d="M4 19V9M12 19V5M20 19v-7" /><path d="M4 19h16" />' },
     { href: "kontrola-dokladu.html", label: "Kontrola dokladu", icon: '<path d="M9 11l3 3L22 4" /><path d="M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11" />' },
     { href: "generator-dokumentu.html", label: "Generátor dokumentů", icon: '<path d="M9 12h6M9 16h6M9 8h1" /><path d="M14 3H7a2 2 0 00-2 2v14a2 2 0 002 2h10a2 2 0 002-2V8z" /><path d="M14 3v5h5" />' },
+    { href: "faktury.html", label: "Sledování faktur", icon: '<path d="M9 12h6M9 16h6M9 8h1" /><path d="M14 3H7a2 2 0 00-2 2v14a2 2 0 002 2h10a2 2 0 002-2V8z" /><path d="M14 3v5h5" />' },
     { href: "dap-generator.html", label: "Vyplnit přiznání", icon: '<path d="M12 20h9M16.5 3.5a2.12 2.12 0 013 3L7 19l-4 1 1-4L16.5 3.5z" />', hideForSro: true },
     { href: "dph-generator.html", label: "Vyplnit DPH", icon: '<path d="M12 20h9M16.5 3.5a2.12 2.12 0 013 3L7 19l-4 1 1-4L16.5 3.5z" />', vatOnly: true },
     { href: "prehled-osvc.html", label: "Přehled OSVČ", icon: '<path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21l7.78-7.55 1.06-1.06a5.5 5.5 0 000-7.78z" />', hideForSro: true },
     { href: "kalkulacky.html", label: "Kalkulačky", icon: '<rect x="5" y="3" width="14" height="18" rx="2" /><path d="M8 7h8M8 11h1M12 11h1M16 11h1M8 15h1M12 15h1M16 15h1" />' },
   ];
 
-  function renderHomeDashboard() {
+  function renderHomeDashboard(obratStatus) {
     const empty = document.getElementById("empty-state");
     if (!empty || !profile) return;
     empty.classList.add("app-home");
@@ -237,6 +287,20 @@
       console.error("Nepodařilo se spočítat nejbližší termín:", err.message);
     }
 
+    let obratHtml = "";
+    if (obratStatus && !profile.vat_payer && (obratStatus.blizkoLimitu || obratStatus.prekrocen)) {
+      obratHtml = `
+        <div class="disclaimer-banner" style="margin-bottom: 24px; ${obratStatus.prekrocen ? "background: var(--danger-soft); border-color: #fecaca;" : ""}">
+          <div class="icon-circle" style="${obratStatus.prekrocen ? "background:#fee2e2;color:#b91c1c;" : ""}">
+            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 9v4M12 17h.01" /><path d="M10.3 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.7 3.86a2 2 0 00-3.4 0z" /></svg>
+          </div>
+          <div>
+            <h3>${obratStatus.prekrocen ? "Obrat překročil limit pro DPH" : `Blížíte se k limitu pro DPH (${obratStatus.percent} %)`}</h3>
+            <p>Za posledních 12 měsíců obrat ${obratStatus.obrat12m.toLocaleString("cs-CZ")} Kč z ${obratStatus.limit.toLocaleString("cs-CZ")} Kč (§ 6 zákona o DPH). ${obratStatus.prekrocen ? "Registrace k DPH je nejspíš na místě — poraďte se s účetním." : "Počítáno z Evidence příjmů a výdajů."}</p>
+          </div>
+        </div>`;
+    }
+
     const isSro = profile.legal_form === "sro";
     const tiles = HOME_TOOLS.filter((t) => !(t.hideForSro && isSro) && !(t.vatOnly && !profile.vat_payer));
     const tilesHtml = tiles
@@ -258,6 +322,7 @@
         </div>
       </div>
       ${deadlineHtml}
+      ${obratHtml}
       <div class="app-home-section-label">Rychlý přístup</div>
       <div class="app-home-tools-grid">${tilesHtml}</div>
     `;
@@ -540,26 +605,95 @@
 
   newQuestionBtn.addEventListener("click", () => {
     chatHistory = [];
-    thread.innerHTML = `
-      <div class="app-empty" id="empty-state">
-        <img src="assets/img/mascot/mascot-vita.png" alt="Para" />
-        <h3>Na co se chcete zeptat?</h3>
-        <p>Odpovím na základě nahraných zákonů a přizpůsobím to vašemu profilu — vždy s odkazem na konkrétní paragraf.</p>
-      </div>`;
+    thread.innerHTML = `<div class="app-empty" id="empty-state"></div>`;
+    renderHomeDashboard(lastObratStatus);
     input.focus();
   });
 
   signoutBtn.addEventListener("click", () => signOut());
+
+  // Upozornění v topbaru — poskládaná ze tří nezávislých zdrojů (termíny,
+  // hlídání obratu DPH, faktury po splatnosti). Selže-li kterýkoli z nich
+  // (např. tabulky z 16_schema_ledger.sql ještě nejsou založené), zbytek
+  // aplikace musí fungovat dál — proto samostatné try/catch kolem každého.
+  function buildNotifications(deadlineItems, obratStatus, overdueInvoices) {
+    const items = [];
+    for (const d of deadlineItems.filter((d) => d.zbyvaDni <= 7)) {
+      items.push({
+        level: d.zbyvaDni <= 3 ? "urgent" : "soon",
+        title: d.title,
+        sub: d.zbyvaDni <= 0 ? "Dnes" : d.zbyvaDni === 1 ? "Zítra" : `Za ${d.zbyvaDni} dní`,
+        href: "terminy.html",
+      });
+    }
+    if (obratStatus?.prekrocen) {
+      items.push({ level: "urgent", title: "Obrat překročil limit pro DPH", sub: `${obratStatus.obrat12m.toLocaleString("cs-CZ")} Kč za 12 měsíců`, href: "app.html" });
+    } else if (obratStatus?.blizkoLimitu) {
+      items.push({ level: "soon", title: "Blížíte se k limitu pro DPH", sub: `${obratStatus.percent} % z 2 000 000 Kč`, href: "app.html" });
+    }
+    for (const inv of overdueInvoices.slice(0, 5)) {
+      items.push({
+        level: "urgent",
+        title: `Po splatnosti: ${inv.counterparty_name || inv.number || "faktura"}`,
+        sub: `${Number(inv.amount).toLocaleString("cs-CZ")} Kč, splatnost ${new Date(inv.due_date).toLocaleDateString("cs-CZ")}`,
+        href: "faktury.html",
+      });
+    }
+    return items;
+  }
+
+  function renderNotifications(items) {
+    if (!items.length) {
+      notifBadge.classList.add("hidden");
+      notifList.innerHTML = `<div class="app-notif-empty">Žádná nová upozornění.</div>`;
+      return;
+    }
+    notifBadge.classList.remove("hidden");
+    notifBadge.textContent = items.length > 9 ? "9+" : String(items.length);
+    notifList.innerHTML = items
+      .map(
+        (n) => `
+        <a href="${n.href}" class="app-notif-item ${n.level}">
+          <span class="dot"></span>
+          <div>
+            <div class="app-notif-item-title">${n.title}</div>
+            <div class="app-notif-item-sub">${n.sub}</div>
+          </div>
+        </a>`
+      )
+      .join("");
+  }
 
   (async () => {
     const result = await requireOnboardedProfile();
     if (!result) return; // guard už přesměrovává
     session = result.session;
     profile = result.profile;
+    const userId = session.user.id;
 
     userEmailEl.textContent = session.user.email;
     renderProfileChip();
-    renderHomeDashboard();
+
+    let obratStatus = null;
+    let overdueInvoices = [];
+    try {
+      const ledgerEntries = await listLedgerEntries(userId);
+      obratStatus = computeObratStatus(ledgerEntries);
+    } catch (err) {
+      console.error("Nepodařilo se spočítat obrat pro DPH:", err.message);
+    }
+    try {
+      const invoices = await listInvoices(userId);
+      const today = new Date().toISOString().slice(0, 10);
+      overdueInvoices = invoices.filter((i) => !i.paid && i.due_date && i.due_date < today);
+    } catch (err) {
+      console.error("Nepodařilo se načíst faktury:", err.message);
+    }
+    lastObratStatus = obratStatus;
+
+    renderHomeDashboard(obratStatus);
+    renderNotifications(buildNotifications(computeDeadlines(profile), obratStatus, overdueInvoices));
+
     await loadHistory();
 
     loadingEl.classList.add("hidden");

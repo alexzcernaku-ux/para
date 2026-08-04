@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Sledování faktur — Para</title>
+<link rel="icon" href="/favicon.ico" sizes="any" />
+<link rel="icon" href="assets/img/logo/logo-mark.png" type="image/png" />
+<link rel="apple-touch-icon" href="assets/img/logo/logo-mark.png" />
+<link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+
+<div class="app-loading" id="page-loading">
+  <img src="assets/img/mascot/mascot-pocita.png" alt="" />
+  Chvilku strpení…
+</div>
+
+<div class="hidden" id="page-shell">
+  <div class="app-topbar" style="padding: 16px 28px;">
+    <a href="app.html" style="display:flex; align-items:center; gap:10px; text-decoration:none;">
+      <img src="assets/img/logo/logo-primary-light.png" alt="Para" style="height:29px" />
+    </a>
+    <div style="display:flex; align-items:center; gap:16px;">
+      <a href="app.html" class="btn btn-secondary">← Zpět do chatu</a>
+      <button type="button" class="app-signout-btn" id="signout-btn">Odhlásit se</button>
+    </div>
+  </div>
+
+  <div class="list-shell">
+    <div class="list-head">
+      <img src="assets/img/mascot/mascot-pocita.png" alt="Para" class="mascot-img" />
+      <span class="eyebrow" style="justify-content:center; display:flex;">Sledování faktur</span>
+      <h1 style="margin: 10px 0 4px;">Kdo vám dluží a komu dlužíte vy</h1>
+      <p>Vystavené i přijaté faktury na jednom místě, se stavem úhrady a upozorněním na splatnost.</p>
+    </div>
+
+    <div class="doctype-tabs" id="direction-tabs">
+      <button type="button" class="doctype-tab active" data-dir="vystavena">Vystavené</button>
+      <button type="button" class="doctype-tab" data-dir="prijata">Přijaté</button>
+    </div>
+
+    <div class="card list-summary" id="summary-card">
+      <div class="list-summary-row"><span>Celkem</span><strong id="sum-total">0 Kč</strong></div>
+      <div class="list-summary-row pos"><span>Uhrazeno</span><strong id="sum-paid">0 Kč</strong></div>
+      <div class="list-summary-row neg"><span>Neuhrazeno</span><strong id="sum-unpaid">0 Kč</strong></div>
+      <div class="list-summary-row neg"><span>Po splatnosti</span><strong id="sum-overdue">0 Kč</strong></div>
+    </div>
+
+    <div class="card list-form-card">
+      <h3 style="margin-bottom: 16px;" id="form-title">Přidat vystavenou fakturu</h3>
+      <form id="invoice-form">
+        <div class="wiz-row2">
+          <div class="wiz-field"><label>Číslo faktury</label><input type="text" class="text-input" id="f-number" placeholder="např. 2026015" /></div>
+          <div class="wiz-field"><label id="f-counterparty-label">Odběratel</label><input type="text" class="text-input" id="f-counterparty" required /></div>
+        </div>
+        <div class="wiz-row3-even">
+          <div class="wiz-field"><label>Datum vystavení</label><input type="date" class="text-input" id="f-issue" required /></div>
+          <div class="wiz-field"><label>Datum splatnosti</label><input type="date" class="text-input" id="f-due" /></div>
+          <div class="wiz-field"><label>Částka celkem (Kč)</label><input type="number" class="text-input" id="f-amount" min="0" step="1" required /></div>
+        </div>
+        <div class="wiz-field" style="max-width: 240px;"><label>Z toho DPH (Kč, nepovinné)</label><input type="number" class="text-input" id="f-vat" min="0" step="1" /></div>
+        <button type="submit" class="btn btn-primary" id="invoice-submit">+ Přidat fakturu</button>
+      </form>
+    </div>
+
+    <div class="list-table-wrap">
+      <div id="invoices-empty" class="list-empty hidden">Zatím žádné faktury v této kategorii.</div>
+      <table class="list-table hidden" id="invoices-table">
+        <thead>
+          <tr><th>Číslo</th><th id="th-counterparty">Odběratel</th><th>Vystaveno</th><th>Splatnost</th><th>Částka</th><th>Stav</th><th></th></tr>
+        </thead>
+        <tbody id="invoices-tbody"></tbody>
+      </table>
+    </div>
+
+    <div class="disclaimer-banner" style="margin-top: 24px;">
+      <div class="icon-circle">
+        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 9v4M12 17h.01" /><path d="M10.3 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.7 3.86a2 2 0 00-3.4 0z" /></svg>
+      </div>
+      <div>
+        <h3>Evidence, ne účetní doklad</h3>
+        <p>Slouží k přehledu o platbách, nenahrazuje daňovou evidenci ani účetnictví. Faktury samotné vystavíte v Generátoru dokumentů — sem si jen zapište, co už bylo vystaveno/přijato a jestli je to uhrazené.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  window.PARA_CONFIG = {
+    supabaseUrl: "https://fibytymnzgluyxxszria.supabase.co",
+    supabaseAnonKey: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImZpYnl0eW1uemdsdXl4eHN6cmlhIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODU0MzM4ODgsImV4cCI6MjEwMTAwOTg4OH0.hFEzCTPZEGpQaQguytnu8Hyz6z9j6P5M1E17l2WfGdE",
+  };
+</script>
+<script type="module" src="assets/js/faktury-page.js"></script>
+
+</body>
+</html>
