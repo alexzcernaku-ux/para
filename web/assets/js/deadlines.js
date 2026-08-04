@@ -52,7 +52,7 @@ function daysUntil(date, from) {
  *   (OSVČ plátce DPH má 3 měsíční povinnosti najednou)
  */
 export function computeDeadlines(profile, now = new Date(), opts = {}) {
-  const { horizonDays = 400, maxItems = 12 } = opts;
+  const { horizonDays = 400, maxItems = 20 } = opts;
   const items = [];
   const isSro = profile?.legal_form === "sro";
   const isVatPayer = !!profile?.vat_payer;
@@ -139,10 +139,26 @@ export function computeDeadlines(profile, now = new Date(), opts = {}) {
     }
   }
 
+  // Prostý "nejbližších N" napříč kategoriemi by u OSVČ plátce DPH (3
+  // měsíční povinnosti = zálohy + DPH) vytlačil roční termíny (přiznání,
+  // přehledy ČSSZ/zdravotní) úplně mimo okno — ty jsou přitom důležitější
+  // (vyšší sankce) než mírně opožděná měsíční záloha. Proto se nejdřív
+  // omezí, kolik nejbližších výskytů STEJNÉHO titulu smí projít (u ročních
+  // titulů to nikdy nesklouzne, těch je v horizontu jen pár), a teprve pak
+  // se aplikuje celkový strop.
+  const perTitleLimit = 4;
+  const seenPerTitle = new Map();
+
   return items
     .map((item) => ({ ...item, zbyvaDni: daysUntil(item.date, now) }))
     .filter((item) => item.zbyvaDni >= -1 && item.zbyvaDni <= horizonDays)
     .sort((a, b) => a.date - b.date)
+    .filter((item) => {
+      const count = seenPerTitle.get(item.title) || 0;
+      if (count >= perTitleLimit) return false;
+      seenPerTitle.set(item.title, count + 1);
+      return true;
+    })
     .slice(0, maxItems);
 }
 

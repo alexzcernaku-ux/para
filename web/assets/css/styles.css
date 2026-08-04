@@ -1131,8 +1131,68 @@ textarea.text-input { resize: vertical; min-height: 70px; font-family: var(--fon
   gap: 12px;
   flex-wrap: wrap;
 }
-.app-topbar h1 { font-size: 18px; font-weight: 700; }
-.app-profile-chip { display: flex; gap: 8px; }
+.app-topbar h1 { font-size: 18px; font-weight: 700; flex-shrink: 0; }
+.app-topbar-actions { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; margin-left: auto; }
+.app-topbar-btn { padding: 8px 14px; font-size: 13.5px; display: inline-flex; align-items: center; gap: 6px; white-space: nowrap; }
+
+.app-tools-menu { position: relative; }
+.app-tools-caret { transition: transform 0.15s ease; }
+.app-tools-menu[data-open] .app-tools-caret,
+#tools-menu-btn[aria-expanded="true"] .app-tools-caret { transform: rotate(180deg); }
+.app-tools-panel {
+  position: absolute;
+  top: calc(100% + 8px);
+  right: 0;
+  z-index: 50;
+  background: var(--white);
+  border: 1px solid #e2e8f0;
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-float);
+  padding: 10px;
+  width: 460px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 4px;
+}
+.app-tools-group { display: flex; flex-direction: column; gap: 2px; }
+.app-tools-group-label {
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: #94a3b8;
+  padding: 8px 10px 4px;
+}
+.app-tools-group a {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 10px;
+  border-radius: var(--radius-sm);
+  font-size: 13.5px;
+  color: var(--navy);
+  text-decoration: none;
+}
+.app-tools-group a svg { width: 16px; height: 16px; flex-shrink: 0; color: var(--indigo); }
+.app-tools-group a:hover { background: var(--mist); }
+
+.app-profile-chip { display: flex; align-items: center; gap: 10px; padding-left: 10px; margin-left: 2px; border-left: 1px solid #e2e8f0; }
+.app-profile-avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: var(--gradient-brand);
+  color: var(--white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12.5px;
+  font-weight: 700;
+  flex-shrink: 0;
+}
+.app-profile-text { line-height: 1.35; min-width: 0; }
+.app-profile-name { font-size: 13px; font-weight: 700; color: var(--navy); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 160px; }
+.app-profile-sub { font-size: 11.5px; color: var(--slate); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 160px; }
 
 .app-thread-wrap {
   flex: 1;
@@ -1150,13 +1210,104 @@ textarea.text-input { resize: vertical; min-height: 70px; font-family: var(--fon
 }
 .app-empty img { width: 90px; margin: 0 auto 16px; }
 .app-empty h3 { margin-bottom: 8px; }
+
+/* --- Domovský dashboard (nahrazuje prázdný stav, když ještě nic nebylo
+   odesláno) — pozdrav, nejbližší termín, rychlý přístup k nástrojům. --- */
+.app-empty.app-home { margin: auto; text-align: left; max-width: 720px; width: 100%; color: inherit; }
+.app-home-greeting { display: flex; align-items: center; gap: 14px; margin-bottom: 22px; }
+.app-home-greeting img { width: 52px; margin: 0; flex-shrink: 0; }
+.app-home-greeting h3 { margin-bottom: 2px; }
+.app-home-greeting p { font-size: 13.5px; color: var(--slate); }
+
+.app-home-deadline { text-decoration: none; display: block; margin-bottom: 24px; }
+.app-home-deadline .timeline-item { margin-bottom: 0; transition: border-color 0.15s ease, box-shadow 0.15s ease; }
+.app-home-deadline:hover .timeline-item { border-color: var(--indigo); box-shadow: var(--shadow-card); }
+
+.app-home-section-label {
+  font-size: 11.5px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #94a3b8;
+  margin-bottom: 10px;
+}
+.app-home-tools-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin-bottom: 8px; }
+.app-home-tool-tile {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 13px 14px;
+  border-radius: var(--radius-md);
+  border: 1px solid #e2e8f0;
+  background: var(--white);
+  text-decoration: none;
+  color: var(--navy);
+  font-size: 13.5px;
+  font-weight: 600;
+  transition: border-color 0.15s ease, transform 0.15s ease, box-shadow 0.15s ease;
+}
+.app-home-tool-tile:hover { border-color: var(--indigo); transform: translateY(-2px); box-shadow: var(--shadow-card); }
+.app-home-tool-tile .icon-circle { width: 32px; height: 32px; flex-shrink: 0; }
+.app-home-tool-tile .icon-circle svg { width: 16px; height: 16px; }
+
+@media (max-width: 640px) {
+  .app-home-tools-grid { grid-template-columns: 1fr 1fr; }
+}
 .app-composer-wrap { border-top: 1px solid #e2e8f0; padding: 16px 28px 22px; background: var(--white); }
 .app-composer-wrap .demo-composer { border-top: none; padding: 0; }
 .app-composer-hint { font-size: 12px; color: #94a3b8; text-align: center; margin-top: 10px; }
 
+.app-sidebar-toggle { display: none; }
+.app-sidebar-backdrop { display: none; }
+
 @media (max-width: 860px) {
-  .app-shell { flex-direction: column; }
-  .app-sidebar { width: 100%; max-height: 220px; border-right: none; border-bottom: 1px solid #e2e8f0; }
+  /* Sidebar se na mobilu chová jako výsuvný panel přes celou výšku (stejný
+     princip jako .mobile-menu na landing page), ne narvaný nad obsah — ten
+     předchozí "jen to naskládej nad sebe" layout byl na telefonu nepoužitelný
+     (historie a odhlášení nad topbarem, nástroje v horizontálním scrollu). */
+  .app-shell { position: relative; overflow: hidden; }
+  .app-sidebar {
+    position: fixed;
+    inset: 0 25% 0 0;
+    z-index: 90;
+    transform: translateX(-100%);
+    transition: transform 0.25s ease;
+    max-height: none;
+    border-right: 1px solid #e2e8f0;
+  }
+  .app-sidebar.open { transform: translateX(0); }
+  .app-sidebar-backdrop {
+    display: block;
+    position: fixed;
+    inset: 0;
+    background: rgba(15, 23, 42, 0.4);
+    z-index: 80;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.25s ease;
+  }
+  .app-sidebar-backdrop.open { opacity: 1; pointer-events: auto; }
+  .app-sidebar-toggle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    border-radius: var(--radius-sm);
+    border: 1px solid #e2e8f0;
+    background: var(--white);
+    cursor: pointer;
+    flex-shrink: 0;
+  }
+  .app-topbar h1 { display: none; }
+  .app-topbar-actions { margin-left: 0; flex: 1; justify-content: flex-end; }
+  .app-tools-panel { width: calc(100vw - 32px); grid-template-columns: 1fr 1fr; right: -8px; }
+  .app-profile-name, .app-profile-sub { max-width: 90px; }
+}
+
+@media (max-width: 520px) {
+  .app-tools-panel { grid-template-columns: 1fr; }
+  .app-profile-text { display: none; }
 }
 
 /* =========================================================================
