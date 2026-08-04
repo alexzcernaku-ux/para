@@ -51,9 +51,14 @@
       <h3 style="margin-bottom: 16px;" id="form-title">Přidat vystavenou fakturu</h3>
       <form id="invoice-form">
         <div class="wiz-row2">
-          <div class="wiz-field"><label>Číslo faktury</label><input type="text" class="text-input" id="f-number" placeholder="např. 2026015" /></div>
-          <div class="wiz-field"><label id="f-counterparty-label">Odběratel</label><input type="text" class="text-input" id="f-counterparty" required /></div>
+          <div class="wiz-field">
+            <label id="f-counterparty-label">Odběratel</label>
+            <input type="text" class="text-input" id="f-counterparty" list="clients-datalist" required autocomplete="off" />
+            <datalist id="clients-datalist"></datalist>
+          </div>
+          <div class="wiz-field"><label>IČO (nepovinné)</label><input type="text" class="text-input" id="f-counterparty-ico" inputmode="numeric" maxlength="8" /></div>
         </div>
+        <div class="wiz-field"><label>Číslo faktury</label><input type="text" class="text-input" id="f-number" placeholder="např. 2026015" style="max-width: 240px;" /></div>
         <div class="wiz-row3-even">
           <div class="wiz-field"><label>Datum vystavení</label><input type="date" class="text-input" id="f-issue" required /></div>
           <div class="wiz-field"><label>Datum splatnosti</label><input type="date" class="text-input" id="f-due" /></div>

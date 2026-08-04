@@ -1,4 +1,13 @@
-import { requireOnboardedProfile, signOut, listInvoices, insertInvoice, deleteInvoice, setInvoicePaid } from "./supabase-client.js";
+import {
+  requireOnboardedProfile,
+  signOut,
+  listInvoices,
+  insertInvoice,
+  deleteInvoice,
+  setInvoicePaid,
+  listClients,
+  upsertClientByName,
+} from "./supabase-client.js";
 
 const loadingEl = document.getElementById("page-loading");
 const shellEl = document.getElementById("page-shell");
@@ -12,8 +21,20 @@ const directionTabs = document.getElementById("direction-tabs");
 const formTitle = document.getElementById("form-title");
 const counterpartyLabel = document.getElementById("f-counterparty-label");
 const thCounterparty = document.getElementById("th-counterparty");
+const counterpartyInput = document.getElementById("f-counterparty");
+const counterpartyIcoInput = document.getElementById("f-counterparty-ico");
+const clientsDatalist = document.getElementById("clients-datalist");
 
 signoutBtn.addEventListener("click", () => signOut());
+
+let knownClients = [];
+
+// Vybere-li uživatel jméno, které už v klientech je (z datalistu, nebo jen
+// přesná shoda při psaní), doplní IČO samo — ať to nemusí hledat znovu.
+counterpartyInput.addEventListener("input", () => {
+  const match = knownClients.find((c) => c.name.toLowerCase() === counterpartyInput.value.trim().toLowerCase());
+  if (match && !counterpartyIcoInput.value) counterpartyIcoInput.value = match.ico || "";
+});
 
 function formatKc(n) {
   return `${Math.round(n).toLocaleString("cs-CZ")} Kč`;
@@ -135,16 +156,23 @@ function rerender() {
   renderTable(invoices);
 }
 
+function renderClientsDatalist() {
+  clientsDatalist.innerHTML = knownClients.map((c) => `<option value="${c.name}"></option>`).join("");
+}
+
 form.addEventListener("submit", async (e) => {
   e.preventDefault();
   submitBtn.disabled = true;
   const original = submitBtn.textContent;
   submitBtn.textContent = "Ukládám…";
   try {
+    const counterpartyName = counterpartyInput.value.trim();
+    const counterpartyIco = counterpartyIcoInput.value.trim();
     const invoice = await insertInvoice(userId, {
       direction,
       number: document.getElementById("f-number").value.trim(),
-      counterpartyName: document.getElementById("f-counterparty").value.trim(),
+      counterpartyName,
+      counterpartyIco,
       issueDate: document.getElementById("f-issue").value,
       dueDate: document.getElementById("f-due").value,
       amount: Number(document.getElementById("f-amount").value),
@@ -153,6 +181,18 @@ form.addEventListener("submit", async (e) => {
     allInvoices.unshift(invoice);
     rerender();
     form.reset();
+
+    // Tiše uloží/aktualizuje klienta podle jména — příště se sám nabídne v
+    // datalistu, uživatel o to nemusí nijak žádat (viz klienti.html).
+    if (counterpartyName) {
+      try {
+        await upsertClientByName(userId, { name: counterpartyName, ico: counterpartyIco });
+        knownClients = await listClients(userId);
+        renderClientsDatalist();
+      } catch (err) {
+        console.error("Nepodařilo se uložit klienta do databáze:", err.message);
+      }
+    }
   } catch (err) {
     alert(`Nepodařilo se uložit fakturu (${err.message}).`);
   } finally {
@@ -173,6 +213,13 @@ form.addEventListener("submit", async (e) => {
     allInvoices = [];
   }
   rerender();
+
+  try {
+    knownClients = await listClients(userId);
+    renderClientsDatalist();
+  } catch (err) {
+    console.error("Nepodařilo se načíst klienty:", err.message);
+  }
 
   loadingEl.classList.add("hidden");
   shellEl.classList.remove("hidden");

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Klienti — Para</title>
+<link rel="icon" href="/favicon.ico" sizes="any" />
+<link rel="icon" href="assets/img/logo/logo-mark.png" type="image/png" />
+<link rel="apple-touch-icon" href="assets/img/logo/logo-mark.png" />
+<link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+
+<div class="app-loading" id="page-loading">
+  <img src="assets/img/mascot/mascot-pocita.png" alt="" />
+  Chvilku strpení…
+</div>
+
+<div class="hidden" id="page-shell">
+  <div class="app-topbar" style="padding: 16px 28px;">
+    <a href="app.html" style="display:flex; align-items:center; gap:10px; text-decoration:none;">
+      <img src="assets/img/logo/logo-primary-light.png" alt="Para" style="height:29px" />
+    </a>
+    <div style="display:flex; align-items:center; gap:16px;">
+      <a href="app.html" class="btn btn-secondary">← Zpět do chatu</a>
+      <button type="button" class="app-signout-btn" id="signout-btn">Odhlásit se</button>
+    </div>
+  </div>
+
+  <div class="list-shell">
+    <div class="list-head">
+      <img src="assets/img/mascot/mascot-pocita.png" alt="Para" class="mascot-img" />
+      <span class="eyebrow" style="justify-content:center; display:flex;">Klienti</span>
+      <h1 style="margin: 10px 0 4px;">Vaši odběratelé na jednom místě</h1>
+      <p>Jednou zadaný klient se pak sám nabídne ve fakturách i generátoru dokumentů — nemusíte údaje psát pokaždé znovu.</p>
+    </div>
+
+    <div class="card list-form-card">
+      <h3 style="margin-bottom: 16px;" id="form-title">Přidat klienta</h3>
+      <form id="client-form">
+        <div class="wiz-row2">
+          <div class="wiz-field"><label>Název / jméno firmy</label><input type="text" class="text-input" id="c-name" required /></div>
+          <div class="wiz-field"><label>IČO (nepovinné)</label><input type="text" class="text-input" id="c-ico" inputmode="numeric" maxlength="8" /></div>
+        </div>
+        <div class="wiz-row2">
+          <div class="wiz-field"><label>DIČ (nepovinné)</label><input type="text" class="text-input" id="c-dic" /></div>
+          <div class="wiz-field"><label>Adresa (nepovinné)</label><input type="text" class="text-input" id="c-address" /></div>
+        </div>
+        <div class="wiz-row2">
+          <div class="wiz-field"><label>E-mail (nepovinné)</label><input type="email" class="text-input" id="c-email" /></div>
+          <div class="wiz-field"><label>Telefon (nepovinné)</label><input type="tel" class="text-input" id="c-phone" /></div>
+        </div>
+        <div class="wiz-field"><label>Poznámka (nepovinné)</label><input type="text" class="text-input" id="c-note" /></div>
+        <button type="submit" class="btn btn-primary" id="client-submit">+ Přidat klienta</button>
+        <button type="button" class="btn btn-secondary hidden" id="client-cancel-edit" style="margin-left: 10px;">Zrušit úpravu</button>
+      </form>
+    </div>
+
+    <div class="list-table-wrap">
+      <div id="clients-empty" class="list-empty hidden">Zatím žádní klienti — přidejte prvního výše.</div>
+      <table class="list-table hidden" id="clients-table">
+        <thead>
+          <tr><th>Název</th><th>IČO</th><th>Kontakt</th><th>Poznámka</th><th></th><th></th></tr>
+        </thead>
+        <tbody id="clients-tbody"></tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+<script>
+  window.PARA_CONFIG = {
+    supabaseUrl: "https://fibytymnzgluyxxszria.supabase.co",
+    supabaseAnonKey: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImZpYnl0eW1uemdsdXl4eHN6cmlhIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODU0MzM4ODgsImV4cCI6MjEwMTAwOTg4OH0.hFEzCTPZEGpQaQguytnu8Hyz6z9j6P5M1E17l2WfGdE",
+  };
+</script>
+<script type="module" src="assets/js/klienti-page.js"></script>
+
+</body>
+</html>

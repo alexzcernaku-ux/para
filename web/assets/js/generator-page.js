@@ -3,7 +3,43 @@
 // a odeslání dat do pdf-documents.js. Auth stejně jako terminy.html /
 // kontrola-dokladu.html (requireOnboardedProfile guard).
 
-import { requireOnboardedProfile, signOut, updateProfileBillingInfo } from "./supabase-client.js";
+import { requireOnboardedProfile, signOut, updateProfileBillingInfo, listClients, upsertClientByName } from "./supabase-client.js";
+
+let knownClients = [];
+
+function renderClientsDatalist() {
+  const el = document.getElementById("clients-datalist");
+  if (el) el.innerHTML = knownClients.map((c) => `<option value="${c.name}"></option>`).join("");
+}
+
+// Vybere-li uživatel jméno z databáze klientů (klienti.html), doplní zbytek
+// polí sama — adresu/IČO/DIČ nemusí hledat a přepisovat znovu. Pole, která
+// daný formulář nemá (např. upomínka nemá DIČ), se v mapě prostě vynechají.
+function attachClientAutofill(nameId, fieldIds) {
+  const nameEl = document.getElementById(nameId);
+  if (!nameEl) return;
+  nameEl.addEventListener("input", () => {
+    const match = knownClients.find((c) => c.name.toLowerCase() === nameEl.value.trim().toLowerCase());
+    if (!match) return;
+    Object.entries(fieldIds).forEach(([field, id]) => {
+      const el = document.getElementById(id);
+      if (el && !el.value) el.value = match[field] || "";
+    });
+  });
+}
+
+// Tiše uloží/aktualizuje klienta podle jména po úspěšném vygenerování PDF —
+// příště se sám nabídne v datalistu (viz upsertClientByName v supabase-client.js).
+async function persistClient(userId, clientData) {
+  if (!clientData.name) return;
+  try {
+    await upsertClientByName(userId, clientData);
+    knownClients = await listClients(userId);
+    renderClientsDatalist();
+  } catch (err) {
+    console.error("Nepodařilo se uložit klienta do databáze:", err.message);
+  }
+}
 
 const loadingEl = document.getElementById("page-loading");
 const shellEl = document.getElementById("page-shell");
@@ -83,6 +119,7 @@ function persistBillingInfo(userId, { name, address, ico, dic }) {
 // --- Faktura -----------------------------------------------------------
 function initFaktura(profile, session, isVatPayer) {
   prefillParty("f-supplier", profile);
+  attachClientAutofill("f-customer-name", { address: "f-customer-address", ico: "f-customer-ico", dic: "f-customer-dic" });
   document.getElementById("f-supplier-dic-field").classList.toggle("hidden", !isVatPayer && !profile.dic);
   document.getElementById("f-issue-date").value = todayISO();
   document.getElementById("f-tax-point-date").value = todayISO();
@@ -130,16 +167,17 @@ function initFaktura(profile, session, isVatPayer) {
       });
       if (!items.length) throw new Error("Přidejte alespoň jednu položku.");
 
+      const customer = {
+        name: val("f-customer-name"),
+        address: val("f-customer-address"),
+        ico: val("f-customer-ico"),
+        dic: val("f-customer-dic"),
+      };
       const { generateFakturaPdf } = await import("./pdf-documents.js");
       generateFakturaPdf({
         isVatPayer,
         supplier,
-        customer: {
-          name: val("f-customer-name"),
-          address: val("f-customer-address"),
-          ico: val("f-customer-ico"),
-          dic: val("f-customer-dic"),
-        },
+        customer,
         docNumber: val("f-doc-number"),
         issueDate: val("f-issue-date"),
         taxPointDate: val("f-tax-point-date"),
@@ -150,6 +188,7 @@ function initFaktura(profile, session, isVatPayer) {
         note: val("f-note"),
       });
       persistBillingInfo(session.user.id, supplier);
+      persistClient(session.user.id, customer);
     });
   });
 }
@@ -157,6 +196,7 @@ function initFaktura(profile, session, isVatPayer) {
 // --- Storno faktury ------------------------------------------------------
 function initStorno(profile, session, isVatPayer) {
   prefillParty("s-supplier", profile);
+  attachClientAutofill("s-customer-name", { address: "s-customer-address", ico: "s-customer-ico", dic: "s-customer-dic" });
   document.getElementById("s-supplier-dic-field").classList.toggle("hidden", !isVatPayer && !profile.dic);
   document.getElementById("s-issue-date").value = todayISO();
   document.getElementById("s-discovery-date").value = todayISO();
@@ -179,16 +219,17 @@ function initStorno(profile, session, isVatPayer) {
         ico: val("s-supplier-ico"),
         dic: isVatPayer ? val("s-supplier-dic") : "",
       };
+      const customer = {
+        name: val("s-customer-name"),
+        address: val("s-customer-address"),
+        ico: val("s-customer-ico"),
+        dic: val("s-customer-dic"),
+      };
       const { generateStornoPdf } = await import("./pdf-documents.js");
       generateStornoPdf({
         isVatPayer,
         supplier,
-        customer: {
-          name: val("s-customer-name"),
-          address: val("s-customer-address"),
-          ico: val("s-customer-ico"),
-          dic: val("s-customer-dic"),
-        },
+        customer,
         docNumber: val("s-doc-number"),
         issueDate: val("s-issue-date"),
         originalDocNumber: val("s-original-doc-number"),
@@ -201,6 +242,7 @@ function initStorno(profile, session, isVatPayer) {
         correctedVat: isVatPayer ? num("s-corrected-vat") : 0,
       });
       persistBillingInfo(session.user.id, supplier);
+      persistClient(session.user.id, customer);
     });
   });
 }
@@ -208,6 +250,7 @@ function initStorno(profile, session, isVatPayer) {
 // --- Upomínka --------------------------------------------------------------
 function initUpominka(profile, session) {
   prefillParty("u-supplier", profile);
+  attachClientAutofill("u-customer-name", { address: "u-customer-address" });
   document.getElementById("u-issue-date").value = todayISO();
   document.getElementById("u-new-due-date").value = addDaysISO(7);
 
@@ -217,10 +260,11 @@ function initUpominka(profile, session) {
     const statusEl = document.getElementById("u-status");
     withPdfDownload(btn, statusEl, async () => {
       const supplier = { name: val("u-supplier-name"), address: val("u-supplier-address") };
+      const customer = { name: val("u-customer-name"), address: val("u-customer-address") };
       const { generateUpominkaPdf } = await import("./pdf-documents.js");
       generateUpominkaPdf({
         supplier,
-        customer: { name: val("u-customer-name"), address: val("u-customer-address") },
+        customer,
         issueDate: val("u-issue-date"),
         originalDocNumber: val("u-original-doc-number"),
         originalIssueDate: val("u-original-issue-date"),
@@ -231,6 +275,7 @@ function initUpominka(profile, session) {
         note: val("u-note"),
       });
       persistBillingInfo(session.user.id, { ...supplier, ico: profile.ico, dic: profile.dic });
+      persistClient(session.user.id, customer);
     });
   });
 }
@@ -238,6 +283,7 @@ function initUpominka(profile, session) {
 // --- Smlouva o dílo ----------------------------------------------------
 function initSmlouva(profile, session, isVatPayer) {
   prefillParty("c-contractor", profile);
+  attachClientAutofill("c-client-name", { address: "c-client-address", ico: "c-client-ico" });
   document.getElementById("c-contractor-dic-field").classList.toggle("hidden", !isVatPayer && !profile.dic);
   document.getElementById("c-vat-rate-field").classList.toggle("hidden", !isVatPayer);
   document.getElementById("c-sign-date").value = todayISO();
@@ -254,10 +300,11 @@ function initSmlouva(profile, session, isVatPayer) {
         ico: val("c-contractor-ico"),
         dic: isVatPayer ? val("c-contractor-dic") : "",
       };
+      const client = { name: val("c-client-name"), address: val("c-client-address"), ico: val("c-client-ico") };
       const { generateSmlouvaPdf } = await import("./pdf-documents.js");
       generateSmlouvaPdf({
         contractor,
-        client: { name: val("c-client-name"), address: val("c-client-address"), ico: val("c-client-ico") },
+        client,
         subject: val("c-subject"),
         price: num("c-price"),
         isVatPayer,
@@ -269,6 +316,7 @@ function initSmlouva(profile, session, isVatPayer) {
         note: val("c-note"),
       });
       persistBillingInfo(session.user.id, contractor);
+      persistClient(session.user.id, client);
     });
   });
 }
@@ -309,6 +357,13 @@ function applyPrefillFromQuery() {
   if (!result) return;
   const { session, profile } = result;
   const isVatPayer = !!profile.vat_payer;
+
+  try {
+    knownClients = await listClients(session.user.id);
+    renderClientsDatalist();
+  } catch (err) {
+    console.error("Nepodařilo se načíst klienty:", err.message);
+  }
 
   initTabs();
   initFaktura(profile, session, isVatPayer);

@@ -66,7 +66,7 @@
 
       <div class="gen-subheading">Odběratel</div>
       <div class="calc-form-grid">
-        <div class="calc-field"><label for="f-customer-name">Jméno / název firmy</label><input class="text-input" id="f-customer-name" required /></div>
+        <div class="calc-field"><label for="f-customer-name">Jméno / název firmy</label><input class="text-input" id="f-customer-name" list="clients-datalist" autocomplete="off" required /></div>
         <div class="calc-field"><label for="f-customer-address">Adresa</label><input class="text-input" id="f-customer-address" required /></div>
         <div class="calc-field"><label for="f-customer-ico">IČO (nepovinné)</label><input class="text-input" id="f-customer-ico" /></div>
         <div class="calc-field"><label for="f-customer-dic">DIČ (nepovinné)</label><input class="text-input" id="f-customer-dic" /></div>
@@ -112,7 +112,7 @@
 
       <div class="gen-subheading">Odběratel</div>
       <div class="calc-form-grid">
-        <div class="calc-field"><label for="s-customer-name">Jméno / název firmy</label><input class="text-input" id="s-customer-name" required /></div>
+        <div class="calc-field"><label for="s-customer-name">Jméno / název firmy</label><input class="text-input" id="s-customer-name" list="clients-datalist" autocomplete="off" required /></div>
         <div class="calc-field"><label for="s-customer-address">Adresa</label><input class="text-input" id="s-customer-address" required /></div>
         <div class="calc-field"><label for="s-customer-ico">IČO (nepovinné)</label><input class="text-input" id="s-customer-ico" /></div>
         <div class="calc-field"><label for="s-customer-dic">DIČ (nepovinné)</label><input class="text-input" id="s-customer-dic" /></div>
@@ -156,7 +156,7 @@
 
       <div class="gen-subheading">Adresováno (dlužník)</div>
       <div class="calc-form-grid">
-        <div class="calc-field"><label for="u-customer-name">Jméno / název firmy</label><input class="text-input" id="u-customer-name" required /></div>
+        <div class="calc-field"><label for="u-customer-name">Jméno / název firmy</label><input class="text-input" id="u-customer-name" list="clients-datalist" autocomplete="off" required /></div>
         <div class="calc-field"><label for="u-customer-address">Adresa</label><input class="text-input" id="u-customer-address" required /></div>
       </div>
 
@@ -198,7 +198,7 @@
 
       <div class="gen-subheading">Objednatel</div>
       <div class="calc-form-grid">
-        <div class="calc-field"><label for="c-client-name">Jméno / název firmy</label><input class="text-input" id="c-client-name" required /></div>
+        <div class="calc-field"><label for="c-client-name">Jméno / název firmy</label><input class="text-input" id="c-client-name" list="clients-datalist" autocomplete="off" required /></div>
         <div class="calc-field"><label for="c-client-address">Adresa</label><input class="text-input" id="c-client-address" required /></div>
         <div class="calc-field"><label for="c-client-ico">IČO (nepovinné)</label><input class="text-input" id="c-client-ico" /></div>
       </div>
@@ -234,6 +234,8 @@
         <button type="submit" class="btn btn-primary" id="c-submit">Stáhnout jako PDF</button>
       </div>
     </form>
+
+    <datalist id="clients-datalist"></datalist>
 
     <div class="disclaimer-banner" style="margin-top: 8px;">
       <div class="icon-circle">

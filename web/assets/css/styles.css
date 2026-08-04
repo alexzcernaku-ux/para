@@ -1934,6 +1934,9 @@ textarea.text-input { resize: vertical; min-height: 70px; font-family: var(--fon
 }
 .list-row-delete:hover { color: var(--danger); }
 .list-row-delete svg { width: 16px; height: 16px; }
+.list-row-edit { background: none; border: none; cursor: pointer; color: #94a3b8; padding: 4px; display: inline-flex; }
+.list-row-edit:hover { color: var(--indigo); }
+.list-row-edit svg { width: 16px; height: 16px; }
 .list-status-toggle {
   border: 1px solid #e2e8f0;
   background: var(--white);

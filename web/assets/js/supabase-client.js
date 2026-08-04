@@ -342,6 +342,75 @@ export async function deleteInvoice(id) {
   if (error) throw error;
 }
 
+// --- Klienti (23_schema_clients.sql) ----------------------------------------
+// Jednou zadaný klient (odběratel) se pak jen vybírá ve faktury.html a
+// generator-dokumentu.html místo ručního přepisování — viz klienti.html.
+
+export async function listClients(userId) {
+  const { data, error } = await supabase
+    .from("clients")
+    .select("*")
+    .eq("user_id", userId)
+    .order("name", { ascending: true });
+  if (error) throw error;
+  return data;
+}
+
+export async function insertClient(userId, { name, ico, dic, address, email, phone, note }) {
+  const { data, error } = await supabase
+    .from("clients")
+    .insert({
+      user_id: userId,
+      name,
+      ico: ico || null,
+      dic: dic || null,
+      address: address || null,
+      email: email || null,
+      phone: phone || null,
+      note: note || null,
+    })
+    .select()
+    .single();
+  if (error) throw error;
+  return data;
+}
+
+export async function updateClient(id, { name, ico, dic, address, email, phone, note }) {
+  const { error } = await supabase
+    .from("clients")
+    .update({
+      name,
+      ico: ico || null,
+      dic: dic || null,
+      address: address || null,
+      email: email || null,
+      phone: phone || null,
+      note: note || null,
+    })
+    .eq("id", id);
+  if (error) throw error;
+}
+
+export async function deleteClient(id) {
+  const { error } = await supabase.from("clients").delete().eq("id", id);
+  if (error) throw error;
+}
+
+// Uloží klienta, pokud stejné jméno (case-insensitive) ještě v seznamu není
+// — používá se z "Uložit i jako klienta" checkboxu ve faktury.html a
+// generator-dokumentu.html, ať se nehromadí duplicity při opakovaném zadání
+// téhož odběratele.
+export async function upsertClientByName(userId, clientData) {
+  const existing = await listClients(userId);
+  const match = existing.find((c) => c.name.trim().toLowerCase() === clientData.name.trim().toLowerCase());
+  if (match) {
+    await updateClient(match.id, { ...match, ...clientData });
+    return match.id;
+  }
+  const created = await insertClient(userId, clientData);
+  return created.id;
+}
+
 // --- Kniha jízd (16_schema_ledger.sql) --------------------------------------
 
 export async function listVehicleTrips(userId, { from, to } = {}) {
