@@ -100,15 +100,14 @@
   const successText = document.getElementById("success-text");
 
   const urlParams = new URLSearchParams(window.location.search);
-  const planParam = urlParams.get("plan") === "yearly" ? "yearly" : urlParams.get("plan") === "monthly" ? "monthly" : null;
   let mode = "login"; // "login" | "register"
 
-  // Po přihlášení/registraci jde uživatel rovnou na Předplatné, pokud přišel
-  // z ceníku s konkrétním tarifem (ať se mu předvyplní) — jinak do appky,
-  // kde requireOnboardedProfile/requireActiveSubscription stejně přesměruje
-  // na predplatne.html, pokud předplatné ještě nemá.
+  // Nová registrace dostává 7denní trial bez karty (22_schema_trial.sql),
+  // takže po přihlášení/registraci jde vždy do appky — requireOnboardedProfile
+  // ho tam případně sám přesměruje na onboarding, a na predplatne.html jedině
+  // až trial vyprší nebo si předplatné zruší.
   function postAuthRedirect() {
-    window.location.href = planParam ? `predplatne.html?plan=${planParam}` : APP_PAGE;
+    window.location.href = APP_PAGE;
   }
 
   // Už přihlášený uživatel sem nemá co dělat.

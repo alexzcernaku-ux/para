@@ -22,8 +22,8 @@ const supabase = createClient(
 );
 
 const PLAN_PRICES: Record<string, { amountKc: number; label: string }> = {
-  monthly: { amountKc: 299, label: "Para Pro — měsíční předplatné" },
-  yearly: { amountKc: 2990, label: "Para Pro — roční předplatné" },
+  monthly: { amountKc: 150, label: "Para Pro — měsíční předplatné" },
+  yearly: { amountKc: 1500, label: "Para Pro — roční předplatné" },
 };
 
 function periodEndFor(plan: string, from: Date): string {

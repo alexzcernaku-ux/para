@@ -487,7 +487,7 @@
       <div class="section-head reveal">
         <span class="eyebrow">Ceník</span>
         <h2>Jeden tarif. Všechno v něm.</h2>
-        <p>Žádné skryté poplatky, žádné omezené "verze zdarma" s useknutými funkcemi. Zrušíte kdykoliv, ze svého profilu.</p>
+        <p>7 dní zkušebně zdarma, bez karty. Žádné skryté poplatky, žádné omezené "verze zdarma" s useknutými funkcemi. Zrušíte kdykoliv, ze svého profilu.</p>
       </div>
 
       <div class="price-toggle reveal" id="landing-price-toggle" role="tablist">
@@ -501,10 +501,10 @@
           <h3>Pro OSVČ i s.r.o.</h3>
           <p class="price-plan-desc">Vše, co Para umí, bez limitů — jeden tarif, žádné rozhodování, co je "v placené verzi navíc".</p>
           <div class="price-amount">
-            <span class="num" id="landing-price-num">299 Kč</span>
+            <span class="num" id="landing-price-num">150 Kč</span>
             <span class="period" id="landing-price-period">/ měsíc</span>
           </div>
-          <p class="form-hint" id="landing-price-note" style="margin: -14px 0 22px;">Fakturováno měsíčně</p>
+          <p class="form-hint" id="landing-price-note" style="margin: -14px 0 22px;">Fakturováno měsíčně, po 7denní zkušební době zdarma</p>
           <ul class="price-features">
             <li><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5" /></svg>Neomezené dotazy s citací paragrafu</li>
             <li><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5" /></svg>Kontrola dokladů, generátor faktur a dalších dokumentů</li>
@@ -512,8 +512,8 @@
             <li><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5" /></svg>Evidence příjmů/výdajů, kniha jízd, sledování faktur</li>
             <li><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5" /></svg>Termíny a upozornění na změny zákonů podle vašeho profilu</li>
           </ul>
-          <a class="btn btn-primary btn-block btn-lg" href="prihlaseni.html?mode=register" id="landing-price-cta">Založit účet — 299 Kč / měsíc</a>
-          <p class="form-hint" style="text-align:center; margin-top: 12px;">Platba kartou přes GoPay. Zrušíte kdykoliv, žádný závazek.</p>
+          <a class="btn btn-primary btn-block btn-lg" href="prihlaseni.html?mode=register" id="landing-price-cta">Vyzkoušet 7 dní zdarma</a>
+          <p class="form-hint" style="text-align:center; margin-top: 12px;">Karta se při registraci nevyžaduje. Platbu přes GoPay nastavíte až po zkušební době.</p>
         </div>
       </div>
     </div>
@@ -610,20 +610,19 @@
 <script src="assets/js/waitlist.js"></script>
 <script src="assets/js/trial-chat.js"></script>
 <script>
-  // Přepínač měsíčně/ročně v ceníkové sekci — jen mění zobrazenou cenu a
-  // cílový plán v CTA odkazu, samotné založení platby (gopay-checkout) běží
-  // až na predplatne.html po registraci.
+  // Přepínač měsíčně/ročně v ceníkové sekci — jen mění zobrazenou cenu.
+  // Registrace vždy vede na 7denní trial bez karty (viz prihlaseni.html);
+  // konkrétní tarif se vybírá až na predplatne.html po jeho konci.
   (function () {
     const toggle = document.getElementById("landing-price-toggle");
     if (!toggle) return;
     const numEl = document.getElementById("landing-price-num");
     const periodEl = document.getElementById("landing-price-period");
     const noteEl = document.getElementById("landing-price-note");
-    const ctaEl = document.getElementById("landing-price-cta");
 
     const PLANS = {
-      monthly: { num: "299 Kč", period: "/ měsíc", note: "Fakturováno měsíčně", cta: "Založit účet — 299 Kč / měsíc" },
-      yearly: { num: "2 990 Kč", period: "/ rok", note: "Fakturováno ročně (vychází na 249 Kč/měsíc)", cta: "Založit účet — 2 990 Kč / rok" },
+      monthly: { num: "150 Kč", period: "/ měsíc", note: "Fakturováno měsíčně, po 7denní zkušební době zdarma" },
+      yearly: { num: "1 500 Kč", period: "/ rok", note: "Fakturováno ročně (vychází na 125 Kč/měsíc), po 7denní zkušební době zdarma" },
     };
 
     toggle.addEventListener("click", (e) => {
@@ -634,8 +633,6 @@
       numEl.textContent = PLANS[plan].num;
       periodEl.textContent = PLANS[plan].period;
       noteEl.textContent = PLANS[plan].note;
-      ctaEl.textContent = PLANS[plan].cta;
-      ctaEl.href = `prihlaseni.html?mode=register&plan=${plan}`;
     });
   })();
 </script>

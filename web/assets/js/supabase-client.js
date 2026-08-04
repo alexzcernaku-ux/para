@@ -118,14 +118,29 @@ function isSubscriptionActive(profile) {
   return profile.subscription_status === "active" || profile.subscription_status === "past_due";
 }
 
-// Vyžaduje session A aktivní předplatné (nebo whitelist výjimku) — bez toho
-// appku nejde použít vůbec, ani onboarding. Použij na app.html i na
-// onboarding.html.
+// 7denní zkušební období bez karty (22_schema_trial.sql) — trial_ends_at se
+// nastaví automaticky při registraci, appka ho respektuje stejně jako
+// aktivní předplatné, dokud nevyprší.
+export function isInTrial(profile) {
+  return !!profile.trial_ends_at && new Date(profile.trial_ends_at) > new Date();
+}
+
+// Kolik dní zkušební doby ještě zbývá (zaokrouhleno nahoru) — pro zobrazení
+// v appce (app.html, ucet.html). Vrací 0, pokud trial už neběží.
+export function trialDaysLeft(profile) {
+  if (!isInTrial(profile)) return 0;
+  const msLeft = new Date(profile.trial_ends_at).getTime() - Date.now();
+  return Math.max(0, Math.ceil(msLeft / (24 * 60 * 60 * 1000)));
+}
+
+// Vyžaduje session A (aktivní předplatné NEBO běžící trial NEBO whitelist
+// výjimku) — bez toho appku nejde použít vůbec, ani onboarding. Použij na
+// app.html i na onboarding.html.
 export async function requireActiveSubscription() {
   const session = await requireSession();
   if (!session) return null;
   const profile = await getProfile(session.user.id);
-  if (isSubscriptionActive(profile) || (await isWhitelisted(session.user.email))) {
+  if (isSubscriptionActive(profile) || isInTrial(profile) || (await isWhitelisted(session.user.email))) {
     return { session, profile };
   }
   window.location.href = SUBSCRIBE_PAGE;

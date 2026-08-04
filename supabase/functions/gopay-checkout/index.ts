@@ -34,8 +34,8 @@ function json(body: unknown, status = 200) {
 
 // Ceník — jediný "Pro" tarif, měsíční nebo roční platba (viz predplatne.html).
 const PLAN_PRICES: Record<string, { amountKc: number; label: string }> = {
-  monthly: { amountKc: 299, label: "Para Pro — měsíční předplatné" },
-  yearly: { amountKc: 2990, label: "Para Pro — roční předplatné" },
+  monthly: { amountKc: 150, label: "Para Pro — měsíční předplatné" },
+  yearly: { amountKc: 1500, label: "Para Pro — roční předplatné" },
 };
 
 const REQUIRED_PAYER_FIELDS = ["firstName", "lastName", "phoneNumber", "city", "street", "postalCode"] as const;
@@ -64,6 +64,14 @@ Deno.serve(async (req) => {
       if (!payer[field] || typeof payer[field] !== "string" || !payer[field].trim()) {
         return json({ error: `Chybí fakturační údaj: ${field}` }, 400);
       }
+    }
+
+    // Nákup na firmu (volitelné) — GoPay samo o sobě company údaje nezná
+    // (jen contact reálné osoby, viz gopay.ts payer.contact), používá se jen
+    // pro fakturační údaje uložené v profilu (generator-dokumentu.html).
+    const company = body.company || null;
+    if (company && (!company.name?.trim() || !company.ico?.trim())) {
+      return json({ error: "U nákupu na firmu je potřeba vyplnit alespoň název a IČO." }, 400);
     }
 
     const origin = req.headers.get("origin") || "https://para.app";
@@ -102,11 +110,17 @@ Deno.serve(async (req) => {
 
     // subscription_plan si uložit hned (potřebuje ho webhook pro výpočet
     // délky období) — subscription_status ale zůstává 'none', dokud GoPay
-    // nepotvrdí PAID, takže tohle samo o sobě přístup neodemyká.
-    const { error: profileError } = await adminSupabase
-      .from("profiles")
-      .update({ subscription_plan: body.plan })
-      .eq("id", user.id);
+    // nepotvrdí PAID, takže tohle samo o sobě přístup neodemyká. Firemní
+    // údaje (pokud vyplněné) přepíší profil pro budoucí fakturaci — jen
+    // když je uživatel explicitně zadal, ať nepřepíšeme ARES data prázdnem.
+    const profileUpdate: Record<string, unknown> = { subscription_plan: body.plan };
+    if (company) {
+      profileUpdate.company_name = company.name.trim();
+      profileUpdate.ico = company.ico.trim();
+      profileUpdate.dic = company.dic?.trim() || null;
+    }
+
+    const { error: profileError } = await adminSupabase.from("profiles").update(profileUpdate).eq("id", user.id);
     if (profileError) throw profileError;
 
     return json({ gwUrl: payment.gw_url, paymentId: payment.id });

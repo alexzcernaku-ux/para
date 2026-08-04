@@ -22,24 +22,38 @@
     <div class="card auth-card wide hidden" id="plan-state">
       <img src="assets/img/mascot/mascot-vita.png" alt="" class="mascot-img" />
       <h1>Aktivujte předplatné Para Pro</h1>
-      <p>Bez aktivního předplatného appku bohužel nejde používat. Vyberte tarif a zadejte fakturační údaje — na platbu vás pak přesměrujeme na zabezpečenou bránu GoPay.</p>
+      <p id="plan-intro">Vyberte tarif a zadejte fakturační údaje — na platbu vás pak přesměrujeme na zabezpečenou bránu GoPay.</p>
 
       <div class="doctype-tabs" id="plan-tabs" role="tablist" style="margin-bottom: 22px;">
         <button type="button" class="doctype-tab" data-plan="monthly" role="tab">
           <div>
             <strong>Měsíčně</strong>
-            <div class="form-hint" style="margin-top:2px;">299 Kč / měsíc</div>
+            <div class="form-hint" style="margin-top:2px;">150 Kč / měsíc</div>
           </div>
         </button>
         <button type="button" class="doctype-tab" data-plan="yearly" role="tab">
           <div>
             <strong>Ročně</strong>
-            <div class="form-hint" style="margin-top:2px;">2 990 Kč / rok · ušetříte 2 měsíce</div>
+            <div class="form-hint" style="margin-top:2px;">1 500 Kč / rok · ušetříte 2 měsíce</div>
           </div>
         </button>
       </div>
 
       <form id="payer-form">
+        <div class="doctype-tabs" id="buyer-type-tabs" role="tablist" style="margin-bottom: 16px;">
+          <button type="button" class="doctype-tab" data-buyer="person" role="tab" style="flex:1; justify-content:center;">Soukromá osoba</button>
+          <button type="button" class="doctype-tab" data-buyer="company" role="tab" style="flex:1; justify-content:center;">Firma / IČO</button>
+        </div>
+
+        <div id="company-fields" class="hidden">
+          <input type="text" id="company-name" class="text-input" placeholder="Název firmy" autocomplete="organization" aria-label="Název firmy" />
+          <div class="choice-grid cols-2" style="margin-bottom: 0; display:grid; grid-template-columns:1fr 1fr; gap:12px;">
+            <input type="text" id="company-ico" class="text-input" placeholder="IČO" inputmode="numeric" maxlength="8" aria-label="IČO" />
+            <input type="text" id="company-dic" class="text-input" placeholder="DIČ (nepovinné)" aria-label="DIČ" />
+          </div>
+          <p class="form-hint" style="margin: -8px 0 16px;">Fakturační údaje firmy — na doklad z platby. Jméno a telefon níže patří skutečné osobě, která platbu provádí (vyžaduje GoPay kvůli ověření karty).</p>
+        </div>
+
         <div class="choice-grid cols-2" style="margin-bottom: 0; display:grid; grid-template-columns:1fr 1fr; gap:12px;">
           <input type="text" id="payer-first-name" class="text-input" placeholder="Jméno" required autocomplete="given-name" aria-label="Jméno" />
           <input type="text" id="payer-last-name" class="text-input" placeholder="Příjmení" required autocomplete="family-name" aria-label="Příjmení" />
@@ -54,7 +68,7 @@
         <div class="param-box" style="margin-top: 8px;">
           <h3>Parametry opakované platby</h3>
           <div class="param-row"><span class="param-label">Důvod platby</span><span class="param-value">Předplatné Para Pro (SaaS)</span></div>
-          <div class="param-row"><span class="param-label">Částka</span><span class="param-value" id="param-amount">299 Kč, fixní</span></div>
+          <div class="param-row"><span class="param-label">Částka</span><span class="param-value" id="param-amount">150 Kč, fixní</span></div>
           <div class="param-row"><span class="param-label">Frekvence</span><span class="param-value" id="param-frequency">1× měsíčně</span></div>
           <div class="param-row"><span class="param-label">Doba trvání</span><span class="param-value">Do zrušení uživatelem</span></div>
           <div class="param-row"><span class="param-label">Zrušení</span><span class="param-value">Kdykoli v profilu appky</span></div>
@@ -70,7 +84,7 @@
           </span>
         </label>
 
-        <button type="submit" class="btn btn-primary btn-block btn-lg" id="payer-submit" style="margin-top: 6px;">Pokračovat k platbě — <span id="submit-price">299 Kč</span></button>
+        <button type="submit" class="btn btn-primary btn-block btn-lg" id="payer-submit" style="margin-top: 6px;">Pokračovat k platbě — <span id="submit-price">150 Kč</span></button>
       </form>
     </div>
 
@@ -114,9 +128,9 @@
   };
 </script>
 <script type="module">
-  import { requireSession, getProfile, ONBOARDING_PAGE, APP_PAGE } from "./assets/js/supabase-client.js";
+  import { requireSession, getProfile, ONBOARDING_PAGE, APP_PAGE, isInTrial } from "./assets/js/supabase-client.js";
 
-  const PLAN_PRICES = { monthly: { amountKc: 299, label: "299 Kč" }, yearly: { amountKc: 2990, label: "2 990 Kč" } };
+  const PLAN_PRICES = { monthly: { amountKc: 150, label: "150 Kč" }, yearly: { amountKc: 1500, label: "1 500 Kč" } };
   const CHECKOUT_URL = `${window.PARA_CONFIG.supabaseUrl}/functions/v1/gopay-checkout`;
 
   const states = {
@@ -153,6 +167,29 @@
     selectedPlan = tab.dataset.plan;
     renderPlanTabs();
   });
+
+  const buyerTypeTabs = document.getElementById("buyer-type-tabs");
+  const companyFields = document.getElementById("company-fields");
+  const companyNameInput = document.getElementById("company-name");
+  const companyIcoInput = document.getElementById("company-ico");
+  let buyerType = "person"; // "person" | "company"
+
+  function renderBuyerType() {
+    buyerTypeTabs.querySelectorAll(".doctype-tab").forEach((tab) => {
+      tab.classList.toggle("active", tab.dataset.buyer === buyerType);
+    });
+    const isCompany = buyerType === "company";
+    companyFields.classList.toggle("hidden", !isCompany);
+    companyNameInput.required = isCompany;
+    companyIcoInput.required = isCompany;
+  }
+  buyerTypeTabs.addEventListener("click", (e) => {
+    const tab = e.target.closest(".doctype-tab");
+    if (!tab) return;
+    buyerType = tab.dataset.buyer;
+    renderBuyerType();
+  });
+  renderBuyerType();
   renderPlanTabs();
 
   let session = null;
@@ -185,6 +222,10 @@
       await goToAppOrOnboarding(profile);
       return;
     }
+
+    document.getElementById("plan-intro").textContent = isInTrial(profile)
+      ? "Appku zatím používáte v rámci zkušební doby zdarma — předplatné si můžete nastavit už teď, nebo počkat, až zkušební doba skončí. Vyberte tarif a zadejte fakturační údaje."
+      : "Zkušební doba zdarma skončila. Vyberte tarif a zadejte fakturační údaje — na platbu vás pak přesměrujeme na zabezpečenou bránu GoPay.";
 
     if (new URLSearchParams(window.location.search).get("platba") === "vysledek") {
       showOnly("pending");
@@ -224,6 +265,18 @@
         postalCode: document.getElementById("payer-postal").value.trim(),
       };
 
+      // GoPay samo o sobě žádné firemní údaje nezná (jen contact reálné
+      // osoby, viz gopay.ts) — company posíláme navíc jen proto, aby si je
+      // appka uložila do profilu pro fakturaci (generator-dokumentu.html).
+      const company =
+        buyerType === "company"
+          ? {
+              name: companyNameInput.value.trim(),
+              ico: companyIcoInput.value.trim(),
+              dic: document.getElementById("company-dic").value.trim(),
+            }
+          : null;
+
       const res = await fetch(CHECKOUT_URL, {
         method: "POST",
         headers: {
@@ -231,7 +284,7 @@
           Authorization: `Bearer ${session.access_token}`,
           apikey: window.PARA_CONFIG.supabaseAnonKey,
         },
-        body: JSON.stringify({ plan: selectedPlan, payer }),
+        body: JSON.stringify({ plan: selectedPlan, payer, company }),
       });
       const data = await res.json();
       if (!res.ok) throw new Error(data.error || `Chyba serveru (${res.status})`);

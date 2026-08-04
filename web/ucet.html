@@ -23,20 +23,33 @@
       <h1>Můj účet</h1>
       <p id="account-email" class="form-hint" style="margin-top: -14px; margin-bottom: 24px;"></p>
 
-      <div class="param-box" id="subscription-box">
+      <div class="param-box hidden" id="trial-box">
+        <h3>Zkušební období</h3>
+        <div class="param-row"><span class="param-label">Zbývá</span><span class="param-value" id="trial-days">—</span></div>
+      </div>
+      <div id="trial-section" class="hidden">
+        <p class="form-hint">Appku používáte zdarma v rámci 7denní zkušební doby, bez zadané karty. Chcete pokračovat i po jejím konci? Předplaťte si Para Pro klidně už teď.</p>
+        <a href="predplatne.html" class="btn btn-primary btn-block">Předplatit teď</a>
+      </div>
+
+      <div class="param-box hidden" id="subscription-box">
         <h3>Předplatné</h3>
         <div class="param-row"><span class="param-label">Tarif</span><span class="param-value" id="sub-plan">—</span></div>
         <div class="param-row"><span class="param-label">Stav</span><span class="param-value" id="sub-status">—</span></div>
         <div class="param-row"><span class="param-label">Platí do</span><span class="param-value" id="sub-period-end">—</span></div>
       </div>
 
-      <div id="cancel-section">
+      <div id="cancel-section" class="hidden">
         <p class="form-hint">Zrušením se zastaví budoucí opakované platby — appku můžete používat dál až do konce už zaplaceného období.</p>
         <button type="button" class="btn btn-secondary btn-block" id="cancel-btn">Zrušit předplatné</button>
       </div>
 
       <div id="canceled-section" class="hidden">
         <p class="form-hint">Předplatné je zrušené, další platba se už nestrhne. Appku můžete používat do konce zaplaceného období uvedeného výše.</p>
+      </div>
+
+      <div id="whitelist-section" class="hidden">
+        <p class="form-hint">Tento účet má přístup bez předplatného (interní výjimka).</p>
       </div>
 
       <p class="form-hint" style="text-align:center; margin-top: 22px;">
@@ -58,15 +71,19 @@
   };
 </script>
 <script type="module">
-  import { requireOnboardedProfile, cancelSubscription } from "./assets/js/supabase-client.js";
+  import { requireOnboardedProfile, cancelSubscription, isInTrial, trialDaysLeft } from "./assets/js/supabase-client.js";
 
-  const PLAN_LABELS = { monthly: "Měsíčně — 299 Kč / měsíc", yearly: "Ročně — 2 990 Kč / rok" };
+  const PLAN_LABELS = { monthly: "Měsíčně — 150 Kč / měsíc", yearly: "Ročně — 1 500 Kč / rok" };
   const STATUS_LABELS = { active: "Aktivní", past_due: "Aktivní (platba se opakovaně nezdařila)", canceled: "Zrušené", none: "Bez předplatného" };
 
   const accountCard = document.getElementById("account-card");
   const pageLoading = document.getElementById("page-loading");
+  const trialBox = document.getElementById("trial-box");
+  const trialSection = document.getElementById("trial-section");
+  const subscriptionBox = document.getElementById("subscription-box");
   const cancelSection = document.getElementById("cancel-section");
   const canceledSection = document.getElementById("canceled-section");
+  const whitelistSection = document.getElementById("whitelist-section");
   const cancelBtn = document.getElementById("cancel-btn");
 
   let session = null;
@@ -78,13 +95,33 @@
 
   function render(profile) {
     document.getElementById("account-email").textContent = session.user.email;
-    document.getElementById("sub-plan").textContent = PLAN_LABELS[profile.subscription_plan] || "—";
-    document.getElementById("sub-status").textContent = STATUS_LABELS[profile.subscription_status] || profile.subscription_status;
-    document.getElementById("sub-period-end").textContent = formatDate(profile.subscription_current_period_end);
 
-    const isCanceling = profile.subscription_cancel_at_period_end;
-    cancelSection.classList.toggle("hidden", !!isCanceling);
-    canceledSection.classList.toggle("hidden", !isCanceling);
+    [trialBox, trialSection, subscriptionBox, cancelSection, canceledSection, whitelistSection].forEach((el) =>
+      el.classList.add("hidden")
+    );
+
+    const hasSubscription = profile.subscription_status === "active" || profile.subscription_status === "past_due" || profile.subscription_status === "canceled";
+
+    if (hasSubscription) {
+      document.getElementById("sub-plan").textContent = PLAN_LABELS[profile.subscription_plan] || "—";
+      document.getElementById("sub-status").textContent = STATUS_LABELS[profile.subscription_status] || profile.subscription_status;
+      document.getElementById("sub-period-end").textContent = formatDate(profile.subscription_current_period_end);
+      subscriptionBox.classList.remove("hidden");
+
+      const isCanceling = profile.subscription_cancel_at_period_end || profile.subscription_status === "canceled";
+      cancelSection.classList.toggle("hidden", !!isCanceling);
+      canceledSection.classList.toggle("hidden", !isCanceling);
+    } else if (isInTrial(profile)) {
+      const daysLeft = trialDaysLeft(profile);
+      document.getElementById("trial-days").textContent = daysLeft === 1 ? "poslední den" : `${daysLeft} dní`;
+      trialBox.classList.remove("hidden");
+      trialSection.classList.remove("hidden");
+    } else {
+      // Přístup mimo trial i placené předplatné = whitelist výjimka (viz
+      // requireActiveSubscription v supabase-client.js) — jinak by se sem
+      // vůbec nedostal, requireOnboardedProfile by ho poslal na predplatne.html.
+      whitelistSection.classList.remove("hidden");
+    }
   }
 
   (async () => {
