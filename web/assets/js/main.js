@@ -61,3 +61,71 @@
 
   setTimeout(revealAll, 3000);
 })();
+
+// Carousel ukázek appky (#ukazky) - auto-posun každé 4.5s, zastaví se při
+// najetí myší/focusu nebo při prefers-reduced-motion. Scroll-snap dělá
+// těžkou práci sám (funguje i bez JS jako ručně swipovatelný pás), JS jen
+// řídí tečky a auto-advance.
+(function () {
+  const viewport = document.getElementById("showcase-viewport");
+  const dotsWrap = document.getElementById("showcase-dots");
+  if (!viewport || !dotsWrap) return;
+
+  const frames = Array.from(viewport.children);
+  const dots = Array.from(dotsWrap.children);
+  const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  let current = 0;
+  let timer = null;
+
+  function goTo(idx) {
+    current = (idx + frames.length) % frames.length;
+    frames[current].scrollIntoView({ behavior: reduceMotion ? "auto" : "smooth", block: "nearest", inline: "center" });
+    dots.forEach((d, i) => d.classList.toggle("active", i === current));
+  }
+
+  function startAutoplay() {
+    if (reduceMotion) return;
+    stopAutoplay();
+    timer = setInterval(() => goTo(current + 1), 4500);
+  }
+  function stopAutoplay() {
+    if (timer) clearInterval(timer);
+    timer = null;
+  }
+
+  dots.forEach((dot, i) => {
+    dot.addEventListener("click", () => {
+      goTo(i);
+      startAutoplay();
+    });
+  });
+
+  // Ruční swipe/scroll taky přepočítá aktivní tečku - IntersectionObserver
+  // na jednotlivé rámečky je spolehlivější než počítat scrollLeft ručně.
+  try {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        for (const entry of entries) {
+          if (entry.isIntersecting) {
+            const idx = frames.indexOf(entry.target);
+            if (idx !== -1) {
+              current = idx;
+              dots.forEach((d, i) => d.classList.toggle("active", i === idx));
+            }
+          }
+        }
+      },
+      { root: viewport, threshold: 0.6 }
+    );
+    frames.forEach((f) => observer.observe(f));
+  } catch {
+    // bez IntersectionObserver zůstanou tečky jen na ručním ovládání
+  }
+
+  viewport.addEventListener("mouseenter", stopAutoplay);
+  viewport.addEventListener("mouseleave", startAutoplay);
+  viewport.addEventListener("focusin", stopAutoplay);
+  viewport.addEventListener("focusout", startAutoplay);
+
+  startAutoplay();
+})();

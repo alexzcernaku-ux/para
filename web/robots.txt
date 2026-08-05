@@ -1,0 +1,23 @@
+User-agent: *
+Allow: /
+Disallow: /app.html
+Disallow: /ucet.html
+Disallow: /onboarding.html
+Disallow: /evidence.html
+Disallow: /faktury.html
+Disallow: /klienti.html
+Disallow: /kniha-jizd.html
+Disallow: /archiv.html
+Disallow: /generator-dokumentu.html
+Disallow: /import-vypisu.html
+Disallow: /export-balicku.html
+Disallow: /kontrola-dokladu.html
+Disallow: /kontrola-dph.html
+Disallow: /kontrola-kh.html
+Disallow: /kontrola-priznani.html
+Disallow: /dap-generator.html
+Disallow: /dph-generator.html
+Disallow: /prehled-osvc.html
+Disallow: /terminy.html
+
+Sitemap: https://paraai.cz/sitemap.xml
