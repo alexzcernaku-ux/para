@@ -1041,6 +1041,9 @@ a.calc-card:hover,
   box-shadow: 0 30px 80px rgba(15, 23, 42, 0.35);
 }
 .modal-mascot { width: 72px; margin: 0 auto 14px; }
+.modal-wide { max-width: 560px; text-align: left; }
+.modal-invoice-row { display: flex; justify-content: space-between; align-items: center; padding: 10px 0; border-bottom: 1px solid #f1f5f9; font-size: 13.5px; }
+.modal-invoice-row:last-child { border-bottom: none; }
 .modal h3 { margin-bottom: 10px; }
 .modal p { font-size: 14.5px; margin-bottom: 18px; }
 .modal-close {
@@ -1974,6 +1977,21 @@ textarea.text-input { resize: vertical; min-height: 70px; font-family: var(--fon
 .list-summary-row.pos strong { color: #15803d; }
 .list-summary-row.neg strong { color: var(--danger); }
 
+.cashflow-card { padding: 22px 26px; margin-bottom: 22px; }
+.cashflow-card h3 { font-size: 13.5px; text-transform: uppercase; letter-spacing: 0.03em; color: var(--slate); font-weight: 700; margin-bottom: 16px; }
+.cashflow-row { display: grid; grid-template-columns: 120px 1fr auto; align-items: center; gap: 14px; padding: 7px 0; }
+.cashflow-row-label { font-size: 13px; color: var(--slate); text-transform: capitalize; }
+.cashflow-bar { background: #f1f5f9; border-radius: 999px; height: 10px; overflow: hidden; }
+.cashflow-bar-fill { height: 100%; border-radius: 999px; background: var(--indigo); }
+.cashflow-bar-fill.overdue { background: var(--danger); }
+.cashflow-row-amount { font-size: 13.5px; font-weight: 700; color: var(--navy); font-variant-numeric: tabular-nums; white-space: nowrap; }
+
+.recurring-row { display: flex; justify-content: space-between; align-items: center; gap: 12px; padding: 10px 0; border-bottom: 1px solid #f1f5f9; font-size: 13.5px; }
+.recurring-row:last-child { border-bottom: none; }
+.recurring-actions { display: flex; align-items: center; gap: 8px; flex-shrink: 0; }
+.recurring-action-btn { background: none; border: 1px solid #e2e8f0; border-radius: 8px; padding: 4px 10px; font-size: 12px; cursor: pointer; color: var(--slate); }
+.recurring-action-btn:hover { border-color: var(--indigo); color: var(--indigo); }
+
 .list-form-card { padding: 26px; margin-bottom: 22px; }
 .wiz-row3-even { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 14px; }
 
@@ -2008,6 +2026,17 @@ textarea.text-input { resize: vertical; min-height: 70px; font-family: var(--fon
 .list-row-edit { background: none; border: none; cursor: pointer; color: #94a3b8; padding: 4px; display: inline-flex; }
 .list-row-edit:hover { color: var(--indigo); }
 .list-row-edit svg { width: 16px; height: 16px; }
+.list-client-name {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  font: inherit;
+  font-weight: 600;
+  color: #0f172a;
+  text-align: left;
+}
+.list-client-name:hover { color: var(--indigo); text-decoration: underline; }
 .list-status-toggle {
   border: 1px solid #e2e8f0;
   background: var(--white);

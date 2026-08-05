@@ -18,6 +18,7 @@ const DESTINATIONS = [
   { name: "Import bankovního výpisu", href: "import-vypisu.html", keywords: "csv banka výpis" },
   { name: "Kontrola dokladu", href: "kontrola-dokladu.html", keywords: "účtenka faktura fotka náležitosti" },
   { name: "Generátor dokumentů", href: "generator-dokumentu.html", keywords: "faktura smlouva upomínka storno vystavit" },
+  { name: "Archiv dokladů", href: "archiv.html", keywords: "vygenerované doklady faktury stažené uložené" },
   { name: "Přehled OSVČ", href: "prehled-osvc.html", keywords: "sociální zdravotní pojištění cssz" },
   { name: "Export pro účetního", href: "export-balicku.html", keywords: "pdf csv export" },
   { name: "Kalkulačky", href: "kalkulacky.html", keywords: "kolik zbyde paušál srovnání" },

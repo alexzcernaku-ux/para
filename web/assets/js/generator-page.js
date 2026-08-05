@@ -12,6 +12,8 @@ import {
   updateInvoiceBranding,
   insertInvoice,
   listInvoices,
+  sendInvoiceEmail,
+  uploadGeneratedDocument,
 } from "./supabase-client.js";
 import { csAccountToIban, buildSpdString } from "./qr-platba.js";
 import { suggestNextInvoiceNumber } from "./invoice-numbering.js";
@@ -209,6 +211,34 @@ function setStatus(el, text, isError) {
   el.classList.toggle("error", !!isError);
 }
 
+// --- Archiv vystavených dokladů (26_schema_document_archive.sql) -----------
+// Vygenerované PDF se kromě stažení/odeslání zároveň potichu uloží do
+// Storage - viz archiv.html. Selhání uložení do archivu nesmí zablokovat
+// samotné stažení/odeslání dokladu, proto se chyba jen zaloguje.
+function downloadBlob(blob, filename) {
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement("a");
+  a.href = url;
+  a.download = filename;
+  a.click();
+  URL.revokeObjectURL(url);
+}
+
+function base64ToBlob(base64, mime = "application/pdf") {
+  const byteChars = atob(base64);
+  const byteNumbers = new Uint8Array(byteChars.length);
+  for (let i = 0; i < byteChars.length; i++) byteNumbers[i] = byteChars.charCodeAt(i);
+  return new Blob([byteNumbers], { type: mime });
+}
+
+async function archiveDocument(userId, { docType, docNumber, counterpartyName, amount, blob, filename }) {
+  try {
+    await uploadGeneratedDocument(userId, { docType, docNumber, counterpartyName, amount, pdfBlob: blob, filename });
+  } catch (err) {
+    console.error("Nepodařilo se uložit doklad do archivu:", err.message);
+  }
+}
+
 async function withPdfDownload(btn, statusEl, run) {
   const originalText = btn.textContent;
   btn.disabled = true;
@@ -258,7 +288,7 @@ function persistBillingInfo(userId, { name, address, ico, dic }) {
 // --- Faktura -----------------------------------------------------------
 function initFaktura(profile, session, isVatPayer) {
   prefillParty("f-supplier", profile);
-  attachClientAutofill("f-customer-name", { address: "f-customer-address", ico: "f-customer-ico", dic: "f-customer-dic" });
+  attachClientAutofill("f-customer-name", { address: "f-customer-address", ico: "f-customer-ico", dic: "f-customer-dic", email: "f-customer-email" });
   document.getElementById("f-supplier-dic-field").classList.toggle("hidden", !isVatPayer && !profile.dic);
   document.getElementById("f-issue-date").value = todayISO();
   document.getElementById("f-tax-point-date").value = todayISO();
@@ -283,81 +313,155 @@ function initFaktura(profile, session, isVatPayer) {
   document.getElementById("f-add-item").addEventListener("click", addRow);
   addRow();
 
+  // Sesbírá data z formuláře společná pro stažení i odeslání e-mailem -
+  // ať se stejná logika (součty, QR platba) nepíše dvakrát.
+  async function collectFakturaData() {
+    const supplier = {
+      name: val("f-supplier-name"),
+      address: val("f-supplier-address"),
+      ico: val("f-supplier-ico"),
+      dic: isVatPayer ? val("f-supplier-dic") : "",
+    };
+    const items = Array.from(itemsEl.children).map((row) => {
+      const inputs = row.querySelectorAll("input");
+      const select = row.querySelector("select");
+      return {
+        description: inputs[0].value.trim() || "Položka",
+        quantity: Number(inputs[1].value) || 0,
+        unitPrice: Number(inputs[2].value) || 0,
+        vatRate: select ? Number(select.value) : 0,
+      };
+    });
+    if (!items.length) throw new Error("Přidejte alespoň jednu položku.");
+
+    const customer = {
+      name: val("f-customer-name"),
+      address: val("f-customer-address"),
+      ico: val("f-customer-ico"),
+      dic: val("f-customer-dic"),
+      email: val("f-customer-email"),
+    };
+
+    let totalBase = 0;
+    let totalVat = 0;
+    items.forEach((it) => {
+      const lineBase = it.quantity * it.unitPrice;
+      totalBase += lineBase;
+      if (isVatPayer) totalVat += lineBase * (it.vatRate / 100);
+    });
+
+    const accountNumber = val("f-account-number");
+    const docNumber = val("f-doc-number");
+    const qrCodeDataUrl = await buildInvoiceQrCode({ accountNumber, amountKc: totalBase + totalVat, docNumber });
+
+    return {
+      supplier,
+      customer,
+      items,
+      accountNumber,
+      docNumber,
+      issueDate: val("f-issue-date"),
+      taxPointDate: val("f-tax-point-date"),
+      dueDate: val("f-due-date"),
+      paymentMethod: val("f-payment-method"),
+      note: val("f-note"),
+      totalBase,
+      totalVat,
+      qrCodeDataUrl,
+    };
+  }
+
+  function persistFakturaSideEffects(d) {
+    persistBillingInfo(session.user.id, d.supplier);
+    persistClient(session.user.id, d.customer);
+    persistBranding(session.user.id);
+
+    // Vystavená faktura se rovnou objeví ve Sledování faktur (faktury.html)
+    // - dřív bylo potřeba ji tam po vygenerování ještě jednou ručně opsat.
+    insertInvoice(session.user.id, {
+      direction: "vystavena",
+      number: d.docNumber,
+      counterpartyName: d.customer.name,
+      counterpartyIco: d.customer.ico,
+      issueDate: d.issueDate,
+      dueDate: d.dueDate,
+      amount: d.totalBase + d.totalVat,
+      vatAmount: d.totalVat,
+    }).catch((err) => console.error("Nepodařilo se uložit fakturu do evidence:", err.message));
+  }
+
   document.getElementById("panel-faktura").addEventListener("submit", (e) => {
     e.preventDefault();
     const btn = document.getElementById("f-submit");
     const statusEl = document.getElementById("f-status");
     withPdfDownload(btn, statusEl, async () => {
-      const supplier = {
-        name: val("f-supplier-name"),
-        address: val("f-supplier-address"),
-        ico: val("f-supplier-ico"),
-        dic: isVatPayer ? val("f-supplier-dic") : "",
-      };
-      const items = Array.from(itemsEl.children).map((row) => {
-        const inputs = row.querySelectorAll("input");
-        const select = row.querySelector("select");
-        return {
-          description: inputs[0].value.trim() || "Položka",
-          quantity: Number(inputs[1].value) || 0,
-          unitPrice: Number(inputs[2].value) || 0,
-          vatRate: select ? Number(select.value) : 0,
-        };
+      const d = await collectFakturaData();
+      const { generateFakturaPdf } = await import("./pdf-documents.js");
+      const blob = generateFakturaPdf({
+        isVatPayer,
+        ...d,
+        branding: currentBranding(),
+        output: "blob",
       });
-      if (!items.length) throw new Error("Přidejte alespoň jednu položku.");
-
-      const customer = {
-        name: val("f-customer-name"),
-        address: val("f-customer-address"),
-        ico: val("f-customer-ico"),
-        dic: val("f-customer-dic"),
-      };
-
-      let totalBase = 0;
-      let totalVat = 0;
-      items.forEach((it) => {
-        const lineBase = it.quantity * it.unitPrice;
-        totalBase += lineBase;
-        if (isVatPayer) totalVat += lineBase * (it.vatRate / 100);
+      const filename = `faktura-${new Date().toISOString().slice(0, 10)}.pdf`;
+      downloadBlob(blob, filename);
+      persistFakturaSideEffects(d);
+      await archiveDocument(session.user.id, {
+        docType: "faktura",
+        docNumber: d.docNumber,
+        counterpartyName: d.customer.name,
+        amount: d.totalBase + d.totalVat,
+        blob,
+        filename,
       });
+    });
+  });
 
-      const accountNumber = val("f-account-number");
-      const docNumber = val("f-doc-number");
-      const qrCodeDataUrl = await buildInvoiceQrCode({ accountNumber, amountKc: totalBase + totalVat, docNumber });
+  document.getElementById("f-send-email").addEventListener("click", async () => {
+    const btn = document.getElementById("f-send-email");
+    const statusEl = document.getElementById("f-status");
+    const originalText = btn.textContent;
+    btn.disabled = true;
+    btn.textContent = "Odesílám…";
+    setStatus(statusEl, "");
+    try {
+      const d = await collectFakturaData();
+      if (!d.customer.email) throw new Error("Vyplňte e-mail odběratele.");
 
       const { generateFakturaPdf } = await import("./pdf-documents.js");
-      generateFakturaPdf({
+      const pdfBase64 = generateFakturaPdf({
         isVatPayer,
-        supplier,
-        customer,
-        docNumber,
-        issueDate: val("f-issue-date"),
-        taxPointDate: val("f-tax-point-date"),
-        dueDate: val("f-due-date"),
-        paymentMethod: val("f-payment-method"),
-        accountNumber,
-        items,
-        note: val("f-note"),
+        ...d,
         branding: currentBranding(),
-        qrCodeDataUrl,
+        output: "base64",
       });
-      persistBillingInfo(session.user.id, supplier);
-      persistClient(session.user.id, customer);
-      persistBranding(session.user.id);
+      const pdfFilename = `faktura-${d.docNumber || "bez-cisla"}.pdf`;
 
-      // Vystavená faktura se rovnou objeví ve Sledování faktur (faktury.html)
-      // - dřív bylo potřeba ji tam po vygenerování ještě jednou ručně opsat.
-      insertInvoice(session.user.id, {
-        direction: "vystavena",
-        number: val("f-doc-number"),
-        counterpartyName: customer.name,
-        counterpartyIco: customer.ico,
-        issueDate: val("f-issue-date"),
-        dueDate: val("f-due-date"),
-        amount: totalBase + totalVat,
-        vatAmount: totalVat,
-      }).catch((err) => console.error("Nepodařilo se uložit fakturu do evidence:", err.message));
-    });
+      await sendInvoiceEmail(session.access_token, {
+        toEmail: d.customer.email,
+        supplierName: d.supplier.name,
+        docNumber: d.docNumber,
+        pdfBase64,
+        pdfFilename,
+      });
+
+      persistFakturaSideEffects(d);
+      await archiveDocument(session.user.id, {
+        docType: "faktura",
+        docNumber: d.docNumber,
+        counterpartyName: d.customer.name,
+        amount: d.totalBase + d.totalVat,
+        blob: base64ToBlob(pdfBase64),
+        filename: pdfFilename,
+      });
+      setStatus(statusEl, `Odesláno na ${d.customer.email}.`);
+    } catch (err) {
+      console.error("Odeslání faktury e-mailem selhalo:", err);
+      setStatus(statusEl, `Nepovedlo se odeslat e-mail (${err.message}).`, true);
+    } finally {
+      btn.disabled = false;
+      btn.textContent = originalText;
+    }
   });
 }
 
@@ -393,26 +497,42 @@ function initStorno(profile, session, isVatPayer) {
         ico: val("s-customer-ico"),
         dic: val("s-customer-dic"),
       };
+      const docNumber = val("s-doc-number");
+      const correctedBase = num("s-corrected-base");
+      const correctedVat = isVatPayer ? num("s-corrected-vat") : 0;
+      const originalBase = num("s-original-base");
+      const originalVat = isVatPayer ? num("s-original-vat") : 0;
       const { generateStornoPdf } = await import("./pdf-documents.js");
-      generateStornoPdf({
+      const blob = generateStornoPdf({
         isVatPayer,
         supplier,
         customer,
-        docNumber: val("s-doc-number"),
+        docNumber,
         issueDate: val("s-issue-date"),
         originalDocNumber: val("s-original-doc-number"),
         originalIssueDate: val("s-original-issue-date"),
         discoveryDate: val("s-discovery-date"),
         reason: val("s-reason"),
-        originalBase: num("s-original-base"),
-        correctedBase: num("s-corrected-base"),
-        originalVat: isVatPayer ? num("s-original-vat") : 0,
-        correctedVat: isVatPayer ? num("s-corrected-vat") : 0,
+        originalBase,
+        correctedBase,
+        originalVat,
+        correctedVat,
         branding: currentBranding(),
+        output: "blob",
       });
+      const filename = `storno-faktury-${new Date().toISOString().slice(0, 10)}.pdf`;
+      downloadBlob(blob, filename);
       persistBillingInfo(session.user.id, supplier);
       persistClient(session.user.id, customer);
       persistBranding(session.user.id);
+      await archiveDocument(session.user.id, {
+        docType: "storno",
+        docNumber,
+        counterpartyName: customer.name,
+        amount: Math.abs(correctedBase + correctedVat - (originalBase + originalVat)),
+        blob,
+        filename,
+      });
     });
   });
 }
@@ -431,23 +551,36 @@ function initUpominka(profile, session) {
     withPdfDownload(btn, statusEl, async () => {
       const supplier = { name: val("u-supplier-name"), address: val("u-supplier-address") };
       const customer = { name: val("u-customer-name"), address: val("u-customer-address") };
+      const amount = num("u-amount");
+      const originalDocNumber = val("u-original-doc-number");
       const { generateUpominkaPdf } = await import("./pdf-documents.js");
-      generateUpominkaPdf({
+      const blob = generateUpominkaPdf({
         supplier,
         customer,
         issueDate: val("u-issue-date"),
-        originalDocNumber: val("u-original-doc-number"),
+        originalDocNumber,
         originalIssueDate: val("u-original-issue-date"),
         originalDueDate: val("u-original-due-date"),
-        amount: num("u-amount"),
+        amount,
         newDueDate: val("u-new-due-date"),
         includeInterestNote: document.getElementById("u-include-interest").checked,
         note: val("u-note"),
         branding: currentBranding(),
+        output: "blob",
       });
+      const filename = `upominka-${new Date().toISOString().slice(0, 10)}.pdf`;
+      downloadBlob(blob, filename);
       persistBillingInfo(session.user.id, { ...supplier, ico: profile.ico, dic: profile.dic });
       persistClient(session.user.id, customer);
       persistBranding(session.user.id);
+      await archiveDocument(session.user.id, {
+        docType: "upominka",
+        docNumber: originalDocNumber,
+        counterpartyName: customer.name,
+        amount,
+        blob,
+        filename,
+      });
     });
   });
 }
@@ -473,12 +606,13 @@ function initSmlouva(profile, session, isVatPayer) {
         dic: isVatPayer ? val("c-contractor-dic") : "",
       };
       const client = { name: val("c-client-name"), address: val("c-client-address"), ico: val("c-client-ico") };
+      const price = num("c-price");
       const { generateSmlouvaPdf } = await import("./pdf-documents.js");
-      generateSmlouvaPdf({
+      const blob = generateSmlouvaPdf({
         contractor,
         client,
         subject: val("c-subject"),
-        price: num("c-price"),
+        price,
         isVatPayer,
         vatRate: Number(document.getElementById("c-vat-rate").value) || 0,
         paymentMethod: val("c-payment-method"),
@@ -487,10 +621,21 @@ function initSmlouva(profile, session, isVatPayer) {
         signDate: val("c-sign-date"),
         note: val("c-note"),
         branding: currentBranding(),
+        output: "blob",
       });
+      const filename = `smlouva-o-dilo-${new Date().toISOString().slice(0, 10)}.pdf`;
+      downloadBlob(blob, filename);
       persistBillingInfo(session.user.id, contractor);
       persistClient(session.user.id, client);
       persistBranding(session.user.id);
+      await archiveDocument(session.user.id, {
+        docType: "smlouva",
+        docNumber: null,
+        counterpartyName: client.name,
+        amount: price,
+        blob,
+        filename,
+      });
     });
   });
 }

@@ -178,6 +178,24 @@ export async function cancelSubscription(accessToken) {
   return data;
 }
 
+// Odeslání faktury e-mailem (generator-dokumentu.html) - volá edge funkci
+// send-invoice-email, která PDF přiloží a pošle přes Resend. Viz komentář
+// tam k ověření uživatele z JWT.
+export async function sendInvoiceEmail(accessToken, { toEmail, supplierName, docNumber, message, pdfBase64, pdfFilename }) {
+  const res = await fetch(`${cfg.supabaseUrl}/functions/v1/send-invoice-email`, {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+      Authorization: `Bearer ${accessToken}`,
+      apikey: cfg.supabaseAnonKey,
+    },
+    body: JSON.stringify({ toEmail, supplierName, docNumber, message, pdfBase64, pdfFilename }),
+  });
+  const data = await res.json();
+  if (!res.ok) throw new Error(data.error || `Chyba serveru (${res.status})`);
+  return data;
+}
+
 export async function saveProfile(userId, { legalForm, vatPayer, note, ico, dic, companyName, address }) {
   const { error } = await supabase
     .from("profiles")
@@ -376,6 +394,96 @@ export async function setInvoicePaid(id, paid) {
 
 export async function deleteInvoice(id) {
   const { error } = await supabase.from("invoices").delete().eq("id", id);
+  if (error) throw error;
+}
+
+// --- Archiv vystavených dokladů (26_schema_document_archive.sql) -----------
+// Bucket "documents" je privátní - cesta objektu je vždy "<user_id>/<soubor>",
+// RLS na storage.objects podle toho ověřuje vlastníka (viz migrace).
+
+export async function uploadGeneratedDocument(userId, { docType, docNumber, counterpartyName, amount, pdfBlob, filename }) {
+  const path = `${userId}/${Date.now()}-${filename}`;
+  const { error: uploadError } = await supabase.storage.from("documents").upload(path, pdfBlob, { contentType: "application/pdf" });
+  if (uploadError) throw uploadError;
+
+  const { data, error } = await supabase
+    .from("generated_documents")
+    .insert({
+      user_id: userId,
+      doc_type: docType,
+      doc_number: docNumber || null,
+      counterparty_name: counterpartyName || null,
+      amount: amount || null,
+      storage_path: path,
+    })
+    .select()
+    .single();
+  if (error) throw error;
+  return data;
+}
+
+export async function listGeneratedDocuments(userId) {
+  const { data, error } = await supabase
+    .from("generated_documents")
+    .select("*")
+    .eq("user_id", userId)
+    .order("created_at", { ascending: false });
+  if (error) throw error;
+  return data;
+}
+
+export async function getDocumentDownloadUrl(storagePath) {
+  const { data, error } = await supabase.storage.from("documents").createSignedUrl(storagePath, 300);
+  if (error) throw error;
+  return data.signedUrl;
+}
+
+export async function deleteGeneratedDocument(id, storagePath) {
+  const { error: storageError } = await supabase.storage.from("documents").remove([storagePath]);
+  if (storageError) throw storageError;
+  const { error } = await supabase.from("generated_documents").delete().eq("id", id);
+  if (error) throw error;
+}
+
+// --- Opakující se faktury (27_schema_recurring_invoices.sql) ---------------
+
+export async function listRecurringInvoices(userId) {
+  const { data, error } = await supabase
+    .from("recurring_invoices")
+    .select("*")
+    .eq("user_id", userId)
+    .order("next_run_date", { ascending: true });
+  if (error) throw error;
+  return data;
+}
+
+export async function insertRecurringInvoice(userId, { counterpartyName, counterpartyIco, amount, vatAmount, note, intervalUnit, dueDays, nextRunDate }) {
+  const { data, error } = await supabase
+    .from("recurring_invoices")
+    .insert({
+      user_id: userId,
+      counterparty_name: counterpartyName,
+      counterparty_ico: counterpartyIco || null,
+      amount,
+      vat_amount: vatAmount || 0,
+      note: note || null,
+      interval_unit: intervalUnit,
+      due_days: dueDays,
+      next_run_date: nextRunDate,
+    })
+    .select()
+    .single();
+  if (error) throw error;
+  return data;
+}
+
+export async function setRecurringInvoiceActive(id, active) {
+  const { error } = await supabase.from("recurring_invoices").update({ active }).eq("id", id);
+  if (error) throw error;
+}
+
+export async function deleteRecurringInvoice(id) {
+  const { error } = await supabase.from("recurring_invoices").delete().eq("id", id);
   if (error) throw error;
 }
 

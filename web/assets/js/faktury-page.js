@@ -7,6 +7,10 @@ import {
   setInvoicePaid,
   listClients,
   upsertClientByName,
+  listRecurringInvoices,
+  insertRecurringInvoice,
+  setRecurringInvoiceActive,
+  deleteRecurringInvoice,
 } from "./supabase-client.js";
 import { suggestNextInvoiceNumber } from "./invoice-numbering.js";
 
@@ -170,9 +174,71 @@ function renderTable(invoices) {
   });
 }
 
+const cashflowTitleEl = document.getElementById("cashflow-title");
+const cashflowRowsEl = document.getElementById("cashflow-rows");
+const cashflowEmptyEl = document.getElementById("cashflow-empty");
+
+// Rozdělí neuhrazené faktury podle splatnosti do měsíčních "kbelíků" -
+// po splatnosti, tento a další dva měsíce, a pak souhrnně později/bez data.
+function cashflowBuckets(invoices) {
+  const unpaid = invoices.filter((i) => !i.paid);
+  const now = new Date();
+  const monthKeys = [0, 1, 2].map((offset) => {
+    const d = new Date(now.getFullYear(), now.getMonth() + offset, 1);
+    return { key: `${d.getFullYear()}-${d.getMonth()}`, label: d.toLocaleDateString("cs-CZ", { month: "long", year: "numeric" }) };
+  });
+
+  const buckets = [
+    { key: "overdue", label: "Po splatnosti", amount: 0, overdue: true },
+    ...monthKeys.map((m) => ({ key: m.key, label: m.label, amount: 0, overdue: false })),
+    { key: "later", label: "Později", amount: 0, overdue: false },
+  ];
+
+  for (const inv of unpaid) {
+    const amount = Number(inv.amount);
+    if (!inv.due_date) {
+      buckets.find((b) => b.key === "later").amount += amount;
+      continue;
+    }
+    if (inv.due_date < today) {
+      buckets.find((b) => b.key === "overdue").amount += amount;
+      continue;
+    }
+    const d = new Date(inv.due_date);
+    const key = `${d.getFullYear()}-${d.getMonth()}`;
+    const target = buckets.find((b) => b.key === key);
+    (target || buckets.find((b) => b.key === "later")).amount += amount;
+  }
+
+  return buckets.filter((b) => b.amount > 0);
+}
+
+function renderCashflow(invoices) {
+  cashflowTitleEl.textContent = direction === "vystavena" ? "Výhled plateb od klientů" : "Výhled plateb dodavatelům";
+  const buckets = cashflowBuckets(invoices);
+  if (!buckets.length) {
+    cashflowRowsEl.innerHTML = "";
+    cashflowEmptyEl.classList.remove("hidden");
+    return;
+  }
+  cashflowEmptyEl.classList.add("hidden");
+  const max = Math.max(...buckets.map((b) => b.amount));
+  cashflowRowsEl.innerHTML = buckets
+    .map(
+      (b) => `
+      <div class="cashflow-row">
+        <span class="cashflow-row-label">${b.label}</span>
+        <div class="cashflow-bar"><div class="cashflow-bar-fill ${b.overdue ? "overdue" : ""}" style="width:${Math.max(4, (b.amount / max) * 100)}%"></div></div>
+        <span class="cashflow-row-amount">${formatKc(b.amount)}</span>
+      </div>`
+    )
+    .join("");
+}
+
 function rerender() {
   const invoices = invoicesForDirection();
   renderSummary(invoices);
+  renderCashflow(invoices);
   renderTable(invoices);
 }
 
@@ -221,6 +287,110 @@ form.addEventListener("submit", async (e) => {
   }
 });
 
+// --- Opakující se faktury (27_schema_recurring_invoices.sql) ---------------
+// Šablona pro pravidelného klienta - denní cron (recurring-invoices-run)
+// založí evidenční záznam a pošle připomínku, samotné PDF appka negeneruje
+// automaticky (viz komentář v migraci), takže tenhle panel jen spravuje
+// šablony, ne hotové doklady.
+
+const INTERVAL_LABEL = { monthly: "Měsíčně", quarterly: "Čtvrtletně", yearly: "Ročně" };
+let allRecurring = [];
+const recurringForm = document.getElementById("recurring-form");
+const recurringListEl = document.getElementById("recurring-list");
+
+function renderRecurringList() {
+  if (!allRecurring.length) {
+    recurringListEl.innerHTML = `<p class="form-hint">Zatím žádné opakování nastaveno.</p>`;
+    return;
+  }
+  recurringListEl.innerHTML = allRecurring
+    .map(
+      (r) => `
+      <div class="recurring-row">
+        <span>${r.counterparty_name} · ${formatKc(r.amount)} · ${INTERVAL_LABEL[r.interval_unit]} · příště ${new Date(r.next_run_date).toLocaleDateString("cs-CZ")}${r.active ? "" : " · pozastaveno"}</span>
+        <span class="recurring-actions">
+          <button type="button" class="recurring-action-btn" data-toggle="${r.id}">${r.active ? "Pozastavit" : "Obnovit"}</button>
+          <button type="button" class="list-row-delete" data-del-recurring="${r.id}" aria-label="Smazat"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18" /></svg></button>
+        </span>
+      </div>`
+    )
+    .join("");
+
+  recurringListEl.querySelectorAll("[data-toggle]").forEach((btn) => {
+    btn.addEventListener("click", async () => {
+      const id = Number(btn.dataset.toggle);
+      const r = allRecurring.find((x) => x.id === id);
+      if (!r) return;
+      btn.disabled = true;
+      try {
+        await setRecurringInvoiceActive(id, !r.active);
+        r.active = !r.active;
+        renderRecurringList();
+      } catch (err) {
+        alert(`Nepodařilo se změnit stav opakování (${err.message}).`);
+        btn.disabled = false;
+      }
+    });
+  });
+  recurringListEl.querySelectorAll("[data-del-recurring]").forEach((btn) => {
+    btn.addEventListener("click", async () => {
+      const id = Number(btn.dataset.delRecurring);
+      if (!confirm("Zrušit toto opakování?")) return;
+      btn.disabled = true;
+      try {
+        await deleteRecurringInvoice(id);
+        allRecurring = allRecurring.filter((x) => x.id !== id);
+        renderRecurringList();
+      } catch (err) {
+        alert(`Nepodařilo se smazat opakování (${err.message}).`);
+        btn.disabled = false;
+      }
+    });
+  });
+}
+
+recurringForm.addEventListener("submit", async (e) => {
+  e.preventDefault();
+  const btn = document.getElementById("recurring-submit");
+  btn.disabled = true;
+  const original = btn.textContent;
+  btn.textContent = "Ukládám…";
+  try {
+    const counterpartyName = document.getElementById("r-counterparty").value.trim();
+    const counterpartyIco = document.getElementById("r-counterparty-ico").value.trim();
+    const created = await insertRecurringInvoice(userId, {
+      counterpartyName,
+      counterpartyIco,
+      amount: Number(document.getElementById("r-amount").value),
+      vatAmount: document.getElementById("r-vat").value ? Number(document.getElementById("r-vat").value) : 0,
+      intervalUnit: document.getElementById("r-interval").value,
+      dueDays: Number(document.getElementById("r-due-days").value) || 14,
+      nextRunDate: document.getElementById("r-next-date").value,
+    });
+    allRecurring.push(created);
+    allRecurring.sort((a, b) => new Date(a.next_run_date) - new Date(b.next_run_date));
+    renderRecurringList();
+    recurringForm.reset();
+    document.getElementById("r-due-days").value = 14;
+    document.getElementById("r-next-date").value = today;
+
+    if (counterpartyName) {
+      try {
+        await upsertClientByName(userId, { name: counterpartyName, ico: counterpartyIco });
+        knownClients = await listClients(userId);
+        renderClientsDatalist();
+      } catch (err) {
+        console.error("Nepodařilo se uložit klienta do databáze:", err.message);
+      }
+    }
+  } catch (err) {
+    alert(`Nepodařilo se nastavit opakování (${err.message}).`);
+  } finally {
+    btn.disabled = false;
+    btn.textContent = original;
+  }
+});
+
 (async () => {
   const result = await requireOnboardedProfile();
   if (!result) return;
@@ -240,6 +410,15 @@ form.addEventListener("submit", async (e) => {
   } catch (err) {
     console.error("Nepodařilo se načíst klienty:", err.message);
   }
+
+  document.getElementById("r-next-date").value = today;
+  try {
+    allRecurring = await listRecurringInvoices(userId);
+  } catch (err) {
+    console.error("Nepodařilo se načíst opakující se faktury:", err.message);
+    allRecurring = [];
+  }
+  renderRecurringList();
 
   loadingEl.classList.add("hidden");
   shellEl.classList.remove("hidden");

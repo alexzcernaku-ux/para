@@ -271,16 +271,23 @@ function partyLines(p) {
   return [p.name, p.address, p.ico ? `IČO: ${p.ico}` : null, p.dic ? `DIČ: ${p.dic}` : null];
 }
 
-function saveDoc(doc, prefix) {
+// output: undefined (výchozí) stáhne PDF jako soubor; "base64" ho vrátí jako
+// base64 string bez data-URI hlavičky (odeslání e-mailem, viz "Odeslat
+// e-mailem" v generator-page.js); "blob" vrátí Blob (uložení do archivu ve
+// Storage, viz uploadGeneratedDocument v supabase-client.js).
+function saveDoc(doc, prefix, output) {
+  if (output === "base64") return doc.output("datauristring").split(",")[1];
+  if (output === "blob") return doc.output("blob");
   const dateStr = new Date().toISOString().slice(0, 10);
   doc.save(`${prefix}-${dateStr}.pdf`);
+  return null;
 }
 
 // ---------------------------------------------------------------------------
 // 1. FAKTURA
 // ---------------------------------------------------------------------------
 export function generateFakturaPdf(data) {
-  const { isVatPayer, supplier, customer, docNumber, issueDate, taxPointDate, dueDate, paymentMethod, accountNumber, items, note, branding, qrCodeDataUrl } = data;
+  const { isVatPayer, supplier, customer, docNumber, issueDate, taxPointDate, dueDate, paymentMethod, accountNumber, items, note, branding, qrCodeDataUrl, output } = data;
   const accent = branding?.accentColor ? hexToRgb(branding.accentColor) : INDIGO;
 
   const doc = new jsPDF({ unit: "mm", format: "a4" });
@@ -389,7 +396,7 @@ export function generateFakturaPdf(data) {
       : `${DISCLAIMER} Náležitosti účetního dokladu dle §11 zákona č. 563/1991 Sb., o účetnictví.`,
     branding?.footerNote
   );
-  saveDoc(doc, "faktura");
+  return saveDoc(doc, "faktura", output);
 }
 
 // ---------------------------------------------------------------------------
@@ -411,6 +418,7 @@ export function generateStornoPdf(data) {
     originalVat,
     correctedVat,
     branding,
+    output,
   } = data;
   const accent = branding?.accentColor ? hexToRgb(branding.accentColor) : INDIGO;
 
@@ -478,14 +486,14 @@ export function generateStornoPdf(data) {
       : DISCLAIMER,
     branding?.footerNote
   );
-  saveDoc(doc, "storno-faktury");
+  return saveDoc(doc, "storno-faktury", output);
 }
 
 // ---------------------------------------------------------------------------
 // 3. UPOMÍNKA
 // ---------------------------------------------------------------------------
 export function generateUpominkaPdf(data) {
-  const { supplier, customer, issueDate, originalDocNumber, originalIssueDate, originalDueDate, amount, newDueDate, includeInterestNote, note, branding } = data;
+  const { supplier, customer, issueDate, originalDocNumber, originalIssueDate, originalDueDate, amount, newDueDate, includeInterestNote, note, branding, output } = data;
   const accent = branding?.accentColor ? hexToRgb(branding.accentColor) : INDIGO;
 
   const doc = new jsPDF({ unit: "mm", format: "a4" });
@@ -530,14 +538,14 @@ export function generateUpominkaPdf(data) {
   }
 
   drawFooter(doc, DISCLAIMER, branding?.footerNote);
-  saveDoc(doc, "upominka");
+  return saveDoc(doc, "upominka", output);
 }
 
 // ---------------------------------------------------------------------------
 // 4. SMLOUVA O DÍLO
 // ---------------------------------------------------------------------------
 export function generateSmlouvaPdf(data) {
-  const { contractor, client, subject, price, isVatPayer, vatRate, paymentMethod, completionDate, signPlace, signDate, note, branding } = data;
+  const { contractor, client, subject, price, isVatPayer, vatRate, paymentMethod, completionDate, signPlace, signDate, note, branding, output } = data;
   const accent = branding?.accentColor ? hexToRgb(branding.accentColor) : INDIGO;
 
   const doc = new jsPDF({ unit: "mm", format: "a4" });
@@ -610,5 +618,5 @@ export function generateSmlouvaPdf(data) {
     `${DISCLAIMER} Vzorová smlouva podle §2586 a násl. zákona č. 89/2012 Sb. - u nestandardních ujednání doporučujeme právní kontrolu.`,
     branding?.footerNote
   );
-  saveDoc(doc, "smlouva-o-dilo");
+  return saveDoc(doc, "smlouva-o-dilo", output);
 }
