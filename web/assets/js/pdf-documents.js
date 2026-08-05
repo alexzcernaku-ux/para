@@ -280,7 +280,7 @@ function saveDoc(doc, prefix) {
 // 1. FAKTURA
 // ---------------------------------------------------------------------------
 export function generateFakturaPdf(data) {
-  const { isVatPayer, supplier, customer, docNumber, issueDate, taxPointDate, dueDate, paymentMethod, accountNumber, items, note, branding } = data;
+  const { isVatPayer, supplier, customer, docNumber, issueDate, taxPointDate, dueDate, paymentMethod, accountNumber, items, note, branding, qrCodeDataUrl } = data;
   const accent = branding?.accentColor ? hexToRgb(branding.accentColor) : INDIGO;
 
   const doc = new jsPDF({ unit: "mm", format: "a4" });
@@ -297,10 +297,15 @@ export function generateFakturaPdf(data) {
     { label: "Forma úhrady", value: paymentMethod || "-" },
   ]);
   if (accountNumber) {
+    // POZOR: dřív se tohle kreslilo na "y - 8", což je skoro přesně stejná
+    // výška jako řádek hodnot ve drawFactsRow o pár řádků výš (ta vrací
+    // y + 16, hodnoty ale kreslí na y + 6) - přepisovalo se to přes datum
+    // splatnosti. Teď jede až PO faktech, ne zpátky přes ně.
     doc.setFont("PlusJakartaSans", "normal");
     doc.setFontSize(9.5);
     doc.setTextColor(...SLATE);
-    doc.text(`Číslo účtu: ${accountNumber}`, MARGIN, y - 8);
+    doc.text(`Číslo účtu: ${accountNumber}`, MARGIN, y);
+    y += 8;
   }
 
   const columns = isVatPayer
@@ -347,7 +352,20 @@ export function generateFakturaPdf(data) {
   } else {
     summaryRows.push({ label: "Celkem k úhradě", value: fmtMoney(totalBase), strong: true });
   }
+  const beforeSummaryY = y;
   y = drawSummaryRows(doc, y, state, summaryRows);
+
+  if (qrCodeDataUrl) {
+    // Vedle souhrnu vlevo, ne přes něj - drawSummaryRows kreslí do pravého
+    // sloupce (boxWidth 78mm od pravého okraje), tady je místa dost.
+    const qrSize = 28;
+    doc.addImage(qrCodeDataUrl, "PNG", MARGIN, beforeSummaryY, qrSize, qrSize);
+    doc.setFont("PlusJakartaSans", "normal");
+    doc.setFontSize(8);
+    doc.setTextColor(...MUTED);
+    doc.text("QR platba - naskenujte v bankovní aplikaci", MARGIN, beforeSummaryY + qrSize + 5);
+    y = Math.max(y, beforeSummaryY + qrSize + 9);
+  }
 
   if (!isVatPayer) {
     y = ensureSpace(doc, y, 8, state);

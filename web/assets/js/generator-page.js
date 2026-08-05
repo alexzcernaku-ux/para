@@ -12,8 +12,26 @@ import {
   updateInvoiceBranding,
   insertInvoice,
 } from "./supabase-client.js";
+import { csAccountToIban, buildSpdString } from "./qr-platba.js";
 
 let knownClients = [];
+
+// QR Platba (SPD) - vygeneruje se, jen když jde číslo účtu spolehlivě
+// převést na IBAN (viz csAccountToIban); jinak faktura vznikne prostě bez
+// QR kódu, ne s nesmyslným/špatným kódem.
+async function buildInvoiceQrCode({ accountNumber, amountKc, docNumber }) {
+  if (!accountNumber) return null;
+  const iban = csAccountToIban(accountNumber);
+  if (!iban) return null;
+  try {
+    const QRCode = (await import("https://esm.sh/qrcode@1.5.3")).default;
+    const spd = buildSpdString({ iban, amountKc, variableSymbol: docNumber, message: docNumber ? `FAKTURA ${docNumber}` : "" });
+    return await QRCode.toDataURL(spd, { errorCorrectionLevel: "M", margin: 1, width: 300 });
+  } catch (err) {
+    console.error("Nepodařilo se vygenerovat QR platbu:", err.message);
+    return null;
+  }
+}
 
 function renderClientsDatalist() {
   const el = document.getElementById("clients-datalist");
@@ -301,20 +319,25 @@ function initFaktura(profile, session, isVatPayer) {
         if (isVatPayer) totalVat += lineBase * (it.vatRate / 100);
       });
 
+      const accountNumber = val("f-account-number");
+      const docNumber = val("f-doc-number");
+      const qrCodeDataUrl = await buildInvoiceQrCode({ accountNumber, amountKc: totalBase + totalVat, docNumber });
+
       const { generateFakturaPdf } = await import("./pdf-documents.js");
       generateFakturaPdf({
         isVatPayer,
         supplier,
         customer,
-        docNumber: val("f-doc-number"),
+        docNumber,
         issueDate: val("f-issue-date"),
         taxPointDate: val("f-tax-point-date"),
         dueDate: val("f-due-date"),
         paymentMethod: val("f-payment-method"),
-        accountNumber: val("f-account-number"),
+        accountNumber,
         items,
         note: val("f-note"),
         branding: currentBranding(),
+        qrCodeDataUrl,
       });
       persistBillingInfo(session.user.id, supplier);
       persistClient(session.user.id, customer);
