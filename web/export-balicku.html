@@ -22,6 +22,43 @@
       <img src="assets/img/logo/logo-primary-light.png" alt="Para" style="height:29px" />
     </a>
     <div style="display:flex; align-items:center; gap:16px;">
+      <div class="app-tools-menu">
+        <button type="button" class="btn btn-secondary app-topbar-btn" id="tools-menu-btn" aria-haspopup="true" aria-expanded="false">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1.5" /><rect x="14" y="3" width="7" height="7" rx="1.5" /><rect x="3" y="14" width="7" height="7" rx="1.5" /><rect x="14" y="14" width="7" height="7" rx="1.5" /></svg>
+          Nástroje
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="app-tools-caret"><path d="M6 9l6 6 6-6" /></svg>
+        </button>
+        <div class="app-tools-panel hidden" id="tools-menu-panel">
+          <div class="app-tools-group">
+            <div class="app-tools-group-label">Daň z příjmů</div>
+            <a href="dap-generator.html"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9M16.5 3.5a2.12 2.12 0 013 3L7 19l-4 1 1-4L16.5 3.5z" /></svg>Vyplnit přiznání</a>
+            <a href="kontrola-priznani.html"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 11l3 3L22 4" /><path d="M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11" /></svg>Kontrola přiznání</a>
+          </div>
+          <div class="app-tools-group">
+            <div class="app-tools-group-label">DPH</div>
+            <a href="dph-generator.html"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9M16.5 3.5a2.12 2.12 0 013 3L7 19l-4 1 1-4L16.5 3.5z" /></svg>Vyplnit DPH</a>
+            <a href="kontrola-dph.html"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 11l3 3L22 4" /><path d="M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11" /></svg>Kontrola DPH</a>
+            <a href="kontrola-kh.html"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 11l3 3L22 4" /><path d="M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11" /></svg>Kontrola KH</a>
+          </div>
+          <div class="app-tools-group">
+            <div class="app-tools-group-label">Evidence</div>
+            <a href="evidence.html"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19V9M12 19V5M20 19v-7" /><path d="M4 19h16" /></svg>Příjmy a výdaje</a>
+            <a href="faktury.html"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 12h6M9 16h6M9 8h1" /><path d="M14 3H7a2 2 0 00-2 2v14a2 2 0 002 2h10a2 2 0 002-2V8z" /><path d="M14 3v5h5" /></svg>Sledování faktur</a>
+            <a href="klienti.html"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4" /><path d="M4 20c0-4 3.5-7 8-7s8 3 8 7" /></svg>Klienti</a>
+            <a href="kniha-jizd.html"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 17h14M5 17a2 2 0 01-2-2v-1a2 2 0 012-2l1.5-4.5A2 2 0 018.4 6h7.2a2 2 0 011.9 1.5L19 12a2 2 0 012 2v1a2 2 0 01-2 2M5 17a2 2 0 002 2h0a2 2 0 002-2M15 17a2 2 0 002 2h0a2 2 0 002-2" /></svg>Kniha jízd</a>
+            <a href="import-vypisu.html"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 16V4M12 4L7 9M12 4l5 5" /><path d="M5 16v2a2 2 0 002 2h10a2 2 0 002-2v-2" /></svg>Import výpisu</a>
+          </div>
+          <div class="app-tools-group">
+            <div class="app-tools-group-label">Ostatní</div>
+            <a href="kontrola-dokladu.html"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 11l3 3L22 4" /><path d="M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11" /></svg>Kontrola dokladu</a>
+            <a href="generator-dokumentu.html"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 12h6M9 16h6M9 8h1" /><path d="M14 3H7a2 2 0 00-2 2v14a2 2 0 002 2h10a2 2 0 002-2V8z" /><path d="M14 3v5h5" /></svg>Generátor dokumentů</a>
+            <a href="prehled-osvc.html"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21l7.78-7.55 1.06-1.06a5.5 5.5 0 000-7.78z" /></svg>Přehled OSVČ</a>
+            <a href="export-balicku.html"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4" /><path d="M7 10l5 5 5-5M12 15V3" /></svg>Export pro účetního</a>
+            <a href="kalkulacky.html"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="3" width="14" height="18" rx="2" /><path d="M8 7h8M8 11h1M12 11h1M16 11h1M8 15h1M12 15h1M16 15h1" /></svg>Kalkulačky</a>
+            <a href="terminy.html"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="16" rx="2" /><path d="M8 3v4M16 3v4M3 10h18" /></svg>Termíny</a>
+          </div>
+        </div>
+      </div>
       <a href="app.html" class="btn btn-secondary">← Zpět do chatu</a>
       <button type="button" class="app-signout-btn" id="signout-btn">Odhlásit se</button>
     </div>
@@ -70,6 +107,8 @@
   };
 </script>
 <script type="module" src="assets/js/export-balicku-page.js"></script>
+
+<script type="module" src="assets/js/tools-menu.js"></script>
 
 </body>
 </html>

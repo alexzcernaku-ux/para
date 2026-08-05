@@ -1294,6 +1294,8 @@ textarea.text-input { resize: vertical; min-height: 70px; font-family: var(--fon
 }
 .app-tools-group a svg { width: 16px; height: 16px; flex-shrink: 0; color: var(--indigo); }
 .app-tools-group a:hover { background: var(--mist); }
+.app-tools-group a.app-tools-current { background: var(--indigo-soft); color: #4338ca; font-weight: 600; }
+.app-tools-group a.app-tools-current svg { color: #4338ca; }
 
 .app-notif-menu { position: relative; }
 .app-notif-btn { position: relative; padding: 8px 10px; }
