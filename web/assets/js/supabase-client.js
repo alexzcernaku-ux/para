@@ -214,7 +214,7 @@ export async function updateProfileBillingInfo(userId, { companyName, ico, dic, 
 // Editace firemních údajů z ucet.html - na rozdíl od saveProfile (onboarding)
 // nešahá na note/onboarded_at, jen na to, co si uživatel může chtít
 // dodatečně opravit (např. špatně načtené ARES údaje, změna DPH režimu).
-export async function updateCompanyInfo(userId, { legalForm, vatPayer, companyName, ico, dic, address }) {
+export async function updateCompanyInfo(userId, { legalForm, vatPayer, companyName, ico, dic, address, lastKnownTaxLiability, ownsBusinessRealEstate }) {
   const { error } = await supabase
     .from("profiles")
     .update({
@@ -224,6 +224,8 @@ export async function updateCompanyInfo(userId, { legalForm, vatPayer, companyNa
       ico: ico || null,
       dic: dic || null,
       address: address || null,
+      last_known_tax_liability: lastKnownTaxLiability || null,
+      owns_business_real_estate: !!ownsBusinessRealEstate,
     })
     .eq("id", userId);
   if (error) throw error;

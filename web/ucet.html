@@ -87,6 +87,18 @@
           <input type="text" id="company-dic-field" class="text-input" placeholder="DIČ (nepovinné)" />
         </div>
         <input type="text" id="company-address-field" class="text-input" placeholder="Adresa sídla / místa podnikání" />
+
+        <div class="wiz-field">
+          <label for="tax-liability-field">Poslední známá daňová povinnost (Kč, nepovinné)</label>
+          <input type="number" id="tax-liability-field" class="text-input" min="0" step="1" placeholder="např. 85000" />
+          <p class="form-hint" style="margin-top: 4px;">Z posledního daňového přiznání - určí, jestli a jak často platíte zálohy na daň z příjmů. Necháte-li prázdné, zálohy se v Termínech nezobrazí.</p>
+        </div>
+
+        <label class="gen-checkbox-row">
+          <input type="checkbox" id="owns-real-estate-field" />
+          Vlastním/užívám nemovitost k podnikání (sídlo, provozovna...)
+        </label>
+
         <button type="submit" class="btn btn-secondary btn-block" id="company-submit">Uložit firemní údaje</button>
       </form>
 
@@ -190,6 +202,8 @@
     document.getElementById("company-ico-field").value = profile.ico || "";
     document.getElementById("company-dic-field").value = profile.dic || "";
     document.getElementById("company-address-field").value = profile.address || "";
+    document.getElementById("tax-liability-field").value = profile.last_known_tax_liability || "";
+    document.getElementById("owns-real-estate-field").checked = !!profile.owns_business_real_estate;
   }
 
   companyForm.addEventListener("submit", async (e) => {
@@ -212,6 +226,8 @@
         ico: document.getElementById("company-ico-field").value.trim(),
         dic: document.getElementById("company-dic-field").value.trim(),
         address: document.getElementById("company-address-field").value.trim(),
+        lastKnownTaxLiability: document.getElementById("tax-liability-field").value ? Number(document.getElementById("tax-liability-field").value) : null,
+        ownsBusinessRealEstate: document.getElementById("owns-real-estate-field").checked,
       });
       submitBtn.textContent = "Uloženo";
       setTimeout(() => (submitBtn.textContent = "Uložit firemní údaje"), 1800);

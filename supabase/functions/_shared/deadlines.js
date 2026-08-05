@@ -122,6 +122,61 @@ export function computeDeadlines(profile, now = new Date(), opts = {}) {
     }
   }
 
+  // Zálohy na daň z příjmů (§ 38a zákona č. 586/1992 Sb.) - platí pro OSVČ
+  // i s.r.o. stejně (§38a je ve společných ustanoveních, netýká se jen
+  // fyzických osob). Appka nemá odkud vzít "poslední známou daňovou
+  // povinnost" sama - dokud ji uživatel nevyplní v Můj účet, zálohy se
+  // vůbec nezobrazují (bezpečný výchozí stav, ne falešné "žádné zálohy").
+  //
+  // Zjednodušení: nepočítá výjimku pro poplatníky s příjmy i ze závislé
+  // činnosti (§38a odst. 4-5 - při dílčím základu ze závislé činnosti
+  // 15-50 % se zálohy platí v poloviční výši, od 50 % vůbec) - profil
+  // appky tenhle poměr netrackuje. U čistě podnikatelských příjmů (bez
+  // souběžného zaměstnání) je to přesné.
+  const taxLiability = Number(profile?.last_known_tax_liability) || 0;
+  if (taxLiability > 30000) {
+    const isQuarterly = taxLiability > 150000;
+    const rate = isQuarterly ? 0.25 : 0.4;
+    const months = isQuarterly ? [2, 5, 8, 11] : [5, 11];
+    const amount = Math.round(taxLiability * rate);
+    for (const y of [now.getFullYear(), now.getFullYear() + 1]) {
+      months.forEach((monthIdx, i) => {
+        items.push({
+          key: `zaloha-dp-${y}-${monthIdx}`,
+          title: "Záloha na daň z příjmů",
+          date: d(y, monthIdx, 15),
+          popis: `${isQuarterly ? "1/4" : "40 %"} poslední známé daňové povinnosti (${taxLiability.toLocaleString("cs-CZ")} Kč) = ${amount.toLocaleString("cs-CZ")} Kč.`,
+          zdroj: `Zákon 586/1992 Sb., § 38a odst. ${isQuarterly ? "4" : "3"}`,
+          kategorie: "zaloha",
+        });
+      });
+    }
+  }
+
+  // Daň z nemovitých věcí (zákon č. 338/1992 Sb.) - týká se jen uživatelů,
+  // kteří vlastní/užívají nemovitost k podnikání (sídlo, provozovna...),
+  // proto se ukazuje jen po explicitním zaškrtnutí v profilu.
+  if (profile?.owns_business_real_estate) {
+    for (const y of [now.getFullYear(), now.getFullYear() + 1]) {
+      items.push({
+        key: `nemovitost-priznani-${y}`,
+        title: "Daňové přiznání k dani z nemovitých věcí",
+        date: d(y, 0, 31),
+        popis: "Jen pokud jste nemovitost nabyli/prodali nebo se změnily rozhodné okolnosti (výměra, účel užívání...) oproti loňsku - jinak se nic nepodává, správce daně vyměří podle loňského přiznání.",
+        zdroj: "Zákon 338/1992 Sb., § 13a",
+        kategorie: "nemovitost",
+      });
+      items.push({
+        key: `nemovitost-splatnost-${y}`,
+        title: "Daň z nemovitých věcí - splatnost",
+        date: d(y, 4, 31),
+        popis: "Do 5 000 Kč najednou. Nad 5 000 Kč lze ve dvou splátkách - do 31. 5. a do 30. 11.",
+        zdroj: "Zákon 338/1992 Sb., § 15",
+        kategorie: "nemovitost",
+      });
+    }
+  }
+
   if (isVatPayer) {
     // DPH přiznání + kontrolní hlášení - do 25 dnů po konci měsíce
     // (daňový řád § 136 odst. 4; § 101e zák. o DPH pro kontrolní hlášení).
