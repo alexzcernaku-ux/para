@@ -25,6 +25,11 @@
       <img src="assets/img/logo/logo-primary-light.png" alt="Para" style="height:29px" />
     </a>
     <div style="display:flex; align-items:center; gap:16px;">
+      <button type="button" class="btn btn-secondary app-topbar-btn cmdk-btn" data-cmdk-open>
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7" /><path d="M21 21l-4.35-4.35" /></svg>
+        Hledat
+        <span class="cmdk-kbd">⌘K</span>
+      </button>
       <div class="app-tools-menu">
         <button type="button" class="btn btn-secondary app-topbar-btn" id="tools-menu-btn" aria-haspopup="true" aria-expanded="false">
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1.5" /><rect x="14" y="3" width="7" height="7" rx="1.5" /><rect x="3" y="14" width="7" height="7" rx="1.5" /><rect x="14" y="14" width="7" height="7" rx="1.5" /></svg>
@@ -91,6 +96,17 @@
       </div>
     </div>
 
+    <div class="card" style="padding: 32px; margin-top: 24px;">
+      <h3 style="margin-bottom: 6px;">Kompletní export všech dat</h3>
+      <p class="form-hint" style="margin-bottom: 18px;">Všechno, co o vás Para eviduje - klienty, faktury, knihu jízd a historii dotazů - jako samostatné CSV soubory. Právo na přenositelnost dat podle GDPR, viz Obchodní podmínky čl. 8.</p>
+      <div style="display:flex; gap: 12px; flex-wrap: wrap;">
+        <button type="button" class="btn btn-secondary" id="export-clients-btn">Klienti ↓</button>
+        <button type="button" class="btn btn-secondary" id="export-invoices-btn">Faktury ↓</button>
+        <button type="button" class="btn btn-secondary" id="export-trips-btn">Kniha jízd ↓</button>
+        <button type="button" class="btn btn-secondary" id="export-history-btn">Historie dotazů ↓</button>
+      </div>
+    </div>
+
     <div class="disclaimer-banner" style="margin-top: 24px;">
       <div class="icon-circle">
         <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 9v4M12 17h.01" /><path d="M10.3 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.7 3.86a2 2 0 00-3.4 0z" /></svg>
@@ -112,6 +128,8 @@
 <script type="module" src="assets/js/export-balicku-page.js"></script>
 
 <script type="module" src="assets/js/tools-menu.js"></script>
+
+<script type="module" src="assets/js/command-palette.js"></script>
 
 </body>
 </html>

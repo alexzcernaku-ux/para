@@ -1,4 +1,4 @@
-import { requireOnboardedProfile, signOut, listLedgerEntries } from "./supabase-client.js";
+import { requireOnboardedProfile, signOut, listLedgerEntries, listClients, listInvoices, listVehicleTrips, listQueryHistory } from "./supabase-client.js";
 import { jsPDF } from "https://esm.sh/jspdf@2.5.1";
 import { PLUS_JAKARTA_SANS_NORMAL_BASE64 } from "./fonts/plus-jakarta-sans-normal.js";
 import { PLUS_JAKARTA_SANS_BOLD_BASE64 } from "./fonts/plus-jakarta-sans-bold.js";
@@ -17,6 +17,7 @@ function formatKc(n) {
 }
 
 let profile = null;
+let userId = null;
 let allEntries = [];
 
 function entriesForYear(y) {
@@ -126,32 +127,107 @@ pdfBtn.addEventListener("click", () => {
   doc.save(`para-podklad-${y}.pdf`);
 });
 
-csvBtn.addEventListener("click", () => {
-  const y = Number(yearSelect.value);
-  const entries = entriesForYear(y);
-  const header = "Datum;Typ;Kategorie;Popis;Částka\n";
-  const rows = entries
-    .map((e) => {
-      const type = e.type === "prijem" ? "Příjem" : "Výdaj";
-      const amount = String(e.amount).replace(".", ",");
-      const esc = (s) => `"${(s || "").replace(/"/g, '""')}"`;
-      return `${e.entry_date};${type};${esc(e.category)};${esc(e.description)};${amount}`;
-    })
-    .join("\n");
-  const blob = new Blob([`﻿${header}${rows}`], { type: "text/csv;charset=utf-8" });
+// Sdílený CSV builder - středníky (ne čárky) a BOM na začátku, ať to jde
+// bez potíží otevřít přímo v české lokalizaci Excelu (desetinná čárka by
+// jinak kolidovala s čárkou jako oddělovačem).
+function downloadCsv(filename, columns, rows) {
+  const esc = (v) => `"${String(v ?? "").replace(/"/g, '""')}"`;
+  const header = columns.join(";") + "\n";
+  const body = rows.map((row) => row.map(esc).join(";")).join("\n");
+  const blob = new Blob([`﻿${header}${body}`], { type: "text/csv;charset=utf-8" });
   const url = URL.createObjectURL(blob);
   const a = document.createElement("a");
   a.href = url;
-  a.download = `para-evidence-${y}.csv`;
+  a.download = filename;
   a.click();
   URL.revokeObjectURL(url);
+}
+
+csvBtn.addEventListener("click", () => {
+  const y = Number(yearSelect.value);
+  const entries = entriesForYear(y);
+  downloadCsv(
+    `para-evidence-${y}.csv`,
+    ["Datum", "Typ", "Kategorie", "Popis", "Částka"],
+    entries.map((e) => [e.entry_date, e.type === "prijem" ? "Příjem" : "Výdaj", e.category, e.description, String(e.amount).replace(".", ",")])
+  );
 });
+
+// --- Kompletní export všech dat (GDPR přenositelnost, viz Obchodní podmínky čl. 8) ---
+
+async function exportButton(btn, run) {
+  const original = btn.textContent;
+  btn.disabled = true;
+  btn.textContent = "Připravuji…";
+  try {
+    await run();
+  } catch (err) {
+    alert(`Export se nepovedl (${err.message}).`);
+  } finally {
+    btn.disabled = false;
+    btn.textContent = original;
+  }
+}
+
+document.getElementById("export-clients-btn").addEventListener("click", (e) =>
+  exportButton(e.currentTarget, async () => {
+    const clients = await listClients(userId);
+    downloadCsv(
+      "para-klienti.csv",
+      ["Název", "IČO", "DIČ", "Adresa", "E-mail", "Telefon", "Poznámka"],
+      clients.map((c) => [c.name, c.ico, c.dic, c.address, c.email, c.phone, c.note])
+    );
+  })
+);
+
+document.getElementById("export-invoices-btn").addEventListener("click", (e) =>
+  exportButton(e.currentTarget, async () => {
+    const invoices = await listInvoices(userId);
+    downloadCsv(
+      "para-faktury.csv",
+      ["Číslo", "Směr", "Odběratel/dodavatel", "IČO", "Vystaveno", "Splatnost", "Částka", "DPH", "Uhrazeno"],
+      invoices.map((i) => [
+        i.number,
+        i.direction === "vystavena" ? "Vystavená" : "Přijatá",
+        i.counterparty_name,
+        i.counterparty_ico,
+        i.issue_date,
+        i.due_date,
+        String(i.amount).replace(".", ","),
+        String(i.vat_amount || 0).replace(".", ","),
+        i.paid ? "Ano" : "Ne",
+      ])
+    );
+  })
+);
+
+document.getElementById("export-trips-btn").addEventListener("click", (e) =>
+  exportButton(e.currentTarget, async () => {
+    const trips = await listVehicleTrips(userId);
+    downloadCsv(
+      "para-kniha-jizd.csv",
+      ["Datum", "Účel", "Trasa", "Km", "Spotřeba l/100km", "Palivo"],
+      trips.map((t) => [t.trip_date, t.purpose, t.route, t.distance_km, t.consumption_l_100km, t.fuel_type])
+    );
+  })
+);
+
+document.getElementById("export-history-btn").addEventListener("click", (e) =>
+  exportButton(e.currentTarget, async () => {
+    const history = await listQueryHistory(userId, 100000);
+    downloadCsv(
+      "para-historie-dotazu.csv",
+      ["Datum", "Dotaz", "Odpověď"],
+      history.map((h) => [new Date(h.created_at).toLocaleString("cs-CZ"), h.question, h.answer])
+    );
+  })
+);
 
 (async () => {
   const result = await requireOnboardedProfile();
   if (!result) return;
   profile = result.profile;
-  const userId = result.session.user.id;
+  userId = result.session.user.id;
 
   try {
     allEntries = await listLedgerEntries(userId);

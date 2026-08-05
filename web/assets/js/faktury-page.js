@@ -8,6 +8,7 @@ import {
   listClients,
   upsertClientByName,
 } from "./supabase-client.js";
+import { suggestNextInvoiceNumber } from "./invoice-numbering.js";
 
 const loadingEl = document.getElementById("page-loading");
 const shellEl = document.getElementById("page-shell");
@@ -113,6 +114,7 @@ function renderTable(invoices) {
           <td data-label="Částka" class="amount">${formatKc(inv.amount)}</td>
           <td data-label="Stav"><button type="button" class="list-status-toggle ${status}" data-id="${inv.id}" data-paid="${inv.paid}">${STATUS_LABEL[status]}</button></td>
           <td data-label="">${canRemind ? `<a href="${remindHref}" target="_blank" class="list-remind-link">Upomínka</a>` : ""}</td>
+          <td data-label=""><button type="button" class="list-row-edit" data-duplicate="${inv.id}" aria-label="Duplikovat (fakturovat znovu)" title="Fakturovat znovu"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" /><path d="M5 15H4a2 2 0 01-2-2V4a2 2 0 012-2h9a2 2 0 012 2v1" /></svg></button></td>
           <td data-label=""><button type="button" class="list-row-delete" data-del="${inv.id}" aria-label="Smazat"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18" /></svg></button></td>
         </tr>`;
     })
@@ -146,6 +148,24 @@ function renderTable(invoices) {
         alert(`Nepodařilo se smazat fakturu (${err.message}).`);
         btn.disabled = false;
       }
+    });
+  });
+  tbody.querySelectorAll("[data-duplicate]").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      const inv = allInvoices.find((i) => i.id === Number(btn.dataset.duplicate));
+      if (!inv) return;
+      counterpartyInput.value = inv.counterparty_name || "";
+      counterpartyIcoInput.value = inv.counterparty_ico || "";
+      document.getElementById("f-amount").value = inv.amount;
+      document.getElementById("f-vat").value = inv.vat_amount || "";
+      document.getElementById("f-issue").value = today;
+      document.getElementById("f-due").value = "";
+      document.getElementById("f-number").value = suggestNextInvoiceNumber(
+        allInvoices.filter((i) => i.direction === direction),
+        new Date().getFullYear()
+      );
+      form.scrollIntoView({ behavior: "smooth", block: "start" });
+      document.getElementById("f-due").focus();
     });
   });
 }

@@ -52,7 +52,12 @@
           Termíny
         </a>
 
-        <div class="app-tools-menu">
+        <button type="button" class="btn btn-secondary app-topbar-btn cmdk-btn" data-cmdk-open>
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7" /><path d="M21 21l-4.35-4.35" /></svg>
+        Hledat
+        <span class="cmdk-kbd">⌘K</span>
+      </button>
+      <div class="app-tools-menu">
           <button type="button" class="btn btn-secondary app-topbar-btn" id="tools-menu-btn" aria-haspopup="true" aria-expanded="false">
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1.5" /><rect x="14" y="3" width="7" height="7" rx="1.5" /><rect x="3" y="14" width="7" height="7" rx="1.5" /><rect x="14" y="14" width="7" height="7" rx="1.5" /></svg>
             Nástroje
@@ -237,6 +242,7 @@
   let profile = null;
   let chatHistory = []; // {role, content} pro kontext posledních zpráv, ne DB historie
   let lastObratStatus = null;
+  let lastOverdueInvoices = [];
 
   function escapeHtml(s) {
     return s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
@@ -263,7 +269,7 @@
     { href: "kalkulacky.html", label: "Kalkulačky", icon: '<rect x="5" y="3" width="14" height="18" rx="2" /><path d="M8 7h8M8 11h1M12 11h1M16 11h1M8 15h1M12 15h1M16 15h1" />' },
   ];
 
-  function renderHomeDashboard(obratStatus) {
+  function renderHomeDashboard(obratStatus, overdueInvoices = []) {
     const empty = document.getElementById("empty-state");
     if (!empty || !profile) return;
     empty.classList.add("app-home");
@@ -271,6 +277,9 @@
     const firstName = (profile.company_name || "").trim().split(/\s+/)[0];
     const greetingName = firstName ? `, ${firstName}` : "";
 
+    // "Co vás čeká" - dřív tu byl jen nejbližší termín, teď k němu přidáváme
+    // i nezaplacené/po splatnosti faktury, ať appka rovnou ukáže obojí, co
+    // stojí za pozornost, ne jen jednu z těch dvou věcí.
     let deadlineHtml = "";
     try {
       const [nextDeadline] = computeDeadlines(profile);
@@ -278,7 +287,7 @@
         const level = urgencyLevel(nextDeadline.zbyvaDni);
         const countdownText =
           nextDeadline.zbyvaDni <= 0 ? "Dnes" : nextDeadline.zbyvaDni === 1 ? "Zítra" : `Za ${nextDeadline.zbyvaDni} dní`;
-        deadlineHtml = `
+        deadlineHtml += `
           <a href="terminy.html" class="app-home-deadline">
             <div class="timeline-item ${level}">
               <div class="timeline-date">
@@ -297,6 +306,20 @@
       }
     } catch (err) {
       console.error("Nepodařilo se spočítat nejbližší termín:", err.message);
+    }
+
+    if (overdueInvoices.length) {
+      const rows = overdueInvoices
+        .slice(0, 3)
+        .map(
+          (inv) => `
+          <a href="faktury.html" class="app-home-todo-item">
+            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 9v4M12 17h.01" /><path d="M10.3 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.7 3.86a2 2 0 00-3.4 0z" /></svg>
+            <span>Po splatnosti: faktura ${inv.number || ""} ${inv.counterparty_name ? `pro ${inv.counterparty_name}` : ""} - ${Math.round(inv.amount).toLocaleString("cs-CZ")} Kč</span>
+          </a>`
+        )
+        .join("");
+      deadlineHtml += `<div class="app-home-todo-list">${rows}</div>`;
     }
 
     let obratHtml = "";
@@ -618,7 +641,7 @@
   newQuestionBtn.addEventListener("click", () => {
     chatHistory = [];
     thread.innerHTML = `<div class="app-empty" id="empty-state"></div>`;
-    renderHomeDashboard(lastObratStatus);
+    renderHomeDashboard(lastObratStatus, lastOverdueInvoices);
     input.focus();
   });
 
@@ -708,8 +731,9 @@
       console.error("Nepodařilo se načíst faktury:", err.message);
     }
     lastObratStatus = obratStatus;
+    lastOverdueInvoices = overdueInvoices;
 
-    renderHomeDashboard(obratStatus);
+    renderHomeDashboard(obratStatus, overdueInvoices);
     renderNotifications(buildNotifications(computeDeadlines(profile), obratStatus, overdueInvoices));
 
     await loadHistory();
@@ -733,6 +757,8 @@
     });
   })();
 </script>
+
+<script type="module" src="assets/js/command-palette.js"></script>
 
 </body>
 </html>

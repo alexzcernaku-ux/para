@@ -25,6 +25,11 @@
       <img src="assets/img/logo/logo-primary-light.png" alt="Para" style="height:29px" />
     </a>
     <div style="display:flex; align-items:center; gap:16px;">
+      <button type="button" class="btn btn-secondary app-topbar-btn cmdk-btn" data-cmdk-open>
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7" /><path d="M21 21l-4.35-4.35" /></svg>
+        Hledat
+        <span class="cmdk-kbd">⌘K</span>
+      </button>
       <div class="app-tools-menu">
         <button type="button" class="btn btn-secondary app-topbar-btn" id="tools-menu-btn" aria-haspopup="true" aria-expanded="false">
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1.5" /><rect x="14" y="3" width="7" height="7" rx="1.5" /><rect x="3" y="14" width="7" height="7" rx="1.5" /><rect x="14" y="14" width="7" height="7" rx="1.5" /></svg>
@@ -92,6 +97,11 @@
         <p class="hint">JPG, PNG nebo PDF, max. 9 MB</p>
         <input type="file" id="file-input" accept="image/jpeg,image/png,image/webp,application/pdf" />
       </div>
+      <button type="button" class="btn btn-secondary kd-camera-btn" id="camera-btn" style="margin-top: 12px;">
+        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M23 19a2 2 0 01-2 2H3a2 2 0 01-2-2V8a2 2 0 012-2h4l2-3h6l2 3h4a2 2 0 012 2z" /><circle cx="12" cy="13" r="4" /></svg>
+        Vyfotit rovnou
+      </button>
+      <input type="file" id="camera-input" accept="image/*" capture="environment" class="hidden" />
 
       <div class="kd-preview hidden" id="preview-row">
         <img id="preview-img" class="hidden" alt="Náhled dokladu" />
@@ -202,6 +212,15 @@
 
   dropzone.addEventListener("click", () => fileInput.click());
   fileInput.addEventListener("change", () => setFile(fileInput.files[0]));
+
+  // Samostatné tlačítko s vlastním <input capture="environment"> - na
+  // mobilu tím jde rovnou vyfotit, aniž by to bralo možnost vybrat
+  // existující fotku z galerie přes dropzone výš (chování "capture" se
+  // mezi prohlížeči liší, takže radši dvě jasné cesty než jedna nejistá).
+  const cameraBtn = document.getElementById("camera-btn");
+  const cameraInput = document.getElementById("camera-input");
+  cameraBtn.addEventListener("click", () => cameraInput.click());
+  cameraInput.addEventListener("change", () => setFile(cameraInput.files[0]));
 
   ["dragenter", "dragover"].forEach((evt) =>
     dropzone.addEventListener(evt, (e) => {
@@ -372,6 +391,8 @@
 </script>
 
 <script type="module" src="assets/js/tools-menu.js"></script>
+
+<script type="module" src="assets/js/command-palette.js"></script>
 
 </body>
 </html>

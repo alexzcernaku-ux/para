@@ -11,8 +11,10 @@ import {
   upsertClientByName,
   updateInvoiceBranding,
   insertInvoice,
+  listInvoices,
 } from "./supabase-client.js";
 import { csAccountToIban, buildSpdString } from "./qr-platba.js";
+import { suggestNextInvoiceNumber } from "./invoice-numbering.js";
 
 let knownClients = [];
 
@@ -535,6 +537,14 @@ function applyPrefillFromQuery() {
     renderClientsDatalist();
   } catch (err) {
     console.error("Nepodařilo se načíst klienty:", err.message);
+  }
+
+  try {
+    const existingInvoices = await listInvoices(session.user.id);
+    const vystavene = existingInvoices.filter((i) => i.direction === "vystavena");
+    document.getElementById("f-doc-number").value = suggestNextInvoiceNumber(vystavene, new Date().getFullYear());
+  } catch (err) {
+    console.error("Nepodařilo se navrhnout číslo faktury:", err.message);
   }
 
   initBrandingPanel(profile);
