@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Kontrola daňového přiznání — Para</title>
+<title>Kontrola daňového přiznání - Para</title>
 <link rel="icon" href="/favicon.ico" sizes="any" />
 <link rel="icon" href="assets/img/logo/logo-mark.png" type="image/png" />
 <link rel="apple-touch-icon" href="assets/img/logo/logo-mark.png" />
@@ -32,7 +32,7 @@
       <img src="assets/img/mascot/mascot-kontroluje.png" alt="Para kontroluje přiznání" class="mascot-img" />
       <span class="eyebrow" style="justify-content:center; display:flex;">Kontrola daňového přiznání</span>
       <h1 style="margin: 10px 0 4px;">Sedí vám čísla v přiznání?</h1>
-      <p>Nahrajte přiznání (25 5405) — přepočítáme řádky výpočtu základu daně a daně ze samostatné činnosti podle vzorců z tiskopisu.</p>
+      <p>Nahrajte přiznání (25 5405) - přepočítáme řádky výpočtu základu daně a daně ze samostatné činnosti podle vzorců z tiskopisu.</p>
       <p style="margin-top: 8px;"><a href="dap-generator.html" style="color: var(--indigo); font-weight: 600;">Ještě přiznání nemáte? Nechte si ho pomoct vyplnit →</a></p>
     </div>
 
@@ -42,7 +42,7 @@
       </div>
       <div>
         <h3>Kontrola výpočtu, ne daňové poradenství</h3>
-        <p>Para ověřuje jen aritmetiku podle vzorců předepsaných tiskopisem — hlavně dílčí základ daně ze samostatné činnosti (§ 7) a navazující výpočet daně. Neposuzuje, jestli jsou vstupní částky (příjmy, výdaje, slevy) samy o sobě správně vyplněné. U důležitých rozhodnutí se poraďte s daňovým poradcem.</p>
+        <p>Para ověřuje jen aritmetiku podle vzorců předepsaných tiskopisem - hlavně dílčí základ daně ze samostatné činnosti (§ 7) a navazující výpočet daně. Neposuzuje, jestli jsou vstupní částky (příjmy, výdaje, slevy) samy o sobě správně vyplněné. U důležitých rozhodnutí se poraďte s daňovým poradcem.</p>
       </div>
     </div>
 
@@ -62,7 +62,7 @@
         <div class="kd-dropzone" id="dropzone">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 16V4M12 4L7 9M12 4l5 5" /><path d="M5 16v2a2 2 0 002 2h10a2 2 0 002-2v-2" /></svg>
           <p>Klikněte nebo přetáhněte fotku či PDF přiznání</p>
-          <p class="hint">Ideálně i s Přílohou č. 1 — JPG, PNG nebo PDF, max. 9 MB</p>
+          <p class="hint">Ideálně i s Přílohou č. 1 - JPG, PNG nebo PDF, max. 9 MB</p>
           <input type="file" id="file-input" accept="image/jpeg,image/png,image/webp,application/pdf" />
         </div>
 
@@ -197,7 +197,7 @@
       <div class="kd-result-summary ${hasIssues ? "issues" : "ok"}">
         <div>
           <div class="kd-doc-type">Kontrola výpočtu</div>
-          <p>${hasIssues ? "Některé řádky nesedí s vzorcem z tiskopisu, nebo je něco potřeba doplnit — podrobnosti níže." : "Zkontrolované řádky odpovídají vzorcům z tiskopisu."}${sourceNote ? " " + sourceNote : ""}</p>
+          <p>${hasIssues ? "Některé řádky nesedí s vzorcem z tiskopisu, nebo je něco potřeba doplnit - podrobnosti níže." : "Zkontrolované řádky odpovídají vzorcům z tiskopisu."}${sourceNote ? " " + sourceNote : ""}</p>
         </div>
       </div>
       <div class="kd-checklist">`;
@@ -211,7 +211,7 @@
         <div class="kd-check-item ${c.stav}">
           <div class="kd-check-icon">${ICONS[c.stav] || ""}</div>
           <div class="kd-check-body">
-            <div class="kd-check-title">ř. ${c.radek} — ${c.popis}</div>
+            <div class="kd-check-title">ř. ${c.radek} - ${c.popis}</div>
             ${c.poznamka ? `<div class="kd-check-note">${c.poznamka}</div>` : ""}
             ${c.poznamkaOdhad ? `<div class="kd-check-para">${c.poznamkaOdhad}</div>` : ""}
             ${compareLine}
@@ -240,7 +240,7 @@
     resetResults();
     if (!file) return;
     if (!["image/jpeg", "image/png", "image/webp", "application/pdf"].includes(file.type)) {
-      showError("Nepodporovaný formát — nahrajte prosím JPG, PNG nebo PDF.");
+      showError("Nepodporovaný formát - nahrajte prosím JPG, PNG nebo PDF.");
       return;
     }
     if (file.size > MAX_FILE_BYTES) {
@@ -307,7 +307,7 @@
       const note = data.poznamka
         ? `Poznámka ke čtení dokumentu: ${data.poznamka}`
         : nejisteCount
-        ? `U ${nejisteCount} řádků si model nebyl jistý přečtenou hodnotou — zkontrolujte je ručně.`
+        ? `U ${nejisteCount} řádků si model nebyl jistý přečtenou hodnotou - zkontrolujte je ručně.`
         : "";
       renderChecks(checks, note);
     } catch (err) {

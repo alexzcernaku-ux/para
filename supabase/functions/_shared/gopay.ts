@@ -1,4 +1,4 @@
-// Tenký klient nad GoPay REST API — jen operace, které appka potřebuje pro
+// Tenký klient nad GoPay REST API - jen operace, které appka potřebuje pro
 // předplatné (opakovaná platba na vyžádání, ne jednorázové platby).
 //
 // Ověřeno přímo z github.com/gopaycommunity/gopay-api-documentation
@@ -7,16 +7,16 @@
 //     grant_type=client_credentials, scope=payment-all (payment-create by šlo
 //     jen na založení platby, ne na status/create-recurrence).
 //   - Založení opakované platby: POST /payments/payment,
-//     recurrence.recurrence_cycle="ON_DEMAND" — další platby pak jen na
+//     recurrence.recurrence_cycle="ON_DEMAND" - další platby pak jen na
 //     vyžádání přes create-recurrence, ne automaticky.
 //   - Další platba: POST /payments/payment/{parent_id}/create-recurrence.
 //   - Stav platby: GET /payments/payment/{id}. Notifikace na notification_url
-//     nese JEN ?id=&parent_id= — appka si musí stav domyslet/dotázat sama,
+//     nese JEN ?id=&parent_id= - appka si musí stav domyslet/dotázat sama,
 //     GoPay nic dalšího neposílá (žádný podpis, žádné tělo požadavku).
 //   - amount je VŽDY v haléřích (Kč × 100).
 //
 // Secrets: GOPAY_GOID, GOPAY_CLIENT_ID, GOPAY_CLIENT_SECRET, GOPAY_ENV
-// ("sandbox" nebo "production" — cokoliv jiného než "production" = sandbox).
+// ("sandbox" nebo "production" - cokoliv jiného než "production" = sandbox).
 
 const GOID = Deno.env.get("GOPAY_GOID")!;
 const CLIENT_ID = Deno.env.get("GOPAY_CLIENT_ID")!;
@@ -73,7 +73,7 @@ async function gopayFetch(path: string, init: RequestInit, scope?: "payment-crea
 }
 
 /**
- * Založí opakovanou platbu v režimu ON_DEMAND — první platba za první
+ * Založí opakovanou platbu v režimu ON_DEMAND - první platba za první
  * období, další se strhávají voláním createRecurrenceCharge() (viz
  * gopay-charge-renewals). Vrací gw_url, kam přesměrovat prohlížeč k platbě.
  */

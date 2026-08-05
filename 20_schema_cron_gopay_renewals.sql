@@ -1,7 +1,7 @@
 -- Spusť v Supabase: Dashboard → SQL Editor → New query → vlož a Run
 -- Naplánuje DENNÍ strhávání obnovy předplatného (gopay-charge-renewals musí
 -- být už nasazená přes `supabase functions deploy gopay-charge-renewals`).
--- GoPay v ON_DEMAND režimu nic sama automaticky nestrhává — bez tohohle
+-- GoPay v ON_DEMAND režimu nic sama automaticky nestrhává - bez tohohle
 -- cronu by po prvním zaplacení předplatné po měsíci/roce prostě vypršelo
 -- a nikdy se neobnovilo.
 --

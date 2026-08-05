@@ -1,5 +1,5 @@
 // Zjednodušený HTML → čistý text převod, čistě pro účely hashování obsahu
-// stránky (check-form-updates). Nemusí být dokonalý — jen stabilní (stejný
+// stránky (check-form-updates). Nemusí být dokonalý - jen stabilní (stejný
 // vstup → stejný výstup) a necitlivý na věci, co se mění při KAŽDÉM
 // requestu bez ohledu na obsah (CSRF token, cache-busting timestamp v
 // <script> bloku apod.), jinak by to hlásilo "změnu" každý den nanovo.

@@ -1,7 +1,7 @@
 -- Spusť v Supabase: Dashboard → SQL Editor → New query → vlož a Run
 -- Zachytává e-maily zájemců o registraci z landing page (waitlist modal),
 -- dokud není hotová Fáze 2 (Supabase Auth). Insert probíhá přímo z klienta
--- přes anon klíč — proto jen INSERT policy, žádné veřejné čtení.
+-- přes anon klíč - proto jen INSERT policy, žádné veřejné čtení.
 
 create table if not exists waitlist (
   id bigint generated always as identity primary key,

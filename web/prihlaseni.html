@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Přihlášení — Para</title>
+<title>Přihlášení - Para</title>
 <meta name="description" content="Přihlaste se do Para e-mailem a heslem, nebo si založte účet." />
 <link rel="icon" href="/favicon.ico" sizes="any" />
 <link rel="icon" href="assets/img/logo/logo-mark.png" type="image/png" />
@@ -14,7 +14,7 @@
 
 <div class="auth-shell">
   <div class="auth-topbar">
-    <a href="index.html" aria-label="Para — domů">
+    <a href="index.html" aria-label="Para - domů">
       <img src="assets/img/logo/logo-primary-light.png" alt="Para" />
     </a>
   </div>
@@ -103,7 +103,7 @@
   let mode = "login"; // "login" | "register"
 
   // Nová registrace dostává 7denní trial bez karty (22_schema_trial.sql),
-  // takže po přihlášení/registraci jde vždy do appky — requireOnboardedProfile
+  // takže po přihlášení/registraci jde vždy do appky - requireOnboardedProfile
   // ho tam případně sám přesměruje na onboarding, a na predplatne.html jedině
   // až trial vyprší nebo si předplatné zruší.
   function postAuthRedirect() {
@@ -146,7 +146,7 @@
     }
   }
 
-  // Z ceníku na landing page přichází uživatel rovnou s ?mode=register — ať
+  // Z ceníku na landing page přichází uživatel rovnou s ?mode=register - ať
   // nemusí ještě jednou překlikávat na "Založit účet" sám.
   if (urlParams.get("mode") === "register") activateMode("register");
 
@@ -180,7 +180,7 @@
         const redirectTo = `${window.location.origin}/app.html`;
         const { session } = await signUpWithPassword(email, password, redirectTo);
         if (session) {
-          // Potvrzení e-mailu je v projektu vypnuté (nebo self-confirm) — session
+          // Potvrzení e-mailu je v projektu vypnuté (nebo self-confirm) - session
           // dorazila rovnou, netřeba čekat na klik v e-mailu.
           postAuthRedirect();
           return;
@@ -198,7 +198,7 @@
       const friendly = /invalid login credentials/i.test(err.message)
         ? "Špatný e-mail nebo heslo."
         : /user already registered/i.test(err.message)
-        ? "Tenhle e-mail už má účet — zkuste se rovnou přihlásit."
+        ? "Tenhle e-mail už má účet - zkuste se rovnou přihlásit."
         : err.message;
       showError(authForm, friendly);
     } finally {
@@ -217,7 +217,7 @@
     magicSubmitBtn.textContent = "Odesílám…";
 
     try {
-      // Netlify defaultně servíruje "pretty URLs" (bez přípony .html) — pathname
+      // Netlify defaultně servíruje "pretty URLs" (bez přípony .html) - pathname
       // proto může být "/prihlaseni" i "/prihlaseni.html" podle toho, jak sem
       // uživatel přišel. app.html je vždy v kořeni webu, takže stačí absolutní
       // cesta bez ohledu na aktuální URL (viz historii commitů k téhle stránce).

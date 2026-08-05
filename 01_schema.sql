@@ -16,7 +16,7 @@ create table if not exists law_chunks (
 );
 
 -- 3) Index pro rychlé vektorové vyhledávání (cosine similarity)
--- POZOR: ivfflat index byl záměrně zrušen (drop index) — u pár tisíc řádků
+-- POZOR: ivfflat index byl záměrně zrušen (drop index) - u pár tisíc řádků
 -- dělá s výchozím probes=1 přibližné vyhledávání víc škody než užitku (mine
 -- skutečně nejbližší shody). Sekvenční scan je při tomto objemu dat rychlejší
 -- i přesnější. Index vracet zpět až při reálně velkém množství dat (statisíce+

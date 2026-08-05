@@ -67,7 +67,7 @@ pdfBtn.addEventListener("click", () => {
   doc.setFont("PlusJakartaSans", "bold");
   doc.setFontSize(17);
   doc.setTextColor(15, 23, 42);
-  doc.text(`Podklad pro účetního — rok ${y}`, MARGIN, y0);
+  doc.text(`Podklad pro účetního - rok ${y}`, MARGIN, y0);
   y0 += 8;
   doc.setFont("PlusJakartaSans", "normal");
   doc.setFontSize(10);
@@ -106,8 +106,8 @@ pdfBtn.addEventListener("click", () => {
     doc.setTextColor(51, 65, 85);
     doc.text(new Date(e.entry_date).toLocaleDateString("cs-CZ"), colX.date, y0);
     doc.text(e.type === "prijem" ? "Příjem" : "Výdaj", colX.type, y0);
-    doc.text((e.category || "—").slice(0, 22), colX.category, y0);
-    doc.text((e.description || "—").slice(0, 34), colX.desc, y0);
+    doc.text((e.category || "-").slice(0, 22), colX.category, y0);
+    doc.text((e.description || "-").slice(0, 34), colX.desc, y0);
     doc.setTextColor(e.type === "prijem" ? 21 : 185, e.type === "prijem" ? 128 : 28, e.type === "prijem" ? 61 : 28);
     doc.text(formatKc(e.amount), colX.amount, y0, { align: "right" });
     y0 += 6;
@@ -119,7 +119,7 @@ pdfBtn.addEventListener("click", () => {
     doc.setFont("PlusJakartaSans", "normal");
     doc.setFontSize(8);
     doc.setTextColor(148, 163, 184);
-    doc.text("Para — podklad z evidence příjmů a výdajů, nenahrazuje účetnictví.", MARGIN, PAGE_HEIGHT - 12);
+    doc.text("Para - podklad z evidence příjmů a výdajů, nenahrazuje účetnictví.", MARGIN, PAGE_HEIGHT - 12);
     doc.text(`${i} / ${totalPages}`, WIDTH - MARGIN, PAGE_HEIGHT - 12, { align: "right" });
   }
 

@@ -1,13 +1,13 @@
 // supabase/functions/review-law-change/index.ts
 //
 // Cíl odkazů "Schválit"/"Zamítnout" z e-mailu, který posílá check-law-updates.
-// GET, ne POST — musí jít otevřít kliknutím z e-mailového klienta. Zabezpečeno
+// GET, ne POST - musí jít otevřít kliknutím z e-mailového klienta. Zabezpečeno
 // jednorázovým review_token (UUID) vygenerovaným při vzniku události; bez
 // správného tokenu nebo když už byla vyřízená, se nic neprovede.
 //
 // Schválení: přepíše dotčený chunk (první z chunk_ids) na nové znění,
 // přepočte embedding, případné další chunk_ids (vzniklé naším dělením
-// dlouhého paragrafu na "(1/2)"/"(2/2)") smaže — paragraf tím zkolabuje
+// dlouhého paragrafu na "(1/2)"/"(2/2)") smaže - paragraf tím zkolabuje
 // do jednoho chunku. Pak pošle notifikaci jen relevantním uživatelům
 // (_shared/law-relevance.js), ne všem.
 //
@@ -97,7 +97,7 @@ Deno.serve(async (req) => {
         .update({ status: "rejected", reviewed_at: new Date().toISOString() })
         .eq("id", id);
       return new Response(
-        page("Zamítnuto", `<p>Změna ${event.law_code} ${event.section_ref} byla zamítnuta — v databázi zůstává původní znění.</p>`),
+        page("Zamítnuto", `<p>Změna ${event.law_code} ${event.section_ref} byla zamítnuta - v databázi zůstává původní znění.</p>`),
         { headers: { "Content-Type": "text/html; charset=utf-8" } }
       );
     }
@@ -113,7 +113,7 @@ Deno.serve(async (req) => {
     if (updateError) throw updateError;
 
     if (extraIds.length) {
-      // Paragraf byl u nás rozdělený na víc chunků (dlouhý text) — po
+      // Paragraf byl u nás rozdělený na víc chunků (dlouhý text) - po
       // novele ho sloučíme do jednoho, zbylé smažeme.
       await supabase.from("law_chunks").delete().in("id", extraIds);
     }
@@ -133,11 +133,11 @@ Deno.serve(async (req) => {
         if (!email) continue;
         await sendEmail(
           email,
-          `Zákon se změnil: ${event.law_name} — ${event.section_ref}`,
+          `Zákon se změnil: ${event.law_name} - ${event.section_ref}`,
           `<div style="font-family:-apple-system,sans-serif;max-width:480px">
-            <p style="color:#6366F1;font-weight:700;font-size:12px;text-transform:uppercase">§ Para — aktualizace zákona</p>
+            <p style="color:#6366F1;font-weight:700;font-size:12px;text-transform:uppercase">§ Para - aktualizace zákona</p>
             <h2 style="color:#0F172A">${event.law_name}, ${event.section_ref} se změnilo</h2>
-            <p style="color:#334155">Nové znění je účinné od ${event.new_version_date}. Zeptejte se Para na podrobnosti — odpovídá už z aktualizovaného textu.</p>
+            <p style="color:#334155">Nové znění je účinné od ${event.new_version_date}. Zeptejte se Para na podrobnosti - odpovídá už z aktualizovaného textu.</p>
             <p style="color:#94a3b8;font-size:12px">Para není daňové ani účetní poradenství.</p>
           </div>`
         );

@@ -12,7 +12,7 @@ const cfg = window.PARA_CONFIG || {};
 
 if (!cfg.supabaseUrl || cfg.supabaseUrl.includes("TVUJ-PROJEKT")) {
   console.warn(
-    "PARA_CONFIG.supabaseUrl není nastavený — auth, profil a historie dotazů nebudou fungovat, dokud nedoplníš Supabase URL/anon key."
+    "PARA_CONFIG.supabaseUrl není nastavený - auth, profil a historie dotazů nebudou fungovat, dokud nedoplníš Supabase URL/anon key."
   );
 }
 
@@ -35,7 +35,7 @@ export async function getSession() {
 
 // Pošle magic link. redirectTo musí být na allow-listu v Supabase
 // (Authentication → URL Configuration → Redirect URLs). Ponecháno jako
-// záložní cesta (odkaz "přihlásit se odkazem" na prihlaseni.html) — hlavní
+// záložní cesta (odkaz "přihlásit se odkazem" na prihlaseni.html) - hlavní
 // cesta je teď heslo, viz signUpWithPassword/signInWithPassword níže.
 export async function sendMagicLink(email, redirectTo) {
   const { error } = await supabase.auth.signInWithOtp({
@@ -45,7 +45,7 @@ export async function sendMagicLink(email, redirectTo) {
   if (error) throw error;
 }
 
-// Registrace heslem — pošle potvrzovací e-mail (Supabase Auth to dělá samo,
+// Registrace heslem - pošle potvrzovací e-mail (Supabase Auth to dělá samo,
 // stejná šablona jako pro magic link, jen s odkazem "potvrdit e-mail" místo
 // "přihlásit se"). Dokud uživatel nepotvrdí, signInWithPassword neprojde.
 export async function signUpWithPassword(email, password, redirectTo) {
@@ -66,7 +66,7 @@ export async function signInWithPassword(email, password) {
 
 // Odešle e-mail s odkazem na nastavení nového hesla (odkaz vede na
 // reset-hesla.html, kde se stránka podle přítomnosti session pozná, že je
-// v "recovery" režimu — viz supabase.auth.onAuthStateChange tam).
+// v "recovery" režimu - viz supabase.auth.onAuthStateChange tam).
 export async function sendPasswordReset(email, redirectTo) {
   const { error } = await supabase.auth.resetPasswordForEmail(email, { redirectTo });
   if (error) throw error;
@@ -102,7 +102,7 @@ export async function getProfile(userId) {
   return data;
 }
 
-// Dočasná výjimka z placení (19_schema_subscriptions.sql) — dokud GoPay
+// Dočasná výjimka z placení (19_schema_subscriptions.sql) - dokud GoPay
 // neběží naostro, e-maily na tomhle seznamu appku používají zdarma. RLS na
 // subscription_whitelist dovolí zjistit jen vlastní e-mail, ne celý seznam.
 async function isWhitelisted(email) {
@@ -118,14 +118,14 @@ function isSubscriptionActive(profile) {
   return profile.subscription_status === "active" || profile.subscription_status === "past_due";
 }
 
-// 7denní zkušební období bez karty (22_schema_trial.sql) — trial_ends_at se
+// 7denní zkušební období bez karty (22_schema_trial.sql) - trial_ends_at se
 // nastaví automaticky při registraci, appka ho respektuje stejně jako
 // aktivní předplatné, dokud nevyprší.
 export function isInTrial(profile) {
   return !!profile.trial_ends_at && new Date(profile.trial_ends_at) > new Date();
 }
 
-// Kolik dní zkušební doby ještě zbývá (zaokrouhleno nahoru) — pro zobrazení
+// Kolik dní zkušební doby ještě zbývá (zaokrouhleno nahoru) - pro zobrazení
 // v appce (app.html, ucet.html). Vrací 0, pokud trial už neběží.
 export function trialDaysLeft(profile) {
   if (!isInTrial(profile)) return 0;
@@ -134,7 +134,7 @@ export function trialDaysLeft(profile) {
 }
 
 // Vyžaduje session A (aktivní předplatné NEBO běžící trial NEBO whitelist
-// výjimku) — bez toho appku nejde použít vůbec, ani onboarding. Použij na
+// výjimku) - bez toho appku nejde použít vůbec, ani onboarding. Použij na
 // app.html i na onboarding.html.
 export async function requireActiveSubscription() {
   const session = await requireSession();
@@ -148,7 +148,7 @@ export async function requireActiveSubscription() {
 }
 
 // Vyžaduje session, aktivní předplatné I dokončený onboarding (legal_form
-// vyplněný). Použij na app.html a všech nástrojích — bez předplatného pošle
+// vyplněný). Použij na app.html a všech nástrojích - bez předplatného pošle
 // na predplatne.html, s předplatným ale bez onboardingu na onboarding.html.
 export async function requireOnboardedProfile() {
   const result = await requireActiveSubscription();
@@ -161,7 +161,7 @@ export async function requireOnboardedProfile() {
   return { session, profile };
 }
 
-// Zrušení předplatného (ucet.html) — volá gopay-cancel-subscription, která
+// Zrušení předplatného (ucet.html) - volá gopay-cancel-subscription, která
 // nastaví subscription_cancel_at_period_end. Appka zůstává funkční do konce
 // zaplaceného období, viz Obchodní podmínky čl. 5 a gopay-charge-renewals.
 export async function cancelSubscription(accessToken) {
@@ -211,7 +211,25 @@ export async function updateProfileBillingInfo(userId, { companyName, ico, dic, 
   if (error) throw error;
 }
 
-// Vzhled dokladů (24_schema_invoice_branding.sql) — logo/barva/patička
+// Editace firemních údajů z ucet.html - na rozdíl od saveProfile (onboarding)
+// nešahá na note/onboarded_at, jen na to, co si uživatel může chtít
+// dodatečně opravit (např. špatně načtené ARES údaje, změna DPH režimu).
+export async function updateCompanyInfo(userId, { legalForm, vatPayer, companyName, ico, dic, address }) {
+  const { error } = await supabase
+    .from("profiles")
+    .update({
+      legal_form: legalForm,
+      vat_payer: vatPayer,
+      company_name: companyName || null,
+      ico: ico || null,
+      dic: dic || null,
+      address: address || null,
+    })
+    .eq("id", userId);
+  if (error) throw error;
+}
+
+// Vzhled dokladů (24_schema_invoice_branding.sql) - logo/barva/patička
 // místo pevného vzhledu Para na PDF z generator-dokumentu.html.
 export async function updateInvoiceBranding(userId, { brandName, accentColor, logoDataUrl, logoWidth, logoHeight, footerNote }) {
   const { error } = await supabase
@@ -280,7 +298,7 @@ export async function deleteLedgerEntry(id) {
   if (error) throw error;
 }
 
-// Hromadné vložení (Import bankovního výpisu) — jeden insert místo řádku po řádku.
+// Hromadné vložení (Import bankovního výpisu) - jeden insert místo řádku po řádku.
 export async function insertLedgerEntriesBulk(userId, entries) {
   const rows = entries.map((e) => ({
     user_id: userId,
@@ -361,7 +379,7 @@ export async function deleteInvoice(id) {
 
 // --- Klienti (23_schema_clients.sql) ----------------------------------------
 // Jednou zadaný klient (odběratel) se pak jen vybírá ve faktury.html a
-// generator-dokumentu.html místo ručního přepisování — viz klienti.html.
+// generator-dokumentu.html místo ručního přepisování - viz klienti.html.
 
 export async function listClients(userId) {
   const { data, error } = await supabase
@@ -414,7 +432,7 @@ export async function deleteClient(id) {
 }
 
 // Uloží klienta, pokud stejné jméno (case-insensitive) ještě v seznamu není
-// — používá se z "Uložit i jako klienta" checkboxu ve faktury.html a
+// - používá se z "Uložit i jako klienta" checkboxu ve faktury.html a
 // generator-dokumentu.html, ať se nehromadí duplicity při opakovaném zadání
 // téhož odběratele.
 export async function upsertClientByName(userId, clientData) {

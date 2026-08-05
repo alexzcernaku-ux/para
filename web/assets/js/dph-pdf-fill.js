@@ -1,4 +1,4 @@
-// Vyplní hodnoty do skutečného tiskopisu 25 5401 (vzor č. 26, 2026) — DPH
+// Vyplní hodnoty do skutečného tiskopisu 25 5401 (vzor č. 26, 2026) - DPH
 // přiznání. Stejný princip jako dap-pdf-fill.js pro DPFO: skutečné strany
 // tiskopisu jako obrázky na pozadí, čísla na souřadnice zjištěné strojově
 // z PDF staženého z financnisprava.gov.cz (viz komentář v dph-check.js).
@@ -13,7 +13,7 @@ const BG = {
 };
 
 // Pravý okraj tabulky C. oddílu je ve skutečnosti na 551,5 pt (zjištěno z
-// vnějšího ohraničení tabulky), ne ~566 pt jako u DPFO tiskopisu — proto
+// vnějšího ohraničení tabulky), ne ~566 pt jako u DPFO tiskopisu - proto
 // samostatné konstanty místo sdílení s dap-pdf-fill.js.
 const SEKCE_I = { zakladX: 144.64, danX: 192.97, 1: 25.32, 2: 30.32 };
 const SEKCE_IV = { vplneX: 160.87, 40: 173.32, 41: 178.32, 46: 203.32 };

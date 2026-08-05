@@ -1,7 +1,7 @@
-// Waitlist modal — zachytává e-mail zájemců o registraci, dokud Fáze 2
+// Waitlist modal - zachytává e-mail zájemců o registraci, dokud Fáze 2
 // (Supabase Auth) není hotová. Zapisuje přímo do tabulky `waitlist` přes
 // PostgREST (stejný vzor jako insertFeedback v 03_local_server.mjs), s
-// anon klíčem a insert-only RLS politikou — viz 06_schema_waitlist.sql.
+// anon klíčem a insert-only RLS politikou - viz 06_schema_waitlist.sql.
 
 (function () {
   const cfg = window.PARA_CONFIG || {};

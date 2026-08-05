@@ -1,14 +1,14 @@
-// Fáze 10 — kontrola přiznání k dani z příjmů fyzických osob (DAP, tiskopis
+// Fáze 10 - kontrola přiznání k dani z příjmů fyzických osob (DAP, tiskopis
 // 25 5405, vzor č. 30 pro rok 2026) a Přílohy č. 1 (výpočet dílčího základu
 // daně ze samostatné činnosti, § 7 zákona, tiskopis 25 5405/P1 vzor č. 22).
 //
 // Řádky/vzorce ověřené přímo z aktuálních tiskopisů financnisprava.gov.cz
-// (staženo 2026-07-31), NE z paměti — viz komentáře u každé kontroly.
+// (staženo 2026-07-31), NE z paměti - viz komentáře u každé kontroly.
 // Rozsah je záměrně omezený na řádky, které se dají ověřit s jistotou:
-// výpočet dílčího základu daně ze samostatné činnosti (§ 7 — nejdůležitější
+// výpočet dílčího základu daně ze samostatné činnosti (§ 7 - nejdůležitější
 // pro OSVČ, cílovou skupinu appky) a navazující výpočet základu daně a daně.
 // Neřeší oddíly pro zaměstnance, zahraniční příjmy, slevy na děti/manžela
-// ani placení daně (zálohy, bonusy) — tam by šlo o odhad, ne o kontrolu.
+// ani placení daně (zálohy, bonusy) - tam by šlo o odhad, ne o kontrolu.
 //
 // Použití: parseDapXml() pro XML z EPO, nebo edge function kontrola-priznani
 // (vision) vrací STEJNÝ tvar řádků → obě cesty se ověřují stejnou funkcí
@@ -67,7 +67,7 @@ function or0(v) {
 }
 
 // Výpočet daně podle § 16 zákona: 15 % do hranice (36násobek průměrné mzdy),
-// 23 % nad ní. Hranice je jen ODHAD (viz tax-constants.js) — proto se tahle
+// 23 % nad ní. Hranice je jen ODHAD (viz tax-constants.js) - proto se tahle
 // kontrola hlásí jen při výrazném rozdílu, ne na Kč přesně.
 function vypocetDan16(zaklad) {
   const hranice = DAN_HRANICE_VYSSI_SAZBA_ODHAD;
@@ -99,11 +99,11 @@ function pushCheck(list, radek, ocekavano, uvedeno, extra = {}) {
 }
 
 /**
- * Dopočítá celou kaskádu odvozených řádků ze surových vstupů — používá
+ * Dopočítá celou kaskádu odvozených řádků ze surových vstupů - používá
  * Generátor přiznání (Fáze 11) k předvyplnění PDF. Stejné vzorce jako
  * checkDapConsistency(), jen ve směru "spočítej", ne "ověř".
  * @param {object} v vstupy: 101,102,105,106,107,108,109,110,112 (příloha 1),
- *   36,38,39,40,44,54 (hlavní část) — všechny volitelné, chybějící = 0
+ *   36,38,39,40,44,54 (hlavní část) - všechny volitelné, chybějící = 0
  */
 export function computeDapCascade(v) {
   const g = (k) => or0(v[k]);
@@ -126,7 +126,7 @@ export function checkDapConsistency(r, profile) {
   const get = (radek) => (radek in r ? num(r[radek]) : null);
   const results = [];
 
-  // --- Příloha č. 1 — dílčí základ daně ze samostatné činnosti (§ 7) -------
+  // --- Příloha č. 1 - dílčí základ daně ze samostatné činnosti (§ 7) -------
   const r101 = get(101);
   const r102 = get(102);
   if (r101 !== null || r102 !== null) {
@@ -149,13 +149,13 @@ export function checkDapConsistency(r, profile) {
           radek: "102-info",
           popis: "Poměr výdajů k příjmům u paušálních výdajů",
           stav: "nejiste",
-          poznamka: `Výdaje (ř. 102) odpovídají ${Math.round(pomerVydaju * 100)} % příjmů — žádný z aktuálních paušálů (80 %/60 %/40 %/30 %) tomu přesně neodpovídá. Zkontrolujte limit max. výdajů podle typu činnosti.`,
+          poznamka: `Výdaje (ř. 102) odpovídají ${Math.round(pomerVydaju * 100)} % příjmů - žádný z aktuálních paušálů (80 %/60 %/40 %/30 %) tomu přesně neodpovídá. Zkontrolujte limit max. výdajů podle typu činnosti.`,
         });
       }
     }
   }
 
-  // --- Hlavní část — základ daně, daň -------------------------------------
+  // --- Hlavní část - základ daně, daň -------------------------------------
   const r37 = get(37);
   const r113forCheck = get(113);
   if (r37 !== null && r113forCheck !== null) {
@@ -195,16 +195,16 @@ export function checkDapConsistency(r, profile) {
       if (r57 !== null) {
         const zakladProDan = r56 !== null ? r56 : ocek56;
         const ocek57 = vypocetDan16(zakladProDan);
-        // Hranice 15/23 % je odhad (viz tax-constants.js) — tolerantnější kontrola.
+        // Hranice 15/23 % je odhad (viz tax-constants.js) - tolerantnější kontrola.
         pushCheck(results, 57, ocek57, r57, {
           tolerance: Math.max(500, Math.round(ocek57 * 0.03)),
-          poznamkaOdhad: "Hranice pro 23% pásmo je odhad (36násobek průměrné mzdy pro 2026 ještě nemusí být přesně ověřený) — kontrola je proto tolerantnější.",
+          poznamkaOdhad: "Hranice pro 23% pásmo je odhad (36násobek průměrné mzdy pro 2026 ještě nemusí být přesně ověřený) - kontrola je proto tolerantnější.",
         });
       }
     }
   }
 
-  // --- Sleva na poplatníka — informativní srovnání se známou částkou -------
+  // --- Sleva na poplatníka - informativní srovnání se známou částkou -------
   const r64 = get(64);
   if (r64 !== null && r64 !== SLEVA_NA_POPLATNIKA) {
     results.push({
@@ -226,7 +226,7 @@ export function checkDapConsistency(r, profile) {
 //
 // Schéma ověřené přímo z aktuálního XSD publikovaného finanční správou
 // (adisspr.mfcr.cz/adis/jepo/schema/dpfdp7_epo2.xsd, staženo 2026-07-31,
-// kořenový element DPFDP7 — aktuální schéma pro tiskopis 25 5405 vzor 30).
+// kořenový element DPFDP7 - aktuální schéma pro tiskopis 25 5405 vzor 30).
 // Mapování atributů na čísla řádků je vzaté přímo z textu <xs:documentation>
 // jednotlivých atributů v tomto XSD (např. atribut "kc_zd7" má dokumentaci
 // "Přeneste údaj z ř. 113 Přílohy č. 1 DAP.").
@@ -268,7 +268,7 @@ const XML_ATTR_TO_RADEK = {
 export function parseDapXml(xmlText) {
   const doc = new DOMParser().parseFromString(xmlText, "application/xml");
   const parserError = doc.querySelector("parsererror");
-  if (parserError) throw new Error("XML soubor se nepodařilo přečíst — není to platné XML.");
+  if (parserError) throw new Error("XML soubor se nepodařilo přečíst - není to platné XML.");
 
   const radky = {};
   const walk = (el) => {
@@ -283,7 +283,7 @@ export function parseDapXml(xmlText) {
   walk(doc.documentElement);
 
   if (Object.keys(radky).length === 0) {
-    throw new Error("V XML se nenašly žádné očekávané položky přiznání — je to opravdu podání DPFO (25 5405)?");
+    throw new Error("V XML se nenašly žádné očekávané položky přiznání - je to opravdu podání DPFO (25 5405)?");
   }
   return radky;
 }

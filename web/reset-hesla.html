@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Obnovení hesla — Para</title>
+<title>Obnovení hesla - Para</title>
 <link rel="icon" href="/favicon.ico" sizes="any" />
 <link rel="icon" href="assets/img/logo/logo-mark.png" type="image/png" />
 <link rel="apple-touch-icon" href="assets/img/logo/logo-mark.png" />
@@ -13,7 +13,7 @@
 
 <div class="auth-shell">
   <div class="auth-topbar">
-    <a href="index.html" aria-label="Para — domů">
+    <a href="index.html" aria-label="Para - domů">
       <img src="assets/img/logo/logo-primary-light.png" alt="Para" />
     </a>
   </div>
@@ -102,7 +102,7 @@
 
   // Odkaz z e-mailu přiveze Supabase klienta do "PASSWORD_RECOVERY" stavu
   // (detectSessionInUrl v supabase-client.js session z odkazu zpracuje samo)
-  // — jen na tenhle event přepneme na formulář s novým heslem.
+  // - jen na tenhle event přepneme na formulář s novým heslem.
   supabase.auth.onAuthStateChange((event) => {
     if (event === "PASSWORD_RECOVERY") {
       showOnly(newPasswordState);

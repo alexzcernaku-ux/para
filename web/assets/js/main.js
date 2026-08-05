@@ -19,13 +19,13 @@
   menu.querySelectorAll("a").forEach((a) => a.addEventListener("click", hide));
 })();
 
-// Odhalení sekcí při scrollu (.reveal → .is-visible) — čistě kosmetické.
+// Odhalení sekcí při scrollu (.reveal → .is-visible) - čistě kosmetické.
 // Bezpečnostní pojistka: ať selže cokoliv (starý prohlížeč, chyba v JS,
 // crawler bez scrollu, neobvyklé zobrazení), obsah nesmí zůstat neviditelný
-// navždy — proto tvrdý timeout, který po chvíli odhalí úplně všechno bez
+// navždy - proto tvrdý timeout, který po chvíli odhalí úplně všechno bez
 // ohledu na to, jestli se to reálně "odscrollovalo" do viewportu.
 //
-// .reveal je v CSS viditelný, dokud <html> nemá třídu .js-ready — tu
+// .reveal je v CSS viditelný, dokud <html> nemá třídu .js-ready - tu
 // přidáváme až tady, těsně předtím, než se spustí observer/timeout, co ji
 // zase odhalí. Bez JS (nebo dokud se nenačte) je tak obsah vidět normálně.
 (function () {

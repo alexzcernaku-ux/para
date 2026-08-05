@@ -1,11 +1,11 @@
 // supabase/functions/send-reminders/index.ts
 //
-// Denní cron (viz 10_schema_cron_reminders.sql) — projde všechny profily,
+// Denní cron (viz 10_schema_cron_reminders.sql) - projde všechny profily,
 // spočítá termíny (_shared/deadlines.js) a pošle e-mail, pokud termín
 // vychází za 1–3 dny a ještě jsme na něj neupozornili (reminder_log).
 //
 // Secrets: supabase secrets set RESEND_API_KEY=... [RESEND_FROM=...]
-// RESEND_FROM je volitelný — bez ověřené domény v Resendu se dá posílat
+// RESEND_FROM je volitelný - bez ověřené domény v Resendu se dá posílat
 // jen z "onboarding@resend.dev" a jen na e-mail vlastníka Resend účtu
 // (sandbox limit), ne reálným uživatelům. Až bude doména ověřená, nastav
 // RESEND_FROM na vlastní adresu (např. "Para <pripominky@para.cz>").
@@ -41,12 +41,12 @@ async function sendEmail(to: string, subject: string, html: string) {
 function emailHtml(title: string, popis: string, datum: string, zdroj: string) {
   return `
     <div style="font-family: -apple-system, sans-serif; max-width: 480px; margin: 0 auto;">
-      <p style="color:#6366F1; font-weight:700; font-size:12px; letter-spacing:0.05em; text-transform:uppercase;">§ Para — připomínka termínu</p>
+      <p style="color:#6366F1; font-weight:700; font-size:12px; letter-spacing:0.05em; text-transform:uppercase;">§ Para - připomínka termínu</p>
       <h2 style="color:#0F172A; margin: 8px 0 4px;">${title}</h2>
       <p style="color:#334155; font-size:15px;">Termín: <strong>${datum}</strong></p>
       <p style="color:#334155; font-size:14px;">${popis}</p>
       <p style="color:#94a3b8; font-size:12px; margin-top:20px;">Zdroj: ${zdroj}</p>
-      <p style="color:#94a3b8; font-size:12px;">Para není daňové poradenství — u důležitých rozhodnutí konzultujte s odborníkem.</p>
+      <p style="color:#94a3b8; font-size:12px;">Para není daňové poradenství - u důležitých rozhodnutí konzultujte s odborníkem.</p>
     </div>`;
 }
 
@@ -71,7 +71,7 @@ Deno.serve(async (req) => {
       if (!due.length) continue;
 
       for (const deadline of due) {
-        // reminder_log má unique(user_id, deadline_key) — insert selže na
+        // reminder_log má unique(user_id, deadline_key) - insert selže na
         // duplikátu, což použijeme přesně jako "už bylo odesláno" zámek.
         const { error: logError } = await supabase
           .from("reminder_log")

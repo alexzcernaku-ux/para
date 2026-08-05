@@ -1,6 +1,6 @@
 -- Spusť v Supabase: Dashboard → SQL Editor → New query → vlož a Run
--- Fáze 7 — sledování novel zákonů. Čistě interní tabulky, dotýkají se jich
--- jen edge functions (service role) — žádné RLS policy pro klienta/uživatele
+-- Fáze 7 - sledování novel zákonů. Čistě interní tabulky, dotýkají se jich
+-- jen edge functions (service role) - žádné RLS policy pro klienta/uživatele
 -- záměrně (RLS je zapnuté, ale bez policy = nikdo přes anon/authenticated
 -- roli nic nepřečte ani nezapíše; service_role RLS obchází vždy).
 

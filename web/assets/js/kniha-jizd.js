@@ -1,7 +1,7 @@
-// Kniha jízd — výpočet náhrady za použití vlastního vozidla při skutečných
+// Kniha jízd - výpočet náhrady za použití vlastního vozidla při skutečných
 // výdajích (§ 24 odst. 2 písm. k) bod 1 zákona č. 586/1992 Sb.): základní
 // náhrada za 1 km + náhrada za spotřebované pohonné hmoty. Alternativou je
-// paušál na dopravu (§ 24 odst. 2 písm. zt) — ten žádnou knihu jízd
+// paušál na dopravu (§ 24 odst. 2 písm. zt) - ten žádnou knihu jízd
 // nevyžaduje, a proto tu není řešený.
 //
 // Sazby ověřené přímo z vyhlášky MPSV č. 573/2025 Sb. (platná od 1. 1. 2026,
@@ -14,7 +14,7 @@ export const PRUMERNA_CENA_PHM = {
   benzin95: 34.7,
   benzin98: 39.0,
   nafta: 44.5,
-  elektrina: 7.2, // Kč/kWh — spotřeba se pak zadává v kWh/100 km místo l/100 km
+  elektrina: 7.2, // Kč/kWh - spotřeba se pak zadává v kWh/100 km místo l/100 km
 };
 
 export const FUEL_LABELS = {

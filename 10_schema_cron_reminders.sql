@@ -1,11 +1,11 @@
 -- Spusť v Supabase: Dashboard → SQL Editor → New query → vlož a Run
 -- Naplánuje denní spuštění supabase/functions/send-reminders (musí být
--- už nasazená — supabase functions deploy send-reminders).
+-- už nasazená - supabase functions deploy send-reminders).
 --
 -- ⚠️ Nahraď dva placeholdery níže před spuštěním:
 --   1) TVUJ-PROJEKT   → project ref (stejný jako v PARA_CONFIG.supabaseUrl)
 --   2) TVUJ_SERVICE_ROLE_KEY → Project Settings → API → service_role klíč
---      (tajný, nikdy ho nedávej do klientského kódu — tady je to v pořádku,
+--      (tajný, nikdy ho nedávej do klientského kódu - tady je to v pořádku,
 --      protože žije jen v databázi, ne ve webu)
 
 create extension if not exists pg_cron with schema extensions;

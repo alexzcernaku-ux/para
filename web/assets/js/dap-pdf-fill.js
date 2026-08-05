@@ -1,11 +1,11 @@
-// Fáze 11 — vyplní hodnoty do skutečného tiskopisu 25 5405 (vzor č. 30, 2026)
+// Fáze 11 - vyplní hodnoty do skutečného tiskopisu 25 5405 (vzor č. 30, 2026)
 // a Přílohy č. 1 (vzor č. 22). Skutečné strany tiskopisu jsou vykreslené jako
 // obrázky na pozadí (web/assets/img/dap/*.png, vygenerované z PDF staženého
-// přímo z financnisprava.gov.cz — viz komentář v dap-check.js) a čísla se
+// přímo z financnisprava.gov.cz - viz komentář v dap-check.js) a čísla se
 // vypisují na přesné souřadnice zjištěné z PDF (bod = 1/72", převedeno na mm).
 //
 // Souřadnice jsou zjištěné strojově (hledání polohy textu "ř. XY" v původním
-// PDF), ne odhadem od oka — viz scratchpad skript použitý při přípravě.
+// PDF), ne odhadem od oka - viz scratchpad skript použitý při přípravě.
 // Sloupec "poplatník" (ne "finanční úřad") je vpravo zarovnaný v rámci jeho
 // šířky.
 
@@ -32,7 +32,7 @@ const ROWS_PRILOHA_P1 = {
   101: 77.79, 102: 88.29, 104: 107.7, 105: 116.62, 106: 127.12, 107: 137.62,
   108: 148.12, 109: 158.62, 110: 169.12, 112: 190.12, 113: 202.1,
 };
-// hlavni-p3, § 35ba odst. 1 tabulka — úzký sloupec pro Kč hodnotu (~12 mm), menší písmo + zarovnání vpravo.
+// hlavni-p3, § 35ba odst. 1 tabulka - úzký sloupec pro Kč hodnotu (~12 mm), menší písmo + zarovnání vpravo.
 const ROW_64 = { xRight: 124.23, y: 20.39 };
 
 const FIELDS_P1 = {

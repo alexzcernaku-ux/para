@@ -1,14 +1,14 @@
-// Výpočetní jádro kalkuleček — čisté funkce, žádné DOM/UI. Sazby a limity
+// Výpočetní jádro kalkuleček - čisté funkce, žádné DOM/UI. Sazby a limity
 // viz tax-constants.js (jediné místo, kde se mění, když se zákon novelizuje).
 //
 // Zjednodušení, která si kalkulačka dovoluje (a proč):
 // - Předpokládá se OSVČ vykonávající hlavní činnost celý rok (žádné poměrné
 //   snižování minimálního vyměřovacího základu za částečný rok).
 // - U s.r.o. se počítá s celým ziskem vyplaceným jako podíl na zisku
-//   (dividenda) bez mzdy jednatele — v praxi se často kombinuje mzda +
+//   (dividenda) bez mzdy jednatele - v praxi se často kombinuje mzda +
 //   dividenda pro optimalizaci, to už je nad rámec orientační kalkulačky.
 // - DPH se do "čistého zisku" nepočítá (je to průběžná položka pro stát,
-//   ne příjem/výdaj OSVČ) — jen se zobrazí jako informační poznámka.
+//   ne příjem/výdaj OSVČ) - jen se zobrazí jako informační poznámka.
 
 import {
   DAN_SAZBA_NIZSI,
@@ -81,7 +81,7 @@ export function vypocetOSVC({ prijem, rezim, pausalTyp, skutecneVydaje }) {
   const { socialni, zdravotni } = vypocetPojistneOSVC(zaklad);
   const odvody = dan + socialni + zdravotni;
 
-  // Fiktivní (paušální) výdaje se reálně nevyplácí — v kapse zůstávají.
+  // Fiktivní (paušální) výdaje se reálně nevyplácí - v kapse zůstávají.
   const cistyZisk = vydajeJsouFiktivni ? prijemN - odvody : prijemN - vydaje - odvody;
 
   return {

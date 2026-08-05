@@ -4,7 +4,7 @@
 // vrátí gw_url, kam ho prohlížeč přesměruje k platbě. Volá se z
 // predplatne.html po vyplnění fakturačních údajů.
 //
-// Uživatele NIKDY neber z těla požadavku — ověřuje se výhradně z JWT v
+// Uživatele NIKDY neber z těla požadavku - ověřuje se výhradně z JWT v
 // Authorization hlavičce (přes GoTrue), jinak by šlo založit platbu na
 // cizí user_id. Samotné potvrzení předplatného (subscription_status =
 // 'active') dělá až gopay-webhook po PAID stavu, tahle funkce jen zakládá
@@ -32,10 +32,10 @@ function json(body: unknown, status = 200) {
   return new Response(JSON.stringify(body), { status, headers: { ...corsHeaders, "Content-Type": "application/json" } });
 }
 
-// Ceník — jediný "Pro" tarif, měsíční nebo roční platba (viz predplatne.html).
+// Ceník - jediný "Pro" tarif, měsíční nebo roční platba (viz predplatne.html).
 const PLAN_PRICES: Record<string, { amountKc: number; label: string }> = {
-  monthly: { amountKc: 150, label: "Para Pro — měsíční předplatné" },
-  yearly: { amountKc: 1500, label: "Para Pro — roční předplatné" },
+  monthly: { amountKc: 150, label: "Para Pro - měsíční předplatné" },
+  yearly: { amountKc: 1500, label: "Para Pro - roční předplatné" },
 };
 
 const REQUIRED_PAYER_FIELDS = ["firstName", "lastName", "phoneNumber", "city", "street", "postalCode"] as const;
@@ -57,7 +57,7 @@ Deno.serve(async (req) => {
 
     const body = await req.json().catch(() => ({}));
     const planInfo = PLAN_PRICES[body.plan];
-    if (!planInfo) return json({ error: "Neplatný tarif — očekávám 'monthly' nebo 'yearly'." }, 400);
+    if (!planInfo) return json({ error: "Neplatný tarif - očekávám 'monthly' nebo 'yearly'." }, 400);
 
     const payer = body.payer || {};
     for (const field of REQUIRED_PAYER_FIELDS) {
@@ -66,7 +66,7 @@ Deno.serve(async (req) => {
       }
     }
 
-    // Nákup na firmu (volitelné) — GoPay samo o sobě company údaje nezná
+    // Nákup na firmu (volitelné) - GoPay samo o sobě company údaje nezná
     // (jen contact reálné osoby, viz gopay.ts payer.contact), používá se jen
     // pro fakturační údaje uložené v profilu (generator-dokumentu.html).
     const company = body.company || null;
@@ -96,7 +96,7 @@ Deno.serve(async (req) => {
       notificationUrl: `${SUPABASE_URL}/functions/v1/gopay-webhook`,
     });
 
-    // Uloženo PŘED potvrzením platby — gopay-webhook podle tohohle řádku
+    // Uloženo PŘED potvrzením platby - gopay-webhook podle tohohle řádku
     // (gopay_payment_id) dohledá, čí platba to je a jaký tarif se platí.
     const { error: insertError } = await adminSupabase.from("payment_events").insert({
       user_id: user.id,
@@ -109,9 +109,9 @@ Deno.serve(async (req) => {
     if (insertError) throw insertError;
 
     // subscription_plan si uložit hned (potřebuje ho webhook pro výpočet
-    // délky období) — subscription_status ale zůstává 'none', dokud GoPay
+    // délky období) - subscription_status ale zůstává 'none', dokud GoPay
     // nepotvrdí PAID, takže tohle samo o sobě přístup neodemyká. Firemní
-    // údaje (pokud vyplněné) přepíší profil pro budoucí fakturaci — jen
+    // údaje (pokud vyplněné) přepíší profil pro budoucí fakturaci - jen
     // když je uživatel explicitně zadal, ať nepřepíšeme ARES data prázdnem.
     const profileUpdate: Record<string, unknown> = { subscription_plan: body.plan };
     if (company) {

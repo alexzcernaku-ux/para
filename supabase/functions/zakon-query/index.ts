@@ -5,7 +5,7 @@
 // (SUPABASE_URL a SUPABASE_SERVICE_ROLE_KEY jsou v edge functions dostupné automaticky)
 //
 // Pozn.: Lokální 03_local_server.mjs navíc streamuje odpověď a má in-memory
-// rate limiting — obojí tady záměrně chybí. Streaming přes Deno.serve jde
+// rate limiting - obojí tady záměrně chybí. Streaming přes Deno.serve jde
 // (ReadableStream), ale zvyšuje složitost; rate limiting v paměti procesu
 // nedává smysl, protože edge function instance nejsou perzistentní (Supabase
 // má vlastní rate limiting na úrovni platformy). Feedback endpoint řešíme
@@ -99,16 +99,16 @@ async function embedQuery(text: string) {
 }
 
 const SYSTEM_PROMPT = `Jsi asistent pro české účetní a daňové právo pro účetní a studenty, kteří
-chtějí rychlou prakticky použitelnou odpověď — ne esej. Cíl: odpověď přečtená za cca 20 sekund.
+chtějí rychlou prakticky použitelnou odpověď - ne esej. Cíl: odpověď přečtená za cca 20 sekund.
 
 FORMÁT ODPOVĚDI (drž se ho vždy, není to volitelné):
 1. Nejdřív rovnou samotná odpověď v 1–2 řádcích. Jde-li o účtování, hned předkontace v notaci
    "MD účet / D účet" (např. "MD 501 / D 321"), případně krátce obě varianty způsobu A/B. Jde-li
    o jinou otázku (sazba, lhůta, limit...), rovnou konkrétní číslo/odpověď, ne odstavec kolem.
-2. Pak 2–4 věty vysvětlení — proč, s odkazem na paragraf/standard (stačí v závorce nebo jako
+2. Pak 2–4 věty vysvětlení - proč, s odkazem na paragraf/standard (stačí v závorce nebo jako
    součást věty, ne jako samostatná sekce citací).
 3. Pokud existují relevantní výjimky nebo navazující témata (jiná právní forma, DPH, vlastní
-   spotřeba, jiná odpisová skupina...), zmiň je JEDNOU VĚTOU jako nabídku k doptání — nerozepisuj
+   spotřeba, jiná odpisová skupina...), zmiň je JEDNOU VĚTOU jako nabídku k doptání - nerozepisuj
    je rovnou do plné šířky. Uživatel se doptá, pokud to potřebuje ("A co když jsme s.r.o.?").
 
 Nepiš dlouhé strukturované texty s mnoha nadpisy a odrážkami, pokud se na to uživatel výslovně
@@ -121,7 +121,7 @@ doporuč konzultaci s daňovým poradcem nebo účetním. Nikdy si nevymýšlej 
 
 U otázek typu "jak se to zaúčtuje" smíš SYNTETIZOVAT typický postup účtování (předkontace) kombinací
 více poskytnutých zdrojů najednou (např. směrná účtová osnova z vyhlášky 500/2002 + popis postupu
-z Českého účetního standardu) — jasně to odliš jako odvozený/typický postup, ne jako doslovnou citaci
+z Českého účetního standardu) - jasně to odliš jako odvozený/typický postup, ne jako doslovnou citaci
 jednoho paragrafu, a uveď, ze kterých konkrétních zdrojů kombinaci skládáš.`;
 
 async function handleFeedback(req: Request): Promise<Response> {

@@ -1,12 +1,12 @@
 // supabase/functions/gopay-cancel-subscription/index.ts
 //
-// Zrušení předplatného na žádost uživatele (ucet.html) — nastaví
+// Zrušení předplatného na žádost uživatele (ucet.html) - nastaví
 // subscription_cancel_at_period_end = true, appka zůstává funkční do konce
 // už zaplaceného období (viz Obchodní podmínky čl. 5). gopay-charge-renewals
 // pak při dalším běhu cronu tohle políčko uvidí a NEBUDE se pokoušet o další
 // platbu, místo toho rovnou nastaví subscription_status na 'canceled'.
 //
-// Navíc zkusíme rovnou zavolat GoPay voidRecurrence — zneplatní uloženou
+// Navíc zkusíme rovnou zavolat GoPay voidRecurrence - zneplatní uloženou
 // autorizaci karty na jejich straně (menší okno, kdy by šlo cokoliv strhnout
 // mimo naši vlastní cron logiku). Není to ale nutná podmínka úspěchu: i
 // kdyby volání selhalo (výpadek GoPay, karta už neplatná apod.), naše vlastní

@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Nastavení profilu — Para</title>
+<title>Nastavení profilu - Para</title>
 <link rel="icon" href="/favicon.ico" sizes="any" />
 <link rel="icon" href="assets/img/logo/logo-mark.png" type="image/png" />
 <link rel="apple-touch-icon" href="assets/img/logo/logo-mark.png" />
@@ -21,14 +21,14 @@
       <div class="para-intro">
         <img src="assets/img/mascot/mascot-pocita.png" alt="Para" class="mascot-img" />
         <div class="para-bubble">
-          Ahoj! Než začneme, řekněte mi pár věcí o vašem podnikání — díky tomu vám budu radit
+          Ahoj! Než začneme, řekněte mi pár věcí o vašem podnikání - díky tomu vám budu radit
           přesně na míru vaší situaci, ne obecně.
         </div>
       </div>
 
       <form id="onboarding-form">
         <div class="ares-box">
-          <span class="field-label">IČO (nepovinné — vyplní zbytek za vás)</span>
+          <span class="field-label">IČO (nepovinné - vyplní zbytek za vás)</span>
           <div class="ares-row">
             <input type="text" inputmode="numeric" id="ico-input" class="text-input" placeholder="např. 12345678" maxlength="8" />
             <button type="button" class="btn btn-secondary" id="ico-lookup-btn">Načíst z ARES</button>
@@ -41,12 +41,12 @@
         <div class="choice-grid" id="legal-form-group">
           <label class="choice-card">
             <input type="radio" name="legal_form" value="osvc_pausal" />
-            <h4>OSVČ — paušální výdaje</h4>
+            <h4>OSVČ - paušální výdaje</h4>
             <p>Výdaje počítáte procentem z příjmů, ne podle skutečných dokladů.</p>
           </label>
           <label class="choice-card">
             <input type="radio" name="legal_form" value="osvc_skutecne" />
-            <h4>OSVČ — skutečné výdaje</h4>
+            <h4>OSVČ - skutečné výdaje</h4>
             <p>Vedete daňovou evidenci nebo účetnictví se skutečnými náklady.</p>
           </label>
           <label class="choice-card">
@@ -107,7 +107,7 @@
   const aresErrorEl = document.getElementById("ares-error");
 
   let session = null;
-  let aresData = null; // { ico, dic, companyName, vatPayer, isSro, isOsvc } — poslední úspěšný lookup
+  let aresData = null; // { ico, dic, companyName, vatPayer, isSro, isOsvc } - poslední úspěšný lookup
 
   (async () => {
     const result = await requireActiveSubscription();
@@ -170,7 +170,7 @@
       selectRadio("vat_payer", aresData.vatPayer ? "true" : "false");
       if (aresData.isSro) selectRadio("legal_form", "sro");
       // OSVČ: ARES nerozliší paušál/skutečné výdaje, tak se tam nic
-      // nepředvybírá — uživatel si tu jednu volbu zvolí sám.
+      // nepředvybírá - uživatel si tu jednu volbu zvolí sám.
     } catch (err) {
       aresData = null;
       aresErrorEl.textContent = err.message;

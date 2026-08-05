@@ -1,8 +1,8 @@
 -- Spusť v Supabase: Dashboard → SQL Editor → New query → vlož a Run
--- Fáze 2 — účty a profily. Vyžaduje zapnutý Supabase Auth (Email/Magic Link),
+-- Fáze 2 - účty a profily. Vyžaduje zapnutý Supabase Auth (Email/Magic Link),
 -- viz Authentication → Providers → Email (Magic Link stačí, heslo nepotřebujeme).
 
--- 1) Profil uživatele — typ subjektu a DPH režim, používá se pro
+-- 1) Profil uživatele - typ subjektu a DPH režim, používá se pro
 --    personalizaci odpovědí edge function (viz profileContext() v
 --    03_local_server.mjs / 03_edge_function/index.ts).
 create table if not exists profiles (
@@ -20,7 +20,7 @@ create policy "Users select own profile" on profiles
   for select using (auth.uid() = id);
 create policy "Users update own profile" on profiles
   for update using (auth.uid() = id) with check (auth.uid() = id);
--- Žádná explicitní insert policy pro klienta — řádek vytváří jen trigger
+-- Žádná explicitní insert policy pro klienta - řádek vytváří jen trigger
 -- níže (security definer), aby vždy existoval přesně jeden profil na
 -- uživatele a klient si nemohl založit cizí/duplicitní řádek.
 
@@ -42,7 +42,7 @@ create trigger on_auth_user_created
   after insert on auth.users
   for each row execute function public.handle_new_user();
 
--- 3) Historie dotazů — jen pro přihlášené, každý vidí jen svoje.
+-- 3) Historie dotazů - jen pro přihlášené, každý vidí jen svoje.
 create table if not exists query_history (
   id bigint generated always as identity primary key,
   user_id uuid not null references auth.users(id) on delete cascade,

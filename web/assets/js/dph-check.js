@@ -1,24 +1,24 @@
-// DPH přiznání — kontrola + výpočet (tiskopis 25 5401, vzor č. 26, 2026;
+// DPH přiznání - kontrola + výpočet (tiskopis 25 5401, vzor č. 26, 2026;
 // zákon č. 235/2004 Sb.). Stejný princip jako dap-check.js pro DPFO: řádky
 // a vzorce ověřené přímo z aktuálního tiskopisu a pokynů (financnisprava.gov.cz
 // / adisspr.mfcr.cz, staženo 2026-07-31), NE z paměti. Sazby (21 % základní,
 // 12 % snížená) ověřené přímo v §47 zákona v našem law_chunks.
 //
 // Rozsah je záměrně omezený na řádky, které samotný tiskopis označuje jako
-// "vyplňované běžnými plátci" (tmavě zelené řádky v pokynech) — plátce, který
+// "vyplňované běžnými plátci" (tmavě zelené řádky v pokynech) - plátce, který
 // neuskutečňuje osvobozená plnění bez nároku na odpočet (§51) a obchoduje jen
 // tuzemsky: ř. 1, 2 (uskutečněná plnění), ř. 40, 41, 46 (nárok na odpočet),
 // ř. 62–65 (výpočet daně). Přeshraniční obchod, krácený odpočet, vypořádání
-// koeficientu atd. nejsou pokryté — to by u typického malého OSVČ/s.r.o.
+// koeficientu atd. nejsou pokryté - to by u typického malého OSVČ/s.r.o.
 // klienta appky byl spíš odhad než kontrola.
 
 import { DPH_SAZBA_ZAKLADNI, DPH_SAZBA_SNIZENA } from "./tax-constants.js";
 
 export const RADEK_LABEL_DPH = {
-  1: "Dodání zboží/služby v tuzemsku — základní sazba",
-  2: "Dodání zboží/služby v tuzemsku — snížená sazba",
-  40: "Přijatá zdanitelná plnění od plátců — základní sazba",
-  41: "Přijatá zdanitelná plnění od plátců — snížená sazba",
+  1: "Dodání zboží/služby v tuzemsku - základní sazba",
+  2: "Dodání zboží/služby v tuzemsku - snížená sazba",
+  40: "Přijatá zdanitelná plnění od plátců - základní sazba",
+  41: "Přijatá zdanitelná plnění od plátců - snížená sazba",
   46: "Odpočet daně celkem (V plné výši)",
   62: "Daň na výstupu",
   63: "Odpočet daně",
@@ -40,7 +40,7 @@ function round0(n) {
 }
 
 /**
- * Dopočítá kaskádu z (základ1, základ2, odpočet40, odpočet41) — pro Generátor.
+ * Dopočítá kaskádu z (základ1, základ2, odpočet40, odpočet41) - pro Generátor.
  */
 export function computeDphCascade(v) {
   const dan1 = round0(or0(v.zaklad1) * DPH_SAZBA_ZAKLADNI);
@@ -137,7 +137,7 @@ export function checkDphConsistency(r) {
 // dphdp3_epo2.xsd, staženo 2026-07-31, kořenový element DPHDP3). Sufixy
 // "23"/"5" v názvech atributů jsou legacy interní kódy finanční správy pro
 // základní/sníženou sazbu (potvrzeno pořadím v XSD i oficiálním popisem
-// struktury na adisspr.mfcr.cz/dpr/adis/idpr_pub/epo2_info) — NE aktuální
+// struktury na adisspr.mfcr.cz/dpr/adis/idpr_pub/epo2_info) - NE aktuální
 // procentní sazby.
 const XML_ATTR_TO_FIELD_DPH = {
   obrat23: "zaklad1",
@@ -155,7 +155,7 @@ const XML_ATTR_TO_FIELD_DPH = {
 
 export function parseDphXml(xmlText) {
   const doc = new DOMParser().parseFromString(xmlText, "application/xml");
-  if (doc.querySelector("parsererror")) throw new Error("XML soubor se nepodařilo přečíst — není to platné XML.");
+  if (doc.querySelector("parsererror")) throw new Error("XML soubor se nepodařilo přečíst - není to platné XML.");
 
   const radky = {};
   const walk = (el) => {
@@ -170,7 +170,7 @@ export function parseDphXml(xmlText) {
   walk(doc.documentElement);
 
   if (Object.keys(radky).length === 0) {
-    throw new Error("V XML se nenašly žádné očekávané položky přiznání k DPH — je to opravdu podání DPHDP3 (25 5401)?");
+    throw new Error("V XML se nenašly žádné očekávané položky přiznání k DPH - je to opravdu podání DPHDP3 (25 5401)?");
   }
   return radky;
 }

@@ -1,7 +1,7 @@
 -- Spusť v Supabase: Dashboard → SQL Editor → New query → vlož a Run
 -- Naplánuje DENNÍ kontrolu tiskopisů a zdrojových stránek (check-form-updates
 -- musí být už nasazená). Denně, ne týdně jako u zákonů (12_schema_cron_law_updates.sql)
--- — je to jen pár levných HTTP requestů, a tiskopisy/sazby na přelomu roku
+-- - je to jen pár levných HTTP requestů, a tiskopisy/sazby na přelomu roku
 -- se mění nárazově, takže rychlejší záchyt stojí za to.
 --
 -- ⚠️ Nahraď dva placeholdery před spuštěním (stejně jako u ostatních cronů):

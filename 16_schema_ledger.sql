@@ -1,10 +1,10 @@
 -- Spusť v Supabase: Dashboard → SQL Editor → New query → vlož a Run
--- Evidence příjmů a výdajů + Sledování faktur + Kniha jízd — tři nové
+-- Evidence příjmů a výdajů + Sledování faktur + Kniha jízd - tři nové
 -- tabulky, které spolu drží pohromadě (faktura může mít navazující řádek
 -- v evidenci, evidence i kniha jízd slouží jako podklad pro export balíčku
 -- pro účetního a pro hlídání obratu DPH).
 
--- 1) Sledování faktur (vystavené i přijaté) — musí vzniknout PŘED
+-- 1) Sledování faktur (vystavené i přijaté) - musí vzniknout PŘED
 --    ledger_entries, protože na ni ledger_entries odkazuje cizím klíčem.
 create table if not exists invoices (
   id bigint generated always as identity primary key,
@@ -31,7 +31,7 @@ create policy "Users delete own invoices" on invoices for delete using (auth.uid
 
 create index if not exists invoices_user_id_issue_date_idx on invoices (user_id, issue_date desc);
 
--- 2) Evidence příjmů a výdajů — základní kniha, ze které čerpají kalkulačky
+-- 2) Evidence příjmů a výdajů - základní kniha, ze které čerpají kalkulačky
 --    (v budoucnu), hlídání obratu DPH a export balíčku pro účetního.
 --    invoice_id je nepovinný odkaz na fakturu, ze které řádek vznikl.
 create table if not exists ledger_entries (
@@ -54,10 +54,10 @@ create policy "Users delete own ledger entries" on ledger_entries for delete usi
 
 create index if not exists ledger_entries_user_id_date_idx on ledger_entries (user_id, entry_date desc);
 
--- 3) Kniha jízd — § 24 odst. 2 písm. k) bod 1 zákona 586/1992 Sb.: při
+-- 3) Kniha jízd - § 24 odst. 2 písm. k) bod 1 zákona 586/1992 Sb.: při
 --    skutečných výdajích lze uplatnit náhradu výdajů za pohonné hmoty a
 --    základní náhradu (na rozdíl od paušálu na dopravu, který žádnou
---    evidenci jízd nevyžaduje — proto tahle tabulka slouží jen té první
+--    evidenci jízd nevyžaduje - proto tahle tabulka slouží jen té první
 --    variantě).
 create table if not exists vehicle_trips (
   id bigint generated always as identity primary key,

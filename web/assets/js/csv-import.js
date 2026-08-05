@@ -1,8 +1,8 @@
-// Parser bankovních výpisů (CSV) — banky v ČR exportují CSV s různým
+// Parser bankovních výpisů (CSV) - banky v ČR exportují CSV s různým
 // oddělovačem (čárka/středník) a různým desetinným oddělovačem (tečka/čárka),
 // proto se oba detekují z obsahu souboru místo pevného nastavení. Sloupce se
 // hádají podle typických českých názvů hlaviček (Fio, ČSOB, KB, Raiffeisen
-// apod. používají různé názvy, ale významově podobné) — pokud se to nepovede
+// apod. používají různé názvy, ale významově podobné) - pokud se to nepovede
 // spolehlivě, nechá se to na uživateli v UI (mapování sloupců ručně).
 
 function detectDelimiter(sampleLine) {

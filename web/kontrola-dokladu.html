@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Kontrola dokladu — Para</title>
+<title>Kontrola dokladu - Para</title>
 <link rel="icon" href="/favicon.ico" sizes="any" />
 <link rel="icon" href="assets/img/logo/logo-mark.png" type="image/png" />
 <link rel="apple-touch-icon" href="assets/img/logo/logo-mark.png" />
@@ -32,7 +32,7 @@
       <img src="assets/img/mascot/mascot-kontroluje.png" alt="Para kontroluje doklad" class="mascot-img" />
       <span class="eyebrow" style="justify-content:center; display:flex;">Kontrola dokladu</span>
       <h1 style="margin: 10px 0 4px;">Má tahle faktura všechny náležitosti?</h1>
-      <p>Nahrajte fotku nebo PDF dokladu — porovnáme ho s náležitostmi podle § 29 zákona o DPH.</p>
+      <p>Nahrajte fotku nebo PDF dokladu - porovnáme ho s náležitostmi podle § 29 zákona o DPH.</p>
     </div>
 
     <div class="disclaimer-banner" style="margin-bottom: 28px;">
@@ -41,7 +41,7 @@
       </div>
       <div>
         <h3>Kontrola formy, ne právní posouzení</h3>
-        <p>Para popíše, jestli doklad obsahuje formální náležitosti podle zákona — neposuzuje, jestli je doklad jako celek v pořádku po obsahové/účetní stránce. U důležitých případů se poraďte s účetním.</p>
+        <p>Para popíše, jestli doklad obsahuje formální náležitosti podle zákona - neposuzuje, jestli je doklad jako celek v pořádku po obsahové/účetní stránce. U důležitých případů se poraďte s účetním.</p>
       </div>
     </div>
 
@@ -135,7 +135,7 @@
 
     if (!file) return;
     if (!["image/jpeg", "image/png", "image/webp", "application/pdf"].includes(file.type)) {
-      showError("Nepodporovaný formát — nahrajte prosím JPG, PNG nebo PDF.");
+      showError("Nepodporovaný formát - nahrajte prosím JPG, PNG nebo PDF.");
       return;
     }
     if (file.size > MAX_FILE_BYTES) {
@@ -193,7 +193,7 @@
     return new Promise((resolve, reject) => {
       const reader = new FileReader();
       reader.onload = () => {
-        // dataURL má tvar "data:image/png;base64,AAAA..." — chceme jen část za čárkou.
+        // dataURL má tvar "data:image/png;base64,AAAA..." - chceme jen část za čárkou.
         const base64 = reader.result.split(",")[1];
         resolve(base64);
       };

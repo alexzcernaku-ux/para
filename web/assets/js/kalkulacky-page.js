@@ -1,5 +1,5 @@
 // Propojuje formuláře na kalkulacky.html s výpočetním jádrem (tax-calc.js).
-// Přepočítává se okamžitě při každé změně vstupu — žádné tlačítko "Spočítat".
+// Přepočítává se okamžitě při každé změně vstupu - žádné tlačítko "Spočítat".
 
 import { vypocetOSVC, vypocetSRO, formatKc } from "./tax-calc.js";
 import { PAUSALNI_VYDAJE } from "./tax-constants.js";
@@ -179,7 +179,7 @@ function selectedValue(groupEl, name) {
         row("Čistý zisk", formatKc(rNormalni.cistyZisk), { total: true }),
         false
       );
-      noteEl.textContent = `Nad ${formatKc(PAUSALNI_DAN_MAX_PRIJEM)} ročního příjmu nejde do paušální daně vstoupit vůbec — pro srovnání zbývá jen normální režim.`;
+      noteEl.textContent = `Nad ${formatKc(PAUSALNI_DAN_MAX_PRIJEM)} ročního příjmu nejde do paušální daně vstoupit vůbec - pro srovnání zbývá jen normální režim.`;
       return;
     }
 

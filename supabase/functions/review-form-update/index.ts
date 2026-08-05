@@ -2,7 +2,7 @@
 //
 // Cíl odkazu "Označit jako vyřešeno" z e-mailu, který posílá
 // check-form-updates. Na rozdíl od review-law-change tu není co "schválit"
-// automaticky — přemapování PDF souřadnic nebo přepsání konstanty dělá
+// automaticky - přemapování PDF souřadnic nebo přepsání konstanty dělá
 // člověk (nebo Claude v editoru), tahle funkce jen označí form_watch_events
 // jako vyřízené, ať se appka nezacyklí v opakovaných e-mailech o té samé
 // změně (last_known_hash se ale aktualizuje hned v check-form-updates,

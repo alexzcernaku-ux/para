@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Chat — Para</title>
+<title>Chat - Para</title>
 <link rel="icon" href="/favicon.ico" sizes="any" />
 <link rel="icon" href="assets/img/logo/logo-mark.png" type="image/png" />
 <link rel="apple-touch-icon" href="assets/img/logo/logo-mark.png" />
@@ -103,7 +103,7 @@
       <div class="app-empty" id="empty-state">
         <img src="assets/img/mascot/mascot-vita.png" alt="Para" />
         <h3>Na co se chcete zeptat?</h3>
-        <p>Odpovím na základě nahraných zákonů a přizpůsobím to vašemu profilu — vždy s odkazem na konkrétní paragraf.</p>
+        <p>Odpovím na základě nahraných zákonů a přizpůsobím to vašemu profilu - vždy s odkazem na konkrétní paragraf.</p>
       </div>
     </div>
 
@@ -114,7 +114,7 @@
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12l16-7-6 16-3-6-7-3z" /></svg>
         </button>
       </form>
-      <div class="app-composer-hint">Para není daňové ani účetní poradenství — u důležitých rozhodnutí konzultujte s odborníkem.</div>
+      <div class="app-composer-hint">Para není daňové ani účetní poradenství - u důležitých rozhodnutí konzultujte s odborníkem.</div>
     </div>
   </main>
 </div>
@@ -305,7 +305,7 @@
           </div>
           <div>
             <h3>${obratStatus.prekrocen ? "Obrat překročil limit pro DPH" : `Blížíte se k limitu pro DPH (${obratStatus.percent} %)`}</h3>
-            <p>Za posledních 12 měsíců obrat ${obratStatus.obrat12m.toLocaleString("cs-CZ")} Kč z ${obratStatus.limit.toLocaleString("cs-CZ")} Kč (§ 6 zákona o DPH). ${obratStatus.prekrocen ? "Registrace k DPH je nejspíš na místě — poraďte se s účetním." : "Počítáno z Evidence příjmů a výdajů."}</p>
+            <p>Za posledních 12 měsíců obrat ${obratStatus.obrat12m.toLocaleString("cs-CZ")} Kč z ${obratStatus.limit.toLocaleString("cs-CZ")} Kč (§ 6 zákona o DPH). ${obratStatus.prekrocen ? "Registrace k DPH je nejspíš na místě - poraďte se s účetním." : "Počítáno z Evidence příjmů a výdajů."}</p>
           </div>
         </div>`;
     }
@@ -621,10 +621,10 @@
 
   signoutBtn.addEventListener("click", () => signOut());
 
-  // Upozornění v topbaru — poskládaná ze tří nezávislých zdrojů (termíny,
+  // Upozornění v topbaru - poskládaná ze tří nezávislých zdrojů (termíny,
   // hlídání obratu DPH, faktury po splatnosti). Selže-li kterýkoli z nich
   // (např. tabulky z 16_schema_ledger.sql ještě nejsou založené), zbytek
-  // aplikace musí fungovat dál — proto samostatné try/catch kolem každého.
+  // aplikace musí fungovat dál - proto samostatné try/catch kolem každého.
   function buildNotifications(deadlineItems, obratStatus, overdueInvoices) {
     const items = [];
     for (const d of deadlineItems.filter((d) => d.zbyvaDni <= 7)) {
@@ -685,7 +685,7 @@
 
     if (isInTrial(profile)) {
       const daysLeft = trialDaysLeft(profile);
-      trialPillEl.textContent = daysLeft === 1 ? "Zkušební verze — poslední den" : `Zkušební verze — zbývá ${daysLeft} dní`;
+      trialPillEl.textContent = daysLeft === 1 ? "Zkušební verze - poslední den" : `Zkušební verze - zbývá ${daysLeft} dní`;
       trialPillEl.classList.remove("hidden");
     }
 

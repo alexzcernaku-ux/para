@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Evidence příjmů a výdajů — Para</title>
+<title>Evidence příjmů a výdajů - Para</title>
 <link rel="icon" href="/favicon.ico" sizes="any" />
 <link rel="icon" href="assets/img/logo/logo-mark.png" type="image/png" />
 <link rel="apple-touch-icon" href="assets/img/logo/logo-mark.png" />
@@ -32,7 +32,7 @@
       <img src="assets/img/mascot/mascot-pocita.png" alt="Para" class="mascot-img" />
       <span class="eyebrow" style="justify-content:center; display:flex;">Evidence příjmů a výdajů</span>
       <h1 style="margin: 10px 0 4px;">Vaše čísla na jednom místě</h1>
-      <p>Průběžná daňová evidence — zapsané řádky pak Para umí použít v kalkulačkách, přiznáních a hlídání obratu DPH, ať je nemusíte pokaždé zadávat ručně.</p>
+      <p>Průběžná daňová evidence - zapsané řádky pak Para umí použít v kalkulačkách, přiznáních a hlídání obratu DPH, ať je nemusíte pokaždé zadávat ručně.</p>
     </div>
 
     <div style="display:flex; justify-content:flex-end; margin-bottom: 14px;">
@@ -48,8 +48,8 @@
     <div class="card list-form-card">
       <h3 style="margin-bottom: 16px;">Přidat záznam</h3>
       <form id="entry-form">
-        <div class="wiz-yesno" style="margin-bottom: 18px;">
-          <label class="calc-radio-chip"><input type="radio" name="f-type" value="prijem" checked /> Příjem</label>
+        <div class="wiz-yesno" id="f-type-group" style="margin-bottom: 18px;">
+          <label class="calc-radio-chip selected"><input type="radio" name="f-type" value="prijem" checked /> Příjem</label>
           <label class="calc-radio-chip"><input type="radio" name="f-type" value="vydaj" /> Výdaj</label>
         </div>
         <div class="wiz-row3-even">
@@ -57,18 +57,7 @@
           <div class="wiz-field"><label>Částka (Kč)</label><input type="number" class="text-input" id="f-amount" min="0" step="1" required /></div>
           <div class="wiz-field">
             <label>Kategorie</label>
-            <select class="text-input" id="f-category">
-              <option>Tržby/služby</option>
-              <option>Materiál a zboží</option>
-              <option>Služby</option>
-              <option>Mzdy a odměny</option>
-              <option>Nájem</option>
-              <option>Doprava a PHM</option>
-              <option>Vybavení a kancelář</option>
-              <option>Pojištění</option>
-              <option>Bankovní poplatky</option>
-              <option>Jiné</option>
-            </select>
+            <select class="text-input" id="f-category"></select>
           </div>
         </div>
         <div class="wiz-field"><label>Popis (nepovinné)</label><input type="text" class="text-input" id="f-description" placeholder="např. faktura č. 2026015" /></div>
@@ -102,7 +91,7 @@
       </div>
       <div>
         <h3>Pomocná evidence, ne účetnictví</h3>
-        <p>Zjednodušený přehled příjmů a výdajů pro orientaci a podklady — nenahrazuje daňovou evidenci vedenou podle § 7b zákona o daních z příjmů, ani podvojné účetnictví. U důležitých rozhodnutí se poraďte s účetním.</p>
+        <p>Zjednodušený přehled příjmů a výdajů pro orientaci a podklady - nenahrazuje daňovou evidenci vedenou podle § 7b zákona o daních z příjmů, ani podvojné účetnictví. U důležitých rozhodnutí se poraďte s účetním.</p>
       </div>
     </div>
   </div>

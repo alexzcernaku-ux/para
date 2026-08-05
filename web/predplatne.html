@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Předplatné — Para</title>
+<title>Předplatné - Para</title>
 <link rel="icon" href="/favicon.ico" sizes="any" />
 <link rel="icon" href="assets/img/logo/logo-mark.png" type="image/png" />
 <link rel="apple-touch-icon" href="assets/img/logo/logo-mark.png" />
@@ -13,7 +13,7 @@
 
 <div class="auth-shell">
   <div class="auth-topbar">
-    <a href="index.html" aria-label="Para — domů">
+    <a href="index.html" aria-label="Para - domů">
       <img src="assets/img/logo/logo-primary-light.png" alt="Para" />
     </a>
   </div>
@@ -22,7 +22,7 @@
     <div class="card auth-card wide hidden" id="plan-state">
       <img src="assets/img/mascot/mascot-vita.png" alt="" class="mascot-img" />
       <h1>Aktivujte předplatné Para Pro</h1>
-      <p id="plan-intro">Vyberte tarif a zadejte fakturační údaje — na platbu vás pak přesměrujeme na zabezpečenou bránu GoPay.</p>
+      <p id="plan-intro">Vyberte tarif a zadejte fakturační údaje - na platbu vás pak přesměrujeme na zabezpečenou bránu GoPay.</p>
 
       <div class="doctype-tabs" id="plan-tabs" role="tablist" style="margin-bottom: 22px;">
         <button type="button" class="doctype-tab" data-plan="monthly" role="tab">
@@ -42,7 +42,7 @@
       <form id="payer-form">
         <div class="doctype-tabs" id="buyer-type-tabs" role="tablist" style="margin-bottom: 16px;">
           <button type="button" class="doctype-tab" data-buyer="person" role="tab" style="flex:1; justify-content:center;">Soukromá osoba</button>
-          <button type="button" class="doctype-tab" data-buyer="company" role="tab" style="flex:1; justify-content:center;">Podnikatel — na IČO</button>
+          <button type="button" class="doctype-tab" data-buyer="company" role="tab" style="flex:1; justify-content:center;">Podnikatel - na IČO</button>
         </div>
 
         <div id="company-fields" class="hidden">
@@ -51,7 +51,7 @@
             <input type="text" id="company-ico" class="text-input" placeholder="IČO" inputmode="numeric" maxlength="8" aria-label="IČO" />
             <input type="text" id="company-dic" class="text-input" placeholder="DIČ (nepovinné)" aria-label="DIČ" />
           </div>
-          <p class="form-hint" style="margin: -8px 0 16px;">Fakturační údaje na doklad z platby — platí i pro OSVČ, ne jen s.r.o. Jméno a telefon níže patří skutečné osobě, která platbu provádí (vyžaduje GoPay kvůli ověření karty).</p>
+          <p class="form-hint" style="margin: -8px 0 16px;">Fakturační údaje na doklad z platby - platí i pro OSVČ, ne jen s.r.o. Jméno a telefon níže patří skutečné osobě, která platbu provádí (vyžaduje GoPay kvůli ověření karty).</p>
         </div>
 
         <div class="choice-grid cols-2" style="margin-bottom: 0; display:grid; grid-template-columns:1fr 1fr; gap:12px;">
@@ -84,7 +84,7 @@
           </span>
         </label>
 
-        <button type="submit" class="btn btn-primary btn-block btn-lg" id="payer-submit" style="margin-top: 6px;">Pokračovat k platbě — <span id="submit-price">150 Kč</span></button>
+        <button type="submit" class="btn btn-primary btn-block btn-lg" id="payer-submit" style="margin-top: 6px;">Pokračovat k platbě - <span id="submit-price">150 Kč</span></button>
       </form>
     </div>
 
@@ -195,7 +195,7 @@
   let session = null;
 
   // Para už tyhle údaje často zná z onboardingu/ARES (14_schema_profiles_ares.sql)
-  // — nemá smysl nutit uživatele je psát znovu. IČO mají i OSVČ, ne jen
+  // - nemá smysl nutit uživatele je psát znovu. IČO mají i OSVČ, ne jen
   // s.r.o., proto přepínač reaguje na profile.ico, ne na legal_form === 'sro'.
   function prefillFromProfile(profile) {
     if (profile.ico) {
@@ -207,7 +207,7 @@
     }
 
     // U OSVČ je company_name z ARES ve tvaru "Jméno Příjmení" (fyzická osoba
-    // podnikatel) — u s.r.o. je to název firmy, tam by rozdělení na
+    // podnikatel) - u s.r.o. je to název firmy, tam by rozdělení na
     // jméno/příjmení dávalo nesmysl, proto jen pro osvc_* varianty.
     const isOsvc = profile.legal_form === "osvc_pausal" || profile.legal_form === "osvc_skutecne";
     if (isOsvc && profile.company_name && profile.company_name.trim().includes(" ")) {
@@ -218,7 +218,7 @@
 
     if (profile.address) {
       // Adresa je v profilu jedno pole (15_schema_profiles_address.sql), ne
-      // rozdělené na ulici/město/PSČ — spolehlivě naparsovat nejde, tak ji
+      // rozdělené na ulici/město/PSČ - spolehlivě naparsovat nejde, tak ji
       // dáme celou do pole Ulice jako výchozí bod, uživatel si ji doupraví.
       document.getElementById("payer-street").value = profile.address;
     }
@@ -229,7 +229,7 @@
   }
 
   // Po návratu z GoPay (return_url) appka poll-uje profil, dokud
-  // gopay-webhook nedoběhne a nezapíše subscription_status — notifikace od
+  // gopay-webhook nedoběhne a nezapíše subscription_status - notifikace od
   // GoPay chodí asynchronně, typicky ale během pár vteřin.
   async function pollForActiveSubscription(userId, { attempts = 10, intervalMs = 2000 } = {}) {
     for (let i = 0; i < attempts; i++) {
@@ -254,8 +254,8 @@
     }
 
     document.getElementById("plan-intro").textContent = isInTrial(profile)
-      ? "Appku zatím používáte v rámci zkušební doby zdarma — předplatné si můžete nastavit už teď, nebo počkat, až zkušební doba skončí. Vyberte tarif a zadejte fakturační údaje."
-      : "Zkušební doba zdarma skončila. Vyberte tarif a zadejte fakturační údaje — na platbu vás pak přesměrujeme na zabezpečenou bránu GoPay.";
+      ? "Appku zatím používáte v rámci zkušební doby zdarma - předplatné si můžete nastavit už teď, nebo počkat, až zkušební doba skončí. Vyberte tarif a zadejte fakturační údaje."
+      : "Zkušební doba zdarma skončila. Vyberte tarif a zadejte fakturační údaje - na platbu vás pak přesměrujeme na zabezpečenou bránu GoPay.";
     prefillFromProfile(profile);
 
     if (new URLSearchParams(window.location.search).get("platba") === "vysledek") {
@@ -297,7 +297,7 @@
       };
 
       // GoPay samo o sobě žádné firemní údaje nezná (jen contact reálné
-      // osoby, viz gopay.ts) — company posíláme navíc jen proto, aby si je
+      // osoby, viz gopay.ts) - company posíláme navíc jen proto, aby si je
       // appka uložila do profilu pro fakturaci (generator-dokumentu.html).
       const company =
         buyerType === "company"
@@ -324,7 +324,7 @@
       window.location.href = data.gwUrl;
     } catch (err) {
       submitBtn.disabled = false;
-      submitBtn.textContent = `Pokračovat k platbě — ${PLAN_PRICES[selectedPlan].label}`;
+      submitBtn.textContent = `Pokračovat k platbě - ${PLAN_PRICES[selectedPlan].label}`;
       alert(`Nepodařilo se založit platbu (${err.message}). Zkuste to prosím znovu.`);
     }
   });

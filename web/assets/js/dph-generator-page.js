@@ -1,5 +1,5 @@
 // Krokový průvodce vyplněním přiznání k DPH (tuzemská plnění, bez kráceného
-// odpočtu — viz komentář v dph-check.js). Stejný vzor jako dap-generator-page.js.
+// odpočtu - viz komentář v dph-check.js). Stejný vzor jako dap-generator-page.js.
 
 import { requireOnboardedProfile, signOut } from "./supabase-client.js";
 import { computeDphCascade } from "./dph-check.js";
@@ -110,7 +110,7 @@ const STEPS = [
     id: "odpocet40",
     bubble: () => "Kolik jste zaplatil(a) na DPH na vstupu (z přijatých faktur od plátců v základní sazbě), které si uplatňujete jako odpočet?",
     render(el) {
-      el.innerHTML = `<div class="wiz-field"><label>DPH na vstupu, 21 % — plný nárok na odpočet (Kč)</label><input type="number" class="text-input" id="w-odp40" min="0" step="100" value="${answers.odp40}" /></div>`;
+      el.innerHTML = `<div class="wiz-field"><label>DPH na vstupu, 21 % - plný nárok na odpočet (Kč)</label><input type="number" class="text-input" id="w-odp40" min="0" step="100" value="${answers.odp40}" /></div>`;
       el.querySelector("#w-odp40").addEventListener("input", (e) => (answers.odp40 = num(e.target.value) ?? 0));
     },
     canNext: () => true,
@@ -139,7 +139,7 @@ const STEPS = [
   },
   {
     id: "souhrn",
-    bubble: () => "Tohle vychází z toho, co jste zadal(a) — zkontrolujte a stáhněte PDF.",
+    bubble: () => "Tohle vychází z toho, co jste zadal(a) - zkontrolujte a stáhněte PDF.",
     render(el) {
       const cascade = computeDphCascade({ zaklad1: answers.zaklad1, zaklad2: answers.zaklad2, odp40: answers.odp40, odp41: answers.odp41 });
       const row = (label, value, opts = {}) =>

@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Kontrola přiznání k DPH — Para</title>
+<title>Kontrola přiznání k DPH - Para</title>
 <link rel="icon" href="/favicon.ico" sizes="any" />
 <link rel="icon" href="assets/img/logo/logo-mark.png" type="image/png" />
 <link rel="apple-touch-icon" href="assets/img/logo/logo-mark.png" />
@@ -32,7 +32,7 @@
       <img src="assets/img/mascot/mascot-kontroluje.png" alt="Para kontroluje přiznání k DPH" class="mascot-img" />
       <span class="eyebrow" style="justify-content:center; display:flex;">Kontrola přiznání k DPH</span>
       <h1 style="margin: 10px 0 4px;">Sedí vám výpočet daně?</h1>
-      <p>Nahrajte přiznání (25 5401) — přepočítáme daň na výstupu podle sazeb, odpočet a vlastní daň / nadměrný odpočet podle vzorců z tiskopisu.</p>
+      <p>Nahrajte přiznání (25 5401) - přepočítáme daň na výstupu podle sazeb, odpočet a vlastní daň / nadměrný odpočet podle vzorců z tiskopisu.</p>
       <p style="margin-top: 8px;"><a href="dph-generator.html" style="color: var(--indigo); font-weight: 600;">Ještě přiznání nemáte? Nechte si ho pomoct vyplnit →</a></p>
     </div>
 
@@ -42,7 +42,7 @@
       </div>
       <div>
         <h3>Kontrola výpočtu, ne daňové poradenství</h3>
-        <p>Para ověřuje jen ř. 1, 2, 40, 41, 46 a 62–65 — řádky, které tiskopis sám označuje jako určené pro běžné plátce bez zahraničního obchodu a bez kráceného odpočtu. Přeshraniční plnění, krácení nároku a vypořádání koeficientu nekontroluje. U důležitých rozhodnutí se poraďte s daňovým poradcem.</p>
+        <p>Para ověřuje jen ř. 1, 2, 40, 41, 46 a 62–65 - řádky, které tiskopis sám označuje jako určené pro běžné plátce bez zahraničního obchodu a bez kráceného odpočtu. Přeshraniční plnění, krácení nároku a vypořádání koeficientu nekontroluje. U důležitých rozhodnutí se poraďte s daňovým poradcem.</p>
       </div>
     </div>
 
@@ -194,7 +194,7 @@
       <div class="kd-result-summary ${hasIssues ? "issues" : "ok"}">
         <div>
           <div class="kd-doc-type">Kontrola výpočtu</div>
-          <p>${hasIssues ? "Některé řádky nesedí s vzorcem z tiskopisu, nebo je něco potřeba doplnit — podrobnosti níže." : "Zkontrolované řádky odpovídají vzorcům z tiskopisu."}${sourceNote ? " " + sourceNote : ""}</p>
+          <p>${hasIssues ? "Některé řádky nesedí s vzorcem z tiskopisu, nebo je něco potřeba doplnit - podrobnosti níže." : "Zkontrolované řádky odpovídají vzorcům z tiskopisu."}${sourceNote ? " " + sourceNote : ""}</p>
         </div>
       </div>
       <div class="kd-checklist">`;
@@ -207,7 +207,7 @@
         <div class="kd-check-item ${c.stav}">
           <div class="kd-check-icon">${ICONS[c.stav] || ""}</div>
           <div class="kd-check-body">
-            <div class="kd-check-title">ř. ${c.radek} — ${c.popis}</div>
+            <div class="kd-check-title">ř. ${c.radek} - ${c.popis}</div>
             ${c.poznamka ? `<div class="kd-check-note">${c.poznamka}</div>` : ""}
             ${c.poznamkaOdhad ? `<div class="kd-check-para">${c.poznamkaOdhad}</div>` : ""}
             ${compareLine}
@@ -235,7 +235,7 @@
     resetResults();
     if (!file) return;
     if (!["image/jpeg", "image/png", "image/webp", "application/pdf"].includes(file.type)) {
-      showError("Nepodporovaný formát — nahrajte prosím JPG, PNG nebo PDF.");
+      showError("Nepodporovaný formát - nahrajte prosím JPG, PNG nebo PDF.");
       return;
     }
     if (file.size > MAX_FILE_BYTES) {
@@ -299,7 +299,7 @@
       const note = data.poznamka
         ? `Poznámka ke čtení dokumentu: ${data.poznamka}`
         : nejisteCount
-        ? `U ${nejisteCount} položek si model nebyl jistý přečtenou hodnotou — zkontrolujte je ručně.`
+        ? `U ${nejisteCount} položek si model nebyl jistý přečtenou hodnotou - zkontrolujte je ručně.`
         : "";
       renderChecks(checks, note);
     } catch (err) {

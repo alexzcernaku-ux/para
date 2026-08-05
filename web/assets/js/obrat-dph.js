@@ -2,7 +2,7 @@
 // č. 235/2004 Sb.): osoba povinná k dani je plátcem od prvního dne druhého
 // měsíce následujícího po měsíci, ve kterém překročila obrat 2 000 000 Kč
 // za nejvýše 12 bezprostředně předcházejících po sobě jdoucích kalendářních
-// měsíců (NE kalendářní rok — proto klouzavé okno, ne součet za rok).
+// měsíců (NE kalendářní rok - proto klouzavé okno, ne součet za rok).
 //
 // Limit sdílený s dph-check.js/dph-generator-page.js (DPH_LIMIT_OBRAT z
 // tax-constants.js), aby se číslo neopakovalo na dvou místech.

@@ -1,16 +1,16 @@
 // supabase/functions/check-law-updates/index.ts
 //
-// Fáze 7 — cron (týdně, viz 12_schema_cron_law_updates.sql). Pro každý
+// Fáze 7 - cron (týdně, viz 12_schema_cron_law_updates.sql). Pro každý
 // sledovaný zákon zjistí z e-Sbírky (_shared/esbirka.js), jestli vyšla nová
 // konsolidovaná verze. Pokud ano, projde paragrafy, které o daném zákonu
 // máme v law_chunks, zrekonstruuje jejich nový text a porovná se stávajícím.
 // Při reálném rozdílu založí law_change_events (status pending_review) a
 // pošle TOBĚ (ADMIN_EMAIL) e-mail se shrnutím a odkazem na schválení/zamítnutí
-// — podle tvého rozhodnutí se nic nemění v produkční DB ani se neposílá
+// - podle tvého rozhodnutí se nic nemění v produkční DB ani se neposílá
 // uživatelům, dokud to neschválíš (viz supabase/functions/review-law-change).
 //
 // Nasazení: supabase functions deploy check-law-updates
-// Secrets: žádné nové — ANTHROPIC_API_KEY se nepoužívá, ale RESEND_API_KEY
+// Secrets: žádné nové - ANTHROPIC_API_KEY se nepoužívá, ale RESEND_API_KEY
 // a service role ano (stejné jako u send-reminders).
 
 import { createClient } from "https://esm.sh/@supabase/supabase-js@2";
@@ -30,7 +30,7 @@ const supabase = createClient(
 const RESEND_API_KEY = Deno.env.get("RESEND_API_KEY")!;
 const RESEND_FROM = Deno.env.get("RESEND_FROM") || "Para <onboarding@resend.dev>";
 const ADMIN_EMAIL = Deno.env.get("ADMIN_EMAIL")!;
-// review-law-change je taky edge function, ne stránka na webu — schvalovací
+// review-law-change je taky edge function, ne stránka na webu - schvalovací
 // odkaz v e-mailu musí mířit sem, ne na statický web.
 const FUNCTIONS_BASE = `${Deno.env.get("SUPABASE_URL")}/functions/v1`;
 
@@ -45,7 +45,7 @@ function normalize(text: string) {
 // části/hlavy zákona (ČÁST PRVNÍ, HLAVA II…), protože se to tak vizuálně
 // nacházelo hned pod paragrafem na zdroji, ze kterého se ručně kopírovalo
 // při prvotním ingestu. e-Sbírka takový nadpis počítá jako SOUROZENCE
-// paragrafu, ne jeho součást, takže rekonstrukce ho správně neobsahuje —
+// paragrafu, ne jeho součást, takže rekonstrukce ho správně neobsahuje -
 // bez týhle očisty by to při KAŽDÉM běhu vypadalo jako "změna", i když není.
 // Ověřeno živě 2026-07-31 na § 1 zákona 586/1992 Sb.
 function stripTrailingHeadingLines(text: string) {
@@ -72,7 +72,7 @@ async function sendEmail(to: string, subject: string, html: string) {
   if (!res.ok) throw new Error(`Resend API error: ${res.status} ${await res.text()}`);
 }
 
-// PostgREST vrací max. 1000 řádků na dotaz, i bez explicitního .limit() —
+// PostgREST vrací max. 1000 řádků na dotaz, i bez explicitního .limit() -
 // law_chunks jich má přes 2700, takže bez stránkování bychom viděli jen
 // prvních 1000 (= náhodnou podmnožinu zákonů podle pořadí ingestu).
 async function fetchAllLawChunks() {
@@ -98,7 +98,7 @@ Deno.serve(async (req) => {
     const allChunks = await fetchAllLawChunks();
 
     // Zákony, který parseLawCode nerozezná (ČÚS/NÚR standardy, ne "N/RRRR Sb."),
-    // e-Sbírka je nemá — jen je zeptat, tak je přeskočit.
+    // e-Sbírka je nemá - jen je zeptat, tak je přeskočit.
     const byLaw = new Map<string, typeof allChunks>();
     for (const c of allChunks) {
       if (!parseLawCode(c.law_code)) continue;
@@ -124,7 +124,7 @@ Deno.serve(async (req) => {
       const alreadyChecking = versionRow?.checking_version_date && versionRow?.pending_paragraphs?.length;
 
       // U zákona, který se právě dokontroluje z minula, nemá smysl volat
-      // znovu fetchLatestVersionDate — držíme se verze, na kterou jsme se
+      // znovu fetchLatestVersionDate - držíme se verze, na kterou jsme se
       // rozjeli, ať nemícháme dva různé cíle v jedné dávce.
       const latestVersion = alreadyChecking ? versionRow.checking_version_date : await fetchLatestVersionDate(lawCode);
       if (!latestVersion) {
@@ -159,7 +159,7 @@ Deno.serve(async (req) => {
 
       let pending = versionRow.pending_paragraphs as string[] | null;
       if (!pending) {
-        // Nový detekovaný rozdíl verze — naplánovat kontrolu VŠECH paragrafů,
+        // Nový detekovaný rozdíl verze - naplánovat kontrolu VŠECH paragrafů,
         // které o tomhle zákonu sledujeme.
         const allNums = new Set<string>();
         for (const c of chunks) {
@@ -184,10 +184,10 @@ Deno.serve(async (req) => {
         if (!paragraphChunks) continue;
 
         const reconstructed = await reconstructParagraphText(lawCode, latestVersion, paragraphNumber, fragmentPaths);
-        if (reconstructed === null) continue; // paragraf ve verzi nenalezen (přejmenování apod.) — mimo rozsah V1
+        if (reconstructed === null) continue; // paragraf ve verzi nenalezen (přejmenování apod.) - mimo rozsah V1
         if (typeof reconstructed === "object") {
           console.warn(`Nespolehlivá rekonstrukce ${lawCode} § ${paragraphNumber}:`, JSON.stringify(reconstructed));
-          continue; // zůstává mimo "pending" už odškrtnuté — dotáhne se to, až se zákon příště reálně změní. V1 limitace.
+          continue; // zůstává mimo "pending" už odškrtnuté - dotáhne se to, až se zákon příště reálně změní. V1 limitace.
         }
 
         const oldContent = paragraphChunks
@@ -221,11 +221,11 @@ Deno.serve(async (req) => {
           const rejectUrl = `${FUNCTIONS_BASE}/review-law-change?id=${inserted.id}&token=${inserted.review_token}&action=reject`;
           await sendEmail(
             ADMIN_EMAIL,
-            `Ke schválení: ${lawName} — ${sectionRef} se změnil`,
+            `Ke schválení: ${lawName} - ${sectionRef} se změnil`,
             `<div style="font-family:sans-serif;max-width:600px">
-              <p><strong>${lawCode}</strong> (${lawName}) — <strong>${sectionRef}</strong></p>
+              <p><strong>${lawCode}</strong> (${lawName}) - <strong>${sectionRef}</strong></p>
               <p>Nová verze zákona účinná od ${latestVersion} (dřív ${versionRow.last_known_version_date}).</p>
-              <p style="color:#92400e;background:#fffbeb;padding:8px 12px;border-radius:6px">Rozdíl nemusí být jen novela — může jít i o formátovací hranici mezi naším původním ručním ingestem a strukturou e-Sbírky, nebo o opravu chyby v datech z prvotního nahrání. Přečti si obě znění, než schválíš.</p>
+              <p style="color:#92400e;background:#fffbeb;padding:8px 12px;border-radius:6px">Rozdíl nemusí být jen novela - může jít i o formátovací hranici mezi naším původním ručním ingestem a strukturou e-Sbírky, nebo o opravu chyby v datech z prvotního nahrání. Přečti si obě znění, než schválíš.</p>
               <h4>Staré znění (v databázi teď)</h4><pre style="white-space:pre-wrap;background:#f1f5f9;padding:12px;border-radius:8px">${oldContent}</pre>
               <h4>Nové znění (rekonstruováno z e-Sbírky)</h4><pre style="white-space:pre-wrap;background:#eef2ff;padding:12px;border-radius:8px">${reconstructed}</pre>
               <p><a href="${approveUrl}" style="background:#6366F1;color:#fff;padding:10px 18px;border-radius:8px;text-decoration:none;margin-right:10px">Schválit a aktualizovat</a>
@@ -236,7 +236,7 @@ Deno.serve(async (req) => {
       }
 
       if (remaining.length) {
-        // Dávka nestačila na celý zákon — uložit rozpracovaný stav, last_known_version_date
+        // Dávka nestačila na celý zákon - uložit rozpracovaný stav, last_known_version_date
         // NEPOSOUVAT (jinak by se zbytek pending paragrafů už nikdy nezkontroloval).
         await supabase
           .from("law_versions")

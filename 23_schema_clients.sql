@@ -1,5 +1,5 @@
 -- Spusť v Supabase: Dashboard → SQL Editor → New query → vlož a Run
--- Databáze klientů (odběratelů) — jednou zadaný klient se pak jen vybírá
+-- Databáze klientů (odběratelů) - jednou zadaný klient se pak jen vybírá
 -- v faktury.html a generator-dokumentu.html, místo aby se psal pokaždé
 -- ručně znovu. Stejný vzor jako ledger_entries/invoices (16_schema_ledger.sql).
 

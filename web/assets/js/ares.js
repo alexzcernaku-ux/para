@@ -1,8 +1,8 @@
-// Klient pro veřejné ARES REST API (ares.gov.cz) — žádný klíč, CORS povolené
+// Klient pro veřejné ARES REST API (ares.gov.cz) - žádný klíč, CORS povolené
 // pro libovolný origin (ověřeno 2026-07-31), takže se volá přímo z prohlížeče.
 //
 // právníForma "112" = s.r.o., "101"-"108" = varianty fyzické osoby podnikající
-// (standardní číselník ČSÚ, používaný napříč ARES/RÚIAN) — díky tomu jde
+// (standardní číselník ČSÚ, používaný napříč ARES/RÚIAN) - díky tomu jde
 // při onboardingu rovnou napovědět OSVČ/s.r.o., i když paušál/skutečné
 // výdaje si u OSVČ musí uživatel stejně zvolit sám (to ARES neví).
 
@@ -16,7 +16,7 @@ export async function lookupIco(ico) {
   const res = await fetch(`https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/${clean}`, {
     headers: { Accept: "application/json" },
   });
-  if (res.status === 404) throw new Error("Tohle IČO se v ARES nenašlo — zkontrolujte prosím číslo.");
+  if (res.status === 404) throw new Error("Tohle IČO se v ARES nenašlo - zkontrolujte prosím číslo.");
   if (!res.ok) throw new Error(`ARES odpověděl chybou (${res.status}).`);
 
   const data = await res.json();

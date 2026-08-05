@@ -1,5 +1,5 @@
 -- Spusť v Supabase: Dashboard → SQL Editor → New query → vlož a Run
--- Přidává tabulku pro palec nahoru/dolů u odpovědí — časem ukáže, na co
+-- Přidává tabulku pro palec nahoru/dolů u odpovědí - časem ukáže, na co
 -- systém spolehlivě neodpovídá (hodně 👎 nebo "nelze určit" u konkrétního
 -- tématu = signál, že tam chybí zdrojový dokument).
 

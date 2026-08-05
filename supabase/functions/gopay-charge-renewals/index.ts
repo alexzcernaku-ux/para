@@ -1,14 +1,14 @@
 // supabase/functions/gopay-charge-renewals/index.ts
 //
-// Denní cron (viz 20_schema_cron_gopay_renewals.sql) — strhává další
+// Denní cron (viz 20_schema_cron_gopay_renewals.sql) - strhává další
 // období u profilů, kterým končí (nebo skončilo) subscription_current_period_end.
 // GoPay v ON_DEMAND režimu NIC nestrhává sama automaticky (viz _shared/gopay.ts)
-// — o každou další platbu si appka musí říct explicitně přes create-recurrence.
+// - o každou další platbu si appka musí říct explicitně přes create-recurrence.
 //
-// Po založení platby si stav rovnou ověříme (getPaymentStatus) — u uložené
+// Po založení platby si stav rovnou ověříme (getPaymentStatus) - u uložené
 // karty GoPay obvykle vyřídí platbu synchronně, není důvod čekat celý den
 // na webhook. gopay-webhook navíc dorazí stejně (asynchronně) a jen
-// potvrdí totéž — idempotentní, žádná kolize.
+// potvrdí totéž - idempotentní, žádná kolize.
 //
 // Nasazení: supabase functions deploy gopay-charge-renewals
 // Secrets: stejné GOPAY_* jako gopay-checkout/gopay-webhook.
@@ -22,8 +22,8 @@ const supabase = createClient(
 );
 
 const PLAN_PRICES: Record<string, { amountKc: number; label: string }> = {
-  monthly: { amountKc: 150, label: "Para Pro — měsíční předplatné" },
-  yearly: { amountKc: 1500, label: "Para Pro — roční předplatné" },
+  monthly: { amountKc: 150, label: "Para Pro - měsíční předplatné" },
+  yearly: { amountKc: 1500, label: "Para Pro - roční předplatné" },
 };
 
 function periodEndFor(plan: string, from: Date): string {
@@ -35,7 +35,7 @@ function periodEndFor(plan: string, from: Date): string {
 
 Deno.serve(async (_req) => {
   try {
-    // 'active' i 'past_due' — past_due dostal appku z minula (dočasně
+    // 'active' i 'past_due' - past_due dostal appku z minula (dočasně
     // pořád funkční, viz isSubscriptionActive), tak zkusíme strhnout znovu
     // při dalším běhu cronu místo čekání na ruční zásah uživatele.
     const { data: dueProfiles, error } = await supabase
@@ -50,7 +50,7 @@ Deno.serve(async (_req) => {
 
     for (const profile of dueProfiles || []) {
       if (profile.subscription_cancel_at_period_end) {
-        // Uživatel zrušil přes ucet.html (gopay-cancel-subscription) — žádná
+        // Uživatel zrušil přes ucet.html (gopay-cancel-subscription) - žádná
         // další platba, jen appku po vypršení období oficiálně uzavřít.
         await supabase.from("profiles").update({ subscription_status: "canceled" }).eq("id", profile.id);
         results.push({ userId: profile.id, canceled: true });
@@ -59,7 +59,7 @@ Deno.serve(async (_req) => {
 
       const planInfo = PLAN_PRICES[profile.subscription_plan as string];
       if (!planInfo) {
-        // Neznámý/chybějící tarif — nedá se spočítat částka, přeskočit a
+        // Neznámý/chybějící tarif - nedá se spočítat částka, přeskočit a
         // zalogovat, ať to nezůstane potichu viset navždy jako "due".
         console.error(`gopay-charge-renewals: profil ${profile.id} nemá platný subscription_plan`);
         results.push({ userId: profile.id, skipped: "missing plan" });
@@ -85,7 +85,7 @@ Deno.serve(async (_req) => {
           raw_state: charge.state,
         });
 
-        // Rovnou ověřit stav (viz komentář nahoře) — nečekat na webhook.
+        // Rovnou ověřit stav (viz komentář nahoře) - nečekat na webhook.
         const status = await getPaymentStatus(String(charge.id));
 
         if (status.state === "PAID") {
@@ -103,7 +103,7 @@ Deno.serve(async (_req) => {
           await supabase.from("payment_events").update({ event_type: "failed", raw_state: status.state }).eq("gopay_payment_id", String(charge.id));
           results.push({ userId: profile.id, failed: true, state: status.state });
         } else {
-          // Ještě se nerozhodlo (např. čeká na potvrzení banky) — webhook
+          // Ještě se nerozhodlo (např. čeká na potvrzení banky) - webhook
           // dořeší, jakmile GoPay bude vědět víc.
           results.push({ userId: profile.id, pending: true, state: status.state });
         }

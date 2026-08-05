@@ -1,19 +1,19 @@
 // supabase/functions/kontrola-priznani/index.ts
 //
-// Fáze 10 — kontrola přiznání k dani z příjmů fyzických osob (DAP). Tahle
+// Fáze 10 - kontrola přiznání k dani z příjmů fyzických osob (DAP). Tahle
 // funkce dělá JEN extrakci hodnot z nahraného PDF/fotky tiskopisu (Claude
-// vision, stejný princip jako kontrola-dokladu ve Fázi 6 — žádná OCR
-// služba navíc). Vlastní ověření vzorců (jestli řádky sedí) NEDĚLÁ model —
+// vision, stejný princip jako kontrola-dokladu ve Fázi 6 - žádná OCR
+// služba navíc). Vlastní ověření vzorců (jestli řádky sedí) NEDĚLÁ model -
 // počítá ho web/assets/js/dap-check.js na klientovi stejnou funkcí, jakou
 // používá i cesta s nahraným XML z EPO. Model tady jen "přečte čísla",
 // aritmetiku má na starosti deterministický kód, ne LLM.
 //
-// Právně/daňově citlivá fáze — výstup je vždy srovnání s tím, co plyne
+// Právně/daňově citlivá fáze - výstup je vždy srovnání s tím, co plyne
 // z formulářem předepsaných vzorců, nikdy posouzení správnosti daňového
 // přiznání jako celku (viz disclaimer v UI).
 //
 // Nasazení: supabase functions deploy kontrola-priznani
-// Secrets: žádné nové — používá stejný ANTHROPIC_API_KEY jako zakon-query.
+// Secrets: žádné nové - používá stejný ANTHROPIC_API_KEY jako zakon-query.
 
 const ANTHROPIC_KEY = Deno.env.get("ANTHROPIC_API_KEY")!;
 
@@ -24,7 +24,7 @@ const corsHeaders = {
 
 const MAX_BASE64_LENGTH = 12_000_000; // ~9 MB souboru po dekódování z base64
 
-// Popisky řádků — stejné, jaké kontroluje dap-check.js (viz tam komentář
+// Popisky řádků - stejné, jaké kontroluje dap-check.js (viz tam komentář
 // s odkazem na tiskopisy 25 5405 vzor 30 a 25 5405/P1 vzor 22, oba pro 2026).
 const RADKY_POPIS = `
 Příloha č. 1 (Výpočet dílčího základu daně ze samostatné činnosti, § 7 zákona):
@@ -59,11 +59,11 @@ Hlavní tiskopis (Přiznání k dani z příjmů fyzických osob), 2. a 3. oddí
 
 const SYSTEM_PROMPT = `Jsi asistent, který z nahraného obrázku nebo PDF přečte hodnoty konkrétních řádků
 českého daňového tiskopisu "Přiznání k dani z příjmů fyzických osob" (25 5405) a jeho
-Přílohy č. 1. Tvůj úkol je ČISTĚ přepsat čísla, která jsou v tiskopisu vyplněná — žádné
+Přílohy č. 1. Tvůj úkol je ČISTĚ přepsat čísla, která jsou v tiskopisu vyplněná - žádné
 výpočty, žádné posuzování správnosti.
 
 Formulář má u řádků ve 2. oddílu a v Příloze č. 1 dva sloupce: "poplatník" a "finanční úřad".
-Čti VŽDY jen sloupec "poplatník" (levý/první sloupec, který vyplňuje daňový subjekt) —
+Čti VŽDY jen sloupec "poplatník" (levý/první sloupec, který vyplňuje daňový subjekt) -
 sloupec "finanční úřad" je pro úřední záznam a při podání bývá prázdný.
 
 Řádky, které máš hledat:
@@ -81,7 +81,7 @@ Do "radky" zahrň KAŽDÝ řádek ze seznamu výše jako klíč (číslo řádku
 Příloha č. 1), dej hodnotu null. Čísla piš jako čistá čísla bez mezer a bez "Kč" (např. 500000,
 ne "500 000 Kč"). Záporné částky (ztráta) piš se znaménkem minus. Do "nejiste" dej čísla
 řádků, kde sis hodnotou nebyl jistý (rozmazané, přeškrtnuté, dvojznačné). Nikdy si hodnotu
-nevymýšlej — když nejde přečíst, patří tam null, ne odhad.`;
+nevymýšlej - když nejde přečíst, patří tam null, ne odhad.`;
 
 Deno.serve(async (req) => {
   if (req.method === "OPTIONS") return new Response("ok", { headers: corsHeaders });

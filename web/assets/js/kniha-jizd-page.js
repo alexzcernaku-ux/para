@@ -44,7 +44,7 @@ function renderTable() {
       return `
         <tr>
           <td data-label="Datum">${dateStr}</td>
-          <td data-label="Účel">${trip.purpose}${trip.route ? ` <span style="color:#94a3b8">— ${trip.route}</span>` : ""}</td>
+          <td data-label="Účel">${trip.purpose}${trip.route ? ` <span style="color:#94a3b8">- ${trip.route}</span>` : ""}</td>
           <td data-label="Km">${Number(trip.distance_km).toLocaleString("cs-CZ")} km</td>
           <td data-label="Náhrada" class="amount pos">${formatKc(r.celkem)}</td>
           <td data-label=""><button type="button" class="list-row-delete" data-id="${trip.id}" aria-label="Smazat"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18" /></svg></button></td>

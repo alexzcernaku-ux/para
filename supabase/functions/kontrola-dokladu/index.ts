@@ -1,16 +1,16 @@
 // supabase/functions/kontrola-dokladu/index.ts
 //
-// Fáze 6 — kontrola náležitostí faktury/dokladu podle § 29 zákona o DPH
-// (235/2004 Sb.). Žádná samostatná OCR služba — Claude čte obrázek/PDF
+// Fáze 6 - kontrola náležitostí faktury/dokladu podle § 29 zákona o DPH
+// (235/2004 Sb.). Žádná samostatná OCR služba - Claude čte obrázek/PDF
 // přímo (vision), v jednom kroku "přečte" doklad i posoudí náležitosti.
 // Rozhodnutí zdůvodněné v konverzaci s uživatelem: jednodušší architektura,
 // žádný další účet/API klíč, dost dobrá přesnost na strukturovaný dokument.
 //
-// Právně citlivá fáze — výstup je vždy POPIS STAVU dokladu vůči zákonu,
+// Právně citlivá fáze - výstup je vždy POPIS STAVU dokladu vůči zákonu,
 // nikdy závazná právní rada (viz SYSTEM_PROMPT a disclaimer v UI).
 //
 // Nasazení: supabase functions deploy kontrola-dokladu
-// Secrets: žádné nové — používá stejný ANTHROPIC_API_KEY jako zakon-query.
+// Secrets: žádné nové - používá stejný ANTHROPIC_API_KEY jako zakon-query.
 
 import { createClient } from "https://esm.sh/@supabase/supabase-js@2";
 
@@ -28,7 +28,7 @@ const corsHeaders = {
 
 const MAX_BASE64_LENGTH = 12_000_000; // ~9 MB souboru po dekódování z base64
 
-// Natáhne přesné aktuální znění §29/29a/30/30a přímo z nahraného zákona —
+// Natáhne přesné aktuální znění §29/29a/30/30a přímo z nahraného zákona -
 // ne staticky zkopírované do promptu, ať se to samo nerozejde s DB při novele.
 async function fetchDphNalezitosti(): Promise<string> {
   const { data, error } = await supabase
@@ -48,7 +48,7 @@ podle českého zákona o DPH. Dostaneš obrázek nebo PDF dokladu. Tvůj úkol:
    datum vystavení, datum uskutečnění plnění, popis plnění, jednotková cena, základ daně,
    sazba DPH, výše DPH, celková částka).
 2. Urči, jestli jde o zjednodušený daňový doklad (celková částka do 10 000 Kč včetně daně)
-   nebo plný daňový doklad — podle § 30 má na to vliv jen celková částka, ne to, kdo doklad
+   nebo plný daňový doklad - podle § 30 má na to vliv jen celková částka, ne to, kdo doklad
    vystavil. Zjednodušený doklad nemusí mít náležitosti podle § 30a odst. 1.
 3. Porovnej přítomné údaje s náležitostmi podle zákona níže a vrať ČISTĚ JSON (žádný text
    mimo JSON, žádné odřádkování před/po) v této struktuře:
@@ -72,7 +72,7 @@ nepočítej to jako "chybí"). "nejiste" použij, když je obrázek nečitelný/
 místě, ne když si nejsi jistý výkladem zákona.
 
 Nikdy nepiš nic mimo ten JSON. Nikdy nedávej právní radu nad rámec popisu, co doklad
-podle textu zákona obsahuje nebo neobsahuje — to je popis stavu, ne stanovisko k tomu,
+podle textu zákona obsahuje nebo neobsahuje - to je popis stavu, ne stanovisko k tomu,
 jestli je doklad "platný" v širším smyslu (to je na daňovém poradci).
 
 ZNĚNÍ ZÁKONA (zákon č. 235/2004 Sb., o dani z přidané hodnoty):
@@ -121,7 +121,7 @@ Deno.serve(async (req) => {
         model: "claude-sonnet-5",
         // 12 položek s vlastní poznámkou (zvlášť u problematických dokladů, kde
         // model píše delší vysvětlení) se do 2048 tokenů občas nevejde a JSON
-        // se utne uprostřed — 4096 dává rozumnou rezervu.
+        // se utne uprostřed - 4096 dává rozumnou rezervu.
         max_tokens: 4096,
         system: SYSTEM_PROMPT_TEMPLATE(lawText),
         messages: [
@@ -147,7 +147,7 @@ Deno.serve(async (req) => {
 
     let parsed;
     try {
-      // Claude občas obalí JSON do ```json bloku i přes instrukci — ošetřit.
+      // Claude občas obalí JSON do ```json bloku i přes instrukci - ošetřit.
       const cleaned = raw.trim().replace(/^```json\s*/i, "").replace(/^```\s*/i, "").replace(/```\s*$/i, "");
       parsed = JSON.parse(cleaned);
     } catch {

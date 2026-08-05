@@ -1,10 +1,10 @@
-// Fáze 11 — krokový průvodce vyplněním přiznání k dani z příjmů fyzických
-// osob (§ 7 — samostatná činnost). Ptá se postupně, přeskakuje kroky, které
+// Fáze 11 - krokový průvodce vyplněním přiznání k dani z příjmů fyzických
+// osob (§ 7 - samostatná činnost). Ptá se postupně, přeskakuje kroky, které
 // se uživatele netýkají (podle předchozích odpovědí), a na konci vygeneruje
 // vyplněný tiskopis 25 5405 + Přílohu č. 1 jako PDF (dap-pdf-fill.js).
 //
 // Výpočet kaskády řádků (104,113,41,42,45,55,56,57) dělá computeDapCascade()
-// z dap-check.js — STEJNÁ funkce, jakou by šlo použít i pro zpětnou kontrolu,
+// z dap-check.js - STEJNÁ funkce, jakou by šlo použít i pro zpětnou kontrolu,
 // aby vzorce nebyly na dvou místech.
 
 import { requireOnboardedProfile, signOut } from "./supabase-client.js";
@@ -91,7 +91,7 @@ const STEPS = [
   },
   {
     id: "prijmy7",
-    bubble: () => "Kolik jste měl(a) za rok 2026 příjmů ze samostatné činnosti (§ 7) — hrubě, před odečtením výdajů?",
+    bubble: () => "Kolik jste měl(a) za rok 2026 příjmů ze samostatné činnosti (§ 7) - hrubě, před odečtením výdajů?",
     render(el) {
       el.innerHTML = `
         <div class="wiz-field">
@@ -132,7 +132,7 @@ const STEPS = [
       el.innerHTML =
         `<div class="wiz-field">` +
         opts.map(([key, p]) => `<label class="calc-radio-chip" style="display:flex; margin-bottom:8px;"><input type="radio" name="w-pausaltyp" value="${key}" /> ${p.label}</label>`).join("") +
-        `</div><div class="wiz-computed" id="w-pausal-computed">Vypočtené výdaje: <strong>—</strong></div>`;
+        `</div><div class="wiz-computed" id="w-pausal-computed">Vypočtené výdaje: <strong>-</strong></div>`;
       const computedEl = el.querySelector("#w-pausal-computed strong");
       el.querySelectorAll('input[name="w-pausaltyp"]').forEach((input) => {
         input.checked = input.value === answers.pausalTyp;
@@ -174,18 +174,18 @@ const STEPS = [
   {
     id: "spoluprace-detail",
     visible: () => answers.maSpolupraci === true,
-    bubble: () => "Doplňte prosím konkrétní částky (řádky Přílohy č. 1) — pokud se vás některá položka netýká, nechte nulu.",
+    bubble: () => "Doplňte prosím konkrétní částky (řádky Přílohy č. 1) - pokud se vás některá položka netýká, nechte nulu.",
     render(el) {
       el.innerHTML = `
         <div class="wiz-row2">
-          <div class="wiz-field"><label>ř. 107 — příjmy rozdělované na spolupracující osobu</label><input type="number" class="text-input" id="w-r107" value="${answers.r107}" /></div>
-          <div class="wiz-field"><label>ř. 108 — výdaje rozdělované na spolupracující osobu</label><input type="number" class="text-input" id="w-r108" value="${answers.r108}" /></div>
+          <div class="wiz-field"><label>ř. 107 - příjmy rozdělované na spolupracující osobu</label><input type="number" class="text-input" id="w-r107" value="${answers.r107}" /></div>
+          <div class="wiz-field"><label>ř. 108 - výdaje rozdělované na spolupracující osobu</label><input type="number" class="text-input" id="w-r108" value="${answers.r108}" /></div>
         </div>
         <div class="wiz-row2">
-          <div class="wiz-field"><label>ř. 109 — příjmy připadající na Vás jako spolupracující osobu</label><input type="number" class="text-input" id="w-r109" value="${answers.r109}" /></div>
-          <div class="wiz-field"><label>ř. 110 — výdaje připadající na Vás jako spolupracující osobu</label><input type="number" class="text-input" id="w-r110" value="${answers.r110}" /></div>
+          <div class="wiz-field"><label>ř. 109 - příjmy připadající na Vás jako spolupracující osobu</label><input type="number" class="text-input" id="w-r109" value="${answers.r109}" /></div>
+          <div class="wiz-field"><label>ř. 110 - výdaje připadající na Vás jako spolupracující osobu</label><input type="number" class="text-input" id="w-r110" value="${answers.r110}" /></div>
         </div>
-        <div class="wiz-field"><label>ř. 112 — podíl společníka v. o. s. / komplementáře k. s.</label><input type="number" class="text-input" id="w-r112" value="${answers.r112}" /></div>`;
+        <div class="wiz-field"><label>ř. 112 - podíl společníka v. o. s. / komplementáře k. s.</label><input type="number" class="text-input" id="w-r112" value="${answers.r112}" /></div>`;
       ["r107", "r108", "r109", "r110", "r112"].forEach((k) => {
         el.querySelector(`#w-${k}`).addEventListener("input", (e) => (answers[k] = num(e.target.value) ?? 0));
       });
@@ -194,7 +194,7 @@ const STEPS = [
   },
   {
     id: "jine-prijmy",
-    bubble: () => "Měl(a) jste v roce 2026 kromě samostatné činnosti i jiné zdanitelné příjmy — ze zaměstnání, kapitálového majetku, nájmu nebo jiné (§ 6, § 8, § 9, § 10)?",
+    bubble: () => "Měl(a) jste v roce 2026 kromě samostatné činnosti i jiné zdanitelné příjmy - ze zaměstnání, kapitálového majetku, nájmu nebo jiné (§ 6, § 8, § 9, § 10)?",
     render(el) {
       el.innerHTML = `
         <div class="wiz-yesno">
@@ -234,7 +234,7 @@ const STEPS = [
   },
   {
     id: "odpocty-yesno",
-    bubble: () => "Uplatňujete nezdanitelné části základu daně — dary, úroky z úvěru na bydlení, penzijní/životní pojištění a podobně (§ 15)?",
+    bubble: () => "Uplatňujete nezdanitelné části základu daně - dary, úroky z úvěru na bydlení, penzijní/životní pojištění a podobně (§ 15)?",
     render(el) {
       el.innerHTML = `<div class="wiz-yesno">
         <label class="calc-radio-chip"><input type="radio" name="w-odpocty" value="ne" /> Ne</label>
@@ -281,7 +281,7 @@ const STEPS = [
   },
   {
     id: "souhrn",
-    bubble: () => "Tohle vychází z toho, co jste zadal(a) — zkontrolujte a stáhněte PDF.",
+    bubble: () => "Tohle vychází z toho, co jste zadal(a) - zkontrolujte a stáhněte PDF.",
     render(el) {
       const cascade = computeDapCascade({
         101: answers.r101,
@@ -306,7 +306,7 @@ const STEPS = [
         ${row("ř. 56 Základ daně (zaokrouhlený)", cascade[56])}
         ${row("ř. 64 Sleva na poplatníka", answers.r64)}
         ${row("ř. 57 Daň podle § 16 zákona", cascade[57], { total: true })}
-        <p class="form-hint" style="margin-top: 14px;">Sazba 15 %/23 % počítá s hranicí pro vyšší pásmo, která je zatím odhad (přesná hranice pro rok 2026 se zveřejňuje průběžně) — před podáním si daň ověřte.</p>
+        <p class="form-hint" style="margin-top: 14px;">Sazba 15 %/23 % počítá s hranicí pro vyšší pásmo, která je zatím odhad (přesná hranice pro rok 2026 se zveřejňuje průběžně) - před podáním si daň ověřte.</p>
       `;
     },
     canNext: () => true,
@@ -398,7 +398,7 @@ function renderStep() {
   const vs = visibleSteps();
   let step = vs.find((s) => s.id === currentId);
   if (!step) {
-    // krok mezitím zmizel (změna odpovědi) — spadni na první viditelný
+    // krok mezitím zmizel (změna odpovědi) - spadni na první viditelný
     step = vs[0];
     currentId = step.id;
   }

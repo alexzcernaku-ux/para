@@ -1,5 +1,5 @@
 /* =========================================================================
-   Para — design tokens odvozené z brand-manuálu (brand/Design.pdf)
+   Para - design tokens odvozené z brand-manuálu (brand/Design.pdf)
    Paleta: brand/colors.txt · Font: Plus Jakarta Sans
    ========================================================================= */
 
@@ -16,7 +16,7 @@
   --mist: #f1f5f9;
   --white: #ffffff;
 
-  /* Sémantická barva chyby/upozornění — manuál uvádí jen tečku bez hex kódu,
+  /* Sémantická barva chyby/upozornění - manuál uvádí jen tečku bez hex kódu,
      dosazeno z stejné tonální rodiny (red-500); ověřit u zadavatele, pokud
      má být přesná shoda s jiným systémem. */
   --danger: #ef4444;
@@ -30,7 +30,7 @@
   --amber: #f59e0b;
   --amber-soft: #fffbeb;
 
-  /* Gradient akcent — z maskota a hero karty v manuálu (violet → indigo) */
+  /* Gradient akcent - z maskota a hero karty v manuálu (violet → indigo) */
   --gradient-brand: linear-gradient(135deg, var(--violet), var(--indigo));
 
   --font: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
@@ -183,7 +183,7 @@ p { font-size: var(--body-size); font-weight: var(--body-weight); color: var(--s
 
 /* --- Maskot: čistý transparentní cutout (viz web/assets/img/mascot) ---
    Jemný drop-shadow filtr maskota opticky "nadzvedne" nad plochu, ať už
-   je pod ním světlé, nebo tmavé pozadí — bez rámečku/karty. */
+   je pod ním světlé, nebo tmavé pozadí - bez rámečku/karty. */
 .mascot-img {
   filter: drop-shadow(0 14px 20px rgba(15, 23, 42, 0.22));
 }
@@ -255,7 +255,7 @@ p { font-size: var(--body-size); font-weight: var(--body-weight); color: var(--s
   padding: 72px 0 60px;
   background:
     /* Fadeuje radiály hladce do bílé nahoře i dole, ať sekce nezačíná/nekončí
-       ostrou hranou — radiály samy o sobě mají střed těsně nad/na okraji
+       ostrou hranou - radiály samy o sobě mají střed těsně nad/na okraji
        sekce, takže bez týhle vrstvy jsou tam plnou silou hned od hrany.
        Barevná zóna (8–78 %) je schválně široká, ať fialová pokryje většinu
        sekce, ne jen tenký proužek u okrajů. */
@@ -705,7 +705,7 @@ section { padding: 84px 0; }
 .price-card.pro .price-features li { color: #e2e8f0; }
 .price-badge { position: absolute; top: -13px; left: 34px; }
 
-.pricing-grid-single { grid-template-columns: minmax(0, 420px); }
+.pricing-grid-single { grid-template-columns: minmax(0, 420px); justify-content: center; }
 .price-toggle {
   display: flex;
   justify-content: center;
@@ -871,7 +871,7 @@ footer { padding: 48px 0 32px; border-top: 1px solid #eef1f6; }
 }
 
 /* =========================================================================
-   JEMNÉ ANIMACE — plovoucí maskot, pulzující glow, odhalení při scrollu.
+   JEMNÉ ANIMACE - plovoucí maskot, pulzující glow, odhalení při scrollu.
    Vše vypnuto pro prefers-reduced-motion (viz media query úplně dole).
    ========================================================================= */
 @keyframes mascotFloat {
@@ -891,7 +891,7 @@ footer { padding: 48px 0 32px; border-top: 1px solid #eef1f6; }
 .hero-floating-card { animation: cardFloat 4.5s ease-in-out infinite; }
 .hero-floating-card.card-2 { animation-delay: 1.4s; }
 
-/* Rollout — nadpisy se "vysouvají" zpod masky (clip-path), místo aby jen
+/* Rollout - nadpisy se "vysouvají" zpod masky (clip-path), místo aby jen
    naskočily. Funguje bez extra HTML wrapperu, clip-path se dá animovat
    přímo na h1/h2. Hero h1 hraje hned při načtení (vždy viditelný nad
    ohybem), section h2 čeká na stejný .is-visible signál jako zbytek
@@ -918,9 +918,9 @@ footer { padding: 48px 0 32px; border-top: 1px solid #eef1f6; }
 .section-head.is-visible h2 { clip-path: inset(0 0 0 0); }
 
 /* .reveal je viditelný VŽDY, dokud main.js nepotvrdí, že běží (třída
-   .js-ready na <html>) — bez JS (nebo dokud se nenačte) je tak obsah vidět
+   .js-ready na <html>) - bez JS (nebo dokud se nenačte) je tak obsah vidět
    normálně, žádné riziko "navždy neviditelné sekce". Teprve pak se schová
-   a čeká na .is-visible od IntersectionObserveru (s vlastní pojistkou —
+   a čeká na .is-visible od IntersectionObserveru (s vlastní pojistkou -
    viz main.js). */
 .js-ready .reveal {
   opacity: 0;
@@ -961,7 +961,7 @@ footer { padding: 48px 0 32px; border-top: 1px solid #eef1f6; }
   }
 }
 
-/* Lehký hover-lift na kartách, kam se dá kliknout — mimo .feature-card
+/* Lehký hover-lift na kartách, kam se dá kliknout - mimo .feature-card
    definované výše, protože .card se používá i pro nekliknutelné panely
    napříč appkou. */
 .calc-card,
@@ -1183,7 +1183,7 @@ textarea.text-input { resize: vertical; min-height: 70px; font-family: var(--fon
 @keyframes floatY { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-8px); } }
 
 /* =========================================================================
-   APP.HTML — autentizovaný chat s historií
+   APP.HTML - autentizovaný chat s historií
    ========================================================================= */
 .app-shell { display: flex; min-height: 100vh; }
 .app-sidebar {
@@ -1361,7 +1361,7 @@ textarea.text-input { resize: vertical; min-height: 70px; font-family: var(--fon
 .app-empty h3 { margin-bottom: 8px; }
 
 /* --- Domovský dashboard (nahrazuje prázdný stav, když ještě nic nebylo
-   odesláno) — pozdrav, nejbližší termín, rychlý přístup k nástrojům. --- */
+   odesláno) - pozdrav, nejbližší termín, rychlý přístup k nástrojům. --- */
 .app-empty.app-home { margin: auto; text-align: left; max-width: 720px; width: 100%; color: inherit; }
 .app-home-greeting { display: flex; align-items: center; gap: 14px; margin-bottom: 22px; }
 .app-home-greeting img { width: 52px; margin: 0; flex-shrink: 0; }
@@ -1411,7 +1411,7 @@ textarea.text-input { resize: vertical; min-height: 70px; font-family: var(--fon
 
 @media (max-width: 860px) {
   /* Sidebar se na mobilu chová jako výsuvný panel přes celou výšku (stejný
-     princip jako .mobile-menu na landing page), ne narvaný nad obsah — ten
+     princip jako .mobile-menu na landing page), ne narvaný nad obsah - ten
      předchozí "jen to naskládej nad sebe" layout byl na telefonu nepoužitelný
      (historie a odhlášení nad topbarem, nástroje v horizontálním scrollu). */
   .app-shell { position: relative; overflow: hidden; }
@@ -1563,7 +1563,7 @@ textarea.text-input { resize: vertical; min-height: 70px; font-family: var(--fon
 }
 
 /* =========================================================================
-   TERMINY.HTML — timeline povinností
+   TERMINY.HTML - timeline povinností
    ========================================================================= */
 .terminy-shell { max-width: 760px; margin: 0 auto; padding: 40px 24px 80px; }
 .terminy-head { text-align: center; margin-bottom: 8px; }
@@ -1928,7 +1928,7 @@ textarea.text-input { resize: vertical; min-height: 70px; font-family: var(--fon
 }
 
 /* =========================================================================
-   SEZNAMOVÉ NÁSTROJE (kniha-jizd.html, evidence.html, faktury.html) —
+   SEZNAMOVÉ NÁSTROJE (kniha-jizd.html, evidence.html, faktury.html) -
    sdílený vzor "souhrn nahoře → formulář na přidání → tabulka záznamů".
    ========================================================================= */
 .list-shell { max-width: 900px; margin: 0 auto; padding: 40px 24px 80px; }
@@ -2010,7 +2010,7 @@ textarea.text-input { resize: vertical; min-height: 70px; font-family: var(--fon
 }
 
 /* =========================================================================
-   DAP-GENERATOR.HTML — krokový průvodce daňovým přiznáním
+   DAP-GENERATOR.HTML - krokový průvodce daňovým přiznáním
    ========================================================================= */
 .wiz-progress { display: flex; gap: 6px; margin-bottom: 20px; }
 .wiz-progress-step { flex: 1; height: 5px; border-radius: 3px; background: #e2e8f0; }

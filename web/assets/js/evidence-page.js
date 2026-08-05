@@ -12,6 +12,45 @@ const emptyEl = document.getElementById("entries-empty");
 
 signoutBtn.addEventListener("click", () => signOut());
 
+// Bez tohohle klik na Příjem/Výdaj funkčně prošel (radio se přepnul), ale
+// vizuálně se nic nezměnilo - .calc-radio-chip.selected se nikde netoggluje
+// samo, na rozdíl od stejné komponenty v kalkulacky-page.js apod. Vypadalo to,
+// že přepínání nejde vůbec.
+const typeGroup = document.getElementById("f-type-group");
+const categorySelect = document.getElementById("f-category");
+
+// Dřív byl jeden společný seznam kategorií pro příjmy i výdaje (šlo vybrat
+// "Mzdy a odměny" u příjmu) - teď se nabídka mění podle zvoleného typu.
+const CATEGORIES = {
+  prijem: ["Tržby/služby", "Prodej zboží", "Úroky a ostatní výnosy", "Jiné"],
+  vydaj: [
+    "Materiál a zboží",
+    "Služby",
+    "Mzdy a odměny",
+    "Nájem",
+    "Doprava a PHM",
+    "Vybavení a kancelář",
+    "Pojištění",
+    "Bankovní poplatky",
+    "Jiné",
+  ],
+};
+
+function renderCategoryOptions() {
+  const type = typeGroup.querySelector('input[name="f-type"]:checked').value;
+  const previous = categorySelect.value;
+  categorySelect.innerHTML = CATEGORIES[type].map((c) => `<option>${c}</option>`).join("");
+  if (CATEGORIES[type].includes(previous)) categorySelect.value = previous;
+}
+renderCategoryOptions();
+
+typeGroup.addEventListener("change", () => {
+  typeGroup.querySelectorAll(".calc-radio-chip").forEach((chip) => {
+    chip.classList.toggle("selected", chip.querySelector("input").checked);
+  });
+  renderCategoryOptions();
+});
+
 function formatKc(n) {
   return `${Math.round(n).toLocaleString("cs-CZ")} Kč`;
 }
@@ -55,8 +94,8 @@ function renderTable(entries) {
       return `
         <tr>
           <td data-label="Datum">${dateStr}</td>
-          <td data-label="Kategorie">${e.category || "—"}</td>
-          <td data-label="Popis">${e.description || "—"}</td>
+          <td data-label="Kategorie">${e.category || "-"}</td>
+          <td data-label="Popis">${e.description || "-"}</td>
           <td data-label="Částka" class="amount ${cls}">${sign} ${formatKc(e.amount)}</td>
           <td data-label=""><button type="button" class="list-row-delete" data-id="${e.id}" aria-label="Smazat"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18" /></svg></button></td>
         </tr>`;

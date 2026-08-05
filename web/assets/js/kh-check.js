@@ -1,6 +1,6 @@
 // Kontrolní hlášení DPH (tiskopis 25 5411; zákon č. 235/2004 Sb., § 101c
-// a násl.) — kontrola vnitřní konzistence. Na rozdíl od DPFO/DPH přiznání
-// NENÍ kontrolní hlášení výpočtová kaskáda s pár řádky — je to REGISTR
+// a násl.) - kontrola vnitřní konzistence. Na rozdíl od DPFO/DPH přiznání
+// NENÍ kontrolní hlášení výpočtová kaskáda s pár řádky - je to REGISTR
 // jednotlivých dokladů (oddíly A.1–A.5 uskutečněná plnění, B.1–B.3 přijatá
 // plnění), a oddíl C jsou součtové/kontrolní údaje, které se (podle pokynů
 // k tiskopisu) musí shodovat se součtem řádků v detailních/souhrnných
@@ -13,7 +13,7 @@
 // DPFO/DPH kontroly nemá "nahrát foto" variantu.
 //
 // Kvůli tomu, že jde o registr jednotlivých dokladů, ne o pár součtových
-// řádků, tu (zatím) není ani "Generátor" — smysluplně by šel postavit až
+// řádků, tu (zatím) není ani "Generátor" - smysluplně by šel postavit až
 // na evidenci vystavených a přijatých faktur (nápad "Sledování faktur"),
 // odkud by se řádky A/B daly vzít automaticky.
 //
@@ -31,14 +31,14 @@ function or0(v) {
 }
 
 const ROW_LABEL = {
-  obrat23_zaklad: "Souhrn A.4+A.5 — základ daně, základní sazba (oddíl C vs. ř. 1 přiznání k DPH)",
-  obrat23_dan: "Souhrn A.4+A.5 — daň, základní sazba",
-  obrat5_zaklad: "Souhrn A.4+A.5 — základ daně, snížená sazba (oddíl C vs. ř. 2 přiznání k DPH)",
-  obrat5_dan: "Souhrn A.4+A.5 — daň, snížená sazba",
-  pln23_zaklad: "Souhrn B.2+B.3 — základ daně, základní sazba (oddíl C vs. ř. 40 přiznání k DPH)",
-  pln23_dan: "Souhrn B.2+B.3 — daň, základní sazba",
-  pln5_zaklad: "Souhrn B.2+B.3 — základ daně, snížená sazba (oddíl C vs. ř. 41 přiznání k DPH)",
-  pln5_dan: "Souhrn B.2+B.3 — daň, snížená sazba",
+  obrat23_zaklad: "Souhrn A.4+A.5 - základ daně, základní sazba (oddíl C vs. ř. 1 přiznání k DPH)",
+  obrat23_dan: "Souhrn A.4+A.5 - daň, základní sazba",
+  obrat5_zaklad: "Souhrn A.4+A.5 - základ daně, snížená sazba (oddíl C vs. ř. 2 přiznání k DPH)",
+  obrat5_dan: "Souhrn A.4+A.5 - daň, snížená sazba",
+  pln23_zaklad: "Souhrn B.2+B.3 - základ daně, základní sazba (oddíl C vs. ř. 40 přiznání k DPH)",
+  pln23_dan: "Souhrn B.2+B.3 - daň, základní sazba",
+  pln5_zaklad: "Souhrn B.2+B.3 - základ daně, snížená sazba (oddíl C vs. ř. 41 přiznání k DPH)",
+  pln5_dan: "Souhrn B.2+B.3 - daň, snížená sazba",
 };
 
 /**
@@ -47,7 +47,7 @@ const ROW_LABEL = {
  */
 export function parseKhXml(xmlText) {
   const doc = new DOMParser().parseFromString(xmlText, "application/xml");
-  if (doc.querySelector("parsererror")) throw new Error("XML soubor se nepodařilo přečíst — není to platné XML.");
+  if (doc.querySelector("parsererror")) throw new Error("XML soubor se nepodařilo přečíst - není to platné XML.");
 
   const uskutecnena = []; // A.4 + A.5
   const prijata = []; // B.2 + B.3
@@ -82,7 +82,7 @@ export function parseKhXml(xmlText) {
   walk(doc.documentElement);
 
   if (!soucty && uskutecnena.length === 0 && prijata.length === 0) {
-    throw new Error("V XML se nenašly žádné očekávané položky kontrolního hlášení — je to opravdu podání DPHKH1 (25 5411)?");
+    throw new Error("V XML se nenašly žádné očekávané položky kontrolního hlášení - je to opravdu podání DPHKH1 (25 5411)?");
   }
   return { uskutecnena, prijata, soucty };
 }
@@ -122,7 +122,7 @@ export function checkKhConsistency({ uskutecnena, prijata, soucty }) {
       radek: "oddil-c",
       popis: "Oddíl C (souhrnné údaje)",
       stav: "chybi",
-      poznamka: "V dokumentu chybí oddíl C — nejde ověřit součty proti jednotlivým řádkům.",
+      poznamka: "V dokumentu chybí oddíl C - nejde ověřit součty proti jednotlivým řádkům.",
     });
     return results;
   }

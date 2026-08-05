@@ -1,4 +1,4 @@
-// Generátor PDF pro obchodní/účetní dokumenty (Fáze 9) — faktura, storno
+// Generátor PDF pro obchodní/účetní dokumenty (Fáze 9) - faktura, storno
 // faktury (opravný daňový doklad), upomínka, smlouva o dílo. Stejný princip
 // jako pdf-export.js: jsPDF na klientovi, vlastní vložený font kvůli českým
 // znakům s diakritikou (viz komentář tam).
@@ -9,13 +9,13 @@
 //  - Je-li dodavatel plátce DPH, navíc daňový doklad dle §29 zákona
 //    č. 235/2004 Sb., o dani z přidané hodnoty.
 //  - Storno/oprava: opravný daňový doklad dle §45 zákona o DPH (jen je-li
-//    dodavatel plátce — neplátce vystavuje běžný dobropis bez DPH náležitostí).
+//    dodavatel plátce - neplátce vystavuje běžný dobropis bez DPH náležitostí).
 //  - Smlouva o dílo: §2586 a násl. zákona č. 89/2012 Sb., občanský zákoník
-//    (NOZ) — v DB není ingestovaný, ověřeno živě přes e-Sbírka infrastrukturu
+//    (NOZ) - v DB není ingestovaný, ověřeno živě přes e-Sbírka infrastrukturu
 //    z Fáze 7. Šablona cituje čísla paragrafů, ale text ustanovení
-//    neparafrázuje jako závazný výklad — jde o smluvní text, ne právní radu.
+//    neparafrázuje jako závazný výklad - jde o smluvní text, ne právní radu.
 //
-// Žádný z generovaných dokumentů se nikde neukládá — stejně jako export
+// Žádný z generovaných dokumentů se nikde neukládá - stejně jako export
 // odpovědi z chatu (Fáze 5) jde čistě o stažení na klientovi.
 
 import { jsPDF } from "https://esm.sh/jspdf@2.5.1";
@@ -35,7 +35,7 @@ const MIST = [241, 245, 249];
 const DANGER = [220, 38, 38];
 
 const DISCLAIMER =
-  "Para není daňové, účetní ani právní poradenství — u důležitých dokumentů si náležitosti ověřte s účetním, případně advokátem.";
+  "Para není daňové, účetní ani právní poradenství - u důležitých dokumentů si náležitosti ověřte s účetním, případně advokátem.";
 
 function registerFont(doc) {
   doc.addFileToVFS("PlusJakartaSans-Regular.ttf", PLUS_JAKARTA_SANS_NORMAL_BASE64);
@@ -58,7 +58,7 @@ function ensureSpace(doc, y, needed, state) {
   return y;
 }
 
-// Vzhled dokladů (24_schema_invoice_branding.sql) — accentColor přichází
+// Vzhled dokladů (24_schema_invoice_branding.sql) - accentColor přichází
 // jako hex string z color inputu, jsPDF ale chce [r,g,b]. Neplatný/chybějící
 // hex tiše spadne zpátky na výchozí INDIGO, ať PDF nikdy nespadne na
 // špatně uloženou barvu.
@@ -76,9 +76,9 @@ function fmtMoney(n) {
 }
 
 function fmtDate(d) {
-  if (!d) return "—";
+  if (!d) return "-";
   const date = typeof d === "string" ? new Date(d) : d;
-  if (isNaN(date.getTime())) return "—";
+  if (isNaN(date.getTime())) return "-";
   return date.toLocaleDateString("cs-CZ", { day: "numeric", month: "numeric", year: "numeric" });
 }
 
@@ -126,7 +126,7 @@ function docHeader(doc, title, meta, branding) {
 
 function drawFooter(doc, note = DISCLAIMER, extraNote) {
   // Vlastní patičková poznámka (bankovní spojení, poděkování apod.) jde nad
-  // právní disclaimer, ne místo něj — ten je bezpečnostní pojistka, kterou
+  // právní disclaimer, ne místo něj - ten je bezpečnostní pojistka, kterou
   // nechceme, aby šlo nastavením vzhledu omylem smazat.
   const fullNote = extraNote?.trim() ? `${extraNote.trim()}\n${note}` : note;
   const totalPages = doc.internal.getNumberOfPages();
@@ -167,7 +167,7 @@ function drawParties(doc, y, left, right, accent = INDIGO) {
   return Math.max(leftEnd, rightEnd) + 6;
 }
 
-// Řádek "popisek: hodnota" — pro sekci vystavení/splatnosti/platby apod.
+// Řádek "popisek: hodnota" - pro sekci vystavení/splatnosti/platby apod.
 function drawFactsRow(doc, y, facts) {
   const colWidth = CONTENT_WIDTH / facts.length;
   facts.forEach((f, i) => {
@@ -294,7 +294,7 @@ export function generateFakturaPdf(data) {
     { label: "Vystaveno", value: fmtDate(issueDate) },
     { label: "DUZP", value: fmtDate(taxPointDate) },
     { label: "Splatnost", value: fmtDate(dueDate) },
-    { label: "Forma úhrady", value: paymentMethod || "—" },
+    { label: "Forma úhrady", value: paymentMethod || "-" },
   ]);
   if (accountNumber) {
     doc.setFont("PlusJakartaSans", "normal");
@@ -405,7 +405,7 @@ export function generateStornoPdf(data) {
 
   y = drawFactsRow(doc, y, [
     { label: "Vystaveno", value: fmtDate(issueDate) },
-    { label: "Opravuje doklad", value: originalDocNumber || "—" },
+    { label: "Opravuje doklad", value: originalDocNumber || "-" },
     { label: "Původní vystavení", value: fmtDate(originalIssueDate) },
     { label: "Zjištěn důvod", value: fmtDate(discoveryDate) },
   ]);
@@ -487,7 +487,7 @@ export function generateUpominkaPdf(data) {
   y = drawSectionLabel(doc, "Text upomínky", y, accent);
   const body =
     `Vážený obchodní partnere,\n\n` +
-    `dovolujeme si Vás upozornit, že faktura č. ${originalDocNumber || "—"} ze dne ${fmtDate(originalIssueDate)} ` +
+    `dovolujeme si Vás upozornit, že faktura č. ${originalDocNumber || "-"} ze dne ${fmtDate(originalIssueDate)} ` +
     `se splatností ${fmtDate(originalDueDate)} na částku ${fmtMoney(amount)} nebyla dosud uhrazena.\n\n` +
     `Žádáme Vás o úhradu dlužné částky nejpozději do ${fmtDate(newDueDate)}. Pokud jste platbu již odeslali, ` +
     `považujte prosím tuto upomínku za bezpředmětnou.`;
@@ -575,7 +575,7 @@ export function generateSmlouvaPdf(data) {
   doc.setFont("PlusJakartaSans", "normal");
   doc.setFontSize(9.5);
   doc.setTextColor(...SLATE);
-  doc.text(`V ${signPlace || "—"} dne ${fmtDate(signDate)}`, MARGIN, y);
+  doc.text(`V ${signPlace || "-"} dne ${fmtDate(signDate)}`, MARGIN, y);
   y += 20;
 
   const sigWidth = (CONTENT_WIDTH - 10) / 2;
@@ -589,7 +589,7 @@ export function generateSmlouvaPdf(data) {
 
   drawFooter(
     doc,
-    `${DISCLAIMER} Vzorová smlouva podle §2586 a násl. zákona č. 89/2012 Sb. — u nestandardních ujednání doporučujeme právní kontrolu.`,
+    `${DISCLAIMER} Vzorová smlouva podle §2586 a násl. zákona č. 89/2012 Sb. - u nestandardních ujednání doporučujeme právní kontrolu.`,
     branding?.footerNote
   );
   saveDoc(doc, "smlouva-o-dilo");

@@ -1,4 +1,4 @@
-// Krokový průvodce Přehledem OSVČ pro ČSSZ a zdravotní pojišťovnu — stejný
+// Krokový průvodce Přehledem OSVČ pro ČSSZ a zdravotní pojišťovnu - stejný
 // vzor jako dap-generator-page.js / dph-generator-page.js. Výpočet dělá
 // prehled-osvc.js (sdílené s jakoukoli budoucí kontrolou), PDF prehled-osvc-pdf-fill.js.
 
@@ -187,7 +187,7 @@ const STEPS = [
         <label class="calc-radio-chip"><input type="radio" name="w-uv" value="ne" /> Ne, pod hranicí</label>
         <label class="calc-radio-chip"><input type="radio" name="w-uv" value="ano" /> Ano</label>
       </div>
-      <p class="form-hint" style="margin-top:10px;">Pokud ne, sociální pojistné se za rok 2025 neplatí — přehled ČSSZ to jen oznámí.</p>`;
+      <p class="form-hint" style="margin-top:10px;">Pokud ne, sociální pojistné se za rok 2025 neplatí - přehled ČSSZ to jen oznámí.</p>`;
       wireYesNo(el, "w-uv", answers.ucastVedlejsi, (v) => (answers.ucastVedlejsi = v));
     },
     canNext: () => answers.ucastVedlejsi !== null,
@@ -286,7 +286,7 @@ const STEPS = [
   },
   {
     id: "souhrn",
-    bubble: () => "Tohle vychází z toho, co jste zadal(a) — zkontrolujte a stáhněte podklady.",
+    bubble: () => "Tohle vychází z toho, co jste zadal(a) - zkontrolujte a stáhněte podklady.",
     render(el) {
       const socialni = socialniVysledek();
       const zdravotni = zdravotniVysledek();
@@ -314,11 +314,11 @@ const STEPS = [
           ${socialni.doplatek > 0 ? row("Doplatek", formatKc(socialni.doplatek), { total: true }) : row("Přeplatek", formatKc(socialni.preplatek), { total: true })}
         `;
       } else {
-        socialniHtml = `<p class="form-hint">Bez povinné (ani dobrovolné) účasti na důchodovém pojištění — sociální pojistné se za rok 2025 neplatí.</p>`;
+        socialniHtml = `<p class="form-hint">Bez povinné (ani dobrovolné) účasti na důchodovém pojištění - sociální pojistné se za rok 2025 neplatí.</p>`;
       }
 
       el.innerHTML = `
-        <h4 style="margin: 0 0 8px;">ČSSZ — sociální pojištění</h4>
+        <h4 style="margin: 0 0 8px;">ČSSZ - sociální pojištění</h4>
         ${socialniHtml}
         <h4 style="margin: 20px 0 8px;">Zdravotní pojišťovna</h4>
         ${row("Určený vyměřovací základ", formatKc(zdravotni.vzUrceny))}

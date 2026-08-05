@@ -1,19 +1,19 @@
 // ⚠️ Zrcadlí supabase/functions/_shared/deadlines.js (cron pro e-mailové
 // připomínky). Změníš termín/lhůtu na jednom místě, oprav i to druhé.
 //
-// Termínovník — počítá povinnosti podle profilu uživatele. Čisté funkce,
+// Termínovník - počítá povinnosti podle profilu uživatele. Čisté funkce,
 // žádné DOM. Lhůty ověřené přímo v textu nahraných zákonů (viz komentář
 // u každé položky), ne z paměti.
 //
 // Zjednodušení (a proč):
 // - Daňové přiznání se počítá s "řádnou" lhůtou 3 měsíce po konci roku
-//   (papírově/bez poradce) — prodloužení na 4/6 měsíců (elektronicky bez
+//   (papírově/bez poradce) - prodloužení na 4/6 měsíců (elektronicky bez
 //   výzvy / s daňovým poradcem nebo auditem) záleží na volbě uživatele,
 //   která se dnes v profilu netrackuje. Zobrazujeme nejbližší řádný termín,
 //   je vždy nejpřísnější (ostatní varianty jsou později, nikdy dřív).
-// - DPH termíny počítáme jako měsíční (§ 99 ZDPH — výchozí zdaňovací
+// - DPH termíny počítáme jako měsíční (§ 99 ZDPH - výchozí zdaňovací
 //   období), protože profil zatím neeviduje čtvrtletní volbu (§ 99a).
-// - s.r.o. nemá OSVČ přehledy ani měsíční zálohy na pojistné OSVČ — to
+// - s.r.o. nemá OSVČ přehledy ani měsíční zálohy na pojistné OSVČ - to
 //   platí jen fyzická osoba.
 
 const DAY_MS = 24 * 60 * 60 * 1000;
@@ -30,9 +30,9 @@ function lastDayOfMonth(year, monthIndex) {
   return new Date(year, monthIndex + 1, 0, 12, 0, 0);
 }
 
-// Rozdíl v celých kalendářních dnech — porovnává jen rok/měsíc/den, ne
+// Rozdíl v celých kalendářních dnech - porovnává jen rok/měsíc/den, ne
 // přesný čas. Bez tohohle by "now" o půlnoci a termín nastavený na poledne
-// (viz d()/lastDayOfMonth()) dávaly o den víc, než je ve skutečnosti — a
+// (viz d()/lastDayOfMonth()) dávaly o den víc, než je ve skutečnosti - a
 // e-mailová připomínka "3 dny předem" by ve skutečnosti chodila 4 dny předem.
 function daysUntil(date, from) {
   const a = Date.UTC(date.getFullYear(), date.getMonth(), date.getDate());
@@ -45,8 +45,8 @@ function daysUntil(date, from) {
  * @param {Date} [now]
  * @param {object} [opts]
  * @param {number} [opts.horizonDays] - jak daleko dopředu hledat termíny (musí
- *   pokrýt aspoň roční cyklus, jinak by profil bez měsíčních povinností —
- *   typicky s.r.o. bez DPH — část roku neviděl vůbec žádný termín, i když
+ *   pokrýt aspoň roční cyklus, jinak by profil bez měsíčních povinností -
+ *   typicky s.r.o. bez DPH - část roku neviděl vůbec žádný termín, i když
  *   mu jedno (daňové přiznání) reálně hrozí, jen je zrovna dál než pár týdnů)
  * @param {number} [opts.maxItems] - strop počtu položek pro husté profily
  *   (OSVČ plátce DPH má 3 měsíční povinnosti najednou)
@@ -66,18 +66,18 @@ export function computeDeadlines(profile, now = new Date(), opts = {}) {
       key: `dp-${y}`,
       title: isSro ? "Daňové přiznání k dani z příjmů právnických osob" : "Daňové přiznání k dani z příjmů",
       date: dpDeadline,
-      popis: `Za rok ${y - 1}. Řádná lhůta (papírově) — elektronicky +1 měsíc, s daňovým poradcem/auditem do 1. 7.`,
+      popis: `Za rok ${y - 1}. Řádná lhůta (papírově) - elektronicky +1 měsíc, s daňovým poradcem/auditem do 1. 7.`,
       zdroj: "Daňový řád, § 136 odst. 1",
       kategorie: "prizna",
     });
 
     if (!isSro) {
-      // Přehled OSVČ pro ČSSZ a zdravotní pojišťovnu — do 1 měsíce od
+      // Přehled OSVČ pro ČSSZ a zdravotní pojišťovnu - do 1 měsíce od
       // lhůty pro daňové přiznání (§ 15 zák. 589/1992, § 24 zák. 592/1992).
       const prehledDeadline = addMonths(dpDeadline, 1);
       items.push({
         key: `prehled-socialni-${y}`,
-        title: "Přehled o příjmech a výdajích — sociální pojištění (ČSSZ)",
+        title: "Přehled o příjmech a výdajích - sociální pojištění (ČSSZ)",
         date: prehledDeadline,
         popis: `Za rok ${y - 1}.`,
         zdroj: "Zákon 589/1992 Sb., § 15",
@@ -85,7 +85,7 @@ export function computeDeadlines(profile, now = new Date(), opts = {}) {
       });
       items.push({
         key: `prehled-zdravotni-${y}`,
-        title: "Přehled o příjmech a výdajích — zdravotní pojištění",
+        title: "Přehled o příjmech a výdajích - zdravotní pojištění",
         date: prehledDeadline,
         popis: `Za rok ${y - 1}, podává se každé zdravotní pojišťovně, u které jste byli pojištěni.`,
         zdroj: "Zákon 592/1992 Sb., § 24",
@@ -122,7 +122,7 @@ export function computeDeadlines(profile, now = new Date(), opts = {}) {
   }
 
   if (isVatPayer) {
-    // DPH přiznání + kontrolní hlášení — do 25 dnů po konci měsíce
+    // DPH přiznání + kontrolní hlášení - do 25 dnů po konci měsíce
     // (daňový řád § 136 odst. 4; § 101e zák. o DPH pro kontrolní hlášení).
     for (const y of [now.getFullYear(), now.getFullYear() + 1]) {
       for (let m = 0; m < 12; m++) {
@@ -131,7 +131,7 @@ export function computeDeadlines(profile, now = new Date(), opts = {}) {
           key: `dph-${y}-${m}`,
           title: "DPH přiznání + kontrolní hlášení",
           date: dphDeadline,
-          popis: `Za ${monthName(m)} ${y}. Počítáno jako měsíční plátce — pokud máte čtvrtletní období, termín je jiný.`,
+          popis: `Za ${monthName(m)} ${y}. Počítáno jako měsíční plátce - pokud máte čtvrtletní období, termín je jiný.`,
           zdroj: "Daňový řád § 136 odst. 4; zákon 235/2004 Sb. § 101e",
           kategorie: "dph",
         });
@@ -141,7 +141,7 @@ export function computeDeadlines(profile, now = new Date(), opts = {}) {
 
   // Prostý "nejbližších N" napříč kategoriemi by u OSVČ plátce DPH (3
   // měsíční povinnosti = zálohy + DPH) vytlačil roční termíny (přiznání,
-  // přehledy ČSSZ/zdravotní) úplně mimo okno — ty jsou přitom důležitější
+  // přehledy ČSSZ/zdravotní) úplně mimo okno - ty jsou přitom důležitější
   // (vyšší sankce) než mírně opožděná měsíční záloha. Proto se nejdřív
   // omezí, kolik nejbližších výskytů STEJNÉHO titulu smí projít (u ročních
   // titulů to nikdy nesklouzne, těch je v horizontu jen pár), a teprve pak

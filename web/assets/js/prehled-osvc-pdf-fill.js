@@ -5,7 +5,7 @@
 // eportal.cssz.cz (viz komentář v prehled-osvc.js).
 //
 // Souřadnice jsou v bodech (pt) přesně tak, jak je vrátilo PyMuPDF
-// (page.get_drawings() pro rámečky/checkboxy políček) — převod na mm až
+// (page.get_drawings() pro rámečky/checkboxy políček) - převod na mm až
 // při vykreslení, ať jde zdroj zpětně ověřit proti staženému PDF.
 
 import { jsPDF } from "https://esm.sh/jspdf@2.5.1";
@@ -188,7 +188,7 @@ export async function generatePrehledOsvcPdf({
     boxRight(doc, P1_BOX.r33, fmtCastka(socialni.r33));
     boxRight(doc, P1_BOX.r34, fmtCastka(socialni.r34));
   } else {
-    // Vedlejší SVČ bez účasti na DP — pokyny ČSSZ: "v ř. 25 až 32 uvede 0".
+    // Vedlejší SVČ bez účasti na DP - pokyny ČSSZ: "v ř. 25 až 32 uvede 0".
     for (const key of ["r25_vedlejsi", "r27", "r28", "r30", "r31", "r32_1", "r32_3"]) {
       boxRight(doc, P1_BOX[key], "0");
     }
@@ -211,10 +211,10 @@ export async function generatePrehledOsvcPdf({
 }
 
 // Zdravotní pojišťovny (VZP, ZPMV, ČPZP, OZP, RBP…) nemají jednotný
-// centrální tiskopis jako ČSSZ — každá má vlastní formulář/portál, proto
+// centrální tiskopis jako ČSSZ - každá má vlastní formulář/portál, proto
 // místo přesného přeložení skutečného tiskopisu generujeme čistý souhrn s
 // dopočtenými částkami k přepsání do formuláře konkrétní pojišťovny (stejný
-// princip jako u Kontrolního hlášení — viz kh-check.js).
+// princip jako u Kontrolního hlášení - viz kh-check.js).
 const INDIGO = [99, 102, 241];
 const NAVY = [15, 23, 42];
 const SLATE = [51, 65, 85];
@@ -266,7 +266,7 @@ export function generateZdravotniSouhrnPdf({ identifikace = {}, zdravotni = {}, 
   doc.setFontSize(9.5);
   doc.setTextColor(...MUTED);
   doc.text(
-    "Zdravotní pojišťovny nemají jednotný tiskopis — tyhle částky přepište do formuláře/portálu vaší pojišťovny (§ 24 odst. 2 zákona č. 592/1992 Sb.).",
+    "Zdravotní pojišťovny nemají jednotný tiskopis - tyhle částky přepište do formuláře/portálu vaší pojišťovny (§ 24 odst. 2 zákona č. 592/1992 Sb.).",
     MARGIN,
     y,
     { maxWidth: WIDTH - MARGIN * 2 }
@@ -315,7 +315,7 @@ export function generateZdravotniSouhrnPdf({ identifikace = {}, zdravotni = {}, 
     doc.setFontSize(8);
     doc.setTextColor(...MUTED);
     doc.text(
-      "Para není daňové ani účetní poradenství — u důležitých rozhodnutí konzultujte s odborníkem.",
+      "Para není daňové ani účetní poradenství - u důležitých rozhodnutí konzultujte s odborníkem.",
       MARGIN,
       297 - 12
     );

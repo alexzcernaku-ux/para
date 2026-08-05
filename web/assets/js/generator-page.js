@@ -1,4 +1,4 @@
-// Wiring pro generator-dokumentu.html (Fáze 9) — přepínání typu dokumentu,
+// Wiring pro generator-dokumentu.html (Fáze 9) - přepínání typu dokumentu,
 // předvyplnění firemních údajů z profilu, dynamické řádky položek u faktury
 // a odeslání dat do pdf-documents.js. Auth stejně jako terminy.html /
 // kontrola-dokladu.html (requireOnboardedProfile guard).
@@ -10,6 +10,7 @@ import {
   listClients,
   upsertClientByName,
   updateInvoiceBranding,
+  insertInvoice,
 } from "./supabase-client.js";
 
 let knownClients = [];
@@ -20,7 +21,7 @@ function renderClientsDatalist() {
 }
 
 // Vybere-li uživatel jméno z databáze klientů (klienti.html), doplní zbytek
-// polí sama — adresu/IČO/DIČ nemusí hledat a přepisovat znovu. Pole, která
+// polí sama - adresu/IČO/DIČ nemusí hledat a přepisovat znovu. Pole, která
 // daný formulář nemá (např. upomínka nemá DIČ), se v mapě prostě vynechají.
 function attachClientAutofill(nameId, fieldIds) {
   const nameEl = document.getElementById(nameId);
@@ -35,7 +36,7 @@ function attachClientAutofill(nameId, fieldIds) {
   });
 }
 
-// Tiše uloží/aktualizuje klienta podle jména po úspěšném vygenerování PDF —
+// Tiše uloží/aktualizuje klienta podle jména po úspěšném vygenerování PDF -
 // příště se sám nabídne v datalistu (viz upsertClientByName v supabase-client.js).
 async function persistClient(userId, clientData) {
   if (!clientData.name) return;
@@ -49,7 +50,7 @@ async function persistClient(userId, clientData) {
 }
 
 // --- Vzhled dokladů (24_schema_invoice_branding.sql) ------------------------
-// Logo/barva/patička pro všechny 4 typy dokumentů — čte a ukládá se z
+// Logo/barva/patička pro všechny 4 typy dokumentů - čte a ukládá se z
 // jednoho společného panelu nahoře (branding-panel), viz initBrandingPanel().
 
 let logoState = { dataUrl: null, width: null, height: null };
@@ -94,7 +95,7 @@ function setActiveSwatch(hex) {
 
 // Zmenší nahraný obrázek na canvasu, ať base64 v profiles zbytečně
 // nenabobtná (žádný Supabase Storage bucket, ukládá se přímo do sloupce,
-// viz komentář v 24_schema_invoice_branding.sql) — poměr stran se zachová,
+// viz komentář v 24_schema_invoice_branding.sql) - poměr stran se zachová,
 // aby logo v PDF nebylo zdeformované (viz docHeader v pdf-documents.js).
 function resizeLogoFile(file) {
   const MAX_W = 300;
@@ -291,6 +292,15 @@ function initFaktura(profile, session, isVatPayer) {
         ico: val("f-customer-ico"),
         dic: val("f-customer-dic"),
       };
+
+      let totalBase = 0;
+      let totalVat = 0;
+      items.forEach((it) => {
+        const lineBase = it.quantity * it.unitPrice;
+        totalBase += lineBase;
+        if (isVatPayer) totalVat += lineBase * (it.vatRate / 100);
+      });
+
       const { generateFakturaPdf } = await import("./pdf-documents.js");
       generateFakturaPdf({
         isVatPayer,
@@ -309,6 +319,19 @@ function initFaktura(profile, session, isVatPayer) {
       persistBillingInfo(session.user.id, supplier);
       persistClient(session.user.id, customer);
       persistBranding(session.user.id);
+
+      // Vystavená faktura se rovnou objeví ve Sledování faktur (faktury.html)
+      // - dřív bylo potřeba ji tam po vygenerování ještě jednou ručně opsat.
+      insertInvoice(session.user.id, {
+        direction: "vystavena",
+        number: val("f-doc-number"),
+        counterpartyName: customer.name,
+        counterpartyIco: customer.ico,
+        issueDate: val("f-issue-date"),
+        dueDate: val("f-due-date"),
+        amount: totalBase + totalVat,
+        vatAmount: totalVat,
+      }).catch((err) => console.error("Nepodařilo se uložit fakturu do evidence:", err.message));
     });
   });
 }
@@ -449,7 +472,7 @@ function initSmlouva(profile, session, isVatPayer) {
 
 // Umožní přijít sem ze Sledování faktur (odkaz "Vygenerovat upomínku" u
 // faktury po splatnosti) s předvyplněnými údaji, ať je uživatel nepřepisuje
-// ručně — viz faktury-page.js, který tenhle odkaz staví.
+// ručně - viz faktury-page.js, který tenhle odkaz staví.
 function applyPrefillFromQuery() {
   const params = new URLSearchParams(window.location.search);
   const tab = params.get("tab");

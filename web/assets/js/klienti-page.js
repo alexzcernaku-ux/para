@@ -64,13 +64,13 @@ function renderTable() {
   tableEl.classList.remove("hidden");
   tbody.innerHTML = allClients
     .map((c) => {
-      const contact = [c.email, c.phone].filter(Boolean).join(" · ") || "—";
+      const contact = [c.email, c.phone].filter(Boolean).join(" · ") || "-";
       return `
         <tr>
           <td data-label="Název">${c.name}</td>
-          <td data-label="IČO">${c.ico || "—"}</td>
+          <td data-label="IČO">${c.ico || "-"}</td>
           <td data-label="Kontakt">${contact}</td>
-          <td data-label="Poznámka">${c.note || "—"}</td>
+          <td data-label="Poznámka">${c.note || "-"}</td>
           <td data-label=""><button type="button" class="list-row-edit" data-edit="${c.id}" aria-label="Upravit"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9M16.5 3.5a2.12 2.12 0 013 3L7 19l-4 1 1-4L16.5 3.5z" /></svg></button></td>
           <td data-label=""><button type="button" class="list-row-delete" data-del="${c.id}" aria-label="Smazat"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18" /></svg></button></td>
         </tr>`;

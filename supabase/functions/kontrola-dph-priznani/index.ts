@@ -1,12 +1,12 @@
 // supabase/functions/kontrola-dph-priznani/index.ts
 //
-// Kontrola přiznání k DPH (25 5401) — vision extrakce, stejný princip jako
+// Kontrola přiznání k DPH (25 5401) - vision extrakce, stejný princip jako
 // kontrola-priznani.ts (DPFO, Fáze 10). Model jen "přečte čísla" ze
 // zadaných řádků, aritmetiku (sazby, součty) počítá deterministicky
 // web/assets/js/dph-check.js na klientovi.
 //
 // Nasazení: supabase functions deploy kontrola-dph-priznani
-// Secrets: žádné nové — používá stejný ANTHROPIC_API_KEY jako zakon-query.
+// Secrets: žádné nové - používá stejný ANTHROPIC_API_KEY jako zakon-query.
 
 const ANTHROPIC_KEY = Deno.env.get("ANTHROPIC_API_KEY")!;
 
@@ -19,13 +19,13 @@ const MAX_BASE64_LENGTH = 12_000_000;
 
 const RADKY_POPIS = `
 I. Zdanitelná plnění (Dodání zboží nebo poskytnutí služby s místem plnění v tuzemsku):
-- ř. 1 základní sazba — sloupce "Základ daně" a "Daň na výstupu"
-- ř. 2 snížená sazba — sloupce "Základ daně" a "Daň na výstupu"
+- ř. 1 základní sazba - sloupce "Základ daně" a "Daň na výstupu"
+- ř. 2 snížená sazba - sloupce "Základ daně" a "Daň na výstupu"
 
 IV. Nárok na odpočet daně (Z přijatých zdanitelných plnění od plátců):
-- ř. 40 základní sazba — sloupec "V plné výši" (ne "Krácený odpočet")
-- ř. 41 snížená sazba — sloupec "V plné výši"
-- ř. 46 Odpočet daně celkem — sloupec "V plné výši"
+- ř. 40 základní sazba - sloupec "V plné výši" (ne "Krácený odpočet")
+- ř. 41 snížená sazba - sloupec "V plné výši"
+- ř. 46 Odpočet daně celkem - sloupec "V plné výši"
 
 VI. Výpočet daně:
 - ř. 62 Daň na výstupu
@@ -36,9 +36,9 @@ VI. Výpočet daně:
 
 const SYSTEM_PROMPT = `Jsi asistent, který z nahraného obrázku nebo PDF přečte hodnoty konkrétních řádků
 českého tiskopisu "Přiznání k dani z přidané hodnoty" (25 5401). Tvůj úkol je ČISTĚ přepsat
-čísla, která jsou v tiskopisu vyplněná — žádné výpočty, žádné posuzování správnosti.
+čísla, která jsou v tiskopisu vyplněná - žádné výpočty, žádné posuzování správnosti.
 
-U řádků 40, 41 a 46 čti VŽDY jen sloupec "V plné výši" — sloupec "Krácený odpočet" je pro
+U řádků 40, 41 a 46 čti VŽDY jen sloupec "V plné výši" - sloupec "Krácený odpočet" je pro
 plátce, kteří krátí nárok na odpočet (§ 76), a v jednodušších přiznáních bývá prázdný.
 
 Řádky, které máš hledat:
@@ -53,7 +53,7 @@ Vrať ČISTĚ JSON (žádný text mimo JSON) v této struktuře:
 
 Do "hodnoty" zahrň KAŽDÝ klíč ze seznamu výše. Pokud řádek/sloupec na dokumentu není
 vyplněný, dej hodnotu null. Čísla piš jako čistá čísla bez mezer a bez "Kč". Do "nejiste" dej
-klíče, kde sis hodnotou nebyl jistý. Nikdy si hodnotu nevymýšlej — když nejde přečíst, patří
+klíče, kde sis hodnotou nebyl jistý. Nikdy si hodnotu nevymýšlej - když nejde přečíst, patří
 tam null, ne odhad.`;
 
 Deno.serve(async (req) => {

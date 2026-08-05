@@ -30,7 +30,7 @@ signoutBtn.addEventListener("click", () => signOut());
 let knownClients = [];
 
 // Vybere-li uživatel jméno, které už v klientech je (z datalistu, nebo jen
-// přesná shoda při psaní), doplní IČO samo — ať to nemusí hledat znovu.
+// přesná shoda při psaní), doplní IČO samo - ať to nemusí hledat znovu.
 counterpartyInput.addEventListener("input", () => {
   const match = knownClients.find((c) => c.name.toLowerCase() === counterpartyInput.value.trim().toLowerCase());
   if (match && !counterpartyIcoInput.value) counterpartyIcoInput.value = match.ico || "";
@@ -92,7 +92,7 @@ function renderTable(invoices) {
     .map((inv) => {
       const status = statusOf(inv);
       const issueStr = new Date(inv.issue_date).toLocaleDateString("cs-CZ");
-      const dueStr = inv.due_date ? new Date(inv.due_date).toLocaleDateString("cs-CZ") : "—";
+      const dueStr = inv.due_date ? new Date(inv.due_date).toLocaleDateString("cs-CZ") : "-";
       const canRemind = direction === "vystavena" && status === "overdue";
       const remindHref = canRemind
         ? `generator-dokumentu.html?${new URLSearchParams({
@@ -106,8 +106,8 @@ function renderTable(invoices) {
         : null;
       return `
         <tr>
-          <td data-label="Číslo">${inv.number || "—"}</td>
-          <td data-label="Firma">${inv.counterparty_name || "—"}</td>
+          <td data-label="Číslo">${inv.number || "-"}</td>
+          <td data-label="Firma">${inv.counterparty_name || "-"}</td>
           <td data-label="Vystaveno">${issueStr}</td>
           <td data-label="Splatnost">${dueStr}</td>
           <td data-label="Částka" class="amount">${formatKc(inv.amount)}</td>
@@ -182,7 +182,7 @@ form.addEventListener("submit", async (e) => {
     rerender();
     form.reset();
 
-    // Tiše uloží/aktualizuje klienta podle jména — příště se sám nabídne v
+    // Tiše uloží/aktualizuje klienta podle jména - příště se sám nabídne v
     // datalistu, uživatel o to nemusí nijak žádat (viz klienti.html).
     if (counterpartyName) {
       try {

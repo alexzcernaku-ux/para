@@ -1,10 +1,10 @@
 // Export odpovědi z chatu jako PDF (otázka, odpověď, citované paragrafy,
-// zdrojové odkazy). Používá jsPDF čistě na klientovi — žádný server, žádné
+// zdrojové odkazy). Používá jsPDF čistě na klientovi - žádný server, žádné
 // generování na backendu.
 //
 // Proč vlastní font: výchozí PDF fonty (Helvetica/Times/Courier) používají
 // kódování, které nemá české znaky s háčky/čárkami (č, ř, š, ě, ď, ť, ň, ů,
-// ž) — bez vloženého fontu by byl text nečitelný/rozbitý. Plus Jakarta Sans
+// ž) - bez vloženého fontu by byl text nečitelný/rozbitý. Plus Jakarta Sans
 // (stejný font jako zbytek webu, viz styles.css) je vygenerovaný staticky
 // z variabilního Google Fonts souboru a zabalený jako base64 v assets/js/fonts/.
 
@@ -42,7 +42,7 @@ function ensureSpace(doc, y, needed, state) {
   return y;
 }
 
-// Rozseká "**tučně**" markdown na segmenty {text, bold} — stejná syntaxe,
+// Rozseká "**tučně**" markdown na segmenty {text, bold} - stejná syntaxe,
 // jakou model posílá a jakou chat.js/app.html renderují jako <strong>.
 function parseBoldSegments(line) {
   return line.split(/(\*\*[^*]+\*\*)/g).filter(Boolean).map((part) => {
@@ -172,7 +172,7 @@ export function generateAnswerPdf({ question, answer, sources = [] }) {
     doc.setFontSize(8);
     doc.setTextColor(...MUTED);
     doc.text(
-      "Para není daňové ani účetní poradenství — u důležitých rozhodnutí konzultujte s odborníkem.",
+      "Para není daňové ani účetní poradenství - u důležitých rozhodnutí konzultujte s odborníkem.",
       MARGIN,
       PAGE_HEIGHT - 12
     );

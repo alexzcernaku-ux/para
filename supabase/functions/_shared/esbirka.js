@@ -1,6 +1,6 @@
 // Klient pro veřejné Linked Data API e-Sbírky (opendata.eselpoint.gov.cz).
 // Ne oficiálně zdokumentované jako "veřejné REST API" (to vyžaduje registraci
-// přes datovou zprávu na MV) — tohle je jejich open-data/LOD endpoint,
+// přes datovou zprávu na MV) - tohle je jejich open-data/LOD endpoint,
 // content-negotiation přes Accept: application/ld+json, bez auth.
 //
 // Ověřeno ručně (2026-07-31) na zákonu 235/2004 Sb.: rekonstruovaný text
@@ -16,7 +16,7 @@ const HEADERS = { Accept: "application/ld+json", "User-Agent": "Para/1.0 (para-a
 
 // e-Sbírka API je nezdokumentované a v praxi se ukázalo příležitostně
 // nespolehlivé (ojedinělý fetch v dávce vrátí prázdný/vadný obsah bez
-// chyby na úrovni HTTP) — 2 opakování s krátkou prodlevou tohle v praxi
+// chyby na úrovni HTTP) - 2 opakování s krátkou prodlevou tohle v praxi
 // spolehlivě přebijí, viz poznámka u reconstructParagraphText.
 async function getJsonLd(path, attempt = 1) {
   const res = await fetch(`${BASE}/${path}`, { headers: HEADERS });
@@ -57,18 +57,18 @@ export async function fetchVersionFragmentPaths(lawCode, versionDate) {
   return data["má-fragment-znění"] || [];
 }
 
-// "§ 29" nebo "§ 7 (1/2)" -> "29" / "7" / "35b" — základní označení paragrafu
+// "§ 29" nebo "§ 7 (1/2)" -> "29" / "7" / "35b" - základní označení paragrafu
 // bez značky odstavce a bez našeho vlastního "(n/m)" dělení chunků.
 export function baseParagraphNumber(sectionRef) {
   // section_ref bývá null u chunků bez konkrétního paragrafu (např. preambule
-  // zákona "ZÁKON České národní rady ze dne…") — ty prostě nesledujeme.
+  // zákona "ZÁKON České národní rady ze dne…") - ty prostě nesledujeme.
   if (!sectionRef) return null;
   const m = sectionRef.match(/§\s*([0-9]+[a-z]*)/i);
   return m ? m[1].toLowerCase() : null;
 }
 
 // Najde v seznamu fragmentových cest tu, která odpovídá holému paragrafu
-// (ne jeho odstavci/písmenu) — cesta má končit přesně "/par_<cislo>".
+// (ne jeho odstavci/písmenu) - cesta má končit přesně "/par_<cislo>".
 export function findParagraphFragmentPath(fragmentPaths, paragraphNumber) {
   const suffix = `/par_${paragraphNumber}`;
   return fragmentPaths.find((p) => p.endsWith(suffix)) || null;
@@ -76,7 +76,7 @@ export function findParagraphFragmentPath(fragmentPaths, paragraphNumber) {
 
 async function fetchFragmentMeta(path) {
   // Cesty v má-fragment-znění už obsahují "esel-esb/" prefix samy o sobě
-  // (BASE ho má taky) — bez stripnutí by request šel na .../esel-esb/esel-esb/…
+  // (BASE ho má taky) - bez stripnutí by request šel na .../esel-esb/esel-esb/…
   // a tiše by spadl na 404 (chycený v mapBatched, výsledek by vyšel prázdný).
   return getJsonLd(path.replace(/^esel-esb\//, ""));
 }
@@ -87,7 +87,7 @@ async function fetchFragmentText(fragmentContentId, attempt = 1) {
   const data = await getJsonLd(relative);
   const raw = data["l-sgov-dat-sbirka-pojem:text-fragmentu"] || "";
   // Prázdný text-fragmentu s HTTP 200 nastal v praxi (viz komentář u getJsonLd)
-  // bez chyby, kterou by šlo chytit — zkusíme to znovu, než to prohlásíme za
+  // bez chyby, kterou by šlo chytit - zkusíme to znovu, než to prohlásíme za
   // skutečně prázdný fragment (existují, ale jsou vzácné).
   if (!raw.trim() && attempt < 3) {
     await new Promise((r) => setTimeout(r, 300 * attempt));
@@ -132,7 +132,7 @@ export async function reconstructParagraphText(lawCode, versionDate, paragraphNu
       return null;
     }
   });
-  // Metadata fetch má vlastní retry (viz getJsonLd) — pokud selže i po nich,
+  // Metadata fetch má vlastní retry (viz getJsonLd) - pokud selže i po nich,
   // NEPOKRAČOVAT s neúplnou stromovou strukturou. Radši nahlásit nespolehlivý
   // výsledek, než tiše vrátit uťatý text, který by mohl skončit jako "nové
   // znění zákona" v e-mailu ke schválení.
@@ -154,10 +154,10 @@ export async function reconstructParagraphText(lawCode, versionDate, paragraphNu
     return { unreliable: true, reason: "empty_fragment_text", paths: stillEmpty.map((f) => f.path) };
   }
 
-  // Řazení podle pořadí-fragmentu-znění-právního-aktu — hex klíč navržený
+  // Řazení podle pořadí-fragmentu-znění-právního-aktu - hex klíč navržený
   // e-Sbírkou přímo pro řazení prostým porovnáním řetězců (fractional-index
   // schéma: dítě má klíč rozšiřující klíč rodiče). Cesta samotná NENÍ
-  // spolehlivý vodítko k pořadí — např. "odst_7/frag_2443215" (nepojmenovaná
+  // spolehlivý vodítko k pořadí - např. "odst_7/frag_2443215" (nepojmenovaná
   // závěrečná věta odstavce, "Způsob uplatnění výdajů…") má podle abecedy
   // "f" před "pism_a"..."pism_d", ale ve skutečném textu patří AŽ ZA ně;
   // ověřeno živě 2026-07-31 na § 7 zákona 586/1992 Sb.

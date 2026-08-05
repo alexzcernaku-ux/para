@@ -1,8 +1,8 @@
 -- Spusť v Supabase: Dashboard → SQL Editor → New query → vlož a Run
--- Fáze 4 — termínovník. Eviduje, které připomínky (e-mail pár dní před
+-- Fáze 4 - termínovník. Eviduje, které připomínky (e-mail pár dní před
 -- termínem) už byly danému uživateli odeslané, aby se totéž neposílalo
 -- vícekrát. Zapisuje jen scheduled edge function (service role), proto
--- žádná insert/update policy pro klienta — jen čtení vlastních řádků.
+-- žádná insert/update policy pro klienta - jen čtení vlastních řádků.
 
 create table if not exists reminder_log (
   id bigint generated always as identity primary key,

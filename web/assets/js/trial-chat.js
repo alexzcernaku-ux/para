@@ -1,12 +1,12 @@
-// Živá ukázka na landing page — 3 dotazy zdarma bez registrace.
+// Živá ukázka na landing page - 3 dotazy zdarma bez registrace.
 //
 // Endpoint: v místním vývoji míří na 03_local_server.mjs (NDJSON streaming,
 // viz protokol v tom souboru). Po nasazení supabase/functions/zakon-query
 // (03_edge_function/index.ts) přepni PARA_CONFIG.endpoint v index.html na
-// finální URL edge function — ta zatím vrací jedno JSON tělo (ne stream),
+// finální URL edge function - ta zatím vrací jedno JSON tělo (ne stream),
 // proto klient níže umí obojí (viz callEndpoint: NDJSON i plain JSON větev).
 //
-// Limit 3 dotazů je řešený jen přes localStorage (žádné ověření na serveru) —
+// Limit 3 dotazů je řešený jen přes localStorage (žádné ověření na serveru) -
 // je to měkká brzda pro motivaci k registraci, ne bezpečnostní opatření.
 // Skutečné vynucení limitu přijde s Fází 2 (účty) a rate limitingem per-user.
 
@@ -55,7 +55,7 @@
 
   // Claude odpovídá s lehkým markdownem (hlavně **tučně** u předkontací).
   // Bublina používá white-space: pre-wrap, takže i po vložení přes innerHTML
-  // zůstanou zalomení řádků zachovaná — jen je potřeba escapovat HTML entity
+  // zůstanou zalomení řádků zachovaná - jen je potřeba escapovat HTML entity
   // předtím, než se ** převedou na <strong>, aby text z modelu nemohl vložit
   // vlastní značky.
   function escapeHtml(s) {

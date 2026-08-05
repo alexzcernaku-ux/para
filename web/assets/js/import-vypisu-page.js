@@ -28,7 +28,7 @@ function populateColumnSelects() {
   const opts = parsed.headers.map((h, i) => `<option value="${i}">${h}</option>`).join("");
   mapDate.innerHTML = opts;
   mapAmount.innerHTML = opts;
-  mapDescription.innerHTML = `<option value="-1">— žádný —</option>${opts}`;
+  mapDescription.innerHTML = `<option value="-1">- žádný -</option>${opts}`;
   mapDate.value = parsed.columnGuess.date >= 0 ? parsed.columnGuess.date : 0;
   mapAmount.value = parsed.columnGuess.amount >= 0 ? parsed.columnGuess.amount : 0;
   mapDescription.value = parsed.columnGuess.description;
@@ -53,7 +53,7 @@ function renderPreview() {
       return `<tr>
         <td data-label="Datum">${e.entryDate}</td>
         <td data-label="Typ">${e.type === "prijem" ? "Příjem" : "Výdaj"}</td>
-        <td data-label="Popis">${e.description || "—"}</td>
+        <td data-label="Popis">${e.description || "-"}</td>
         <td data-label="Částka" class="amount ${cls}">${sign} ${formatKc(e.amount)}</td>
       </tr>`;
     })
@@ -100,7 +100,7 @@ importBtn.addEventListener("click", async () => {
   importStatus.textContent = "Importuji…";
   try {
     await insertLedgerEntriesBulk(userId, entries);
-    importStatus.textContent = `Hotovo — naimportováno ${entries.length} záznamů do evidence.`;
+    importStatus.textContent = `Hotovo - naimportováno ${entries.length} záznamů do evidence.`;
   } catch (err) {
     importStatus.textContent = `Nepodařilo se importovat (${err.message}).`;
   } finally {
