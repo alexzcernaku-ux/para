@@ -2068,3 +2068,35 @@ textarea.text-input { resize: vertical; min-height: 70px; font-family: var(--fon
 @media (max-width: 560px) {
   .wiz-row2, .wiz-row3 { grid-template-columns: 1fr; }
 }
+
+/* =========================================================================
+   ONBOARDING TOUR (onboarding-tour.js)
+   ========================================================================= */
+.tour-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(15, 23, 42, 0.55);
+  z-index: 9998;
+}
+.tour-highlight {
+  position: relative;
+  z-index: 9999;
+  border-radius: var(--radius-md);
+  box-shadow: 0 0 0 4px var(--white), 0 0 0 7px var(--indigo), 0 20px 44px rgba(0, 0, 0, 0.35);
+}
+.tour-tooltip {
+  position: absolute;
+  z-index: 10000;
+  width: 280px;
+  background: var(--white);
+  border-radius: var(--radius-lg);
+  padding: 18px 20px;
+  box-shadow: 0 20px 44px rgba(15, 23, 42, 0.3);
+}
+.tour-tooltip-step { font-size: 11px; font-weight: 700; color: var(--indigo); text-transform: uppercase; letter-spacing: 0.04em; margin-bottom: 6px; }
+.tour-tooltip-title { font-size: 15.5px; font-weight: 700; color: var(--navy); margin-bottom: 6px; }
+.tour-tooltip-text { font-size: 13.5px; color: var(--slate); line-height: 1.5; margin-bottom: 16px; }
+.tour-tooltip-actions { display: flex; align-items: center; justify-content: space-between; gap: 10px; }
+.tour-skip { background: none; border: none; color: var(--slate); font-size: 13px; font-weight: 600; cursor: pointer; padding: 0; }
+.tour-skip:hover { color: var(--navy); }
+.tour-next { padding: 8px 16px; font-size: 13.5px; }

@@ -47,7 +47,7 @@
       <h1>§ Para</h1>
       <div class="app-topbar-actions">
         <a href="ucet.html" class="chip chip-indigo app-trial-pill hidden" id="trial-pill"></a>
-        <a href="terminy.html" class="btn btn-secondary app-topbar-btn">
+        <a href="terminy.html" class="btn btn-secondary app-topbar-btn" id="terminy-link">
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="16" rx="2" /><path d="M8 3v4M16 3v4M3 10h18" /></svg>
           Termíny
         </a>
@@ -717,6 +717,20 @@
     loadingEl.classList.add("hidden");
     shellEl.classList.remove("hidden");
     input.focus();
+
+    // Krátká prohlídka appky - jen napoprvé na tenhle účet (viz
+    // onboarding-tour.js), ať noví uživatelé vědí, kde je chat, Nástroje
+    // a Termíny, než appku začnou sami zkoumat.
+    import("./assets/js/onboarding-tour.js").then(({ startTour }) => {
+      startTour(
+        [
+          { selector: "#composer", title: "Zeptejte se Para", text: "Sem napište dotaz o účetnictví nebo daních - odpověď přijde vždy s odkazem na konkrétní paragraf." },
+          { selector: "#tools-menu-btn", title: "Nástroje", text: "Tady najdete vše ostatní - kontrolu dokladů, faktury, kalkulačky, generátor dokumentů a další." },
+          { selector: "#terminy-link", title: "Termíny", text: "Přehled toho, co vás čeká a kdy - přiznání, zálohy, DPH - ať vám nic neuteče." },
+        ],
+        { storageKey: `para_tour_seen_${session.user.id}` }
+      );
+    });
   })();
 </script>
 
