@@ -3,7 +3,11 @@
    Paleta: brand/colors.txt · Font: Plus Jakarta Sans
    ========================================================================= */
 
-@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&display=swap");
+/* Font se načítá přes <link rel="preconnect"/stylesheet"> v <head> každé
+   stránky, ne přes @import tady - @import je řetězové (CSS musí dojít
+   celé, teprve pak prohlížeč zjistí, že má stahovat další CSS, a teprve
+   z NĚJ URL fontů) a blokuje vykreslení textu o jeden zbytečný okruh navíc
+   oproti <link>, který prohlížečův preloader najde hned při parsování HTML. */
 
 :root {
   /* Primární a neutrální barvy (manuál str. 4) */
