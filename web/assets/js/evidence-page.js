@@ -1,5 +1,6 @@
-import { requireOnboardedProfile, signOut, listLedgerEntries, insertLedgerEntry, deleteLedgerEntry } from "./supabase-client.js";
+import { requireOnboardedProfile, signOut, listLedgerEntries, insertLedgerEntry, deleteLedgerEntry, listInvoices, setInvoicePaid } from "./supabase-client.js";
 import { CATEGORIES, suggestCategory } from "./categorize.js";
+import { findInvoiceMatch } from "./invoice-matching.js";
 
 const loadingEl = document.getElementById("page-loading");
 const shellEl = document.getElementById("page-shell");
@@ -57,6 +58,7 @@ function formatKc(n) {
 
 let userId = null;
 let allEntries = [];
+let unpaidInvoices = [];
 
 function currentYear() {
   return Number(yearFilter.value);
@@ -91,12 +93,17 @@ function renderTable(entries) {
       const dateStr = new Date(e.entry_date).toLocaleDateString("cs-CZ");
       const sign = e.type === "prijem" ? "+" : "−";
       const cls = e.type === "prijem" ? "pos" : "neg";
+      const match = e.type === "prijem" ? findInvoiceMatch({ type: e.type, amount: Number(e.amount), description: e.description }, unpaidInvoices) : null;
+      const matchCell = match
+        ? `<button type="button" class="recurring-action-btn" data-mark-paid="${match.id}">Faktura č. ${match.number || "?"} uhrazena</button>`
+        : "-";
       return `
         <tr>
           <td data-label="Datum">${dateStr}</td>
           <td data-label="Kategorie">${e.category || "-"}</td>
           <td data-label="Popis">${e.description || "-"}</td>
           <td data-label="Částka" class="amount ${cls}">${sign} ${formatKc(e.amount)}</td>
+          <td data-label="Faktura">${matchCell}</td>
           <td data-label=""><button type="button" class="list-row-delete" data-id="${e.id}" aria-label="Smazat"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18" /></svg></button></td>
         </tr>`;
     })
@@ -111,6 +118,20 @@ function renderTable(entries) {
         rerender();
       } catch (err) {
         alert(`Nepodařilo se smazat záznam (${err.message}).`);
+        btn.disabled = false;
+      }
+    });
+  });
+  tbody.querySelectorAll("[data-mark-paid]").forEach((btn) => {
+    btn.addEventListener("click", async () => {
+      const invoiceId = Number(btn.dataset.markPaid);
+      btn.disabled = true;
+      try {
+        await setInvoicePaid(invoiceId, true);
+        unpaidInvoices = unpaidInvoices.filter((i) => i.id !== invoiceId);
+        rerender();
+      } catch (err) {
+        alert(`Nepodařilo se označit fakturu jako uhrazenou (${err.message}).`);
         btn.disabled = false;
       }
     });
@@ -208,6 +229,13 @@ form.addEventListener("submit", async (e) => {
   } catch (err) {
     console.error("Nepodařilo se načíst evidenci:", err.message);
     allEntries = [];
+  }
+  try {
+    const invoices = await listInvoices(userId);
+    unpaidInvoices = invoices.filter((i) => i.direction === "vystavena" && !i.paid);
+  } catch (err) {
+    console.error("Nepodařilo se načíst faktury pro párování:", err.message);
+    unpaidInvoices = [];
   }
   populateYearFilter();
   rerender();

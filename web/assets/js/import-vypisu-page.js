@@ -1,5 +1,6 @@
-import { requireOnboardedProfile, signOut, insertLedgerEntriesBulk, listInvoices, setInvoicePaid } from "./supabase-client.js";
+import { requireOnboardedProfile, signOut, insertLedgerEntriesBulk, listInvoices, setInvoicePaid, listLedgerEntries } from "./supabase-client.js";
 import { parseBankCsv, buildEntriesFromRows } from "./csv-import.js";
+import { findInvoiceMatch } from "./invoice-matching.js";
 
 const loadingEl = document.getElementById("page-loading");
 const shellEl = document.getElementById("page-shell");
@@ -24,34 +25,19 @@ function formatKc(n) {
 let userId = null;
 let parsed = null; // { headers, rows, columnGuess }
 let unpaidInvoices = [];
-let previewEntries = []; // poslední výsledek renderPreview(), se spárovanými fakturami
+let existingEntries = [];
+let previewEntries = []; // poslední výsledek renderPreview(), se spárovanými fakturami a duplicitami
 const confirmedMatchIndexes = new Set();
+const forceDuplicateIndexes = new Set();
 
-// Spáruje příjem z výpisu s nezaplacenou vystavenou fakturou - jen podle
-// částky (a u víc shod podle jména protistrany v popisu transakce), ať se
-// nemusí platby k fakturám dohledávat ručně. Bez shody na jméno u víc
-// stejných částek radši nehádá, ať neoznačí špatnou fakturu jako uhrazenou.
-function normalizeText(s) {
-  return (s || "")
-    .toLowerCase()
-    .normalize("NFD")
-    .replace(/[\u0300-\u036f]/g, "")
-    .replace(/[^a-z0-9]/g, " ")
-    .replace(/\s+/g, " ")
-    .trim();
-}
-
-function findInvoiceMatch(entry) {
-  if (entry.type !== "prijem") return null;
-  const candidates = unpaidInvoices.filter((inv) => Math.abs(Number(inv.amount) - entry.amount) < 1);
-  if (!candidates.length) return null;
-  if (candidates.length === 1) return candidates[0];
-  const normDesc = normalizeText(entry.description);
-  return (
-    candidates.find((inv) => {
-      const firstWord = normalizeText(inv.counterparty_name).split(" ")[0];
-      return firstWord.length > 2 && normDesc.includes(firstWord);
-    }) || null
+// Stejný výpis (nebo dva výpisy s překrývajícím se obdobím) se dá nahrát
+// omylem dvakrát - bez tyhle kontroly by to potichu zdvojilo každý řádek.
+// Shoda na datum + typ + částku není neomylná (dvě různé platby stejný den
+// za stejnou částku se stát můžou), proto se to jen navrhne k přeskočení,
+// ne rovnou tvrdě zablokuje - viz checkbox "přesto importovat" v náhledu.
+function isDuplicateEntry(entry) {
+  return existingEntries.some(
+    (e) => e.entry_date === entry.entryDate && e.type === entry.type && Math.abs(Number(e.amount) - entry.amount) < 1
   );
 }
 
@@ -77,15 +63,21 @@ function renderPreview() {
   const entries = buildEntriesFromRows(parsed.rows, currentColumnMap());
   previewEntries = entries;
   confirmedMatchIndexes.clear();
+  forceDuplicateIndexes.clear();
   entries.forEach((e, i) => {
-    const match = findInvoiceMatch(e);
+    const match = findInvoiceMatch(e, unpaidInvoices);
     e.matchedInvoice = match;
     if (match) confirmedMatchIndexes.add(i);
+    e.isDuplicate = isDuplicateEntry(e);
   });
 
   const matchedCount = entries.filter((e) => e.matchedInvoice).length;
-  parsedCount.textContent = matchedCount
-    ? `Rozpoznáno ${entries.length} z ${parsed.rows.length} řádků, ${matchedCount} spárováno s nezaplacenou fakturou. Zkontrolujte prvních pár řádků níže.`
+  const duplicateCount = entries.filter((e) => e.isDuplicate).length;
+  const notes = [];
+  if (matchedCount) notes.push(`${matchedCount} spárováno s nezaplacenou fakturou`);
+  if (duplicateCount) notes.push(`${duplicateCount} vypadá jako už dřív importované (přeskočeno)`);
+  parsedCount.textContent = notes.length
+    ? `Rozpoznáno ${entries.length} z ${parsed.rows.length} řádků, ${notes.join(", ")}. Zkontrolujte prvních pár řádků níže.`
     : `Rozpoznáno ${entries.length} z ${parsed.rows.length} řádků. Zkontrolujte prvních pár řádků níže.`;
 
   previewTbody.innerHTML = entries
@@ -99,17 +91,24 @@ function renderPreview() {
              č. ${e.matchedInvoice.number || "?"} (${e.matchedInvoice.counterparty_name})
            </label>`
         : "-";
+      const statusCell = e.isDuplicate
+        ? `<label style="display:flex; align-items:center; gap:6px; font-size:12.5px; white-space:nowrap; color:var(--danger);">
+             <input type="checkbox" data-dup-idx="${i}" />
+             Už v evidenci - přesto importovat
+           </label>`
+        : "-";
       return `<tr>
         <td data-label="Datum">${e.entryDate}</td>
         <td data-label="Typ">${e.type === "prijem" ? "Příjem" : "Výdaj"}</td>
         <td data-label="Popis">${e.description || "-"}</td>
         <td data-label="Částka" class="amount ${cls}">${sign} ${formatKc(e.amount)}</td>
         <td data-label="Faktura">${matchCell}</td>
+        <td data-label="Stav">${statusCell}</td>
       </tr>`;
     })
     .join("");
   if (entries.length > 20) {
-    previewTbody.innerHTML += `<tr><td colspan="5" style="text-align:center; color:#94a3b8;">… a dalších ${entries.length - 20} řádků</td></tr>`;
+    previewTbody.innerHTML += `<tr><td colspan="6" style="text-align:center; color:#94a3b8;">… a dalších ${entries.length - 20} řádků</td></tr>`;
   }
 
   previewTbody.querySelectorAll("[data-match-idx]").forEach((cb) => {
@@ -117,6 +116,13 @@ function renderPreview() {
       const idx = Number(cb.dataset.matchIdx);
       if (cb.checked) confirmedMatchIndexes.add(idx);
       else confirmedMatchIndexes.delete(idx);
+    });
+  });
+  previewTbody.querySelectorAll("[data-dup-idx]").forEach((cb) => {
+    cb.addEventListener("change", () => {
+      const idx = Number(cb.dataset.dupIdx);
+      if (cb.checked) forceDuplicateIndexes.add(idx);
+      else forceDuplicateIndexes.delete(idx);
     });
   });
 
@@ -150,20 +156,27 @@ dropzone.addEventListener("drop", (e) => { const f = e.dataTransfer.files[0]; if
 [mapDate, mapAmount, mapDescription].forEach((sel) => sel.addEventListener("change", renderPreview));
 
 importBtn.addEventListener("click", async () => {
-  const entries = previewEntries;
-  if (!entries.length) {
+  const allEntries = previewEntries;
+  if (!allEntries.length) {
     importStatus.textContent = "Nic k importu.";
     return;
   }
+  const entries = allEntries.filter((e, i) => !e.isDuplicate || forceDuplicateIndexes.has(i));
+  const skippedCount = allEntries.length - entries.length;
+  if (!entries.length) {
+    importStatus.textContent = "Všechny řádky vypadají jako duplicity - nic se neimportovalo.";
+    return;
+  }
+
   importBtn.disabled = true;
   importStatus.textContent = "Importuji…";
   try {
     await insertLedgerEntriesBulk(
       userId,
-      entries.map(({ matchedInvoice, ...e }) => e)
+      entries.map(({ matchedInvoice, isDuplicate, ...e }) => e)
     );
 
-    const toMarkPaid = entries.filter((e, i) => e.matchedInvoice && confirmedMatchIndexes.has(i));
+    const toMarkPaid = entries.filter((e) => e.matchedInvoice && confirmedMatchIndexes.has(allEntries.indexOf(e)));
     let paidCount = 0;
     for (const e of toMarkPaid) {
       try {
@@ -174,9 +187,10 @@ importBtn.addEventListener("click", async () => {
       }
     }
 
-    importStatus.textContent = paidCount
-      ? `Hotovo - naimportováno ${entries.length} záznamů, ${paidCount} faktur označeno jako uhrazeno.`
-      : `Hotovo - naimportováno ${entries.length} záznamů do evidence.`;
+    const parts = [`naimportováno ${entries.length} záznamů`];
+    if (paidCount) parts.push(`${paidCount} faktur označeno jako uhrazeno`);
+    if (skippedCount) parts.push(`${skippedCount} duplicit přeskočeno`);
+    importStatus.textContent = `Hotovo - ${parts.join(", ")}.`;
   } catch (err) {
     importStatus.textContent = `Nepodařilo se importovat (${err.message}).`;
   } finally {
@@ -195,6 +209,13 @@ importBtn.addEventListener("click", async () => {
   } catch (err) {
     console.error("Nepodařilo se načíst faktury pro párování plateb:", err.message);
     unpaidInvoices = [];
+  }
+
+  try {
+    existingEntries = await listLedgerEntries(userId);
+  } catch (err) {
+    console.error("Nepodařilo se načíst evidenci pro kontrolu duplicit:", err.message);
+    existingEntries = [];
   }
 
   loadingEl.classList.add("hidden");
