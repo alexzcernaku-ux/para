@@ -1,4 +1,5 @@
 import { requireOnboardedProfile, signOut, listLedgerEntries, insertLedgerEntry, deleteLedgerEntry } from "./supabase-client.js";
+import { CATEGORIES, suggestCategory } from "./categorize.js";
 
 const loadingEl = document.getElementById("page-loading");
 const shellEl = document.getElementById("page-shell");
@@ -19,23 +20,6 @@ signoutBtn.addEventListener("click", () => signOut());
 const typeGroup = document.getElementById("f-type-group");
 const categorySelect = document.getElementById("f-category");
 
-// Dřív byl jeden společný seznam kategorií pro příjmy i výdaje (šlo vybrat
-// "Mzdy a odměny" u příjmu) - teď se nabídka mění podle zvoleného typu.
-const CATEGORIES = {
-  prijem: ["Tržby/služby", "Prodej zboží", "Úroky a ostatní výnosy", "Jiné"],
-  vydaj: [
-    "Materiál a zboží",
-    "Služby",
-    "Mzdy a odměny",
-    "Nájem",
-    "Doprava a PHM",
-    "Vybavení a kancelář",
-    "Pojištění",
-    "Bankovní poplatky",
-    "Jiné",
-  ],
-};
-
 function renderCategoryOptions() {
   const type = typeGroup.querySelector('input[name="f-type"]:checked').value;
   const previous = categorySelect.value;
@@ -49,7 +33,23 @@ typeGroup.addEventListener("change", () => {
     chip.classList.toggle("selected", chip.querySelector("input").checked);
   });
   renderCategoryOptions();
+  applyCategorySuggestion();
 });
+
+// Auto-návrh kategorie podle popisu (categorize.js) - jen dokud si uživatel
+// kategorii sám ručně nezvolí, ať mu appka nepřepisuje vědomou volbu.
+const descriptionInput = document.getElementById("f-description");
+let categoryTouchedManually = false;
+categorySelect.addEventListener("change", () => {
+  categoryTouchedManually = true;
+});
+function applyCategorySuggestion() {
+  if (categoryTouchedManually) return;
+  const type = typeGroup.querySelector('input[name="f-type"]:checked').value;
+  const suggestion = suggestCategory(type, descriptionInput.value);
+  if (suggestion && CATEGORIES[type].includes(suggestion)) categorySelect.value = suggestion;
+}
+descriptionInput.addEventListener("input", applyCategorySuggestion);
 
 function formatKc(n) {
   return `${Math.round(n).toLocaleString("cs-CZ")} Kč`;
@@ -188,6 +188,8 @@ form.addEventListener("submit", async (e) => {
     rerender();
     form.reset();
     document.getElementById("f-date").value = "";
+    categoryTouchedManually = false;
+    renderCategoryOptions();
   } catch (err) {
     alert(`Nepodařilo se uložit záznam (${err.message}).`);
   } finally {

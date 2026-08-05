@@ -139,6 +139,7 @@
 </script>
 <script type="module">
   import { requireOnboardedProfile, signOut, insertLedgerEntry, insertInvoice } from "./assets/js/supabase-client.js";
+  import { CATEGORIES, suggestCategory } from "./assets/js/categorize.js";
 
   const cfg = window.PARA_CONFIG || {};
   const ENDPOINT = cfg.kontrolaDokladuEndpoint;
@@ -315,6 +316,7 @@
           <div class="wiz-field"><label>Částka (Kč)</label><input type="number" class="text-input" id="sl-amount" min="0" step="1" value="${amountGuess}" /></div>
         </div>
         <div class="wiz-field"><label>Popis</label><input type="text" class="text-input" id="sl-desc" value="${(descGuess || "").replace(/"/g, "&quot;")}" /></div>
+        <div class="wiz-field" style="max-width: 260px;"><label>Kategorie</label><select class="text-input" id="sl-category"></select></div>
         <label style="display:flex; align-items:center; gap:8px; font-size:13.5px; color:var(--slate); margin-bottom:16px;">
           <input type="checkbox" id="sl-also-invoice" style="width:16px; height:16px;" ${data.typDokladu !== "nejisty" ? "checked" : ""} />
           Zároveň přidat do Sledování faktur (jako přijatá faktura)
@@ -326,6 +328,21 @@
     resultsEl.innerHTML = html;
     resultsEl.classList.remove("hidden");
     resultsEl.scrollIntoView({ behavior: "smooth", block: "nearest" });
+
+    // Kategorie se nabízí podle zvoleného typu (Příjem/Výdaj) a předvyplní
+    // se návrhem z rozpoznaného dodavatele/popisu - stejná heuristika jako
+    // v evidence.html (categorize.js), ať appka nabídne skutečnou kategorii
+    // místo dřívějšího pevného "Z kontroly dokladu".
+    const categorySelect = document.getElementById("sl-category");
+    const typeSelect = document.getElementById("sl-type");
+    function renderCategoryOptions() {
+      const type = typeSelect.value;
+      categorySelect.innerHTML = CATEGORIES[type].map((c) => `<option>${c}</option>`).join("");
+      const suggestion = suggestCategory(type, descGuess);
+      if (suggestion && CATEGORIES[type].includes(suggestion)) categorySelect.value = suggestion;
+    }
+    renderCategoryOptions();
+    typeSelect.addEventListener("change", renderCategoryOptions);
 
     document.getElementById("sl-save-btn").addEventListener("click", async (e) => {
       const btn = e.target;
@@ -343,7 +360,8 @@
         const type = document.getElementById("sl-type").value;
         const entryDate = document.getElementById("sl-date").value;
         const description = document.getElementById("sl-desc").value.trim();
-        await insertLedgerEntry(userId, { entryDate, type, amount, category: "Z kontroly dokladu", description });
+        const category = document.getElementById("sl-category").value;
+        await insertLedgerEntry(userId, { entryDate, type, amount, category, description });
         if (document.getElementById("sl-also-invoice").checked) {
           await insertInvoice(userId, {
             direction: "prijata",
